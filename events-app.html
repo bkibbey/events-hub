@@ -155,6 +155,17 @@
     .share-toast-inner{background:var(--color-primary);color:#fff;padding:.35rem .85rem;border-radius:var(--radius-full);font-size:var(--text-xs);box-shadow:var(--shadow-md)}
     .empty-state{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-16) var(--space-8);color:var(--color-text-muted)}
     .empty-state h3{color:var(--color-text);margin-bottom:var(--space-2)}
+
+    /* Experimental disclaimer banner */
+    .disclaimer{display:flex;align-items:flex-start;gap:.55rem;background:#fff4e0;color:#8c4a00;border:1px solid rgba(220,140,20,.35);border-radius:var(--radius-md);padding:.55rem .75rem;margin-bottom:var(--space-3);font-size:var(--text-xs);line-height:1.45;transition:max-height var(--transition),opacity var(--transition),padding var(--transition),margin var(--transition);max-height:6rem;overflow:hidden}
+    [data-theme=dark] .disclaimer{background:#3a2c1a;color:#ffd9a2;border-color:rgba(255,217,162,.3)}
+    .disclaimer-flag{font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:.65rem;padding:.1rem .4rem;border-radius:var(--radius-full);background:#8c4a00;color:#fff4e0;margin-right:.25rem;flex-shrink:0;align-self:center}
+    [data-theme=dark] .disclaimer-flag{background:#ffd9a2;color:#3a2c1a}
+    .disclaimer p{flex:1;margin:0}
+    .disclaimer-close{background:transparent;border:none;cursor:pointer;color:inherit;opacity:.55;padding:0 .15rem;font-size:1rem;line-height:1;flex-shrink:0;align-self:center}
+    .disclaimer-close:hover{opacity:1}
+    .disclaimer.is-hidden{max-height:0;opacity:0;padding-top:0;padding-bottom:0;margin-bottom:0;border-width:0}
+    .app-shell.is-condensed .disclaimer:not(.is-hidden){max-height:0;opacity:0;padding-top:0;padding-bottom:0;margin-bottom:0;border-width:0}
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
   </style>
@@ -179,6 +190,12 @@
         </button>
       </div>
     </header>
+
+    <div class="disclaimer" id="disclaimer" role="note">
+      <span class="disclaimer-flag">Experimental</span>
+      <p>These event details are parsed from a weekly email and tagged/researched via AI tools. Please double-check event details from other sources before making solid plans.</p>
+      <button type="button" class="disclaimer-close" id="disclaimerClose" aria-label="Dismiss disclaimer" title="Dismiss">✕</button>
+    </div>
 
     <section class="filters" aria-label="Filters">
       <div class="filters-inner">
@@ -503,6 +520,17 @@ $('freeToggleInput').addEventListener('change',function(){
 
 // Search
 $('searchInput').addEventListener('input',function(){state.query=this.value.toLowerCase().trim();applyFilters();});
+
+// Disclaimer dismiss (persists across reloads)
+(function(){
+  const banner=$('disclaimer'),btn=$('disclaimerClose');
+  if(!banner||!btn)return;
+  try{if(localStorage.getItem('disclaimerDismissed')==='1')banner.classList.add('is-hidden');}catch(e){}
+  btn.addEventListener('click',()=>{
+    banner.classList.add('is-hidden');
+    try{localStorage.setItem('disclaimerDismissed','1');}catch(e){}
+  });
+})();
 
 // Condense the sticky header/filter bar after scrolling past a small threshold
 (function(){
