@@ -150,6 +150,11 @@
         <div class="filters-row">
           <span class="row-label">Tags</span>
           <div class="pill-group" id="tagPills" aria-label="Filter by tag"></div>
+        </div>
+        <!-- Row 3: City pills -->
+        <div class="filters-row">
+          <span class="row-label">Where</span>
+          <div class="pill-group" id="cityPills" aria-label="Filter by city"></div>
           <div class="result-meta" id="resultMeta">Loading…</div>
         </div>
       </div>
@@ -185,7 +190,7 @@
   toggle.addEventListener('click',()=>{cur=cur==='dark'?'light':'dark';setTheme(cur);});
 })();
 
-const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),query:'',week:null};
+const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),activeCities:new Set(),query:'',week:null};
 const $ = id => document.getElementById(id);
 
 function getUrlParams(){
@@ -210,6 +215,36 @@ function buildTagPills(events){
   });
 }
 
+function buildCityPills(events){
+  const counts=new Map();
+  events.forEach(e=>{
+    const city=(e.city||'').trim();
+    if(city)counts.set(city,(counts.get(city)||0)+1);
+  });
+  const sorted=Array.from(counts.entries()).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+  const c=$('cityPills');c.innerHTML='';
+  sorted.forEach(([city,count])=>{
+    const btn=document.createElement('button');
+    btn.type='button';btn.className='pill';btn.dataset.city=city;
+    btn.innerHTML=`${city}<span class="count">${count}</span>`;
+    btn.addEventListener('click',()=>toggleCity(city));
+    c.appendChild(btn);
+  });
+}
+
+function toggleCity(city){
+  if(state.activeCities.has(city))state.activeCities.delete(city);
+  else state.activeCities.add(city);
+  syncCityPillState();
+  applyFilters();
+}
+
+function syncCityPillState(){
+  document.querySelectorAll('#cityPills .pill').forEach(b=>{
+    b.classList.toggle('is-active',state.activeCities.has(b.dataset.city));
+  });
+}
+
 function toggleTag(tag){
   if(state.activeTags.has(tag))state.activeTags.delete(tag);
   else state.activeTags.add(tag);
@@ -229,7 +264,7 @@ function syncTagPillState(){
 }
 
 function applyFilters(){
-  const{activeDay:day,freeOnly,activeTags:tags,query:q,selectedIds}=state;
+  const{activeDay:day,freeOnly,activeTags:tags,activeCities:cities,query:q,selectedIds}=state;
   let out=state.allEvents.filter(ev=>{
     if(day!=='all'&&!(ev.days||[]).includes(day))return false;
     if(freeOnly&&!ev.free)return false;
@@ -238,6 +273,8 @@ function applyFilters(){
       const et=new Set(ev.tags||[]);
       for(const t of tags){if(!et.has(t))return false;}
     }
+    // OR logic across cities (event matches if its city is in the selected set)
+    if(cities.size>0&&!cities.has((ev.city||'').trim()))return false;
     if(q){const txt=[ev.name||'',ev.venue||'',ev.city||'',(ev.tags||[]).join(' '),ev.description||''].join(' ').toLowerCase();if(!txt.includes(q))return false;}
     return true;
   });
@@ -268,6 +305,7 @@ function renderEvents(){
   $('clearSelBtn').style.display=n>0?'':'none';
   if(n>0)$('shareCount').innerHTML=`<strong>${n}</strong> selected`;
   syncTagPillState();
+  syncCityPillState();
 }
 
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e;}
@@ -400,6 +438,7 @@ loadEvents()
       $('weekLabel').textContent='Weekend of '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
     }
     buildTagPills(state.allEvents);
+    buildCityPills(state.allEvents);
     const{selectedIds}=getUrlParams();
     state.selectedIds=selectedIds;
     applyFilters();

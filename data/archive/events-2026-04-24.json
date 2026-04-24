@@ -1,13 +1,14 @@
 {
   "week": "2026-04-24",
-  "generated": "2026-04-24T12:58:00",
-  "source": "Things to do in Raleigh this Weekend! (kevin@thingstodoinraleigh.com)",
+  "generated": "2026-04-24",
+  "source": "Things to do in Raleigh this Weekend! \u2014 Thingstodo919",
+  "raw_source": "data/raw/raw-events-2026-04-24.json",
   "events": [
     {
-      "id": 1,
       "name": "Brewgaloo",
-      "venue": "Downtown Raleigh (Fayetteville Street)",
-      "address": "Fayetteville Street Mall, Raleigh, NC 27601",
+      "tagline": "North Carolina's largest craft beer festival featuring over 110 breweries, food trucks, vendors, and live music in downtown Raleigh.",
+      "venue": "Fayetteville Street",
+      "address": "400 Fayetteville St.",
       "city": "Raleigh",
       "zip": "27601",
       "days": [
@@ -15,106 +16,3559 @@
         "Saturday"
       ],
       "multiDay": true,
-      "startTime": "12:00 PM",
-      "endTime": "11:00 PM",
+      "scheduleNote": "Fri 6\u201310 PM \u00b7 Sat 12\u20138 PM",
       "free": false,
-      "ticketUrl": "https://brewgaloo.com",
-      "website": "https://brewgaloo.com",
-      "facebook": "https://www.facebook.com/brewgaloo",
-      "instagram": "https://www.instagram.com/brewgaloo",
+      "freeNote": "Friday ticketed ($28.92-$46.20); Saturday free admission, tickets for beer sampling",
+      "ticketUrl": "https://www.eventbrite.com/e/brewgaloo-tickets-1980393572486",
+      "website": "https://shoplocalraleigh.org/brewgaloo/",
+      "facebook": null,
+      "instagram": null,
       "tags": [
         "Beer",
-        "Food",
         "Festival",
         "Music",
-        "Outdoor",
-        "Adult"
+        "Food",
+        "Outdoor"
       ],
-      "description": "North Carolina's largest craft beer festival returns to Downtown Raleigh with 100+ breweries, live music, and local food vendors."
+      "description": "Brewgaloo is a two-day event showcasing over 110 North Carolina craft breweries with unlimited samples at Friday's kick-off party and a free Saturday street festival featuring food trucks, vendors, and live music on two stages.[2][3]",
+      "id": 1
     },
     {
-      "id": 2,
       "name": "Earth Day Celebration at Dix Park",
-      "venue": "Dorothea Dix Park",
-      "address": "1201 Umstead Dr, Raleigh, NC 27603",
+      "tagline": "Family-friendly festival celebrating environmental stewardship with vendors, performances, activities, and an outdoor movie.",
+      "venue": "Harvey Hill at Dorothea Dix Park",
+      "address": "Cranmer Dr",
       "city": "Raleigh",
       "zip": "27603",
       "days": [
         "Friday"
       ],
       "multiDay": false,
-      "startTime": "10:00 AM",
-      "endTime": "4:00 PM",
+      "scheduleNote": "Fri 5\u201310 PM",
       "free": true,
+      "freeNote": "Free admission",
       "ticketUrl": null,
-      "website": "https://dixpark.org",
-      "facebook": "https://www.facebook.com/DixPark",
-      "instagram": "https://www.instagram.com/dorothea.dix.park",
+      "website": "https://dorotheadixpark.org/event/raleigh-earth-day",
+      "facebook": null,
+      "instagram": null,
       "tags": [
+        "Festival",
         "Outdoor",
         "Family",
-        "Free",
-        "Environment",
-        "Community"
+        "Free"
       ],
-      "description": "Celebrate Earth Day at Dorothea Dix Park with nature walks, sustainability vendors, kids activities, and community programming."
+      "description": "The 5th annual Raleigh Earth Day features earth-conscious vendors, live performances, hands-on activities, environmental awards, and a family-friendly outdoor movie under the stars at Harvey Hill in Dorothea Dix Park.",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Carolina Ballet: Celebration of America",
-      "venue": "Memorial Auditorium at Martin Marietta Center",
-      "address": "2 E South St, Raleigh, NC 27601",
+      "name": "Carolina Ballet presents Celebration of America",
+      "tagline": "A spirited ballet program honoring the 250th anniversary of the United States with works by Balanchine, Garner, and others.",
+      "venue": "Memorial Auditorium at Martin Marietta Center for the Performing Arts",
+      "address": "2 E. South St.",
       "city": "Raleigh",
       "zip": "27601",
       "days": [
         "Friday",
-        "Saturday",
         "Sunday"
       ],
       "multiDay": true,
-      "startTime": "7:30 PM",
-      "endTime": "9:30 PM",
+      "scheduleNote": "Fri 7:30 PM \u00b7 Sat 2 PM & 7:30 PM \u00b7 Sun 2 PM",
       "free": false,
-      "ticketUrl": "https://carolinaballet.com",
-      "website": "https://carolinaballet.com",
-      "facebook": "https://www.facebook.com/carolinaballet",
-      "instagram": "https://www.instagram.com/carolinaballet",
+      "freeNote": "$37.77+",
+      "ticketUrl": null,
+      "website": "https://carolinaballet.com/program/celebration-of-america/",
+      "facebook": "",
+      "instagram": "",
       "tags": [
-        "Ballet",
-        "Dance",
-        "Theater",
-        "Arts",
-        "Performance"
+        "Theater"
       ],
-      "description": "Carolina Ballet's patriotic showcase featuring American music and iconic choreography, performed at the stunning Memorial Auditorium."
+      "description": "Anchored by George Balanchine\u2019s Stars and Stripes, this mixed repertory program features ballets set to music by American composers like John Philip Sousa, Philip Glass, and George Gershwin, celebrating 250 years of American artistry.",
+      "id": 3
     },
     {
-      "id": 4,
       "name": "R&B ONLY LIVE",
+      "tagline": "Sing, dance, and experience R&B music from past to present.",
       "venue": "The Ritz",
-      "address": "2820 Industrial Dr, Raleigh, NC 27609",
+      "address": "2820 Industrial Dr.",
       "city": "Raleigh",
       "zip": "27609",
       "days": [
         "Friday"
       ],
       "multiDay": false,
-      "startTime": "9:00 PM",
-      "endTime": "2:00 AM",
+      "scheduleNote": "Fri 6:30\u201310:30 PM",
       "free": false,
-      "ticketUrl": "https://www.etix.com",
-      "website": "https://www.ritzraleigh.com",
-      "facebook": "https://www.facebook.com/ritzraleigh",
-      "instagram": "https://www.instagram.com/ritzraleigh",
+      "freeNote": "$54+",
+      "ticketUrl": "https://rnbonly.com/calendar",
+      "website": "https://raleigh.rnbonly.com/",
+      "facebook": null,
+      "instagram": null,
       "tags": [
         "Music",
-        "R&B",
-        "Live Music",
-        "Nightlife",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "R&B ONLY LIVE is a DJ-driven live music experience produced by Colors Worldwide, celebrating R&B music from past to present with classic and contemporary hits in a high-energy atmosphere of singing and dancing.",
+      "id": 4
+    },
+    {
+      "name": "Bill Bellamy",
+      "tagline": "Legendary comedian Bill Bellamy brings his high-energy stand-up to Raleigh Improv.",
+      "venue": "Raleigh Improv",
+      "address": "1224 Parkside Main St.",
+      "city": "Cary",
+      "zip": "27519",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 7\u20139:15 PM \u00b7 Sat TBD \u00b7 Sun TBD",
+      "free": false,
+      "freeNote": "Tickets start at $130",
+      "ticketUrl": "https://improv.com/raleigh/comic/bill+bellamy/",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "Bill Bellamy performs multiple shows over the weekend at Raleigh Improv in Cary. Known for his dynamic storytelling and catchphrases like 'booty call,' he delivers hilarious takes on relationships and life.",
+      "id": 5
+    },
+    {
+      "name": "Zoltan Kaszas",
+      "tagline": "Award-winning stand-up comedian delivers sharp observational humor.",
+      "venue": "Goodnights Comedy Club",
+      "address": "401 Woodburn Rd",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri Apr 24 \u00b7 Sat Apr 25",
+      "free": false,
+      "freeNote": "Tickets from $54",
+      "ticketUrl": "https://www.goodnightscomedy.com/events/125136",
+      "website": "https://www.goodnightscomedy.com/events/125136",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "Ticketed"
+      ],
+      "description": "Zoltan Kaszas, a Hungarian-born award-winning stand-up comedian, performs his sharp observational humor at Goodnights Comedy Club over the weekend.",
+      "id": 6
+    },
+    {
+      "name": "Sandlot Revival",
+      "tagline": "Free weekend of casual sandlot baseball with teams from across the country at Historic Durham Athletic Park.",
+      "venue": "Historic Durham Athletic Park",
+      "address": "500 W Corporation Street",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 10am\u20135pm \u00b7 Sat 9am\u20137:30pm \u00b7 Sun 10am\u20135pm",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.carolinasandlotcollective.com",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/p/DXcPdD6ltWx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "tags": [
+        "Sports",
+        "Outdoor",
+        "Free",
+        "Family",
+        "Charity"
+      ],
+      "description": "Sandlot Revival features casual baseball games between sandlot teams from across the US, hosted by Carolina Sandlot Collective as a fundraiser for Long Ball Program and Somos Siembra. Enjoy games, beer, BBQ, kids activities, and concessions in a community block party atmosphere.",
+      "id": 7
+    },
+    {
+      "name": "The Monti GrandSLAM",
+      "tagline": "Eight storytellers compete with five-minute stories on the theme 'Stranded' to crown one GrandSLAM champion.",
+      "venue": "Carolina Theatre",
+      "address": "309 W Morgan St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8\u201310 PM",
+      "free": false,
+      "freeNote": "$24",
+      "ticketUrl": null,
+      "website": "https://carolinatheatre.org/events/live-event/the-monti-grandslam-2026/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater"
+      ],
+      "description": "The Monti GrandSLAM is the season's storytelling championship where eight StorySLAM winners perform brand-new five-minute stories on the 'Stranded' theme at the Carolina Theatre of Durham.[1][2][6]",
+      "id": 8
+    },
+    {
+      "name": "The Main Event: North State Blues",
+      "tagline": "Lord Fess performs his most recent EP live in concert.",
+      "venue": "The Fruit",
+      "address": "305 S Dillard St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "7:30 PM to 11:00 PM",
+      "free": false,
+      "freeNote": "Pay What You Can, Suggested $20",
+      "ticketUrl": null,
+      "website": "https://lordfess.bandcamp.com/merch/the-main-event-north-state-blues-live-in-concert",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Blues"
+      ],
+      "description": "Lord Fess performs his most recent EP, The Main Event: North State Blues Live in Concert, at The Fruit in Durham.[1]",
+      "id": 9
+    },
+    {
+      "name": "Armand Hammer",
+      "tagline": "Art rap duo Billy Woods and ELUCID perform on their Mercy Tour.",
+      "venue": "Motorco Music Hall",
+      "address": "723 Rigsbee Ave",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8:00 PM",
+      "free": false,
+      "freeNote": "Advance tickets $30.39",
+      "ticketUrl": "https://motorcomusic.com/event/armand-hammer-4-24-26/",
+      "website": "https://motorcomusic.com/event/armand-hammer-4-24-26/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "Armand Hammer, the duo of art rap pioneers Billy Woods and ELUCID, brings their thought-driven lyricism to Motorco Music Hall with LORD JAH-MONTE OGBON opening.",
+      "id": 10
+    },
+    {
+      "name": "Candlelight: Tribute to The Beatles",
+      "tagline": "Experience The Beatles' timeless hits performed by a string quartet under the glow of thousands of candles.",
+      "venue": "The Historic Wakefield Barn",
+      "address": "12617 Old Falls of Neuse Road",
+      "city": "Wake Forest",
+      "zip": "27587",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8:45 PM",
+      "free": false,
+      "freeNote": "$38.50+",
+      "ticketUrl": "https://feverup.com/m/368666?utm_source=affiliate&utm_medium=impact&utm_campaign=368666&utm_content=4738271_Event%20Vesta&irclickid=UBNSIEx1yxycRoiVoCWBRwoMUku3fv02UzYXSE0&irgwc=1&afsrc=1",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Ticketed"
+      ],
+      "description": "A string quartet performs The Beatles' greatest hits in an intimate candlelit concert at the historic barn. The 60-minute show requires attendees to be 8+ years old, with those under 16 accompanied by an adult.",
+      "id": 11
+    },
+    {
+      "name": "Capital Auto Group 199 - SMART Modified Tour",
+      "tagline": "99 laps of intense open-wheel modified racing action at America's Favorite Bullring.",
+      "venue": "Wake County Speedway",
+      "address": "2109 Simpkins Rd.",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri. 7-11pm",
+      "free": false,
+      "freeNote": "Adults $25, Seniors/Military/Students $20, Children 6-12 $15, Children 5 & Under Free (advance)",
+      "ticketUrl": null,
+      "website": "https://www.wcspeedway.com/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Sports"
+      ],
+      "description": "The SMART Modified Tour headlines with 99 laps of open-wheel modified racing, joined by Allison Legacy Series, NAPA Champ Karts twins, and R&R Towing Bombers at Wake County Speedway.",
+      "id": 12
+    },
+    {
+      "name": "The Big Blues Show with The Music Maker Foundation",
+      "tagline": "An incredible night of rhythm and blues entertainment styled on shows of yesteryear.",
+      "venue": "Cary Arts Center",
+      "address": "101 Dry Avenue",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7:30 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.etix.com/ticket/p/37274478/marvelous-music-seriestown-of-cary-presents-the-big-blues-show-with-the-music-maker-foundationmaker-foundation-cary-cary-arts-center",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Blues",
+        "Charity",
+        "Ticketed"
+      ],
+      "description": "The Big Blues Show is an incredible night of entertainment styled on the rhythm and blues shows of yesteryear, presented by the Music Maker Foundation, which has been supporting underappreciated original Southern music and folk artists since 1994.",
+      "id": 13
+    },
+    {
+      "name": "The Happy Fits w/ BEL",
+      "tagline": "Indie rock band The Happy Fits performs live with special guest BEL.",
+      "venue": "Lincoln Theatre",
+      "address": "126 E. Cabarrus St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Doors 6 PM \u00b7 Show 7 PM",
+      "free": false,
+      "freeNote": "$30.50",
+      "ticketUrl": "https://lincolntheatre.com/event/the-happy-fits-w-bel/lincoln-theatre/raleigh-north-carolina/",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Ticketed"
+      ],
+      "description": "The Happy Fits, an indie rock band from New Jersey, performs at Lincoln Theatre with special guest BEL on Friday, April 24, 2026.",
+      "id": 14
+    },
+    {
+      "name": "The People\u2019s Collection: Ixcanul",
+      "tagline": "Screening of the film Ixcanul as part of the People's Collection series at the NC Museum of Art.",
+      "venue": "East Building, SECU Auditorium",
+      "address": "2110 Blue Ridge Rd.",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://ncartmuseum.org/events/the-peoples-collection-ixcanul/?occurrence=2026-04-24",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Film",
+        "Museum"
+      ],
+      "description": "The People\u2019s Collection: Ixcanul is a film screening on Friday, April 24, 2026, at 8:00 PM in the SECU Auditorium of the North Carolina Museum of Art's East Building.[1][2]",
+      "id": 15
+    },
+    {
+      "name": "Trio Sefardi",
+      "tagline": "Sephardic music ensemble performs live in the West Building.",
+      "venue": "North Carolina Museum of Art - West Building",
+      "address": "2110 Blue Ridge Road",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 1\u20132 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://ncartmuseum.org/events/trio-sefardi/?occurrence=2026-04-24",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Free",
+        "Museum"
+      ],
+      "description": "Trio Sefardi presents a performance of Sephardic music on Friday, April 24, 2026, from 1:00\u20132:00 PM in the West Building of the North Carolina Museum of Art.",
+      "id": 16
+    },
+    {
+      "name": "Room 861 at Goodnights: Josh Mandl",
+      "tagline": "Catch rising comedian Josh Mandl's relatable stand-up in an intimate venue.",
+      "venue": "Room 861 at Goodnights Comedy Club",
+      "address": "401 Woodburn Rd",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Thu Apr 23 \u00b7 Fri Apr 24 \u00b7 Sat Apr 25",
+      "free": false,
+      "freeNote": "Tickets from $42",
+      "ticketUrl": "https://www.goodnightscomedy.com/events/129126",
+      "website": "https://www.goodnightscomedy.com/events/129126",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "21+"
+      ],
+      "description": "Josh Mandl, a 23-year-old comedian who started stand-up at 19 in Boston and now tours from New York City, performs at this 18+ venue with shows featuring opener, feature, and headliner.",
+      "id": 17
+    },
+    {
+      "name": "Annual Heirloom Plant Sale",
+      "tagline": "Celebrate Earth Day with heirloom plants started from seed by park gardeners.",
+      "venue": "Mordecai Historic Park",
+      "address": "1 Mimosa St.",
+      "city": "Raleigh",
+      "zip": "27604",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri-Sat 8:30am-2pm",
+      "free": true,
+      "freeNote": "Free to attend; $3-$5 per plant",
+      "ticketUrl": null,
+      "website": "https://raleighnc.gov/parks-and-recreation/events/annual-heirloom-plant-sale-0",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Family",
+        "Market"
+      ],
+      "description": "Heirloom varieties of tomatoes, peppers, squash, herbs, and flowers are sold at great prices, all started from seed by Mordecai Historic Park gardeners. Gardeners are on hand to answer questions about the plants and historic grounds.",
+      "id": 18
+    },
+    {
+      "name": "Rolesville Arbor Day Celebration",
+      "tagline": "Join the annual Arbor Day celebration in Rolesville with free admission.",
+      "venue": "Main Street Park",
+      "address": "500 Scarboro Street",
+      "city": "Rolesville",
+      "zip": "27571",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 5:30 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.rolesvillenc.gov/parks-recreation/special-events/arbor-day",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Family",
+        "Free",
+        "Festival"
+      ],
+      "description": "Rolesville's annual Arbor Day celebration featuring community activities at Main Street Park. More details coming soon.",
+      "id": 19
+    },
+    {
+      "name": "Art In The Garden 2026",
+      "tagline": "Celebrate spring in full bloom with a self-guided tour of eight stunning gardens in Wake Forest.",
+      "venue": "Wake Forest Historical Museum",
+      "address": "414 N Main St.",
+      "city": "Wake Forest",
+      "zip": "27587",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri-Sat 1\u20135 PM",
+      "free": false,
+      "freeNote": "$30 for both days",
+      "ticketUrl": "https://www.eventbrite.com/e/art-in-the-gardens-tour-tickets-1983113127749",
+      "website": "https://www.visitraleigh.com/event/art-in-the-garden-2026/104630/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Arts & Crafts",
+        "Outdoor",
+        "Family"
+      ],
+      "description": "Self-guided tour of eight stunning gardens starting at the Wake Forest Historical Museum Gardens, featuring local artists, floral displays, historic house tours, and a raffle. Proceeds benefit the Wake Forest Historical Museum Gardens and community projects.",
+      "id": 20
+    },
+    {
+      "name": "Bird Calls of the Piedmont",
+      "tagline": "Join expert naturalists for a morning bird walk to learn Piedmont bird calls and contribute to citizen science.",
+      "venue": "Prairie Ridge Ecostation",
+      "address": "1671 Gold Star Dr",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 9:00\u201310:30 AM",
+      "free": true,
+      "freeNote": "Free",
+      "ticketUrl": null,
+      "website": "https://naturalsciences.org/calendar/event/bird-calls-of-the-piedmont/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Family",
+        "Free"
+      ],
+      "description": "This guided morning bird walk for ages 8+ explores local bird vocalizations at Prairie Ridge Ecostation, sharpening identification skills and launching the City Nature Challenge with citizen science observations.[3]",
+      "id": 21
+    },
+    {
+      "name": "City Nature Challenge at the JC Raulston Arboretum",
+      "tagline": "Join a global bioblitz to document wild plants, animals, and fungi using iNaturalist at the arboretum.",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "address": "4415 Beryl Road",
+      "city": "Raleigh",
+      "zip": "27606",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri, Sat, Sun, Mon 10 AM\u201312 PM (self-guided all days)",
+      "free": true,
+      "freeNote": "Free",
+      "ticketUrl": null,
+      "website": "https://jcra.ncsu.edu/events/details.php?ID=4248",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Family",
+        "Free"
+      ],
+      "description": "Participants visit the JC Raulston Arboretum from April 24-27 to photograph wild organisms and upload observations to iNaturalist for the City Nature Challenge, a global biodiversity bioblitz. Volunteers provide on-site support on select days to assist with the app and observations.",
+      "id": 22
+    },
+    {
+      "name": "Drop-in Puzzling and Puzzle Swap Meet",
+      "tagline": "Bring puzzles to swap, solve drop-in challenges, and connect with enthusiasts.",
+      "venue": "Downtown Cary Park",
+      "address": "327 S. Academy St.",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 2\u20138 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://downtowncarypark.com/things-to-do/calendar/w_drop-in-puzzling-and-puzzle-swap-meet-28",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Family",
+        "Outdoor",
+        "Free"
+      ],
+      "description": "Monthly drop-in event for puzzle enthusiasts to collaborate on puzzles and swap gently used, complete puzzles in a family-friendly park setting.",
+      "id": 23
+    },
+    {
+      "name": "Mingle on Main",
+      "tagline": "Networking mixer for Rolesville's business community.",
+      "venue": "Rolesville Chamber of Commerce",
+      "address": "200 E. Young Street",
+      "city": "Rolesville",
+      "zip": "",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 5:30\u20138:30 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://rolesvillechamber.glueup.com/event/mingle-on-main-169089/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Free",
+        "Networking"
+      ],
+      "description": "Monthly networking event hosted by the Rolesville Chamber of Commerce in Downtown Rolesville.[1]",
+      "id": 24
+    },
+    {
+      "name": "Ebb & Flow: Heather Victoria w/ Pynk Mo$cato and Matt on Sax",
+      "tagline": "Live music featuring Heather Victoria and special guests at Pour House Music Hall.",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "address": "TBD",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8 PM",
+      "free": false,
+      "freeNote": "$175",
+      "ticketUrl": "https://www.vividseats.com/ebb-and-flow-tickets-raleigh-pour-house-music-hall-4-24-2026--concerts-rap-hip-hop/production/6733096",
+      "website": "https://www.pourhouseraleigh.com/shows/ebb-flow-featuring-heather-victoria-w-special-guests-pynk-mo-cato-and-matt-on-sax-24-apr",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Ticketed"
+      ],
+      "description": "Live performance featuring Heather Victoria with special guests Pynk Mo$cato and Matt on Sax. Doors open at 7 PM.",
+      "id": 25
+    },
+    {
+      "name": "Emo Night Karaoke",
+      "tagline": "Sing your favorite emo and pop punk songs with a live backing band on stage.",
+      "venue": "KINGS",
+      "address": "14 W. Martin St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8pm doors, 9pm show",
+      "free": false,
+      "freeNote": "$15 advance / $18 day-of / $25 door | 21+",
+      "ticketUrl": null,
+      "website": "https://www.kingsraleigh.com/shows/emo-night-karaoke-3/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "Emo Night Karaoke features professional musicians playing live as participants sing lead on 100+ emo and pop punk songs with full production, visuals, and lyrics on TVs. Song sign-ups are first come, first served at the event.",
+      "id": 26
+    },
+    {
+      "name": "HerbFest Wake Forest",
+      "tagline": "Celebration of plants, community, and the arts with organic herbs and family activities.",
+      "venue": "HerbFest Festival Grounds",
+      "address": "530 S White Street",
+      "city": "Wake Forest",
+      "zip": "27587",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fridays & Saturdays 9 AM\u20136 PM \u00b7 Sundays 10 AM\u20134 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.herbfest.net/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Outdoor",
+        "Family",
+        "Free",
+        "Music",
+        "Market"
+      ],
+      "description": "HerbFest Wake Forest is the longest-running herb festival in the US, featuring organic non-GMO herbs, heirloom vegetables, native plants, vendors, live music, family activities, and food in downtown Wake Forest.[1][3][5]",
+      "id": 27
+    },
+    {
+      "name": "Carolina Youth Ballet Presents: Cinderella",
+      "tagline": "Experience the enchantment of Cinderella brought to life by Carolina Youth Ballet.",
+      "venue": "A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts",
+      "address": "2 E South St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 6:30\u20138:30 PM \u00b7 Sat 12:00 PM",
+      "free": false,
+      "freeNote": "$39 - $53",
+      "ticketUrl": "https://www.martinmariettacenter.com/events/detail/carolina-youth-ballet-presents-cinderella",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater",
+        "Family"
+      ],
+      "description": "Carolina Youth Ballet presents the timeless story of Cinderella set to Sergei Prokofiev's score at the Martin Marietta Center. Performances feature classical dance capturing grace, heartbreak, and triumph over two days.",
+      "id": 28
+    },
+    {
+      "name": "Kehlani and Collage at the LGBT Center of Raleigh",
+      "tagline": "Live music performance featuring Kehlani and Collage.",
+      "venue": "LGBT Center of Raleigh",
+      "address": "128 E. Cabarrus St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 7\u201310 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://givebutter.com/kehlani",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "LGBTQ+",
+        "Ticketed"
+      ],
+      "description": "Live music performance featuring Kehlani and Collage at the LGBT Center of Raleigh in downtown Raleigh.",
+      "id": 29
+    },
+    {
+      "name": "Leaving Echoes",
+      "tagline": "Hard/alt rock show with 11:59 and Under the Catacombs of Paris.",
+      "venue": "Slim's Dive Bar",
+      "address": "227 S. Wilmington St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 9\u201311 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.eventbrite.com/e/1159-tickets-1987156666081",
+      "website": "https://slimsraleigh.com/calendar/leaving-echoes/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "Leaving Echoes headlines a night of hard/alt rock, heavy rock from 11:59, and post hardcore/post punk from Under the Catacombs of Paris at Slim's Dive Bar on Friday, April 24 from 9-11 PM.",
+      "id": 30
+    },
+    {
+      "name": "Petshop: Puppygirls vs Catgirls",
+      "tagline": "Puppygirls battle catgirls in an underground showdown at Chapel of Bones.",
+      "venue": "Chapel of Bones",
+      "address": "658 Maywood Ave., Ste. B 110",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 9pm-2am",
+      "free": false,
+      "freeNote": "$22.86",
+      "ticketUrl": "https://www.tickpick.com/organizer/event/petshop-puppygirls-vs-catgirls-31481254?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "Petshop: Puppygirls vs Catgirls is a themed performance event featuring a playful rivalry between puppygirls and catgirls, held at the underground venue Chapel of Bones in Raleigh's West Raleigh area.[4][1]",
+      "id": 31
+    },
+    {
+      "name": "Pitch Your Single Sapphic Friend",
+      "tagline": "Fun event for pitching your single sapphic friends to potential matches.",
+      "venue": "Neptunes Parlour",
+      "address": "TBD",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/p/DWWZM53DvVz/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "tags": [
+        "LGBTQ+",
+        "Comedy"
+      ],
+      "description": "A lighthearted event at Neptunes Parlour where attendees pitch their single sapphic friends to help them find love.",
+      "id": 32
+    },
+    {
+      "name": "The Durham Vendor Mixer & Showcase",
+      "tagline": "Free vendor mixer featuring local wedding and event professionals at The Durham Hotel.",
+      "venue": "The Durham Hotel",
+      "address": "315 E Chapel Hill St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 5\u20138 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.exploretock.com/the-durham-hotel-durham/event/603731/vendor-mixer-at-the-durham-rsvp",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Free",
+        "Festival"
+      ],
+      "description": "Join a free vendor mixer and showcase on April 24 from 5\u20138 PM in The Durham Hotel's first-floor Coffee Bar. Connect with local wedding and event vendors for inspiration and services; RSVP requested.",
+      "id": 33
+    },
+    {
+      "name": "AfterHours: Space Scavengers",
+      "tagline": "Travel the galaxy in a sci-fi scavenger hunt with challenges, cosmic lounge, and karaoke at the museum.",
+      "venue": "Museum of Life and Science",
+      "address": "433 Murray Ave",
+      "city": "Durham",
+      "zip": "27707",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "6:30\u20139 PM",
+      "free": false,
+      "freeNote": "$22 Museum Members, $25 General Public",
+      "ticketUrl": null,
+      "website": "https://www.lifeandscience.org/explore/space-scavengers/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Museum",
+        "Adult",
+        "21+"
+      ],
+      "description": "This 18+ event features a space-themed scavenger hunt with sci-fi challenges like building structures and alien communication, plus a cosmic lounge, karaoke, drinks for purchase, and a food truck. Dress up as your favorite space traveler and explore the Main Building, Gateway Park, and Hideaway Woods.",
+      "id": 34
+    },
+    {
+      "name": "Alison Krauss & Union Station Featuring Jerry Douglas",
+      "tagline": "Bluegrass legends return with their Arcadia 2026 Tour blending roots, country, and pop.",
+      "venue": "DPAC, Durham Performing Arts Center",
+      "address": "123 Vivian Street",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 7:30 PM \u00b7 Sat 7:30 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.dpacnc.com/events/detail/alison_krauss2026",
+      "website": "https://www.dpacnc.com/events/detail/alison_krauss2026",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Bluegrass",
+        "Ticketed"
+      ],
+      "description": "Alison Krauss & Union Station featuring Jerry Douglas perform on their Arcadia 2026 Tour, showcasing an immaculately crafted sound transcending roots, country, rock & roll, and pop with fiddle, dobro, banjo, bass, and tenor vocals.[2]",
+      "id": 35
+    },
+    {
+      "name": "MettleSketch",
+      "tagline": "A brand-new sketch showcase every month featuring unique and original comedy from Mettlesome.",
+      "venue": "Mettlesome Comedy Theater",
+      "address": "800 Taylor Street, Suite 9-156",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8:00\u20139:00 PM",
+      "free": false,
+      "freeNote": "$9 at the door",
+      "ticketUrl": null,
+      "website": "https://www.discoverdurham.com/events/mettlesketch/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "Theater"
+      ],
+      "description": "MettleSketch is a monthly sketch comedy showcase at Mettlesome Comedy Theater presenting unique and original sketches from the theater's top performers.[1][3]",
+      "id": 36
+    },
+    {
+      "name": "Asian Night 2026 | The Asian Student Associations of CH-C High Schools",
+      "tagline": "Annual cultural showcase featuring a night market, food trucks, vendors, and performances benefiting vulnerable children in Asia.",
+      "venue": "East Chapel Hill High School",
+      "address": "489 Hillsborough Rd",
+      "city": "Chapel Hill",
+      "zip": "27514",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 5\u20139 PM (Night Market 5\u20137 PM, Performances 7\u20139 PM)",
+      "free": false,
+      "freeNote": "$10 entry fee (proceeds benefit OneSky Foundation)",
+      "ticketUrl": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/events/892264120477182/",
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Family",
+        "Charity"
+      ],
+      "description": "Hosted by Asian Student Associations from Chapel Hill-Carrboro and East Chapel Hill High Schools, this event features a night market with food trucks and vendors from 5-7 PM, followed by cultural performances from 7-9 PM. All proceeds support the OneSky Foundation for children's education and care in Asia.",
+      "id": 37
+    },
+    {
+      "name": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+      "tagline": "The Jazz at Lincoln Center Orchestra with Wynton Marsalis returns to Chapel Hill blending swing, soul, and storytelling with their polished arrangements and iconic sound.",
+      "venue": "Memorial Hall",
+      "address": "140 E. Cameron Avenue",
+      "city": "Chapel Hill",
+      "zip": "",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 8:00\u20139:30 PM",
+      "free": false,
+      "freeNote": "Tickets starting at $49",
+      "ticketUrl": "https://carolinaperformingarts.org/events/jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+      "website": "https://carolinaperformingarts.org/events/jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Jazz",
+        "Ticketed"
+      ],
+      "description": "The Jazz at Lincoln Center Orchestra with Wynton Marsalis performs at Memorial Hall, featuring swing, soul, and storytelling through their polished arrangements and iconic sound. A pre-show second line with local brass bands and student musicians starts at 7:15 PM outside the venue.",
+      "id": 38
+    },
+    {
+      "name": "Live on the Lawn | Dance Performance, Fashion Show & Poetry Open Mic | Last Fridays",
+      "tagline": "Monthly performance series featuring dance, fashion shows, poetry, and more on the courthouse lawn.",
+      "venue": "Old Orange County Courthouse",
+      "address": "104 E King St",
+      "city": "Hillsborough",
+      "zip": "27278",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 5:30\u20138:30 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.hillsboroughartscouncil.org/last-fridays-live-on-the-lawn",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Dance",
+        "Arts & Crafts",
+        "Outdoor",
+        "Free"
+      ],
+      "description": "Live on the Lawn is a free performance series on the south lawn of the Old Orange County Courthouse during Last Fridays events, featuring dance performances by Monarch Movement Company Youth, a spring fashion show with local designers, and a poetry open mic hosted by Poet Laureate Amal Kassir on April 24, 2026 from 5:30-8:30 PM.",
+      "id": 39
+    },
+    {
+      "name": "Teen Science Cafe: Hollywood Science",
+      "tagline": "Explore the intersection of science and Hollywood storytelling with expert insights and free pizza.",
+      "venue": "Morehead Planetarium and Science Center",
+      "address": "250 E Franklin St",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 6\u20137:30 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://moreheadplanetarium.org/calendar/teen-science-cafe-hollywood-science/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Free",
+        "Family"
+      ],
+      "description": "Teens ages 13-18 join Dr. Alper Bozkurt for an interactive session on science in Hollywood, featuring a pizza social, expert talk, activities, and free food at Morehead Planetarium.[1][2]",
+      "id": 40
+    },
+    {
+      "name": "STEM Comedy Night",
+      "tagline": "Stand-up comedy by nerds with STEM backgrounds geeking out on their favorite topics.",
+      "venue": "Daily Planet Cafe",
+      "address": "121 W Jones St",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 7\u20138:15 PM",
+      "free": false,
+      "freeNote": "$5",
+      "ticketUrl": "https://naturalsciences.ticketapp.org",
+      "website": "https://naturalsciences.org/calendar/event/stem-comedy-night/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "Museum"
+      ],
+      "description": "Stand-up comedy event featuring comedians with STEM backgrounds, from archaeology to engineering, performing at the North Carolina Museum of Natural Sciences' Daily Planet Cafe.",
+      "id": 41
+    },
+    {
+      "name": "School of Rock Performance",
+      "tagline": "Free outdoor concert featuring young musicians from local School of Rock locations.",
+      "venue": "Pullen Park Amusements",
+      "address": "TBD",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 5\u20137:30 PM",
+      "free": true,
+      "freeNote": "Free",
+      "ticketUrl": null,
+      "website": "https://raleighnc.gov/parks-and-recreation/events/school-rock-performance",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Outdoor",
+        "Family",
+        "Free"
+      ],
+      "description": "Students from School of Rock in Raleigh, Wake Forest, Cary, and Holly Springs perform a variety of music at the Pullen Park event stage. Features a musical petting zoo to try instruments, perfect for all ages.",
+      "id": 42
+    },
+    {
+      "name": "Teen Night Morrisville",
+      "tagline": "Fun night for teens with e-sports, arts & crafts, games, and snacks.",
+      "venue": "Cedar Fork Community Center",
+      "address": "1050 #B Town Hall Drive",
+      "city": "Morrisville",
+      "zip": "27560",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Fri 6:30\u201310 PM",
+      "free": false,
+      "freeNote": "$30 Residents | $42 Non-residents",
+      "ticketUrl": null,
+      "website": "https://www.morrisvillenc.gov/Events-directory/Teen-Night",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Family",
+        "Arts & Crafts"
+      ],
+      "description": "Teen Night offers a safe space for teens to socialize, make friends, and participate in activities including e-sports, arts & crafts, games, and snacks at Cedar Fork Community Center.",
+      "id": 43
+    },
+    {
+      "name": "Alison Krauss & Union Station ft. Jerry Douglas",
+      "tagline": "Bluegrass legends return on their Arcadia Tour with fiddle, dobro, and soaring vocals.",
+      "venue": "DPAC",
+      "address": "501 Mangum St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat 7:30 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.dpacnc.com/events/detail/alison_krauss2026",
+      "website": "https://www.dpacnc.com/events/detail/alison_krauss2026",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Bluegrass"
+      ],
+      "description": "Alison Krauss & Union Station featuring Jerry Douglas perform on their 2026 Arcadia Tour at DPAC, showcasing bluegrass with Krauss on fiddle and vocals, Douglas on dobro, and bandmates on banjo, bass, guitar, and mandolin.[2][3]",
+      "id": 44
+    },
+    {
+      "name": "Y\u2019all Means All NC Beer Festival",
+      "tagline": "Inclusive NC craft beer festival with local breweries, food trucks, music, and vendors where everyone is welcome.",
+      "venue": "Raleigh Brewing Company",
+      "address": "3709 Neil St.",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20135 PM",
+      "free": true,
+      "freeNote": "Free admission; pay for food and drink",
+      "ticketUrl": null,
+      "website": null,
+      "facebook": "https://www.facebook.com/events/2003512617713694/",
+      "instagram": null,
+      "tags": [
+        "Beer",
+        "Festival",
+        "LGBTQ+",
+        "Free"
+      ],
+      "description": "The Y\u2019all Means All NC Beer Festival features North Carolina craft breweries, food trucks, local artisans, live music, and supports the LGBT Center of Raleigh. All ages welcome with 21+ wristbands for drinking.",
+      "id": 45
+    },
+    {
+      "name": "Spring Daze Arts & Crafts Festival",
+      "tagline": "Celebrate spring with 170+ local NC artists, live music, food, and family activities at Bond Park.",
+      "venue": "Fred G. Bond Metro Park and Boathouse",
+      "address": "801 High House Rd.",
+      "city": "Cary",
+      "zip": "27513",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 9am\u20135pm",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.carync.gov/recreation-enjoyment/events/festivals/spring-daze-arts-and-crafts-festival",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Arts & Crafts",
+        "Festival",
+        "Outdoor",
+        "Family",
+        "Free"
+      ],
+      "description": "The annual Spring Daze Arts & Crafts Festival features 170 local North Carolina artists, live entertainment on four stages, food vendors, kids' activities, and Earth Day celebrations in the shaded setting of Bond Park.",
+      "id": 46
+    },
+    {
+      "name": "4th Annual Adult Recess Festival",
+      "tagline": "The biggest adult recess experience in America, transforming a Raleigh park into a giant adult-only playground focused on play, joy, and connection.",
+      "venue": "Buffaloe Road Athletic Park",
+      "address": "5900 Buffaloe Rd.",
+      "city": "Raleigh",
+      "zip": "27616",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 1\u20137 PM",
+      "free": false,
+      "freeNote": "$10 Early Bird | $20 GA | $30 Gate",
+      "ticketUrl": "https://www.eventbrite.com/e/4th-annual-adult-recess-festival-tickets-1621640633789?aff=oddtdtcreator",
+      "website": "https://www.letsgetsocialraleigh.com/event-details/4th-annual-adult-recess-festival-weekend-24-26-april-2026",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Adult",
+        "21+",
+        "Outdoor"
+      ],
+      "description": "The Adult Recess Festival is America's only adult play wellness festival, featuring games, sports, arts & crafts, dance, and activities promoting joy, human connection, and mental health in a park setting.[1][2]",
+      "id": 47
+    },
+    {
+      "name": "Festival of Legends 2026",
+      "tagline": "Join us at Sugg Farm for a mystical weekend celebrating luck with music, magic, dragons, dancers, knights, and more.",
+      "venue": "Jefferson L Sugg Farm at Bass Lake Park",
+      "address": "2401 Grigsby Ave",
+      "city": "Holly Springs",
+      "zip": "27540",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 6\u201310 PM \u00b7 Sat & Sun 10 AM\u20136 PM",
+      "free": false,
+      "freeNote": "$15+; Children 12 & under free with ticket-holding adult; Fri pre-event free",
+      "ticketUrl": "https://festivaloflegends.com/",
+      "website": "https://festivaloflegends.com/",
+      "facebook": "https://facebook.com/festivaloflegends/",
+      "instagram": "",
+      "tags": [
+        "Festival",
+        "Music",
+        "Outdoor",
+        "Family"
+      ],
+      "description": "The 13th Annual Festival of Legends celebrates luck with faeries, dragons, magic, music, comedy, food, mead, and beer at Sugg Farm. Features a free Friday pre-opening with fire spinning and live music, plus main events Saturday and Sunday.",
+      "id": 48
+    },
+    {
+      "name": "Alabama Shakes",
+      "tagline": "Alabama Shakes brings their signature rock, blues, and soul to Raleigh.",
+      "venue": "Red Hat Amphitheater",
+      "address": "500 S McDowell St",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.redhatamphitheater.com/events/detail/alabama-shakes",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "Alabama Shakes performs at Red Hat Amphitheater on Saturday, April 25, 2026, at 7:00 PM, with support from Mon Rov\u00eea.",
+      "id": 49
+    },
+    {
+      "name": "Carolina Ballet: Celebration of America",
+      "tagline": "A spirited ballet program honoring 250 years of American artistry with Stars and Stripes and more.",
+      "venue": "Martin Marietta Center for the Performing Arts",
+      "address": "2 East South Street",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat 2\u20137:30 PM \u00b7 Sun 2 PM",
+      "free": false,
+      "freeNote": "$40\u2013$110",
+      "ticketUrl": "https://www.ticketmaster.com/carolina-ballet-presents-celebration-of-america-raleigh-north-carolina-04-24-2026/event/2D0062E2EFBC7377",
+      "website": "https://carolinaballet.com/program/celebration-of-america/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Dance",
+        "Family"
+      ],
+      "description": "Anchored by George Balanchine\u2019s Stars and Stripes, this mixed repertory program celebrates 250 years of American artistry with music by composers like John Philip Sousa, Philip Glass, and George Gershwin.",
+      "id": 50
+    },
+    {
+      "name": "Carolina Roller Derby Double Header",
+      "tagline": "Double header roller derby action featuring Carolina Roller Derby teams.",
+      "venue": "XL Sports World",
+      "address": "1016 Investment Blvd.",
+      "city": "Apex",
+      "zip": "27502",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "4:00 pm - 9:00 pm",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.zeffy.com/en-US/ticketing/crd-april--25",
+      "website": "https://www.carolinarollerderby.com",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Sports"
+      ],
+      "description": "Carolina Roller Derby hosts a double header bout at XL Sports World in Apex on April 25, 2026, from 4:00 pm to 9:00 pm.",
+      "id": 51
+    },
+    {
+      "name": "24th Annual Birdhouse Competition",
+      "tagline": "Celebrate spring with unique birdhouse creations in a fun competition at the arboretum.",
+      "venue": "JC Raulston Arboretum",
+      "address": "4415 Beryl Road",
+      "city": "Raleigh",
+      "zip": "27606",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10:00 am\u20133:00 pm",
+      "free": true,
+      "freeNote": "Free",
+      "ticketUrl": null,
+      "website": "https://jcra.ncsu.edu/events/details.php?ID=4165",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Arts & Crafts",
+        "Outdoor",
+        "Family",
+        "Free"
+      ],
+      "description": "Join the JC Raulston Arboretum for the 24th Annual Birdhouse Competition, featuring creative birdhouse entries to celebrate spring, nature, birds, and garden art. Competitors and visitors welcome to enjoy the displays as part of the Raulston Blooms! garden festival.",
+      "id": 52
+    },
+    {
+      "name": "Chris Andrade (En Espa\u00f1ol)",
+      "tagline": "Spanish-language comedy from the Escuela de Nada podcast host.",
+      "venue": "Room 861 At Goodnights Comedy Club",
+      "address": "511 Woodburn Road",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 5:00 PM",
+      "free": false,
+      "freeNote": "$45.99\u2013$55.99",
+      "ticketUrl": "https://www.goodnightscomedy.com/shows/353377",
+      "website": "https://www.goodnightscomedy.com/shows/353377",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
         "Adult"
       ],
-      "description": "A live R&B music experience at The Ritz \u2014 one of Raleigh's premier music venues."
+      "description": "Chris Andrade from the Escuela de Nada podcast performs a night of Spanish-language comedy. This show is completely in Spanish with no translation.",
+      "id": 53
+    },
+    {
+      "name": "Spring Jazz Market",
+      "tagline": "Live jazz, food trucks, and local vendors in downtown Raleigh.",
+      "venue": "Moore Square",
+      "address": "200 S Blount Street",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20136 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/",
+      "tags": [
+        "Jazz",
+        "Market",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "Oak City Music Collective presents Spring Jazz Market on Saturday, April 25, 2026, from 12-6 p.m. at Moore Square Park, featuring live jazz performances, food trucks, treats, and local vendors.",
+      "id": 54
+    },
+    {
+      "name": "Raulston Blooms! and Plant Sale",
+      "tagline": "A Garden Festival for All Ages",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "address": "4415 Beryl Road",
+      "city": "Raleigh",
+      "zip": "27606",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10 AM\u20133 PM",
+      "free": false,
+      "freeNote": "$5 nonmembers, $10 family; free for members & students",
+      "ticketUrl": null,
+      "website": "https://jcra.ncsu.edu/events/details.php?ID=4164",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Outdoor",
+        "Family",
+        "Arts & Crafts",
+        "Market"
+      ],
+      "description": "Raulston Blooms! is a spring garden festival featuring a plant sale, makers market, food trucks, gardening talks, educational displays, birdhouse competition, and family activities at the JC Raulston Arboretum.",
+      "id": 55
+    },
+    {
+      "name": "Rolesville BBQ & Bands",
+      "tagline": "Mouthwatering BBQ competition with live bands, food trucks, vendors, and family fun.",
+      "venue": "Redford Place Park",
+      "address": "121 Redford Pl. Dr.",
+      "city": "Rolesville",
+      "zip": "27571",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat. 5\u20138 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://rolesvillebbq.com/",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Music",
+        "Food",
+        "Beer",
+        "Festival",
+        "Family",
+        "Outdoor"
+      ],
+      "description": "The Rolesville BBQ & Bands features a BBQ competition, live music from local and national artists, food trucks, local vendors, a kids zone, and cold beer at Redford Place Park.",
+      "id": 56
+    },
+    {
+      "name": "PBS North Carolina Screening of THE LIBRARIANS",
+      "tagline": "Watch the documentary THE LIBRARIANS followed by a discussion on book challenges and public libraries.",
+      "venue": "Durham County Main Library",
+      "address": "300 North Roxboro Street",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20132:30 PM",
+      "free": true,
+      "freeNote": "Free event, registration required",
+      "ticketUrl": "https://www.eventbrite.com/e/pbs-north-carolina-screening-of-the-librarians-tickets-1980570596971",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Film",
+        "Free"
+      ],
+      "description": "PBS North Carolina and Durham County Library present an Indie Lens Pop-Up screening of the documentary THE LIBRARIANS, followed by a discussion on book challenges, education, and the future of public libraries.",
+      "id": 57
+    },
+    {
+      "name": "Bourbon BBQ & Blues Festival",
+      "tagline": "A day of bourbon tastings, live blues music, and BBQ from top Triangle vendors at Mystic Farm & Distillery.",
+      "venue": "Mystic Farm & Distillery",
+      "address": "1413 Stallings Road",
+      "city": "Durham",
+      "zip": "27703",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12:00 PM\u20136:00 PM",
+      "free": false,
+      "freeNote": "Ages 18+ need a ticket; ticket includes 1 cocktail and FREE bourbon tastings",
+      "ticketUrl": "https://mysticdurham.ticketspice.com/bourbon-bbq-blues-festival",
+      "website": "https://www.whatismystic.com/events-2/bourbon-bbq-blues-festival-2025-z4ps5",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Food",
+        "Beer",
+        "Festival",
+        "Blues"
+      ],
+      "description": "The festival features live blues performances by Checkerboard Suede, Tommy Thunderfoot & The Accelerators, and Mama, alongside BBQ from vendors like The Tasty Turkey-Que, Pointer\u2019s BBQ, and Off The Hog. All ages welcome with free bourbon tastings and one included cocktail for ticket holders.",
+      "id": 58
+    },
+    {
+      "name": "Oyster Roast at Ponysaurus Brewing Co.",
+      "tagline": "All-you-can-eat oyster roast with local oysters and special Oyster Saison.",
+      "venue": "Ponysaurus Brewing Co.",
+      "address": "219 Hood Street",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 2\u20134 PM",
+      "free": false,
+      "freeNote": "$35",
+      "ticketUrl": "https://www.eventbrite.com/e/oyster-roast-at-ponysaurus-brewing-co-durham-tickets-1985837398115",
+      "website": "https://www.ponysaurusbrewing.com/events",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Food",
+        "Beer",
+        "21+"
+      ],
+      "description": "Ponysaurus Brewing Co. teams up with Three Little Spats for an all-you-can-eat oyster roast featuring roasted local oysters, seasoned corn, chips, and a special Oyster Saison brewed with oyster shells.",
+      "id": 59
+    },
+    {
+      "name": "Bull City Beer Mile",
+      "tagline": "A 1-mile drinking race combining running and speed drinking around Durham Central Park.",
+      "venue": "Durham Central Park",
+      "address": "501 Foster St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 2:30\u20136:30 PM",
+      "free": false,
+      "freeNote": "Registration required",
+      "ticketUrl": "https://runsignup.com/Race/NC/Durham/BullCityBeerMile",
+      "website": "https://eventvesta.com/events/126960-bull-city-beer-mile",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Beer",
+        "Sports",
+        "21+",
+        "Outdoor"
+      ],
+      "description": "The 5th annual Bull City Beer Mile features competitors drinking a 12-oz beer before each of four 1/4-mile laps around Durham Central Park, with individual and relay options for participants 21 and over. The event includes heats from 2:30 PM, awards, DJ, food, and an after-party until 6:30 PM.",
+      "id": 60
+    },
+    {
+      "name": "NCMA Sacred Song Series: Persian Nowruz (New Year) Celebration",
+      "tagline": "Celebrate spring with Persian classical and folk music, dance, and visual art.",
+      "venue": "NC Museum of Art",
+      "address": "2110 Blue Ridge Road",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 3:30 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://ncartmuseum.org/events/ncma-sacred-song-series-persian-nowruz-new-year-celebration/?occurrence=2026-04-25",
+      "website": "https://ncartmuseum.org/events/ncma-sacred-song-series-persian-nowruz-new-year-celebration/?occurrence=2026-04-25",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Dance",
+        "Arts & Crafts",
+        "Festival"
+      ],
+      "description": "An immersive afternoon featuring Iranian musicians, a dancer, and visual artist from across North America performing Persian classical and folk music, dance, and visual art exploring rich folk traditions from different regions of Iran.",
+      "id": 61
+    },
+    {
+      "name": "Spring Garden Bites Tour",
+      "tagline": "Guided tour combining scenic exploration, local history, and delicious bites from Museum Park ingredients.",
+      "venue": "North Carolina Museum of Art",
+      "address": "2110 Blue Ridge Rd.",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat. 2\u20134 PM",
+      "free": false,
+      "freeNote": "$60 per person",
+      "ticketUrl": "https://www.opentable.com/booking/experiences-availability?rid=1274104&restref=1274104&experienceId=652981&utm_source=external&utm_medium=referral&utm_campaign=shared",
+      "website": "https://ncartmuseum.org/events/garden-bites-tour-2/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Food",
+        "Outdoor",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "This guided experience through Museum Park, led by experts, explores key locations' cultural and environmental impact while enjoying small plates and drinks made from park-sourced ingredients. For ages 21 and up.",
+      "id": 62
+    },
+    {
+      "name": "Candlelight Concert: Neo-Soul Favorites ft. Songs by Prince, Childish Gambino, & More",
+      "tagline": "Experience neo-soul favorites by Prince, Childish Gambino, and more performed by string quartet under candlelight.",
+      "venue": "The Rialto",
+      "address": "1620 Glenwood Ave.",
+      "city": "Raleigh",
+      "zip": "27608",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat doors 8 PM, show 8:45 PM",
+      "free": false,
+      "freeNote": "$32.50+",
+      "ticketUrl": "https://therialto.com/event/candlelight-concert-neo-soul-favorites-ft-songs-by-prince-childish-gambino-more-4-25/",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Ticketed"
+      ],
+      "description": "A string quartet performs neo-soul favorites including songs by Prince, Childish Gambino, SZA, Lauryn Hill, and more in an intimate candlelight setting at The Rialto Theatre. The 60-minute concert is on April 25, 2026, with doors opening 45 minutes prior.",
+      "id": 63
+    },
+    {
+      "name": "Candlelight: Coldplay & Imagine Dragons",
+      "tagline": "Experience the music of Coldplay and Imagine Dragons under candlelight at The Rialto.",
+      "venue": "The Rialto",
+      "address": "1620 Glenwood Avenue",
+      "city": "Raleigh",
+      "zip": "27608",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 6:30 PM",
+      "free": false,
+      "freeNote": "$32\u2013$73",
+      "ticketUrl": "https://feverup.com/m/250852",
+      "website": "https://therialto.com/event/candlelight-concert-coldplay-imagine-dragons-4-25/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Ticketed"
+      ],
+      "description": "A 60-minute candlelight concert featuring live performances of Coldplay and Imagine Dragons hits including Clocks, Fix You, Radioactive, and Believer. Doors open at 5:45 PM; minimum age 8 years old.",
+      "id": 64
+    },
+    {
+      "name": "2026 Piedmont Farm Tour",
+      "tagline": "Self-guided tour of 30 sustainable farms across the Piedmont region, open to families and food lovers alike.",
+      "venue": "Multiple Farms",
+      "address": "TBD",
+      "city": "Triangle",
+      "zip": "",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat & Sun 2\u20136 PM (select farms open at 12 PM)",
+      "free": false,
+      "freeNote": "$35/carload pass",
+      "ticketUrl": null,
+      "website": "https://carolinafarmstewards.org/piedmont-farm-tour/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Outdoor",
+        "Family",
+        "Food"
+      ],
+      "description": "The 29th annual Piedmont Farm Tour features 30 small-scale sustainable farms in Alamance, Chatham, Orange, Durham, and Person counties, offering hands-on experiences like u-pick berries, livestock viewing, and farm tours. Hosted by Carolina Farm Stewardship Association and Weaver Street Market, a $35 carload pass grants access to all farms over both days.",
+      "id": 65
+    },
+    {
+      "name": "2026 NCACC 100 Strong Productions Student Film Festival",
+      "tagline": "Second annual festival showcasing student films highlighting North Carolina counties.",
+      "venue": "The Cary Theater",
+      "address": "122 East Chatham St.",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10am\u20135pm",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.100strongproductions.com/student-film-festival",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Film",
+        "Family",
+        "Free"
+      ],
+      "description": "NCACC\u2019s 100 Strong Productions hosts the second annual Student Film Festival featuring curated student film blocks, a keynote speaker, and awards ceremony at The Cary Theater. The event highlights uplifting stories from North Carolina counties told from students\u2019 perspectives.",
+      "id": 66
+    },
+    {
+      "name": "GAG ON TOP! w/ Amanda Lepore & Susanne Bartsch",
+      "tagline": "Queen of NYC nightlife Susanne Bartsch and iconic Amanda Lepore bring a high-drama collaboration to The Fruit.",
+      "venue": "The Fruit",
+      "address": "305 S Dillard St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": false,
+      "freeNote": "$10-$40",
+      "ticketUrl": null,
+      "website": null,
+      "facebook": null,
+      "instagram": "https://www.instagram.com/reel/DXedqYGEa0Z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "tags": [
+        "LGBTQ+",
+        "Dance",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "GAG! collaborates with Susanne Bartsch's On Top! featuring Amanda Lepore's burlesque performance, DJs, and hosts in a night of high drama, maximalist fashion, and dancing. Proceeds benefit the NC Alliance of AIDS Services.",
+      "id": 67
+    },
+    {
+      "name": "The NC Youth Tap Ensemble Live (with Star Dixon)",
+      "tagline": "Join the North Carolina Youth Tap Ensemble and special guest Star Dixon for Resonance, an exploration of sound, movement, and legacy.",
+      "venue": "Carolina Theatre",
+      "address": "309 W Morgan St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7:30\u20139:00 PM",
+      "free": false,
+      "freeNote": "$15 Youth/Seniors, $20 Regular",
+      "ticketUrl": "https://tickets.carolinatheatre.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=996886~05de892e-fe79-4e77-8f75-9f03e89f9235",
+      "website": "https://www.ncyte.org/up-next",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Dance",
+        "Family",
+        "Ticketed"
+      ],
+      "description": "The North Carolina Youth Tap Ensemble presents Resonance, a 90-minute performance produced by its senior members and artistic director, featuring special guest Star Dixon. One night only on Saturday, April 25, 2026, at 7:30 PM.",
+      "id": 68
+    },
+    {
+      "name": "C.Shreve the Professor & OC from NC with DJ Jet, Illpo & Frank THE Phre$h",
+      "tagline": "Hip-hop performance featuring C.Shreve the Professor and supporting acts.",
+      "venue": "The Pour House Music Hall",
+      "address": "224 S Blount St",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 9 PM (doors 8 PM)",
+      "free": false,
+      "freeNote": "$15",
+      "ticketUrl": null,
+      "website": "https://www.pourhouseraleigh.com/shows/c-shreve-the-professor-oc-from-nc-with-dj-jet-illpo-frank-the-phre-h-25-apr",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "C.Shreve the Professor performs with OC from NC, DJ Jet, Illpo, and Frank THE Phre$h at The Pour House Music Hall on April 25, 2026.",
+      "id": 69
+    },
+    {
+      "name": "Shadows of the 60s",
+      "tagline": "A high-energy tribute to Motown's iconic 60s hits.",
+      "venue": "Wake Forest Renaissance Centre for the Arts",
+      "address": "405 S Brooks St.",
+      "city": "Wake Forest",
+      "zip": "27587",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 2pm & 7:30pm",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.etix.com/ticket/p/65088384/shadows-of-the-60sa-tribute-to-motown-200-pm-wake-forest-wake-forest-renaissance-centre",
+      "website": "https://www.wakeforestrencen.org/event/shadows-60s",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Theater"
+      ],
+      "description": "Shadows of the 60s is a tribute show celebrating Motown's greatest hits from the 1960s, featuring dynamic performances at 2:00 PM and 7:30 PM on April 25, 2026.",
+      "id": 70
+    },
+    {
+      "name": "The Messthetics & James Brandon Lewis",
+      "tagline": "Improvised jazz/punk with Fugazi's rhythm section and sax master James Brandon Lewis.",
+      "venue": "KINGS",
+      "address": "14 W. Martin St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 8 PM (doors 7 PM)",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.kingsraleigh.com/shows/the-messthetics-and-james-brandon-lewis-2/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Jazz"
+      ],
+      "description": "The Messthetics, featuring Fugazi's rhythm section, team up with acclaimed saxophonist James Brandon Lewis for an evening of improvised jazz/punk at KINGS. Opener Savage Knights starts at 8 PM.",
+      "id": 71
+    },
+    {
+      "name": "Wasteland w/ DJ Fallout Steve",
+      "tagline": "Electronic music night featuring DJ Fallout Steve and 20th Century Boy at Chapel of Bones.",
+      "venue": "Chapel of Bones",
+      "address": "658 Maywood Ave, Ste. B 110",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 9 PM",
+      "free": false,
+      "freeNote": "$17.14",
+      "ticketUrl": "https://www.tickpick.com/organizer/event/wasteland-w-20th-century-boy-dj-fallout-steve-14967957?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "Wasteland event with DJ Fallout Steve and 20th Century Boy performing electronic music on Saturday, April 25, 2026, at 9 PM. Tickets are available in advance for $17.14.",
+      "id": 72
+    },
+    {
+      "name": "VAAT: A Musical Conversation",
+      "tagline": "An immersive musical dialogue where cultures meet and ideas spark.",
+      "venue": "Goodson Chapel Duke Divinity School",
+      "address": "TBD",
+      "city": "Durham",
+      "zip": "",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.leela-foundation.org/post/vaat-an-immersive-musical-dialogue-by-hardik-chauhan",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "VAAT is an immersive musical dialogue by Hardik Chauhan, more than a performance where cultures meet and ideas spark in conversation.",
+      "id": 73
+    },
+    {
+      "name": "Killer Keyz Dueling Piano Dinner",
+      "tagline": "High-energy dueling piano show with three-course dinner and hosted beverages.",
+      "venue": "Washington Duke Inn & Golf Club",
+      "address": "3001 Cameron Blvd",
+      "city": "Durham",
+      "zip": "27705",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 6\u201310 PM",
+      "free": false,
+      "freeNote": "$125 per person, excluding tax and service charge",
+      "ticketUrl": null,
+      "website": "https://www.washingtondukeinn.com/experiences",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Adult",
+        "Ticketed",
+        "Entertainment"
+      ],
+      "description": "The nationally acclaimed Killer Keyz Dueling Pianos perform an audience-driven show featuring requests and spontaneous entertainment paired with a three-course dinner and hosted beverages in the Ambassador Ballroom.",
+      "id": 74
+    },
+    {
+      "name": "Symbiosis Jazz Duo at Ramblers",
+      "tagline": "Live jazz performance by the Symbiosis Duo.",
+      "venue": "Ramblers",
+      "address": "115 Fuller St",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.instagram.com/p/DXIVfshjsGh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Jazz",
+        "Music"
+      ],
+      "description": "The Symbiosis Jazz Duo performs live at Ramblers in Durham on April 25, 2026. This event features the North Carolina-based jazz duo providing live music.[1][2]",
+      "id": 75
+    },
+    {
+      "name": "House Party ft. Advanced Study Short-Form Improv Students",
+      "tagline": "Improvisers bring audience suggestions to life in a hilarious short-form improv show.",
+      "venue": "Mettlesome Theater",
+      "address": "800 Taylor Street, Suite 9-156",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7\u20138 PM",
+      "free": false,
+      "freeNote": "$9 at the door",
+      "ticketUrl": null,
+      "website": "https://thisismettlesome.com/live/2026/4/25/house-party",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater",
+        "Comedy"
+      ],
+      "description": "House Party features improvisers, including students from Miles Amiri\u2019s Advanced Study Short-Form Improv class, performing high-energy short-form games based on audience suggestions. No audience participation unless desired.",
+      "id": 76
+    },
+    {
+      "name": "Canine Field Day",
+      "tagline": "A day of fun field games and activities for you and your dog at Rock Quarry Park.",
+      "venue": "Rock Quarry Park",
+      "address": "701 Stadium Drive",
+      "city": "Durham",
+      "zip": "27704",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 11 AM\u20133 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.dprplaymore.org/294/Canine-Field-Day",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Family",
+        "Outdoor",
+        "Free",
+        "Festival"
+      ],
+      "description": "Join Durham Parks & Recreation for Canine Field Day, where you and your dog can participate in fun field game activities including an agility course, Frisbee catch, bobbing for treats, and a treasure hunt. The event features prizes, a photo booth, food truck, pet-focused market, and pet adoptions.",
+      "id": 77
+    },
+    {
+      "name": "DanceWorks 2026 \u2013 Program A",
+      "tagline": "Northwestern's annual dance showcase featuring new works by acclaimed choreographers.",
+      "venue": "Jones Auditorium",
+      "address": "TBD",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.meredith.edu/calendar/danceworks-2026-weekend-program-a/2026-04-25/",
+      "website": "https://www.meredith.edu/calendar/danceworks-2026-weekend-program-a/2026-04-25/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Dance",
+        "Theater",
+        "Arts & Crafts",
+        "Ticketed"
+      ],
+      "description": "Northwestern's Danceworks 2026 presents new works by acclaimed and nationally recognized guest choreographers and faculty, exploring themes of collective movement and presence in contemporary times.",
+      "id": 78
+    },
+    {
+      "name": "EarthFest",
+      "tagline": "Celebrate Earth Day with sustainable fashion, live music, and interactive eco-activities.",
+      "venue": "Town Hall Campus",
+      "address": "73 Hunter Street",
+      "city": "Apex",
+      "zip": "27502",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20134 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.apexnc.org/1661/EarthFest",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Festival",
+        "Outdoor",
+        "Family",
+        "Free"
+      ],
+      "description": "Apex EarthFest is a free community festival on the Town Hall Campus featuring sustainable fashion shows, clothing swaps, live music by Holler Choir Band, recycling demos, and interactive booths from local organizations.[1][2]",
+      "id": 79
+    },
+    {
+      "name": "Horror Book Club: Blood on Her Tongue",
+      "tagline": "Horror book club discussing the gothic novel Blood on Her Tongue.",
+      "venue": "Chapel of Bones",
+      "address": "658 Maywood Ave, Ste. B 110",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10:00 am",
+      "free": true,
+      "freeNote": "Free Admission",
+      "ticketUrl": null,
+      "website": "https://www.tickpick.com/organizer/event/horror-book-club-blood-on-her-tongue-84576882?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Free",
+        "Theater"
+      ],
+      "description": "A book club meeting focused on the horror novel Blood on Her Tongue by an unspecified author, held at Chapel of Bones in Raleigh.",
+      "id": 80
+    },
+    {
+      "name": "Improv Night at The Bike Library",
+      "tagline": "Free improv comedy presented by Mango Mango.",
+      "venue": "The Bike Library",
+      "address": "600 W Cabarrus St, STE 113",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7\u20139 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.instagram.com/p/DXCOr6FEbFp/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/p/DXCOr6FEbFp/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "tags": [
+        "Comedy",
+        "Free"
+      ],
+      "description": "Join Mango Mango for an evening of improv comedy at The Bike Library. Free admission.",
+      "id": 81
+    },
+    {
+      "name": "Independent Bookstore Day",
+      "tagline": "Celebrate indie bookstores with a full day of special events at Blackbird Books & Coffee.",
+      "venue": "Blackbird Books & Coffee",
+      "address": "323 Blake St., Historic City Market",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 9am-7pm",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.blackbirdbooksandcoffee.com/events",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Free"
+      ],
+      "description": "Independent Bookstore Day at Blackbird Books & Coffee features a full day of celebrations for indie bookstores on Saturday, April 25, 2026, from 9am to 7pm with free admission.",
+      "id": 82
+    },
+    {
+      "name": "Live Animal Feeding: Lobster",
+      "tagline": "Watch lobsters get fed live by museum staff in the ocean exhibit.",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "address": "11 W. Jones St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 1:30\u20131:45 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://naturalsciences.org/calendar/event/live-animal-feeding-lobster-4/2026-04-25/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Museum",
+        "Family",
+        "Free"
+      ],
+      "description": "This recurring walk-up program features a live feeding of lobsters and other marine life in the Nature Exploration Center's ocean exhibit, with opportunities to meet the Living Collections staff.[1][3][4]",
+      "id": 83
+    },
+    {
+      "name": "Living Poetry Pop-Up",
+      "tagline": "Celebrate National Poetry Month with custom on-the-spot poems, live music, mimosas, and wine tasting.",
+      "venue": "Unlikely Professionals - North Hills",
+      "address": "540 St. Albans Dr, STE 114",
+      "city": "Raleigh",
+      "zip": "27609",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat Noon\u20133 PM",
+      "free": false,
+      "freeNote": "Poems $5 each",
+      "ticketUrl": null,
+      "website": "https://www.unlikelyprofessionals.com/pages/events?srsltid=AfmBOoqwVDnPh2LpN6wyOYkzcM4UAK7vwQwdsyaPjFXEBonsuEpNp129",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Arts & Crafts",
+        "Music",
+        "Family"
+      ],
+      "description": "Two poets write custom poems on the spot for $5 each during National Poetry Month. Enjoy live music from Grace Lucia, $5 mimosas, and free wine tasting.",
+      "id": 84
+    },
+    {
+      "name": "Mill Open House 2026",
+      "tagline": "Discover the history and inner workings of Historic Yates Mill during this free drop-in event.",
+      "venue": "Historic Yates Mill County Park",
+      "address": "4620 Lake Wheeler Rd",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 1\u20134 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.wake.gov/departments-government/parks-recreation-open-space/all-parks-trails/historic-yates-mill-county-park/historic-yates-mill-programs-events/historic-yates-mill-public-programs",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Free",
+        "Outdoor",
+        "Family",
+        "Museum"
+      ],
+      "description": "Visitors can explore the operable water-powered gristmill, interact with historic interpreters, and learn about its history and mechanics at this free drop-in program in the 174-acre park.",
+      "id": 85
+    },
+    {
+      "name": "Spring Fungi Forage",
+      "tagline": "Guided spring hike to identify and forage culinary fungi like morels and oysters.",
+      "venue": "Falls Lake Boat Ramp",
+      "address": "13093 Six Forks Road",
+      "city": "Raleigh",
+      "zip": "27614",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10 AM - 12 PM",
+      "free": false,
+      "freeNote": "$87.21",
+      "ticketUrl": "https://www.eventbrite.com/e/411-spring-fungi-forage-tickets-1979896468635?aff=ebdssbdestsearch",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Family"
+      ],
+      "description": "Join Daniel Woody for a 3.5-5 mile hike (5/10 difficulty) to learn about edible fungi such as Dryad's Saddle, morels, and oyster mushrooms, with identification materials provided. Participants must wear bright orange or reflective clothing and bring foraging tools, water, and lunch; no bathroom onsite.",
+      "id": 86
+    },
+    {
+      "name": "Summer Prelude Dance Party",
+      "tagline": "Noire Divinity presents a high-energy dance party kicking off the summer season.",
+      "venue": "Bitter Social",
+      "address": "104 S. Wilmington St. above Centro",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10 PM\u20132 AM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://posh.vip/e/noire-divinity-presents-worst-behavior-1?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn5dPOMgfQdZumGi35EUbJlwghT6mPdoBZNpQL6jz1qAjxVyr1K87miDaKLA8_aem_m4ZJ0vgcroK9UI",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Dance",
+        "21+",
+        "Ticketed"
+      ],
+      "description": "Presented by Noire Divinity, this dance party takes place on April 25, 2026, from 10pm to 2am at Bitter Social in Downtown Raleigh.",
+      "id": 87
+    },
+    {
+      "name": "Working on the Railroad Day",
+      "tagline": "Step back in time to explore railroading history with hands-on exhibits and train rides.",
+      "venue": "New Hope Valley Railway",
+      "address": "3900 Bonsal Road",
+      "city": "New Hill",
+      "zip": "27562",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 9:30 AM\u20133:30 PM; Train rides at 10:30 AM, 12:00 PM, 1:30 PM",
+      "free": false,
+      "freeNote": "Adult: $16.45 \u00b7 Child (2-12): $13.20 \u00b7 Seniors (60+): $15.37",
+      "ticketUrl": "https://www.etix.com/ticket/p/78397891/working-on-the-railroad-day-train-ride-new-hill-new-hope-valley-railway",
+      "website": "https://www.triangletrain.com/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Family",
+        "Outdoor",
+        "Museum"
+      ],
+      "description": "Guests explore railroading history through live demonstrations, rail yard tours, volunteer interactions, and train rides departing at 10:30 AM, 12:00 PM, and 1:30 PM. Food trucks and special exhibits from NC Transportation Museum and others are onsite.",
+      "id": 88
+    },
+    {
+      "name": "The Price by Arthur Miller",
+      "tagline": "A riveting struggle over family dynamics, furniture value, and the cost of past choices.",
+      "venue": "Shadowbox Studio",
+      "address": "2200 Dominion St",
+      "city": "Durham",
+      "zip": "27704",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat 7:30 PM \u00b7 Sun 3:30 PM",
+      "free": false,
+      "freeNote": "Sliding scale $15-$80",
+      "ticketUrl": "https://www.onthestage.tickets/show/redbird-theater-company/69710b18c2d94417d5c5d7b6",
+      "website": "https://www.redbirdtheatercompany.com/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater",
+        "Ticketed"
+      ],
+      "description": "Arthur Miller's play explores two estranged brothers confronting family history and regrets while appraising their late father's furniture in a condemned attic. Directed by Derrick Ivey with cast Adam Sampieri, Tamara Kissane, Dale Wolf, and Carl Martin.",
+      "id": 89
+    },
+    {
+      "name": "NC Sci Fest: Lyon Park STEAM Room",
+      "tagline": "Step into a Living Classroom with hands-on STEAM activities at NC Sci Fest.",
+      "venue": "Community Family Life and Recreation Center at Lyon Park",
+      "address": "1309 Halley St",
+      "city": "Durham",
+      "zip": "27707",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 10 AM \u2013 2 PM",
+      "free": true,
+      "freeNote": "",
+      "ticketUrl": "https://www.eventbrite.com/e/nc-sci-fest-lyon-park-steam-room-tickets-1988040161640",
+      "website": "https://duke.qualtrics.com/jfe/form/SV_5ATn278ncB7QfvE?Q_CHL=qr",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Family",
+        "Museum",
+        "Free"
+      ],
+      "description": "Part of the NC Sci Fest, the Lyon Park STEAM Room offers hands-on science, technology, engineering, arts, and math activities for all ages on Saturday, April 25, 2026, from 10 AM to 2 PM.",
+      "id": 90
+    },
+    {
+      "name": "Uneasy Peace: Bennett Place Surrenders 161st Anniversary",
+      "tagline": "Commemorate the 161st anniversary of the largest Civil War surrender at Bennett Place.",
+      "venue": "Bennett Place State Historic Site",
+      "address": "4409 Bennett Memorial Rd.",
+      "city": "Durham",
+      "zip": "27705",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 11 AM\u20133 PM",
+      "free": false,
+      "freeNote": "$5 adults, $2 seniors/military/children 3-17",
+      "ticketUrl": "https://www.eventbrite.com",
+      "website": "https://www.facebook.com/events/1859302684724166",
+      "facebook": "https://www.facebook.com/events/1859302684724166",
+      "instagram": "",
+      "tags": [
+        "Festival",
+        "Museum",
+        "Outdoor",
+        "Family"
+      ],
+      "description": "The event features scheduled talks, vignettes, and interactive stations commemorating the 1865 surrender negotiations between Generals Johnston and Sherman at the Bennett farm, the largest of the Civil War. The 12-minute surrender vignette requires advance registration via Eventbrite.",
+      "id": 91
+    },
+    {
+      "name": "Dark Tales of the Eno River Paddle with Author David Cook",
+      "tagline": "Paddle the Eno River with author David Cook sharing dark tales from his book.",
+      "venue": "Eno River State Park",
+      "address": "Red Mill Rd",
+      "city": "Durham",
+      "zip": "27712",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 11:00 AM to 2:00 PM",
+      "free": false,
+      "freeNote": "$55",
+      "ticketUrl": "https://www.twosistersadventure.com/guided-trips-booking/p/durham-history-paddle-zaaed",
+      "website": "https://www.discoverdurham.com/events/dark-tales-of-the-eno-river-paddle-with-author-david-cook/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Adult"
+      ],
+      "description": "Join a 3-hour guided paddle on the Eno River with author David Cook, who shares stories from his book 'Dark Tales of the Eno River' about mystery, murder, and mayhem. All equipment provided; not beginner-friendly or suitable for children under 10; reservations required.",
+      "id": 92
+    },
+    {
+      "name": "Bazaar at the Yard",
+      "tagline": "Vintage market with 40 vendors, live DJ, games, food, and beer at Boxyard RTP.",
+      "venue": "Boxyard RTP",
+      "address": "900 Park Offices Drive",
+      "city": "Durham",
+      "zip": "27713",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20135 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://boxyard.rtp.org/events/bazaar-at-the-yard-2026/",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/p/DXfDhKpkU53/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "tags": [
+        "Arts & Crafts",
+        "Market",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "Shop vintage clothing, accessories, and more from 40 top vendors in the Boxyard RTP parking lot, featuring a live DJ, games, food, and beer to celebrate Earth Day sustainably.",
+      "id": 93
+    },
+    {
+      "name": "The Rattletraps",
+      "tagline": "High-energy rock anthems about bar fights, dead-end jobs, and New Orleans streets.",
+      "venue": "STANCZYKS",
+      "address": "1007 W. Main Street",
+      "city": "Durham",
+      "zip": "",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7:00 PM Doors, 8:00 PM Show",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://tickets.venuepilot.com/e/the-rattletraps-2026-04-25-stanczyks-durham-c23c09",
+      "website": "https://www.stanczyksdurham.com/#/events/175850",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "The Rattletraps perform with Mellow... at STANCZYKS on Saturday, April 25, 2026. This all-ages event features cynical rock songs inspired by gritty life experiences.",
+      "id": 94
+    },
+    {
+      "name": "Show, Tell and Lakehouse",
+      "tagline": "True stories woven into comedic gold by Show and Tell, plus a surprising monoscene by Lakehouse.",
+      "venue": "Mettlesome Comedy Theater",
+      "address": "800 Taylor Street, Suite 9-156",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 9\u201310 PM",
+      "free": false,
+      "freeNote": "$9 at the door",
+      "ticketUrl": null,
+      "website": "https://thisismettlesome.com/live/2026/4/25/show-and-tell-lakehouse",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "Theater"
+      ],
+      "description": "The talented cast of Show and Tell weaves true stories into comedic gold live on stage for one night only, featuring Lakehouse, two-time King Shit Cagematch Champions performing a monoscene full of surprises.",
+      "id": 95
+    },
+    {
+      "name": "2026 Chapel Hill Garden Tour",
+      "tagline": "Explore five distinctive private gardens plus public gardens showcasing beauty, sustainability, and spring blooms.",
+      "venue": "Chapel Hill Garden Club Locations",
+      "address": "TBD",
+      "city": "Chapel Hill",
+      "zip": "",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat 10 AM\u20134 PM \u00b7 Sun 10 AM\u20134 PM",
+      "free": false,
+      "freeNote": "$30 advance, $40 day of",
+      "ticketUrl": "https://www.eventbrite.com/e/chapel-hill-garden-club-2026-garden-tour-tickets-1979526368656",
+      "website": "https://www.chapelhillgardentour.org/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Outdoor",
+        "Family"
+      ],
+      "description": "Self-guided tour of five private Chapel Hill area gardens and three public gardens including the North Carolina Botanical Garden, featuring spring blooms, a butterfly sanctuary, Japanese garden, and more. Proceeds support NC Botanical Garden and Chapel Hill Garden Club projects.",
+      "id": 96
+    },
+    {
+      "name": "Shakespeare in the Parks: As You Like It",
+      "tagline": "Switch Theatre's free Shakespeare production comes to Southern Village Amphitheatre this weekend.",
+      "venue": "Southern Village Amphitheatre",
+      "address": "400 Market St",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat 4/25 6:00 PM \u00b7 Sun 4/26 2:00 PM",
+      "free": true,
+      "freeNote": "Free admission (VIP reserved seating $25)",
+      "ticketUrl": "https://switchtheatreco.org/shows/asyoulikeit/",
+      "website": "https://switchtheatreco.org/shows/asyoulikeit/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater",
+        "Shakespeare",
+        "Family",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "Switch Theatre's fourth annual free-to-the-public production of Shakespeare's \"As You Like It\" features a madcap story of love, mistaken identity, and self-discovery set in fictionalized North Carolina woods with local music. The abridged version celebrates nature, love, and finding yourself in a changing world.",
+      "id": 97
+    },
+    {
+      "name": "Northside Festival 2026",
+      "tagline": "Celebrate Chapel Hill's historic Northside neighborhood with live entertainment and community activities.",
+      "venue": "Marian Cheek Jackson Center",
+      "address": "512 West Rosemary Street",
+      "city": "Chapel Hill",
+      "zip": "27514",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20133:30 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://jacksoncenter.info/the-northside-festival/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Family",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "A free neighborhood festival celebrating Chapel Hill's historic Northside with live entertainment, family activities, field games, face painting, and a community potluck.",
+      "id": 98
+    },
+    {
+      "name": "Ramona and the Holy Smokes",
+      "tagline": "High-energy indie rock concert featuring Ramona and the Holy Smokes with special guests.",
+      "venue": "Local 506",
+      "address": "506 W Franklin St",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 8:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.etix.com/ticket/p/90743368/ramona-the-holy-smokes-with-rebecca-porter-the-rhinestone-roses-chapel-hill-local-506",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "Ramona and the Holy Smokes perform live at Local 506 with openers Rebecca Porter and The Rhinestone Roses on April 25, 2026.",
+      "id": 99
+    },
+    {
+      "name": "UpClose Chamber Music: The Balourdet Quartet",
+      "tagline": "The Balourdet Quartet performs Steve Reich's Different Trains and Tchaikovsky\u2019s Souvenir de Florence.",
+      "venue": "CURRENT Studio Artspace",
+      "address": "123 W Franklin St",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 7:30\u20139:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.chamberorchestraofthetriangle.org/upcoming-events",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Theater"
+      ],
+      "description": "The Balourdet Quartet presents Schubert\u2019s Quartettsatz, Steve Reich\u2019s Different Trains blending recorded speech, train sounds, and live instruments, and Tchaikovsky\u2019s Souvenir de Florence. Presented in partnership with Carolina Performing Arts at CURRENT Studio Artspace.[1][4]",
+      "id": 100
+    },
+    {
+      "name": "Won Buddhism Temple Open House",
+      "tagline": "Explore Qigong, tea ceremonies, meditation, and kids' activities at this free spring event.",
+      "venue": "Won Buddhism Meditation Temple",
+      "address": "8021 Old NC 86",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 12\u20135 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.wonbuddhismnc.org/special-events/2026/04-spring-open-house",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Family",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "The Won Buddhism Temple hosts a Spring Open House on Saturday, April 25, 2026, from 12-5 PM, featuring mini-classes in Qigong, meditation, sound healing, tea ceremonies, kids' activities, and temple tours in a welcoming environment for all ages.",
+      "id": 101
+    },
+    {
+      "name": "SmileFest 2026",
+      "tagline": "A two-day community event celebrating service, wellness, and togetherness with athletics and family activities.",
+      "venue": "Mary Scroggs Elementary",
+      "address": "TBD",
+      "city": "Chapel Hill",
+      "zip": "",
+      "days": [
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sat 12\u20138 PM \u00b7 Sun 10am\u20135 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.uncsmilefest.com/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Family",
+        "Outdoor",
+        "Charity"
+      ],
+      "description": "SmileFest brings together students, families, and community members through athletics like soccer and basketball tournaments, wellness programming, health screenings, food trucks, carnival games, and live music. All proceeds support Project Refugee Smiles, providing dental care to refugees locally and globally.",
+      "id": 102
+    },
+    {
+      "name": "Carolina Youth Ballet: Cinderella",
+      "tagline": "Magical ballet production of the classic Cinderella fairy tale performed by young dancers.",
+      "venue": "A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts",
+      "address": "",
+      "city": "Cary",
+      "zip": "",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 6:30 PM \u00b7 Sat 12:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.martinmariettacenter.com/events/detail/carolina-youth-ballet-presents-cinderella",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater",
+        "Family"
+      ],
+      "description": "The Carolina Youth Ballet presents Sergei Prokofiev's Cinderella, featuring elegant choreography and performances by young dancers in a production suitable for all ages.[1][8][9]",
+      "id": 103
+    },
+    {
+      "name": "Dinastia Tour by Peso Pluma & Tito Double P with Friends",
+      "tagline": "Peso Pluma headlines his Dinastia Tour with Tito Double P and friends at Raleigh's premier outdoor amphitheater.",
+      "venue": "Coastal Credit Union Music Park at Walnut Creek",
+      "address": "TBD",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 8:00 PM",
+      "free": false,
+      "freeNote": "Tickets from $107",
+      "ticketUrl": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-raleigh-north-carolina-04-26-2026/event/2D00642ECFB1E44B",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Ticketed"
+      ],
+      "description": "Peso Pluma performs his Dinastia Tour featuring Tito Double P and friends in a regional Mexican music concert at Coastal Credit Union Music Park at Walnut Creek on Sunday, April 26, 2026.",
+      "id": 104
+    },
+    {
+      "name": "Floetry featuring Raheem DeVaughn",
+      "tagline": "Floetry reunites for their highly anticipated 2026 U.S. tour with Raheem DeVaughn and Teedra Moses.",
+      "venue": "DPAC",
+      "address": "123 Vivian St.",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 7:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.dpacnc.com/events/detail/floetry2026",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "Floetry, the iconic R&B duo of Marsha Ambrosius and Natalie \u201cThe Floacist\u201d Stewart, returns after nearly ten years with Raheem DeVaughn and special guest Teedra Moses for a soulful performance blending vocals, poetry, and timeless R&B.",
+      "id": 105
+    },
+    {
+      "name": "Giant Robot Fight Club",
+      "tagline": "Regular people in cardboard robot suits battle for cash, prizes, and audience love.",
+      "venue": "Tap Yard House",
+      "address": "1610 Automotive Way",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://tapyardraleigh.com/raleigh-oakwood-mordecai-tap-yard-raleigh-weekly-lineup",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "Family",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "Giant Robot Fight Club features regular people in homemade cardboard and duct tape robot suits fighting each other in a family-friendly comedic showdown hosted by HotDog Henly and Referee Fudge Shemp.[4]",
+      "id": 106
+    },
+    {
+      "name": "The 13th Annual Festival of Legends 2026",
+      "tagline": "A mystical weekend celebrating luck with music, magic, dragons, and fantasy.",
+      "venue": "Jefferson L Sugg Farm at Bass Lake Park",
+      "address": "2401 Grigsby Ave",
+      "city": "Holly Springs",
+      "zip": "27540",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 6\u201310 PM (FoL Eve pre-opening) \u00b7 Sat 10 AM\u20136 PM \u00b7 Sun 10 AM\u20136 PM",
+      "free": false,
+      "freeNote": "Advance day pass $15, weekend pass $20; day-of day pass $20, weekend pass $25; children 12 & under free with ticket-holding adult",
+      "ticketUrl": "https://festivaloflegends.com/tickets/",
+      "website": "https://festivaloflegends.com/",
+      "facebook": "https://www.facebook.com/festivaloflegends/",
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Music",
+        "Arts & Crafts",
+        "Family",
+        "Ticketed"
+      ],
+      "description": "The 13th annual celebration of luck featuring faeries, dragons, magic, live music, comedy, food, mead, and beer across a mystical weekend. A free pre-opening celebration (FoL Eve) runs Friday evening with fire spinning and live entertainment.",
+      "id": 107
+    },
+    {
+      "name": "Ms. Renee",
+      "tagline": "Social media star Miss Renee brings her vivid, relatable storytelling comedy to the stage.",
+      "venue": "Goodnights Comedy Club",
+      "address": "401 Woodburn Rd.",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 7 PM",
+      "free": false,
+      "freeNote": "$32.99 - $42.99",
+      "ticketUrl": null,
+      "website": "https://www.goodnightscomedy.com/shows/353333",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Comedy"
+      ],
+      "description": "Ms. Renee, a social media comedy star known for her witty and engaging humor, performs a special stand-up show at Goodnights Comedy Club on April 26, 2026.",
+      "id": 108
+    },
+    {
+      "name": "Misha Brown",
+      "tagline": "Live comedy performance by entertainment powerhouse Misha Brown.",
+      "venue": "Goodnights Comedy Club",
+      "address": "401 Woodburn Rd",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 4:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://www.goodnightscomedy.com/shows/366345",
+      "website": "https://www.goodnightscomedy.com/shows/366345",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy",
+        "Ticketed"
+      ],
+      "description": "Misha Brown delivers live comedy at Goodnights Comedy Club on Sunday, April 26, 2026, at 4:00 PM. The 18+ event features an influencer and performer known for stories, sass, and entertainment.",
+      "id": 109
+    },
+    {
+      "name": "Hamilton Sing-Along Drag Brunch",
+      "tagline": "Immersive drag brunch featuring top talent performing Hamilton hits.",
+      "venue": "Raleigh Improv",
+      "address": "TBD",
+      "city": "Raleigh",
+      "zip": "",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 1:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": "https://improv.com/raleigh/event/hamilton+sing-along+drag+brunch/14768773/",
+      "website": "https://improv.com/raleigh/event/hamilton+sing-along+drag+brunch/14768773/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater",
+        "LGBTQ+",
+        "21+",
+        "Ticketed",
+        "Brunch"
+      ],
+      "description": "A fully immersive drag brunch experience featuring top drag talent performing Hamilton songs. Each show is unique with a captivating theme, produced by Flip Phone Events.",
+      "id": 110
+    },
+    {
+      "name": "The Gospel According to Comedy",
+      "tagline": "Where faith meets funny, and laughter is definitely good for the soul!",
+      "venue": "Room 861 at Goodnights Comedy Club",
+      "address": "401 Woodburn Rd.",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 8:00 PM",
+      "free": false,
+      "freeNote": "Tickets start at $88",
+      "ticketUrl": "https://www.goodnightscomedy.com/shows/365539",
+      "website": "https://www.goodnightscomedy.com/shows/365539",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Comedy"
+      ],
+      "description": "A clean, faith-based stand-up comedy show featuring Raleigh comedians Janeen Slaughter, Kimberly Daniece, Ashley Preston, HL Boney, and Dallas Brown Jr., blending church culture with real-life laughs and no profanity.",
+      "id": 111
+    },
+    {
+      "name": "Six Sundays in Spring 2026",
+      "tagline": "Free family-friendly concert series every Sunday with live music, picnics, and food trucks.",
+      "venue": "E. Carroll Joyner Park",
+      "address": "701 Harris Road",
+      "city": "Wake Forest",
+      "zip": "27587",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Sundays April 26\u2013May 31, 5:30\u20137:30 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.wakeforestnc.gov/meetings-events/six-sundays-spring",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Family",
+        "Free",
+        "Outdoor",
+        "Food"
+      ],
+      "description": "The Six Sundays in Spring 2026 is a free concert series featuring live music every Sunday from April 26 to May 31 at 5:30-7:30 p.m. at E. Carroll Joyner Park Amphitheater. Attendees can bring picnics or enjoy onsite food trucks in this family-friendly, rain-or-shine event sponsored by ARTS Wake Forest.",
+      "id": 112
+    },
+    {
+      "name": "Maslanka Symphony No. 4 (TWES 25th Anniversary)",
+      "tagline": "Triangle Wind Ensemble celebrates its 25th anniversary with David Maslanka's Symphony No. 4.",
+      "venue": "Cary Arts Center",
+      "address": "101 Dry Ave",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 4\u20135:30 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.trianglewind.org/maslanka-symphony-no-4-apr-26-2026.html",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "The Triangle Wind Ensemble, conducted by Evan Feldman, performs David Maslanka's Symphony No. 4 along with works by M\u00e1rquez, Fisher, Horne, Balmages, Mackey, and Copland to celebrate their 25th anniversary.",
+      "id": 113
+    },
+    {
+      "name": "Latin American Festival",
+      "tagline": "Join us for a vibrant celebration of Latin American culture with lively music, delicious food, and endless fun for all.",
+      "venue": "Knightdale Station Park",
+      "address": "810 N. First Ave.",
+      "city": "Knightdale",
+      "zip": "27545",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 1\u20136 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.knightdalenc.gov/latin-american-festival",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Food",
+        "Music",
+        "Outdoor",
+        "Family"
+      ],
+      "description": "The Latin American Festival at Knightdale Station Park features authentic musical performances by artists like Los Acoustic Guys, Valery Roxann, Orquesta K'che, and Grupo Bryndis, along with food trucks offering Latin cuisine such as tacos, raspados, and burgers. Hosted in partnership with La Grande NC, this free community event celebrates Latin American heritage through entertainment and cultural exploration.",
+      "id": 114
+    },
+    {
+      "name": "Sights and Sounds on Sundays: Gabriel Martins\u2019 Quartet",
+      "tagline": "Back by popular demand, cellist Gabriel Martins and pianist Victor Santiago Asunci\u00f3n join violinist Kevin Zhu and violist Matthew Lipman for a quartet featuring Turina, Foote, and Brahms.",
+      "venue": "North Carolina Museum of Art",
+      "address": "2110 Blue Ridge Road",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 2\u20134 PM",
+      "free": false,
+      "freeNote": "Tickets $31, Members $28, Students $25",
+      "ticketUrl": null,
+      "website": "https://ncartmuseum.org/events/sights-and-sounds-on-sundays-series-gabriel-martins-quartet/?occurrence=2026-04-26",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Museum"
+      ],
+      "description": "Cellist Gabriel Martins, pianist Victor Santiago Asunci\u00f3n, violinist Kevin Zhu, and violist Matthew Lipman perform a program including works by Joaqu\u00edn Turina, Arthur Foote, and Brahms in the SECU Auditorium.",
+      "id": 115
+    },
+    {
+      "name": "Spring Fling Annual Dog & Cat Fundraiser",
+      "tagline": "Join the Triangle's biggest pet-friendly fundraiser with vendors, rescues, and a doggie Easter egg hunt.",
+      "venue": "Koka Booth Amphitheatre",
+      "address": "8003 Regency Pkwy.",
+      "city": "Cary",
+      "zip": "27518",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 12\u20136 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.k9springfling.com/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Family",
+        "Outdoor",
+        "Free",
+        "Charity"
+      ],
+      "description": "Unleashed\u2019s 13th Annual Spring Fling is a free pet-friendly event featuring local vendors, 40 rescue groups with adoptable pets, a doggie Easter egg hunt, live music, raffles, and auctions to raise funds for local animal rescues.[1][2][3]",
+      "id": 116
+    },
+    {
+      "name": "Queer Community Hangout",
+      "tagline": "Casual gathering for the LGBTQ+ community at Fred Fletcher Park.",
+      "venue": "Fred Fletcher Park",
+      "address": "820 Clay St.",
+      "city": "Raleigh",
+      "zip": "27605",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "12:15\u20134 PM",
+      "free": true,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://partiful.com/e/VPf8FlcPXJ3hOTtK5fQ2?",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "LGBTQ+",
+        "Outdoor",
+        "Free"
+      ],
+      "description": "Queer Community Hangout is a relaxed event organized by F.O.F. World for the LGBTQ+ community, held at Fred Fletcher Park in Downtown Raleigh on Sunday, April 26, 2026, from 12:15pm to 4pm.",
+      "id": 117
+    },
+    {
+      "name": "Raleigh Anime-Fest",
+      "tagline": "Celebrate anime culture with cosplay, panels, and fellow enthusiasts.",
+      "venue": "Hilton Garden Inn Raleigh-Cary",
+      "address": "131 Columbus Avenue",
+      "city": "Cary",
+      "zip": "27518",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 10 AM\u20135 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": "https://www.eventbrite.com/e/raleigh-anime-fest-tickets-1979529304437",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Arts & Crafts",
+        "Family"
+      ],
+      "description": "An in-person anime celebration featuring cosplay, panels, and merchandise. All ages welcome with free parking available.",
+      "id": 118
+    },
+    {
+      "name": "Bluegrass Experience Spring Concert",
+      "tagline": "Free UNC bluegrass concert featuring the Bluegrass Experience ensemble.",
+      "venue": "The ArtsCenter",
+      "address": "125 S. Columbia Street",
+      "city": "Chapel Hill",
+      "zip": "27514",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 4:30\u20136:00 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://music.unc.edu/event/bluegrass-experience-sp26/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Bluegrass",
+        "Free"
+      ],
+      "description": "The Bluegrass Experience Spring Concert features the UNC student ensemble directed by Hank Smith at The ArtsCenter. Program details are TBA; arrive early for parking on campus.",
+      "id": 119
+    },
+    {
+      "name": "Notes on View: Smitha K. Prasad",
+      "tagline": "Live music performance in the galleries inspired by art.",
+      "venue": "North Carolina Museum of Art, East Building",
+      "address": "2110 Blue Ridge Road",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun. 11am-noon and 2-3pm",
+      "free": true,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://ncartmuseum.org/events/notes-on-view-smitha-k-prasad/?occurrence=2026-04-26",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Museum"
+      ],
+      "description": "Notes on View is a pop-up music series featuring 40-minute live performances that respond to and are inspired by art in the NCMA galleries. Smitha K. Prasad performs on April 26, 2026.",
+      "id": 120
+    },
+    {
+      "name": "Performances at the Page: Ladies of Swing",
+      "tagline": "A lively musical showcase celebrating swing-era classics with jazz standards.",
+      "venue": "Page-Walker Arts & History Center",
+      "address": "119 Ambassador Loop",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 4:00\u20135:30 PM",
+      "free": false,
+      "freeNote": "$25.00",
+      "ticketUrl": "https://www.etix.com/ticket/p/49541033/the-ladies-of-swingcelebrating-ella-fitzgeraldbillie-holliday-sarah-vaughn-cary-pagewalker-arts-history-center-in-cary-north-carolina",
+      "website": "https://www.carync.gov/recreation-enjoyment/events/concerts/performances-at-the-page",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Jazz",
+        "Theater",
+        "Ticketed"
+      ],
+      "description": "Enjoy an afternoon of jazz and swing celebrating Ella Fitzgerald, Billie Holiday, and Sarah Vaughan, featuring vocalist Maria Howell and pianist/vocalist Noel Freidline. Light refreshments are served at intermission.",
+      "id": 121
+    },
+    {
+      "name": "Holi Garland III",
+      "tagline": "Join the third annual joyful explosion of color celebrating Holi at Garland Hall.",
+      "venue": "Garland Hall",
+      "address": "471 S Driver St Ste 200",
+      "city": "Durham",
+      "zip": "27703",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 12\u20134 PM",
+      "free": false,
+      "freeNote": "$12 Advance | $15 Door (Free for kids under 10)",
+      "ticketUrl": "https://evedurham.com/parties/p/holi-garland-iii",
+      "website": "https://evedurham.com/parties/p/holi-garland-iii",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Outdoor",
+        "Family"
+      ],
+      "description": "Celebrate India's colorful Holi festival with gulal colors included in tickets, live DJ, dancing, Indian-inspired bites, and cocktails. Event features a joyful explosion of color marking new beginnings and the triumph of good over evil.[1]",
+      "id": 122
+    },
+    {
+      "name": "Really Really Free Market (Duke Move-Out Edition)",
+      "tagline": "Community sharing event where you bring what you don't need and take what you do, no money exchanged.",
+      "venue": "East Duke Building Lawn, Duke University East Campus",
+      "address": "Duke University East Campus",
+      "city": "Durham",
+      "zip": "",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://linktr.ee/thereallyreallyfreemarket",
+      "facebook": "",
+      "instagram": "",
+      "tags": [
+        "Market",
+        "Free",
+        "Outdoor"
+      ],
+      "description": "Special Duke Move-Out Edition of the Really Really Free Market, a gathering for sharing items like clothing, books, furniture, and services without buying, selling, or bartering. Held on Duke University East Campus to facilitate community generosity.",
+      "id": 123
+    },
+    {
+      "name": "Recovery: An Afternoon Tea Dance Party",
+      "tagline": "Afternoon tea dance party with DJs Gay Agenda and Father Disco.",
+      "venue": "The Velvet Hippo Bar & Lounge",
+      "address": "119 Orange Street, 3rd Floor",
+      "city": "Durham",
+      "zip": "27701",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 4\u20138 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": "https://www.eventbrite.com/e/recovery-tickets-1986535987615",
+      "website": "https://www.velvethippodurham.com/calendar",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Dance",
+        "LGBTQ+",
+        "21+",
+        "Free"
+      ],
+      "description": "Recovery is a recurring tea dance every 4th Sunday featuring DJs Gay Agenda and Father Disco from 4-8pm at The Velvet Hippo. 21+ only with drink specials including mimosas and spritzes.",
+      "id": 124
+    },
+    {
+      "name": "2026 Triangle Walk to Defeat Dementia",
+      "tagline": "A community walk to raise awareness and support for those impacted by dementia.",
+      "venue": "Fenton",
+      "address": "21 Fenton Main St.",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 1\u20134 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": "https://secure.qgiv.com/event/trianglewalk26/",
+      "website": "https://secure.qgiv.com/event/trianglewalk26/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Outdoor",
+        "Charity",
+        "Family",
+        "Free"
+      ],
+      "description": "Join caregivers, families, and supporters from across the Triangle for a day of celebration, remembrance, and community. Every step supports families facing the dementia journey in North Carolina. Pet friendly, rain or shine.",
+      "id": 125
+    },
+    {
+      "name": "50 For 50: 50 Miles on Raleigh's Greenway to Celebrate its 50th Anniversary",
+      "tagline": "Celebrate five decades of Raleigh's greenway system with a 50-mile commemorative ride.",
+      "venue": "Chavis Memorial Park",
+      "address": "600 Chavis Way",
+      "city": "Raleigh",
+      "zip": "27610",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 9:30 AM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://www.instagram.com/p/DWz3YQGiQdp/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/oaksandspokes",
+      "tags": [
+        "Outdoor",
+        "Biking",
+        "Festival"
+      ],
+      "description": "A 50-mile commemorative ride celebrating the 50th anniversary of Raleigh's Capital Area Greenway system. Departs from Chavis Memorial Park's northern parking lot at 9:30 AM.",
+      "id": 126
+    },
+    {
+      "name": "Acappology Presents: Aca-stronomy",
+      "tagline": "NC State's co-ed a cappella group performs their spring concert.",
+      "venue": "Stewart Theatre",
+      "address": "2610 Cates Avenue",
+      "city": "Raleigh",
+      "zip": "27695",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 7:30\u20139:30 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": "https://www.eventbrite.com/e/aca-astronomy-acappology-2026-spring-concert-tickets-1985838467313",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Theater",
+        "Family",
+        "Free"
+      ],
+      "description": "Join Acappology, NC State's original co-ed a cappella group founded in 1994, for their spring 2026 concert Aca-stronomy. Doors open at 7 PM with free parking available.",
+      "id": 127
+    },
+    {
+      "name": "Brunch & Bubbles at Ava Rooftop Bar",
+      "tagline": "Elevate your Sundays with $20 mimosa buckets, brunch buffet, live DJ, and lawn games.",
+      "venue": "AVA Rooftop Bar",
+      "address": "301 Fenton Gateway Dr.",
+      "city": "Cary",
+      "zip": "27511",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun. 12\u20133 PM",
+      "free": true,
+      "freeNote": "Free admission",
+      "ticketUrl": null,
+      "website": "https://avarooftopbar.com/event/brunch-bubbles-7/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Food",
+        "Outdoor"
+      ],
+      "description": "Recurring monthly event on the 4th Sunday featuring a $20 brunch buffet, $20 mimosa buckets, live DJ, and lawn games from noon to 3 PM at AVA Rooftop Bar.",
+      "id": 128
+    },
+    {
+      "name": "North Carolina Bridal & Wedding Expo",
+      "tagline": "Kick off your wedding planning with top vendors, fashion shows, and prizes at this bridal expo.",
+      "venue": "Raleigh Convention Center",
+      "address": "500 S. Salisbury St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 12:30\u20135 PM",
+      "free": false,
+      "freeNote": "Free with online registration; $10 at the door",
+      "ticketUrl": "https://www.eventbrite.com/e/north-carolina-bridal-wedding-expo-tickets-1979416356607",
+      "website": "https://ncbridalexpos-rc.com",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Festival",
+        "Adult"
+      ],
+      "description": "The North Carolina Bridal & Wedding Expo features wedding professionals, bridal fashion shows, live DJ demos, prizes, and giveaways to help plan your big day.",
+      "id": 129
+    },
+    {
+      "name": "Senior Center Presents Steel Magnolias",
+      "tagline": "Pull up a chair as six sassy southern spitfires share stories of strength and the fierce friendships that see us through.",
+      "venue": "Morrisville Senior Center",
+      "address": "4117 Davis Drive",
+      "city": "Morrisville",
+      "zip": "27560",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sunday 12:30\u20136:00 PM",
+      "free": false,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.morrisvillenc.gov/Events-directory/Senior-Center-Steel-Magnolias-CANCELED",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Theater"
+      ],
+      "description": "A performance of the play Steel Magnolias at the Morrisville Senior Center on Sunday, April 26, 2026, from 12:30 PM to 6:00 PM. The event features six sassy southern women sharing stories of strength and enduring friendships.",
+      "id": 130
+    },
+    {
+      "name": "The Dead Man\u2019s Doctors and Mary Anna",
+      "tagline": "Classic rock revival with The Dead Man's Doctors and Mary Anna.",
+      "venue": "Slim's Dive Bar",
+      "address": "227 S. Wilmington St.",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 8\u201311 PM",
+      "free": true,
+      "freeNote": "",
+      "ticketUrl": "https://www.eventbrite.com/e/the-dead-mans-doctors-and-mary-anna-tickets-1987157557748",
+      "website": "https://slimsdivebar.com/event-archive/dead-mans-doctors/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "The Dead Man's Doctors, a classic rock revival band, perform with Mary Anna at Slim's Dive Bar on Sunday, April 26, 2026, from 8:00 pm to 11:00 pm.",
+      "id": 131
+    },
+    {
+      "name": "The Dirty Lowdown with DJ Castro & Al Ski Love",
+      "tagline": "Monthly DJ event featuring DJ Castro and Al Ski Love spinning tracks at Bitter Social.",
+      "venue": "Bitter Social",
+      "address": "104 S. Wilmington St. Above Centro",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 2\u20136 PM",
+      "free": true,
+      "freeNote": "",
+      "ticketUrl": null,
+      "website": "https://www.bittersocialraleigh.com/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music"
+      ],
+      "description": "Recurring monthly event on the 4th Sunday featuring DJ Castro & Al-Ski Love at Bitter Social in Downtown Raleigh. Scheduled for Sunday, April 26, 2026 from 2-6pm.",
+      "id": 132
+    },
+    {
+      "name": "Polyrhythmics",
+      "tagline": "High-energy funk and jazz fusion band live in concert.",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "address": "224 S Blount St",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 8:00 PM",
+      "free": false,
+      "freeNote": "Tickets from $23.22",
+      "ticketUrl": "https://www.pourhouseraleigh.com/shows/polyrhythmics-26-apr",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Jazz"
+      ],
+      "description": "Polyrhythmics performs a dynamic blend of rock, funk, jazz, and world music at The Pour House Music Hall on Sunday, April 26, 2026, at 8:00 PM.",
+      "id": 133
+    },
+    {
+      "name": "Little Miss Nasty, GG Magree, Mimi Barks",
+      "tagline": "Industrial dance night with Little Miss Nasty, GG Magree, and Mimi Barks at Chapel of Bones.",
+      "venue": "Chapel of Bones",
+      "address": "658 Maywood Ave., Ste. B 110",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun. 7pm",
+      "free": false,
+      "freeNote": "$30 Advance / $35 Day of",
+      "ticketUrl": "https://www.tickpick.com/organizer/event/little-miss-nasty-gg-magree-mimi-barks-66028119?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Dance",
+        "21+"
+      ],
+      "description": "Little Miss Nasty headlines with GG Magree and Mimi Barks in an industrial dance concert on Sunday, April 26, 2026, at Chapel of Bones in Raleigh.",
+      "id": 134
+    },
+    {
+      "name": "UNC Habitat\u2019s 3rd Annual Art for Humanity Silent Auction",
+      "tagline": "Silent auction featuring artwork from local artists and students to support affordable housing.",
+      "venue": "The Pitch",
+      "address": "462 W Franklin Street",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 5:30\u20137 PM",
+      "free": false,
+      "freeNote": "Ticketed event",
+      "ticketUrl": "https://event.auctria.com/2c9bb25c-a861-4faa-b11f-3a259b3aeffb/",
+      "website": null,
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Arts & Crafts",
+        "Charity",
+        "Ticketed"
+      ],
+      "description": "Habitat for Humanity\u2019s 3rd Annual Art for Humanity silent auction features artwork from local artists and talented students, with all proceeds supporting safe and affordable housing for families in need.",
+      "id": 135
+    },
+    {
+      "name": "Oyster Pop-Up | The Oyster Girl NC & Waterman\u2019s Choice",
+      "tagline": "Fresh oysters meet craft ciders at this pop-up tasting event.",
+      "venue": "Botanist and Barrel",
+      "address": "105 Persimmon Hill Lane",
+      "city": "Cedar Grove",
+      "zip": "27231",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sun 12\u20133 PM",
+      "free": false,
+      "freeNote": "$12",
+      "ticketUrl": null,
+      "website": "https://www.botanistandbarrel.com/store/p/oyster-pop-up",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Food",
+        "Wine"
+      ],
+      "description": "Oyster pop-up featuring The Oyster Girl NC and Waterman\u2019s Choice, pairing fresh oysters with Botanist & Barrel's ciders and wines from 12:00 PM to 3:00 PM.",
+      "id": 136
+    },
+    {
+      "name": "26th Annual Mildred Council Community Dinner",
+      "tagline": "Annual community-building dinner honoring Mildred 'Mama Dip' Council with diverse food and entertainment.",
+      "venue": "McDougle School Cafetorium",
+      "address": "900 Old Fayetteville Road",
+      "city": "Chapel Hill",
+      "zip": "27516",
+      "days": [
+        "Sunday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sunday 1:00 PM",
+      "free": false,
+      "freeNote": "Children 12 and under: $5 \u00b7 Adults: $10",
+      "ticketUrl": null,
+      "website": "https://communitydinner.org/",
+      "facebook": null,
+      "instagram": null,
+      "tags": [
+        "Food",
+        "Family",
+        "Charity"
+      ],
+      "description": "The Mildred Council Community Dinner brings people together across economic, racial, religious, and ethnic backgrounds with culturally diverse foods and local entertainment. Many tickets are provided at low or no cost to those who may not otherwise attend.",
+      "id": 137
     }
-  ],
-  "raw_source": "seed (hand-crafted, no raw extraction)"
+  ]
 }
