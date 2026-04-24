@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <title>Raleigh Weekend Events Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --text-xs:clamp(0.75rem,0.7rem + 0.25vw,0.875rem);--text-sm:clamp(0.875rem,0.8rem + 0.35vw,1rem);--text-base:clamp(1rem,0.95rem + 0.25vw,1.125rem);--text-lg:clamp(1.125rem,1rem + 0.75vw,1.5rem);--text-xl:clamp(1.5rem,1.2rem + 1.25vw,2.25rem);
+      --space-1:0.25rem;--space-2:0.5rem;--space-3:0.75rem;--space-4:1rem;--space-5:1.25rem;--space-6:1.5rem;--space-8:2rem;--space-10:2.5rem;--space-12:3rem;--space-16:4rem;
+      --color-bg:#f7f6f2;--color-surface:#f9f8f5;--color-surface-2:#fbfbf9;--color-surface-offset:#f3f0ec;--color-border:#d4d1ca;--color-text:#28251d;--color-text-muted:#7a7974;--color-primary:#01696f;--color-primary-soft:#cedcd8;
+      --radius-sm:0.375rem;--radius-md:0.5rem;--radius-lg:0.75rem;--radius-full:9999px;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.05);--shadow-md:0 4px 12px rgba(0,0,0,.08);
+      --transition:160ms cubic-bezier(0.16,1,0.3,1);
+    }
+    [data-theme="dark"] {
+      --color-bg:#171614;--color-surface:#1c1b19;--color-surface-2:#201f1d;--color-surface-offset:#22211f;--color-border:#393836;--color-text:#cdccca;--color-text-muted:#797876;--color-primary:#4f98a3;--color-primary-soft:#313b3b;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.3);--shadow-md:0 4px 16px rgba(0,0,0,.45);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{-webkit-font-smoothing:antialiased;text-size-adjust:none;scroll-behavior:smooth;scroll-padding-top:var(--space-16)}
+    body{font-family:'Work Sans',system-ui,sans-serif;font-size:var(--text-base);line-height:1.6;color:var(--color-text);background:var(--color-bg);min-height:100vh}
+    img{max-width:100%;display:block}
+    button{font:inherit;color:inherit;border:none;background:none;cursor:pointer}
+    a{color:inherit;text-decoration:none}
+    .page{max-width:1100px;margin:0 auto;padding:var(--space-4) var(--space-4) var(--space-10)}
+    header{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-4)}
+    .logo{display:flex;align-items:center;gap:var(--space-3)}
+    .logo-mark{width:36px;height:36px;border-radius:40% 60% 50% 50%;background:radial-gradient(circle at 30% 20%,#fff,var(--color-primary-soft));border:1px solid rgba(0,0,0,.04);box-shadow:var(--shadow-sm);display:flex;align-items:center;justify-content:center;color:var(--color-primary);font-weight:700;font-size:.8rem}
+    .logo-text h1{font-size:var(--text-lg);font-weight:600;letter-spacing:.02em}
+    .logo-text p{font-size:var(--text-xs);color:var(--color-text-muted)}
+    .theme-toggle{border-radius:var(--radius-full);padding:.25rem .6rem;border:1px solid var(--color-border);background:var(--color-surface);display:inline-flex;align-items:center;gap:.35rem;box-shadow:var(--shadow-sm);transition:background var(--transition),transform var(--transition),box-shadow var(--transition)}
+    .theme-toggle:hover{transform:translateY(-1px);box-shadow:var(--shadow-md)}
+    .filters{position:sticky;top:0;z-index:10;padding:var(--space-3);margin:0 -1rem;background:linear-gradient(to bottom,var(--color-bg) 80%,transparent);backdrop-filter:blur(8px)}
+    .filters-inner{max-width:1100px;margin:0 auto;padding:0 var(--space-4);border-radius:var(--radius-lg);background:var(--color-surface);box-shadow:var(--shadow-sm);border:1px solid var(--color-border);display:grid;gap:0}
+    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;justify-content:space-between;padding:var(--space-3);border-bottom:1px solid rgba(0,0,0,.04)}
+    .pill-group{display:flex;flex-wrap:wrap;gap:var(--space-2)}
+    .pill{padding:.25rem .75rem;border-radius:var(--radius-full);border:1px solid rgba(0,0,0,.06);background:var(--color-surface-2);font-size:var(--text-xs);color:var(--color-text-muted);display:inline-flex;align-items:center;gap:.25rem;transition:background var(--transition),color var(--transition),border-color var(--transition),transform var(--transition),box-shadow var(--transition);white-space:nowrap}
+    .pill.is-active{background:var(--color-primary-soft);border-color:var(--color-primary);color:var(--color-primary);box-shadow:var(--shadow-sm);transform:translateY(-1px)}
+    .search-row{display:flex;flex-wrap:wrap;gap:var(--space-2);padding:var(--space-3);align-items:center}
+    .field{flex:1 1 220px;position:relative}
+    .field input{width:100%;padding:.5rem .75rem .5rem 1.9rem;border-radius:var(--radius-md);border:1px solid var(--color-border);background:var(--color-surface-2);font-size:var(--text-sm);color:var(--color-text);outline:none;transition:border-color var(--transition),box-shadow var(--transition),background var(--transition)}
+    .field input::placeholder{color:var(--color-text-muted)}
+    .field input:focus{border-color:var(--color-primary);box-shadow:0 0 0 1px rgba(1,105,111,.2);background:var(--color-surface)}
+    .field-icon{position:absolute;left:.6rem;top:50%;transform:translateY(-50%);font-size:.9rem;color:var(--color-text-muted);pointer-events:none}
+    .result-meta{font-size:var(--text-xs);color:var(--color-text-muted)}
+    .events-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--space-3);margin-top:var(--space-2)}
+    @media(min-width:720px){.events-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(min-width:1040px){.events-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    .event-card{position:relative;border-radius:var(--radius-lg);border:1px solid var(--color-border);background:var(--color-surface);box-shadow:var(--shadow-sm);padding:var(--space-3);display:flex;flex-direction:column;gap:var(--space-2);transition:transform var(--transition),box-shadow var(--transition),border-color var(--transition),background var(--transition)}
+    .event-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:rgba(1,105,111,.35);background:var(--color-surface-2)}
+    .event-card.highlighted{outline:2px solid var(--color-primary);outline-offset:2px}
+    .event-select{position:absolute;top:.5rem;right:.5rem;display:flex;align-items:center;gap:.25rem;font-size:var(--text-xs);color:var(--color-text-muted)}
+    .event-select input[type=checkbox]{width:16px;height:16px;accent-color:var(--color-primary)}
+    .event-day{font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em}
+    .event-title{font-size:var(--text-base);font-weight:600;padding-right:3rem}
+    .event-tagline{font-size:var(--text-xs);color:var(--color-text-muted);font-style:italic}
+    .event-venue{font-size:var(--text-sm);color:var(--color-text-muted)}
+    .event-meta{display:flex;flex-direction:column;gap:.15rem;font-size:var(--text-xs);color:var(--color-text-muted)}
+    .badge-row{display:flex;flex-wrap:wrap;gap:.25rem;margin-top:.25rem}
+    .badge{padding:.15rem .4rem;border-radius:var(--radius-full);border:1px solid transparent;font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;font-weight:500;white-space:nowrap}
+    .badge-free{background:#e3f6e1;color:#23592a;border-color:rgba(34,139,34,.25)}
+    .badge-paid{background:#fff4e0;color:#8c4a00;border-color:rgba(220,140,20,.35)}
+    [data-theme=dark] .badge-free{background:#294231;color:#b9f6c0;border-color:rgba(185,246,192,.25)}
+    [data-theme=dark] .badge-paid{background:#493825;color:#ffd9a2;border-color:rgba(255,217,162,.35)}
+    .badge-multiday{background:var(--color-surface-offset);color:var(--color-text);border-color:rgba(0,0,0,.06)}
+    .tag-chips{display:flex;flex-wrap:wrap;gap:.25rem}
+    .tag-chip{padding:.15rem .5rem;border-radius:var(--radius-full);background:var(--color-surface-offset);font-size:.7rem;color:var(--color-text-muted);cursor:pointer;transition:background var(--transition),color var(--transition)}
+    .tag-chip:hover{background:var(--color-primary-soft);color:var(--color-primary)}
+    .event-desc{font-size:var(--text-sm);color:var(--color-text)}
+    .event-links{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.25rem}
+    .event-link{display:inline-flex;align-items:center;gap:.25rem;color:var(--color-primary);font-size:var(--text-xs);transition:opacity var(--transition)}
+    .event-link:hover{opacity:.75}
+    .share-bar{position:sticky;bottom:.75rem;margin-top:var(--space-3);display:flex;justify-content:center;pointer-events:none}
+    .share-inner{pointer-events:auto;background:var(--color-surface);border-radius:var(--radius-full);border:1px solid var(--color-border);box-shadow:var(--shadow-md);padding:.4rem .75rem;display:flex;align-items:center;gap:.6rem;font-size:var(--text-xs);color:var(--color-text-muted)}
+    .btn-primary{padding:.35rem .9rem;border-radius:var(--radius-full);background:var(--color-primary);color:#fff;font-size:var(--text-xs);font-weight:500;display:inline-flex;align-items:center;gap:.25rem;transition:background var(--transition),transform var(--transition),box-shadow var(--transition)}
+    .btn-primary:hover{background:#0c4e54;transform:translateY(-1px);box-shadow:var(--shadow-md)}
+    .btn-ghost{padding:.35rem .9rem;border-radius:var(--radius-full);border:1px solid var(--color-border);font-size:var(--text-xs);color:var(--color-text-muted);transition:background var(--transition),transform var(--transition)}
+    .btn-ghost:hover{background:var(--color-surface-offset);transform:translateY(-1px)}
+    .share-toast{position:fixed;inset-inline:0;bottom:.5rem;display:flex;justify-content:center;pointer-events:none;z-index:40;opacity:0;transition:opacity .3s}
+    .share-toast.visible{opacity:1}
+    .share-toast-inner{background:var(--color-primary);color:#fff;padding:.35rem .85rem;border-radius:var(--radius-full);font-size:var(--text-xs);box-shadow:var(--shadow-md)}
+    .empty-state{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-16) var(--space-8);color:var(--color-text-muted);grid-column:1/-1}
+    .empty-state h3{color:var(--color-text);margin-bottom:var(--space-2)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
+  </style>
+</head>
+<body>
+<div class="page">
+  <a href="#main" class="sr-only">Skip to events</a>
+  <header>
+    <div class="logo" aria-label="Raleigh Weekend Events Hub">
+      <div class="logo-mark">919</div>
+      <div class="logo-text">
+        <h1>Raleigh Weekend Events</h1>
+        <p id="weekLabel">Loading…</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:var(--space-2);align-items:center">
+      <button id="clearSelBtn" class="btn-ghost" type="button" style="display:none">Clear selection</button>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span id="themeIcon">☀️</span>
+        <span class="theme-label" style="font-size:var(--text-xs);color:var(--color-text-muted)">Light</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="filters" aria-label="Filters">
+      <div class="filters-inner">
+        <div class="filters-row">
+          <div class="pill-group" id="dayPills" aria-label="Filter by day">
+            <button class="pill is-active" data-day="all" type="button">All days</button>
+            <button class="pill" data-day="Friday" type="button">Friday</button>
+            <button class="pill" data-day="Saturday" type="button">Saturday</button>
+            <button class="pill" data-day="Sunday" type="button">Sunday</button>
+          </div>
+          <button class="pill" id="freeToggle" type="button">⊙ Free only</button>
+        </div>
+        <div class="filters-row">
+          <div class="pill-group" id="tagPills" aria-label="Filter by tag"></div>
+        </div>
+        <div class="search-row">
+          <div class="field">
+            <span class="field-icon">🔍</span>
+            <input id="searchInput" type="search" placeholder="Search events, venues, tags…" />
+          </div>
+          <div class="result-meta" id="resultMeta">Loading…</div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Events">
+      <div id="eventsGrid" class="events-grid"></div>
+    </section>
+
+    <div class="share-bar" aria-live="polite">
+      <div class="share-inner" id="shareBar" style="display:none">
+        <span id="shareCount"><strong>0</strong> selected</span>
+        <button class="btn-primary" id="shareBtn" type="button">📋 Copy shareable link</button>
+      </div>
+    </div>
+    <div class="share-toast" id="shareToast">
+      <div class="share-toast-inner">✓ Link copied — paste it in a text or email!</div>
+    </div>
+  </main>
+</div>
+
+<script>
+// Theme
+(function(){
+  const root=document.documentElement,toggle=document.getElementById('themeToggle'),icon=document.getElementById('themeIcon'),label=toggle.querySelector('.theme-label');
+  let cur=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+  function setTheme(m){root.setAttribute('data-theme',m);icon.textContent=m==='dark'?'🌙':'☀️';label.textContent=m==='dark'?'Dark':'Light';}
+  setTheme(cur);
+  toggle.addEventListener('click',()=>{cur=cur==='dark'?'light':'dark';setTheme(cur);});
+})();
+
+const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),query:'',week:null};
+const $ = id => document.getElementById(id);
+
+function getUrlParams(){
+  const p=new URLSearchParams(window.location.search);
+  const sel=p.get('selected');
+  const ids=new Set();
+  if(sel)sel.split(',').forEach(x=>{const n=parseInt(x,10);if(!isNaN(n))ids.add(n);});
+  return{selectedIds:ids,weekParam:p.get('week')};
+}
+
+function buildTagPills(events){
+  const counts=new Map();
+  events.forEach(e=>(e.tags||[]).forEach(t=>counts.set(t,(counts.get(t)||0)+1)));
+  const top=Array.from(counts.entries()).sort((a,b)=>b[1]-a[1]).slice(0,14).map(([t])=>t);
+  const c=$('tagPills');c.innerHTML='';
+  top.forEach(tag=>{
+    const btn=document.createElement('button');
+    btn.type='button';btn.className='pill';btn.dataset.tag=tag;btn.textContent=tag;
+    btn.addEventListener('click',()=>{
+      if(state.activeTags.has(tag)){state.activeTags.delete(tag);btn.classList.remove('is-active');}
+      else{state.activeTags.add(tag);btn.classList.add('is-active');}
+      applyFilters();
+    });
+    c.appendChild(btn);
+  });
+}
+
+function applyFilters(){
+  const{activeDay:day,freeOnly,activeTags:tags,query:q,selectedIds}=state;
+  let out=state.allEvents.filter(ev=>{
+    if(day!=='all'&&!(ev.days||[]).includes(day))return false;
+    if(freeOnly&&!ev.free)return false;
+    if(tags.size>0){const et=new Set(ev.tags||[]);let ok=false;tags.forEach(t=>{if(et.has(t))ok=true;});if(!ok)return false;}
+    if(q){const txt=[ev.name||'',ev.venue||'',ev.city||'',(ev.tags||[]).join(' ')].join(' ').toLowerCase();if(!txt.includes(q))return false;}
+    return true;
+  });
+  out.sort((a,b)=>{
+    const as=selectedIds.has(a.id)?0:1,bs=selectedIds.has(b.id)?0:1;
+    if(as!==bs)return as-bs;
+    return(a.name||'').localeCompare(b.name||'');
+  });
+  state.filtered=out;
+  renderEvents();
+}
+
+function renderEvents(){
+  const grid=$('eventsGrid');
+  grid.innerHTML='';
+  if(!state.filtered.length){
+    const d=document.createElement('div');d.className='empty-state';
+    d.innerHTML='<h3>No events match</h3><p>Try adjusting your filters or search query.</p>';
+    grid.appendChild(d);
+  } else {
+    state.filtered.forEach(ev=>grid.appendChild(makeCard(ev)));
+  }
+  $('resultMeta').textContent=`${state.filtered.length} of ${state.allEvents.length} events`;
+  const n=state.selectedIds.size;
+  $('shareBar').style.display=n>0?'flex':'none';
+  $('clearSelBtn').style.display=n>0?'':'none';
+  if(n>0)$('shareCount').innerHTML=`<strong>${n}</strong> selected`;
+}
+
+function makeCard(ev){
+  const card=document.createElement('article');
+  card.className='event-card'+(state.selectedIds.has(ev.id)?' highlighted':'');
+  card.dataset.id=ev.id;
+
+  const sel=document.createElement('label');
+  sel.className='event-select';
+  const cb=document.createElement('input');cb.type='checkbox';cb.checked=state.selectedIds.has(ev.id);cb.setAttribute('aria-label','Select '+ev.name);
+  cb.addEventListener('change',()=>{
+    if(cb.checked)state.selectedIds.add(ev.id);else state.selectedIds.delete(ev.id);
+    applyFilters();
+  });
+  sel.appendChild(cb);card.appendChild(sel);
+
+  function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e;}
+
+  card.appendChild(el('div','event-day',(ev.days||[]).join(' · ')));
+  card.appendChild(el('div','event-title',ev.name));
+  if(ev.tagline)card.appendChild(el('div','event-tagline',ev.tagline));
+  card.appendChild(el('div','event-venue',[ev.venue,ev.city].filter(Boolean).join(' · ')));
+
+  const meta=el('div','event-meta');
+  if(ev.scheduleNote)meta.appendChild(el('div','',ev.scheduleNote));
+  if(ev.address)meta.appendChild(el('div','',ev.address));
+  card.appendChild(meta);
+
+  const badges=el('div','badge-row');
+  const fb=el('span','badge '+(ev.free?'badge-free':'badge-paid'),ev.free?'Free':'Ticketed');
+  badges.appendChild(fb);
+  if(ev.multiDay){const md=el('span','badge badge-multiday','Multi-day');badges.appendChild(md);}
+  card.appendChild(badges);
+
+  const chips=el('div','tag-chips');
+  (ev.tags||[]).forEach(t=>{
+    const c=el('span','tag-chip',t);
+    c.addEventListener('click',()=>{
+      const btn=document.querySelector(\`[data-tag="\${t}"]\`);
+      if(btn){btn.click();}
+    });
+    chips.appendChild(c);
+  });
+  card.appendChild(chips);
+
+  if(ev.description)card.appendChild(el('p','event-desc',ev.description));
+
+  const links=el('div','event-links');
+  function addLink(label,url){
+    if(!url)return;
+    const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.className='event-link';a.textContent=label;links.appendChild(a);
+  }
+  addLink('🌐 Website',ev.website);
+  if(!ev.free&&ev.ticketUrl)addLink('🎟 Tickets',ev.ticketUrl);
+  addLink('📘 Facebook',ev.facebook);
+  addLink('📷 Instagram',ev.instagram);
+  card.appendChild(links);
+
+  return card;
+}
+
+// Share
+$('shareBtn').addEventListener('click',()=>{
+  if(!state.selectedIds.size)return;
+  const ids=Array.from(state.selectedIds).sort((a,b)=>a-b);
+  const p=new URLSearchParams();
+  p.set('selected',ids.join(','));
+  if(state.week)p.set('week',state.week);
+  const url=`${location.origin}${location.pathname}?${p.toString()}`;
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(showToast).catch(()=>window.prompt('Copy this link:',url));
+  } else {window.prompt('Copy this link:',url);}
+});
+
+$('clearSelBtn').addEventListener('click',()=>{state.selectedIds.clear();applyFilters();});
+
+// Day pills
+document.getElementById('dayPills').addEventListener('click',e=>{
+  const btn=e.target.closest('[data-day]');if(!btn)return;
+  document.querySelectorAll('[data-day]').forEach(b=>b.classList.remove('is-active'));
+  btn.classList.add('is-active');state.activeDay=btn.dataset.day;applyFilters();
+});
+
+// Free toggle
+$('freeToggle').addEventListener('click',function(){
+  state.freeOnly=!state.freeOnly;this.classList.toggle('is-active',state.freeOnly);applyFilters();
+});
+
+// Search
+$('searchInput').addEventListener('input',function(){state.query=this.value.toLowerCase().trim();applyFilters();});
+
+function showToast(){
+  const t=$('shareToast');t.classList.add('visible');setTimeout(()=>t.classList.remove('visible'),2500);
+}
+
+// Load data
+fetch('events.json')
+  .then(r=>r.json())
+  .then(data=>{
+    state.allEvents=data.events||[];
+    state.week=data.week||null;
+    if(data.week){
+      const d=new Date(data.week);
+      $('weekLabel').textContent='Weekend of '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+    }
+    buildTagPills(state.allEvents);
+    const{selectedIds}=getUrlParams();
+    state.selectedIds=selectedIds;
+    applyFilters();
+    if(selectedIds.size>0){
+      setTimeout(()=>{
+        const first=document.querySelector('.event-card.highlighted');
+        if(first)first.scrollIntoView({behavior:'smooth',block:'center'});
+      },300);
+    }
+  })
+  .catch(()=>{$('resultMeta').textContent='Could not load events.json';});
+</script>
+</body>
+</html>
