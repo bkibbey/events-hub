@@ -532,13 +532,12 @@ $('searchInput').addEventListener('input',function(){state.query=this.value.toLo
   });
 })();
 
-// Condense the sticky header/filter bar after scrolling past a small threshold
+// Condense the sticky header/filter bar as soon as the user scrolls
 (function(){
   const shell=$('appShell');
-  const threshold=24;
   let ticking=false;
   function update(){
-    shell.classList.toggle('is-condensed',window.scrollY>threshold);
+    shell.classList.toggle('is-condensed',window.scrollY>0);
     ticking=false;
   }
   window.addEventListener('scroll',()=>{
