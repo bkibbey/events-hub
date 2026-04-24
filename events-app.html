@@ -49,10 +49,10 @@
     /* Filters */
     .filters{padding:0;margin:0}
     .filters-inner{border-radius:var(--radius-lg);background:var(--color-surface);box-shadow:var(--shadow-sm);border:1px solid var(--color-border);display:grid;gap:0;transition:box-shadow var(--transition)}
-    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:var(--space-3);border-bottom:1px solid rgba(0,0,0,.04);transition:padding var(--transition),max-height .3s cubic-bezier(0.16,1,0.3,1),opacity var(--transition);overflow:hidden}
+    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:.4rem .6rem;border-bottom:1px solid rgba(0,0,0,.04);transition:padding var(--transition),max-height .3s cubic-bezier(0.16,1,0.3,1),opacity var(--transition);overflow:hidden}
     .filters-row:last-child{border-bottom:none}
     .filters-row .row-label{font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-right:var(--space-2);white-space:nowrap;transition:opacity var(--transition),max-width var(--transition);max-width:5rem}
-    .app-shell.is-condensed .filters-row{padding:.4rem var(--space-3)}
+    .app-shell.is-condensed .filters-row{padding:.25rem .6rem}
     .app-shell.is-condensed .filters-row .row-label{opacity:0;max-width:0;margin-right:0;overflow:hidden}
     /* When condensed, hide tag and city rows entirely; the search box on row 1 remains usable */
     .app-shell.is-condensed .filters-row.is-collapsible{max-height:0;padding-top:0;padding-bottom:0;opacity:0;border-bottom:none;pointer-events:none}
@@ -65,7 +65,7 @@
     .summary-chip .x{opacity:.6;font-size:.7em}
     .filters-row .field{flex:1 1 200px;min-width:180px;max-width:320px;position:relative}
     /* Row 1 layout: pills left, search centered, toggle right */
-    .filters-row.row-primary{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:var(--space-3)}
+    .filters-row.row-primary{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:var(--space-2)}
     .filters-row.row-primary > .row-label{grid-column:1;justify-self:start}
     .filters-row.row-primary > #dayPills{grid-column:1;justify-self:start;flex:0 0 auto}
     .filters-row.row-primary > .active-summary{grid-column:1 / -1;order:99;justify-self:start}
