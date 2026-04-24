@@ -1,0 +1,1376 @@
+{
+  "week": "2026-04-24",
+  "ingested": "2026-04-24",
+  "source": "https://us15.campaign-archive.com/?u=ddef6da2cf1e7abe0e37514bc&id=291544bb7c",
+  "event_count": 152,
+  "events": [
+    {
+      "name": "Brewgaloo",
+      "link": "https://shoplocalraleigh.org/brewgaloo/",
+      "venue": "Downtown",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Brewgaloo , Downtown, Raleigh",
+      "id": 1
+    },
+    {
+      "name": "Earth Day Celebration at Dix Park",
+      "link": "https://dorotheadixpark.org/event/raleigh-earth-day",
+      "venue": "Dorothea Dix Park",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Earth Day Celebration at Dix Park ,\u00a0Dorothea Dix Park, Raleigh",
+      "id": 2
+    },
+    {
+      "name": "Carolina Ballet presents Celebration of America",
+      "link": "https://carolinaballet.com/program/celebration-of-america/",
+      "venue": "Memorial Auditorium at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Carolina Ballet presents Celebration of America ,\u00a0Memorial Auditorium at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 3
+    },
+    {
+      "name": "R&B ONLY LIVE",
+      "link": "https://raleigh.rnbonly.com/",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "R&B ONLY LIVE , The Ritz, Raleigh",
+      "id": 4
+    },
+    {
+      "name": "Bill Bellamy",
+      "link": "https://improv.com/raleigh/comic/bill+bellamy/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Bill Bellamy , Raleigh Improv, Cary",
+      "id": 5
+    },
+    {
+      "name": "Zoltan Kaszasx",
+      "link": "https://www.goodnightscomedy.com/events/125136",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Zoltan Kaszasx ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 6
+    },
+    {
+      "name": "Sandlot Revival",
+      "link": "https://www.instagram.com/p/DXcPdD6ltWx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "venue": "Historic Durham Athletic Park",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Sandlot Revival ,\u00a0Historic Durham Athletic Park, Durham",
+      "id": 7
+    },
+    {
+      "name": "The Monti GrandSLAM",
+      "link": "https://carolinatheatre.org/events/live-event/the-monti-grandslam-2026/",
+      "venue": "Carolina Theatre",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "The Monti GrandSLAM ,\u00a0Carolina Theatre, Durham",
+      "id": 8
+    },
+    {
+      "name": "The Main Event: North State Blues",
+      "link": "https://lordfess.bandcamp.com/merch/the-main-event-north-state-blues-live-in-concert",
+      "venue": "The Fruit",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "The Main Event: North State Blues ,\u00a0The Fruit, Durham",
+      "id": 9
+    },
+    {
+      "name": "Armand Hammer",
+      "link": "https://motorcomusic.com/event/armand-hammer-4-24-26/",
+      "venue": "Motorco Music Hall",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Armand Hammer , Motorco Music Hall, Durham",
+      "id": 10
+    },
+    {
+      "name": "Candlelight: Tribute to The Beatles",
+      "link": "https://feverup.com/m/368666?utm_source=affiliate&utm_medium=impact&utm_campaign=368666&utm_content=4738271_Event%20Vesta&irclickid=UBNSIEx1yxycRoiVoCWBRwoMUku3fv02UzYXSE0&irgwc=1&afsrc=1",
+      "venue": "The Historic Wakefield Barn",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "Candlelight: Tribute to The Beatles ,\u00a0The Historic Wakefield Barn, Wake Forest",
+      "id": 11
+    },
+    {
+      "name": "Capital Auto Group 199 - SMART Modified Tour",
+      "link": "https://www.wcspeedway.com/",
+      "venue": "Wake County Speedway",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Capital Auto Group 199 - SMART Modified Tour ,\u00a0Wake County Speedway, Raleigh",
+      "id": 12
+    },
+    {
+      "name": "The Big Blues Show with The Music Maker Foundation",
+      "link": "https://www.etix.com/ticket/p/37274478/marvelous-music-seriestown-of-cary-presents-the-big-blues-show-with-the-music-maker-foundationmaker-foundation-cary-cary-arts-center",
+      "venue": "The Cary Arts Center",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "The Big Blues Show with The Music Maker Foundation ,\u00a0The Cary Arts Center, Cary",
+      "id": 13
+    },
+    {
+      "name": "The Happy Fits",
+      "link": "https://lincolntheatre.com/event/the-happy-fits-w-bel/lincoln-theatre/raleigh-north-carolina/",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Happy Fits , Lincoln Theatre, Raleigh",
+      "id": 14
+    },
+    {
+      "name": "The People\u2019s Collection: Ixcanul",
+      "link": "https://ncartmuseum.org/events/the-peoples-collection-ixcanul/?occurrence=2026-04-24",
+      "venue": "East Building, SECU Auditorium",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The People\u2019s Collection: Ixcanul ,\u00a0East Building, SECU Auditorium, Raleigh",
+      "id": 15
+    },
+    {
+      "name": "Trio Sefardi",
+      "link": "https://ncartmuseum.org/events/trio-sefardi/?occurrence=2026-04-24",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Trio Sefardi ,\u00a0North Carolina Museum of Art, Raleigh",
+      "id": 16
+    },
+    {
+      "name": "Josh Mandl",
+      "link": "https://www.goodnightscomedy.com/events/129126",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Josh Mandl ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 17
+    },
+    {
+      "name": "Annual Heirloom Plant Sale",
+      "link": "https://raleighnc.gov/parks-and-recreation/events/annual-heirloom-plant-sale-0",
+      "venue": "Mordecai Historic Park",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Annual Heirloom Plant Sale ,\u00a0Mordecai Historic Park, Raleigh",
+      "id": 18
+    },
+    {
+      "name": "Arbor Day Celebration",
+      "link": "https://www.rolesvillenc.gov/parks-recreation/special-events/arbor-day",
+      "venue": "Main Street Park",
+      "city": "Rolesville",
+      "day": "Friday",
+      "raw": "Arbor Day Celebration ,\u00a0Main Street Park,\u00a0Rolesville",
+      "id": 19
+    },
+    {
+      "name": "Art In The Garden 2026",
+      "link": "https://www.visitraleigh.com/event/art-in-the-garden-2026/104630/",
+      "venue": "Main St.",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "Art In The Garden 2026 ,\u00a0Main St., Wake Forest",
+      "id": 20
+    },
+    {
+      "name": "Bird Calls of the Piedmont",
+      "link": "https://naturalsciences.org/calendar/event/bird-calls-of-the-piedmont/",
+      "venue": "Prairie Ridge",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Bird Calls of the Piedmont ,\u00a0Prairie Ridge, Raleigh",
+      "id": 21
+    },
+    {
+      "name": "City Nature Challenge",
+      "link": "https://jcra.ncsu.edu/events/details.php?ID=4248",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "City Nature Challenge ,\u00a0JC Raulston Arboretum at North Carolina State University, Raleigh",
+      "id": 22
+    },
+    {
+      "name": "Drop-in Puzzling and Puzzle Swap Meet",
+      "link": "https://downtowncarypark.com/things-to-do/calendar/w_drop-in-puzzling-and-puzzle-swap-meet-28",
+      "venue": "Downtown Cary Park",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Drop-in Puzzling and Puzzle Swap Meet , Downtown Cary Park, Cary",
+      "id": 23
+    },
+    {
+      "name": "Mingle on Main",
+      "link": "https://rolesvillechamber.glueup.com/event/mingle-on-main-169089/",
+      "venue": "Rolesville Chamber of Commerce",
+      "city": "Rolesville",
+      "day": "Friday",
+      "raw": "Mingle on Main ,\u00a0Rolesville Chamber of Commerce, Rolesville",
+      "id": 24
+    },
+    {
+      "name": "Ebb & Flow: Heather Victoria w/ Pynk Mo$cato and Matt on Sax",
+      "link": "https://www.pourhouseraleigh.com/shows/ebb-flow-featuring-heather-victoria-w-special-guests-pynk-mo-cato-and-matt-on-sax-24-apr",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Ebb & Flow: Heather Victoria w/ Pynk Mo$cato and Matt on Sax ,\u00a0The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 25
+    },
+    {
+      "name": "Emo Night Karaoke",
+      "link": "https://www.kingsraleigh.com/shows/emo-night-karaoke-3/",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Emo Night Karaoke , KINGS, Raleigh",
+      "id": 26
+    },
+    {
+      "name": "HerbFest Wake Forest",
+      "link": "https://www.herbfest.net/",
+      "venue": "S White Street",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "HerbFest Wake Forest ,\u00a0S White Street, Wake Forest",
+      "id": 27
+    },
+    {
+      "name": "Carolina Youth Ballet Presents: Cinderella",
+      "link": "https://www.martinmariettacenter.com/events/detail/carolina-youth-ballet-presents-cinderella",
+      "venue": "A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Carolina Youth Ballet Presents: Cinderella ,\u00a0A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 28
+    },
+    {
+      "name": "Kehlani and Collage at the LGBT Center of Raleigh",
+      "link": "https://givebutter.com/kehlani",
+      "venue": "LGBT Center of Raleigh",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Kehlani and Collage at the LGBT Center of Raleigh ,\u00a0LGBT Center of Raleigh,\u00a0Raleigh",
+      "id": 29
+    },
+    {
+      "name": "Leaving Echoes",
+      "link": "https://slimsraleigh.com/calendar/leaving-echoes/",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Leaving Echoes ,\u00a0Slim's Dive Bar, Raleigh",
+      "id": 30
+    },
+    {
+      "name": "Petshop: Puppygirls vs Catgirls",
+      "link": "https://www.tickpick.com/organizer/event/petshop-puppygirls-vs-catgirls-31481254?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Petshop: Puppygirls vs Catgirls ,\u00a0Chapel of Bones, Raleigh",
+      "id": 31
+    },
+    {
+      "name": "Pitch Your Single Sapphic Friend",
+      "link": "https://www.instagram.com/p/DWWZM53DvVz/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "venue": "Neptunes Parlour",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Pitch Your Single Sapphic Friend ,\u00a0Neptunes Parlour, Raleigh",
+      "id": 32
+    },
+    {
+      "name": "The Durham Vendor Mixer & Showcase",
+      "link": "https://www.exploretock.com/the-durham-hotel-durham/event/603731/vendor-mixer-at-the-durham-rsvp",
+      "venue": "The Durham Hotel",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "The Durham Vendor Mixer & Showcase ,\u00a0The Durham Hotel, Durham",
+      "id": 33
+    },
+    {
+      "name": "AfterHours: Space Scavengers",
+      "link": "https://www.lifeandscience.org/explore/space-scavengers/",
+      "venue": "Museum of Life and Science",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "AfterHours: Space Scavengers ,\u00a0Museum of Life and Science, Durham",
+      "id": 34
+    },
+    {
+      "name": "Alison Krauss & Union Station Featuring Jerry Douglas",
+      "link": "https://www.dpacnc.com/events/detail/alison_krauss2026",
+      "venue": "DPAC, Durham Performing Arts Center",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Alison Krauss & Union Station Featuring Jerry Douglas ,\u00a0DPAC, Durham Performing Arts Center, Durham",
+      "id": 35
+    },
+    {
+      "name": "MettleSketch",
+      "link": "https://www.discoverdurham.com/events/mettlesketch/",
+      "venue": "Mettlesome Comedy Theater",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "MettleSketch ,\u00a0Mettlesome Comedy Theater, Durham",
+      "id": 36
+    },
+    {
+      "name": "Asian Night 2026 | The Asian Student Associations of CH-C High Schools",
+      "link": "https://www.facebook.com/events/892264120477182/",
+      "venue": "East Chapel Hill High School",
+      "city": "Chapel Hill",
+      "day": "Friday",
+      "raw": "Asian Night 2026 | The Asian Student Associations of CH-C High Schools ,\u00a0East Chapel Hill High School, Chapel Hill",
+      "id": 37
+    },
+    {
+      "name": "Jazz at Lincoln Center Orchestra | with Wynton Marsalis",
+      "link": "https://carolinaperformingarts.org/events/jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+      "venue": "Memorial Hall",
+      "city": "Chapel Hill",
+      "day": "Friday",
+      "raw": "Jazz at Lincoln Center Orchestra | with Wynton Marsalis ,\u00a0Memorial Hall, Chapel Hill",
+      "id": 38
+    },
+    {
+      "name": "Live on the Lawn | Dance Performance, Fashion Show & Poetry Open Mic | Last Fridays",
+      "link": "https://www.hillsboroughartscouncil.org/last-fridays-live-on-the-lawn",
+      "venue": "Old Orange County Courthouse",
+      "city": "Hillsborough",
+      "day": "Friday",
+      "raw": "Live on the Lawn | Dance Performance, Fashion Show & Poetry Open Mic | Last Fridays ,\u00a0Old Orange County Courthouse, Hillsborough",
+      "id": 39
+    },
+    {
+      "name": "Teen Science Cafe: Hollywood Science",
+      "link": "https://moreheadplanetarium.org/calendar/teen-science-cafe-hollywood-science/",
+      "venue": "Morehead Planetarium & Science Center",
+      "city": "Chapel Hill",
+      "day": "Friday",
+      "raw": "Teen Science Cafe: Hollywood Science ,\u00a0Morehead Planetarium & Science Center, Chapel Hill",
+      "id": 40
+    },
+    {
+      "name": "STEM Comedy Night",
+      "link": "https://naturalsciences.org/calendar/event/stem-comedy-night/",
+      "venue": "Daily Planet Cafe",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "STEM Comedy Night , Daily Planet Cafe, Raleigh",
+      "id": 41
+    },
+    {
+      "name": "School of Rock Performance",
+      "link": "https://raleighnc.gov/parks-and-recreation/events/school-rock-performance",
+      "venue": "Pullen Park",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "School of Rock Performance ,\u00a0Pullen Park, Raleigh",
+      "id": 42
+    },
+    {
+      "name": "Teen Night Morrisville",
+      "link": "https://www.morrisvillenc.gov/Events-directory/Teen-Night",
+      "venue": "Cedar Fork Community Center",
+      "city": "Morrisville",
+      "day": "Friday",
+      "raw": "Teen Night Morrisville ,\u00a0Cedar Fork Community Center, Morrisville",
+      "id": 43
+    },
+    {
+      "name": "Brewgaloo",
+      "link": "https://shoplocalraleigh.org/brewgaloo/",
+      "venue": "Fayetteville Street",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Brewgaloo , Fayetteville Street, Raleigh",
+      "id": 44
+    },
+    {
+      "name": "Alison Krauss & Union Station ft. Jerry Douglas",
+      "link": "https://www.dpacnc.com/events/detail/alison_krauss2026",
+      "venue": "DPAC",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Alison Krauss & Union Station ft. Jerry Douglas , DPAC, Durham",
+      "id": 45
+    },
+    {
+      "name": "Y\u2019all Means All NC Beer Festival",
+      "link": "https://www.facebook.com/events/2003512617713694/",
+      "venue": "Raleigh Brewing Company",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Y\u2019all Means All NC Beer Festival , Raleigh Brewing Company, Raleigh",
+      "id": 46
+    },
+    {
+      "name": "Spring Daze Arts & Crafts Festival",
+      "link": "https://www.carync.gov/recreation-enjoyment/events/festivals/spring-daze-arts-and-crafts-festival",
+      "venue": "Fred G. Bond Metro Park and Boathouse",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Spring Daze Arts & Crafts Festival , Fred G. Bond Metro Park and Boathouse, Cary",
+      "id": 47
+    },
+    {
+      "name": "4th Annual Adult Recess Festival",
+      "link": "https://www.eventbrite.com/e/4th-annual-adult-recess-festival-tickets-1621640633789?aff=oddtdtcreator",
+      "venue": "Raleigh",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "4th Annual Adult Recess Festival , Raleigh, Raleigh",
+      "id": 48
+    },
+    {
+      "name": "Sandlot Revival",
+      "link": "https://www.instagram.com/p/DXcPJdClhin/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Sandlot Revival , Durham Central Park, Durham",
+      "id": 49
+    },
+    {
+      "name": "Festival of Legends 2026",
+      "link": "https://festivaloflegends.com/",
+      "venue": "Jefferson L Sugg Farm at Bass Lake Park",
+      "city": "Holly Springs",
+      "day": "Saturday",
+      "raw": "Festival of Legends 2026 , Jefferson L Sugg Farm at Bass Lake Park, Holly Springs",
+      "id": 50
+    },
+    {
+      "name": "Alabama Shakes",
+      "link": "https://www.redhatamphitheater.com/events/detail/alabama-shakes",
+      "venue": "Coastal Credit Union Music Park",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Alabama Shakes , Coastal Credit Union Music Park, Raleigh",
+      "id": 51
+    },
+    {
+      "name": "Bill Bellamy",
+      "link": "https://improv.com/raleigh/comic/bill+bellamy/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Bill Bellamy , Raleigh Improv, Cary",
+      "id": 52
+    },
+    {
+      "name": "Carolina Ballet: Celebration of America",
+      "link": "https://carolinaballet.com/program/celebration-of-america/",
+      "venue": "Martin Marietta Center",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Carolina Ballet: Celebration of America , Martin Marietta Center, Raleigh",
+      "id": 53
+    },
+    {
+      "name": "Carolina Roller Derby Double Header",
+      "link": "https://www.zeffy.com/en-US/ticketing/crd-april--25",
+      "venue": "XL Sports World",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "Carolina Roller Derby Double Header , XL Sports World, Apex",
+      "id": 54
+    },
+    {
+      "name": "24th Annual Birdhouse Competition",
+      "link": "https://jcra.ncsu.edu/events/details.php?ID=4165",
+      "venue": "JC Raulston Arboretum",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "24th Annual Birdhouse Competition , JC Raulston Arboretum, Raleigh",
+      "id": 55
+    },
+    {
+      "name": "Art in the Garden 2026",
+      "link": "https://www.visitraleigh.com/event/art-in-the-garden-2026/104630/",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Art in the Garden 2026 , Raleigh Little Theatre, Raleigh",
+      "id": 56
+    },
+    {
+      "name": "Chris Andrade (En Espa\u00f1ol)",
+      "link": "https://www.goodnightscomedy.com/shows/353377",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Chris Andrade (En Espa\u00f1ol) , Goodnights Comedy Club, Raleigh",
+      "id": 57
+    },
+    {
+      "name": "Spring Jazz Market",
+      "link": "https://www.instagram.com/",
+      "venue": "Moore Square",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Spring Jazz Market , Moore Square, Raleigh",
+      "id": 58
+    },
+    {
+      "name": "Raulston Blooms!",
+      "link": "https://jcra.ncsu.edu/events/details.php?ID=4164",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Raulston Blooms! , JC Raulston Arboretum at North Carolina State University, Raleigh",
+      "id": 59
+    },
+    {
+      "name": "Rolesville BBQ & Bands",
+      "link": "https://rolesvillebbq.com/",
+      "venue": "Redford Place Park",
+      "city": "Rolesville",
+      "day": "Saturday",
+      "raw": "Rolesville BBQ & Bands , Redford Place Park, Rolesville",
+      "id": 60
+    },
+    {
+      "name": "PBS North Carolina Screening of The Librarians",
+      "link": "https://www.eventbrite.com/e/pbs-north-carolina-screening-of-the-librarians-tickets-1980570596971",
+      "venue": "Durham County Main Library",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "PBS North Carolina Screening of The Librarians , Durham County Main Library, Durham",
+      "id": 61
+    },
+    {
+      "name": "Bourbon BBQ & Blues Festival",
+      "link": "https://www.whatismystic.com/events-2/bourbon-bbq-blues-festival-2025-z4ps5",
+      "venue": "Mystic Farm & Distillery",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Bourbon BBQ & Blues Festival , Mystic Farm & Distillery, Durham",
+      "id": 62
+    },
+    {
+      "name": "Oyster Roast at Ponysaurus Brewing Co.",
+      "link": "https://www.eventbrite.com/e/oyster-roast-at-ponysaurus-brewing-co-durham-tickets-1985837398115",
+      "venue": "Ponysaurus Brewing Co.",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Oyster Roast at Ponysaurus Brewing Co. , Ponysaurus Brewing Co., Durham",
+      "id": 63
+    },
+    {
+      "name": "Bull City Beer Mile",
+      "link": "https://eventvesta.com/events/126960-bull-city-beer-mile",
+      "venue": "Fullsteam Brewery",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Bull City Beer Mile , Fullsteam Brewery, Durham",
+      "id": 64
+    },
+    {
+      "name": "NCMA Sacred Song Series: Persian Nowruz",
+      "link": "https://ncartmuseum.org/events/ncma-sacred-song-series-persian-nowruz-new-year-celebration/?occurrence=2026-04-25",
+      "venue": "NC Museum of Art",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "NCMA Sacred Song Series: Persian Nowruz , NC Museum of Art, Raleigh",
+      "id": 65
+    },
+    {
+      "name": "Spring Garden Bites Tour",
+      "link": "https://www.opentable.com/booking/experiences-availability?rid=1274104&restref=1274104&experienceId=652981&utm_source=external&utm_medium=referral&utm_campaign=shared",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Spring Garden Bites Tour , North Carolina Museum of Art, Raleigh",
+      "id": 66
+    },
+    {
+      "name": "Josh Mandl",
+      "link": "https://www.goodnightscomedy.com/events/129126",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Josh Mandl ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 67
+    },
+    {
+      "name": "Zoltan Kaszasx",
+      "link": "https://www.goodnightscomedy.com/events/125136",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Zoltan Kaszasx ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 68
+    },
+    {
+      "name": "Candlelight Concert: Neo-Soul Favorites",
+      "link": "https://therialto.com/event/candlelight-concert-neo-soul-favorites-ft-songs-by-prince-childish-gambino-more-4-25/",
+      "venue": "The Rialto",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Candlelight Concert: Neo-Soul Favorites , The Rialto, Raleigh",
+      "id": 69
+    },
+    {
+      "name": "Candlelight: Coldplay & Imagine Dragons",
+      "link": "https://feverup.com/m/250852?utm_source=affiliate&utm_medium=impact&utm_campaign=250852&utm_content=4738271_Event%20Vesta&irclickid=UBNSIEx1yxycRoiVoCWBRwoMUkuyzK3mUzYXSE0&irgwc=1&afsrc=1",
+      "venue": "The Rialto",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Candlelight: Coldplay & Imagine Dragons , The Rialto, Raleigh",
+      "id": 70
+    },
+    {
+      "name": "2026 Piedmont Farm Tour",
+      "link": "https://carolinafarmstewards.org/piedmont-farm-tour/",
+      "venue": "Multiple Farms",
+      "city": "Triangle",
+      "day": "Saturday",
+      "raw": "2026 Piedmont Farm Tour , Multiple Farms, Triangle",
+      "id": 71
+    },
+    {
+      "name": "2026 NCACC 100 Strong Productions Student Film Festival",
+      "link": "https://www.100strongproductions.com/student-film-festival",
+      "venue": "Raleigh",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "2026 NCACC 100 Strong Productions Student Film Festival , Raleigh, Raleigh",
+      "id": 72
+    },
+    {
+      "name": "Gag On Top w/ Amanda Lepore & Susanne Bartsch",
+      "link": "https://www.instagram.com/reel/DXedqYGEa0Z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "venue": "The Fruit",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Gag On Top w/ Amanda Lepore & Susanne Bartsch , The Fruit, Durham",
+      "id": 73
+    },
+    {
+      "name": "The NC Youth Tap Ensemble Live (with Star Dixon)",
+      "link": "https://www.ncyte.org/up-next",
+      "venue": "Carolina Theatre",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "The NC Youth Tap Ensemble Live (with Star Dixon) , Carolina Theatre, Durham",
+      "id": 74
+    },
+    {
+      "name": "C-Shreve the Professor & OC",
+      "link": "https://www.pourhouseraleigh.com/shows/c-shreve-the-professor-oc-from-nc-with-dj-jet-illpo-frank-the-phre-h-25-apr",
+      "venue": "Pour House",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "C-Shreve the Professor & OC , Pour House, Raleigh",
+      "id": 75
+    },
+    {
+      "name": "Shadows of the 60s",
+      "link": "https://www.wakeforestrencen.org/event/shadows-60s",
+      "venue": "Wake Forest Renaissance Centre for the Arts",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Shadows of the 60s , Wake Forest Renaissance Centre for the Arts, Raleigh",
+      "id": 76
+    },
+    {
+      "name": "The Messthetics & James Brandon Lewis",
+      "link": "https://www.kingsraleigh.com/shows/the-messthetics-and-james-brandon-lewis-2/",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "The Messthetics & James Brandon Lewis , KINGS, Raleigh",
+      "id": 77
+    },
+    {
+      "name": "Wasteland w/ DJ Fallout Steve",
+      "link": "https://www.tickpick.com/organizer/event/wasteland-w-20th-century-boy-dj-fallout-steve-14967957?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Wasteland w/ DJ Fallout Steve , Chapel of Bones, Raleigh",
+      "id": 78
+    },
+    {
+      "name": "VAAT: A Musical Conversation",
+      "link": "https://www.leela-foundation.org/post/vaat-an-immersive-musical-dialogue-by-hardik-chauhan",
+      "venue": "Goodson Chapel",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "VAAT: A Musical Conversation , Goodson Chapel, Durham",
+      "id": 79
+    },
+    {
+      "name": "Killer Keyz Dueling Piano Dinner",
+      "link": "https://www.washingtondukeinn.com/experiences",
+      "venue": "Washington Duke Inn & Golf Club",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Killer Keyz Dueling Piano Dinner , Washington Duke Inn & Golf Club, Durham",
+      "id": 80
+    },
+    {
+      "name": "Symbiosis Jazz Duo at Ramblers",
+      "link": "https://www.instagram.com/p/DXIVfshjsGh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "venue": "Ramblers",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Symbiosis Jazz Duo at Ramblers , Ramblers, Durham",
+      "id": 81
+    },
+    {
+      "name": "House Party ft. Advanced Study Short Form Improv Students",
+      "link": "https://thisismettlesome.com/live/2026/4/25/house-party",
+      "venue": "Mettlesome Theater",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "House Party ft. Advanced Study Short Form Improv Students , Mettlesome Theater, Durham",
+      "id": 82
+    },
+    {
+      "name": "Canine Field Day",
+      "link": "https://www.dprplaymore.org/294/Canine-Field-Day",
+      "venue": "Rock Quarry Park",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Canine Field Day , Rock Quarry Park, Durham",
+      "id": 83
+    },
+    {
+      "name": "DanceWorks 2026 \u2013 Program A",
+      "link": "https://www.meredith.edu/calendar/danceworks-2026-weekend-program-a/2026-04-25/",
+      "venue": "Jones Auditorium",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "DanceWorks 2026 \u2013 Program A , Jones Auditorium, Raleigh",
+      "id": 84
+    },
+    {
+      "name": "EarthFest",
+      "link": "https://www.apexnc.org/1661/EarthFest",
+      "venue": "Town Hall",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "EarthFest , Town Hall, Apex",
+      "id": 85
+    },
+    {
+      "name": "HerbFest Wake Forest",
+      "link": "https://www.herbfest.net/",
+      "venue": "S White Street",
+      "city": "Wake Forest",
+      "day": "Saturday",
+      "raw": "HerbFest Wake Forest , S White Street, Wake Forest",
+      "id": 86
+    },
+    {
+      "name": "Horror Book Club: Blood on Her Tongue",
+      "link": "https://www.tickpick.com/organizer/event/horror-book-club-blood-on-her-tongue-84576882?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Horror Book Club: Blood on Her Tongue , Chapel of Bones, Raleigh",
+      "id": 87
+    },
+    {
+      "name": "Improv Night at the Bike Library",
+      "link": "https://www.instagram.com/p/DXCOr6FEbFp/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "venue": "The Bike Library",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Improv Night at the Bike Library , The Bike Library, Raleigh",
+      "id": 88
+    },
+    {
+      "name": "Independent Bookstore Day",
+      "link": "https://www.blackbirdbooksandcoffee.com/events",
+      "venue": "Blackbird Books & Coffee",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Independent Bookstore Day , Blackbird Books & Coffee, Raleigh",
+      "id": 89
+    },
+    {
+      "name": "Live Animal Feeding: Lobster",
+      "link": "https://naturalsciences.org/calendar/event/live-animal-feeding-lobster-4/2026-04-25/",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Live Animal Feeding: Lobster , North Carolina Museum of Natural Sciences, Raleigh",
+      "id": 90
+    },
+    {
+      "name": "Living Poetry Pop-Up",
+      "link": "https://www.unlikelyprofessionals.com/pages/events?srsltid=AfmBOoqwVDnPh2LpN6wyOYkzcM4UAK7vwQwdsyaPjFXEBonsuEpNp129",
+      "venue": "Unlikely Professionals - North Hills",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Living Poetry Pop-Up , Unlikely Professionals - North Hills, Raleigh",
+      "id": 91
+    },
+    {
+      "name": "Mill Open House 2026",
+      "link": "https://www.wake.gov/departments-government/parks-recreation-open-space/all-parks-trails/historic-yates-mill-county-park/historic-yates-mill-programs-events/historic-yates-mill-public-programs",
+      "venue": "Historic Yates Mill County Park",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Mill Open House 2026 , Historic Yates Mill County Park, Raleigh",
+      "id": 92
+    },
+    {
+      "name": "Spring Fungi Forage",
+      "link": "https://www.eventbrite.com/e/411-spring-fungi-forage-tickets-1979896468635?aff=ebdssbdestsearch",
+      "venue": "Falls Lake Boat Ramp",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Spring Fungi Forage , Falls Lake Boat Ramp, Raleigh",
+      "id": 93
+    },
+    {
+      "name": "Summer Prelude Dance Party",
+      "link": "https://posh.vip/e/noire-divinity-presents-worst-behavior-1?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn5dPOMgfQdZumGi35EUbJlwghT6mPdoBZNpQL6jz1qAjxVyr1K87miDaKLA8_aem_m4ZJ0vgcroK9UI",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Summer Prelude Dance Party , Bitter Social, Raleigh",
+      "id": 94
+    },
+    {
+      "name": "Working on the Railroad Day",
+      "link": "https://www.triangletrain.com/",
+      "venue": "New Hope Valley Railway",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "Working on the Railroad Day , New Hope Valley Railway, Apex",
+      "id": 95
+    },
+    {
+      "name": "The Price by Arthur Miller",
+      "link": "https://www.redbirdtheatercompany.com/",
+      "venue": "Shadowbox Studio",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "The Price by Arthur Miller , Shadowbox Studio, Durham",
+      "id": 96
+    },
+    {
+      "name": "NC Sci Fest: Lyon Park STEAM Room",
+      "link": "https://duke.qualtrics.com/jfe/form/SV_5ATn278ncB7QfvE?Q_CHL=qr",
+      "venue": "Community Family Life and Recreation Center at Lyon Park",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "NC Sci Fest: Lyon Park STEAM Room , Community Family Life and Recreation Center at Lyon Park, Durham",
+      "id": 97
+    },
+    {
+      "name": "Uneasy Peace: Bennett Place Surrenders 161st Anniversary",
+      "link": "https://www.facebook.com/events/1859302684724166",
+      "venue": "Bennett Place State Historic Site",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Uneasy Peace: Bennett Place Surrenders 161st Anniversary , Bennett Place State Historic Site, Durham",
+      "id": 98
+    },
+    {
+      "name": "Dark Tales of the Eno River Paddle with Author David Cook",
+      "link": "https://www.twosistersadventure.com/guided-trips-booking/p/durham-history-paddle-zaaed",
+      "venue": "Eno River State Park",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Dark Tales of the Eno River Paddle with Author David Cook , Eno River State Park, Durham",
+      "id": 99
+    },
+    {
+      "name": "Bazaar at the Yard",
+      "link": "https://www.instagram.com/p/DXfDhKpkU53/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "venue": "Boxyard RTP",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Bazaar at the Yard , Boxyard RTP,\u00a0Durham",
+      "id": 100
+    },
+    {
+      "name": "The Rattletraps",
+      "link": "https://www.stanczyksdurham.com/#/events/175850",
+      "venue": "The Pinhook",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "The Rattletraps , The Pinhook, Durham",
+      "id": 101
+    },
+    {
+      "name": "Show, Tell and Lakehouse",
+      "link": "https://thisismettlesome.com/live/2026/4/25/show-and-tell-lakehouse",
+      "venue": "The Lakewood",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Show, Tell and Lakehouse , The Lakewood, Durham",
+      "id": 102
+    },
+    {
+      "name": "2026 Chapel Hill Garden Tour",
+      "link": "https://www.chapelhillgardentour.org/",
+      "venue": "Chapel Hill Garden Club Locations",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "2026 Chapel Hill Garden Tour , Chapel Hill Garden Club Locations, Chapel Hill",
+      "id": 103
+    },
+    {
+      "name": "As You Like It (Shakespeare in the Parks)",
+      "link": "https://switchtheatreco.org/shows/asyoulikeit/",
+      "venue": "Southern Village Amphitheatre",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "As You Like It (Shakespeare in the Parks) , Southern Village Amphitheatre, Chapel Hill",
+      "id": 104
+    },
+    {
+      "name": "Northside Festival 2026",
+      "link": "https://jacksoncenter.info/the-northside-festival/",
+      "venue": "Northside District",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "Northside Festival 2026 , Northside District, Chapel Hill",
+      "id": 105
+    },
+    {
+      "name": "Ramona and the Holy Smokes",
+      "link": "https://www.etix.com/ticket/p/90743368/ramona-the-holy-smokes-with-rebecca-porter-the-rhinestone-roses-chapel-hill-local-506",
+      "venue": "Local 506",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "Ramona and the Holy Smokes , Local 506, Chapel Hill",
+      "id": 106
+    },
+    {
+      "name": "UpClose Chamber Music: The Balourdet Quartet",
+      "link": "https://www.chamberorchestraofthetriangle.org/upcoming-events",
+      "venue": "Eno River Unitarian Universalist Fellowship",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "UpClose Chamber Music: The Balourdet Quartet , Eno River Unitarian Universalist Fellowship, Chapel Hill",
+      "id": 107
+    },
+    {
+      "name": "Won Buddhism Temple Open House",
+      "link": "https://www.wonbuddhismnc.org/special-events/2026/04-spring-open-house",
+      "venue": "Won Buddhism Temple",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "Won Buddhism Temple Open House , Won Buddhism Temple, Chapel Hill",
+      "id": 108
+    },
+    {
+      "name": "SmileFest 2026",
+      "link": "https://www.uncsmilefest.com/",
+      "venue": "Mary Scroggs Elementary",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "SmileFest 2026 , Mary Scroggs Elementary, Chapel Hill",
+      "id": 109
+    },
+    {
+      "name": "Carolina Youth Ballet: Cinderella",
+      "link": "https://www.martinmariettacenter.com/events/detail/carolina-youth-ballet-presents-cinderella",
+      "venue": "A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Carolina Youth Ballet: Cinderella , A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts, Cary",
+      "id": 110
+    },
+    {
+      "name": "Peso Pluma",
+      "link": "https://www.ticketmaster.com/dinastia-tour-by-peso-pluma-tito-raleigh-north-carolina-04-26-2026/event/2D00642ECFB1E44B?_gl=1*1dke5sq*_ga*MTUyNjE1MjE2LjE3NDM3NzEwNzY.*_ga_H1KKSGW33X*czE3NzcwMzA4MTUkbzIyJGcxJHQxNzc3MDMwODM4JGozNyRsMCRoMA..*_ga_C1T806G4DF*czE3NzcwMzA4MTUkbzIyJGcxJHQxNzc3MDMwODM4JGozNyRsMCRoMA..",
+      "venue": "Coastal Credit Union Music Park at Walnut Creek",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Peso Pluma , Coastal Credit Union Music Park at Walnut Creek, Raleigh",
+      "id": 111
+    },
+    {
+      "name": "Floetry featuring Raheem DeVaughn,",
+      "link": "https://www.dpacnc.com/events/detail/floetry2026",
+      "venue": "DPAC",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Floetry featuring Raheem DeVaughn, DPAC, Durham",
+      "id": 112
+    },
+    {
+      "name": "Sandlot Revival",
+      "link": "https://www.instagram.com/p/DXcOtzblkND/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Sandlot Revival , Durham Central Park, Durham",
+      "id": 113
+    },
+    {
+      "name": "Giant Robot Fight Club",
+      "link": "https://tapyardraleigh.com/raleigh-oakwood-mordecai-tap-yard-raleigh-weekly-lineup",
+      "venue": "Tap Yard House",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Giant Robot Fight Club , Tap Yard House, Raleigh",
+      "id": 114
+    },
+    {
+      "name": "The 13th Annual Festival of Legends 2026",
+      "link": "https://festivaloflegends.com/",
+      "venue": "Jefferson L Sugg Farm at Bass Lake Park",
+      "city": "Holly Springs",
+      "day": "Sunday",
+      "raw": "The 13th Annual Festival of Legends 2026 , Jefferson L Sugg Farm at Bass Lake Park, Holly Springs",
+      "id": 115
+    },
+    {
+      "name": "2026 Piedmont Farm Tour",
+      "link": "https://carolinafarmstewards.org/piedmont-farm-tour/",
+      "venue": "Multiple Farms",
+      "city": "Triangle",
+      "day": "Sunday",
+      "raw": "2026 Piedmont Farm Tour , Multiple Farms, Triangle",
+      "id": 116
+    },
+    {
+      "name": "Bill Bellamy",
+      "link": "https://improv.com/raleigh/comic/bill+bellamy/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Bill Bellamy , Raleigh Improv, Cary",
+      "id": 117
+    },
+    {
+      "name": "Ms. Renee",
+      "link": "https://www.goodnightscomedy.com/shows/353333",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Ms. Renee , Goodnights Comedy Club, Raleigh",
+      "id": 118
+    },
+    {
+      "name": "Misha Brown",
+      "link": "https://www.goodnightscomedy.com/shows/366345",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Misha Brown , Goodnights Comedy Club, Raleigh",
+      "id": 119
+    },
+    {
+      "name": "Hamilton Sing-Along Drag Brunch",
+      "link": "https://improv.com/raleigh/event/hamilton+sing-along+drag+brunch/14768773/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Hamilton Sing-Along Drag Brunch , Raleigh Improv, Cary",
+      "id": 120
+    },
+    {
+      "name": "The Gospel According to Comedy",
+      "link": "https://www.goodnightscomedy.com/shows/365539",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "The Gospel According to Comedy , Goodnights Comedy Club, Raleigh",
+      "id": 121
+    },
+    {
+      "name": "Six Sundays in Spring 2026",
+      "link": "https://www.wakeforestnc.gov/meetings-events/six-sundays-spring",
+      "venue": "E. Carroll Joyner Park",
+      "city": "Wake Forest",
+      "day": "Sunday",
+      "raw": "Six Sundays in Spring 2026 , E. Carroll Joyner Park, Wake Forest",
+      "id": 122
+    },
+    {
+      "name": "Maslanka Symphony No. 4 (TWES 25th Anniversary)",
+      "link": "https://www.trianglewind.org/maslanka-symphony-no-4-apr-26-2026.html",
+      "venue": "Cary Arts Center",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Maslanka Symphony No. 4 (TWES 25th Anniversary) , Cary Arts Center, Cary",
+      "id": 123
+    },
+    {
+      "name": "Carolina Ballet Presents Celebration of America",
+      "link": "https://carolinaballet.com/program/celebration-of-america/",
+      "venue": "Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Carolina Ballet Presents Celebration of America , Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 124
+    },
+    {
+      "name": "Latin American Festival",
+      "link": "https://www.knightdalenc.gov/latin-american-festival",
+      "venue": "Knightdale Station Park",
+      "city": "Knightdale",
+      "day": "Sunday",
+      "raw": "Latin American Festival , Knightdale Station Park,\u00a0Knightdale",
+      "id": 125
+    },
+    {
+      "name": "Sights and Sounds on Sundays: Gabriel Martins\u2019 Quartet",
+      "link": "https://ncartmuseum.org/events/sights-and-sounds-on-sundays-series-gabriel-martins-quartet/?occurrence=2026-04-26",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Sights and Sounds on Sundays: Gabriel Martins\u2019 Quartet , North Carolina Museum of Art, Raleigh",
+      "id": 126
+    },
+    {
+      "name": "Spring Fling Annual Dog & Cat Fundraiser",
+      "link": "https://www.k9springfling.com/",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Spring Fling Annual Dog & Cat Fundraiser , Koka Booth Amphitheatre, Cary",
+      "id": 127
+    },
+    {
+      "name": "Queer Community Hangout",
+      "link": "https://partiful.com/e/VPf8FlcPXJ3hOTtK5fQ2?",
+      "venue": "Fred Fletcher Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Queer Community Hangout , Fred Fletcher Park, Raleigh",
+      "id": 128
+    },
+    {
+      "name": "Raleigh Anime Fest",
+      "link": "https://www.eventbrite.com/e/raleigh-anime-fest-tickets-1979529304437",
+      "venue": "Hilton Garden Inn Raleigh-Cary Raleigh",
+      "city": "",
+      "day": "Sunday",
+      "raw": "Raleigh Anime Fest , Hilton Garden Inn Raleigh-Cary Raleigh",
+      "id": 129
+    },
+    {
+      "name": "Bluegrass Experience Spring Concert",
+      "link": "https://music.unc.edu/event/bluegrass-experience-sp26/",
+      "venue": "The ArtsCenter",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Bluegrass Experience Spring Concert , The ArtsCenter, Carrboro",
+      "id": 130
+    },
+    {
+      "name": "Notes on View: Smitha K. Prasad",
+      "link": "https://ncartmuseum.org/events/notes-on-view-smitha-k-prasad/?occurrence=2026-04-26",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Notes on View: Smitha K. Prasad , North Carolina Museum of Art, Raleigh",
+      "id": 131
+    },
+    {
+      "name": "Performances at the Page: Ladies of Swing",
+      "link": "https://www.carync.gov/recreation-enjoyment/events/concerts/performances-at-the-page",
+      "venue": "Page-Walker Arts & History Center",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Performances at the Page: Ladies of Swing , Page-Walker Arts & History Center, Cary",
+      "id": 132
+    },
+    {
+      "name": "Holi Garland III",
+      "link": "https://evedurham.com/parties/p/holi-garland-iii",
+      "venue": "Garland Hall",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Holi Garland III , Garland Hall, Durham",
+      "id": 133
+    },
+    {
+      "name": "Really Really Free Market (Duke Move-Out Edition)",
+      "link": "https://linktr.ee/thereallyreallyfreemarket",
+      "venue": "East Campus (Duke University)",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Really Really Free Market (Duke Move-Out Edition) , East Campus (Duke University), Durham",
+      "id": 134
+    },
+    {
+      "name": "Recovery: An Afternoon Tea Dance Party",
+      "link": "https://www.velvethippodurham.com/calendar",
+      "venue": "The Velvet Hippo",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Recovery: An Afternoon Tea Dance Party , The Velvet Hippo, Durham",
+      "id": 135
+    },
+    {
+      "name": "2026 Triangle Walk to Defeat Dementia",
+      "link": "https://secure.qgiv.com/event/trianglewalk26/",
+      "venue": "Fenton",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "2026 Triangle Walk to Defeat Dementia , Fenton, Cary",
+      "id": 136
+    },
+    {
+      "name": "50 Mile Ride for 50 Years of Raleigh Greenways",
+      "link": "https://www.instagram.com/p/DWz3YQGiQdp/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "venue": "Chavis Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "50 Mile Ride for 50 Years of Raleigh Greenways , Chavis Park, Raleigh",
+      "id": 137
+    },
+    {
+      "name": "Acappology Presents: ACA-Stronomy",
+      "link": "https://www.eventbrite.com/e/aca-astronomy-acappology-2026-spring-concert-tickets-1985838467313",
+      "venue": "Stewart Theatre (NC State)",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Acappology Presents: ACA-Stronomy , Stewart Theatre (NC State), Raleigh",
+      "id": 138
+    },
+    {
+      "name": "Brunch & Bubbles at Ava Rooftop Bar",
+      "link": "https://avarooftopbar.com/event/brunch-bubbles-7/",
+      "venue": "Ava Rooftop Bar",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Brunch & Bubbles at Ava Rooftop Bar , Ava Rooftop Bar, Raleigh",
+      "id": 139
+    },
+    {
+      "name": "HerbFest Wake Forest",
+      "link": "https://www.herbfest.net/",
+      "venue": "S. White St.",
+      "city": "Wake Forest",
+      "day": "Sunday",
+      "raw": "HerbFest Wake Forest , S. White St., Wake Forest",
+      "id": 140
+    },
+    {
+      "name": "North Carolina Bridal & Wedding Expo",
+      "link": "https://ncbridalexpos-rc.com/about/",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "North Carolina Bridal & Wedding Expo , Raleigh Convention Center, Raleigh",
+      "id": 141
+    },
+    {
+      "name": "Senior Center Presents Steel Magnolias",
+      "link": "https://www.morrisvillenc.gov/Events-directory/Senior-Center-Steel-Magnolias-CANCELED",
+      "venue": "Morrisville Senior Center",
+      "city": "Morrisville",
+      "day": "Sunday",
+      "raw": "Senior Center Presents Steel Magnolias , Morrisville Senior Center, Morrisville",
+      "id": 142
+    },
+    {
+      "name": "The Dead Man\u2019s Doctors and Mary Anna",
+      "link": "https://slimsdivebar.com/event-archive/dead-mans-doctors/",
+      "venue": "Slim's Dive Bar Raleigh",
+      "city": "",
+      "day": "Sunday",
+      "raw": "The Dead Man\u2019s Doctors and Mary Anna , Slim's Dive Bar Raleigh",
+      "id": 143
+    },
+    {
+      "name": "The Dirty Lowdown with DJ Castro & Al Ski Love",
+      "link": "https://www.bittersocialraleigh.com/",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "The Dirty Lowdown with DJ Castro & Al Ski Love , Bitter Social, Raleigh",
+      "id": 144
+    },
+    {
+      "name": "Polyrhythmics",
+      "link": "https://www.pourhouseraleigh.com/shows/polyrhythmics-26-apr",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Polyrhythmics , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 145
+    },
+    {
+      "name": "Little Miss Nasty, GG Magree, Mimi Barks",
+      "link": "https://www.tickpick.com/organizer/event/little-miss-nasty-gg-magree-mimi-barks-66028119?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Little Miss Nasty, GG Magree, Mimi Barks , Chapel of Bones,\u00a0Raleigh",
+      "id": 146
+    },
+    {
+      "name": "Art for Humanity Silent Auction",
+      "link": "https://event.auctria.com/2c9bb25c-a861-4faa-b11f-3a259b3aeffb/",
+      "venue": "Chapel Hill Country Club",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Art for Humanity Silent Auction , Chapel Hill Country Club, Chapel Hill",
+      "id": 147
+    },
+    {
+      "name": "As You Like It (Shakespeare in the Parks)",
+      "link": "https://switchtheatreco.org/shows/asyoulikeit/",
+      "venue": "Forest Theatre",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "As You Like It (Shakespeare in the Parks) , Forest Theatre, Chapel Hill",
+      "id": 148
+    },
+    {
+      "name": "Oyster Pop-Up | The Oyster Girl NC & Waterman\u2019s Choice",
+      "link": "https://www.botanistandbarrel.com/store/p/oyster-pop-up",
+      "venue": "Botanist and Barrel",
+      "city": "Cedar Grove",
+      "day": "Sunday",
+      "raw": "Oyster Pop-Up | The Oyster Girl NC & Waterman\u2019s Choice , Botanist and Barrel, Cedar Grove",
+      "id": 149
+    },
+    {
+      "name": "The 26th Annual Mildred Council Community Dinner",
+      "link": "https://communitydinner.org/",
+      "venue": "McDougle Middle School",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "The 26th Annual Mildred Council Community Dinner , McDougle Middle School, Chapel Hill",
+      "id": 150
+    },
+    {
+      "name": "SmileFest 2026",
+      "link": "https://www.uncsmilefest.com/",
+      "venue": "Fetzer Hall",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "SmileFest 2026 , Fetzer Hall, Chapel Hill",
+      "id": 151
+    },
+    {
+      "name": "The Price by Arthur Miller",
+      "link": "https://www.redbirdtheatercompany.com/",
+      "venue": "Shadowbox Studio",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "The Price by Arthur Miller , Shadowbox Studio, Durham",
+      "id": 152
+    }
+  ]
+}
