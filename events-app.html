@@ -27,21 +27,68 @@
     button{font:inherit;color:inherit;border:none;background:none;cursor:pointer}
     a{color:inherit;text-decoration:none}
     .page{max-width:1200px;margin:0 auto;padding:var(--space-4) var(--space-4) var(--space-10)}
-    header{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-4)}
-    .logo{display:flex;align-items:center;gap:var(--space-3)}
-    .logo-mark{width:36px;height:36px;border-radius:40% 60% 50% 50%;background:radial-gradient(circle at 30% 20%,#fff,var(--color-primary-soft));border:1px solid rgba(0,0,0,.04);box-shadow:var(--shadow-sm);display:flex;align-items:center;justify-content:center;color:var(--color-primary);font-weight:700;font-size:.8rem}
-    .logo-text h1{font-size:var(--text-lg);font-weight:600;letter-spacing:.02em}
-    .logo-text p{font-size:var(--text-xs);color:var(--color-text-muted)}
+
+    /* Sticky shell wraps header + filters; collapses on scroll */
+    .app-shell{position:sticky;top:0;z-index:20;padding-top:var(--space-3);margin:calc(var(--space-4) * -1) calc(var(--space-4) * -1) 0;padding-left:var(--space-4);padding-right:var(--space-4);background:linear-gradient(to bottom,var(--color-bg) 92%,transparent);backdrop-filter:blur(10px);transition:padding var(--transition),box-shadow var(--transition)}
+    .app-shell.is-condensed{padding-top:var(--space-2);box-shadow:0 4px 14px rgba(0,0,0,.06)}
+    [data-theme=dark] .app-shell.is-condensed{box-shadow:0 4px 14px rgba(0,0,0,.4)}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-3);transition:margin var(--transition)}
+    .app-shell.is-condensed header{margin-bottom:var(--space-2)}
+    .logo{display:flex;align-items:center;gap:var(--space-3);transition:gap var(--transition)}
+    .logo-mark{width:36px;height:36px;border-radius:40% 60% 50% 50%;background:radial-gradient(circle at 30% 20%,#fff,var(--color-primary-soft));border:1px solid rgba(0,0,0,.04);box-shadow:var(--shadow-sm);display:flex;align-items:center;justify-content:center;color:var(--color-primary);font-weight:700;font-size:.8rem;transition:width var(--transition),height var(--transition),font-size var(--transition)}
+    .app-shell.is-condensed .logo-mark{width:28px;height:28px;font-size:.65rem}
+    .logo-text h1{font-size:var(--text-lg);font-weight:600;letter-spacing:.02em;transition:font-size var(--transition)}
+    .logo-text p{font-size:var(--text-xs);color:var(--color-text-muted);transition:max-height var(--transition),opacity var(--transition);max-height:1.5em;overflow:hidden}
+    .app-shell.is-condensed .logo-text h1{font-size:var(--text-base)}
+    .app-shell.is-condensed .logo-text p{max-height:0;opacity:0}
     .theme-toggle{border-radius:var(--radius-full);padding:.25rem .6rem;border:1px solid var(--color-border);background:var(--color-surface);display:inline-flex;align-items:center;gap:.35rem;box-shadow:var(--shadow-sm);transition:background var(--transition),transform var(--transition),box-shadow var(--transition)}
     .theme-toggle:hover{transform:translateY(-1px);box-shadow:var(--shadow-md)}
+    .app-shell.is-condensed .theme-label{display:none}
 
     /* Filters */
-    .filters{position:sticky;top:0;z-index:10;padding:var(--space-3) 0;margin:0;background:linear-gradient(to bottom,var(--color-bg) 80%,transparent);backdrop-filter:blur(8px)}
-    .filters-inner{border-radius:var(--radius-lg);background:var(--color-surface);box-shadow:var(--shadow-sm);border:1px solid var(--color-border);display:grid;gap:0}
-    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:var(--space-3);border-bottom:1px solid rgba(0,0,0,.04)}
+    .filters{padding:0;margin:0}
+    .filters-inner{border-radius:var(--radius-lg);background:var(--color-surface);box-shadow:var(--shadow-sm);border:1px solid var(--color-border);display:grid;gap:0;transition:box-shadow var(--transition)}
+    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:var(--space-3);border-bottom:1px solid rgba(0,0,0,.04);transition:padding var(--transition),max-height .3s cubic-bezier(0.16,1,0.3,1),opacity var(--transition);overflow:hidden}
     .filters-row:last-child{border-bottom:none}
-    .filters-row .row-label{font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-right:var(--space-2);white-space:nowrap}
-    .filters-row .field{flex:1 1 200px;min-width:180px;max-width:320px;position:relative;margin-left:auto}
+    .filters-row .row-label{font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-right:var(--space-2);white-space:nowrap;transition:opacity var(--transition),max-width var(--transition);max-width:5rem}
+    .app-shell.is-condensed .filters-row{padding:.4rem var(--space-3)}
+    .app-shell.is-condensed .filters-row .row-label{opacity:0;max-width:0;margin-right:0;overflow:hidden}
+    /* When condensed, hide tag and city rows entirely; the search box on row 1 remains usable */
+    .app-shell.is-condensed .filters-row.is-collapsible{max-height:0;padding-top:0;padding-bottom:0;opacity:0;border-bottom:none;pointer-events:none}
+    .filters-row.is-collapsible{max-height:30rem;opacity:1}
+    /* Active pill summary chip shown only when condensed and there are active filters */
+    .active-summary{display:none;align-items:center;gap:var(--space-2);flex-wrap:wrap;margin-left:var(--space-2);font-size:var(--text-xs);color:var(--color-text-muted)}
+    .app-shell.is-condensed .active-summary.has-any{display:inline-flex}
+    .summary-chip{display:inline-flex;align-items:center;gap:.25rem;padding:.18rem .55rem;border-radius:var(--radius-full);background:var(--color-primary-soft);color:var(--color-primary);font-size:.68rem;border:1px solid rgba(1,105,111,.2);cursor:pointer}
+    .summary-chip:hover{background:var(--color-primary);color:#fff}
+    .summary-chip .x{opacity:.6;font-size:.7em}
+    .filters-row .field{flex:1 1 200px;min-width:180px;max-width:320px;position:relative}
+    /* Row 1 layout: pills left, search centered, toggle right */
+    .filters-row.row-primary{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:var(--space-3)}
+    .filters-row.row-primary > .row-label{grid-column:1;justify-self:start}
+    .filters-row.row-primary > #dayPills{grid-column:1;justify-self:start;flex:0 0 auto}
+    .filters-row.row-primary > .active-summary{grid-column:1 / -1;order:99;justify-self:start}
+    .filters-row.row-primary > .field-search{grid-column:2;justify-self:center;width:100%;max-width:360px;margin:0}
+    .filters-row.row-primary > .toggle-switch{grid-column:3;justify-self:end}
+    .filters-row.row-primary > #resultMeta{grid-column:1 / -1;justify-self:end;order:100;padding-top:.1rem}
+    @media(max-width:760px){
+      .filters-row.row-primary{grid-template-columns:1fr;gap:var(--space-2)}
+      .filters-row.row-primary > *{justify-self:start!important;grid-column:1!important}
+      .filters-row.row-primary > .field-search{max-width:none}
+    }
+
+    /* Toggle switch (replaces the old free-only pill) */
+    .toggle-switch{display:inline-flex;align-items:center;gap:.5rem;cursor:pointer;user-select:none;font-size:var(--text-xs);color:var(--color-text-muted);white-space:nowrap}
+    .toggle-switch input{position:absolute;opacity:0;width:0;height:0;pointer-events:none}
+    .toggle-track{position:relative;width:34px;height:20px;border-radius:var(--radius-full);background:var(--color-surface-offset);border:1px solid var(--color-border);transition:background var(--transition),border-color var(--transition)}
+    .toggle-thumb{position:absolute;top:1px;left:1px;width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:var(--shadow-sm);transition:transform var(--transition),background var(--transition)}
+    [data-theme=dark] .toggle-thumb{background:#cdccca}
+    .toggle-switch input:checked + .toggle-track{background:var(--color-primary);border-color:var(--color-primary)}
+    .toggle-switch input:checked + .toggle-track .toggle-thumb{transform:translateX(14px);background:#fff}
+    .toggle-switch:hover .toggle-track{border-color:var(--color-primary)}
+    .toggle-switch input:focus-visible + .toggle-track{box-shadow:0 0 0 2px rgba(1,105,111,.3)}
+    .toggle-switch.is-active .toggle-text{color:var(--color-primary);font-weight:500}
     .filters-row .field input{width:100%;padding:.4rem .75rem .4rem 1.9rem;border-radius:var(--radius-full);border:1px solid var(--color-border);background:var(--color-surface-2);font-size:var(--text-xs);color:var(--color-text);outline:none;transition:border-color var(--transition),box-shadow var(--transition),background var(--transition)}
     .filters-row .field input::placeholder{color:var(--color-text-muted)}
     .filters-row .field input:focus{border-color:var(--color-primary);box-shadow:0 0 0 1px rgba(1,105,111,.2);background:var(--color-surface)}
@@ -53,10 +100,14 @@
     .pill .count{opacity:.6;font-size:.65rem;margin-left:.15rem}
     .result-meta{font-size:var(--text-xs);color:var(--color-text-muted);margin-left:auto;white-space:nowrap}
 
-    /* Masonry: CSS columns approach (broad browser support) */
+    /* Masonry: CSS columns when many cards. Switch to flex when few so cards sit side-by-side. */
     .events-grid{column-count:1;column-gap:var(--space-3);margin-top:var(--space-4)}
     @media(min-width:640px){.events-grid{column-count:2}}
     @media(min-width:1000px){.events-grid{column-count:3}}
+    .events-grid.is-flex{column-count:initial;column-gap:initial;display:flex;flex-wrap:wrap;gap:var(--space-3);align-items:flex-start}
+    .events-grid.is-flex .event-card{display:flex;flex-direction:column;flex:1 1 280px;max-width:calc(33.333% - var(--space-3) * 2 / 3);margin:0;width:auto}
+    @media(max-width:999px){.events-grid.is-flex .event-card{max-width:calc(50% - var(--space-3) / 2)}}
+    @media(max-width:639px){.events-grid.is-flex .event-card{max-width:100%}}
     .event-card{break-inside:avoid;page-break-inside:avoid;-webkit-column-break-inside:avoid;display:inline-block;width:100%;margin:0 0 var(--space-3) 0;position:relative;border-radius:var(--radius-lg);border:1px solid var(--color-border);background:var(--color-surface);box-shadow:var(--shadow-sm);padding:var(--space-3);transition:transform var(--transition),box-shadow var(--transition),border-color var(--transition),background var(--transition)}
     .event-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:rgba(1,105,111,.35);background:var(--color-surface-2)}
     .event-card.highlighted{outline:2px solid var(--color-primary);outline-offset:2px}
@@ -111,56 +162,64 @@
 <body>
 <div class="page">
   <a href="#main" class="sr-only">Skip to events</a>
-  <header>
-    <div class="logo" aria-label="Raleigh Weekend Events Hub">
-      <div class="logo-mark">919</div>
-      <div class="logo-text">
-        <h1>Raleigh Weekend Events</h1>
-        <p id="weekLabel">Loading…</p>
+  <div class="app-shell" id="appShell">
+    <header>
+      <div class="logo" aria-label="Raleigh Weekend Events Hub">
+        <div class="logo-mark">919</div>
+        <div class="logo-text">
+          <h1>Raleigh Weekend Events</h1>
+          <p id="weekLabel">Loading…</p>
+        </div>
       </div>
-    </div>
-    <div style="display:flex;gap:var(--space-2);align-items:center">
-      <button id="clearSelBtn" class="btn-ghost" type="button" style="display:none">Clear selection</button>
-      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
-        <span id="themeIcon">☀️</span>
-        <span class="theme-label" style="font-size:var(--text-xs);color:var(--color-text-muted)">Light</span>
-      </button>
-    </div>
-  </header>
+      <div style="display:flex;gap:var(--space-2);align-items:center">
+        <button id="clearSelBtn" class="btn-ghost" type="button" style="display:none">Clear selection</button>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span id="themeIcon">☀️</span>
+          <span class="theme-label" style="font-size:var(--text-xs);color:var(--color-text-muted)">Light</span>
+        </button>
+      </div>
+    </header>
 
-  <main id="main">
     <section class="filters" aria-label="Filters">
       <div class="filters-inner">
-        <!-- Row 1: Day pills + Free toggle + Search -->
-        <div class="filters-row">
+        <!-- Row 1: When (left) | Search (center) | Free toggle (right) -->
+        <div class="filters-row row-primary">
           <span class="row-label">When</span>
           <div class="pill-group" id="dayPills" aria-label="Filter by day">
             <button class="pill is-active" data-day="all" type="button">All days</button>
             <button class="pill" data-day="Friday" type="button">Friday</button>
             <button class="pill" data-day="Saturday" type="button">Saturday</button>
             <button class="pill" data-day="Sunday" type="button">Sunday</button>
-            <button class="pill" id="freeToggle" type="button">⊙ Free only</button>
           </div>
-          <div class="field">
+          <div class="active-summary" id="activeSummary" aria-live="polite"></div>
+          <div class="field field-search">
             <span class="field-icon">🔍</span>
             <input id="searchInput" type="search" placeholder="Search events, venues…" aria-label="Search events" />
           </div>
+          <label class="toggle-switch" id="freeToggle" title="Show only free events">
+            <input type="checkbox" id="freeToggleInput" />
+            <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
+            <span class="toggle-text">Free only</span>
+          </label>
+          <div class="result-meta" id="resultMeta">Loading…</div>
         </div>
-        <!-- Row 2: Tag pills -->
-        <div class="filters-row">
+        <!-- Row 2: City pills (Where) -->
+        <div class="filters-row is-collapsible">
+          <span class="row-label">Where</span>
+          <div class="pill-group" id="cityPills" aria-label="Filter by city"></div>
+        </div>
+        <!-- Row 3: Tag pills -->
+        <div class="filters-row is-collapsible">
           <span class="row-label">Tags</span>
           <div class="pill-group" id="tagPills" aria-label="Filter by tag"></div>
         </div>
-        <!-- Row 3: City pills -->
-        <div class="filters-row">
-          <span class="row-label">Where</span>
-          <div class="pill-group" id="cityPills" aria-label="Filter by city"></div>
-          <div class="result-meta" id="resultMeta">Loading…</div>
-        </div>
       </div>
     </section>
+  </div>
 
-    <section aria-label="Events">
+  <main id="main">
+
+    <section aria-label="Events" style="margin-top:var(--space-3)">
       <div id="eventsGrid" class="events-grid"></div>
       <div id="emptyState" class="empty-state" style="display:none">
         <h3>No events match</h3>
@@ -299,6 +358,9 @@ function renderEvents(){
     empty.style.display='none';
     state.filtered.forEach(ev=>grid.appendChild(makeCard(ev)));
   }
+  // Switch to flex layout when there are few cards so they sit side-by-side
+  // instead of being distributed vertically across columns.
+  grid.classList.toggle('is-flex',state.filtered.length>0&&state.filtered.length<=6);
   $('resultMeta').textContent=`${state.filtered.length} of ${state.allEvents.length} events`;
   const n=state.selectedIds.size;
   $('shareBar').style.display=n>0?'flex':'none';
@@ -306,6 +368,34 @@ function renderEvents(){
   if(n>0)$('shareCount').innerHTML=`<strong>${n}</strong> selected`;
   syncTagPillState();
   syncCityPillState();
+  renderActiveSummary();
+}
+
+// Compact summary of active tag/city filters; visible only when shell is condensed
+function renderActiveSummary(){
+  const wrap=$('activeSummary');
+  if(!wrap)return;
+  wrap.innerHTML='';
+  const items=[];
+  state.activeTags.forEach(t=>items.push({label:t,kind:'tag',value:t}));
+  state.activeCities.forEach(c=>items.push({label:c,kind:'city',value:c}));
+  if(state.freeOnly)items.push({label:'Free only',kind:'free'});
+  if(state.activeDay!=='all')items.push({label:state.activeDay,kind:'day'});
+  if(items.length===0){wrap.classList.remove('has-any');return;}
+  wrap.classList.add('has-any');
+  items.forEach(it=>{
+    const chip=document.createElement('button');
+    chip.type='button';chip.className='summary-chip';
+    chip.innerHTML=`${it.label}<span class="x">✕</span>`;
+    chip.addEventListener('click',()=>{
+      if(it.kind==='tag'){state.activeTags.delete(it.value);}
+      else if(it.kind==='city'){state.activeCities.delete(it.value);}
+      else if(it.kind==='free'){state.freeOnly=false;document.getElementById('freeToggleInput').checked=false;document.getElementById('freeToggle').classList.remove('is-active');}
+      else if(it.kind==='day'){state.activeDay='all';document.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('is-active',b.dataset.day==='all'));}
+      applyFilters();
+    });
+    wrap.appendChild(chip);
+  });
 }
 
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e;}
@@ -404,14 +494,30 @@ document.getElementById('dayPills').addEventListener('click',e=>{
   btn.classList.add('is-active');state.activeDay=btn.dataset.day;applyFilters();
 });
 
-// Free toggle
-$('freeToggle').addEventListener('click',function(e){
-  e.stopPropagation();
-  state.freeOnly=!state.freeOnly;this.classList.toggle('is-active',state.freeOnly);applyFilters();
+// Free toggle (checkbox-driven switch)
+$('freeToggleInput').addEventListener('change',function(){
+  state.freeOnly=this.checked;
+  $('freeToggle').classList.toggle('is-active',state.freeOnly);
+  applyFilters();
 });
 
 // Search
 $('searchInput').addEventListener('input',function(){state.query=this.value.toLowerCase().trim();applyFilters();});
+
+// Condense the sticky header/filter bar after scrolling past a small threshold
+(function(){
+  const shell=$('appShell');
+  const threshold=24;
+  let ticking=false;
+  function update(){
+    shell.classList.toggle('is-condensed',window.scrollY>threshold);
+    ticking=false;
+  }
+  window.addEventListener('scroll',()=>{
+    if(!ticking){window.requestAnimationFrame(update);ticking=true;}
+  },{passive:true});
+  update();
+})();
 
 function showToast(){
   const t=$('shareToast');t.classList.add('visible');setTimeout(()=>t.classList.remove('visible'),2500);
