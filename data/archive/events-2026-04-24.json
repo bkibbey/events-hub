@@ -1,0 +1,120 @@
+{
+  "week": "2026-04-24",
+  "generated": "2026-04-24T12:58:00",
+  "source": "Things to do in Raleigh this Weekend! (kevin@thingstodoinraleigh.com)",
+  "events": [
+    {
+      "id": 1,
+      "name": "Brewgaloo",
+      "venue": "Downtown Raleigh (Fayetteville Street)",
+      "address": "Fayetteville Street Mall, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "startTime": "12:00 PM",
+      "endTime": "11:00 PM",
+      "free": false,
+      "ticketUrl": "https://brewgaloo.com",
+      "website": "https://brewgaloo.com",
+      "facebook": "https://www.facebook.com/brewgaloo",
+      "instagram": "https://www.instagram.com/brewgaloo",
+      "tags": [
+        "Beer",
+        "Food",
+        "Festival",
+        "Music",
+        "Outdoor",
+        "Adult"
+      ],
+      "description": "North Carolina's largest craft beer festival returns to Downtown Raleigh with 100+ breweries, live music, and local food vendors."
+    },
+    {
+      "id": 2,
+      "name": "Earth Day Celebration at Dix Park",
+      "venue": "Dorothea Dix Park",
+      "address": "1201 Umstead Dr, Raleigh, NC 27603",
+      "city": "Raleigh",
+      "zip": "27603",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM",
+      "free": true,
+      "ticketUrl": null,
+      "website": "https://dixpark.org",
+      "facebook": "https://www.facebook.com/DixPark",
+      "instagram": "https://www.instagram.com/dorothea.dix.park",
+      "tags": [
+        "Outdoor",
+        "Family",
+        "Free",
+        "Environment",
+        "Community"
+      ],
+      "description": "Celebrate Earth Day at Dorothea Dix Park with nature walks, sustainability vendors, kids activities, and community programming."
+    },
+    {
+      "id": 3,
+      "name": "Carolina Ballet: Celebration of America",
+      "venue": "Memorial Auditorium at Martin Marietta Center",
+      "address": "2 E South St, Raleigh, NC 27601",
+      "city": "Raleigh",
+      "zip": "27601",
+      "days": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "multiDay": true,
+      "startTime": "7:30 PM",
+      "endTime": "9:30 PM",
+      "free": false,
+      "ticketUrl": "https://carolinaballet.com",
+      "website": "https://carolinaballet.com",
+      "facebook": "https://www.facebook.com/carolinaballet",
+      "instagram": "https://www.instagram.com/carolinaballet",
+      "tags": [
+        "Ballet",
+        "Dance",
+        "Theater",
+        "Arts",
+        "Performance"
+      ],
+      "description": "Carolina Ballet's patriotic showcase featuring American music and iconic choreography, performed at the stunning Memorial Auditorium."
+    },
+    {
+      "id": 4,
+      "name": "R&B ONLY LIVE",
+      "venue": "The Ritz",
+      "address": "2820 Industrial Dr, Raleigh, NC 27609",
+      "city": "Raleigh",
+      "zip": "27609",
+      "days": [
+        "Friday"
+      ],
+      "multiDay": false,
+      "startTime": "9:00 PM",
+      "endTime": "2:00 AM",
+      "free": false,
+      "ticketUrl": "https://www.etix.com",
+      "website": "https://www.ritzraleigh.com",
+      "facebook": "https://www.facebook.com/ritzraleigh",
+      "instagram": "https://www.instagram.com/ritzraleigh",
+      "tags": [
+        "Music",
+        "R&B",
+        "Live Music",
+        "Nightlife",
+        "Adult"
+      ],
+      "description": "A live R&B music experience at The Ritz \u2014 one of Raleigh's premier music venues."
+    }
+  ],
+  "raw_source": "seed (hand-crafted, no raw extraction)"
+}
