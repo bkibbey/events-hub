@@ -58,6 +58,10 @@
     .summary-chip{display:inline-flex;align-items:center;gap:.3rem;padding:.18rem .55rem;border-radius:var(--radius-full);background:var(--color-primary-soft);color:var(--color-primary);font-size:.68rem;border:1px solid rgba(1,105,111,.2);cursor:pointer;white-space:nowrap}
     .summary-chip:hover{background:var(--color-primary);color:#fff}
     .summary-chip .x{opacity:.6;font-size:.85em}
+    .summary-chip.is-shared{background:#fff4e0;color:#8c4a00;border-color:rgba(220,140,20,.45)}
+    .summary-chip.is-shared:hover{background:#8c4a00;color:#fff4e0}
+    [data-theme=dark] .summary-chip.is-shared{background:#3a2c1a;color:#ffd9a2;border-color:rgba(255,217,162,.35)}
+    [data-theme=dark] .summary-chip.is-shared:hover{background:#ffd9a2;color:#3a2c1a}
     .summary-clear{font-size:var(--text-xs);color:var(--color-text-muted);text-decoration:underline;margin-left:auto;cursor:pointer;background:none;border:none;padding:.18rem .4rem}
     .summary-clear:hover{color:var(--color-primary)}
     .filters-row .field{flex:1 1 180px;min-width:160px;max-width:340px;position:relative}
@@ -300,7 +304,7 @@
   toggle.addEventListener('click',()=>{cur=cur==='dark'?'light':'dark';setTheme(cur);});
 })();
 
-const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),activeCities:new Set(),query:'',week:null};
+const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),activeCities:new Set(),query:'',week:null,sharedView:false};
 const $ = id => document.getElementById(id);
 
 function getUrlParams(){
@@ -382,8 +386,11 @@ function syncTagPillState(){
 }
 
 function applyFilters(){
-  const{activeDay:day,freeOnly,activeTags:tags,activeCities:cities,query:q,selectedIds}=state;
+  const{activeDay:day,freeOnly,activeTags:tags,activeCities:cities,query:q,selectedIds,sharedView}=state;
   let out=state.allEvents.filter(ev=>{
+    // Shared-view mode: hard-restrict to the IDs from the share link.
+    // Other filters still narrow within that subset.
+    if(sharedView&&!selectedIds.has(ev.id))return false;
     if(day!=='all'&&!(ev.days||[]).includes(day))return false;
     if(freeOnly&&!ev.free)return false;
     // AND logic: event must include EVERY active tag
@@ -436,6 +443,7 @@ function renderActiveSummary(){
   if(!wrap)return;
   wrap.innerHTML='';
   const items=[];
+  if(state.sharedView)items.push({label:`Shared events (${state.selectedIds.size})`,kind:'shared'});
   state.activeTags.forEach(t=>items.push({label:t,kind:'tag',value:t}));
   state.activeCities.forEach(c=>items.push({label:c,kind:'city',value:c}));
   if(state.freeOnly)items.push({label:'Free only',kind:'free'});
@@ -447,7 +455,8 @@ function renderActiveSummary(){
   wrap.classList.add('has-any');
   items.forEach(it=>{
     const chip=document.createElement('button');
-    chip.type='button';chip.className='summary-chip';
+    chip.type='button';chip.className='summary-chip'+(it.kind==='shared'?' is-shared':'');
+    if(it.kind==='shared')chip.title='Showing only the events from a shared link — click to see all events';
     chip.innerHTML=`${it.label}<span class="x">✕</span>`;
     chip.addEventListener('click',()=>{
       if(it.kind==='tag'){state.activeTags.delete(it.value);}
@@ -455,6 +464,7 @@ function renderActiveSummary(){
       else if(it.kind==='free'){state.freeOnly=false;document.getElementById('freeToggleInput').checked=false;document.getElementById('freeToggle').classList.remove('is-active');}
       else if(it.kind==='day'){state.activeDay='all';document.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('is-active',b.dataset.day==='all'));}
       else if(it.kind==='query'){state.query='';document.getElementById('searchInput').value='';}
+      else if(it.kind==='shared'){exitSharedView();}
       applyFilters();
     });
     wrap.appendChild(chip);
@@ -479,7 +489,21 @@ function clearAllFilters(){
   document.getElementById('freeToggle').classList.remove('is-active');
   document.getElementById('searchInput').value='';
   document.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('is-active',b.dataset.day==='all'));
+  if(state.sharedView)exitSharedView();
   applyFilters();
+}
+
+// Exit "Shared events" view: clear the restriction and strip the param from the URL
+// (so a refresh doesn't put us back into the limited view).
+function exitSharedView(){
+  state.sharedView=false;
+  state.selectedIds.clear();
+  try{
+    const u=new URL(window.location.href);
+    u.searchParams.delete('selected');
+    u.searchParams.delete('week');
+    window.history.replaceState({},'',u.pathname+(u.search?u.search:'')+u.hash);
+  }catch(e){/* no-op */}
 }
 
 function updateDropdownBadges(){
@@ -629,7 +653,11 @@ $('shareBtn').addEventListener('click',()=>{
   } else {window.prompt('Copy this link:',url);}
 });
 
-$('clearSelBtn').addEventListener('click',()=>{state.selectedIds.clear();applyFilters();});
+$('clearSelBtn').addEventListener('click',()=>{
+  if(state.sharedView)exitSharedView();
+  else state.selectedIds.clear();
+  applyFilters();
+});
 
 // Day pills
 document.getElementById('dayPills').addEventListener('click',e=>{
@@ -701,6 +729,8 @@ loadEvents()
     buildCityPills(state.allEvents);
     const{selectedIds}=getUrlParams();
     state.selectedIds=selectedIds;
+    // If the page was opened with a share link, lock the view to those events.
+    state.sharedView=selectedIds.size>0;
     applyFilters();
     if(selectedIds.size>0){
       setTimeout(()=>{
