@@ -197,7 +197,9 @@
   <div class="app-shell" id="appShell">
     <header>
       <div class="logo" aria-label="Raleigh Weekend Events Hub">
-        <img class="logo-mark" src="assets/ttd-logo.png" alt="Things To Do 919" width="72" height="34" />
+        <a href="https://www.thingstodo919.com" target="_blank" rel="noopener" title="Visit Things To Do 919" style="display:inline-flex">
+          <img class="logo-mark" src="assets/ttd-logo.png" alt="Things To Do 919" width="72" height="34" />
+        </a>
         <div class="logo-text">
           <h1>Raleigh Weekend Events</h1>
           <p id="weekLabel">Loading…</p>
@@ -680,15 +682,13 @@ $('freeToggleInput').addEventListener('change',function(){
 // Search
 $('searchInput').addEventListener('input',function(){state.query=this.value.toLowerCase().trim();applyFilters();});
 
-// Disclaimer dismiss (persists across reloads)
+// Disclaimer dismiss (per-session only — reappears on reload)
 (function(){
   const banner=$('disclaimer'),btn=$('disclaimerClose');
   if(!banner||!btn)return;
-  try{if(localStorage.getItem('disclaimerDismissed')==='1')banner.classList.add('is-hidden');}catch(e){}
-  btn.addEventListener('click',()=>{
-    banner.classList.add('is-hidden');
-    try{localStorage.setItem('disclaimerDismissed','1');}catch(e){}
-  });
+  // Clear any previously-persisted dismissal from earlier versions of the app.
+  try{localStorage.removeItem('disclaimerDismissed');}catch(e){}
+  btn.addEventListener('click',()=>{banner.classList.add('is-hidden');});
 })();
 
 // Condense the sticky header/filter bar as soon as the user scrolls
