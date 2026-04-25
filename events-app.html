@@ -61,11 +61,16 @@
     .summary-clear{font-size:var(--text-xs);color:var(--color-text-muted);text-decoration:underline;margin-left:auto;cursor:pointer;background:none;border:none;padding:.18rem .4rem}
     .summary-clear:hover{color:var(--color-primary)}
     .filters-row .field{flex:1 1 180px;min-width:160px;max-width:340px;position:relative}
-    /* Row 1: dropdowns + free toggle + search in one compact row */
+    /* Row 1: dropdowns + free toggle + count + search in one compact row */
     .filters-row.row-primary{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2)}
     .filters-row.row-primary > .toggle-switch{margin-left:.25rem}
+    .filters-row.row-primary > .result-meta{margin-left:.5rem}
     .filters-row.row-primary > .field-search{flex:0 1 280px;margin-left:auto}
-    .filters-row.row-primary > .result-meta{flex-basis:100%;text-align:right;order:100}
+    /* Mobile: let the search box span the full row, count sits inline before it */
+    @media(max-width:640px){
+      .filters-row.row-primary > .field-search{flex:1 1 100%;margin-left:0;max-width:none;order:50}
+      .filters-row.row-primary > .result-meta{margin-left:auto}
+    }
 
     /* Filter dropdown button + popover */
     .filter-dd{position:relative}
@@ -107,7 +112,7 @@
     .pill:hover{background:var(--color-surface-offset);color:var(--color-text)}
     .pill.is-active{background:var(--color-primary-soft);border-color:var(--color-primary);color:var(--color-primary);box-shadow:var(--shadow-sm);transform:translateY(-1px)}
     .pill .count{opacity:.6;font-size:.65rem;margin-left:.15rem}
-    .result-meta{font-size:var(--text-xs);color:var(--color-text-muted);margin-left:auto;white-space:nowrap}
+    .result-meta{font-size:var(--text-xs);color:var(--color-text-muted);white-space:nowrap}
 
     /* Masonry: CSS columns when many cards. Switch to flex when few so cards sit side-by-side. */
     .events-grid{column-count:1;column-gap:var(--space-3);margin-top:var(--space-4)}
@@ -243,13 +248,13 @@
           <label class="toggle-switch" id="freeToggle" title="Show only free events">
             <input type="checkbox" id="freeToggleInput" />
             <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
-            <span class="toggle-text">Free only</span>
+            <span class="toggle-text">Free</span>
           </label>
+          <div class="result-meta" id="resultMeta">Loading…</div>
           <div class="field field-search">
             <span class="field-icon">🔍</span>
             <input id="searchInput" type="search" placeholder="Search…" aria-label="Search events" />
           </div>
-          <div class="result-meta" id="resultMeta">Loading…</div>
         </div>
         <!-- Row 2: active filter chips (only shown when something is active) -->
         <div class="filters-row row-chips" id="activeSummary" aria-live="polite"></div>
