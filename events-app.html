@@ -159,22 +159,21 @@
     .btn-primary:hover{background:#0c4e54;transform:translateY(-1px);box-shadow:var(--shadow-md)}
     .btn-ghost{padding:.35rem .9rem;border-radius:var(--radius-full);border:1px solid var(--color-border);font-size:var(--text-xs);color:var(--color-text-muted);transition:background var(--transition),transform var(--transition)}
     .btn-ghost:hover{background:var(--color-surface-offset);transform:translateY(-1px)}
-    .share-toast{position:fixed;inset-inline:0;bottom:.5rem;display:flex;justify-content:center;pointer-events:none;z-index:40;opacity:0;transition:opacity .3s}
+    .share-toast{position:fixed;inset-inline:0;bottom:5rem;display:flex;justify-content:center;pointer-events:none;z-index:65;opacity:0;transition:opacity .3s}
     .share-toast.visible{opacity:1}
     .share-toast-inner{background:var(--color-primary);color:#fff;padding:.35rem .85rem;border-radius:var(--radius-full);font-size:var(--text-xs);box-shadow:var(--shadow-md)}
     .empty-state{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-16) var(--space-8);color:var(--color-text-muted)}
     .empty-state h3{color:var(--color-text);margin-bottom:var(--space-2)}
 
-    /* Experimental disclaimer banner */
-    .disclaimer{display:flex;align-items:flex-start;gap:.55rem;background:#fff4e0;color:#8c4a00;border:1px solid rgba(220,140,20,.35);border-radius:var(--radius-md);padding:.55rem .75rem;margin-bottom:var(--space-3);font-size:var(--text-xs);line-height:1.45;transition:max-height var(--transition),opacity var(--transition),padding var(--transition),margin var(--transition);max-height:6rem;overflow:hidden}
-    [data-theme=dark] .disclaimer{background:#3a2c1a;color:#ffd9a2;border-color:rgba(255,217,162,.3)}
+    /* Experimental disclaimer banner — pinned to bottom, floats over content */
+    .disclaimer{position:fixed;left:50%;bottom:.75rem;transform:translateX(-50%);width:min(calc(100% - 1.5rem),var(--container-max));display:flex;align-items:flex-start;gap:.55rem;background:#fff4e0;color:#8c4a00;border:1px solid rgba(220,140,20,.45);border-radius:var(--radius-md);padding:.55rem .75rem;font-size:var(--text-xs);line-height:1.45;box-shadow:var(--shadow-lg);backdrop-filter:saturate(1.1);z-index:60;transition:opacity var(--transition),transform var(--transition)}
+    [data-theme=dark] .disclaimer{background:#3a2c1a;color:#ffd9a2;border-color:rgba(255,217,162,.35)}
     .disclaimer-flag{font-weight:700;letter-spacing:.04em;text-transform:uppercase;font-size:.65rem;padding:.1rem .4rem;border-radius:var(--radius-full);background:#8c4a00;color:#fff4e0;margin-right:.25rem;flex-shrink:0;align-self:center}
     [data-theme=dark] .disclaimer-flag{background:#ffd9a2;color:#3a2c1a}
     .disclaimer p{flex:1;margin:0}
     .disclaimer-close{background:transparent;border:none;cursor:pointer;color:inherit;opacity:.55;padding:0 .15rem;font-size:1rem;line-height:1;flex-shrink:0;align-self:center}
     .disclaimer-close:hover{opacity:1}
-    .disclaimer.is-hidden{max-height:0;opacity:0;padding-top:0;padding-bottom:0;margin-bottom:0;border-width:0}
-    .app-shell.is-condensed .disclaimer:not(.is-hidden){max-height:0;opacity:0;padding-top:0;padding-bottom:0;margin-bottom:0;border-width:0}
+    .disclaimer.is-hidden{opacity:0;transform:translate(-50%,120%);pointer-events:none}
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
   </style>
@@ -199,12 +198,6 @@
         </button>
       </div>
     </header>
-
-    <div class="disclaimer" id="disclaimer" role="note">
-      <span class="disclaimer-flag">Experimental</span>
-      <p>These event details are parsed from a weekly email and tagged/researched via AI tools. Please double-check event details from other sources before making solid plans.</p>
-      <button type="button" class="disclaimer-close" id="disclaimerClose" aria-label="Dismiss disclaimer" title="Dismiss">✕</button>
-    </div>
 
     <section class="filters" aria-label="Filters">
       <div class="filters-inner">
@@ -286,6 +279,12 @@
   </main>
 </div>
 
+<div class="disclaimer" id="disclaimer" role="note">
+  <span class="disclaimer-flag">Experimental</span>
+  <p>These event details are parsed from a weekly email and tagged/researched via AI tools. Please double-check event details from other sources before making solid plans.</p>
+  <button type="button" class="disclaimer-close" id="disclaimerClose" aria-label="Dismiss disclaimer" title="Dismiss">✕</button>
+</div>
+
 <script>
 // Theme
 (function(){
@@ -307,10 +306,17 @@ function getUrlParams(){
   return{selectedIds:ids,weekParam:p.get('week')};
 }
 
+// Tags excluded from the dropdown (handled by dedicated controls)
+const TAG_EXCLUDE=new Set(['free']);
+
 function buildTagPills(events){
   const counts=new Map();
-  events.forEach(e=>(e.tags||[]).forEach(t=>counts.set(t,(counts.get(t)||0)+1)));
-  const sorted=Array.from(counts.entries()).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+  events.forEach(e=>(e.tags||[]).forEach(t=>{
+    if(TAG_EXCLUDE.has(t.toLowerCase()))return;
+    counts.set(t,(counts.get(t)||0)+1);
+  }));
+  // Alphabetical, case-insensitive
+  const sorted=Array.from(counts.entries()).sort((a,b)=>a[0].localeCompare(b[0],undefined,{sensitivity:'base'}));
   const c=$('tagPills');c.innerHTML='';
   sorted.forEach(([tag,count])=>{
     const btn=document.createElement('button');
@@ -327,7 +333,8 @@ function buildCityPills(events){
     const city=(e.city||'').trim();
     if(city)counts.set(city,(counts.get(city)||0)+1);
   });
-  const sorted=Array.from(counts.entries()).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+  // Alphabetical, case-insensitive
+  const sorted=Array.from(counts.entries()).sort((a,b)=>a[0].localeCompare(b[0],undefined,{sensitivity:'base'}));
   const c=$('cityPills');c.innerHTML='';
   sorted.forEach(([city,count])=>{
     const btn=document.createElement('button');
