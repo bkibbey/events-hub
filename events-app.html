@@ -47,7 +47,11 @@
     .logo-text p a{color:inherit;text-decoration:underline;text-underline-offset:2px}
     .logo-text p a:hover{color:var(--color-primary)}
     .app-shell.is-condensed .logo-text h1{font-size:var(--text-base)}
-    .app-shell.is-condensed .logo-text p{max-height:0;opacity:0}
+    /* On narrow screens the subtitle is stacked under the h1 — collapse it on scroll. */
+    /* On wide screens it sits beside the h1 on the same baseline, so keep it visible. */
+    @media(max-width:719px){
+      .app-shell.is-condensed .logo-text p{max-height:0;opacity:0}
+    }
     /* On wide screens, lay the title row out horizontally with the subtitle */
     /* trailing the h1 on the same baseline. Stays stacked below 720px. */
     @media(min-width:720px){
