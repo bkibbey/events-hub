@@ -5,7 +5,7 @@ A responsive, filterable, shareable single-page events site powered by the
 
 - **Live site**: [bkibbey.github.io/events-hub](https://bkibbey.github.io/events-hub/)
 - **Repository**: [github.com/bkibbey/events-hub](https://github.com/bkibbey/events-hub)
-- **Source newsletter**: [Things To Do 919](https://www.thingstodo919.com)
+- **Source newsletter**: [www.thingstodo919.com](https://www.thingstodo919.com)
 
 ## What this is
 
