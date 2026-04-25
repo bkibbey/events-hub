@@ -1,10 +1,11 @@
 # Raleigh Weekend Events Hub
 
 A responsive, filterable, shareable single-page events site powered by the
-"Things to do in Raleigh this Weekend!" newsletter from
-[Things To Do 919](https://www.thingstodo919.com).
+"Things to do in Raleigh this Weekend!" newsletter.
 
-[**→ Live site**](https://bkibbey.github.io/events-hub/)
+- **Live site**: [bkibbey.github.io/events-hub](https://bkibbey.github.io/events-hub/)
+- **Repository**: [github.com/bkibbey/events-hub](https://github.com/bkibbey/events-hub)
+- **Source newsletter**: [Things To Do 919](https://www.thingstodo919.com)
 
 ## What this is
 

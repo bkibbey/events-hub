@@ -243,6 +243,7 @@
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
   </style>
+  <script src="assets/confetti.min.js" defer></script>
 </head>
 <body>
 <div class="accent-stripe" aria-hidden="true"></div>
@@ -757,25 +758,150 @@ $('freeToggleInput').addEventListener('change',function(){
   applyFilters();
 });
 
+// ---------------------------------------------------------------------------
+// Confetti effects (powered by canvas-confetti, vendored in assets/)
+// One library, multiple recipes — used for both easter eggs and holidays.
+// ---------------------------------------------------------------------------
+const CONFETTI_EFFECTS={
+  // Easter eggs
+  burst(){
+    if(!window.confetti)return;
+    confetti({particleCount:120,spread:70,startVelocity:45,origin:{y:.7}});
+  },
+  rain(){
+    if(!window.confetti)return;
+    const end=Date.now()+1500;
+    (function frame(){
+      confetti({particleCount:4,startVelocity:0,gravity:.6,ticks:200,
+        spread:360,origin:{x:Math.random(),y:Math.random()*-.2}});
+      if(Date.now()<end)requestAnimationFrame(frame);
+    })();
+  },
+  blueGold(){
+    if(!window.confetti)return;
+    const colors=['#1f4e9f','#f7a81b','#ffd966','#0a3a7a'];
+    confetti({particleCount:80,angle:60,spread:55,origin:{x:0,y:.7},colors});
+    confetti({particleCount:80,angle:120,spread:55,origin:{x:1,y:.7},colors});
+  },
+  // Holidays
+  fireworks(){
+    if(!window.confetti)return;
+    const end=Date.now()+2500,defaults={startVelocity:30,spread:360,ticks:60,zIndex:0};
+    function r(min,max){return Math.random()*(max-min)+min;}
+    (function frame(){
+      const count=50;
+      confetti(Object.assign({},defaults,{particleCount:count,origin:{x:r(.1,.3),y:Math.random()-.2}}));
+      confetti(Object.assign({},defaults,{particleCount:count,origin:{x:r(.7,.9),y:Math.random()-.2}}));
+      if(Date.now()<end)requestAnimationFrame(frame);
+    })();
+  },
+  hearts(){
+    if(!window.confetti)return;
+    const heart=confetti.shapeFromText({text:'❤️',scalar:2});
+    confetti({particleCount:50,scalar:2,shapes:[heart],spread:80,origin:{y:.6},
+      colors:['#ff4f6d','#ff8fa3','#ff1f4f']});
+  },
+  shamrocks(){
+    if(!window.confetti)return;
+    const s=confetti.shapeFromText({text:'☘️',scalar:2});
+    confetti({particleCount:60,scalar:2,shapes:[s],spread:90,startVelocity:35,
+      origin:{y:.7},colors:['#1d8e3d','#62c462','#0e6b2a']});
+  },
+  redWhiteBlue(){
+    if(!window.confetti)return;
+    const colors=['#b22234','#ffffff','#3c3b6e'];
+    const end=Date.now()+1800;
+    (function frame(){
+      confetti({particleCount:30,startVelocity:35,spread:360,ticks:80,
+        origin:{x:Math.random(),y:Math.random()*-.1},colors});
+      if(Date.now()<end)requestAnimationFrame(frame);
+    })();
+  },
+  halloween(){
+    if(!window.confetti)return;
+    const shapes=['🎃','👻','🦇'].map(t=>confetti.shapeFromText({text:t,scalar:2}));
+    const end=Date.now()+2500;
+    (function frame(){
+      confetti({particleCount:3,scalar:2,shapes,startVelocity:0,gravity:.7,ticks:200,
+        spread:360,origin:{x:Math.random(),y:-.1}});
+      if(Date.now()<end)requestAnimationFrame(frame);
+    })();
+  },
+  leaves(){
+    if(!window.confetti)return;
+    const shapes=['🍁','🍂'].map(t=>confetti.shapeFromText({text:t,scalar:2}));
+    const end=Date.now()+3000;
+    (function frame(){
+      confetti({particleCount:2,scalar:2,shapes,startVelocity:0,gravity:.3,drift:1,ticks:300,
+        spread:80,origin:{x:Math.random(),y:-.1}});
+      if(Date.now()<end)requestAnimationFrame(frame);
+    })();
+  },
+  snow(){
+    if(!window.confetti)return;
+    const flake=confetti.shapeFromText({text:'❄️',scalar:1.6});
+    const end=Date.now()+4000;
+    (function frame(){
+      confetti({particleCount:2,scalar:1.6,shapes:[flake],startVelocity:0,gravity:.4,ticks:300,
+        spread:120,origin:{x:Math.random(),y:-.1},colors:['#ffffff']});
+      if(Date.now()<end)requestAnimationFrame(frame);
+    })();
+  },
+};
+function fireConfetti(name){
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const fn=CONFETTI_EFFECTS[name];if(fn)fn();
+}
+
 // Search
 // Easter-egg trigger phrases. Match is case-insensitive whole-word.
 const EGG_TRIGGERS=[
-  {word:'bruce',message:'What a guy'},
-  {word:'kibbey',message:'What a family'},
-  {word:'rotary',message:'Service above self'},
+  {word:'bruce',message:'What a guy',effect:'burst'},
+  {word:'kibbey',message:'What a family',effect:'rain'},
+  {word:'rotary',message:'Service above self',effect:'blueGold'},
 ];
+let lastEggWord=null;
 function updateEggPill(query){
   const pill=$('eggPill');if(!pill)return;
   const tokens=query.toLowerCase().split(/\W+/).filter(Boolean);
   const hit=EGG_TRIGGERS.find(t=>tokens.includes(t.word));
-  if(hit){pill.textContent=hit.message;pill.hidden=false;}
-  else{pill.hidden=true;pill.textContent='';}
+  if(hit){
+    pill.textContent=hit.message;pill.hidden=false;
+    // Only fire confetti on the transition into a new match — not on every keystroke.
+    if(hit.word!==lastEggWord){fireConfetti(hit.effect);lastEggWord=hit.word;}
+  } else {
+    pill.hidden=true;pill.textContent='';lastEggWord=null;
+  }
 }
 $('searchInput').addEventListener('input',function(){
   state.query=this.value.toLowerCase().trim();
   updateEggPill(this.value);
   applyFilters();
 });
+
+// Holiday confetti — fires once per holiday per browser session.
+// Date checks use the user's local timezone.
+(function(){
+  // [month (1-12), day, effect, key]. Multi-day windows are listed individually.
+  const HOLIDAYS=[
+    {m:1, d:1,  effect:'fireworks',     key:'newyears',     name:"New Year's"},
+    {m:2, d:14, effect:'hearts',        key:'valentines',   name:"Valentine's Day"},
+    {m:3, d:17, effect:'shamrocks',     key:'stpatricks',   name:"St. Patrick's Day"},
+    {m:7, d:4,  effect:'redWhiteBlue',  key:'july4',        name:'Independence Day'},
+    {m:10,d:31, effect:'halloween',     key:'halloween',    name:'Halloween'},
+    {m:11,d:26, effect:'leaves',        key:'thanksgiving', name:'Thanksgiving'},  // approximate
+    {m:12,d:24, effect:'snow',          key:'xmaseve',      name:'Christmas Eve'},
+    {m:12,d:25, effect:'snow',          key:'christmas',    name:'Christmas'},
+  ];
+  const today=new Date();
+  const m=today.getMonth()+1,d=today.getDate();
+  const hit=HOLIDAYS.find(h=>h.m===m&&h.d===d);
+  if(!hit)return;
+  const flag='holiday-fired-'+hit.key+'-'+today.getFullYear();
+  try{if(sessionStorage.getItem(flag))return;sessionStorage.setItem(flag,'1');}catch(e){}
+  // Wait for the page to settle, then fire.
+  setTimeout(()=>fireConfetti(hit.effect),900);
+})();
 
 // Disclaimer dismiss (per-session only — reappears on reload)
 (function(){
