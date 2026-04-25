@@ -36,7 +36,9 @@
     header{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-bottom:var(--space-3);transition:margin var(--transition)}
     .app-shell.is-condensed header{margin-bottom:var(--space-2)}
     .logo{display:flex;align-items:center;gap:var(--space-3);transition:gap var(--transition)}
-    .logo-mark{height:34px;width:auto;display:block;transition:height var(--transition);flex-shrink:0}
+    /* Logo image hidden until use is cleared with the source-site owner. */
+    /* Keep markup in place so it can be re-enabled with a single rule change. */
+    .logo-mark,.logo > a{display:none}
     [data-theme=dark] .logo-mark{filter:brightness(0) saturate(100%) invert(67%) sepia(46%) saturate(2469%) hue-rotate(212deg) brightness(102%) contrast(98%)}
     .app-shell.is-condensed .logo-mark{height:26px}
     .logo-text{display:flex;flex-direction:column;min-width:0}
