@@ -23,9 +23,9 @@ Output (default): data/raw/raw-events-{week}.json
 The script also archives the source HTML to data/email-raw/{week}.html.
 
 Usage:
-  python ingest-email.py --url 'https://us15.campaign-archive.com/?u=...&id=...'
-  python ingest-email.py --archive-id 291544bb7c
-  python ingest-email.py --email-file email.html
+  python scripts/ingest-email.py --url 'https://us15.campaign-archive.com/?u=...&id=...'
+  python scripts/ingest-email.py --archive-id 291544bb7c
+  python scripts/ingest-email.py --email-file email.html
 """
 import argparse, json, re, sys
 from datetime import date, timedelta
@@ -42,7 +42,8 @@ except ImportError:
     sys.exit("Standard library urllib not available")
 
 
-PROJECT_ROOT = Path(__file__).parent.resolve()
+# Project root is one level up from scripts/
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_RAW_DIR = PROJECT_ROOT / "data" / "raw"
 DEFAULT_EMAIL_RAW_DIR = PROJECT_ROOT / "data" / "email-raw"
 
@@ -328,7 +329,7 @@ def main():
     }
     out_path.write_text(json.dumps(output, indent=2))
     print(f"Wrote: {out_path}")
-    print(f"Next: python update-metadata.py --week {week}")
+    print(f"Next: python scripts/update-metadata.py --week {week}")
 
 
 if __name__ == "__main__":

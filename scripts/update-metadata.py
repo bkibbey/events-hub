@@ -10,16 +10,17 @@ Outputs:
 Usage:
   export PERPLEXITY_API_KEY=pplx-...    # preferred (has live web search)
   # or: export OPENAI_API_KEY=sk-...
-  python update-metadata.py                       # auto-pick most recent raw file
-  python update-metadata.py --week 2026-04-24     # pick by weekend date
-  python update-metadata.py --raw-file path.json  # explicit input
-  python update-metadata.py --limit 5             # test on first N events
+  python scripts/update-metadata.py                       # auto-pick most recent raw file
+  python scripts/update-metadata.py --week 2026-04-24     # pick by weekend date
+  python scripts/update-metadata.py --raw-file path.json  # explicit input
+  python scripts/update-metadata.py --limit 5             # test on first N events
 """
 import argparse, json, os, re, sys, time
 from datetime import date
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).parent.resolve()
+# Project root is one level up from scripts/
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
 ARCHIVE_DIR = DATA_DIR / "archive"

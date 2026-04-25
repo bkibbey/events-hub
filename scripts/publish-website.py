@@ -4,15 +4,16 @@ publish-website.py  —  Step 3 of the Raleigh Weekend Events pipeline
 Validate data/events.json and serve locally or deploy to GitHub Pages / Netlify.
 
 Usage:
-  python publish-website.py                    # local preview (default)
-  python publish-website.py --target github    # git commit + push (Pages)
-  python publish-website.py --target netlify   # netlify deploy --prod
+  python scripts/publish-website.py                    # local preview (default)
+  python scripts/publish-website.py --target github    # git commit + push (Pages)
+  python scripts/publish-website.py --target netlify   # netlify deploy --prod
 """
 import argparse, http.server, json, os, socketserver, subprocess, sys, webbrowser
 from pathlib import Path
 
 PORT = 8765
-PROJECT_ROOT = Path(__file__).parent.resolve()
+# Project root is one level up from scripts/
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_EVENTS = PROJECT_ROOT / "data" / "events.json"
 DEFAULT_HTML = "index.html"
 
