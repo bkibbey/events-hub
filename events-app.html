@@ -61,10 +61,10 @@
     .summary-clear{font-size:var(--text-xs);color:var(--color-text-muted);text-decoration:underline;margin-left:auto;cursor:pointer;background:none;border:none;padding:.18rem .4rem}
     .summary-clear:hover{color:var(--color-primary)}
     .filters-row .field{flex:1 1 180px;min-width:160px;max-width:340px;position:relative}
-    /* Row 1: dropdowns + search + toggle in one compact row */
+    /* Row 1: dropdowns + free toggle + search in one compact row */
     .filters-row.row-primary{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2)}
-    .filters-row.row-primary > .field-search{flex:1 1 200px}
-    .filters-row.row-primary > .toggle-switch{margin-left:auto}
+    .filters-row.row-primary > .toggle-switch{margin-left:.25rem}
+    .filters-row.row-primary > .field-search{flex:0 1 280px;margin-left:auto}
     .filters-row.row-primary > .result-meta{flex-basis:100%;text-align:right;order:100}
 
     /* Filter dropdown button + popover */
@@ -247,15 +247,15 @@
               </div>
             </div>
           </div>
-          <div class="field field-search">
-            <span class="field-icon">🔍</span>
-            <input id="searchInput" type="search" placeholder="Search…" aria-label="Search events" />
-          </div>
           <label class="toggle-switch" id="freeToggle" title="Show only free events">
             <input type="checkbox" id="freeToggleInput" />
             <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
             <span class="toggle-text">Free only</span>
           </label>
+          <div class="field field-search">
+            <span class="field-icon">🔍</span>
+            <input id="searchInput" type="search" placeholder="Search…" aria-label="Search events" />
+          </div>
           <div class="result-meta" id="resultMeta">Loading…</div>
         </div>
         <!-- Row 2: active filter chips (only shown when something is active) -->
