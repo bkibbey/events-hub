@@ -133,10 +133,15 @@ python scripts/update-metadata.py --limit 5 --no-current
 
 ## Cost note
 
-With ~120–140 unique events per week (after multi-day merge), each enrichment run is one LLM call per event. On Perplexity `sonar` that's roughly **$0.001 per event ≈ $0.15/week**. On OpenAI `gpt-4o-mini` it's similar. To cut costs:
+With ~120–140 unique events per week (after multi-day merge), each enrichment run makes one LLM call per event. Per-call cost depends on the provider and prompt/response size, and live-search models like `sonar` also bill for search requests.
 
-- `--limit N` enriches only the first N (the newsletter lists prominent events first)
-- Or skip step 2 entirely — the cards still display name, venue, city, day, and link from raw data; tags and descriptions are just empty
+Rough order of magnitude on Perplexity `sonar` or OpenAI `gpt-4o-mini`: **a few dollars per week, worst case** — usually less, but plan for that ceiling. Always check current pricing on your provider's dashboard before running a full week, and start with `--limit 5` if you're trying a new model or prompt.
+
+To keep costs down:
+
+- `--limit N` enriches only the first N events (the newsletter lists prominent events first)
+- `--no-current` writes the dated archive but doesn't replace `data/events.json` — useful when iterating on prompts
+- Skip step 2 entirely — the cards still display name, venue, city, day, and link from raw data; tags and descriptions stay empty
 
 ## Site features
 
@@ -164,16 +169,6 @@ Click the circled **i** in the header to open an in-app About modal. It fetches 
 ### Disclaimer banner
 
 A floating "Experimental" banner at the bottom credits the Things To Do 919 newsletter and warns that AI-enriched details should be double-checked. It's dismissible per session (no localStorage persistence — reappears every reload). When events are selected, the banner lifts above the share pill so both stay visible.
-
-### Easter eggs
-
-Type any of these into the search box and a small lime-accent pill pops in next to the input:
-
-- `bruce` → *What a guy*
-- `kibbey` → *What a family*
-- `rotary` → *Service above self*
-
-Whole-word match — `brucellosis` won't fire it; `hi bruce!` will.
 
 ## Branding
 
