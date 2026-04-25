@@ -54,6 +54,7 @@ events-hub/
 │   ├── ingest-email.py          # Step 1: fetch + parse newsletter → raw JSON
 │   ├── update-metadata.py       # Step 2: merge + AI-enrich → events.json + archive
 │   └── publish-website.py       # Step 3: validate + preview/deploy
+├── docs/                        # Design notes & feature writeups (not shipped to site)
 └── data/
     ├── events.json                       # CURRENT snapshot — the only file the site fetches
     ├── email-raw/
@@ -170,6 +171,30 @@ Click the circled **i** in the header to open an in-app About modal. It fetches 
 ### Disclaimer banner
 
 A floating "Experimental" banner at the bottom credits the Things To Do 919 newsletter and warns that AI-enriched details should be double-checked. It's dismissible per session (no localStorage persistence — reappears every reload). When events are selected, the banner lifts above the share pill so both stay visible.
+
+## Embedding the site
+
+The site is a single static page with no frame-busting and no `X-Frame-Options` headers from GitHub Pages, so it embeds cleanly in an `<iframe>`. Drop this into any HTML page:
+
+```html
+<iframe
+  src="https://bkibbey.github.io/events-hub/"
+  title="Raleigh Weekend Events"
+  width="100%"
+  height="900"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  style="border:0;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,.08);max-width:100%;"
+  allow="clipboard-write">
+</iframe>
+```
+
+Notes:
+
+- **`allow="clipboard-write"`** lets the in-frame "Copy shareable link" button work in modern browsers.
+- **Pre-filtered embeds** — append filter params to the `src` to land visitors on a curated view, e.g. `?day=saturday&tags=music,outdoor` or `?selected=1,3,7&week=2026-04-24` for a hand-picked list.
+- **Responsive height** — for a fluid layout, wrap the iframe in a container with a CSS aspect ratio, or use a small resize script that listens for `postMessage` from the embed (not currently emitted; ask if you'd like it added).
+- **Dark mode** — the embedded site has its own light/dark toggle that persists in the iframe's own `localStorage`, independent of the host page.
 
 ## Branding
 
