@@ -49,33 +49,42 @@
     /* Filters */
     .filters{padding:0;margin:0}
     .filters-inner{border-radius:var(--radius-lg);background:var(--color-surface);box-shadow:var(--shadow-sm);border:1px solid var(--color-border);display:grid;gap:0;transition:box-shadow var(--transition)}
-    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:.4rem .6rem;border-bottom:1px solid rgba(0,0,0,.04);transition:padding var(--transition),max-height .3s cubic-bezier(0.16,1,0.3,1),opacity var(--transition);overflow:hidden}
+    .filters-row{display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:.4rem .6rem;border-bottom:1px solid rgba(0,0,0,.04);transition:padding var(--transition),max-height .3s cubic-bezier(0.16,1,0.3,1),opacity var(--transition);overflow:visible}
     .filters-row:last-child{border-bottom:none}
-    .filters-row .row-label{font-size:var(--text-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-right:var(--space-2);white-space:nowrap;transition:opacity var(--transition),max-width var(--transition);max-width:5rem}
     .app-shell.is-condensed .filters-row{padding:.25rem .6rem}
-    .app-shell.is-condensed .filters-row .row-label{opacity:0;max-width:0;margin-right:0;overflow:hidden}
-    /* When condensed, hide tag and city rows entirely; the search box on row 1 remains usable */
-    .app-shell.is-condensed .filters-row.is-collapsible{max-height:0;padding-top:0;padding-bottom:0;opacity:0;border-bottom:none;pointer-events:none}
-    .filters-row.is-collapsible{max-height:30rem;opacity:1}
-    /* Active pill summary chip shown only when condensed and there are active filters */
-    .active-summary{display:none;align-items:center;gap:var(--space-2);flex-wrap:wrap;margin-left:var(--space-2);font-size:var(--text-xs);color:var(--color-text-muted)}
-    .app-shell.is-condensed .active-summary.has-any{display:inline-flex}
-    .summary-chip{display:inline-flex;align-items:center;gap:.25rem;padding:.18rem .55rem;border-radius:var(--radius-full);background:var(--color-primary-soft);color:var(--color-primary);font-size:.68rem;border:1px solid rgba(1,105,111,.2);cursor:pointer}
+    /* Active filter chips row - shown only when filters are active */
+    .filters-row.row-chips{padding:.3rem .6rem;border-top:1px solid rgba(0,0,0,.04);border-bottom:none;background:var(--color-surface-2)}
+    .filters-row.row-chips:not(.has-any){display:none}
+    .summary-chip{display:inline-flex;align-items:center;gap:.3rem;padding:.18rem .55rem;border-radius:var(--radius-full);background:var(--color-primary-soft);color:var(--color-primary);font-size:.68rem;border:1px solid rgba(1,105,111,.2);cursor:pointer;white-space:nowrap}
     .summary-chip:hover{background:var(--color-primary);color:#fff}
-    .summary-chip .x{opacity:.6;font-size:.7em}
-    .filters-row .field{flex:1 1 200px;min-width:180px;max-width:320px;position:relative}
-    /* Row 1 layout: pills left, search centered, toggle right */
-    .filters-row.row-primary{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:var(--space-2)}
-    .filters-row.row-primary > .row-label{grid-column:1;justify-self:start}
-    .filters-row.row-primary > #dayPills{grid-column:1;justify-self:start;flex:0 0 auto}
-    .filters-row.row-primary > .active-summary{grid-column:1 / -1;order:99;justify-self:start}
-    .filters-row.row-primary > .field-search{grid-column:2;justify-self:center;width:100%;max-width:360px;margin:0}
-    .filters-row.row-primary > .toggle-switch{grid-column:3;justify-self:end}
-    .filters-row.row-primary > #resultMeta{grid-column:1 / -1;justify-self:end;order:100;padding-top:.1rem}
+    .summary-chip .x{opacity:.6;font-size:.85em}
+    .summary-clear{font-size:var(--text-xs);color:var(--color-text-muted);text-decoration:underline;margin-left:auto;cursor:pointer;background:none;border:none;padding:.18rem .4rem}
+    .summary-clear:hover{color:var(--color-primary)}
+    .filters-row .field{flex:1 1 180px;min-width:160px;max-width:340px;position:relative}
+    /* Row 1: dropdowns + search + toggle in one compact row */
+    .filters-row.row-primary{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2)}
+    .filters-row.row-primary > .field-search{flex:1 1 200px}
+    .filters-row.row-primary > .toggle-switch{margin-left:auto}
+    .filters-row.row-primary > .result-meta{flex-basis:100%;text-align:right;order:100}
+
+    /* Filter dropdown button + popover */
+    .filter-dd{position:relative}
+    .filter-dd-btn{display:inline-flex;align-items:center;gap:.35rem;padding:.32rem .7rem;border-radius:var(--radius-full);border:1px solid var(--color-border);background:var(--color-surface);color:var(--color-text);font-size:var(--text-xs);cursor:pointer;transition:all var(--transition);white-space:nowrap}
+    .filter-dd-btn:hover{border-color:var(--color-primary);background:var(--color-surface-2)}
+    .filter-dd-btn.is-active{background:var(--color-primary-soft);border-color:var(--color-primary);color:var(--color-primary);box-shadow:var(--shadow-sm)}
+    .filter-dd-btn .caret{font-size:.55rem;opacity:.6;transition:transform var(--transition)}
+    .filter-dd[data-open="true"] .caret{transform:rotate(180deg)}
+    .filter-dd-btn .badge{display:inline-flex;align-items:center;justify-content:center;min-width:1.1rem;height:1.1rem;padding:0 .35rem;border-radius:var(--radius-full);background:var(--color-primary);color:#fff;font-size:.6rem;font-weight:600;margin-left:.1rem}
+    .filter-dd-btn .badge[hidden]{display:none}
+    .filter-dd-pop{position:absolute;top:calc(100% + 6px);left:0;z-index:50;min-width:240px;max-width:480px;max-height:60vh;overflow-y:auto;border-radius:var(--radius-md);background:var(--color-surface);border:1px solid var(--color-border);box-shadow:var(--shadow-lg);padding:.5rem;display:none;flex-direction:column;gap:.4rem}
+    .filter-dd[data-open="true"] .filter-dd-pop{display:flex}
+    .filter-dd-pop .pop-pills{display:flex;flex-wrap:wrap;gap:.3rem}
+    .filter-dd-pop .pop-footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--color-border);padding-top:.4rem;margin-top:.2rem}
+    .filter-dd-pop .pop-clear{font-size:var(--text-xs);color:var(--color-text-muted);background:none;border:none;cursor:pointer;padding:.2rem .4rem;text-decoration:underline}
+    .filter-dd-pop .pop-clear:hover{color:var(--color-primary)}
+    .filter-dd-pop .pop-count{font-size:.65rem;color:var(--color-text-muted)}
     @media(max-width:760px){
-      .filters-row.row-primary{grid-template-columns:1fr;gap:var(--space-2)}
-      .filters-row.row-primary > *{justify-self:start!important;grid-column:1!important}
-      .filters-row.row-primary > .field-search{max-width:none}
+      .filter-dd-pop{position:fixed;top:auto;left:.5rem;right:.5rem;bottom:.5rem;min-width:0;max-width:none;max-height:70vh}
     }
 
     /* Toggle switch (replaces the old free-only pill) */
@@ -199,19 +208,48 @@
 
     <section class="filters" aria-label="Filters">
       <div class="filters-inner">
-        <!-- Row 1: When (left) | Search (center) | Free toggle (right) -->
+        <!-- Row 1: When | Where | Tags dropdowns + Search + Free toggle -->
         <div class="filters-row row-primary">
-          <span class="row-label">When</span>
-          <div class="pill-group" id="dayPills" aria-label="Filter by day">
-            <button class="pill is-active" data-day="all" type="button">All days</button>
-            <button class="pill" data-day="Friday" type="button">Friday</button>
-            <button class="pill" data-day="Saturday" type="button">Saturday</button>
-            <button class="pill" data-day="Sunday" type="button">Sunday</button>
+          <div class="filter-dd" id="ddWhen">
+            <button class="filter-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+              When <span class="badge" hidden></span> <span class="caret">▼</span>
+            </button>
+            <div class="filter-dd-pop" role="listbox">
+              <div class="pop-pills" id="dayPills" aria-label="Filter by day">
+                <button class="pill is-active" data-day="all" type="button">All days</button>
+                <button class="pill" data-day="Friday" type="button">Friday</button>
+                <button class="pill" data-day="Saturday" type="button">Saturday</button>
+                <button class="pill" data-day="Sunday" type="button">Sunday</button>
+              </div>
+            </div>
           </div>
-          <div class="active-summary" id="activeSummary" aria-live="polite"></div>
+          <div class="filter-dd" id="ddWhere">
+            <button class="filter-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+              Where <span class="badge" hidden></span> <span class="caret">▼</span>
+            </button>
+            <div class="filter-dd-pop" role="listbox">
+              <div class="pop-pills" id="cityPills" aria-label="Filter by city"></div>
+              <div class="pop-footer">
+                <button type="button" class="pop-clear" data-clear="cities">Clear</button>
+                <span class="pop-count" id="whereCount"></span>
+              </div>
+            </div>
+          </div>
+          <div class="filter-dd" id="ddTags">
+            <button class="filter-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+              Tags <span class="badge" hidden></span> <span class="caret">▼</span>
+            </button>
+            <div class="filter-dd-pop" role="listbox">
+              <div class="pop-pills" id="tagPills" aria-label="Filter by tag"></div>
+              <div class="pop-footer">
+                <button type="button" class="pop-clear" data-clear="tags">Clear</button>
+                <span class="pop-count" id="tagsCount"></span>
+              </div>
+            </div>
+          </div>
           <div class="field field-search">
             <span class="field-icon">🔍</span>
-            <input id="searchInput" type="search" placeholder="Search events, venues…" aria-label="Search events" />
+            <input id="searchInput" type="search" placeholder="Search…" aria-label="Search events" />
           </div>
           <label class="toggle-switch" id="freeToggle" title="Show only free events">
             <input type="checkbox" id="freeToggleInput" />
@@ -220,16 +258,8 @@
           </label>
           <div class="result-meta" id="resultMeta">Loading…</div>
         </div>
-        <!-- Row 2: City pills (Where) -->
-        <div class="filters-row is-collapsible">
-          <span class="row-label">Where</span>
-          <div class="pill-group" id="cityPills" aria-label="Filter by city"></div>
-        </div>
-        <!-- Row 3: Tag pills -->
-        <div class="filters-row is-collapsible">
-          <span class="row-label">Tags</span>
-          <div class="pill-group" id="tagPills" aria-label="Filter by tag"></div>
-        </div>
+        <!-- Row 2: active filter chips (only shown when something is active) -->
+        <div class="filters-row row-chips" id="activeSummary" aria-live="polite"></div>
       </div>
     </section>
   </div>
@@ -388,7 +418,7 @@ function renderEvents(){
   renderActiveSummary();
 }
 
-// Compact summary of active tag/city filters; visible only when shell is condensed
+// Active filter chips, always visible when filters are applied
 function renderActiveSummary(){
   const wrap=$('activeSummary');
   if(!wrap)return;
@@ -398,6 +428,9 @@ function renderActiveSummary(){
   state.activeCities.forEach(c=>items.push({label:c,kind:'city',value:c}));
   if(state.freeOnly)items.push({label:'Free only',kind:'free'});
   if(state.activeDay!=='all')items.push({label:state.activeDay,kind:'day'});
+  if(state.query)items.push({label:`“${state.query}”`,kind:'query'});
+  // Update dropdown badges + active states regardless of chip count
+  updateDropdownBadges();
   if(items.length===0){wrap.classList.remove('has-any');return;}
   wrap.classList.add('has-any');
   items.forEach(it=>{
@@ -409,11 +442,93 @@ function renderActiveSummary(){
       else if(it.kind==='city'){state.activeCities.delete(it.value);}
       else if(it.kind==='free'){state.freeOnly=false;document.getElementById('freeToggleInput').checked=false;document.getElementById('freeToggle').classList.remove('is-active');}
       else if(it.kind==='day'){state.activeDay='all';document.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('is-active',b.dataset.day==='all'));}
+      else if(it.kind==='query'){state.query='';document.getElementById('searchInput').value='';}
       applyFilters();
     });
     wrap.appendChild(chip);
   });
+  // Add 'Clear all' link when 2+ chips
+  if(items.length>=2){
+    const clr=document.createElement('button');
+    clr.type='button';clr.className='summary-clear';
+    clr.textContent='Clear all';
+    clr.addEventListener('click',clearAllFilters);
+    wrap.appendChild(clr);
+  }
 }
+
+function clearAllFilters(){
+  state.activeTags.clear();
+  state.activeCities.clear();
+  state.freeOnly=false;
+  state.activeDay='all';
+  state.query='';
+  document.getElementById('freeToggleInput').checked=false;
+  document.getElementById('freeToggle').classList.remove('is-active');
+  document.getElementById('searchInput').value='';
+  document.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('is-active',b.dataset.day==='all'));
+  applyFilters();
+}
+
+function updateDropdownBadges(){
+  // When dropdown
+  const whenBtn=document.querySelector('#ddWhen .filter-dd-btn');
+  const whenBadge=whenBtn.querySelector('.badge');
+  if(state.activeDay!=='all'){
+    whenBtn.classList.add('is-active');
+    whenBadge.hidden=false;whenBadge.textContent=state.activeDay.slice(0,3);
+    whenBadge.style.background='var(--color-primary)';
+  } else {
+    whenBtn.classList.remove('is-active');whenBadge.hidden=true;
+  }
+  // Where dropdown
+  const whereBtn=document.querySelector('#ddWhere .filter-dd-btn');
+  const whereBadge=whereBtn.querySelector('.badge');
+  if(state.activeCities.size>0){
+    whereBtn.classList.add('is-active');
+    whereBadge.hidden=false;whereBadge.textContent=state.activeCities.size;
+  } else {whereBtn.classList.remove('is-active');whereBadge.hidden=true;}
+  // Tags dropdown
+  const tagsBtn=document.querySelector('#ddTags .filter-dd-btn');
+  const tagsBadge=tagsBtn.querySelector('.badge');
+  if(state.activeTags.size>0){
+    tagsBtn.classList.add('is-active');
+    tagsBadge.hidden=false;tagsBadge.textContent=state.activeTags.size;
+  } else {tagsBtn.classList.remove('is-active');tagsBadge.hidden=true;}
+  // Pop-footer counts
+  const wc=$('whereCount'),tc=$('tagsCount');
+  if(wc)wc.textContent=state.activeCities.size?`${state.activeCities.size} selected`:'';
+  if(tc)tc.textContent=state.activeTags.size?`${state.activeTags.size} selected`:'';
+}
+
+// Dropdown open/close behavior
+(function(){
+  const dds=document.querySelectorAll('.filter-dd');
+  function closeAll(){dds.forEach(d=>{d.dataset.open='false';d.querySelector('.filter-dd-btn').setAttribute('aria-expanded','false');});}
+  dds.forEach(dd=>{
+    const btn=dd.querySelector('.filter-dd-btn');
+    btn.addEventListener('click',(e)=>{
+      e.stopPropagation();
+      const isOpen=dd.dataset.open==='true';
+      closeAll();
+      if(!isOpen){dd.dataset.open='true';btn.setAttribute('aria-expanded','true');}
+    });
+    // keep clicks inside the popover from closing it
+    dd.querySelector('.filter-dd-pop').addEventListener('click',(e)=>e.stopPropagation());
+  });
+  document.addEventListener('click',closeAll);
+  document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeAll();});
+})();
+
+// Pop-footer 'Clear' buttons
+document.querySelectorAll('.pop-clear').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const kind=btn.dataset.clear;
+    if(kind==='cities'){state.activeCities.clear();}
+    else if(kind==='tags'){state.activeTags.clear();}
+    applyFilters();
+  });
+});
 
 function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e;}
 
