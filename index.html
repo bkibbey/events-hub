@@ -212,6 +212,8 @@
     .disclaimer-close{position:absolute;top:.35rem;right:.45rem;background:transparent;border:none;cursor:pointer;color:inherit;opacity:.55;padding:.1rem .25rem;font-size:1rem;line-height:1}
     .disclaimer-close:hover{opacity:1}
     .disclaimer.is-hidden{opacity:0;transform:translate(-50%,120%);pointer-events:none}
+    /* When a share pill is showing, lift the disclaimer above it so the pill is visible */
+    body.has-share .disclaimer{bottom:3.75rem}
 
     /* About modal — renders README.md client-side */
     .modal-backdrop{position:fixed;inset:0;background:rgba(15,16,35,.55);z-index:80;display:none;align-items:center;justify-content:center;padding:1rem}
@@ -507,6 +509,7 @@ function renderEvents(){
   $('resultMeta').textContent=`${state.filtered.length} of ${state.allEvents.length} events`;
   const n=state.selectedIds.size;
   $('shareBar').style.display=n>0?'flex':'none';
+  document.body.classList.toggle('has-share',n>0);
   $('clearSelBtn').style.display=n>0?'':'none';
   if(n>0)$('shareCount').innerHTML=`<strong>${n}</strong> selected`;
   syncTagPillState();
