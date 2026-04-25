@@ -48,7 +48,7 @@ events-hub/
 ├── events-app.html              # Redirect stub for legacy /events-app.html links
 ├── README.md
 ├── assets/
-│   └── ttd-logo.png             # Things To Do 919 wordmark (currently hidden in CSS)
+│   └── logo.png                  # currently hidden in CSS
 ├── scripts/
 │   ├── ingest-email.py          # Step 1: fetch + parse newsletter → raw JSON
 │   ├── update-metadata.py       # Step 2: merge + AI-enrich → events.json + archive
@@ -183,7 +183,7 @@ Color tokens and assets match [Things To Do 919](https://www.thingstodo919.com/a
 - Dark : `--color-primary: #7c84ff` · `--color-accent: #b8f03d`
 - A 3px lime accent stripe pinned to the top of the viewport
 
-The TTD wordmark in `assets/ttd-logo.png` is committed but currently hidden in CSS (`.logo-mark, .logo > a { display:none }`). To re-enable, delete that one rule. (Pending an OK from the TTD owner.)
+`assets/logo.png` is committed but currently hidden in CSS (`.logo-mark, .logo > a { display:none }`). To re-enable, delete that one rule.
 
 ## Dependencies
 
