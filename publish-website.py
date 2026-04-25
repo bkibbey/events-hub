@@ -14,7 +14,7 @@ from pathlib import Path
 PORT = 8765
 PROJECT_ROOT = Path(__file__).parent.resolve()
 DEFAULT_EVENTS = PROJECT_ROOT / "data" / "events.json"
-DEFAULT_HTML = "events-app.html"
+DEFAULT_HTML = "index.html"
 
 
 def validate(events_file: Path):
@@ -50,7 +50,7 @@ def serve_local(html_file: str):
 
 def deploy_github(week: str | None):
     os.chdir(PROJECT_ROOT)
-    paths = ["data/events.json", "events-app.html"]
+    paths = ["data/events.json", "index.html", "events-app.html"]
     # Include the archive file for this week if it exists
     if week:
         archive = Path("data/archive") / f"events-{week}.json"

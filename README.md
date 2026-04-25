@@ -3,7 +3,7 @@
 A responsive, filterable, shareable events site powered by the
 "Things to do in Raleigh this Weekend!" newsletter.
 
-[Live site](https://bkibbey.github.io/events-hub/events-app.html)
+[Live site](https://bkibbey.github.io/events-hub/)
 
 ## Quick start
 
@@ -106,7 +106,8 @@ With ~120–140 unique events per week (after multi-day merge), each enrichment 
 
 ```
 events-hub/
-├── events-app.html           # Web app (single-page, edit once)
+├── index.html                # Web app (single-page, edit once)
+├── events-app.html           # Redirect stub for legacy /events-app.html links
 ├── ingest-email.py           # Step 1: fetch + parse newsletter → raw JSON
 ├── update-metadata.py        # Step 2: merge + AI enrichment → events.json + archive
 ├── publish-website.py        # Step 3: validate + preview/deploy
@@ -126,8 +127,9 @@ events-hub/
 ## Shareable links
 
 Select events on the site → click **Copy shareable link** → send to friends.
-The link encodes selected event IDs as `?selected=1,3,7&week=2026-04-24`.
-Friends see the full list with your picks highlighted and pinned at the top.
+The link encodes selected event IDs as `?selected=1,3,7&week=2026-04-24`
+(e.g. `https://bkibbey.github.io/events-hub/?selected=1,3,7&week=2026-04-24`).
+Friends see only the picks you shared, with a dismissible chip to view the full list.
 
 ## Filters & UI
 
