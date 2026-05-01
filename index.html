@@ -423,7 +423,7 @@
   toggle.addEventListener('click',()=>{cur=cur==='dark'?'light':'dark';setTheme(cur);});
 })();
 
-// sort: 'shuffle' (daily-stable random) | 'az' | 'za'. Persisted in sessionStorage.
+// sort: 'shuffle' (random, re-shuffles on load + on Shuffle re-tap) | 'az' | 'za'. Persisted in sessionStorage.
 const SORT_STORAGE_KEY='events-hub:sort';
 function loadSortPref(){
   try{const v=sessionStorage.getItem(SORT_STORAGE_KEY);if(v==='shuffle'||v==='az'||v==='za')return v;}catch(e){}
@@ -534,32 +534,19 @@ function applyFilters(){
     if(as!==bs)return as-bs;
     if(state.sort==='az')return(a.name||'').localeCompare(b.name||'');
     if(state.sort==='za')return(b.name||'').localeCompare(a.name||'');
-    // shuffle (default): use daily-stable order assigned at load time
+    // shuffle (default): use random order assigned at load time / on re-tap
     return(a._shuffleOrder||0)-(b._shuffleOrder||0);
   });
   state.filtered=out;
   renderEvents();
 }
 
-// Tiny seeded RNG (mulberry32) so every visitor today sees the same shuffle.
-function seededRng(seed){
-  return function(){
-    seed|=0;seed=seed+0x6D2B79F5|0;
-    let t=Math.imul(seed^seed>>>15,1|seed);
-    t=t+Math.imul(t^t>>>7,61|t)^t;
-    return((t^t>>>14)>>>0)/4294967296;
-  };
-}
-function hashString(s){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return h>>>0;}
+// Re-shuffle on every page load and whenever Shuffle is (re)selected.
 function assignShuffleOrder(events){
-  // Seed = today's date (local) + week label, so each weekend's data shuffles differently each day
-  const today=new Date().toISOString().slice(0,10);
-  const seed=hashString(today+'|'+(state.week||''));
-  const rng=seededRng(seed);
-  // Fisher–Yates over an index array, then write _shuffleOrder back
+  // Fisher–Yates over an index array using Math.random(), then write _shuffleOrder back
   const idx=events.map((_,i)=>i);
   for(let i=idx.length-1;i>0;i--){
-    const j=Math.floor(rng()*(i+1));
+    const j=Math.floor(Math.random()*(i+1));
     [idx[i],idx[j]]=[idx[j],idx[i]];
   }
   idx.forEach((origIdx,newIdx)=>{events[origIdx]._shuffleOrder=newIdx;});
@@ -1225,12 +1212,16 @@ document.addEventListener('click',(e)=>{
   if(!pill)return;
   const next=pill.dataset.sort;
   if(!next)return;
+  // Re-shuffle even when already on Shuffle, so the user can tap it for a new order.
+  if(next==='shuffle'){
+    assignShuffleOrder(state.allEvents);
+  }
   if(next!==state.sort){
     state.sort=next;
     try{sessionStorage.setItem(SORT_STORAGE_KEY,next);}catch(err){}
     updateSortUI();
-    applyFilters();
   }
+  applyFilters();
   // Close the dropdown after selecting
   const dd=document.getElementById('ddSort');
   if(dd){dd.dataset.open='false';dd.querySelector('.filter-dd-btn').setAttribute('aria-expanded','false');}

@@ -27,10 +27,16 @@ python scripts/ingest-email.py --url 'https://us15.campaign-archive.com/?u=...&i
 #  → data/raw/raw-events-YYYY-MM-DD.json
 #  → data/email-raw/newsletter-YYYY-MM-DD.html  (source HTML, archived)
 
+# 1b. Or, if the Mailchimp archive is unavailable and you only have the
+#     plain-text email body (e.g. exported from a Gmail connector):
+python scripts/ingest-email.py --text-file body.txt --week 2026-05-01
+#  → data/email-raw/newsletter-YYYY-MM-DD.txt
+
 # 2. Enrich with AI (auto-picks the most recent raw file)
 python scripts/update-metadata.py
-#  → data/archive/events-YYYY-MM-DD.json   (history)
+#  → data/archive/events-YYYY-MM-DD.json   (history, never overwritten by future weeks)
 #  → data/events.json                      (current — what the site loads)
+#  → data/archive/index.json               (manifest of all weekends, regenerated)
 
 # 3. Preview locally (opens http://localhost:8765/)
 python scripts/publish-website.py
@@ -47,25 +53,32 @@ All scripts live in `scripts/` but resolve paths relative to the repo root, so t
 events-hub/
 ├── index.html                   # The web app — single page, no build step
 ├── events-app.html              # Redirect stub for legacy /events-app.html links
+├── favicon-96x96.png            # Site favicon
+├── CNAME                        # weekend.brewideas.net
 ├── README.md
 ├── assets/
-│   └── logo.png                  # currently hidden in CSS
+│   ├── logo.png                  # currently hidden in CSS
+│   └── confetti.min.js           # canvas-confetti, vendored for offline / CSP-safe use
 ├── scripts/
 │   ├── ingest-email.py          # Step 1: fetch + parse newsletter → raw JSON
-│   ├── update-metadata.py       # Step 2: merge + AI-enrich → events.json + archive
+│   ├── update-metadata.py       # Step 2: merge + AI-enrich → events.json + archive + manifest
 │   └── publish-website.py       # Step 3: validate + preview/deploy
 ├── docs/                        # Design notes & feature writeups (not shipped to site)
+│   ├── feature-3waytags.md      # Three-state tag selection design
+│   └── feature-holidays.md      # Holiday confetti / easter-egg writeup
 └── data/
-    ├── events.json                       # CURRENT snapshot — the only file the site fetches
+    ├── events.json                       # CURRENT snapshot — the only file the site fetches at boot
     ├── email-raw/
-    │   └── newsletter-YYYY-MM-DD.html    # source HTML, dated
+    │   ├── newsletter-YYYY-MM-DD.html    # source HTML, dated
+    │   └── newsletter-YYYY-MM-DD.txt     # source plain-text, dated (when --text-file was used)
     ├── raw/
     │   └── raw-events-YYYY-MM-DD.json    # parsed events, dated
     └── archive/
-        └── events-YYYY-MM-DD.json        # enriched events, dated
+        ├── events-YYYY-MM-DD.json        # enriched events, dated
+        └── index.json                    # manifest the site reads to populate the week picker
 ```
 
-`data/events.json` is the only file the website reads at runtime. The dated files in `email-raw/`, `raw/`, and `archive/` are history — keep them, prune them, or gitignore them; the live site doesn't care.
+`data/events.json` is the snapshot that loads on first paint. `data/archive/index.json` is fetched right after to populate the week picker; selecting a past week loads `data/archive/events-YYYY-MM-DD.json` directly. The dated files in `email-raw/` and `raw/` are pure history — keep them, prune them, or gitignore them; the live site doesn't read them.
 
 ## How to get the newsletter URL
 
@@ -83,9 +96,15 @@ python scripts/ingest-email.py --archive-id 291544bb7c
 
 # If you saved the email as a local HTML file:
 python scripts/ingest-email.py --email-file email.html
+
+# If the Mailchimp archive blocks automated fetches and you only have the
+# plain-text email body (e.g. exported via a Gmail connector):
+python scripts/ingest-email.py --text-file body.txt --week 2026-05-01
 ```
 
 The `--email-file` mode tries to detect the campaign id inside the local file and auto-upgrades to the full archive URL. (Gmail truncates email bodies to ~3 KB; the Mailchimp archive page has the complete content.)
+
+The `--text-file` mode parses the plain-text rendering of the email — lines like `Event Name (https://...) , Venue, City` grouped under `FRIDAY` / `SATURDAY` / `SUNDAY` headers, with wrapped lines auto-folded. Use it when Mailchimp's archive returns 503 or the campaign id isn't reachable.
 
 ## What the parser extracts
 
@@ -149,12 +168,23 @@ To keep costs down:
 
 ### Filters & UI
 
-- **When / Where / Tags** dropdowns + **Free** toggle + **search** in a single row
+- **Sort / When / Where / Tags** dropdowns + **Free** toggle + **search** in a single row
+- **Sort** offers Shuffle (default), A–Z, and Z–A. The choice persists in `sessionStorage` (`events-hub:sort`). Shuffle re-randomizes on every page load and whenever the Shuffle pill is re-tapped, so a refresh always serves a fresh order.
 - Active filters appear as dismissible chips below the row
 - Multi-tag filtering is **AND** (pick "Music" + "Outdoor" → events with both)
 - Tag chips inside cards are clickable and stay in sync with the header dropdowns
 - Cards use a CSS-columns masonry layout (1 / 2 / 3 cols responsive)
 - **Light / dark mode** toggle in the header (auto-saves preference)
+- **Holiday confetti** — see [docs/feature-holidays.md](docs/feature-holidays.md) for the full list of triggers and easter eggs
+
+### Week picker (archive browsing)
+
+The weekend label in the banner (e.g. **Weekend of May 1, 2026**) is a button. Tapping it opens a popover listing every weekend present in `data/archive/index.json`, newest first, with a *Current* badge on the active one. Selecting a past week:
+
+- Loads `data/archive/events-YYYY-MM-DD.json`
+- Clears the current selection
+- Shows a banner with a **Back to current** action
+- Updates the URL to `?week=YYYY-MM-DD` so the view is shareable
 
 ### Shareable links
 
@@ -162,7 +192,7 @@ Select events on the site → click **Copy shareable link** → send to friends.
 
 The link encodes selected event IDs as
 `https://weekend.brewideas.net/?selected=1,3,7&week=2026-04-24`.
-When opened, the friend sees **only** those events, with a dismissible amber "Shared events (N)" chip to expand back to the full list.
+When opened, the friend sees **only** those events, with a dismissible amber "Shared events (N)" chip to expand back to the full list. The `&week=` parameter is only appended when the user is browsing an archived weekend; current-week links omit it.
 
 ### About modal
 
