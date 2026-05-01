@@ -2276,6 +2276,34 @@
       ],
       "description": "A drop-in celebration of Bike Month featuring dozens of special events organized by community partners and Oaks and Spokes. Explore biking opportunities and connect with fellow cyclists.",
       "id": 87
+    },
+    {
+      "name": "Fuquay-Varina Chorale Spring Concert",
+      "tagline": "Annual community-chorale concert showcasing extraordinary local vocal talent.",
+      "venue": "Fuquay-Varina Arts Center",
+      "address": "123 E. Vance St.",
+      "city": "Fuquay-Varina",
+      "zip": "27526",
+      "days": [
+        "Friday",
+        "Saturday"
+      ],
+      "multiDay": true,
+      "scheduleNote": "Fri 7:30 PM \u00b7 Sat 3:00 PM",
+      "free": false,
+      "freeNote": "$10/all seats",
+      "ticketUrl": "https://app.arts-people.com/index.php?ticketing=fvac",
+      "website": "https://www.fuquay-varina.org/913/Fuquay-Varina-Chorale",
+      "facebook": "https://www.facebook.com/FuquayVarinaArtsCenter/",
+      "instagram": null,
+      "tags": [
+        "Music",
+        "Theater",
+        "Ticketed"
+      ],
+      "description": "The Fuquay-Varina Chorale, a non-auditioned community choir under the direction of Margaret Cook, presents its annual Spring Concert with a wide repertoire of music and a showcase of local vocal talent. Performances Friday at 7:30 PM and Saturday at 3:00 PM at the Fuquay-Varina Arts Center.",
+      "id": 88
     }
-  ]
+  ],
+  "event_count": 88
 }
