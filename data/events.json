@@ -1,7 +1,7 @@
 {
   "week": "2026-04-24",
   "generated": "2026-04-24",
-  "source": "Things to do in Raleigh this Weekend! \u2014 Thingstodo919",
+  "source": "Things to do in Raleigh this Weekend! — Thingstodo919",
   "raw_source": "data/raw/raw-events-2026-04-24.json",
   "events": [
     {
@@ -16,7 +16,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 6\u201310 PM \u00b7 Sat 12\u20138 PM",
+      "scheduleNote": "Fri 6–10 PM · Sat 12–8 PM",
       "free": false,
       "freeNote": "Friday ticketed ($28.92-$46.20); Saturday free admission, tickets for beer sampling",
       "ticketUrl": "https://www.eventbrite.com/e/brewgaloo-tickets-1980393572486",
@@ -44,7 +44,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 5\u201310 PM",
+      "scheduleNote": "Fri 5–10 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -72,7 +72,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 7:30 PM \u00b7 Sat 2 PM & 7:30 PM \u00b7 Sun 2 PM",
+      "scheduleNote": "Fri 7:30 PM · Sat 2 PM & 7:30 PM · Sun 2 PM",
       "free": false,
       "freeNote": "$37.77+",
       "ticketUrl": null,
@@ -82,7 +82,7 @@
       "tags": [
         "Theater"
       ],
-      "description": "Anchored by George Balanchine\u2019s Stars and Stripes, this mixed repertory program features ballets set to music by American composers like John Philip Sousa, Philip Glass, and George Gershwin, celebrating 250 years of American artistry.",
+      "description": "Anchored by George Balanchine’s Stars and Stripes, this mixed repertory program features ballets set to music by American composers like John Philip Sousa, Philip Glass, and George Gershwin, celebrating 250 years of American artistry.",
       "id": 3
     },
     {
@@ -96,7 +96,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 6:30\u201310:30 PM",
+      "scheduleNote": "Fri 6:30–10:30 PM",
       "free": false,
       "freeNote": "$54+",
       "ticketUrl": "https://rnbonly.com/calendar",
@@ -124,7 +124,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 7\u20139:15 PM \u00b7 Sat TBD \u00b7 Sun TBD",
+      "scheduleNote": "Fri 7–9:15 PM · Sat TBD · Sun TBD",
       "free": false,
       "freeNote": "Tickets start at $130",
       "ticketUrl": "https://improv.com/raleigh/comic/bill+bellamy/",
@@ -151,7 +151,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri Apr 24 \u00b7 Sat Apr 25",
+      "scheduleNote": "Fri Apr 24 · Sat Apr 25",
       "free": false,
       "freeNote": "Tickets from $54",
       "ticketUrl": "https://www.goodnightscomedy.com/events/125136",
@@ -178,7 +178,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 10am\u20135pm \u00b7 Sat 9am\u20137:30pm \u00b7 Sun 10am\u20135pm",
+      "scheduleNote": "Fri 10am–5pm · Sat 9am–7:30pm · Sun 10am–5pm",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -206,7 +206,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 8\u201310 PM",
+      "scheduleNote": "Fri 8–10 PM",
       "free": false,
       "freeNote": "$24",
       "ticketUrl": null,
@@ -355,7 +355,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Doors 6 PM \u00b7 Show 7 PM",
+      "scheduleNote": "Doors 6 PM · Show 7 PM",
       "free": false,
       "freeNote": "$30.50",
       "ticketUrl": "https://lincolntheatre.com/event/the-happy-fits-w-bel/lincoln-theatre/raleigh-north-carolina/",
@@ -370,7 +370,7 @@
       "id": 14
     },
     {
-      "name": "The People\u2019s Collection: Ixcanul",
+      "name": "The People’s Collection: Ixcanul",
       "tagline": "Screening of the film Ixcanul as part of the People's Collection series at the NC Museum of Art.",
       "venue": "East Building, SECU Auditorium",
       "address": "2110 Blue Ridge Rd.",
@@ -391,7 +391,7 @@
         "Film",
         "Museum"
       ],
-      "description": "The People\u2019s Collection: Ixcanul is a film screening on Friday, April 24, 2026, at 8:00 PM in the SECU Auditorium of the North Carolina Museum of Art's East Building.[1][2]",
+      "description": "The People’s Collection: Ixcanul is a film screening on Friday, April 24, 2026, at 8:00 PM in the SECU Auditorium of the North Carolina Museum of Art's East Building.[1][2]",
       "id": 15
     },
     {
@@ -405,7 +405,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 1\u20132 PM",
+      "scheduleNote": "Fri 1–2 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -417,7 +417,7 @@
         "Free",
         "Museum"
       ],
-      "description": "Trio Sefardi presents a performance of Sephardic music on Friday, April 24, 2026, from 1:00\u20132:00 PM in the West Building of the North Carolina Museum of Art.",
+      "description": "Trio Sefardi presents a performance of Sephardic music on Friday, April 24, 2026, from 1:00–2:00 PM in the West Building of the North Carolina Museum of Art.",
       "id": 16
     },
     {
@@ -432,7 +432,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Thu Apr 23 \u00b7 Fri Apr 24 \u00b7 Sat Apr 25",
+      "scheduleNote": "Thu Apr 23 · Fri Apr 24 · Sat Apr 25",
       "free": false,
       "freeNote": "Tickets from $42",
       "ticketUrl": "https://www.goodnightscomedy.com/events/129126",
@@ -512,7 +512,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri-Sat 1\u20135 PM",
+      "scheduleNote": "Fri-Sat 1–5 PM",
       "free": false,
       "freeNote": "$30 for both days",
       "ticketUrl": "https://www.eventbrite.com/e/art-in-the-gardens-tour-tickets-1983113127749",
@@ -538,7 +538,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 9:00\u201310:30 AM",
+      "scheduleNote": "Fri 9:00–10:30 AM",
       "free": true,
       "freeNote": "Free",
       "ticketUrl": null,
@@ -566,7 +566,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri, Sat, Sun, Mon 10 AM\u201312 PM (self-guided all days)",
+      "scheduleNote": "Fri, Sat, Sun, Mon 10 AM–12 PM (self-guided all days)",
       "free": true,
       "freeNote": "Free",
       "ticketUrl": null,
@@ -592,7 +592,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 2\u20138 PM",
+      "scheduleNote": "Fri 2–8 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -618,7 +618,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 5:30\u20138:30 PM",
+      "scheduleNote": "Fri 5:30–8:30 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": null,
@@ -696,7 +696,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fridays & Saturdays 9 AM\u20136 PM \u00b7 Sundays 10 AM\u20134 PM",
+      "scheduleNote": "Fridays & Saturdays 9 AM–6 PM · Sundays 10 AM–4 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -726,7 +726,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 6:30\u20138:30 PM \u00b7 Sat 12:00 PM",
+      "scheduleNote": "Fri 6:30–8:30 PM · Sat 12:00 PM",
       "free": false,
       "freeNote": "$39 - $53",
       "ticketUrl": "https://www.martinmariettacenter.com/events/detail/carolina-youth-ballet-presents-cinderella",
@@ -751,7 +751,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 7\u201310 PM",
+      "scheduleNote": "Fri 7–10 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": "https://givebutter.com/kehlani",
@@ -777,7 +777,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 9\u201311 PM",
+      "scheduleNote": "Fri 9–11 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": "https://www.eventbrite.com/e/1159-tickets-1987156666081",
@@ -852,7 +852,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 5\u20138 PM",
+      "scheduleNote": "Fri 5–8 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -863,7 +863,7 @@
         "Free",
         "Festival"
       ],
-      "description": "Join a free vendor mixer and showcase on April 24 from 5\u20138 PM in The Durham Hotel's first-floor Coffee Bar. Connect with local wedding and event vendors for inspiration and services; RSVP requested.",
+      "description": "Join a free vendor mixer and showcase on April 24 from 5–8 PM in The Durham Hotel's first-floor Coffee Bar. Connect with local wedding and event vendors for inspiration and services; RSVP requested.",
       "id": 33
     },
     {
@@ -877,7 +877,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "6:30\u20139 PM",
+      "scheduleNote": "6:30–9 PM",
       "free": false,
       "freeNote": "$22 Museum Members, $25 General Public",
       "ticketUrl": null,
@@ -904,7 +904,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 7:30 PM \u00b7 Sat 7:30 PM",
+      "scheduleNote": "Fri 7:30 PM · Sat 7:30 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": "https://www.dpacnc.com/events/detail/alison_krauss2026",
@@ -930,7 +930,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 8:00\u20139:00 PM",
+      "scheduleNote": "Fri 8:00–9:00 PM",
       "free": false,
       "freeNote": "$9 at the door",
       "ticketUrl": null,
@@ -955,7 +955,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 5\u20139 PM (Night Market 5\u20137 PM, Performances 7\u20139 PM)",
+      "scheduleNote": "Fri 5–9 PM (Night Market 5–7 PM, Performances 7–9 PM)",
       "free": false,
       "freeNote": "$10 entry fee (proceeds benefit OneSky Foundation)",
       "ticketUrl": null,
@@ -981,7 +981,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 8:00\u20139:30 PM",
+      "scheduleNote": "Fri 8:00–9:30 PM",
       "free": false,
       "freeNote": "Tickets starting at $49",
       "ticketUrl": "https://carolinaperformingarts.org/events/jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
@@ -1006,7 +1006,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 5:30\u20138:30 PM",
+      "scheduleNote": "Fri 5:30–8:30 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -1033,7 +1033,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 6\u20137:30 PM",
+      "scheduleNote": "Fri 6–7:30 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -1058,7 +1058,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 7\u20138:15 PM",
+      "scheduleNote": "Fri 7–8:15 PM",
       "free": false,
       "freeNote": "$5",
       "ticketUrl": "https://naturalsciences.ticketapp.org",
@@ -1083,7 +1083,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 5\u20137:30 PM",
+      "scheduleNote": "Fri 5–7:30 PM",
       "free": true,
       "freeNote": "Free",
       "ticketUrl": null,
@@ -1110,7 +1110,7 @@
         "Friday"
       ],
       "multiDay": false,
-      "scheduleNote": "Fri 6:30\u201310 PM",
+      "scheduleNote": "Fri 6:30–10 PM",
       "free": false,
       "freeNote": "$30 Residents | $42 Non-residents",
       "ticketUrl": null,
@@ -1150,7 +1150,7 @@
       "id": 44
     },
     {
-      "name": "Y\u2019all Means All NC Beer Festival",
+      "name": "Y’all Means All NC Beer Festival",
       "tagline": "Inclusive NC craft beer festival with local breweries, food trucks, music, and vendors where everyone is welcome.",
       "venue": "Raleigh Brewing Company",
       "address": "3709 Neil St.",
@@ -1160,7 +1160,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20135 PM",
+      "scheduleNote": "Sat 12–5 PM",
       "free": true,
       "freeNote": "Free admission; pay for food and drink",
       "ticketUrl": null,
@@ -1173,7 +1173,7 @@
         "LGBTQ+",
         "Free"
       ],
-      "description": "The Y\u2019all Means All NC Beer Festival features North Carolina craft breweries, food trucks, local artisans, live music, and supports the LGBT Center of Raleigh. All ages welcome with 21+ wristbands for drinking.",
+      "description": "The Y’all Means All NC Beer Festival features North Carolina craft breweries, food trucks, local artisans, live music, and supports the LGBT Center of Raleigh. All ages welcome with 21+ wristbands for drinking.",
       "id": 45
     },
     {
@@ -1187,7 +1187,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 9am\u20135pm",
+      "scheduleNote": "Sat 9am–5pm",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -1215,7 +1215,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 1\u20137 PM",
+      "scheduleNote": "Sat 1–7 PM",
       "free": false,
       "freeNote": "$10 Early Bird | $20 GA | $30 Gate",
       "ticketUrl": "https://www.eventbrite.com/e/4th-annual-adult-recess-festival-tickets-1621640633789?aff=oddtdtcreator",
@@ -1230,35 +1230,6 @@
       ],
       "description": "The Adult Recess Festival is America's only adult play wellness festival, featuring games, sports, arts & crafts, dance, and activities promoting joy, human connection, and mental health in a park setting.[1][2]",
       "id": 47
-    },
-    {
-      "name": "Festival of Legends 2026",
-      "tagline": "Join us at Sugg Farm for a mystical weekend celebrating luck with music, magic, dragons, dancers, knights, and more.",
-      "venue": "Jefferson L Sugg Farm at Bass Lake Park",
-      "address": "2401 Grigsby Ave",
-      "city": "Holly Springs",
-      "zip": "27540",
-      "days": [
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "multiDay": true,
-      "scheduleNote": "Fri 6\u201310 PM \u00b7 Sat & Sun 10 AM\u20136 PM",
-      "free": false,
-      "freeNote": "$15+; Children 12 & under free with ticket-holding adult; Fri pre-event free",
-      "ticketUrl": "https://festivaloflegends.com/",
-      "website": "https://festivaloflegends.com/",
-      "facebook": "https://facebook.com/festivaloflegends/",
-      "instagram": "",
-      "tags": [
-        "Festival",
-        "Music",
-        "Outdoor",
-        "Family"
-      ],
-      "description": "The 13th Annual Festival of Legends celebrates luck with faeries, dragons, magic, music, comedy, food, mead, and beer at Sugg Farm. Features a free Friday pre-opening with fire spinning and live music, plus main events Saturday and Sunday.",
-      "id": 48
     },
     {
       "name": "Alabama Shakes",
@@ -1281,7 +1252,7 @@
       "tags": [
         "Music"
       ],
-      "description": "Alabama Shakes performs at Red Hat Amphitheater on Saturday, April 25, 2026, at 7:00 PM, with support from Mon Rov\u00eea.",
+      "description": "Alabama Shakes performs at Red Hat Amphitheater on Saturday, April 25, 2026, at 7:00 PM, with support from Mon Rovîa.",
       "id": 49
     },
     {
@@ -1296,9 +1267,9 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sat 2\u20137:30 PM \u00b7 Sun 2 PM",
+      "scheduleNote": "Sat 2–7:30 PM · Sun 2 PM",
       "free": false,
-      "freeNote": "$40\u2013$110",
+      "freeNote": "$40–$110",
       "ticketUrl": "https://www.ticketmaster.com/carolina-ballet-presents-celebration-of-america-raleigh-north-carolina-04-24-2026/event/2D0062E2EFBC7377",
       "website": "https://carolinaballet.com/program/celebration-of-america/",
       "facebook": null,
@@ -1307,7 +1278,7 @@
         "Dance",
         "Family"
       ],
-      "description": "Anchored by George Balanchine\u2019s Stars and Stripes, this mixed repertory program celebrates 250 years of American artistry with music by composers like John Philip Sousa, Philip Glass, and George Gershwin.",
+      "description": "Anchored by George Balanchine’s Stars and Stripes, this mixed repertory program celebrates 250 years of American artistry with music by composers like John Philip Sousa, Philip Glass, and George Gershwin.",
       "id": 50
     },
     {
@@ -1345,7 +1316,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 10:00 am\u20133:00 pm",
+      "scheduleNote": "Sat 10:00 am–3:00 pm",
       "free": true,
       "freeNote": "Free",
       "ticketUrl": null,
@@ -1362,7 +1333,7 @@
       "id": 52
     },
     {
-      "name": "Chris Andrade (En Espa\u00f1ol)",
+      "name": "Chris Andrade (En Español)",
       "tagline": "Spanish-language comedy from the Escuela de Nada podcast host.",
       "venue": "Room 861 At Goodnights Comedy Club",
       "address": "511 Woodburn Road",
@@ -1374,7 +1345,7 @@
       "multiDay": false,
       "scheduleNote": "Sat 5:00 PM",
       "free": false,
-      "freeNote": "$45.99\u2013$55.99",
+      "freeNote": "$45.99–$55.99",
       "ticketUrl": "https://www.goodnightscomedy.com/shows/353377",
       "website": "https://www.goodnightscomedy.com/shows/353377",
       "facebook": null,
@@ -1397,7 +1368,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20136 PM",
+      "scheduleNote": "Sat 12–6 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -1424,7 +1395,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 10 AM\u20133 PM",
+      "scheduleNote": "Sat 10 AM–3 PM",
       "free": false,
       "freeNote": "$5 nonmembers, $10 family; free for members & students",
       "ticketUrl": null,
@@ -1452,7 +1423,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat. 5\u20138 PM",
+      "scheduleNote": "Sat. 5–8 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -1481,7 +1452,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20132:30 PM",
+      "scheduleNote": "Sat 12–2:30 PM",
       "free": true,
       "freeNote": "Free event, registration required",
       "ticketUrl": "https://www.eventbrite.com/e/pbs-north-carolina-screening-of-the-librarians-tickets-1980570596971",
@@ -1506,7 +1477,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12:00 PM\u20136:00 PM",
+      "scheduleNote": "Sat 12:00 PM–6:00 PM",
       "free": false,
       "freeNote": "Ages 18+ need a ticket; ticket includes 1 cocktail and FREE bourbon tastings",
       "ticketUrl": "https://mysticdurham.ticketspice.com/bourbon-bbq-blues-festival",
@@ -1520,7 +1491,7 @@
         "Festival",
         "Blues"
       ],
-      "description": "The festival features live blues performances by Checkerboard Suede, Tommy Thunderfoot & The Accelerators, and Mama, alongside BBQ from vendors like The Tasty Turkey-Que, Pointer\u2019s BBQ, and Off The Hog. All ages welcome with free bourbon tastings and one included cocktail for ticket holders.",
+      "description": "The festival features live blues performances by Checkerboard Suede, Tommy Thunderfoot & The Accelerators, and Mama, alongside BBQ from vendors like The Tasty Turkey-Que, Pointer’s BBQ, and Off The Hog. All ages welcome with free bourbon tastings and one included cocktail for ticket holders.",
       "id": 58
     },
     {
@@ -1534,7 +1505,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 2\u20134 PM",
+      "scheduleNote": "Sat 2–4 PM",
       "free": false,
       "freeNote": "$35",
       "ticketUrl": "https://www.eventbrite.com/e/oyster-roast-at-ponysaurus-brewing-co-durham-tickets-1985837398115",
@@ -1560,7 +1531,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 2:30\u20136:30 PM",
+      "scheduleNote": "Sat 2:30–6:30 PM",
       "free": false,
       "freeNote": "Registration required",
       "ticketUrl": "https://runsignup.com/Race/NC/Durham/BullCityBeerMile",
@@ -1614,7 +1585,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat. 2\u20134 PM",
+      "scheduleNote": "Sat. 2–4 PM",
       "free": false,
       "freeNote": "$60 per person",
       "ticketUrl": "https://www.opentable.com/booking/experiences-availability?rid=1274104&restref=1274104&experienceId=652981&utm_source=external&utm_medium=referral&utm_campaign=shared",
@@ -1668,7 +1639,7 @@
       "multiDay": false,
       "scheduleNote": "Sat 6:30 PM",
       "free": false,
-      "freeNote": "$32\u2013$73",
+      "freeNote": "$32–$73",
       "ticketUrl": "https://feverup.com/m/250852",
       "website": "https://therialto.com/event/candlelight-concert-coldplay-imagine-dragons-4-25/",
       "facebook": null,
@@ -1692,7 +1663,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sat & Sun 2\u20136 PM (select farms open at 12 PM)",
+      "scheduleNote": "Sat & Sun 2–6 PM (select farms open at 12 PM)",
       "free": false,
       "freeNote": "$35/carload pass",
       "ticketUrl": null,
@@ -1719,7 +1690,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 10am\u20135pm",
+      "scheduleNote": "Sat 10am–5pm",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -1731,7 +1702,7 @@
         "Family",
         "Free"
       ],
-      "description": "NCACC\u2019s 100 Strong Productions hosts the second annual Student Film Festival featuring curated student film blocks, a keynote speaker, and awards ceremony at The Cary Theater. The event highlights uplifting stories from North Carolina counties told from students\u2019 perspectives.",
+      "description": "NCACC’s 100 Strong Productions hosts the second annual Student Film Festival featuring curated student film blocks, a keynote speaker, and awards ceremony at The Cary Theater. The event highlights uplifting stories from North Carolina counties told from students’ perspectives.",
       "id": 66
     },
     {
@@ -1772,7 +1743,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 7:30\u20139:00 PM",
+      "scheduleNote": "Sat 7:30–9:00 PM",
       "free": false,
       "freeNote": "$15 Youth/Seniors, $20 Regular",
       "ticketUrl": "https://tickets.carolinatheatre.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=996886~05de892e-fe79-4e77-8f75-9f03e89f9235",
@@ -1922,7 +1893,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 6\u201310 PM",
+      "scheduleNote": "Sat 6–10 PM",
       "free": false,
       "freeNote": "$125 per person, excluding tax and service charge",
       "ticketUrl": null,
@@ -1974,7 +1945,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 7\u20138 PM",
+      "scheduleNote": "Sat 7–8 PM",
       "free": false,
       "freeNote": "$9 at the door",
       "ticketUrl": null,
@@ -1985,7 +1956,7 @@
         "Theater",
         "Comedy"
       ],
-      "description": "House Party features improvisers, including students from Miles Amiri\u2019s Advanced Study Short-Form Improv class, performing high-energy short-form games based on audience suggestions. No audience participation unless desired.",
+      "description": "House Party features improvisers, including students from Miles Amiri’s Advanced Study Short-Form Improv class, performing high-energy short-form games based on audience suggestions. No audience participation unless desired.",
       "id": 76
     },
     {
@@ -1999,7 +1970,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 11 AM\u20133 PM",
+      "scheduleNote": "Sat 11 AM–3 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2016,7 +1987,7 @@
       "id": 77
     },
     {
-      "name": "DanceWorks 2026 \u2013 Program A",
+      "name": "DanceWorks 2026 – Program A",
       "tagline": "Northwestern's annual dance showcase featuring new works by acclaimed choreographers.",
       "venue": "Jones Auditorium",
       "address": "TBD",
@@ -2053,7 +2024,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20134 PM",
+      "scheduleNote": "Sat 12–4 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2105,7 +2076,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 7\u20139 PM",
+      "scheduleNote": "Sat 7–9 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2154,7 +2125,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 1:30\u20131:45 PM",
+      "scheduleNote": "Sat 1:30–1:45 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2180,7 +2151,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat Noon\u20133 PM",
+      "scheduleNote": "Sat Noon–3 PM",
       "free": false,
       "freeNote": "Poems $5 each",
       "ticketUrl": null,
@@ -2206,7 +2177,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 1\u20134 PM",
+      "scheduleNote": "Sat 1–4 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2258,7 +2229,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 10 PM\u20132 AM",
+      "scheduleNote": "Sat 10 PM–2 AM",
       "free": false,
       "freeNote": "",
       "ticketUrl": "https://posh.vip/e/noire-divinity-presents-worst-behavior-1?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn5dPOMgfQdZumGi35EUbJlwghT6mPdoBZNpQL6jz1qAjxVyr1K87miDaKLA8_aem_m4ZJ0vgcroK9UI",
@@ -2284,9 +2255,9 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 9:30 AM\u20133:30 PM; Train rides at 10:30 AM, 12:00 PM, 1:30 PM",
+      "scheduleNote": "Sat 9:30 AM–3:30 PM; Train rides at 10:30 AM, 12:00 PM, 1:30 PM",
       "free": false,
-      "freeNote": "Adult: $16.45 \u00b7 Child (2-12): $13.20 \u00b7 Seniors (60+): $15.37",
+      "freeNote": "Adult: $16.45 · Child (2-12): $13.20 · Seniors (60+): $15.37",
       "ticketUrl": "https://www.etix.com/ticket/p/78397891/working-on-the-railroad-day-train-ride-new-hill-new-hope-valley-railway",
       "website": "https://www.triangletrain.com/",
       "facebook": null,
@@ -2311,7 +2282,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sat 7:30 PM \u00b7 Sun 3:30 PM",
+      "scheduleNote": "Sat 7:30 PM · Sun 3:30 PM",
       "free": false,
       "freeNote": "Sliding scale $15-$80",
       "ticketUrl": "https://www.onthestage.tickets/show/redbird-theater-company/69710b18c2d94417d5c5d7b6",
@@ -2336,7 +2307,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 10 AM \u2013 2 PM",
+      "scheduleNote": "Sat 10 AM – 2 PM",
       "free": true,
       "freeNote": "",
       "ticketUrl": "https://www.eventbrite.com/e/nc-sci-fest-lyon-park-steam-room-tickets-1988040161640",
@@ -2362,7 +2333,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 11 AM\u20133 PM",
+      "scheduleNote": "Sat 11 AM–3 PM",
       "free": false,
       "freeNote": "$5 adults, $2 seniors/military/children 3-17",
       "ticketUrl": "https://www.eventbrite.com",
@@ -2414,7 +2385,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20135 PM",
+      "scheduleNote": "Sat 12–5 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2465,7 +2436,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 9\u201310 PM",
+      "scheduleNote": "Sat 9–10 PM",
       "free": false,
       "freeNote": "$9 at the door",
       "ticketUrl": null,
@@ -2491,7 +2462,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sat 10 AM\u20134 PM \u00b7 Sun 10 AM\u20134 PM",
+      "scheduleNote": "Sat 10 AM–4 PM · Sun 10 AM–4 PM",
       "free": false,
       "freeNote": "$30 advance, $40 day of",
       "ticketUrl": "https://www.eventbrite.com/e/chapel-hill-garden-club-2026-garden-tour-tickets-1979526368656",
@@ -2518,7 +2489,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sat 4/25 6:00 PM \u00b7 Sun 4/26 2:00 PM",
+      "scheduleNote": "Sat 4/25 6:00 PM · Sun 4/26 2:00 PM",
       "free": true,
       "freeNote": "Free admission (VIP reserved seating $25)",
       "ticketUrl": "https://switchtheatreco.org/shows/asyoulikeit/",
@@ -2546,7 +2517,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20133:30 PM",
+      "scheduleNote": "Sat 12–3:30 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2588,7 +2559,7 @@
     },
     {
       "name": "UpClose Chamber Music: The Balourdet Quartet",
-      "tagline": "The Balourdet Quartet performs Steve Reich's Different Trains and Tchaikovsky\u2019s Souvenir de Florence.",
+      "tagline": "The Balourdet Quartet performs Steve Reich's Different Trains and Tchaikovsky’s Souvenir de Florence.",
       "venue": "CURRENT Studio Artspace",
       "address": "123 W Franklin St",
       "city": "Chapel Hill",
@@ -2597,7 +2568,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 7:30\u20139:00 PM",
+      "scheduleNote": "Sat 7:30–9:00 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": null,
@@ -2608,7 +2579,7 @@
         "Music",
         "Theater"
       ],
-      "description": "The Balourdet Quartet presents Schubert\u2019s Quartettsatz, Steve Reich\u2019s Different Trains blending recorded speech, train sounds, and live instruments, and Tchaikovsky\u2019s Souvenir de Florence. Presented in partnership with Carolina Performing Arts at CURRENT Studio Artspace.[1][4]",
+      "description": "The Balourdet Quartet presents Schubert’s Quartettsatz, Steve Reich’s Different Trains blending recorded speech, train sounds, and live instruments, and Tchaikovsky’s Souvenir de Florence. Presented in partnership with Carolina Performing Arts at CURRENT Studio Artspace.[1][4]",
       "id": 100
     },
     {
@@ -2622,7 +2593,7 @@
         "Saturday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sat 12\u20135 PM",
+      "scheduleNote": "Sat 12–5 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2649,7 +2620,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sat 12\u20138 PM \u00b7 Sun 10am\u20135 PM",
+      "scheduleNote": "Sat 12–8 PM · Sun 10am–5 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": null,
@@ -2677,7 +2648,7 @@
         "Saturday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 6:30 PM \u00b7 Sat 12:00 PM",
+      "scheduleNote": "Fri 6:30 PM · Sat 12:00 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": "https://www.martinmariettacenter.com/events/detail/carolina-youth-ballet-presents-cinderella",
@@ -2737,7 +2708,7 @@
       "tags": [
         "Music"
       ],
-      "description": "Floetry, the iconic R&B duo of Marsha Ambrosius and Natalie \u201cThe Floacist\u201d Stewart, returns after nearly ten years with Raheem DeVaughn and special guest Teedra Moses for a soulful performance blending vocals, poetry, and timeless R&B.",
+      "description": "Floetry, the iconic R&B duo of Marsha Ambrosius and Natalie “The Floacist” Stewart, returns after nearly ten years with Raheem DeVaughn and special guest Teedra Moses for a soulful performance blending vocals, poetry, and timeless R&B.",
       "id": 105
     },
     {
@@ -2769,7 +2740,7 @@
     },
     {
       "name": "The 13th Annual Festival of Legends 2026",
-      "tagline": "A mystical weekend celebrating luck with music, magic, dragons, and fantasy.",
+      "tagline": "A two-day fairy festival celebrating luck with music, magic, dragons, sword fighting, dancing, mythic creatures, and craft vendors.",
       "venue": "Jefferson L Sugg Farm at Bass Lake Park",
       "address": "2401 Grigsby Ave",
       "city": "Holly Springs",
@@ -2780,21 +2751,23 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Fri 6\u201310 PM (FoL Eve pre-opening) \u00b7 Sat 10 AM\u20136 PM \u00b7 Sun 10 AM\u20136 PM",
+      "scheduleNote": "Fri 6–10 PM (FoL Eve pre-opening, free) · Sat & Sun 10 AM–6 PM",
       "free": false,
-      "freeNote": "Advance day pass $15, weekend pass $20; day-of day pass $20, weekend pass $25; children 12 & under free with ticket-holding adult",
+      "freeNote": "Advance day pass $15, weekend pass $20; day-of day pass $20, weekend pass $25. Children 12 & under free with ticket-holding adult. Friday FoL Eve pre-opening is free to all.",
       "ticketUrl": "https://festivaloflegends.com/tickets/",
       "website": "https://festivaloflegends.com/",
       "facebook": "https://www.facebook.com/festivaloflegends/",
       "instagram": null,
       "tags": [
         "Festival",
+        "Family",
+        "Outdoor",
         "Music",
         "Arts & Crafts",
-        "Family",
+        "Entertainment",
         "Ticketed"
       ],
-      "description": "The 13th annual celebration of luck featuring faeries, dragons, magic, live music, comedy, food, mead, and beer across a mystical weekend. A free pre-opening celebration (FoL Eve) runs Friday evening with fire spinning and live entertainment.",
+      "description": "The 13th annual Festival of Legends celebrates the theme of 'Luck' at Sugg Farm in Holly Springs. The fairy festival features magic, comedy, sword fighting, dancing, mythic creatures, dragons, faeries, knights, live music, food, mead, beer, and artisan vendors across the weekend. A free FoL Eve pre-opening celebration with fire spinning and live music takes place Friday April 24, 6–10 PM.",
       "id": 107
     },
     {
@@ -2909,7 +2882,7 @@
         "Sunday"
       ],
       "multiDay": true,
-      "scheduleNote": "Sundays April 26\u2013May 31, 5:30\u20137:30 PM",
+      "scheduleNote": "Sundays April 26–May 31, 5:30–7:30 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2937,7 +2910,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 4\u20135:30 PM",
+      "scheduleNote": "Sun 4–5:30 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": null,
@@ -2947,7 +2920,7 @@
       "tags": [
         "Music"
       ],
-      "description": "The Triangle Wind Ensemble, conducted by Evan Feldman, performs David Maslanka's Symphony No. 4 along with works by M\u00e1rquez, Fisher, Horne, Balmages, Mackey, and Copland to celebrate their 25th anniversary.",
+      "description": "The Triangle Wind Ensemble, conducted by Evan Feldman, performs David Maslanka's Symphony No. 4 along with works by Márquez, Fisher, Horne, Balmages, Mackey, and Copland to celebrate their 25th anniversary.",
       "id": 113
     },
     {
@@ -2961,7 +2934,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 1\u20136 PM",
+      "scheduleNote": "Sun 1–6 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -2979,8 +2952,8 @@
       "id": 114
     },
     {
-      "name": "Sights and Sounds on Sundays: Gabriel Martins\u2019 Quartet",
-      "tagline": "Back by popular demand, cellist Gabriel Martins and pianist Victor Santiago Asunci\u00f3n join violinist Kevin Zhu and violist Matthew Lipman for a quartet featuring Turina, Foote, and Brahms.",
+      "name": "Sights and Sounds on Sundays: Gabriel Martins’ Quartet",
+      "tagline": "Back by popular demand, cellist Gabriel Martins and pianist Victor Santiago Asunción join violinist Kevin Zhu and violist Matthew Lipman for a quartet featuring Turina, Foote, and Brahms.",
       "venue": "North Carolina Museum of Art",
       "address": "2110 Blue Ridge Road",
       "city": "Raleigh",
@@ -2989,7 +2962,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 2\u20134 PM",
+      "scheduleNote": "Sun 2–4 PM",
       "free": false,
       "freeNote": "Tickets $31, Members $28, Students $25",
       "ticketUrl": null,
@@ -3000,7 +2973,7 @@
         "Music",
         "Museum"
       ],
-      "description": "Cellist Gabriel Martins, pianist Victor Santiago Asunci\u00f3n, violinist Kevin Zhu, and violist Matthew Lipman perform a program including works by Joaqu\u00edn Turina, Arthur Foote, and Brahms in the SECU Auditorium.",
+      "description": "Cellist Gabriel Martins, pianist Victor Santiago Asunción, violinist Kevin Zhu, and violist Matthew Lipman perform a program including works by Joaquín Turina, Arthur Foote, and Brahms in the SECU Auditorium.",
       "id": 115
     },
     {
@@ -3014,7 +2987,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 12\u20136 PM",
+      "scheduleNote": "Sun 12–6 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -3027,7 +3000,7 @@
         "Free",
         "Charity"
       ],
-      "description": "Unleashed\u2019s 13th Annual Spring Fling is a free pet-friendly event featuring local vendors, 40 rescue groups with adoptable pets, a doggie Easter egg hunt, live music, raffles, and auctions to raise funds for local animal rescues.[1][2][3]",
+      "description": "Unleashed’s 13th Annual Spring Fling is a free pet-friendly event featuring local vendors, 40 rescue groups with adoptable pets, a doggie Easter egg hunt, live music, raffles, and auctions to raise funds for local animal rescues.[1][2][3]",
       "id": 116
     },
     {
@@ -3041,7 +3014,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "12:15\u20134 PM",
+      "scheduleNote": "12:15–4 PM",
       "free": true,
       "freeNote": "",
       "ticketUrl": null,
@@ -3067,7 +3040,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 10 AM\u20135 PM",
+      "scheduleNote": "Sun 10 AM–5 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": "https://www.eventbrite.com/e/raleigh-anime-fest-tickets-1979529304437",
@@ -3093,7 +3066,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 4:30\u20136:00 PM",
+      "scheduleNote": "Sun 4:30–6:00 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -3144,7 +3117,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 4:00\u20135:30 PM",
+      "scheduleNote": "Sun 4:00–5:30 PM",
       "free": false,
       "freeNote": "$25.00",
       "ticketUrl": "https://www.etix.com/ticket/p/49541033/the-ladies-of-swingcelebrating-ella-fitzgeraldbillie-holliday-sarah-vaughn-cary-pagewalker-arts-history-center-in-cary-north-carolina",
@@ -3171,7 +3144,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 12\u20134 PM",
+      "scheduleNote": "Sun 12–4 PM",
       "free": false,
       "freeNote": "$12 Advance | $15 Door (Free for kids under 10)",
       "ticketUrl": "https://evedurham.com/parties/p/holi-garland-iii",
@@ -3223,7 +3196,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 4\u20138 PM",
+      "scheduleNote": "Sun 4–8 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": "https://www.eventbrite.com/e/recovery-tickets-1986535987615",
@@ -3251,7 +3224,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 1\u20134 PM",
+      "scheduleNote": "Sun 1–4 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": "https://secure.qgiv.com/event/trianglewalk26/",
@@ -3304,7 +3277,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 7:30\u20139:30 PM",
+      "scheduleNote": "Sun 7:30–9:30 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": "https://www.eventbrite.com/e/aca-astronomy-acappology-2026-spring-concert-tickets-1985838467313",
@@ -3331,7 +3304,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun. 12\u20133 PM",
+      "scheduleNote": "Sun. 12–3 PM",
       "free": true,
       "freeNote": "Free admission",
       "ticketUrl": null,
@@ -3356,7 +3329,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 12:30\u20135 PM",
+      "scheduleNote": "Sun 12:30–5 PM",
       "free": false,
       "freeNote": "Free with online registration; $10 at the door",
       "ticketUrl": "https://www.eventbrite.com/e/north-carolina-bridal-wedding-expo-tickets-1979416356607",
@@ -3381,7 +3354,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sunday 12:30\u20136:00 PM",
+      "scheduleNote": "Sunday 12:30–6:00 PM",
       "free": false,
       "freeNote": "",
       "ticketUrl": null,
@@ -3395,7 +3368,7 @@
       "id": 130
     },
     {
-      "name": "The Dead Man\u2019s Doctors and Mary Anna",
+      "name": "The Dead Man’s Doctors and Mary Anna",
       "tagline": "Classic rock revival with The Dead Man's Doctors and Mary Anna.",
       "venue": "Slim's Dive Bar",
       "address": "227 S. Wilmington St.",
@@ -3405,7 +3378,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 8\u201311 PM",
+      "scheduleNote": "Sun 8–11 PM",
       "free": true,
       "freeNote": "",
       "ticketUrl": "https://www.eventbrite.com/e/the-dead-mans-doctors-and-mary-anna-tickets-1987157557748",
@@ -3429,7 +3402,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 2\u20136 PM",
+      "scheduleNote": "Sun 2–6 PM",
       "free": true,
       "freeNote": "",
       "ticketUrl": null,
@@ -3494,7 +3467,7 @@
       "id": 134
     },
     {
-      "name": "UNC Habitat\u2019s 3rd Annual Art for Humanity Silent Auction",
+      "name": "UNC Habitat’s 3rd Annual Art for Humanity Silent Auction",
       "tagline": "Silent auction featuring artwork from local artists and students to support affordable housing.",
       "venue": "The Pitch",
       "address": "462 W Franklin Street",
@@ -3504,7 +3477,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 5:30\u20137 PM",
+      "scheduleNote": "Sun 5:30–7 PM",
       "free": false,
       "freeNote": "Ticketed event",
       "ticketUrl": "https://event.auctria.com/2c9bb25c-a861-4faa-b11f-3a259b3aeffb/",
@@ -3516,11 +3489,11 @@
         "Charity",
         "Ticketed"
       ],
-      "description": "Habitat for Humanity\u2019s 3rd Annual Art for Humanity silent auction features artwork from local artists and talented students, with all proceeds supporting safe and affordable housing for families in need.",
+      "description": "Habitat for Humanity’s 3rd Annual Art for Humanity silent auction features artwork from local artists and talented students, with all proceeds supporting safe and affordable housing for families in need.",
       "id": 135
     },
     {
-      "name": "Oyster Pop-Up | The Oyster Girl NC & Waterman\u2019s Choice",
+      "name": "Oyster Pop-Up | The Oyster Girl NC & Waterman’s Choice",
       "tagline": "Fresh oysters meet craft ciders at this pop-up tasting event.",
       "venue": "Botanist and Barrel",
       "address": "105 Persimmon Hill Lane",
@@ -3530,7 +3503,7 @@
         "Sunday"
       ],
       "multiDay": false,
-      "scheduleNote": "Sun 12\u20133 PM",
+      "scheduleNote": "Sun 12–3 PM",
       "free": false,
       "freeNote": "$12",
       "ticketUrl": null,
@@ -3541,7 +3514,7 @@
         "Food",
         "Wine"
       ],
-      "description": "Oyster pop-up featuring The Oyster Girl NC and Waterman\u2019s Choice, pairing fresh oysters with Botanist & Barrel's ciders and wines from 12:00 PM to 3:00 PM.",
+      "description": "Oyster pop-up featuring The Oyster Girl NC and Waterman’s Choice, pairing fresh oysters with Botanist & Barrel's ciders and wines from 12:00 PM to 3:00 PM.",
       "id": 136
     },
     {
@@ -3557,7 +3530,7 @@
       "multiDay": false,
       "scheduleNote": "Sunday 1:00 PM",
       "free": false,
-      "freeNote": "Children 12 and under: $5 \u00b7 Adults: $10",
+      "freeNote": "Children 12 and under: $5 · Adults: $10",
       "ticketUrl": null,
       "website": "https://communitydinner.org/",
       "facebook": null,
