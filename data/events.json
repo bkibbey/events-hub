@@ -2303,7 +2303,32 @@
       ],
       "description": "The Fuquay-Varina Chorale, a non-auditioned community choir under the direction of Margaret Cook, presents its annual Spring Concert with a wide repertoire of music and a showcase of local vocal talent. Performances Friday at 7:30 PM and Saturday at 3:00 PM at the Fuquay-Varina Arts Center.",
       "id": 88
+    },
+    {
+      "name": "Carolina Hurricanes vs. Philadelphia Flyers \u2014 Stanley Cup Playoffs Round 2, Game 1",
+      "tagline": "Game 1 of the East 2nd Round between the Metro's top seed and the upstart Flyers.",
+      "venue": "Lenovo Center",
+      "address": "1400 Edwards Mill Rd",
+      "city": "Raleigh",
+      "zip": "27607",
+      "days": [
+        "Saturday"
+      ],
+      "multiDay": false,
+      "scheduleNote": "Sat 8:00 PM ET (ABC)",
+      "free": false,
+      "freeNote": "Tickets required",
+      "ticketUrl": "https://www.nhl.com/hurricanes/tickets",
+      "website": "https://www.nhl.com/gamecenter/phi-vs-car/2026/05/02/2025030221",
+      "facebook": "https://www.facebook.com/Carolinahurricanes/",
+      "instagram": "https://www.instagram.com/canes/",
+      "tags": [
+        "Sports",
+        "Ticketed"
+      ],
+      "description": "The No. 1-seeded Carolina Hurricanes host the Philadelphia Flyers in Game 1 of the Stanley Cup Playoffs Eastern Conference Second Round. First playoff meeting ever between the two clubs, broadcast on ABC at 8 PM.",
+      "id": 89
     }
   ],
-  "event_count": 88
+  "event_count": 89
 }
