@@ -237,6 +237,93 @@ def parse_event_li(li, current_day):
     }
 
 
+def extract_events_from_text(text: str) -> list[dict]:
+    """Parse the plain-text rendering of the newsletter.
+
+    Format observed from Gmail's text/plain export:
+        FRIDAY
+        Event Name (https://...) , Venue, City
+        Event Name (https://...) , Venue, City
+        ...
+        SATURDAY
+        ...
+
+    Some lines wrap mid-entry (the URL or trailing venue/city ends up on the
+    next line). We detect that and fold continuation lines into the previous
+    event line before parsing.
+    """
+    # Normalize and pre-fold wrapped lines: any line that doesn't start an event
+    # but follows one should be appended to the prior line.
+    raw_lines = [ln.rstrip() for ln in text.splitlines()]
+    folded: list[str] = []
+    for ln in raw_lines:
+        s = ln.strip()
+        if not s:
+            folded.append("")
+            continue
+        if DAY_RE.match(s):
+            folded.append(s)
+            continue
+        # If previous folded line is a candidate event line that doesn't yet end
+        # with city info AND current line looks like a continuation, fold.
+        if folded and folded[-1] and not DAY_RE.match(folded[-1].strip()):
+            prev = folded[-1]
+            # Continuation when prev line lacks ' , ' tail OR ends with '(' or is mid-URL
+            looks_continuation = (
+                prev.rstrip().endswith("(") or
+                prev.count("(") > prev.count(")") or
+                (" , " not in prev and ", " not in prev[-60:])
+            )
+            if looks_continuation:
+                folded[-1] = prev + " " + s
+                continue
+        folded.append(s)
+
+    events: list[dict] = []
+    current_day = None
+    seen = 0
+    # Pattern:  Name (URL) , Venue, City   (the comma after the URL may have surrounding spaces)
+    # The URL is wrapped in (...) right after the event name.
+    line_re = re.compile(r"^(?P<name>.+?)\s*\((?P<url>https?://[^)]+)\)\s*,?\s*(?P<tail>.*)$")
+    for s in folded:
+        if not s:
+            continue
+        m = DAY_RE.match(s)
+        if m:
+            current_day = m.group(1).capitalize()
+            continue
+        if current_day is None:
+            continue  # skip header / view-in-browser lines before first day
+        lm = line_re.match(s)
+        if not lm:
+            continue
+        name = lm.group("name").strip().rstrip(" \u2014-–")
+        url = lm.group("url").strip()
+        tail = lm.group("tail").strip()
+        # Tail = "Venue, City" (sometimes with extra commas)
+        parts = [p.strip() for p in tail.split(",") if p.strip()]
+        if len(parts) == 0:
+            venue, city = "", ""
+        elif len(parts) == 1:
+            venue, city = parts[0], ""
+        else:
+            city = parts[-1]
+            venue = ", ".join(parts[:-1])
+        if not name or len(name) < 2:
+            continue
+        seen += 1
+        events.append({
+            "name": name,
+            "link": url,
+            "venue": venue,
+            "city": city,
+            "day": current_day,
+            "raw": s,
+            "id": seen,
+        })
+    return events
+
+
 def extract_events(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     day_cells = find_day_cells(soup)
@@ -281,6 +368,7 @@ def main():
     src.add_argument("--url", help="Mailchimp archive or 'View in browser' URL")
     src.add_argument("--archive-id", help="Mailchimp campaign id (mc_cid value)")
     src.add_argument("--email-file", help="Local saved email HTML/EML file")
+    src.add_argument("--text-file", help="Plain-text email body (e.g. from a Gmail connector that returns text/plain only)")
 
     parser.add_argument("--week", default=None,
                         help="Weekend date YYYY-MM-DD (defaults to upcoming Friday)")
@@ -292,25 +380,39 @@ def main():
                         help="Skip saving the source HTML to data/email-raw/")
     args = parser.parse_args()
 
-    if not (args.url or args.archive_id or args.email_file):
+    if not (args.url or args.archive_id or args.email_file or args.text_file):
         parser.print_help()
-        sys.exit("\nError: provide --url, --archive-id, or --email-file.")
+        sys.exit("\nError: provide --url, --archive-id, --email-file, or --text-file.")
 
     week = args.week or get_weekend_date(date.today())
     out_path = Path(args.output) if args.output else default_output_path(week)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    html, source_label = resolve_html(args)
-    print(f"Source HTML: {len(html)} chars")
+    if args.text_file:
+        # Plain-text path: skip HTML archiving (no HTML available)
+        text = Path(args.text_file).read_text(encoding="utf-8")
+        print(f"Source text: {len(text)} chars")
+        if not args.no_save_html:
+            # Save the raw text alongside other newsletter snapshots
+            txt_path = (Path(args.save_html) if args.save_html
+                        else (DEFAULT_EMAIL_RAW_DIR / f"newsletter-{week}.txt"))
+            txt_path.parent.mkdir(parents=True, exist_ok=True)
+            txt_path.write_text(text, encoding="utf-8")
+            print(f"Saved source text: {txt_path}")
+        events = extract_events_from_text(text)
+        source_label = f"text-file:{args.text_file}"
+    else:
+        html, source_label = resolve_html(args)
+        print(f"Source HTML: {len(html)} chars")
 
-    # Archive the source HTML
-    if not args.no_save_html:
-        html_path = Path(args.save_html) if args.save_html else default_email_html_path(week)
-        html_path.parent.mkdir(parents=True, exist_ok=True)
-        html_path.write_text(html, encoding="utf-8")
-        print(f"Saved source HTML: {html_path}")
+        # Archive the source HTML
+        if not args.no_save_html:
+            html_path = Path(args.save_html) if args.save_html else default_email_html_path(week)
+            html_path.parent.mkdir(parents=True, exist_ok=True)
+            html_path.write_text(html, encoding="utf-8")
+            print(f"Saved source HTML: {html_path}")
 
-    events = extract_events(html)
+        events = extract_events(html)
     if not events:
         print("WARNING: 0 events extracted. The newsletter template may have changed.")
     else:
