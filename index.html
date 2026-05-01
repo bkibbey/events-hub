@@ -760,11 +760,10 @@ $('shareBtn').addEventListener('click',()=>{
   p.set('selected',ids.join(','));
   // Only include ?week= for archive views — current-week shares stay clean and auto-follow latest data
   if(state.week && isArchiveView())p.set('week',state.week);
-  // Build a clean share URL: strip /index.html (and the legacy /events-app.html)
-  // so links land on the directory root, which serves index.html.
-  let path=location.pathname.replace(/\/(index|events-app)\.html$/i,'/');
-  if(!path)path='/';
-  const url=`${location.origin}${path}?${p.toString()}`;
+  // Build a clean share URL using the canonical custom domain regardless of
+  // which host the visitor is on (custom domain, github.io fallback, or iframe).
+  const SHARE_BASE='https://weekend.brewideas.net/';
+  const url=`${SHARE_BASE}?${p.toString()}`;
   if(navigator.clipboard&&navigator.clipboard.writeText){
     navigator.clipboard.writeText(url).then(showToast).catch(()=>window.prompt('Copy this link:',url));
   } else {window.prompt('Copy this link:',url);}

@@ -3,7 +3,7 @@
 A responsive, filterable, shareable single-page events site powered by the
 "Things to do in Raleigh this Weekend!" newsletter.
 
-- **Live site**: [bkibbey.github.io/events-hub](https://bkibbey.github.io/events-hub/)
+- **Live site**: [weekend.brewideas.net](https://weekend.brewideas.net/)
 - **Repository**: [github.com/bkibbey/events-hub](https://github.com/bkibbey/events-hub)
 - **Source newsletter**: [www.thingstodo919.com](https://www.thingstodo919.com)
 
@@ -161,7 +161,7 @@ To keep costs down:
 Select events on the site → click **Copy shareable link** → send to friends.
 
 The link encodes selected event IDs as
-`https://bkibbey.github.io/events-hub/?selected=1,3,7&week=2026-04-24`.
+`https://weekend.brewideas.net/?selected=1,3,7&week=2026-04-24`.
 When opened, the friend sees **only** those events, with a dismissible amber "Shared events (N)" chip to expand back to the full list.
 
 ### About modal
@@ -178,7 +178,7 @@ The site is a single static page with no frame-busting and no `X-Frame-Options` 
 
 ```html
 <iframe
-  src="https://bkibbey.github.io/events-hub/"
+  src="https://weekend.brewideas.net/"
   title="Raleigh Weekend Events"
   width="100%"
   height="900"
