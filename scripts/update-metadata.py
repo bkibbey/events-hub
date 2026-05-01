@@ -231,6 +231,37 @@ def main():
     else:
         print("(skipped writing data/events.json — use without --no-current to update the live site data)")
 
+    # 3. Regenerate the archive manifest so the front-end week picker can list periods
+    write_archive_manifest()
+
+
+def write_archive_manifest():
+    """Build data/archive/index.json listing every dated archive file, newest first.
+
+    The website fetches this manifest to populate the week-picker dropdown.
+    GitHub Pages has no directory listing, so this static index is required.
+    """
+    files = sorted(ARCHIVE_DIR.glob("events-*.json"), reverse=True)
+    weeks = []
+    for f in files:
+        try:
+            body = json.loads(f.read_text())
+        except Exception as exc:
+            print(f"  warn: skipping {f.name} ({exc})")
+            continue
+        weeks.append({
+            "week": f.stem.replace("events-", ""),
+            "file": f.name,
+            "count": len(body.get("events", [])),
+            "generated": body.get("generated"),
+        })
+    manifest = {
+        "current": weeks[0]["week"] if weeks else None,
+        "weeks": weeks,
+    }
+    (ARCHIVE_DIR / "index.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    print(f"✓ Manifest: {ARCHIVE_DIR / 'index.json'}  ({len(weeks)} week(s))")
+
 
 if __name__ == "__main__":
     main()

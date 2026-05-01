@@ -112,6 +112,22 @@
     .filter-dd-pop .pop-clear{font-size:var(--text-xs);color:var(--color-text-muted);background:none;border:none;cursor:pointer;padding:.2rem .4rem;text-decoration:underline}
     .filter-dd-pop .pop-clear:hover{color:var(--color-primary)}
     .filter-dd-pop .pop-count{font-size:.65rem;color:var(--color-text-muted)}
+    /* Week picker */
+    .week-picker{display:inline-block;vertical-align:baseline}
+    .week-label-btn{display:inline-flex;align-items:baseline;gap:.3rem;background:none;border:none;padding:0;color:inherit;font:inherit;cursor:pointer;border-bottom:1px dashed transparent;transition:border-color var(--transition),color var(--transition)}
+    .week-label-btn:hover,.week-label-btn:focus-visible{color:var(--color-primary);border-bottom-color:var(--color-primary);outline:none}
+    .week-label-btn .caret{font-size:.55rem;opacity:.55;transition:transform var(--transition)}
+    .filter-dd[data-open="true"] .week-label-btn .caret{transform:rotate(180deg);opacity:1}
+    .week-pop{min-width:260px}
+    .week-pop .week-row{display:flex;justify-content:space-between;align-items:center;gap:.6rem;padding:.45rem .55rem;border-radius:var(--radius-sm);cursor:pointer;background:none;border:none;width:100%;text-align:left;color:var(--color-text);font:inherit}
+    .week-pop .week-row:hover{background:var(--color-surface-2)}
+    .week-pop .week-row.is-active{background:var(--color-primary-soft);color:var(--color-primary)}
+    .week-pop .week-row .week-meta{font-size:.7rem;color:var(--color-text-muted);font-weight:400}
+    .week-pop .week-row.is-active .week-meta{color:var(--color-primary)}
+    .week-pop .week-row .current-badge{font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;padding:.1rem .4rem;border-radius:var(--radius-full);background:var(--color-primary);color:#fff;font-weight:600}
+    .week-label-archive strong{font-weight:700}
+    .back-to-current{margin-left:.5rem;font-size:var(--text-xs);background:none;border:1px solid var(--color-border);color:var(--color-text-muted);padding:.1rem .5rem;border-radius:var(--radius-full);cursor:pointer;transition:all var(--transition)}
+    .back-to-current:hover{border-color:var(--color-primary);color:var(--color-primary);background:var(--color-primary-soft)}
     @media(max-width:760px){
       .filter-dd-pop{position:fixed;top:auto;left:.5rem;right:.5rem;bottom:.5rem;min-width:0;max-width:none;max-height:70vh}
     }
@@ -257,7 +273,17 @@
         </a>
         <div class="logo-text">
           <h1>Raleigh Weekend Events</h1>
-          <p class="logo-sub"><span id="weekLabel">Loading…</span> <span class="logo-credit">· data from <a href="https://www.thingstodo919.com" target="_blank" rel="noopener">thingstodo919</a></span></p>
+          <div class="logo-sub">
+            <span class="filter-dd week-picker" id="ddWeek">
+              <button id="weekLabelBtn" class="week-label-btn" type="button" aria-haspopup="listbox" aria-expanded="false" title="Browse other weekends">
+                <span id="weekLabel">Loading…</span>
+                <span class="caret" aria-hidden="true">▾</span>
+              </button>
+              <div class="filter-dd-pop week-pop" role="listbox" aria-label="Available weekends"></div>
+            </span>
+            <span class="logo-credit">· data from <a href="https://www.thingstodo919.com" target="_blank" rel="noopener">thingstodo919</a></span>
+            <button id="backToCurrentBtn" type="button" class="back-to-current" hidden>← Back to current</button>
+          </div>
         </div>
       </div>
       <div style="display:flex;gap:var(--space-2);align-items:center">
@@ -621,9 +647,12 @@ function updateDropdownBadges(){
 // Dropdown open/close behavior
 (function(){
   const dds=document.querySelectorAll('.filter-dd');
-  function closeAll(){dds.forEach(d=>{d.dataset.open='false';d.querySelector('.filter-dd-btn').setAttribute('aria-expanded','false');});}
+  // Each .filter-dd has either a .filter-dd-btn (filter pills) or a .week-label-btn (week picker)
+  const ddBtn=dd=>dd.querySelector('.filter-dd-btn,.week-label-btn');
+  function closeAll(){dds.forEach(d=>{d.dataset.open='false';const b=ddBtn(d);if(b)b.setAttribute('aria-expanded','false');});}
   dds.forEach(dd=>{
-    const btn=dd.querySelector('.filter-dd-btn');
+    const btn=ddBtn(dd);
+    if(!btn)return;
     btn.addEventListener('click',(e)=>{
       e.stopPropagation();
       const isOpen=dd.dataset.open==='true';
@@ -631,7 +660,8 @@ function updateDropdownBadges(){
       if(!isOpen){dd.dataset.open='true';btn.setAttribute('aria-expanded','true');}
     });
     // keep clicks inside the popover from closing it
-    dd.querySelector('.filter-dd-pop').addEventListener('click',(e)=>e.stopPropagation());
+    const pop=dd.querySelector('.filter-dd-pop');
+    if(pop)pop.addEventListener('click',(e)=>e.stopPropagation());
   });
   document.addEventListener('click',closeAll);
   document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeAll();});
@@ -727,7 +757,8 @@ $('shareBtn').addEventListener('click',()=>{
   const ids=Array.from(state.selectedIds).sort((a,b)=>a-b);
   const p=new URLSearchParams();
   p.set('selected',ids.join(','));
-  if(state.week)p.set('week',state.week);
+  // Only include ?week= for archive views — current-week shares stay clean and auto-follow latest data
+  if(state.week && isArchiveView())p.set('week',state.week);
   // Build a clean share URL: strip /index.html (and the legacy /events-app.html)
   // so links land on the directory root, which serves index.html.
   let path=location.pathname.replace(/\/(index|events-app)\.html$/i,'/');
@@ -1024,9 +1055,11 @@ function showToast(){
   const t=$('shareToast');t.classList.add('visible');setTimeout(()=>t.classList.remove('visible'),2500);
 }
 
-// Load data — try a few sensible locations
-async function loadEvents(){
-  const candidates=['data/events.json','events.json','./data/events.json'];
+// Load data — either the live snapshot or a dated archive selected via ?week=
+async function loadEvents(weekParam){
+  const candidates=weekParam
+    ? [`data/archive/events-${weekParam}.json`]
+    : ['data/events.json','events.json','./data/events.json'];
   for(const url of candidates){
     try{
       const r=await fetch(url,{cache:'no-cache'});
@@ -1036,19 +1069,115 @@ async function loadEvents(){
   throw new Error('No events.json found');
 }
 
-loadEvents()
-  .then(data=>{
+// Manifest of all archived weekends; populates the week picker. Non-blocking.
+let weekManifest={current:null,weeks:[]};
+async function loadWeekManifest(){
+  try{
+    const r=await fetch('data/archive/index.json',{cache:'no-cache'});
+    if(r.ok)weekManifest=await r.json();
+  }catch(e){/* picker just stays empty */}
+}
+
+function formatWeekendLabel(week){
+  const d=new Date(week+'T12:00:00'); // noon avoids TZ rollback to prior day
+  return d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+}
+
+function renderWeekPicker(){
+  const pop=document.querySelector('#ddWeek .week-pop');
+  if(!pop)return;
+  const list=weekManifest.weeks||[];
+  if(!list.length){pop.innerHTML='<div class="pop-count" style="padding:.4rem">No archived weekends yet</div>';return;}
+  const isCurrent=!isArchiveView();
+  const activeWeek=state.week;
+  pop.innerHTML=list.map((w,i)=>{
+    const label=formatWeekendLabel(w.week);
+    const meta=`${w.count} event${w.count===1?'':'s'}`;
+    const isLatest=i===0;
+    const isActive=(isCurrent&&isLatest)||(!isCurrent&&w.week===activeWeek);
+    return `<button class="week-row${isActive?' is-active':''}" data-week="${w.week}" data-latest="${isLatest?'1':'0'}" type="button" role="option" aria-selected="${isActive?'true':'false'}">
+      <span><strong>${label}</strong> <span class="week-meta">· ${meta}</span></span>
+      ${isLatest?'<span class="current-badge">Current</span>':''}
+    </button>`;
+  }).join('');
+  pop.querySelectorAll('.week-row').forEach(row=>{
+    row.addEventListener('click',(e)=>{
+      e.stopPropagation();
+      const targetWeek=row.dataset.week;
+      const goCurrent=row.dataset.latest==='1';
+      switchToWeek(goCurrent?null:targetWeek);
+      document.querySelector('#ddWeek').dataset.open='false';
+      document.querySelector('#weekLabelBtn').setAttribute('aria-expanded','false');
+    });
+  });
+}
+
+function isArchiveView(){
+  // True when ?week= specifies a non-current week
+  const p=new URLSearchParams(location.search).get('week');
+  if(!p)return false;
+  return weekManifest.current?p!==weekManifest.current:false;
+}
+
+function updateWeekLabel(){
+  const labelEl=$('weekLabel');
+  const backBtn=$('backToCurrentBtn');
+  if(!state.week){labelEl.textContent='Loading…';backBtn.hidden=true;return;}
+  const formatted=formatWeekendLabel(state.week);
+  if(isArchiveView()){
+    labelEl.innerHTML=`Viewing archive: <strong>Weekend of ${formatted}</strong>`;
+    labelEl.parentElement.classList.add('week-label-archive');
+    backBtn.hidden=false;
+  } else {
+    labelEl.textContent='Weekend of '+formatted;
+    labelEl.parentElement.classList.remove('week-label-archive');
+    backBtn.hidden=true;
+  }
+}
+
+async function switchToWeek(weekOrNull){
+  // Update URL first (clears stale selections too)
+  const u=new URL(location.href);
+  if(weekOrNull){u.searchParams.set('week',weekOrNull);} else {u.searchParams.delete('week');}
+  u.searchParams.delete('selected'); // selections don't carry across weeks
+  history.replaceState({},'',u.pathname+(u.search?u.search:'')+u.hash);
+  // Clear local selection state
+  state.selectedIds.clear();
+  state.sharedView=false;
+  // Load the chosen dataset and rebuild facets
+  try{
+    const data=await loadEvents(weekOrNull);
+    applyLoadedData(data);
+  }catch(err){console.error(err);$('resultMeta').textContent='Could not load that weekend.';}
+}
+
+function applyLoadedData(data){
+  state.allEvents=data.events||[];
+  state.week=data.week||null;
+  updateWeekLabel();
+  buildTagPills(state.allEvents);
+  buildCityPills(state.allEvents);
+  applyFilters();
+  renderWeekPicker();
+}
+
+// Initial boot: load manifest + initial dataset in parallel
+(async function boot(){
+  const params=new URLSearchParams(location.search);
+  const weekParam=params.get('week');
+  await loadWeekManifest();
+  // Treat ?week= as archive only if it differs from current
+  const useArchive=weekParam && weekManifest.current && weekParam!==weekManifest.current;
+  try{
+    const data=await loadEvents(useArchive?weekParam:null);
     state.allEvents=data.events||[];
     state.week=data.week||null;
-    if(data.week){
-      const d=new Date(data.week);
-      $('weekLabel').textContent='Weekend of '+d.toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
-    }
+    updateWeekLabel();
     buildTagPills(state.allEvents);
     buildCityPills(state.allEvents);
+    renderWeekPicker();
     const{selectedIds}=getUrlParams();
     state.selectedIds=selectedIds;
-    // If the page was opened with a share link, lock the view to those events.
     state.sharedView=selectedIds.size>0;
     applyFilters();
     if(selectedIds.size>0){
@@ -1057,8 +1186,19 @@ loadEvents()
         if(first)first.scrollIntoView({behavior:'smooth',block:'center'});
       },300);
     }
-  })
-  .catch(err=>{$('resultMeta').textContent='Could not load events.json';console.error(err);});
+  }catch(err){$('resultMeta').textContent='Could not load events.json';console.error(err);}
+})();
+
+// Back-to-current button
+document.addEventListener('DOMContentLoaded',()=>{
+  const btn=document.getElementById('backToCurrentBtn');
+  if(btn)btn.addEventListener('click',()=>switchToWeek(null));
+});
+// In case DOMContentLoaded already fired before this script ran
+(function(){
+  const btn=document.getElementById('backToCurrentBtn');
+  if(btn&&!btn.dataset.wired){btn.dataset.wired='1';btn.addEventListener('click',()=>switchToWeek(null));}
+})();
 </script>
 </body>
 </html>
