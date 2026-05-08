@@ -440,6 +440,104 @@ function getUrlParams(){
   return{selectedIds:ids,weekParam:p.get('week')};
 }
 
+// ---------------------------------------------------------------------------
+// Filter-state ↔ URL sync. The current filter selections (sort, day, cities,
+// tags, free, search) are mirrored into the address bar so the user can copy
+// it and share their view.
+//   sort=az|za        (omitted when shuffle — default + re-randomizes)
+//   day=friday|...    (omitted when 'all')
+//   cities=Apex,Cary  (case-insensitive, comma-delimited)
+//   tags=Family,Music (case-insensitive, comma-delimited)
+//   free=1            (omitted when off)
+//   q=text            (omitted when empty)
+//   week=YYYY-MM-DD   (existing — archive view only)
+//   selected=1,3,7    (existing — "shared events" pick mode)
+// While sharedView is active, the filter params are NOT mirrored — that mode
+// owns the URL via the share button.
+// ---------------------------------------------------------------------------
+let _suspendUrlSync=false;
+function syncUrl(){
+  if(_suspendUrlSync)return;
+  try{
+    const u=new URL(window.location.href);
+    const sp=u.searchParams;
+    // Preserve params we don't manage
+    const keep=new Set(['week','selected']);
+    // Strip everything we manage so we re-write cleanly
+    ['sort','day','cities','tags','free','q'].forEach(k=>sp.delete(k));
+    if(!state.sharedView){
+      if(state.sort && state.sort!=='shuffle')sp.set('sort',state.sort);
+      if(state.activeDay && state.activeDay!=='all')sp.set('day',state.activeDay.toLowerCase());
+      if(state.activeCities.size)sp.set('cities',Array.from(state.activeCities).join(','));
+      if(state.activeTags.size)sp.set('tags',Array.from(state.activeTags).join(','));
+      if(state.freeOnly)sp.set('free','1');
+      if(state.query)sp.set('q',state.query);
+    }
+    const search=sp.toString();
+    window.history.replaceState({},'',u.pathname+(search?'?'+search:'')+u.hash);
+  }catch(e){/* no-op */}
+}
+
+// Read filter params from the URL into state. Called once on boot AFTER the
+// dataset has loaded so we can validate cities/tags against actual values
+// (case-insensitive). Returns true when any filter was applied.
+function applyUrlParamsToState(){
+  const p=new URLSearchParams(window.location.search);
+  let touched=false;
+  const sort=p.get('sort');
+  if(sort==='az'||sort==='za'){state.sort=sort;touched=true;}
+  const day=(p.get('day')||'').toLowerCase();
+  const validDays={friday:'Friday',saturday:'Saturday',sunday:'Sunday'};
+  if(validDays[day]){state.activeDay=validDays[day];touched=true;}
+  // Cities — case-insensitive match against actual city values present in data
+  const citiesParam=p.get('cities');
+  if(citiesParam){
+    const present=new Map();
+    state.allEvents.forEach(ev=>{const c=(ev.city||'').trim();if(c)present.set(c.toLowerCase(),c);});
+    citiesParam.split(',').map(s=>s.trim()).filter(Boolean).forEach(raw=>{
+      const hit=present.get(raw.toLowerCase());
+      if(hit){state.activeCities.add(hit);touched=true;}
+    });
+  }
+  // Tags — case-insensitive match against actual tag values
+  const tagsParam=p.get('tags');
+  if(tagsParam){
+    const present=new Map();
+    state.allEvents.forEach(ev=>(ev.tags||[]).forEach(t=>{if(!TAG_EXCLUDE.has(t.toLowerCase()))present.set(t.toLowerCase(),t);}));
+    tagsParam.split(',').map(s=>s.trim()).filter(Boolean).forEach(raw=>{
+      const hit=present.get(raw.toLowerCase());
+      if(hit){state.activeTags.add(hit);touched=true;}
+    });
+  }
+  if(p.get('free')==='1'){state.freeOnly=true;touched=true;}
+  const q=p.get('q');
+  if(q){state.query=q.toLowerCase().trim();touched=true;}
+  return touched;
+}
+
+// After applyUrlParamsToState we need to reflect those values in the DOM
+// (day pill highlight, free toggle checkbox/visual, search input value, and
+// the city/tag pill active states).
+function syncFilterUI(){
+  // Day pills
+  document.querySelectorAll('[data-day]').forEach(b=>{
+    b.classList.toggle('is-active',b.dataset.day===state.activeDay);
+  });
+  // Free toggle
+  const freeInput=document.getElementById('freeToggleInput');
+  const freeWrap=document.getElementById('freeToggle');
+  if(freeInput)freeInput.checked=state.freeOnly;
+  if(freeWrap)freeWrap.classList.toggle('is-active',state.freeOnly);
+  // Search input
+  const si=document.getElementById('searchInput');
+  if(si&&state.query&&si.value!==state.query)si.value=state.query;
+  // Tag/city pills
+  syncTagPillState();
+  syncCityPillState();
+  // Sort dropdown label/active state
+  if(typeof updateSortUI==='function')updateSortUI();
+}
+
 // Tags excluded from the dropdown (handled by dedicated controls)
 const TAG_EXCLUDE=new Set(['free']);
 
@@ -539,6 +637,7 @@ function applyFilters(){
   });
   state.filtered=out;
   renderEvents();
+  syncUrl();
 }
 
 // Re-shuffle on every page load and whenever Shuffle is (re)selected.
@@ -630,6 +729,8 @@ function clearAllFilters(){
   document.getElementById('freeToggle').classList.remove('is-active');
   document.getElementById('searchInput').value='';
   document.querySelectorAll('[data-day]').forEach(b=>b.classList.toggle('is-active',b.dataset.day==='all'));
+  syncTagPillState();
+  syncCityPillState();
   if(state.sharedView)exitSharedView();
   applyFilters();
 }
@@ -1169,14 +1270,24 @@ function updateWeekLabel(){
 }
 
 async function switchToWeek(weekOrNull){
-  // Update URL first (clears stale selections too)
+  // Update URL first (clears stale selections AND filter params — different
+  // weekends have different cities/tags, so carrying them over could leave
+  // dangling filters that match nothing).
   const u=new URL(location.href);
   if(weekOrNull){u.searchParams.set('week',weekOrNull);} else {u.searchParams.delete('week');}
-  u.searchParams.delete('selected'); // selections don't carry across weeks
+  ['selected','sort','day','cities','tags','free','q'].forEach(k=>u.searchParams.delete(k));
   history.replaceState({},'',u.pathname+(u.search?u.search:'')+u.hash);
-  // Clear local selection state
+  // Clear local selection + filter state
   state.selectedIds.clear();
   state.sharedView=false;
+  state.activeTags.clear();
+  state.activeCities.clear();
+  state.activeDay='all';
+  state.freeOnly=false;
+  state.query='';
+  // Reset Sort to default Shuffle when switching weeks for a clean view
+  state.sort='shuffle';
+  try{sessionStorage.setItem(SORT_STORAGE_KEY,'shuffle');}catch(e){}
   // Load the chosen dataset and rebuild facets
   try{
     const data=await loadEvents(weekOrNull);
@@ -1191,6 +1302,7 @@ function applyLoadedData(data){
   updateWeekLabel();
   buildTagPills(state.allEvents);
   buildCityPills(state.allEvents);
+  syncFilterUI();
   applyFilters();
   renderWeekPicker();
 }
@@ -1239,7 +1351,6 @@ document.addEventListener('click',(e)=>{
     state.allEvents=data.events||[];
     state.week=data.week||null;
     assignShuffleOrder(state.allEvents);
-    updateSortUI();
     updateWeekLabel();
     buildTagPills(state.allEvents);
     buildCityPills(state.allEvents);
@@ -1247,6 +1358,12 @@ document.addEventListener('click',(e)=>{
     const{selectedIds}=getUrlParams();
     state.selectedIds=selectedIds;
     state.sharedView=selectedIds.size>0;
+    // Seed filter state from URL params, then reflect into the DOM. Suspend
+    // URL sync during seeding so we don't rewrite the URL until we render.
+    _suspendUrlSync=true;
+    applyUrlParamsToState();
+    syncFilterUI();
+    _suspendUrlSync=false;
     applyFilters();
     if(selectedIds.size>0){
       setTimeout(()=>{

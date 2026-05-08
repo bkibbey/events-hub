@@ -188,11 +188,26 @@ The weekend label in the banner (e.g. **Weekend of May 1, 2026**) is a button. T
 
 ### Shareable links
 
-Select events on the site → click **Copy shareable link** → send to friends.
+**Sharing specific picks.** Select events on the site → click **Copy shareable link** → send to friends.
 
 The link encodes selected event IDs as
 `https://weekend.brewideas.net/?selected=1,3,7&week=2026-04-24`.
 When opened, the friend sees **only** those events, with a dismissible amber "Shared events (N)" chip to expand back to the full list. The `&week=` parameter is only appended when the user is browsing an archived weekend; current-week links omit it.
+
+**Sharing your current view.** All filter selections (sort, day, cities, tags, free toggle, search) are mirrored into the URL automatically as you change them — just copy the address bar to share the exact same view. Recognized params:
+
+| Param     | Values                          | Notes                                         |
+|-----------|---------------------------------|-----------------------------------------------|
+| `sort`    | `az`, `za`                      | Omitted when on default Shuffle               |
+| `day`     | `friday`, `saturday`, `sunday`  | Omitted when "All"                            |
+| `cities`  | comma-list, e.g. `Apex,Cary`    | Case-insensitive                              |
+| `tags`    | comma-list, e.g. `Family,Music` | Case-insensitive                              |
+| `free`    | `1`                             | Omitted when off                              |
+| `q`       | search text                     | Omitted when empty                            |
+| `week`    | `YYYY-MM-DD`                    | Archive view only — current week omits it    |
+| `selected`| comma-list of IDs               | "Shared events" pick mode (suppresses filter mirroring) |
+
+Example: [weekend.brewideas.net/?sort=az&day=friday&cities=Apex,Cary&tags=Family&free=1](https://weekend.brewideas.net/?sort=az&day=friday&cities=Apex,Cary&tags=Family&free=1) loads with that filter set already applied. Switching weeks via the week picker resets filter params (different weekends have different cities/tags) and resets sort to Shuffle.
 
 ### About modal
 
