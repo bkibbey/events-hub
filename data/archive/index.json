@@ -1,6 +1,12 @@
 {
-  "current": "2026-05-01",
+  "current": "2026-05-08",
   "weeks": [
+    {
+      "week": "2026-05-08",
+      "file": "events-2026-05-08.json",
+      "count": 100,
+      "generated": "2026-05-08"
+    },
     {
       "week": "2026-05-01",
       "file": "events-2026-05-01.json",

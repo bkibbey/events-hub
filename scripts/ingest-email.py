@@ -285,9 +285,26 @@ def extract_events_from_text(text: str) -> list[dict]:
     # Pattern:  Name (URL) , Venue, City   (the comma after the URL may have surrounding spaces)
     # The URL is wrapped in (...) right after the event name.
     line_re = re.compile(r"^(?P<name>.+?)\s*\((?P<url>https?://[^)]+)\)\s*,?\s*(?P<tail>.*)$")
+    # Footer phrases that mark the end of the events block. After SUNDAY the
+    # newsletter typically has a row of bare tracking URLs followed by these
+    # signup / unsubscribe sentences. We must NOT keep parsing past them.
+    footer_re = re.compile(r"^(?:not a subscriber|want to change how|you can\s+update your preferences|or\s+unsubscribe|today and receive)", re.IGNORECASE)
+    bare_url_re = re.compile(r"^https?://\S+\s*$")
+    consecutive_bare_urls = 0
     for s in folded:
         if not s:
+            consecutive_bare_urls = 0
             continue
+        # Hard footer cutoff
+        if footer_re.match(s):
+            break
+        # Two or more consecutive bare-URL-only lines = footer link block
+        if bare_url_re.match(s):
+            consecutive_bare_urls += 1
+            if consecutive_bare_urls >= 2:
+                break
+            continue
+        consecutive_bare_urls = 0
         m = DAY_RE.match(s)
         if m:
             current_day = m.group(1).capitalize()
