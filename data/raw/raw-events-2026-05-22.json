@@ -1,0 +1,809 @@
+{
+  "week": "2026-05-22",
+  "ingested": "2026-05-22",
+  "source": "text-file:/tmp/newsletter-body.txt",
+  "event_count": 89,
+  "events": [
+    {
+      "name": "Animazement",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6da5be83b1&e=458ed9ba0f",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Animazement (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6da5be83b1&e=458ed9ba0f) , Raleigh Convention Center, Raleigh",
+      "id": 1
+    },
+    {
+      "name": "HAMILTON",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=44338735df&e=458ed9ba0f",
+      "venue": "DPAC, Durham Performing Arts Center",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "HAMILTON (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=44338735df&e=458ed9ba0f) , DPAC, Durham Performing Arts Center, Durham",
+      "id": 2
+    },
+    {
+      "name": "Movie Night: Wicked: For Good",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2999ed246f&e=458ed9ba0f",
+      "venue": "Downtown Cary Park (DCP)",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Movie Night: Wicked: For Good (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2999ed246f&e=458ed9ba0f) , Downtown Cary Park (DCP), Cary",
+      "id": 3
+    },
+    {
+      "name": "Living Collections Members Night",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e5b128a2b3&e=458ed9ba0f",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Living Collections Members Night (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e5b128a2b3&e=458ed9ba0f) , North Carolina Museum of Natural Sciences, Raleigh",
+      "id": 4
+    },
+    {
+      "name": "Craft Night on the Videri Patio",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=38114135b0&e=458ed9ba0f",
+      "venue": "Videri Chocolate Factory",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Craft Night on the Videri Patio (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=38114135b0&e=458ed9ba0f) , Videri Chocolate Factory, Raleigh",
+      "id": 5
+    },
+    {
+      "name": "Iration: Where It All Began Summer Tour 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d61670748a&e=458ed9ba0f",
+      "venue": "Red Hat Amphitheater",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Iration: Where It All Began Summer Tour 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d61670748a&e=458ed9ba0f) , Red Hat Amphitheater, Raleigh",
+      "id": 6
+    },
+    {
+      "name": "ATLiens",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3c4cb462b0&e=458ed9ba0f",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "ATLiens (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3c4cb462b0&e=458ed9ba0f) , The Ritz, Raleigh",
+      "id": 7
+    },
+    {
+      "name": "Marisela",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6c952e96ce&e=458ed9ba0f",
+      "venue": "Memorial Auditorium at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Marisela (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6c952e96ce&e=458ed9ba0f) , Memorial Auditorium at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 8
+    },
+    {
+      "name": "Funny Marco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0bdb44f935&e=458ed9ba0f",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Funny Marco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0bdb44f935&e=458ed9ba0f) , Raleigh Improv, Cary",
+      "id": 9
+    },
+    {
+      "name": "JB Smoove",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7cd8caf589&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "JB Smoove (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7cd8caf589&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 10
+    },
+    {
+      "name": "Chris O'Connor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d83694f72b&e=458ed9ba0f",
+      "venue": "Room 861 at Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Chris O'Connor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d83694f72b&e=458ed9ba0f) , Room 861 at Goodnights Comedy Club, Raleigh",
+      "id": 11
+    },
+    {
+      "name": "2026 Down Home Concert Series: The Secret Sisters",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=65c5754e4b&e=458ed9ba0f",
+      "venue": "A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "2026 Down Home Concert Series: The Secret Sisters (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=65c5754e4b&e=458ed9ba0f) , A.J. Fletcher Opera Theater at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 12
+    },
+    {
+      "name": "Mallarme Music Concert: Kurtag at 100",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e7706aa305&e=458ed9ba0f",
+      "venue": "SECU Auditorium, NC Museum of Art",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Mallarme Music Concert: Kurtag at 100 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e7706aa305&e=458ed9ba0f) , SECU Auditorium, NC Museum of Art, Raleigh",
+      "id": 13
+    },
+    {
+      "name": "Cold at Motorco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=19ce0b6c9c&e=458ed9ba0f",
+      "venue": "Motorco Music Hall",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Cold at Motorco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=19ce0b6c9c&e=458ed9ba0f) , Motorco Music Hall, Durham",
+      "id": 14
+    },
+    {
+      "name": "A Tribute to Dylan & Cash",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a4ef138620&e=458ed9ba0f",
+      "venue": "The Wake Forest Listening Room",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "A Tribute to Dylan & Cash (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a4ef138620&e=458ed9ba0f) , The Wake Forest Listening Room, Wake Forest",
+      "id": 15
+    },
+    {
+      "name": "Anime Cocktail Lounge",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a06ff7bf51&e=458ed9ba0f",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Anime Cocktail Lounge (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a06ff7bf51&e=458ed9ba0f) , Bitter Social, Raleigh",
+      "id": 16
+    },
+    {
+      "name": "Biodiversity After Dark",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8f04ff957a&e=458ed9ba0f",
+      "venue": "Prairie Ridge",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Biodiversity After Dark (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8f04ff957a&e=458ed9ba0f) , Prairie Ridge, Raleigh",
+      "id": 17
+    },
+    {
+      "name": "Candlelight: 90s Unplugged",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1b54967b73&e=458ed9ba0f",
+      "venue": "The Historic Wakefield Barn",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "Candlelight: 90s Unplugged (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1b54967b73&e=458ed9ba0f) , The Historic Wakefield Barn, Wake Forest",
+      "id": 18
+    },
+    {
+      "name": "Candy Coffins & The Veldt",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a5978b148c&e=458ed9ba0f",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Candy Coffins & The Veldt (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a5978b148c&e=458ed9ba0f) , Slim's Dive Bar, Raleigh",
+      "id": 19
+    },
+    {
+      "name": "How soon is 1984? New Wave Dance Party",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bc98499588&e=458ed9ba0f",
+      "venue": "Cannonball Music Hall",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "How soon is 1984? New Wave Dance Party (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bc98499588&e=458ed9ba0f) , Cannonball Music Hall, Raleigh",
+      "id": 20
+    },
+    {
+      "name": "Kawaii Rave",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e1d06fe91c&e=458ed9ba0f",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Kawaii Rave (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e1d06fe91c&e=458ed9ba0f) , KINGS, Raleigh",
+      "id": 21
+    },
+    {
+      "name": "On The Border - The Ultimate Eagles Tribute",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8ddf440a73&e=458ed9ba0f",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "On The Border - The Ultimate Eagles Tribute (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8ddf440a73&e=458ed9ba0f) , Lincoln Theatre, Raleigh",
+      "id": 22
+    },
+    {
+      "name": "Senior Center - Senior Prom",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cf6caafd85&e=458ed9ba0f",
+      "venue": "Morrisville Senior Center",
+      "city": "Morrisville",
+      "day": "Friday",
+      "raw": "Senior Center - Senior Prom (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cf6caafd85&e=458ed9ba0f) , Morrisville Senior Center, Morrisville",
+      "id": 23
+    },
+    {
+      "name": "Summer at the Springs Featuring The Phoebes",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d7b753a1dc&e=458ed9ba0f",
+      "venue": "Holly Springs Cultural Center",
+      "city": "Holly Springs",
+      "day": "Friday",
+      "raw": "Summer at the Springs Featuring The Phoebes (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d7b753a1dc&e=458ed9ba0f) , Holly Springs Cultural Center, Holly Springs",
+      "id": 24
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Virginia Beach Valor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=021b7f9400&e=458ed9ba0f",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Friday",
+      "raw": "Zebulon Devil Dogz vs. Virginia Beach Valor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=021b7f9400&e=458ed9ba0f) , Five County Stadium, Zebulon",
+      "id": 25
+    },
+    {
+      "name": "ZoBury - A Tribute To Zo\u00e9 and Enrique Bunbury",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9588041116&e=458ed9ba0f",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "ZoBury - A Tribute To Zo\u00e9 and Enrique Bunbury (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9588041116&e=458ed9ba0f) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 26
+    },
+    {
+      "name": "NC Queer Farmer Convergence",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=23324d7bdb&e=458ed9ba0f",
+      "venue": "Soul Sanctuary",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "NC Queer Farmer Convergence (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=23324d7bdb&e=458ed9ba0f) , Soul Sanctuary, Durham",
+      "id": 27
+    },
+    {
+      "name": "Durham Bulls vs. Nashville",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1dcdfa37f9&e=458ed9ba0f",
+      "venue": "DBAP",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Durham Bulls vs. Nashville (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1dcdfa37f9&e=458ed9ba0f) , DBAP, Durham",
+      "id": 28
+    },
+    {
+      "name": "Lovell Bradford Quartet",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b035b4d561&e=458ed9ba0f",
+      "venue": "Sharp Nine Gallery",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Lovell Bradford Quartet (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b035b4d561&e=458ed9ba0f) , Sharp Nine Gallery, Durham",
+      "id": 29
+    },
+    {
+      "name": "Gimme Gimme Disco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5dccfed6ca&e=458ed9ba0f",
+      "venue": "Stanczyks",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Gimme Gimme Disco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5dccfed6ca&e=458ed9ba0f) , Stanczyks, Durham",
+      "id": 30
+    },
+    {
+      "name": "Elizabeth Cotten Freight Train Blues 2026  Concert Series",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=42ec9d205d&e=458ed9ba0f",
+      "venue": "Carrboro Farmers' Market",
+      "city": "Carrboro",
+      "day": "Friday",
+      "raw": "Elizabeth Cotten Freight Train Blues 2026  Concert Series (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=42ec9d205d&e=458ed9ba0f) , Carrboro Farmers' Market, Carrboro",
+      "id": 31
+    },
+    {
+      "name": "Animazement",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2071967dbf&e=458ed9ba0f",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Animazement (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2071967dbf&e=458ed9ba0f) , Raleigh Convention Center, Raleigh",
+      "id": 32
+    },
+    {
+      "name": "Durham Bulls vs. Nashville",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7fe215628b&e=458ed9ba0f",
+      "venue": "DBAP",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Durham Bulls vs. Nashville (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7fe215628b&e=458ed9ba0f) , DBAP, Durham",
+      "id": 33
+    },
+    {
+      "name": "Tchaikovsky Piano Concerto No. 1",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7312360412&e=458ed9ba0f",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Tchaikovsky Piano Concerto No. 1 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7312360412&e=458ed9ba0f) , Koka Booth Amphitheatre, Cary",
+      "id": 34
+    },
+    {
+      "name": "HAMILTON",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f100964db6&e=458ed9ba0f",
+      "venue": "DPAC, Durham Performing Arts Center",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "HAMILTON (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f100964db6&e=458ed9ba0f) , DPAC, Durham Performing Arts Center, Durham",
+      "id": 35
+    },
+    {
+      "name": "Knowing the West Community Day",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5bc7b65e43&e=458ed9ba0f",
+      "venue": "North Carolina Museum of Art; East Building, Meymandi Exhibition Gallery",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Knowing the West Community Day (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5bc7b65e43&e=458ed9ba0f) , North Carolina Museum of Art; East Building, Meymandi Exhibition Gallery, Raleigh",
+      "id": 36
+    },
+    {
+      "name": "Taste of Soul NC",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f31c8ed9ff&e=458ed9ba0f",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Taste of Soul NC (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f31c8ed9ff&e=458ed9ba0f) , Durham Central Park, Durham",
+      "id": 37
+    },
+    {
+      "name": "2026 Carrboro Bluegrass Festival",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2ef106bf26&e=458ed9ba0f",
+      "venue": "Cat's Cradle",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "2026 Carrboro Bluegrass Festival (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2ef106bf26&e=458ed9ba0f) , Cat's Cradle, Carrboro",
+      "id": 38
+    },
+    {
+      "name": "Funny Marco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=66a563d3c7&e=458ed9ba0f",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Funny Marco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=66a563d3c7&e=458ed9ba0f) , Raleigh Improv, Cary",
+      "id": 39
+    },
+    {
+      "name": "JB Smoove",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c0923700d4&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "JB Smoove (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c0923700d4&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 40
+    },
+    {
+      "name": "Chris O'Connor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b661ccd187&e=458ed9ba0f",
+      "venue": "Room 861 at Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Chris O'Connor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b661ccd187&e=458ed9ba0f) , Room 861 at Goodnights Comedy Club, Raleigh",
+      "id": 41
+    },
+    {
+      "name": "2nd Annual VegHead: Veggie Lovers Grill Out",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7c7f2b6364&e=458ed9ba0f",
+      "venue": "Motorco Music Hall",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "2nd Annual VegHead: Veggie Lovers Grill Out (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7c7f2b6364&e=458ed9ba0f) , Motorco Music Hall, Durham",
+      "id": 42
+    },
+    {
+      "name": "One Direction Night at Motorco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=899bcdbbac&e=458ed9ba0f",
+      "venue": "Motorco Music Hall",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "One Direction Night at Motorco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=899bcdbbac&e=458ed9ba0f) , Motorco Music Hall, Durham",
+      "id": 43
+    },
+    {
+      "name": "Golden: a K-Pop Kids Party!",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=88e43a0961&e=458ed9ba0f",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Golden: a K-Pop Kids Party! (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=88e43a0961&e=458ed9ba0f) , The Ritz, Raleigh",
+      "id": 44
+    },
+    {
+      "name": "Anime Cocktail Lounge",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1039481464&e=458ed9ba0f",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Anime Cocktail Lounge (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1039481464&e=458ed9ba0f) , Bitter Social, Raleigh",
+      "id": 45
+    },
+    {
+      "name": "Art and Blooms at the JCRA: Summer Flower Gardens",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=90a15a349a&e=458ed9ba0f",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Art and Blooms at the JCRA: Summer Flower Gardens (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=90a15a349a&e=458ed9ba0f) , JC Raulston Arboretum at North Carolina State University, Raleigh",
+      "id": 46
+    },
+    {
+      "name": "Banff: 'Flood' EP Release Show / Charlie Paso / Max Gowan",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=35d55c55b4&e=458ed9ba0f",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Banff: 'Flood' EP Release Show / Charlie Paso / Max Gowan (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=35d55c55b4&e=458ed9ba0f) , KINGS, Raleigh",
+      "id": 47
+    },
+    {
+      "name": "Candlelight: The Best of Hans Zimmer",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=21273be4d8&e=458ed9ba0f",
+      "venue": "The Rialto",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Candlelight: The Best of Hans Zimmer (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=21273be4d8&e=458ed9ba0f) , The Rialto, Raleigh",
+      "id": 48
+    },
+    {
+      "name": "Fire Department Open House Morrisville 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7ac882a906&e=458ed9ba0f",
+      "venue": "Fire Station No. 1",
+      "city": "Morrisville",
+      "day": "Saturday",
+      "raw": "Fire Department Open House Morrisville 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7ac882a906&e=458ed9ba0f) , Fire Station No. 1, Morrisville",
+      "id": 49
+    },
+    {
+      "name": "Halfway to Halloween: A Flippin' Sweet Costume Contest",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ead9efa7b1&e=458ed9ba0f",
+      "venue": "The Longleaf Lounge",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Halfway to Halloween: A Flippin' Sweet Costume Contest (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ead9efa7b1&e=458ed9ba0f) , The Longleaf Lounge, Raleigh",
+      "id": 50
+    },
+    {
+      "name": "Henry Cruz Band",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5f1009835f&e=458ed9ba0f",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Henry Cruz Band (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5f1009835f&e=458ed9ba0f) , Slim's Dive Bar, Raleigh",
+      "id": 51
+    },
+    {
+      "name": "Hoot n Holler Market",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d5166ac9f1&e=458ed9ba0f",
+      "venue": "Cannonball Music Hall",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Hoot n Holler Market (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d5166ac9f1&e=458ed9ba0f) , Cannonball Music Hall, Raleigh",
+      "id": 52
+    },
+    {
+      "name": "Raleigh-Durham Caged Bird Society 37th Annual Pet Bird Fair",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b124c62dbb&e=458ed9ba0f",
+      "venue": "Kerr Scott Building at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Raleigh-Durham Caged Bird Society 37th Annual Pet Bird Fair (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b124c62dbb&e=458ed9ba0f) , Kerr Scott Building at North Carolina State Fairgrounds, Raleigh",
+      "id": 53
+    },
+    {
+      "name": "Repticon 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=339fab9bba&e=458ed9ba0f",
+      "venue": "Agri Supply Exposition Center at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Repticon 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=339fab9bba&e=458ed9ba0f) , Agri Supply Exposition Center at North Carolina State Fairgrounds, Raleigh",
+      "id": 54
+    },
+    {
+      "name": "Shrek Rave",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=96b0cc77c5&e=458ed9ba0f",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Shrek Rave (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=96b0cc77c5&e=458ed9ba0f) , The Ritz, Raleigh",
+      "id": 55
+    },
+    {
+      "name": "T\u00f3mar\u00fam w/ Gudsforladt",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c6ba2711bc&e=458ed9ba0f",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "T\u00f3mar\u00fam w/ Gudsforladt (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c6ba2711bc&e=458ed9ba0f) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 56
+    },
+    {
+      "name": "Una Noche Con Los Azconas",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3f3ef6ff67&e=458ed9ba0f",
+      "venue": "Cabaret Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Una Noche Con Los Azconas (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3f3ef6ff67&e=458ed9ba0f) , Cabaret Theatre, Raleigh",
+      "id": 57
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Virginia Beach Valor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a3ac24f724&e=458ed9ba0f",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Saturday",
+      "raw": "Zebulon Devil Dogz vs. Virginia Beach Valor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a3ac24f724&e=458ed9ba0f) , Five County Stadium, Zebulon",
+      "id": 58
+    },
+    {
+      "name": "Gentle Revelations  6 Flash Plays presented by Perihelion Theatre Company & Productions",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2283cfb280&e=458ed9ba0f",
+      "venue": "ArtsCenter",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "Gentle Revelations  6 Flash Plays presented by Perihelion Theatre Company & Productions (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2283cfb280&e=458ed9ba0f) , ArtsCenter, Carrboro",
+      "id": 59
+    },
+    {
+      "name": "May Forest Bathing Walk with Certified Forest & Nature Therapy Guide  Ages 18+",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e916a595c2&e=458ed9ba0f",
+      "venue": "North Carolina Botanical Garden",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "May Forest Bathing Walk with Certified Forest & Nature Therapy Guide  Ages 18+ (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e916a595c2&e=458ed9ba0f) , North Carolina Botanical Garden, Chapel Hill",
+      "id": 60
+    },
+    {
+      "name": "NC Queer Farmer Convergence",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a73b32db9c&e=458ed9ba0f",
+      "venue": "Soul Sanctuary",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "NC Queer Farmer Convergence (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a73b32db9c&e=458ed9ba0f) , Soul Sanctuary, Durham",
+      "id": 61
+    },
+    {
+      "name": "SINGamajig",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=236ab96973&e=458ed9ba0f",
+      "venue": "Mettlesome Comedy Theater",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "SINGamajig (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=236ab96973&e=458ed9ba0f) , Mettlesome Comedy Theater, Durham",
+      "id": 62
+    },
+    {
+      "name": "8-Track Minds",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4f20b5d3eb&e=458ed9ba0f",
+      "venue": "The Blue Note Grill",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "8-Track Minds (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4f20b5d3eb&e=458ed9ba0f) , The Blue Note Grill, Durham",
+      "id": 63
+    },
+    {
+      "name": "Connor Lee Quartet with Husbandos",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b16d12cfd1&e=458ed9ba0f",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Connor Lee Quartet with Husbandos (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b16d12cfd1&e=458ed9ba0f) , Slim's Dive Bar, Raleigh",
+      "id": 64
+    },
+    {
+      "name": "Darkness RISING: Live Arts & Mental Health Block Party 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=22287aa106&e=458ed9ba0f",
+      "venue": "Moore Square",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Darkness RISING: Live Arts & Mental Health Block Party 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=22287aa106&e=458ed9ba0f) , Moore Square, Raleigh",
+      "id": 65
+    },
+    {
+      "name": "Animazement",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bd08f46a45&e=458ed9ba0f",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Animazement (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bd08f46a45&e=458ed9ba0f) , Raleigh Convention Center, Raleigh",
+      "id": 66
+    },
+    {
+      "name": "NC Sugar Rush",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=85f474053f&e=458ed9ba0f",
+      "venue": "City Plaza",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "NC Sugar Rush (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=85f474053f&e=458ed9ba0f) , City Plaza, Raleigh",
+      "id": 67
+    },
+    {
+      "name": "Dreamflash Kids Festival",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=67fbc6e0e4&e=458ed9ba0f",
+      "venue": "Adams Field, Dix Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Dreamflash Kids Festival (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=67fbc6e0e4&e=458ed9ba0f) , Adams Field, Dix Park, Raleigh",
+      "id": 68
+    },
+    {
+      "name": "AAPI Heritage Month: Sushi & Sumo",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=93e887e7f2&e=458ed9ba0f",
+      "venue": "Apex Community Park",
+      "city": "Apex",
+      "day": "Sunday",
+      "raw": "AAPI Heritage Month: Sushi & Sumo (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=93e887e7f2&e=458ed9ba0f) , Apex Community Park, Apex",
+      "id": 69
+    },
+    {
+      "name": "Gather: A Seasonal Supper",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=074dfeefb1&e=458ed9ba0f",
+      "venue": "DCP Gathering House Garden",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Gather: A Seasonal Supper (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=074dfeefb1&e=458ed9ba0f) , DCP Gathering House Garden, Cary",
+      "id": 70
+    },
+    {
+      "name": "An American Celebration: The Music of John Williams",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=375926eeaa&e=458ed9ba0f",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "An American Celebration: The Music of John Williams (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=375926eeaa&e=458ed9ba0f) , Koka Booth Amphitheatre, Cary",
+      "id": 71
+    },
+    {
+      "name": "HAMILTON",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9ddcfc9f59&e=458ed9ba0f",
+      "venue": "DPAC, Durham Performing Arts Center",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "HAMILTON (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9ddcfc9f59&e=458ed9ba0f) , DPAC, Durham Performing Arts Center, Durham",
+      "id": 72
+    },
+    {
+      "name": "Durham Bulls vs. Nashville",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=08d0c2d213&e=458ed9ba0f",
+      "venue": "DBAP",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Durham Bulls vs. Nashville (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=08d0c2d213&e=458ed9ba0f) , DBAP, Durham",
+      "id": 73
+    },
+    {
+      "name": "Six Sundays in Spring 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=60a63ef122&e=458ed9ba0f",
+      "venue": "E. Carroll Joyner Park",
+      "city": "Wake Forest",
+      "day": "Sunday",
+      "raw": "Six Sundays in Spring 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=60a63ef122&e=458ed9ba0f) , E. Carroll Joyner Park, Wake Forest",
+      "id": 74
+    },
+    {
+      "name": "Cocktail Competition",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b91a8cc2c2&e=458ed9ba0f",
+      "venue": "Longleaf Swine",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Cocktail Competition (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b91a8cc2c2&e=458ed9ba0f) , Longleaf Swine, Raleigh",
+      "id": 75
+    },
+    {
+      "name": "Chris O'Connor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b0866979fc&e=458ed9ba0f",
+      "venue": "Room 861 at Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Chris O'Connor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b0866979fc&e=458ed9ba0f) , Room 861 at Goodnights Comedy Club, Raleigh",
+      "id": 76
+    },
+    {
+      "name": "Funny Marco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=757bdfe76c&e=458ed9ba0f",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Funny Marco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=757bdfe76c&e=458ed9ba0f) , Raleigh Improv, Cary",
+      "id": 77
+    },
+    {
+      "name": "JawsFest 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=84ed87a7bf&e=458ed9ba0f",
+      "venue": "Local 506",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "JawsFest 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=84ed87a7bf&e=458ed9ba0f) , Local 506, Chapel Hill",
+      "id": 78
+    },
+    {
+      "name": "Be Good to Yourself Presents Music for Mental Health  Benefit Concert",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=82308d3913&e=458ed9ba0f",
+      "venue": "Cat's Cradle",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Be Good to Yourself Presents Music for Mental Health  Benefit Concert (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=82308d3913&e=458ed9ba0f) , Cat's Cradle, Carrboro",
+      "id": 79
+    },
+    {
+      "name": "Brunch & Bubbles",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a6d088166e&e=458ed9ba0f",
+      "venue": "AVA Rooftop Bar",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Brunch & Bubbles (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a6d088166e&e=458ed9ba0f) , AVA Rooftop Bar, Cary",
+      "id": 80
+    },
+    {
+      "name": "Camisole with Shred Flinstone, Cellar Dwellers",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cf99c45df3&e=458ed9ba0f",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Camisole with Shred Flinstone, Cellar Dwellers (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cf99c45df3&e=458ed9ba0f) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 81
+    },
+    {
+      "name": "F1 Canadian Grand Prix Watch Party",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4f8102ccab&e=458ed9ba0f",
+      "venue": "The Davie",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "F1 Canadian Grand Prix Watch Party (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4f8102ccab&e=458ed9ba0f) , The Davie, Raleigh",
+      "id": 82
+    },
+    {
+      "name": "Gasket",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6adfe23d2f&e=458ed9ba0f",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Gasket (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6adfe23d2f&e=458ed9ba0f) , KINGS, Raleigh",
+      "id": 83
+    },
+    {
+      "name": "Goodbye Horses",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a774e0e956&e=458ed9ba0f",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Goodbye Horses (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a774e0e956&e=458ed9ba0f) , Slim's Dive Bar, Raleigh",
+      "id": 84
+    },
+    {
+      "name": "Repticon 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=14a335383f&e=458ed9ba0f",
+      "venue": "Agri Supply Exposition Center at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Repticon 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=14a335383f&e=458ed9ba0f) , Agri Supply Exposition Center at North Carolina State Fairgrounds, Raleigh",
+      "id": 85
+    },
+    {
+      "name": "Sights and Sounds on Sundays Concert Series: The Ulysses Quartet",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bfdf1e7c0c&e=458ed9ba0f",
+      "venue": "North Carolina Museum of Art; East Building, SECU Auditorium",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Sights and Sounds on Sundays Concert Series: The Ulysses Quartet (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bfdf1e7c0c&e=458ed9ba0f) , North Carolina Museum of Art; East Building, SECU Auditorium, Raleigh",
+      "id": 86
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Virginia Beach Valor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b7762eaaee&e=458ed9ba0f",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Sunday",
+      "raw": "Zebulon Devil Dogz vs. Virginia Beach Valor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b7762eaaee&e=458ed9ba0f) , Five County Stadium, Zebulon",
+      "id": 87
+    },
+    {
+      "name": "Pre-Memorial Day Franks & Dranks on the Roof",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=65de8e9633&e=458ed9ba0f",
+      "venue": "The Durham",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Pre-Memorial Day Franks & Dranks on the Roof (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=65de8e9633&e=458ed9ba0f) , The Durham, Durham",
+      "id": 88
+    },
+    {
+      "name": "NC Queer Farmer Convergence",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=18837bbc75&e=458ed9ba0f",
+      "venue": "Soul Sanctuary",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "NC Queer Farmer Convergence (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=18837bbc75&e=458ed9ba0f) , Soul Sanctuary, Durham",
+      "id": 89
+    }
+  ]
+}
