@@ -1,0 +1,989 @@
+{
+  "week": "2026-07-10",
+  "ingested": "2026-07-10",
+  "source": "text-file:/tmp/newsletter-body.txt",
+  "event_count": 109,
+  "events": [
+    {
+      "name": "NE-YO and Akon",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cc2fc9acf8&e=458ed9ba0f",
+      "venue": "Coastal Credit Union Music Park at Walnut Creek",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "NE-YO and Akon (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cc2fc9acf8&e=458ed9ba0f) , Coastal Credit Union Music Park at Walnut Creek, Raleigh",
+      "id": 1
+    },
+    {
+      "name": "Blackberry Smoke",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=28401f35cc&e=458ed9ba0f",
+      "venue": "DPAC",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Blackberry Smoke (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=28401f35cc&e=458ed9ba0f) , DPAC, Durham",
+      "id": 2
+    },
+    {
+      "name": "NCMA Movie Night: Godzilla vs. Mothra (1992)",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9e357d25b1&e=458ed9ba0f",
+      "venue": "Moore Square",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "NCMA Movie Night: Godzilla vs. Mothra (1992) (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9e357d25b1&e=458ed9ba0f) , Moore Square, Raleigh",
+      "id": 3
+    },
+    {
+      "name": "Bands, Bites, and Boats July 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1e5d509dc0&e=458ed9ba0f",
+      "venue": "Bond Park Boathouse",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Bands, Bites, and Boats July 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1e5d509dc0&e=458ed9ba0f) , Bond Park Boathouse, Cary",
+      "id": 4
+    },
+    {
+      "name": "Artist Notes featuring Larry & Joe",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=24fd3eb2e1&e=458ed9ba0f",
+      "venue": "The Corner at Centennial Campus",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Artist Notes featuring Larry & Joe (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=24fd3eb2e1&e=458ed9ba0f) , The Corner at Centennial Campus, Raleigh",
+      "id": 5
+    },
+    {
+      "name": "Tommy Davidson",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=98bd9ed28f&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Tommy Davidson (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=98bd9ed28f&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 6
+    },
+    {
+      "name": "Jess Hilarious",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=640df7cdef&e=458ed9ba0f",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Jess Hilarious (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=640df7cdef&e=458ed9ba0f) , Raleigh Improv, Cary",
+      "id": 7
+    },
+    {
+      "name": "Chris Higgins",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3dc1d4209d&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Chris Higgins (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3dc1d4209d&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 8
+    },
+    {
+      "name": "The Pretty Reckless: Dear God Tour",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=12d73d7467&e=458ed9ba0f",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Pretty Reckless: Dear God Tour (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=12d73d7467&e=458ed9ba0f) , The Ritz, Raleigh",
+      "id": 9
+    },
+    {
+      "name": "Sidecar Social Club at Summerfest",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8f1e932a0e&e=458ed9ba0f",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Sidecar Social Club at Summerfest (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8f1e932a0e&e=458ed9ba0f) , Koka Booth Amphitheatre, Cary",
+      "id": 10
+    },
+    {
+      "name": "Friday Night on White 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f3c0e062de&e=458ed9ba0f",
+      "venue": "S. White St.",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "Friday Night on White 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f3c0e062de&e=458ed9ba0f) , S. White St.,, Wake Forest",
+      "id": 11
+    },
+    {
+      "name": "PLAYlist Concert Series: Shame Gang",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8649101810&e=458ed9ba0f",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "PLAYlist Concert Series: Shame Gang (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8649101810&e=458ed9ba0f) , Durham Central Park, Durham",
+      "id": 12
+    },
+    {
+      "name": "Carolina Flyers Ultimate Frisbee vs Austin Sol",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=dce56fbe99&e=458ed9ba0f",
+      "venue": "Durham County Memorial Stadium",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Carolina Flyers Ultimate Frisbee vs Austin Sol (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=dce56fbe99&e=458ed9ba0f) , Durham County Memorial Stadium, Durham",
+      "id": 13
+    },
+    {
+      "name": "BMW Ultimate Driving Experience",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4f5208a395&e=458ed9ba0f",
+      "venue": "Lenovo Center",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "BMW Ultimate Driving Experience (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4f5208a395&e=458ed9ba0f) , Lenovo Center, Raleigh",
+      "id": 14
+    },
+    {
+      "name": "ADF Presents: Monica Bill Barnes & Company",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4a3efbc55f&e=458ed9ba0f",
+      "venue": "von der Heyden Studio Theater at Rubenstein Arts Center",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "ADF Presents: Monica Bill Barnes & Company (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4a3efbc55f&e=458ed9ba0f) , von der Heyden Studio Theater at Rubenstein Arts Center, Durham",
+      "id": 15
+    },
+    {
+      "name": "Art Reception - Susan Parrish: An Artist Retrospective",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=67ac2c608e&e=458ed9ba0f",
+      "venue": "The Halle Cultural Arts Center",
+      "city": "Apex",
+      "day": "Friday",
+      "raw": "Art Reception - Susan Parrish: An Artist Retrospective (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=67ac2c608e&e=458ed9ba0f) , The Halle Cultural Arts Center, Apex",
+      "id": 16
+    },
+    {
+      "name": "Ben Flournoy",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7179a3b1d9&e=458ed9ba0f",
+      "venue": "Slim's",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Ben Flournoy (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7179a3b1d9&e=458ed9ba0f) , Slim's, Raleigh",
+      "id": 17
+    },
+    {
+      "name": "Madonna Confessions II Listening Party at Bitter Social",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f8be7494f4&e=458ed9ba0f",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Madonna Confessions II Listening Party at Bitter Social (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f8be7494f4&e=458ed9ba0f) , Bitter Social, Raleigh",
+      "id": 18
+    },
+    {
+      "name": "Riddim & Royalty: A Reggae \u00d7 Afrobeats Affair",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=31a7f97f8d&e=458ed9ba0f",
+      "venue": "The Haymaker",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Riddim & Royalty: A Reggae \u00d7 Afrobeats Affair (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=31a7f97f8d&e=458ed9ba0f) , The Haymaker, Raleigh",
+      "id": 19
+    },
+    {
+      "name": "The Vanguard",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=833de5eb3b&e=458ed9ba0f",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Vanguard (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=833de5eb3b&e=458ed9ba0f) , KINGS, Raleigh",
+      "id": 20
+    },
+    {
+      "name": "The White Buffalo",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7340214b1e&e=458ed9ba0f",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The White Buffalo (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7340214b1e&e=458ed9ba0f) , Lincoln Theatre, Raleigh",
+      "id": 21
+    },
+    {
+      "name": "Vastive",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=11d0799e50&e=458ed9ba0f",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Vastive (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=11d0799e50&e=458ed9ba0f) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 22
+    },
+    {
+      "name": "Phenom Hoops Live",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5899457fbc&e=458ed9ba0f",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Phenom Hoops Live (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5899457fbc&e=458ed9ba0f) , Raleigh Convention Center, Raleigh",
+      "id": 23
+    },
+    {
+      "name": "Salsa at The Park - A Live Music & Dance Series",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=510619004a&e=458ed9ba0f",
+      "venue": "Knightdale Station Park",
+      "city": "Knightdale",
+      "day": "Friday",
+      "raw": "Salsa at The Park - A Live Music & Dance Series (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=510619004a&e=458ed9ba0f) , Knightdale Station Park, Knightdale",
+      "id": 24
+    },
+    {
+      "name": "Live @ATC Tower Music Series",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ac2f2ec8f7&e=458ed9ba0f",
+      "venue": "American Tobacco Campus Water Tower",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Live @ATC Tower Music Series (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ac2f2ec8f7&e=458ed9ba0f) , American Tobacco Campus Water Tower, Durham",
+      "id": 25
+    },
+    {
+      "name": "Single Woman: Work In Progress",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=add6054473&e=458ed9ba0f",
+      "venue": "Mettlesome Theater at Golden Belt",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Single Woman: Work In Progress (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=add6054473&e=458ed9ba0f) , Mettlesome Theater at Golden Belt, Durham",
+      "id": 26
+    },
+    {
+      "name": "Partner Yoga & Blueberry Evening",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=774c43330f&e=458ed9ba0f",
+      "venue": "The Honeysuckle at Union Grove Farm",
+      "city": "Chapel Hill",
+      "day": "Friday",
+      "raw": "Partner Yoga & Blueberry Evening (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=774c43330f&e=458ed9ba0f) , The Honeysuckle at Union Grove Farm, Chapel Hill",
+      "id": 27
+    },
+    {
+      "name": "2nd Friday Art Walk",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=324915d351&e=458ed9ba0f",
+      "venue": "Carrboro Town Hall",
+      "city": "Carrboro",
+      "day": "Friday",
+      "raw": "2nd Friday Art Walk (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=324915d351&e=458ed9ba0f) , Carrboro Town Hall, Carrboro",
+      "id": 28
+    },
+    {
+      "name": "Gladys Knight",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bc75abbc6e&e=458ed9ba0f",
+      "venue": "Memorial Auditorium at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Gladys Knight (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bc75abbc6e&e=458ed9ba0f) , Memorial Auditorium at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 29
+    },
+    {
+      "name": "Paul Simon",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1f80c23698&e=458ed9ba0f",
+      "venue": "Coastal Credit Union Music Park at Walnut Creek",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Paul Simon (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1f80c23698&e=458ed9ba0f) , Coastal Credit Union Music Park at Walnut Creek, Raleigh",
+      "id": 30
+    },
+    {
+      "name": "North Carolina Courage vs. Washington Spirit",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=be336a814b&e=458ed9ba0f",
+      "venue": "WakeMed Soccer Park",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "North Carolina Courage vs. Washington Spirit (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=be336a814b&e=458ed9ba0f) , WakeMed Soccer Park, Cary",
+      "id": 31
+    },
+    {
+      "name": "NC Courage Tailgate",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4c6ece6e37&e=458ed9ba0f",
+      "venue": "Fenton",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "NC Courage Tailgate (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4c6ece6e37&e=458ed9ba0f) , Fenton, Cary",
+      "id": 32
+    },
+    {
+      "name": "Kiki's Comedy Showcase: Sunsets & Standup",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e30886fce6&e=458ed9ba0f",
+      "venue": "DCP Academy Pavilion",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Kiki's Comedy Showcase: Sunsets & Standup (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e30886fce6&e=458ed9ba0f) , DCP Academy Pavilion, Cary",
+      "id": 33
+    },
+    {
+      "name": "An Evening with Wilco",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b81a57594a&e=458ed9ba0f",
+      "venue": "DPAC",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "An Evening with Wilco (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b81a57594a&e=458ed9ba0f) , DPAC, Durham",
+      "id": 34
+    },
+    {
+      "name": "Raleigh's All-American Summer Festival",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=eaa5bf0d44&e=458ed9ba0f",
+      "venue": "City Plaza",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Raleigh's All-American Summer Festival (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=eaa5bf0d44&e=458ed9ba0f) , City Plaza, Raleigh",
+      "id": 35
+    },
+    {
+      "name": "Big Art Bash",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=85d6c502b3&e=458ed9ba0f",
+      "venue": "Marbles Kids Museum",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Big Art Bash (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=85d6c502b3&e=458ed9ba0f) , Marbles Kids Museum, Raleigh",
+      "id": 36
+    },
+    {
+      "name": "July Market",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=43bf85064e&e=458ed9ba0f",
+      "venue": "Videri Patio",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "July Market (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=43bf85064e&e=458ed9ba0f) , Videri Patio, Raleigh",
+      "id": 37
+    },
+    {
+      "name": "Bastille Day Celebration - Food, Desserts, Wine Walk and Live Music",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=59ed44e1b4&e=458ed9ba0f",
+      "venue": "Lafayette Village",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Bastille Day Celebration - Food, Desserts, Wine Walk and Live Music (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=59ed44e1b4&e=458ed9ba0f) , Lafayette Village, Raleigh",
+      "id": 38
+    },
+    {
+      "name": "Dr Bacon \u2014 Summer Concerts in the Park",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=35cf32e2aa&e=458ed9ba0f",
+      "venue": "Duke Park",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Dr Bacon \u2014 Summer Concerts in the Park (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=35cf32e2aa&e=458ed9ba0f) , Duke Park, Durham",
+      "id": 39
+    },
+    {
+      "name": "Tommy Davidson",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1d70ff416c&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Tommy Davidson (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1d70ff416c&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 40
+    },
+    {
+      "name": "Jess Hilarious",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c7a9ff2794&e=458ed9ba0f",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Jess Hilarious (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c7a9ff2794&e=458ed9ba0f) , Raleigh Improv, Cary",
+      "id": 41
+    },
+    {
+      "name": "Chris Higgins",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f3a56264ae&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Chris Higgins (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f3a56264ae&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 42
+    },
+    {
+      "name": "Bingo Loco Afternoon",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d86011d67d&e=458ed9ba0f",
+      "venue": "(other time options available), The Ritz",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Bingo Loco Afternoon (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d86011d67d&e=458ed9ba0f)  (other time options available), The Ritz, Raleigh",
+      "id": 43
+    },
+    {
+      "name": "Daydream Day Party",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f1c8857194&e=458ed9ba0f",
+      "venue": "Level7 Rooftop Lounge at the AC Hotel Raleigh North Hills",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Daydream Day Party (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f1c8857194&e=458ed9ba0f) , Level7 Rooftop Lounge at the AC Hotel Raleigh North Hills, Raleigh",
+      "id": 44
+    },
+    {
+      "name": "BMW Ultimate Driving Experience",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=073e7da334&e=458ed9ba0f",
+      "venue": "Lenovo Center",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "BMW Ultimate Driving Experience (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=073e7da334&e=458ed9ba0f) , Lenovo Center, Raleigh",
+      "id": 45
+    },
+    {
+      "name": "Dino Dig Live",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=54c47990e6&e=458ed9ba0f",
+      "venue": "SECU Daily Planet Theater",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Dino Dig Live (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=54c47990e6&e=458ed9ba0f) , SECU Daily Planet Theater, Raleigh",
+      "id": 46
+    },
+    {
+      "name": "NCMA to Go Art Kits: Earth, Art, and Fire",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f23817af14&e=458ed9ba0f",
+      "venue": "North Carolina Museum of Art, East Building",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "NCMA to Go Art Kits: Earth, Art, and Fire (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f23817af14&e=458ed9ba0f) , North Carolina Museum of Art, East Building, Raleigh",
+      "id": 47
+    },
+    {
+      "name": "UCAN Gardeners as Teachers 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6cfb04d7ce&e=458ed9ba0f",
+      "venue": "Catawba Trail Farm",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "UCAN Gardeners as Teachers 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6cfb04d7ce&e=458ed9ba0f) , Catawba Trail Farm, Durham",
+      "id": 48
+    },
+    {
+      "name": "ADF Presents: Footprints: Site-specific work by Stephan Koplowitz",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ff0fe28f11&e=458ed9ba0f",
+      "venue": "Mutual Tower",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "ADF Presents: Footprints: Site-specific work by Stephan Koplowitz (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ff0fe28f11&e=458ed9ba0f) , Mutual Tower, Durham",
+      "id": 49
+    },
+    {
+      "name": "ADF Presents: Footprints: Ephrat Asherie, Vincent E. Thomas, & Keith Thompson",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a4fbfb23ca&e=458ed9ba0f",
+      "venue": "Reynolds Industries Theater at Duke",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "ADF Presents: Footprints: Ephrat Asherie, Vincent E. Thomas, & Keith Thompson (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a4fbfb23ca&e=458ed9ba0f) , Reynolds Industries Theater at Duke, Durham",
+      "id": 50
+    },
+    {
+      "name": "Bastille Day Celebration  French music & cocktails",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5f2fc99b2d&e=458ed9ba0f",
+      "venue": "Yonder, Not Just a Bar",
+      "city": "Hillsborough",
+      "day": "Saturday",
+      "raw": "Bastille Day Celebration  French music & cocktails (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=5f2fc99b2d&e=458ed9ba0f) , Yonder, Not Just a Bar, Hillsborough",
+      "id": 51
+    },
+    {
+      "name": "Blueberry Brunch",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=766e258b66&e=458ed9ba0f",
+      "venue": "The Honeysuckle Tea House",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "Blueberry Brunch (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=766e258b66&e=458ed9ba0f) , The Honeysuckle Tea House, Chapel Hill",
+      "id": 52
+    },
+    {
+      "name": "Coffee with FRANK  Featured Artists Conversation",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a7c63da165&e=458ed9ba0f",
+      "venue": "FRANK Gallery",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "Coffee with FRANK  Featured Artists Conversation (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a7c63da165&e=458ed9ba0f) , FRANK Gallery, Carrboro",
+      "id": 53
+    },
+    {
+      "name": "Hillsborough Cars  A Car Show For Every Generation",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=dcc6739c85&e=458ed9ba0f",
+      "venue": "NC 57",
+      "city": "Hillsborough",
+      "day": "Saturday",
+      "raw": "Hillsborough Cars  A Car Show For Every Generation (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=dcc6739c85&e=458ed9ba0f) , NC 57, Hillsborough",
+      "id": 54
+    },
+    {
+      "name": "Mortal Combat 1 LAN Tournament",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=60b9631bd8&e=458ed9ba0f",
+      "venue": "Ego Chall Esports",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "Mortal Combat 1 LAN Tournament (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=60b9631bd8&e=458ed9ba0f) , Ego Chall Esports, Chapel Hill",
+      "id": 55
+    },
+    {
+      "name": "Walking Stick Whittling Workshop by the Eno",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=afde1c1eb8&e=458ed9ba0f",
+      "venue": "Highland Farm Road",
+      "city": "Hillsborough",
+      "day": "Saturday",
+      "raw": "Walking Stick Whittling Workshop by the Eno (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=afde1c1eb8&e=458ed9ba0f) , Highland Farm Road, Hillsborough",
+      "id": 56
+    },
+    {
+      "name": "History Within Reach: A Seated Tour of Historic Hillsborough",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b028dbbd2a&e=458ed9ba0f",
+      "venue": "Hillsborough Visitors Center",
+      "city": "Hillsborough",
+      "day": "Saturday",
+      "raw": "History Within Reach: A Seated Tour of Historic Hillsborough (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b028dbbd2a&e=458ed9ba0f) , Hillsborough Visitors Center, Hillsborough",
+      "id": 57
+    },
+    {
+      "name": "Speakeasy's Queer Cabaret & Dance Party",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c88278d622&e=458ed9ba0f",
+      "venue": "Speakeasy",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "Speakeasy's Queer Cabaret & Dance Party (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c88278d622&e=458ed9ba0f) , Speakeasy, Carrboro",
+      "id": 58
+    },
+    {
+      "name": "As Daylight Dies x Endoxa x Abstractionist",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ce826b53be&e=458ed9ba0f",
+      "venue": "Cannonball Music Hall",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "As Daylight Dies x Endoxa x Abstractionist (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ce826b53be&e=458ed9ba0f) , Cannonball Music Hall, Raleigh",
+      "id": 59
+    },
+    {
+      "name": "Bedroom Division w/ Fifth Floor, bedrumor",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=441a8452ea&e=458ed9ba0f",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Bedroom Division w/ Fifth Floor, bedrumor (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=441a8452ea&e=458ed9ba0f) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 60
+    },
+    {
+      "name": "Brick / Blankstate / Covenant Eye / Weymouth",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d9a44b7efb&e=458ed9ba0f",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Brick / Blankstate / Covenant Eye / Weymouth (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d9a44b7efb&e=458ed9ba0f) , KINGS, Raleigh",
+      "id": 61
+    },
+    {
+      "name": "Kult Ikon",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=beff36c96e&e=458ed9ba0f",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Kult Ikon (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=beff36c96e&e=458ed9ba0f) , Slim's Dive Bar, Raleigh",
+      "id": 62
+    },
+    {
+      "name": "Los Rockoletas",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b9ee0a2c18&e=458ed9ba0f",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Los Rockoletas (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b9ee0a2c18&e=458ed9ba0f) , Chapel of Bones, Raleigh",
+      "id": 63
+    },
+    {
+      "name": "United We Dance",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=875620943a&e=458ed9ba0f",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "United We Dance (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=875620943a&e=458ed9ba0f) , Lincoln Theatre, Raleigh",
+      "id": 64
+    },
+    {
+      "name": "WHY? Presents Unzipped",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=64d1d9ec64&e=458ed9ba0f",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "WHY? Presents Unzipped (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=64d1d9ec64&e=458ed9ba0f) , Bitter Social, Raleigh",
+      "id": 65
+    },
+    {
+      "name": "One After 919- Beatles Tribute",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b8f8bd57f7&e=458ed9ba0f",
+      "venue": "Abbey Road Tavern & Grill",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "One After 919- Beatles Tribute (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b8f8bd57f7&e=458ed9ba0f) , Abbey Road Tavern & Grill, Cary",
+      "id": 66
+    },
+    {
+      "name": "Queer Lake Day",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ef9bf3f242&e=458ed9ba0f",
+      "venue": "Jordan Lake",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "Queer Lake Day (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ef9bf3f242&e=458ed9ba0f) , Jordan Lake, Apex",
+      "id": 67
+    },
+    {
+      "name": "Summer Fun Dance 2026",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=aa04ffd086&e=458ed9ba0f",
+      "venue": "Halle Cultural Arts Center",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "Summer Fun Dance 2026 (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=aa04ffd086&e=458ed9ba0f) , Halle Cultural Arts Center, Apex",
+      "id": 68
+    },
+    {
+      "name": "Adult Restorative Play Group",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2109002634&e=458ed9ba0f",
+      "venue": "Pullen Park",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Adult Restorative Play Group (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=2109002634&e=458ed9ba0f) , Pullen Park, Raleigh",
+      "id": 69
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Yorktown Coconuts",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b5ab3fafd4&e=458ed9ba0f",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Saturday",
+      "raw": "Zebulon Devil Dogz vs. Yorktown Coconuts (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b5ab3fafd4&e=458ed9ba0f) , Five County Stadium, Zebulon",
+      "id": 70
+    },
+    {
+      "name": "Birding with Wake Audubon Society",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=27712a9eb6&e=458ed9ba0f",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Birding with Wake Audubon Society (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=27712a9eb6&e=458ed9ba0f) , North Carolina Museum of Art, Raleigh",
+      "id": 71
+    },
+    {
+      "name": "Community Kickstand: Free Bicycle Repair",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3f14ac4cb9&e=458ed9ba0f",
+      "venue": "Oak City Cares",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Community Kickstand: Free Bicycle Repair (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=3f14ac4cb9&e=458ed9ba0f) , Oak City Cares, Raleigh",
+      "id": 72
+    },
+    {
+      "name": "Phenom Hoops Live",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=88a44ee217&e=458ed9ba0f",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Phenom Hoops Live (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=88a44ee217&e=458ed9ba0f) , Raleigh Convention Center, Raleigh",
+      "id": 73
+    },
+    {
+      "name": "Saturday Night Plant Bingo",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a709285833&e=458ed9ba0f",
+      "venue": "Glass Garden Studio",
+      "city": "Holly Springs",
+      "day": "Saturday",
+      "raw": "Saturday Night Plant Bingo (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=a709285833&e=458ed9ba0f) , Glass Garden Studio, Holly Springs",
+      "id": 74
+    },
+    {
+      "name": "The Market at RIW",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8f6b42de12&e=458ed9ba0f",
+      "venue": "Raleigh Iron Works",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "The Market at RIW (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=8f6b42de12&e=458ed9ba0f) , Raleigh Iron Works, Raleigh",
+      "id": 75
+    },
+    {
+      "name": "World Soccer \u2013 Watch Parties for all Nations",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6b90b45c25&e=458ed9ba0f",
+      "venue": "Sports & Social- Fenton",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "World Soccer \u2013 Watch Parties for all Nations (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6b90b45c25&e=458ed9ba0f) , Sports & Social- Fenton, Cary",
+      "id": 76
+    },
+    {
+      "name": "Holly Springs Salamanders vs. Morehead City Marlins",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0d3fe01766&e=458ed9ba0f",
+      "venue": "North Main Athletic Complex",
+      "city": "Holly Springs",
+      "day": "Saturday",
+      "raw": "Holly Springs Salamanders vs. Morehead City Marlins (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0d3fe01766&e=458ed9ba0f) , North Main Athletic Complex, Holly Springs",
+      "id": 77
+    },
+    {
+      "name": "2026 Summer Concert Series",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0e5f692b56&e=458ed9ba0f",
+      "venue": "Fred Fletcher Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "2026 Summer Concert Series (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0e5f692b56&e=458ed9ba0f) , Fred Fletcher Park, Raleigh",
+      "id": 78
+    },
+    {
+      "name": "Tommy Davidson",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cb86a8193e&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Tommy Davidson (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=cb86a8193e&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 79
+    },
+    {
+      "name": "Chris Higgins",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e316e0e7f9&e=458ed9ba0f",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Chris Higgins (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=e316e0e7f9&e=458ed9ba0f) , Goodnights Comedy Club, Raleigh",
+      "id": 80
+    },
+    {
+      "name": "Geek and Grub Market (Anime Edition)",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=aa956fb1e3&e=458ed9ba0f",
+      "venue": "Durham Armory",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Geek and Grub Market (Anime Edition) (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=aa956fb1e3&e=458ed9ba0f) , Durham Armory, Durham",
+      "id": 81
+    },
+    {
+      "name": "Fairy Lights Bazaar",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bed39abe83&e=458ed9ba0f",
+      "venue": "Morgan Street Food Hall",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Fairy Lights Bazaar (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=bed39abe83&e=458ed9ba0f) , Morgan Street Food Hall, Raleigh",
+      "id": 82
+    },
+    {
+      "name": "Raleigh Really Really Free Market",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6ef737d0a9&e=458ed9ba0f",
+      "venue": "Eliza Pool Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Raleigh Really Really Free Market (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6ef737d0a9&e=458ed9ba0f) , Eliza Pool Park, Raleigh",
+      "id": 83
+    },
+    {
+      "name": "Raleigh Underground Market",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=eae8433755&e=458ed9ba0f",
+      "venue": "Midtown Park, North Hills",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Raleigh Underground Market (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=eae8433755&e=458ed9ba0f) , Midtown Park, North Hills, Raleigh",
+      "id": 84
+    },
+    {
+      "name": "ADF Presents: Footprints: Site-specific work by Stephan Koplowitz",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=53441f831f&e=458ed9ba0f",
+      "venue": "Mutual Tower",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "ADF Presents: Footprints: Site-specific work by Stephan Koplowitz (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=53441f831f&e=458ed9ba0f) , Mutual Tower, Durham",
+      "id": 85
+    },
+    {
+      "name": "ADF Presents: Footprints: Ephrat Asherie, Vincent E. Thomas, & Keith Thompson",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6b04df8562&e=458ed9ba0f",
+      "venue": "Reynolds Industries Theater at Duke",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "ADF Presents: Footprints: Ephrat Asherie, Vincent E. Thomas, & Keith Thompson (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6b04df8562&e=458ed9ba0f) , Reynolds Industries Theater at Duke, Durham",
+      "id": 86
+    },
+    {
+      "name": "Sunday DRIFT Rooftop DJ Series at The Velvet Hippo!",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ada864f952&e=458ed9ba0f",
+      "venue": "The Velvet Hippo",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Sunday DRIFT Rooftop DJ Series at The Velvet Hippo! (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=ada864f952&e=458ed9ba0f) , The Velvet Hippo, Durham",
+      "id": 87
+    },
+    {
+      "name": "Books on Tap",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0f57b0c164&e=458ed9ba0f",
+      "venue": "Peakway Taps",
+      "city": "Apex",
+      "day": "Sunday",
+      "raw": "Books on Tap (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=0f57b0c164&e=458ed9ba0f) , Peakway Taps, Apex",
+      "id": 88
+    },
+    {
+      "name": "Brokencyde / WHOKILLEDXIX / Oni Inc. / Unrepentant / Miss Mxchina",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6c8da90743&e=458ed9ba0f",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Brokencyde / WHOKILLEDXIX / Oni Inc. / Unrepentant / Miss Mxchina (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=6c8da90743&e=458ed9ba0f) , Chapel of Bones, Raleigh",
+      "id": 89
+    },
+    {
+      "name": "Farmers Market @ Oak City",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d7abc9f358&e=458ed9ba0f",
+      "venue": "Oak City Brewing Company",
+      "city": "Knightdale",
+      "day": "Sunday",
+      "raw": "Farmers Market @ Oak City (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d7abc9f358&e=458ed9ba0f) , Oak City Brewing Company, Knightdale",
+      "id": 90
+    },
+    {
+      "name": "Holly Springs Salamanders vs. Peninsula Pilots",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9ed8d41a48&e=458ed9ba0f",
+      "venue": "North Main Athletic Complex",
+      "city": "Holly Springs",
+      "day": "Sunday",
+      "raw": "Holly Springs Salamanders vs. Peninsula Pilots (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9ed8d41a48&e=458ed9ba0f) , North Main Athletic Complex, Holly Springs",
+      "id": 91
+    },
+    {
+      "name": "Hunter Blalock with Nolan Reid and the Regulators",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9e18079dee&e=458ed9ba0f",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Hunter Blalock with Nolan Reid and the Regulators (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=9e18079dee&e=458ed9ba0f) , Slim's Dive Bar, Raleigh",
+      "id": 92
+    },
+    {
+      "name": "Make & Take: Dice Box",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=47f0d91ff5&e=458ed9ba0f",
+      "venue": "Rockler Woodworking & Hardware",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Make & Take: Dice Box (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=47f0d91ff5&e=458ed9ba0f) , Rockler Woodworking & Hardware, Cary",
+      "id": 93
+    },
+    {
+      "name": "Serving Brunch: Monthly Drag/ Burlesque",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=53a564376c&e=458ed9ba0f",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Serving Brunch: Monthly Drag/ Burlesque (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=53a564376c&e=458ed9ba0f) , Chapel of Bones, Raleigh",
+      "id": 94
+    },
+    {
+      "name": "Sewing Level 2: Costume Embellishment Workshop",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b2f23fe0f4&e=458ed9ba0f",
+      "venue": "Craft Habit Raleigh",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Sewing Level 2: Costume Embellishment Workshop (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=b2f23fe0f4&e=458ed9ba0f) , Craft Habit Raleigh, Raleigh",
+      "id": 95
+    },
+    {
+      "name": "The Jam Session Special Edition Shades of Melanin Affair",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7ae70a5c26&e=458ed9ba0f",
+      "venue": "Westwood Bar & Lounge",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "The Jam Session Special Edition Shades of Melanin Affair (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=7ae70a5c26&e=458ed9ba0f) , Westwood Bar & Lounge, Raleigh",
+      "id": 96
+    },
+    {
+      "name": "Unbound - A Bangladeshi Dance Showcase",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=63d577b3f8&e=458ed9ba0f",
+      "venue": "Burning Coal Theatre",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Unbound - A Bangladeshi Dance Showcase (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=63d577b3f8&e=458ed9ba0f) , Burning Coal Theatre, Raleigh",
+      "id": 97
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Carolina Disco Turkeys",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c099e5fc09&e=458ed9ba0f",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Sunday",
+      "raw": "Zebulon Devil Dogz vs. Carolina Disco Turkeys (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=c099e5fc09&e=458ed9ba0f) , Five County Stadium, Zebulon",
+      "id": 98
+    },
+    {
+      "name": "BMW Ultimate Driving Experience",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d8c48ba84d&e=458ed9ba0f",
+      "venue": "Lenovo Center",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "BMW Ultimate Driving Experience (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d8c48ba84d&e=458ed9ba0f) , Lenovo Center, Raleigh",
+      "id": 99
+    },
+    {
+      "name": "Jazz Sunday at Incendiary Brewing",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f300755c1c&e=458ed9ba0f",
+      "venue": "Incendiary Brewing Taproom",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Jazz Sunday at Incendiary Brewing (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=f300755c1c&e=458ed9ba0f) , Incendiary Brewing Taproom, Raleigh",
+      "id": 100
+    },
+    {
+      "name": "Mill Open House",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=341b765e37&e=458ed9ba0f",
+      "venue": "Historic Yates Mill County Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Mill Open House (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=341b765e37&e=458ed9ba0f) , Historic Yates Mill County Park, Raleigh",
+      "id": 101
+    },
+    {
+      "name": "Phenom Hoops Live",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=fff7cb50b2&e=458ed9ba0f",
+      "venue": "Raleigh Convention Center",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Phenom Hoops Live (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=fff7cb50b2&e=458ed9ba0f) , Raleigh Convention Center, Raleigh",
+      "id": 102
+    },
+    {
+      "name": "Roaming Readers: July Edition",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=65bd69ddf7&e=458ed9ba0f",
+      "venue": "Hub RTP",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Roaming Readers: July Edition (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=65bd69ddf7&e=458ed9ba0f) , Hub RTP, Durham",
+      "id": 103
+    },
+    {
+      "name": "Tattoo Consult Day!",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=270fbd8b2d&e=458ed9ba0f",
+      "venue": "Gold Hand Gallery  Tattoos & Art",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Tattoo Consult Day! (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=270fbd8b2d&e=458ed9ba0f) , Gold Hand Gallery  Tattoos & Art, Chapel Hill",
+      "id": 104
+    },
+    {
+      "name": "Sundays at Sundown  Live Music Series",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d190f5dbbe&e=458ed9ba0f",
+      "venue": "Southern Village",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Sundays at Sundown  Live Music Series (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=d190f5dbbe&e=458ed9ba0f) , Southern Village, Chapel Hill",
+      "id": 105
+    },
+    {
+      "name": "Sunday Brunch Music",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1daea082c4&e=458ed9ba0f",
+      "venue": "Weaver Street Market Carrboro",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Sunday Brunch Music (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1daea082c4&e=458ed9ba0f) , Weaver Street Market Carrboro, Carrboro",
+      "id": 106
+    },
+    {
+      "name": "Marvin's Trio  Local Live Music",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1bb15a6218&e=458ed9ba0f",
+      "venue": "Lanza's Cafe",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Marvin's Trio  Local Live Music (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=1bb15a6218&e=458ed9ba0f) , Lanza's Cafe, Carrboro",
+      "id": 107
+    },
+    {
+      "name": "Care & Concern: Recent Acquisitions of Modern & Contemporary Art",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4e369f2260&e=458ed9ba0f",
+      "venue": "Ackland Art Museum",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Care & Concern: Recent Acquisitions of Modern & Contemporary Art (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=4e369f2260&e=458ed9ba0f) , Ackland Art Museum, Chapel Hill",
+      "id": 108
+    },
+    {
+      "name": "\"Better Than Chocolate (1999)  Sapphlix Queer Movie Night",
+      "link": "https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=25456f8bcb&e=458ed9ba0f",
+      "venue": "Steel String Brewery Taproom",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "\"Better Than Chocolate (1999)  Sapphlix Queer Movie Night (https://thingstodo919.us15.list-manage.com/track/click?u=ddef6da2cf1e7abe0e37514bc&id=25456f8bcb&e=458ed9ba0f) , Steel String Brewery Taproom, Carrboro",
+      "id": 109
+    }
+  ]
+}
