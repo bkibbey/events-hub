@@ -1,0 +1,31 @@
+{
+  "_comment": "Manual overrides applied by seed-venues.py. Edit before re-running the seed.",
+  "aliases": {
+    "_comment": "Map a raw venue string (case-insensitive, exact match) to a canonical slug. Use when a venue has zero/wrong address in some events and can't be auto-merged."
+  },
+  "merges": {
+    "_comment": "Force-merge two slugs. Format: 'loser-slug': 'winner-slug'. Loser's aliases + events fold into winner. Applied after auto-grouping.",
+    "dpac-durham-2": "dpac-durham",
+    "lincoln-theatre-raleigh-2": "lincoln-theatre-raleigh",
+    "lincoln-theatre-raleigh-3": "lincoln-theatre-raleigh",
+    "moore-square-raleigh-2": "moore-square-raleigh",
+    "fred-fletcher-park-raleigh-2": "fred-fletcher-park-raleigh",
+    "goodnights-comedy-club-raleigh-2": "goodnights-comedy-club-raleigh"
+  },
+  "dropped": [
+    "various-locations-durham"
+  ],
+  "venues": {
+    "_comment": "Per-venue field overrides. Any field set here wins over auto-populated values.",
+    "_example": {
+      "linkMain": "https://dpac.com",
+      "linkEvents": "https://dpac.com/events",
+      "socials": {"facebook": "https://facebook.com/DPACnc"},
+      "contacts": [{"label": "Box Office", "phone": "919-680-2787", "email": "", "other": ""}],
+      "venueType": ["theater", "indoor"]
+    }
+  },
+  "splits": {
+    "_comment": "Reserved: force-split a merged group if two real venues collided."
+  }
+}
