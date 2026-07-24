@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated": "2026-07-17T19:38:54.015755+00:00",
-  "source": "seed-venues.py from 13 archived weeks",
-  "venueCount": 407,
+  "generated": "2026-07-24T16:53:51.625357+00:00",
+  "source": "seed-venues.py from 14 archived weeks",
+  "venueCount": 425,
   "venues": {
     "321-coffee-raleigh": {
       "slug": "321-coffee-raleigh",
@@ -26,7 +26,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/321coffee"
       },
       "contacts": [
         {
@@ -66,8 +66,8 @@
       "city": "Cary",
       "state": "NC",
       "zip": "27601",
-      "lat": null,
-      "lng": null,
+      "lat": 35.772115442006,
+      "lng": -78.639451430821,
       "place_id": null,
       "linkMain": "https://www.martinmariettacenter.com",
       "linkEvents": "https://www.martinmariettacenter.com/events",
@@ -154,7 +154,7 @@
       "slug": "abbott-s-creek-community-center-raleigh",
       "name": "Abbott's Creek Community Center",
       "aliases": [],
-      "address": "9950 Durant Rd.",
+      "address": "9950 Durant Rd., Raleigh, NC",
       "city": "Raleigh",
       "state": "NC",
       "zip": "27614",
@@ -281,7 +281,6 @@
         }
       ],
       "venueType": [
-        "event-space",
         "indoor",
         "school"
       ],
@@ -296,11 +295,11 @@
       "slug": "agri-supply-exposition-center-at-north-carolina-state-fairgrounds-raleigh",
       "name": "Agri Supply Exposition Center at North Carolina State Fairgrounds",
       "aliases": [
-        "Jim Graham Building at North Carolina State Fairgrounds",
-        "Kerr Scott Building at North Carolina State Fairgrounds",
+        "Expo Center at the North Carolina State Fairgrounds",
+        "NC State Fairgrounds",
         "North Carolina State Fairgrounds"
       ],
-      "address": "1025 Blue Ridge Rd.",
+      "address": "4285 Trinity Rd.",
       "city": "Raleigh",
       "state": "NC",
       "zip": "27607",
@@ -330,16 +329,15 @@
       ],
       "venueType": [
         "event-space",
-        "government",
         "indoor"
       ],
-      "eventCount": 5,
+      "eventCount": 7,
       "sampleEvents": [
-        "Got to Be NC Festival",
-        "Raleigh-Durham Caged Bird Society 37th Annual Pet Bird Fair",
-        "2026 KX Kids Consignment Sale",
-        "World Oddities Expo",
-        "Raleigh 600 Sports Card, TCG, Toy, Pok\u00e9mon, One Piece & Collectibles Expo"
+        "Repticon 2026",
+        "Villain Arts 5th Annual Raleigh Tattoo Arts Festival",
+        "Carolina Kitty Con",
+        "52nd Annual Raleigh Money Expo",
+        "Dinosaur Adventure"
       ],
       "reviewNeeded": false,
       "osm_id": "way/1262883667"
@@ -359,7 +357,7 @@
       "lng": -79.0967028,
       "place_id": "346483960",
       "linkMain": "https://visithillsboroughnc.com/things-to-do/alexander-dickson-house/",
-      "linkEvents": "",
+      "linkEvents": "https://visithillsboroughnc.com/things-to-do/historic-hillsborough-guided-walking-tour/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -380,9 +378,9 @@
         }
       ],
       "venueType": [
-        "community-center",
         "historic-site",
-        "indoor"
+        "indoor",
+        "museum"
       ],
       "eventCount": 3,
       "sampleEvents": [
@@ -450,11 +448,11 @@
       "lng": -78.903305,
       "place_id": "344002998",
       "linkMain": "https://americantobacco.co",
-      "linkEvents": "",
+      "linkEvents": "https://americantobacco.co/category/downtown-durham/",
       "socials": {
-        "facebook": "",
-        "instagram": "",
-        "twitter": "",
+        "facebook": "https://www.facebook.com/americantobaccocampus/",
+        "instagram": "https://www.instagram.com/americantobaccocampus/",
+        "twitter": "https://twitter.com/ATCDurham",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
@@ -471,9 +469,8 @@
         }
       ],
       "venueType": [
-        "event-space",
         "historic-site",
-        "indoor"
+        "outdoor"
       ],
       "eventCount": 2,
       "sampleEvents": [
@@ -537,7 +534,7 @@
       "lng": -78.8426415,
       "place_id": "343668864",
       "linkMain": "https://www.apexnc.org/421/Volleyball---Sand-Spring",
-      "linkEvents": "",
+      "linkEvents": "https://www.apexnc.org/421/Volleyball---Sand-Spring",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -617,6 +614,49 @@
       "reviewNeeded": false,
       "osm_id": "way/694540073"
     },
+    "arcana-bar-and-lounge-durham": {
+      "slug": "arcana-bar-and-lounge-durham",
+      "name": "Arcana Bar and Lounge",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27701",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.arcanadurham.com/",
+      "linkEvents": "https://www.arcanadurham.com/booking",
+      "socials": {
+        "facebook": "https://www.facebook.com/arcanadurham/",
+        "instagram": "https://www.instagram.com/arcanadurham/",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919-973-1675",
+          "email": "arcanadurham@gmail.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "bar",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "The Cat\u2019s Meow: A Hello Kitty Themed Drag Show"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "arcana-durham-durham": {
       "slug": "arcana-durham-durham",
       "name": "Arcana Durham",
@@ -629,7 +669,7 @@
       "lng": -78.90356,
       "place_id": "343196001",
       "linkMain": "https://www.arcanadurham.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.arcanadurham.com/events",
       "socials": {
         "facebook": "https://www.facebook.com/arcanadurham/",
         "instagram": "",
@@ -657,8 +697,7 @@
       ],
       "venueType": [
         "bar",
-        "indoor",
-        "library"
+        "indoor"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -706,8 +745,8 @@
         }
       ],
       "venueType": [
-        "indoor",
-        "restaurant"
+        "event-space",
+        "indoor"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -729,10 +768,10 @@
       "lat": 35.9944067,
       "lng": -78.9032084,
       "place_id": "403210654",
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://americantobacconc.com/",
+      "linkEvents": "https://americantobacco.co/events",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/americantobaccoapartments/",
         "instagram": "",
         "twitter": "",
         "threads": "",
@@ -742,10 +781,18 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Raleigh-Durham Tower",
+          "phone": "919-380-3110",
+          "email": "",
+          "other": ""
+        }
+      ],
       "venueType": [
         "event-space",
-        "indoor"
+        "historic-site",
+        "outdoor"
       ],
       "eventCount": 5,
       "sampleEvents": [
@@ -780,7 +827,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/atomic-clock-brewing-co/"
       },
       "contacts": [
         {
@@ -814,9 +861,9 @@
       "lng": -78.6428508,
       "place_id": "345887648",
       "linkMain": "http://www.auraraleigh.com",
-      "linkEvents": "",
+      "linkEvents": "https://www.auraraleigh.com/gallery",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/p/Aura-Lounge-61568376522440/",
         "instagram": "https://www.instagram.com/auraraleigh",
         "twitter": "",
         "threads": "",
@@ -836,8 +883,7 @@
       ],
       "venueType": [
         "club",
-        "indoor",
-        "music-venue"
+        "indoor"
       ],
       "eventCount": 2,
       "sampleEvents": [
@@ -862,11 +908,11 @@
       "linkEvents": "https://b-omifarms.com/events/we-gather-anyway",
       "socials": {
         "facebook": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/b_omifarms/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
-        "tiktok": "",
+        "tiktok": "https://www.tiktok.com/@b_omifarms",
         "youtube": "",
         "reddit": "",
         "linkedin": ""
@@ -958,7 +1004,7 @@
       "lng": -78.7010316,
       "place_id": "404056277",
       "linkMain": "https://baptistgrovechurch.org/",
-      "linkEvents": "",
+      "linkEvents": "https://baptistgrovechurch.org/calendar/",
       "socials": {
         "facebook": "https://www.facebook.com/Baptistgrovenc/",
         "instagram": "",
@@ -966,7 +1012,7 @@
         "threads": "",
         "bluesky": "",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/@BaptistGroveChurch",
         "reddit": "",
         "linkedin": ""
       },
@@ -1011,7 +1057,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/barriskill-dance-theatre-school"
       },
       "contacts": [
         {
@@ -1032,6 +1078,49 @@
       ],
       "reviewNeeded": false,
       "osm_id": "way/603484598"
+    },
+    "bay-7-durham": {
+      "slug": "bay-7-durham",
+      "name": "Bay 7",
+      "aliases": [],
+      "address": "324 Blackwell St #700",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27701",
+      "lat": 35.994331473698,
+      "lng": -78.903234649343,
+      "place_id": null,
+      "linkMain": "https://www.bay7.events/",
+      "linkEvents": "https://www.liveatbay7.com/about",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 278-2726",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "event-space",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Caitlin Krisko and The Broadcast"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "behind-the-scrap-exchange-durham": {
       "slug": "behind-the-scrap-exchange-durham",
@@ -1055,7 +1144,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/scrap-exchange"
       },
       "contacts": [
         {
@@ -1085,14 +1174,14 @@
       "city": "Raleigh",
       "state": "NC",
       "zip": "27603",
-      "lat": null,
-      "lng": null,
+      "lat": 35.779855546906,
+      "lng": -78.654904959355,
       "place_id": null,
       "linkMain": "https://www.trophybrewing.com/bend-bar",
-      "linkEvents": "",
+      "linkEvents": "https://downtownraleigh.org/do/sunset-social-at-the-bend",
       "socials": {
         "facebook": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/thebendraleigh/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
@@ -1300,7 +1389,7 @@
         "event-space",
         "indoor"
       ],
-      "eventCount": 19,
+      "eventCount": 20,
       "sampleEvents": [
         "Summer Prelude Dance Party",
         "The Dirty Lowdown with DJ Castro & Al Ski Love",
@@ -1324,8 +1413,8 @@
       "lat": 35.776131192504,
       "lng": -78.635732083383,
       "place_id": null,
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://www.blackbirdbooksandcoffee.com/",
+      "linkEvents": "https://www.visitraleigh.com/go/blackbird-books-and-coffee/",
       "socials": {
         "facebook": "",
         "instagram": "https://instagram.com/blackbirdbooksandcoffee",
@@ -1337,7 +1426,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "",
+          "email": "",
+          "other": ""
+        }
+      ],
       "venueType": [
         "restaurant"
       ],
@@ -1371,7 +1467,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/boatman-spirits-company"
       },
       "contacts": [
         {
@@ -1434,7 +1530,7 @@
       "venueType": [
         "bar",
         "brewery",
-        "restaurant"
+        "outdoor"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -1580,8 +1676,6 @@
       ],
       "venueType": [
         "brewery",
-        "event-space",
-        "farm",
         "outdoor",
         "winery"
       ],
@@ -1629,9 +1723,9 @@
         }
       ],
       "venueType": [
-        "bar",
-        "indoor",
+        "brewery",
         "music-venue",
+        "outdoor",
         "restaurant"
       ],
       "eventCount": 1,
@@ -1663,7 +1757,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/boxcar-bar-arcade"
       },
       "contacts": [
         {
@@ -1683,10 +1777,11 @@
         "bar",
         "indoor"
       ],
-      "eventCount": 3,
+      "eventCount": 4,
       "sampleEvents": [
         "Afterburn",
         "Glow Party",
+        "Trailer Park Christmas in July Party",
         "Hot For Pride! Drag Show"
       ],
       "reviewNeeded": false,
@@ -1704,7 +1799,7 @@
       "lng": -78.6450193,
       "place_id": "345545577",
       "linkMain": "https://theboxcarbar.com/",
-      "linkEvents": "",
+      "linkEvents": "https://theboxcarbar.com/raleigh/events/",
       "socials": {
         "facebook": "https://www.facebook.com/theboxcarbar",
         "instagram": "https://www.instagram.com/theboxcarbar",
@@ -1760,7 +1855,7 @@
       "socials": {
         "facebook": "",
         "instagram": "https://boxyard.rtp.org/music-application-form/@boxyardrtp.com",
-        "twitter": "",
+        "twitter": "https://twitter.com/boxyardrtp",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
@@ -1778,8 +1873,7 @@
       ],
       "venueType": [
         "event-space",
-        "outdoor",
-        "restaurant"
+        "outdoor"
       ],
       "eventCount": 7,
       "sampleEvents": [
@@ -1896,7 +1990,7 @@
       "lng": -78.7782833,
       "place_id": "404019491",
       "linkMain": "https://www.briercreekcorporatecenter.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.briercreekcorporatecenter.com/news-events",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -1908,10 +2002,17 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Cooper Burton, Executive Vice President, Commercial Leasing",
+          "phone": "(704) 295-4051",
+          "email": "cburton@aacusa.com",
+          "other": ""
+        }
+      ],
       "venueType": [
         "event-space",
-        "indoor"
+        "outdoor"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -1931,8 +2032,8 @@
       "lat": null,
       "lng": null,
       "place_id": null,
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://goheels.com/facilities/bryson-field-at-boshamer-stadium/15",
+      "linkEvents": "https://calendar.unc.edu/boshamer_cary_c_stadium",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -1944,7 +2045,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Athletics",
+          "phone": "919-962-6000",
+          "email": "",
+          "other": ""
+        }
+      ],
       "venueType": [
         "outdoor",
         "park",
@@ -2000,6 +2108,49 @@
       "reviewNeeded": false,
       "osm_id": "way/1410017505"
     },
+    "bull-city-burger-brewery-durham": {
+      "slug": "bull-city-burger-brewery-durham",
+      "name": "Bull City Burger & Brewery",
+      "aliases": [],
+      "address": "107 E Parrish St",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27701",
+      "lat": 35.995545355956,
+      "lng": -78.900032589391,
+      "place_id": null,
+      "linkMain": "https://www.bullcityburgerandbrewery.com/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "https://www.facebook.com/BullCityBurger/",
+        "instagram": "https://www.instagram.com/bullcityburger/",
+        "twitter": "https://twitter.com/bullcityburger",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries / catering",
+          "phone": "919-680-2333",
+          "email": "moocow@bullcityburgerandbrewery.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "brewery",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "The Pickle Days of Summer"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "bull-mccabe-s-irish-pub-durham": {
       "slug": "bull-mccabe-s-irish-pub-durham",
       "name": "Bull McCabe's Irish Pub",
@@ -2012,7 +2163,7 @@
       "lng": -78.9050346,
       "place_id": "343756184",
       "linkMain": "https://www.bullmccabesirishpub.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.discoverdurham.com/events/friday-night-live-music-on-the-lawn-at-bull-mccabes/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -2080,7 +2231,7 @@
         "indoor",
         "music-venue"
       ],
-      "eventCount": 17,
+      "eventCount": 18,
       "sampleEvents": [
         "Zach Bellas Trio",
         "The Whiskey Wreckage Tour",
@@ -2160,7 +2311,7 @@
         "tiktok": "",
         "youtube": "https://www.youtube.com/user/CarolinaTheatreNC",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/carolina-theatre-of-durham"
       },
       "contacts": [
         {
@@ -2237,7 +2388,6 @@
       ],
       "venueType": [
         "community-center",
-        "event-space",
         "indoor"
       ],
       "eventCount": 1,
@@ -2261,7 +2411,7 @@
       "linkMain": "https://carrborocoffee.com/",
       "linkEvents": "",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/CarrboroCoffee/",
         "instagram": "",
         "twitter": "",
         "threads": "",
@@ -2269,7 +2419,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/carrboro-coffee-roasters"
       },
       "contacts": [
         {
@@ -2305,7 +2455,7 @@
       "linkMain": "https://townofcarrboro.org/367/Town-Commons",
       "linkEvents": "",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/CarrboroTownGov/",
         "instagram": "",
         "twitter": "",
         "threads": "",
@@ -2315,7 +2465,38 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "General Town Contacts",
+          "phone": "919-918-7315",
+          "email": "",
+          "other": ""
+        },
+        {
+          "label": "Communication and Engagement Department",
+          "phone": "919-918-7314",
+          "email": "communications@carrboronc.gov",
+          "other": ""
+        },
+        {
+          "label": "Recreation, Parks, & Cultural Resources Department",
+          "phone": "919-918-7364",
+          "email": "",
+          "other": ""
+        },
+        {
+          "label": "Anita Jones-McNair",
+          "phone": "919-918-7381",
+          "email": "amcnair@townofcarrboro.org",
+          "other": ""
+        },
+        {
+          "label": "Wendell Rodgers",
+          "phone": "919-918-7371",
+          "email": "wrodgers@townofcarrboro.org",
+          "other": ""
+        }
+      ],
       "venueType": [
         "outdoor",
         "plaza"
@@ -2348,7 +2529,7 @@
       "linkEvents": "",
       "socials": {
         "facebook": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/cars_and_coffee_morrisville/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
@@ -2357,7 +2538,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "",
+          "email": "Eludeyah@aol.com",
+          "other": ""
+        }
+      ],
       "venueType": [
         "restaurant"
       ],
@@ -2408,7 +2596,6 @@
         }
       ],
       "venueType": [
-        "community-center",
         "indoor",
         "theater"
       ],
@@ -2434,7 +2621,7 @@
       "lng": -78.8623828,
       "place_id": "341543467",
       "linkMain": "https://www.carync.gov/recreation-enjoyment/facilities/cary-tennis-park",
-      "linkEvents": "",
+      "linkEvents": "https://www.carync.gov/Home/Components/Calendar/Event/25368/1185?curm=7&cury=2026",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -2487,11 +2674,11 @@
       "lng": -79.0685833,
       "place_id": "344424945",
       "linkMain": "https://catscradle.com",
-      "linkEvents": "",
+      "linkEvents": "https://catscradle.com/events/",
       "socials": {
-        "facebook": "",
-        "instagram": "",
-        "twitter": "",
+        "facebook": "https://www.facebook.com/CatsCradleNC",
+        "instagram": "https://www.instagram.com/catscradlemusic/",
+        "twitter": "https://twitter.com/CatsCradleNC",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
@@ -2545,7 +2732,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/catawba-trail-farm"
       },
       "contacts": [
         {
@@ -2627,7 +2814,7 @@
       "lng": -78.8403427,
       "place_id": "344920785",
       "linkMain": "https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Cedar-Fork-Community-Center",
-      "linkEvents": "",
+      "linkEvents": "https://www.morrisvillenc.gov/Things-To-Do/Programs-Athletics/Cedar-Fork-Community-Center",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -2831,13 +3018,13 @@
       "linkMain": "https://www.chapelhillpubliclibrary.org/",
       "linkEvents": "https://www.chapelhillpubliclibrary.org/events/month",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/chapelhillpubliclibrary",
         "instagram": "https://www.instagram.com/chapelhillpubliclibrary/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/@chapelhillpubliclibrary",
         "reddit": "",
         "linkedin": "https://www.linkedin.com/company/chapel-hill-public-library"
       },
@@ -2902,7 +3089,7 @@
         "church",
         "indoor"
       ],
-      "eventCount": 30,
+      "eventCount": 34,
       "sampleEvents": [
         "Petshop: Puppygirls vs Catgirls",
         "Wasteland w/ DJ Fallout Steve",
@@ -2935,7 +3122,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/chatham-station"
       },
       "contacts": [
         {
@@ -2953,7 +3140,8 @@
       ],
       "venueType": [
         "event-space",
-        "indoor"
+        "indoor",
+        "outdoor"
       ],
       "eventCount": 2,
       "sampleEvents": [
@@ -3061,7 +3249,7 @@
       "lng": -79.053921711577,
       "place_id": null,
       "linkMain": "https://www.thechelseatheater.org/",
-      "linkEvents": "",
+      "linkEvents": "https://thechelseatheater.org/calendar/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -3071,7 +3259,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/chelsea-theater"
       },
       "contacts": [
         {
@@ -3154,8 +3342,8 @@
       "lat": 35.7754927,
       "lng": -78.6395561,
       "place_id": "343964681",
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://downtownraleigh.org/go/city-plaza",
+      "linkEvents": "https://downtownraleigh.org/go/city-plaza",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -3185,13 +3373,13 @@
         "outdoor",
         "plaza"
       ],
-      "eventCount": 5,
+      "eventCount": 6,
       "sampleEvents": [
         "Brewgaloo",
         "NC Sugar Rush",
         "Raleigh's All-American Summer Festival",
-        "Artsplosure - The Raleigh Arts Festival",
-        "Raleigh's 11th Annual International Food Festival"
+        "Taste of Soul NC Finale",
+        "Artsplosure - The Raleigh Arts Festival"
       ],
       "reviewNeeded": false,
       "osm_id": "node/822137070"
@@ -3218,7 +3406,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/clayton-farm-and-community-market"
       },
       "contacts": [
         {
@@ -3252,7 +3440,7 @@
       "lng": -78.583484,
       "place_id": "403777170",
       "linkMain": "https://www.coastalcreditunionmusicpark.com",
-      "linkEvents": "",
+      "linkEvents": "https://www.livenation.com/venue/KovZpZAEkeaA/coastal-credit-union-music-park-at-walnut-creek-events",
       "socials": {
         "facebook": "",
         "instagram": "https://www.instagram.com/coastalcreditunionmusicpark/",
@@ -3264,7 +3452,38 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "General venue contact",
+          "phone": "(919) 831-6400",
+          "email": "",
+          "other": ""
+        },
+        {
+          "label": "Accessibility services",
+          "phone": "919.831.6400",
+          "email": "",
+          "other": ""
+        },
+        {
+          "label": "Evan Frazer, Director of Premium Sales & Service",
+          "phone": "919-719-5521",
+          "email": "evanfrazer@livenation.com",
+          "other": ""
+        },
+        {
+          "label": "Premium Seat Sales / PSS department",
+          "phone": "(919) 719-5521",
+          "email": "",
+          "other": ""
+        },
+        {
+          "label": "Box Office",
+          "phone": "(919) 831-6400",
+          "email": "",
+          "other": ""
+        }
+      ],
       "venueType": [
         "outdoor",
         "park"
@@ -3294,13 +3513,13 @@
       "linkMain": "https://commonmarketisgood.com/durham/",
       "linkEvents": "",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/p/The-Common-Market-Durham-61568398692317/",
         "instagram": "https://www.instagram.com/thecommonmarketdurham",
         "twitter": "",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/@thecommonmarket",
         "reddit": "",
         "linkedin": ""
       },
@@ -3366,6 +3585,49 @@
       ],
       "reviewNeeded": false,
       "osm_id": "node/5866418278"
+    },
+    "compiegne-park-raleigh": {
+      "slug": "compiegne-park-raleigh",
+      "name": "Compiegne Park",
+      "aliases": [],
+      "address": "106 Chamberlain St",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27607",
+      "lat": 35.787968660941,
+      "lng": -78.666703299678,
+      "place_id": null,
+      "linkMain": "https://raleighnc.gov/parks-and-recreation/places/compiegne-park",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "City of Raleigh Parks and Recreation Department",
+          "phone": "919-996-3285",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "park"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Hillsborough St Makers & Music"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "confluence-natural-area-hillsborough": {
       "slug": "confluence-natural-area-hillsborough",
@@ -3499,7 +3761,7 @@
       ],
       "venueType": [
         "indoor",
-        "restaurant"
+        "market"
       ],
       "eventCount": 2,
       "sampleEvents": [
@@ -3523,13 +3785,13 @@
       "linkMain": "https://www.crafthabitraleigh.com/",
       "linkEvents": "",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/crafthabitraleigh/",
         "instagram": "",
         "twitter": "",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/c/CraftHabitRaleigh",
         "reddit": "",
         "linkedin": "https://www.linkedin.com/company/craft-habit-raleigh"
       },
@@ -3542,7 +3804,6 @@
         }
       ],
       "venueType": [
-        "community-center",
         "event-space",
         "indoor"
       ],
@@ -3668,8 +3929,8 @@
       "lat": 35.9136445,
       "lng": -79.055359,
       "place_id": "343548905",
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://carolinaperformingarts.org/venues/",
+      "linkEvents": "https://calendar.unc.edu/current_artspace_studio",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -3681,8 +3942,36 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
-      "venueType": [],
+      "contacts": [
+        {
+          "label": "Travis Creed, Director of Production",
+          "phone": "",
+          "email": "jtcreed@unc.edu",
+          "other": ""
+        },
+        {
+          "label": "Aaron Pickett, Senior Production Manager",
+          "phone": "",
+          "email": "picketta@email.unc.edu",
+          "other": ""
+        },
+        {
+          "label": "Radu Iftimie, Production Manager",
+          "phone": "",
+          "email": "iradu@unc.edu",
+          "other": ""
+        },
+        {
+          "label": "Production Office",
+          "phone": "919-843-3455",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "theater"
+      ],
       "eventCount": 1,
       "sampleEvents": [
         "UpClose Chamber Music | The Durham Fellows & Jordan Bak, viola"
@@ -3723,7 +4012,6 @@
         }
       ],
       "venueType": [
-        "event-space",
         "indoor",
         "theater"
       ],
@@ -3737,7 +4025,9 @@
     "daily-planet-cafe-raleigh": {
       "slug": "daily-planet-cafe-raleigh",
       "name": "Daily Planet Cafe",
-      "aliases": [],
+      "aliases": [
+        "SECU Daily Planet Cafe"
+      ],
       "address": "121 W Jones St",
       "city": "Raleigh",
       "state": "NC",
@@ -3745,7 +4035,7 @@
       "lat": 35.7825151,
       "lng": -78.6403885,
       "place_id": "402038962",
-      "linkMain": "",
+      "linkMain": "https://thedailyplanetcafe.com/",
       "linkEvents": "",
       "socials": {
         "facebook": "",
@@ -3769,12 +4059,59 @@
       "venueType": [
         "restaurant"
       ],
-      "eventCount": 1,
+      "eventCount": 2,
       "sampleEvents": [
-        "STEM Comedy Night"
+        "STEM Comedy Night",
+        "Rooted in Time: Living Fossils"
       ],
       "reviewNeeded": false,
       "osm_id": "way/187200797"
+    },
+    "dcp-nest-and-the-splash-pad-cary": {
+      "slug": "dcp-nest-and-the-splash-pad-cary",
+      "name": "DCP Nest and The Splash Pad",
+      "aliases": [
+        "Downtown Cary Park"
+      ],
+      "address": "321 S Academy St",
+      "city": "Cary",
+      "state": "NC",
+      "zip": "27511",
+      "lat": 35.784454164842,
+      "lng": -78.781165719324,
+      "place_id": null,
+      "linkMain": "https://downtowncarypark.com/locations/the-nest",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "Guest Services",
+          "phone": "(919) 469-4000",
+          "email": "311",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "park"
+      ],
+      "eventCount": 2,
+      "sampleEvents": [
+        "Cary Night Market",
+        "Single Mingle"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "dick-s-house-of-sport-durham": {
       "slug": "dick-s-house-of-sport-durham",
@@ -3810,8 +4147,7 @@
       ],
       "venueType": [
         "event-space",
-        "indoor",
-        "restaurant"
+        "indoor"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -3832,11 +4168,11 @@
       "lng": -79.072156849105,
       "place_id": null,
       "linkMain": "https://www.dingodogbrewing.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.dingodogbrewing.com/events",
       "socials": {
         "facebook": "",
         "instagram": "",
-        "twitter": "",
+        "twitter": "https://x.com/DingoDogBrewing",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
@@ -3844,7 +4180,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Events / more information",
+          "phone": "",
+          "email": "amanda@dingodogbrewing.com",
+          "other": ""
+        }
+      ],
       "venueType": [
         "brewery"
       ],
@@ -3875,11 +4218,11 @@
       "lng": -78.6639019,
       "place_id": "345171476",
       "linkMain": "https://dixpark.org",
-      "linkEvents": "",
+      "linkEvents": "https://dixpark.org/events",
       "socials": {
-        "facebook": "",
-        "instagram": "",
-        "twitter": "",
+        "facebook": "https://www.facebook.com/DixConservancy/",
+        "instagram": "https://www.instagram.com/dixpark/",
+        "twitter": "https://twitter.com/dixpark",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
@@ -3994,11 +4337,11 @@
       "lat": 35.99695088426,
       "lng": -78.901692299854,
       "place_id": null,
-      "linkMain": "",
+      "linkMain": "https://downtowndurham.com/",
       "linkEvents": "",
       "socials": {
         "facebook": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/durhamdowntown/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
@@ -4007,8 +4350,18 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
-      "venueType": [],
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 682-1200",
+          "email": "info@downtowndurham.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "plaza"
+      ],
       "eventCount": 2,
       "sampleEvents": [
         "Third Friday Durham Art Walk & Gallery Crawl"
@@ -4032,15 +4385,15 @@
       "linkMain": "https://www.fuquay-varinadowntown.com/",
       "linkEvents": "https://www.fuquay-varinadowntown.com/events-1",
       "socials": {
-        "facebook": "",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/fvdowntown",
+        "instagram": "https://www.instagram.com/fvdowntown/",
         "twitter": "",
-        "threads": "",
+        "threads": "https://www.threads.com/@fvdowntown",
         "bluesky": "",
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/fuquay-varina-downtown-association/"
       },
       "contacts": [
         {
@@ -4051,8 +4404,7 @@
         }
       ],
       "venueType": [
-        "community-center",
-        "event-space",
+        "government",
         "indoor"
       ],
       "eventCount": 2,
@@ -4069,6 +4421,7 @@
         "10th & Terrace",
         "10th & Terrace at Residence Inn Raleigh Downtown",
         "Downtown",
+        "Tempo by Hilton Raleigh Downtown",
         "The Overlook at Residence Inn Raleigh Downtown"
       ],
       "address": "616 S Salisbury St",
@@ -4089,7 +4442,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/raleighdowntown"
       },
       "contacts": [
         {
@@ -4107,16 +4460,15 @@
       ],
       "venueType": [
         "event-space",
-        "hotel",
-        "restaurant"
+        "indoor"
       ],
-      "eventCount": 8,
+      "eventCount": 10,
       "sampleEvents": [
         "Mother's Day Rooftop Tea 2026",
         "Tea on Tenth: Rooftop Afternoon Tea at 10th & Terrace",
         "Father's Day BBQ at Overlook",
         "First Friday",
-        "Carolina Hurricanes Championship Celebration Parade"
+        "Downtown Raleigh Restaurant Week"
       ],
       "reviewNeeded": false,
       "osm_id": "way/674997948"
@@ -4132,8 +4484,8 @@
       "lat": 35.9727925,
       "lng": -78.5103394,
       "place_id": "344271877",
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://www.wakeforestnc.gov/town-hall",
+      "linkEvents": "https://www.wakeforestnc.gov/event/lighting-wake-forest-2",
       "socials": {
         "facebook": "https://www.facebook.com/TownofWakeForest/",
         "instagram": "",
@@ -4161,7 +4513,8 @@
       ],
       "venueType": [
         "government",
-        "indoor"
+        "outdoor",
+        "plaza"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -4190,15 +4543,15 @@
       "linkMain": "https://www.dpacnc.com/",
       "linkEvents": "https://www.dpacnc.com/",
       "socials": {
-        "facebook": "",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/DPACNC/",
+        "instagram": "https://www.instagram.com/dpacnc/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/durham-performing-arts-center/"
       },
       "contacts": [
         {
@@ -4234,7 +4587,6 @@
       ],
       "venueType": [
         "indoor",
-        "music-venue",
         "theater"
       ],
       "eventCount": 17,
@@ -4259,7 +4611,7 @@
       "lat": 35.9095026,
       "lng": -79.0721872,
       "place_id": "403186264",
-      "linkMain": "",
+      "linkMain": "https://www.carrbororec.org/3174/The-Drakeford-Library-Complex",
       "linkEvents": "",
       "socials": {
         "facebook": "",
@@ -4272,7 +4624,32 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Mike Johnson, Capital Projects Manager",
+          "phone": "919-918-7424",
+          "email": "mjohnson@carrboronc.gov",
+          "other": ""
+        },
+        {
+          "label": "Catherine Lazorko, Communication and Engagement Director",
+          "phone": "919-918-7314",
+          "email": "clazorko@carrboronc.gov",
+          "other": ""
+        },
+        {
+          "label": "Todd McGee",
+          "phone": "919-245-2302",
+          "email": "tmcgee@orangecountync.gov",
+          "other": ""
+        },
+        {
+          "label": "Neighborhood email list",
+          "phone": "",
+          "email": "203project@carrboronc.gov",
+          "other": ""
+        }
+      ],
       "venueType": [
         "indoor",
         "library"
@@ -4319,8 +4696,7 @@
       ],
       "venueType": [
         "bar",
-        "indoor",
-        "restaurant"
+        "indoor"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -4333,15 +4709,15 @@
       "slug": "dssolvr-durham",
       "name": "DSSOLVR",
       "aliases": [],
-      "address": "TBD",
+      "address": "630 Rigsbee Ave",
       "city": "Durham",
       "state": "NC",
       "zip": "27701",
-      "lat": null,
-      "lng": null,
+      "lat": 36.001267421787,
+      "lng": -78.899905334564,
       "place_id": null,
       "linkMain": "https://dssolvr.com/location/dssolvr-durham/",
-      "linkEvents": "",
+      "linkEvents": "https://dssolvr.com/durham-links/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -4372,8 +4748,9 @@
         "brewery",
         "indoor"
       ],
-      "eventCount": 1,
+      "eventCount": 2,
       "sampleEvents": [
+        "SHARK WEEK Hoo Ha Ha",
         "2nd Annual Four Feet To Hell Charity Hotdog Eating Contest"
       ],
       "reviewNeeded": false,
@@ -4543,7 +4920,6 @@
         }
       ],
       "venueType": [
-        "museum",
         "outdoor",
         "school"
       ],
@@ -4594,7 +4970,6 @@
       ],
       "venueType": [
         "event-space",
-        "historic-site",
         "indoor"
       ],
       "eventCount": 2,
@@ -4688,7 +5063,7 @@
         "outdoor",
         "park"
       ],
-      "eventCount": 12,
+      "eventCount": 13,
       "sampleEvents": [
         "Bull City Beer Mile",
         "PLAYlist Concert Series: Super Yamba y Kaleta",
@@ -4711,7 +5086,7 @@
       "lng": -78.901811,
       "place_id": "406719089",
       "linkMain": "https://www.durhamconventioncenter.com/",
-      "linkEvents": "",
+      "linkEvents": "https://durhamconventioncenter.com/event/lore-con/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -4771,12 +5146,12 @@
       "linkEvents": "https://durhamcountylibrary.libcal.com/calendar?cid=14288",
       "socials": {
         "facebook": "https://www.facebook.com/DurhamCountyLibrary",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/durhamcountylibrary/",
         "twitter": "",
         "threads": "",
-        "bluesky": "",
+        "bluesky": "https://bsky.app/profile/durhamcountylibrary.bsky.social",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/@durhamcountylibrary",
         "reddit": "",
         "linkedin": ""
       },
@@ -4952,6 +5327,49 @@
       "reviewNeeded": false,
       "osm_id": "relation/8379343"
     },
+    "durham-skatepark-durham": {
+      "slug": "durham-skatepark-durham",
+      "name": "Durham Skatepark",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27701",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.discoverdurham.com/directory/durham-skate-park/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General information",
+          "phone": "919-560-4355",
+          "email": "DPRInfo@DurhamNC.gov",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "park"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Sip & Shred"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "durham-visitor-information-center-durham": {
       "slug": "durham-visitor-information-center-durham",
       "name": "Durham Visitor Information Center",
@@ -4974,7 +5392,7 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/durhamnc"
       },
       "contacts": [
         {
@@ -4985,7 +5403,6 @@
         }
       ],
       "venueType": [
-        "community-center",
         "government",
         "indoor"
       ],
@@ -5053,9 +5470,9 @@
       "lng": -78.517112,
       "place_id": "404084990",
       "linkMain": "https://www.wakeforestnc.gov/parks-recreation-cultural-resources/parks-facilities/e-carroll-joyner-park",
-      "linkEvents": "",
+      "linkEvents": "https://www.wakeforestnc.gov/communications/town-news/events",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/TownofWakeForest/",
         "instagram": "",
         "twitter": "",
         "threads": "",
@@ -5143,8 +5560,8 @@
       "lat": null,
       "lng": null,
       "place_id": null,
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://eventservices.duke.edu/east-duke-lawn-gazebo/",
+      "linkEvents": "https://eventservices.duke.edu/east-duke-lawn-gazebo/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5156,7 +5573,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Conference & Event Services",
+          "phone": "",
+          "email": "eventservices@duke.edu",
+          "other": ""
+        }
+      ],
       "venueType": [
         "outdoor",
         "park",
@@ -5184,12 +5608,12 @@
       "linkEvents": "https://durhamcountylibrary.libcal.com/calendars",
       "socials": {
         "facebook": "https://www.facebook.com/EastRegionalDCL/",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/durhamcountylibrary/",
         "twitter": "",
         "threads": "",
-        "bluesky": "",
+        "bluesky": "https://bsky.app/profile/durhamcountylibrary.org",
         "tiktok": "",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/@DurhamCountyLibrary",
         "reddit": "",
         "linkedin": ""
       },
@@ -5224,7 +5648,7 @@
       "lng": -78.6421987,
       "place_id": "401518425",
       "linkMain": "https://www.esumc.org/",
-      "linkEvents": "",
+      "linkEvents": "https://www.esumc.org/events",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5378,8 +5802,11 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [],
-      "eventCount": 7,
+      "venueType": [
+        "event-space",
+        "indoor"
+      ],
+      "eventCount": 8,
       "sampleEvents": [
         "Shakespeare in the Parks: As You Like It",
         "Rocket League Tournament",
@@ -5414,7 +5841,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "General park information",
+          "phone": "919-831-6640",
+          "email": "",
+          "other": ""
+        }
+      ],
       "venueType": [
         "outdoor",
         "park"
@@ -5465,7 +5899,6 @@
         }
       ],
       "venueType": [
-        "event-space",
         "indoor",
         "museum"
       ],
@@ -5488,7 +5921,7 @@
       "lng": -79.100407692355,
       "place_id": null,
       "linkMain": "http://www.enoriveracademy.org",
-      "linkEvents": "",
+      "linkEvents": "https://www.enoriveracademy.org/o/enoriveracademy/page/tour-times",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5574,7 +6007,7 @@
       "lng": null,
       "place_id": null,
       "linkMain": "http://www.enoriverfarmersmarket.com/",
-      "linkEvents": "",
+      "linkEvents": "http://www.enoriverfarmersmarket.com/at-the-market",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5584,9 +6017,16 @@
         "tiktok": "",
         "youtube": "",
         "reddit": "",
-        "linkedin": ""
+        "linkedin": "https://www.linkedin.com/company/eno-river-farmers-market"
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919-357-8343",
+          "email": "",
+          "other": "http://www.enoriverfarmersmarket.com/member-info"
+        }
+      ],
       "venueType": [
         "market",
         "outdoor"
@@ -5610,7 +6050,7 @@
       "lng": -79.0051292,
       "place_id": "346379867",
       "linkMain": "https://www.ncparks.gov/state-parks/eno-river-state-park",
-      "linkEvents": "",
+      "linkEvents": "https://events.dncr.nc.gov/eno-river-state-park-fewsford",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5662,7 +6102,7 @@
       "lng": -78.9697607,
       "place_id": "343821816",
       "linkMain": "https://www.eruuf.org",
-      "linkEvents": "",
+      "linkEvents": "https://www.eruuf.org/worship/",
       "socials": {
         "facebook": "https://www.eruuf.org/about-us/eruuf-staff/",
         "instagram": "",
@@ -5748,7 +6188,7 @@
       "lat": 35.9098308,
       "lng": -78.6519476,
       "place_id": "343848442",
-      "linkMain": "",
+      "linkMain": "https://www.ncparks.gov/maps/falls-lake-state-recreation-area-map/open",
       "linkEvents": "",
       "socials": {
         "facebook": "",
@@ -5761,7 +6201,14 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Falls Lake State Recreation Area",
+          "phone": "984-867-8000",
+          "email": "falls.lake@ncparks.gov",
+          "other": ""
+        }
+      ],
       "venueType": [
         "outdoor",
         "park"
@@ -5772,6 +6219,49 @@
       ],
       "reviewNeeded": false,
       "osm_id": "way/1388114167"
+    },
+    "fate-folklore-durham": {
+      "slug": "fate-folklore-durham",
+      "name": "Fate & Folklore",
+      "aliases": [],
+      "address": "123B Market Street",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27701",
+      "lat": 35.996619714414,
+      "lng": -78.902212244327,
+      "place_id": null,
+      "linkMain": "https://www.fateandfolklore.com/",
+      "linkEvents": "https://www.fateandfolklore.com/classesworkshops",
+      "socials": {
+        "facebook": "https://www.facebook.com/FateandFolkloreDurham/",
+        "instagram": "https://www.instagram.com/fateandfolkloredurham/",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "https://www.tiktok.com/@fateandfolkloredurham",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919.694.7069",
+          "email": "fateandfolkloredurham@gmail.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "market"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Fate & Folklore Presents: Welcome to Camp Dreadful"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "fayetteville-street-raleigh": {
       "slug": "fayetteville-street-raleigh",
@@ -5787,7 +6277,7 @@
       "lng": null,
       "place_id": null,
       "linkMain": "https://downtownraleigh.org/go/fayetteville-street-venue",
-      "linkEvents": "",
+      "linkEvents": "https://downtownraleigh.org/go/fayetteville-street-venue",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5882,8 +6372,8 @@
       "lat": 35.8364906,
       "lng": -78.8410478,
       "place_id": "343761121",
-      "linkMain": "",
-      "linkEvents": "",
+      "linkMain": "https://www.morrisvillenc.gov/Public-Safety/Fire-Rescue-Department",
+      "linkEvents": "https://www.morrisvillenc.gov/Events-directory/Fire-Department-Open-House",
       "socials": {
         "facebook": "https://www.facebook.com/MorrisvilleNCFireRescue/",
         "instagram": "",
@@ -5927,7 +6417,7 @@
       "lng": -79.0099495,
       "place_id": "347190878",
       "linkMain": "https://www.fireflyfarmnc.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.fireflyfarmnc.com/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5961,8 +6451,10 @@
     "five-county-stadium-zebulon": {
       "slug": "five-county-stadium-zebulon",
       "name": "Five County Stadium",
-      "aliases": [],
-      "address": "1501 N.C. 39 Hwy.",
+      "aliases": [
+        "Nomaco Park"
+      ],
+      "address": "1501 NC-39",
       "city": "Zebulon",
       "state": "NC",
       "zip": "27597",
@@ -5971,6 +6463,53 @@
       "place_id": null,
       "linkMain": "https://www.carolinamudcats.com",
       "linkEvents": "https://www.carolinamudcats.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/carolinamudcats",
+        "instagram": "https://www.instagram.com/carolinamudcats",
+        "twitter": "https://twitter.com/carolinamudcats",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "https://www.tiktok.com/@carolinamudcats",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General Inquiries",
+          "phone": "919-269-2287",
+          "email": "",
+          "other": "https://www.milb.com/carolina-mudcats/team/contact-info"
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "stadium"
+      ],
+      "eventCount": 5,
+      "sampleEvents": [
+        "Zebulon Devil Dogz vs. Virginia Beach Valor",
+        "Zebulon Devil Dogz vs. Peninsula Pilots",
+        "Zebulon Devil Dogz vs. Greensboro Ducks",
+        "Zebulon Devil Dogz vs. Martinsville Mustangs",
+        "Zebulon Devil Dogz vs. Tri-City Chili Peppers"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
+    "five-county-stadium-zebulon-2": {
+      "slug": "five-county-stadium-zebulon-2",
+      "name": "Five County Stadium",
+      "aliases": [],
+      "address": "1501 N.C. 39 Hwy.",
+      "city": "Zebulon",
+      "state": "NC",
+      "zip": "27597",
+      "lat": 35.814071571005,
+      "lng": -78.26858025266,
+      "place_id": null,
+      "linkMain": "http://carolina.mudcats.milb.com",
+      "linkEvents": "",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -5984,10 +6523,10 @@
       },
       "contacts": [
         {
-          "label": "General Inquiries",
+          "label": "General / Box Office",
           "phone": "919-269-2287",
           "email": "",
-          "other": "https://www.milb.com/carolina-mudcats/team/contact-info"
+          "other": ""
         }
       ],
       "venueType": [
@@ -6055,7 +6594,7 @@
       "address": "1639 University Dr.",
       "city": "Durham",
       "state": "NC",
-      "zip": "",
+      "zip": "27707",
       "lat": 35.9799308,
       "lng": -78.9142929,
       "place_id": "403592323",
@@ -6084,12 +6623,56 @@
         "outdoor",
         "park"
       ],
-      "eventCount": 1,
+      "eventCount": 2,
       "sampleEvents": [
-        "Sabrosura \u2014 Summer Concert Series"
+        "Sabrosura \u2014 Summer Concert Series",
+        "Damion Rashad \u2014 Summer Concert Series"
       ],
       "reviewNeeded": false,
       "osm_id": "way/551096668"
+    },
+    "forest-ridge-park-raleigh": {
+      "slug": "forest-ridge-park-raleigh",
+      "name": "Forest Ridge Park",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27587",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://raleighnc.gov/parks-and-recreation/places/forest-ridge-park",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "park staff",
+          "phone": "919-996-5800",
+          "email": "Forest.ridge@raleighnc.gov",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "park"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "World Drowning Prevention Day Clinic"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "frank-gallery-carrboro": {
       "slug": "frank-gallery-carrboro",
@@ -6107,7 +6690,7 @@
       "socials": {
         "facebook": "https://www.facebook.com/frankgallery",
         "instagram": "https://www.instagram.com/frankgallery/",
-        "twitter": "",
+        "twitter": "https://twitter.com/FRANKGallery1",
         "threads": "",
         "bluesky": "",
         "tiktok": "",
@@ -6197,12 +6780,12 @@
         "outdoor",
         "park"
       ],
-      "eventCount": 7,
+      "eventCount": 8,
       "sampleEvents": [
-        "2026 Summer Concert Series",
         "Sapphic Spring Potluck",
         "Hair in Concert: Peace and Love on America's 250th",
-        "Queer Community Hangout"
+        "Queer Community Hangout",
+        "2026 Summer Concert Series"
       ],
       "reviewNeeded": false,
       "osm_id": "way/18892992"
@@ -6262,7 +6845,7 @@
       "lat": 35.7680299,
       "lng": -78.6337888,
       "place_id": "401460489",
-      "linkMain": "",
+      "linkMain": "https://www.fruitoflabor.org/cultural-center",
       "linkEvents": "",
       "socials": {
         "facebook": "",
@@ -6275,8 +6858,18 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
-      "venueType": [],
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 876-7187",
+          "email": "fruitoflaborwcc@netscape.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "event-space",
+        "indoor"
+      ],
       "eventCount": 1,
       "sampleEvents": [
         "Bridgerton Tea Party: A Regency-Inspired Day of Food"
@@ -6341,7 +6934,7 @@
       "linkMain": "https://www.fuquay-varina.org/1111/Arts-Center",
       "linkEvents": "https://www.fuquay-varina.org/calendar.aspx?view=list",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/FuquayVarinaArtsCenter/",
         "instagram": "",
         "twitter": "",
         "threads": "",
@@ -6384,7 +6977,6 @@
         }
       ],
       "venueType": [
-        "community-center",
         "indoor",
         "theater"
       ],
@@ -6495,7 +7087,7 @@
       "lng": -79.1416606,
       "place_id": "346407763",
       "linkMain": "https://garden-art-gallery.com/",
-      "linkEvents": "",
+      "linkEvents": "https://garden-art-gallery.com/",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -6583,10 +7175,10 @@
       "lng": -78.6126088,
       "place_id": "404082181",
       "linkMain": "https://www.garnernc.gov/departments/garner-performing-arts-center",
-      "linkEvents": "",
+      "linkEvents": "https://www.garnernc.gov/departments/garner-performing-arts-center/events",
       "socials": {
-        "facebook": "",
-        "instagram": "",
+        "facebook": "https://www.facebook.com/TownofGarnerNC",
+        "instagram": "https://www.instagram.com/townofgarnernc/",
         "twitter": "",
         "threads": "",
         "bluesky": "",
@@ -6630,7 +7222,7 @@
       "linkMain": "https://www.garnernc.gov/departments/parks-recreation-and-cultural-resources/facilities/garner-recreation-center",
       "linkEvents": "https://garner.recdesk.com/Community/Facility/Detail?facilityId=63",
       "socials": {
-        "facebook": "",
+        "facebook": "https://www.facebook.com/garnerncgov/",
         "instagram": "",
         "twitter": "",
         "threads": "",
@@ -6672,19 +7264,19 @@
       "reviewNeeded": false,
       "osm_id": "way/762384294"
     },
-    "gipson-play-plaza-raleigh": {
-      "slug": "gipson-play-plaza-raleigh",
-      "name": "Gipson Play Plaza",
+    "gipson-play-plaza-at-dix-park-raleigh": {
+      "slug": "gipson-play-plaza-at-dix-park-raleigh",
+      "name": "Gipson Play Plaza at Dix Park",
       "aliases": [
-        "Gipson Play Plaza at Dix Park"
+        "Gipson Play Plaza"
       ],
       "address": "715 Biggs Drive",
       "city": "Raleigh",
       "state": "NC",
       "zip": "27603",
-      "lat": 35.7668609,
-      "lng": -78.6542847,
-      "place_id": "345205465",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
       "linkMain": "https://dixpark.org/gipsonplayplaza",
       "linkEvents": "",
       "socials": {
@@ -6700,41 +7292,36 @@
       },
       "contacts": [
         {
+          "label": "Dix Park Staff",
+          "phone": "919-996-3255",
+          "email": "info@dixpark.org",
+          "other": ""
+        },
+        {
           "label": "Gipson Play Plaza Staff",
           "phone": "984-381-8643",
           "email": "gpp@dixpark.org",
           "other": ""
         },
         {
-          "label": "Dix Park Event Rentals",
-          "phone": "919-996-3255",
-          "email": "events@dixpark.org",
-          "other": ""
-        },
-        {
-          "label": "Dix Park Staff (General Inquiries)",
-          "phone": "919-996-3255",
-          "email": "info@dixpark.org",
-          "other": ""
-        },
-        {
-          "label": "Inclusion Services (ADA Accommodations)",
-          "phone": "919-996-2147",
-          "email": "ParksInclusion@raleighnc.gov",
+          "label": "Lauren Danforth, Sr. Manager of Marketing & Communications",
+          "phone": "919-996-6919",
+          "email": "lauren.danforth@raleighnc.gov",
           "other": ""
         }
       ],
       "venueType": [
         "outdoor",
+        "park",
         "plaza"
       ],
-      "eventCount": 2,
+      "eventCount": 3,
       "sampleEvents": [
         "Pop Up Skate Park",
         "Square Dance Social at Dix Park"
       ],
       "reviewNeeded": false,
-      "osm_id": "node/13376314676"
+      "osm_id": null
     },
     "glass-garden-studio-holly-springs": {
       "slug": "glass-garden-studio-holly-springs",
@@ -6793,7 +7380,7 @@
       "lng": -78.901534616247,
       "place_id": null,
       "linkMain": "https://www.glass-jug.com/downtown-durham",
-      "linkEvents": "",
+      "linkEvents": "https://www.glass-jug.com/events",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -6913,6 +7500,42 @@
       "reviewNeeded": false,
       "osm_id": "node/5732154331"
     },
+    "gooch-sports-arena-wendell": {
+      "slug": "gooch-sports-arena-wendell",
+      "name": "Gooch Sports Arena",
+      "aliases": [],
+      "address": "6400 Knightdale Eagle Rock Rd",
+      "city": "Wendell",
+      "state": "NC",
+      "zip": "27591",
+      "lat": 35.791868536752,
+      "lng": -78.421292373854,
+      "place_id": null,
+      "linkMain": "",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [],
+      "venueType": [
+        "indoor",
+        "stadium"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Dirty South Rodeo Festival"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "goodnights-comedy-club-raleigh": {
       "slug": "goodnights-comedy-club-raleigh",
       "name": "Goodnights Comedy Club",
@@ -6931,7 +7554,7 @@
       "lng": -78.6596733,
       "place_id": "343911034",
       "linkMain": "https://www.goodnightscomedy.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.goodnightscomedy.com/events",
       "socials": {
         "facebook": "https://www.goodnightscomedy.com/contact#facebook",
         "instagram": "",
@@ -6955,13 +7578,13 @@
         "comedy-club",
         "indoor"
       ],
-      "eventCount": 37,
+      "eventCount": 39,
       "sampleEvents": [
         "Ms. Renee",
-        "Room 861 at Goodnights: Josh Mandl",
-        "Misha Brown",
-        "Gianmarco Soresi",
-        "Emo Philips"
+        "Special Event: Mark Normand",
+        "The Gospel According to Comedy",
+        "Matt Ross",
+        "Room 861 at Goodnights: Josh Mandl"
       ],
       "reviewNeeded": false,
       "osm_id": "node/6484120085"
@@ -7358,8 +7981,8 @@
         }
       ],
       "venueType": [
-        "government",
-        "outdoor"
+        "outdoor",
+        "park"
       ],
       "eventCount": 1,
       "sampleEvents": [
@@ -7436,7 +8059,7 @@
       "lat": 36.002055,
       "lng": -78.902297,
       "place_id": "403212913",
-      "linkMain": "",
+      "linkMain": "https://www.durhamncsports.com/facilities/historic-durham-athletic-park/",
       "linkEvents": "",
       "socials": {
         "facebook": "",
@@ -7548,7 +8171,6 @@
         }
       ],
       "venueType": [
-        "event-space",
         "farm",
         "outdoor"
       ],
@@ -7592,7 +8214,7 @@
         }
       ],
       "venueType": [
-        "community-center",
+        "event-space",
         "indoor",
         "theater"
       ],
@@ -7642,8 +8264,8 @@
         }
       ],
       "venueType": [
-        "indoor",
-        "winery"
+        "brewery",
+        "indoor"
       ],
       "eventCount": 2,
       "sampleEvents": [
@@ -7692,7 +8314,7 @@
         }
       ],
       "venueType": [
-        "club",
+        "indoor",
         "outdoor"
       ],
       "eventCount": 1,
@@ -7773,10 +8395,16 @@
         "reddit": "",
         "linkedin": ""
       },
-      "contacts": [],
+      "contacts": [
+        {
+          "label": "Kelly Propst, VP of Marketing & Communications",
+          "phone": "",
+          "email": "propst@rtp.org",
+          "other": ""
+        }
+      ],
       "venueType": [
         "event-space",
-        "indoor",
         "outdoor"
       ],
       "eventCount": 5,
@@ -7845,7 +8473,7 @@
       "lng": -78.6483313,
       "place_id": "344992911",
       "linkMain": "https://www.incendiarybrewing.com/",
-      "linkEvents": "",
+      "linkEvents": "https://www.incendiarybrewing.com/general-7-2",
       "socials": {
         "facebook": "",
         "instagram": "",
@@ -7933,6 +8561,49 @@
       ],
       "reviewNeeded": false,
       "osm_id": "node/2532689994"
+    },
+    "jawbreaker-boxing-raleigh": {
+      "slug": "jawbreaker-boxing-raleigh",
+      "name": "Jawbreaker Boxing",
+      "aliases": [],
+      "address": "1505 Capital Boulevard, Suite 20B",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27603",
+      "lat": 35.801001983405,
+      "lng": -78.632483631062,
+      "place_id": null,
+      "linkMain": "https://www.jawbreaker919.com/",
+      "linkEvents": "https://www.eventbrite.com/o/jawbreaker-boxing-120973604732",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "club",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Jawbreaker Boxing\u2019s Summer Showdown"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "jc-raulston-arboretum-at-north-carolina-state-university-raleigh": {
       "slug": "jc-raulston-arboretum-at-north-carolina-state-university-raleigh",
@@ -8114,6 +8785,56 @@
       "reviewNeeded": false,
       "osm_id": "way/170970459"
     },
+    "jim-graham-building-at-north-carolina-state-fairgrounds-raleigh": {
+      "slug": "jim-graham-building-at-north-carolina-state-fairgrounds-raleigh",
+      "name": "Jim Graham Building at North Carolina State Fairgrounds",
+      "aliases": [
+        "Kerr Scott Building at North Carolina State Fairgrounds",
+        "North Carolina State Fairgrounds"
+      ],
+      "address": "1025 Blue Ridge Rd.",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27607",
+      "lat": 35.795339062341,
+      "lng": -78.706881339803,
+      "place_id": null,
+      "linkMain": "",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919.821.7400",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "event-space",
+        "indoor"
+      ],
+      "eventCount": 5,
+      "sampleEvents": [
+        "Got to Be NC Festival",
+        "Raleigh-Durham Caged Bird Society 37th Annual Pet Bird Fair",
+        "2026 KX Kids Consignment Sale",
+        "Carolina CryptidCon Tour - Mermaids to Mothman",
+        "Newbreed Raleigh Summer Championship"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "jireh-farm-durham": {
       "slug": "jireh-farm-durham",
       "name": "Jireh Farm",
@@ -8160,7 +8881,9 @@
     "joan-h-gillings-center-for-dramatic-art-chapel-hill": {
       "slug": "joan-h-gillings-center-for-dramatic-art-chapel-hill",
       "name": "Joan H. Gillings Center for Dramatic Art",
-      "aliases": [],
+      "aliases": [
+        "PlayMakers Repertory Company"
+      ],
       "address": "120 Country Club Rd",
       "city": "Chapel Hill",
       "state": "NC",
@@ -8189,14 +8912,12 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "theater"
-      ],
-      "eventCount": 2,
+      "venueType": [],
+      "eventCount": 3,
       "sampleEvents": [
         "Hello, Dolly!",
-        "Hello, Dolly! Matinee"
+        "Hello, Dolly! Matinee",
+        "Hello, Dolly! | Matinee"
       ],
       "reviewNeeded": false,
       "osm_id": "way/44342713"
@@ -8308,11 +9029,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor",
-        "museum"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Top Greene's \"Adornment of Grace\" Hat Show Contest"
@@ -8406,10 +9123,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "park"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Queer Lake Day"
@@ -8449,10 +9163,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Summer Friday at Junction West"
@@ -8492,10 +9203,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Kendra Gives Back Re-Grand Opening Event"
@@ -8537,11 +9245,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "CRTL + Pride: Haus Party Edition",
@@ -8595,12 +9299,8 @@
           "other": "https://kings.ticketsraleigh.org/"
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue"
-      ],
-      "eventCount": 40,
+      "venueType": [],
+      "eventCount": 44,
       "sampleEvents": [
         "Emo Night Karaoke",
         "The Messthetics & James Brandon Lewis",
@@ -8726,7 +9426,7 @@
         "music-venue",
         "outdoor"
       ],
-      "eventCount": 13,
+      "eventCount": 14,
       "sampleEvents": [
         "Spring Fling Annual Dog & Cat Fundraiser",
         "Tchaikovsky Piano Concerto No. 1",
@@ -8804,11 +9504,7 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "bar",
-        "event-space",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Jus Once Band"
@@ -8823,7 +9519,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27701",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -8848,11 +9544,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "club",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "The PINK Triangle PRIDE Kickoff"
@@ -8892,11 +9584,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "market",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Bastille Day Celebration - Food, Desserts, Wine Walk and Live Music"
@@ -9311,10 +9999,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Kehlani and Collage at the LGBT Center of Raleigh",
@@ -9363,11 +10048,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Metalmorphosis: Durham Tech Sculptural Welding Student Art Show",
@@ -9424,7 +10105,7 @@
         "indoor",
         "theater"
       ],
-      "eventCount": 27,
+      "eventCount": 30,
       "sampleEvents": [
         "The Happy Fits w/ BEL",
         "Trial By Fire (Tribute to Journey) w/ She Bop (80's Tribute)",
@@ -9542,11 +10223,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "club",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 9,
       "sampleEvents": [
         "Ramona and the Holy Smokes",
@@ -9596,10 +10273,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Cocktail Competition"
@@ -9675,11 +10349,7 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Organ Monk \u2013 Durham Debut at Magnetic Sound Studios"
@@ -9909,11 +10579,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "historic-site",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Northside Festival 2026"
@@ -9928,7 +10594,7 @@
       "address": "TBD",
       "city": "Chapel Hill",
       "state": "NC",
-      "zip": "27516",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -10046,11 +10712,7 @@
           "other": "http://mms.chccs.k12.nc.us"
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor",
-        "school"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "26th Annual Mildred Council Community Dinner"
@@ -10108,11 +10770,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "school"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Write Now! 2026"
@@ -10458,10 +11116,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "museum"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "NCModernist Art Sale Fundraiser"
@@ -10533,11 +11188,11 @@
       ],
       "eventCount": 10,
       "sampleEvents": [
-        "Raleigh's Spring Festival",
-        "NCMA Movie Night: Godzilla vs. Mothra (1992)",
-        "Around the World, Raleigh",
+        "First Friday Market & Movie Night: Puss in Boots - The Last Wish",
+        "NCMA Movie Night: Shrek",
         "NCMA Movies at Moore Square: Poupelle of Chimney Town",
-        "Spring Jazz Market"
+        "Darkness RISING: Live Arts & Mental Health Block Party 2026",
+        "Raleigh's Spring Festival"
       ],
       "reviewNeeded": false,
       "osm_id": "node/13544480941"
@@ -10546,7 +11201,7 @@
       "slug": "moorefields-hillsborough",
       "name": "Moorefields",
       "aliases": [],
-      "address": "2001 Moorefields Road",
+      "address": "2201 Moorefields Rd",
       "city": "Hillsborough",
       "state": "NC",
       "zip": "27278",
@@ -10580,12 +11235,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "historic-site",
-        "outdoor"
-      ],
-      "eventCount": 3,
+      "venueType": [],
+      "eventCount": 4,
       "sampleEvents": [
         "Moorefields Open House Afternoon",
         "Hillsborough Ramble \"Past Meets Present\" Preservation Tour",
@@ -10817,10 +11468,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Splash into Summer Pool Party for Teens"
@@ -11002,7 +11650,7 @@
         "indoor",
         "music-venue"
       ],
-      "eventCount": 19,
+      "eventCount": 20,
       "sampleEvents": [
         "Armand Hammer",
         "Searows at Motorco",
@@ -11078,9 +11726,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "10 Years of Munjo Celebration"
@@ -11139,7 +11785,7 @@
         "indoor",
         "theater"
       ],
-      "eventCount": 9,
+      "eventCount": 10,
       "sampleEvents": [
         "Burning Coal Theatre presents KidsWrite! Festival 2026",
         "Second Stage 2026 - Dr. Ride\u2019s American Beach House",
@@ -11234,7 +11880,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27701",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -11252,10 +11898,7 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "ADF Presents: Footprints: Site-specific work by Stephan Koplowitz"
@@ -11352,11 +11995,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "government",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Wheels on Academy"
@@ -11458,6 +12097,49 @@
       "reviewNeeded": false,
       "osm_id": "way/694540073"
     },
+    "nc-state-centennial-campus-placemaking-raleigh": {
+      "slug": "nc-state-centennial-campus-placemaking-raleigh",
+      "name": "NC State Centennial Campus Placemaking",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://realestate.ncsu.edu/programs-and-events/",
+      "linkEvents": "https://calendar.ncsu.edu/event/placemaking-by-design-civic-activation-through-art-and-story",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "Jude DesNoyer, Director of Centennial Campus Placemaking",
+          "phone": "919-513-3056",
+          "email": "cjdesnoy@ncsu.edu",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "event-space",
+        "outdoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "IAMDYNAMITE"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "nccu-student-center-durham": {
       "slug": "nccu-student-center-durham",
       "name": "NCCU Student Center",
@@ -11490,11 +12172,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor",
-        "school"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Honoring Juneteenth In Our Courts"
@@ -11546,7 +12224,7 @@
       "address": "TBD",
       "city": "Raleigh",
       "state": "NC",
-      "zip": "27601",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -11571,11 +12249,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Pitch Your Single Sapphic Friend"
@@ -11615,11 +12289,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Well Lived NC Expo - Aging in Place North Carolina"
@@ -11665,11 +12335,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "historic-site",
-        "museum",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Working on the Railroad Day",
@@ -11677,47 +12343,6 @@
       ],
       "reviewNeeded": false,
       "osm_id": null
-    },
-    "nomaco-park-zebulon": {
-      "slug": "nomaco-park-zebulon",
-      "name": "Nomaco Park",
-      "aliases": [
-        "Five County Stadium"
-      ],
-      "address": "1501 NC-39",
-      "city": "Zebulon",
-      "state": "NC",
-      "zip": "27597",
-      "lat": 35.814135,
-      "lng": -78.268615,
-      "place_id": "401502507",
-      "linkMain": "",
-      "linkEvents": "",
-      "socials": {
-        "facebook": "",
-        "instagram": "",
-        "twitter": "",
-        "threads": "",
-        "bluesky": "",
-        "tiktok": "",
-        "youtube": "",
-        "reddit": "",
-        "linkedin": ""
-      },
-      "contacts": [],
-      "venueType": [
-        "outdoor",
-        "park"
-      ],
-      "eventCount": 4,
-      "sampleEvents": [
-        "Zebulon Devil Dogz vs. Virginia Beach Valor",
-        "Zebulon Devil Dogz vs. Peninsula Pilots",
-        "Zebulon Devil Dogz vs. Greensboro Ducks",
-        "Zebulon Devil Dogz vs. Martinsville Mustangs"
-      ],
-      "reviewNeeded": false,
-      "osm_id": "way/782869437"
     },
     "nordstrom-the-streets-at-southpoint-durham": {
       "slug": "nordstrom-the-streets-at-southpoint-durham",
@@ -11757,10 +12382,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Nordstrom Mother's Day Brunch"
@@ -11861,11 +12483,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "government",
-        "historic-site",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "L'\u00c9cole Annual Fundraising Gala for Education"
@@ -11923,7 +12541,7 @@
         "indoor",
         "museum"
       ],
-      "eventCount": 30,
+      "eventCount": 33,
       "sampleEvents": [
         "The People\u2019s Collection: Ixcanul",
         "Trio Sefardi",
@@ -11989,6 +12607,49 @@
       ],
       "reviewNeeded": false,
       "osm_id": "way/197842115"
+    },
+    "north-carolina-railway-museum-new-hope-valley-railway-apex": {
+      "slug": "north-carolina-railway-museum-new-hope-valley-railway-apex",
+      "name": "North Carolina Railway Museum & New Hope Valley Railway",
+      "aliases": [],
+      "address": "3900 Bonsal Road",
+      "city": "Apex",
+      "state": "NC",
+      "zip": "27562",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.triangletrain.com/",
+      "linkEvents": "https://www.triangletrain.com/events/",
+      "socials": {
+        "facebook": "https://www.facebook.com/TriangleTrain",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919-396-5833",
+          "email": "info@triangletrain.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "museum"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Steam Shop Saturday at New Hope Valley Railway"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "north-carolina-railway-museum-new-hope-valley-railway-raleigh": {
       "slug": "north-carolina-railway-museum-new-hope-valley-railway-raleigh",
@@ -12087,58 +12748,6 @@
       "reviewNeeded": false,
       "osm_id": "way/47663703"
     },
-    "north-carolina-state-fairgrounds-raleigh": {
-      "slug": "north-carolina-state-fairgrounds-raleigh",
-      "name": "North Carolina State Fairgrounds",
-      "aliases": [
-        "Agri Supply Exposition Center at North Carolina State Fairgrounds",
-        "Expo Center at the North Carolina State Fairgrounds",
-        "NC State Fairgrounds"
-      ],
-      "address": "4285 Trinity Rd.",
-      "city": "Raleigh",
-      "state": "NC",
-      "zip": "27607",
-      "lat": 35.8055195,
-      "lng": -78.7382757,
-      "place_id": "345169500",
-      "linkMain": "https://www.ncstatefair.org",
-      "linkEvents": "",
-      "socials": {
-        "facebook": "https://www.facebook.com/ncstatefair/",
-        "instagram": "https://www.instagram.com/ncstatefair/",
-        "twitter": "https://twitter.com/ncstatefair",
-        "threads": "",
-        "bluesky": "",
-        "tiktok": "",
-        "youtube": "",
-        "reddit": "",
-        "linkedin": ""
-      },
-      "contacts": [
-        {
-          "label": "General Inquiries",
-          "phone": "(919) 821-7400",
-          "email": "ncstatefair@gmail.com",
-          "other": ""
-        }
-      ],
-      "venueType": [
-        "event-space",
-        "farm",
-        "outdoor"
-      ],
-      "eventCount": 5,
-      "sampleEvents": [
-        "Repticon 2026",
-        "Villain Arts 5th Annual Raleigh Tattoo Arts Festival",
-        "Carolina Kitty Con",
-        "52nd Annual Raleigh Money Expo",
-        "Dinosaur Adventure"
-      ],
-      "reviewNeeded": false,
-      "osm_id": "way/961248189"
-    },
     "north-hills-raleigh": {
       "slug": "north-hills-raleigh",
       "name": "North Hills",
@@ -12183,11 +12792,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "outdoor",
-        "plaza"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Summer Sidewalk Sale"
@@ -12202,7 +12807,7 @@
         "North Main Athletic Complex Stadium",
         "Ting Stadium at North Main Athletic Complex"
       ],
-      "address": "101 Sportsmanship Way",
+      "address": "101 Sportsmanship Wy",
       "city": "Holly Springs",
       "state": "NC",
       "zip": "27540",
@@ -12236,12 +12841,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "park",
-        "stadium"
-      ],
-      "eventCount": 10,
+      "venueType": [],
+      "eventCount": 12,
       "sampleEvents": [
         "Holly Springs Salamanders vs. Wilmington Sharks",
         "Holly Springs Salamanders vs. Peninsula Pilots",
@@ -12290,10 +12891,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "club",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "North State Bank's Summer Salute for Transitions LifeCare"
@@ -12448,10 +13046,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Community Kickstand: Free Bicycle Repair"
@@ -12766,13 +13361,52 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "stadium"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Racing at Orange County Speedway"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
+    "orange-high-school-hillsborough": {
+      "slug": "orange-high-school-hillsborough",
+      "name": "Orange High School",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Hillsborough",
+      "state": "NC",
+      "zip": "27278",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://ohs.orangecountyfirst.com/our-school",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "https://www.facebook.com/p/Orange-High-School-61564944441587/",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "Main Office",
+          "phone": "919-732-6133",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "school"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Anything Goes!"
       ],
       "reviewNeeded": false,
       "osm_id": null
@@ -12864,10 +13498,12 @@
         "indoor",
         "theater"
       ],
-      "eventCount": 2,
+      "eventCount": 4,
       "sampleEvents": [
         "ADF Presents: Bill T. Jones/Arnie Zane Company",
-        "ADF Children's Matinee: Mark Morris Dance Group and Music Ensemble"
+        "ADF Children's Matinee: Mark Morris Dance Group and Music Ensemble",
+        "ADF Presents: Pilobolus",
+        "ADF Children's Matinee: Pilobolus"
       ],
       "reviewNeeded": false,
       "osm_id": "way/31004008"
@@ -12918,11 +13554,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "historic-site",
-        "indoor",
-        "museum"
-      ],
+      "venueType": [],
       "eventCount": 3,
       "sampleEvents": [
         "Performances at the Page: Ladies of Swing",
@@ -12964,10 +13596,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "ADF Closing Dance Party"
@@ -13086,11 +13715,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "brewery",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Books on Tap"
@@ -13130,11 +13755,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "museum"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Vending Machine | UNCG MFA Thesis Show 2026"
@@ -13174,10 +13795,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Mother's Day Brunch"
@@ -13301,11 +13919,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor",
-        "park"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Girl Talk: Parent/Trusted Adult & Daughter Workshop"
@@ -13529,11 +14143,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "museum",
-        "outdoor",
-        "park"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Bird Calls of the Piedmont",
@@ -13588,13 +14198,56 @@
       "reviewNeeded": false,
       "osm_id": "way/32348003"
     },
+    "pullen-arts-center-raleigh": {
+      "slug": "pullen-arts-center-raleigh",
+      "name": "Pullen Arts Center",
+      "aliases": [],
+      "address": "105 Pullen Road",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27607",
+      "lat": 35.782678775738,
+      "lng": -78.665464806188,
+      "place_id": null,
+      "linkMain": "https://raleighnc.gov/arts/places/pullen-arts-center",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "Front desk",
+          "phone": "919-996-6126",
+          "email": "pullen.arts@raleighnc.gov",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "community-center",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Closing Reception | Artifacts: Storytelling Through Material Forms Exhibition"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "pullen-park-raleigh": {
       "slug": "pullen-park-raleigh",
       "name": "Pullen Park",
       "aliases": [
         "Pullen Park Amusements"
       ],
-      "address": "520 Ashe Ave.",
+      "address": "520 Ashe Ave",
       "city": "Raleigh",
       "state": "NC",
       "zip": "27606",
@@ -13626,10 +14279,11 @@
         "outdoor",
         "park"
       ],
-      "eventCount": 4,
+      "eventCount": 5,
       "sampleEvents": [
         "2026 Summer Concert Series",
         "Adult Restorative Play Group",
+        "Juggling Record-Breaking Attempt",
         "School of Rock Performance"
       ],
       "reviewNeeded": false,
@@ -13667,10 +14321,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "HBOT4Heroes' Ride 4 Their Lives with Raging Bull Harley-Davidson"
@@ -13756,7 +14407,7 @@
         "event-space",
         "indoor"
       ],
-      "eventCount": 6,
+      "eventCount": 7,
       "sampleEvents": [
         "North Carolina Bridal & Wedding Expo",
         "Phenom G3 Live",
@@ -13841,7 +14492,7 @@
       "venueType": [
         "comedy-club"
       ],
-      "eventCount": 13,
+      "eventCount": 14,
       "sampleEvents": [
         "Bill Bellamy",
         "Luenell",
@@ -13859,7 +14510,7 @@
       "address": "TBD",
       "city": "Raleigh",
       "state": "NC",
-      "zip": "27519",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -13925,10 +14576,7 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Raleigh Book Fair",
@@ -13969,10 +14617,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Symbiosis Jazz Duo at Ramblers"
@@ -14012,11 +14657,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "market"
-      ],
+      "venueType": [],
       "eventCount": 3,
       "sampleEvents": [
         "Gouge Wrestling: Spring in the Ring",
@@ -14426,10 +15067,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "market"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Make & Take: Dice Box"
@@ -14469,11 +15107,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "government",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Mingle on Main"
@@ -14537,12 +15171,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Night Therapy x Somatic House Collective"
@@ -14618,10 +15247,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Purradise Found: Kitten Adoption Event"
@@ -14661,12 +15287,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Live Music: Nick Mardon"
@@ -14706,11 +15327,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "farm",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "UCAN Cooking Class! A Comfort Food Experience"
@@ -14750,11 +15367,7 @@
           "other": "shadowboxstudio.org"
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "The Price by Arthur Miller"
@@ -14817,7 +15430,7 @@
       "address": "TBD",
       "city": "Raleigh",
       "state": "NC",
-      "zip": "27603",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -14842,10 +15455,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Forged Chef Knife with ABS Master Smith E. Scott McGhee"
@@ -14899,7 +15509,9 @@
     "slim-s-dive-bar-raleigh": {
       "slug": "slim-s-dive-bar-raleigh",
       "name": "Slim's Dive Bar",
-      "aliases": [],
+      "aliases": [
+        "Slim\u2019s Dive Bar"
+      ],
       "address": "227 S. Wilmington St.",
       "city": "Raleigh",
       "state": "NC",
@@ -14944,7 +15556,7 @@
         "bar",
         "indoor"
       ],
-      "eventCount": 28,
+      "eventCount": 32,
       "sampleEvents": [
         "Leaving Echoes",
         "The Dead Man\u2019s Doctors and Mary Anna",
@@ -14987,11 +15599,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Michael Jackson Theme Night",
@@ -15074,16 +15682,49 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Raleigh Twilight Market at Smoky Hollow"
       ],
       "reviewNeeded": false,
       "osm_id": "way/960966070"
+    },
+    "social-animal-theater-at-seven-raleigh": {
+      "slug": "social-animal-theater-at-seven-raleigh",
+      "name": "Social Animal Theater at SEVEN",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [],
+      "venueType": [
+        "indoor",
+        "theater"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Staged Reading of 'The American Revolution' by Kirk Wood Bromley"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "soul-sanctuary-durham": {
       "slug": "soul-sanctuary-durham",
@@ -15123,11 +15764,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "farm",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "NC Queer Farmer Convergence"
@@ -15272,11 +15909,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 3,
       "sampleEvents": [
         "Speakeasy's Queer Cabaret and Dance Party",
@@ -15293,7 +15926,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27701",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -15330,10 +15963,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Speed House Open Garage"
@@ -15376,12 +16006,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
-      "eventCount": 7,
+      "venueType": [],
+      "eventCount": 8,
       "sampleEvents": [
         "Brunch & Bubbles at Ava Rooftop Bar",
         "Brunch & Bubbles",
@@ -15580,12 +16206,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue"
-      ],
-      "eventCount": 16,
+      "venueType": [],
+      "eventCount": 18,
       "sampleEvents": [
         "The Rattletraps",
         "House of Heavy at Stanczyks",
@@ -15753,6 +16375,48 @@
       "reviewNeeded": false,
       "osm_id": "way/47714143"
     },
+    "succotash-southern-creole-kitchen-durham": {
+      "slug": "succotash-southern-creole-kitchen-durham",
+      "name": "Succotash Southern & Creole Kitchen",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27707",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://succotashdurham.com/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "https://www.facebook.com/SuccotashDurham/",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "984-329-7071",
+          "email": "succotashdurham@gmail.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "restaurant"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Ally J\u2014Blues, R&B, Jazz, Funk"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "sullivan-s-steakhouse-raleigh": {
       "slug": "sullivan-s-steakhouse-raleigh",
       "name": "Sullivan's Steakhouse",
@@ -15791,11 +16455,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Mother's Day at Sullivan's Steakhouse",
@@ -15956,12 +16616,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor",
-        "theater"
-      ],
-      "eventCount": 8,
+      "venueType": [],
+      "eventCount": 9,
       "sampleEvents": [
         "The Ballad of Johnny Whitmore",
         "Gentle Revelations: 6 Flash Plays",
@@ -16016,11 +16672,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "indoor",
-        "theater"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Bluegrass Experience Spring Concert"
@@ -16151,7 +16803,7 @@
         "indoor",
         "library"
       ],
-      "eventCount": 7,
+      "eventCount": 8,
       "sampleEvents": [
         "Improv Night at The Bike Library",
         "Bikes Mean Business: Self-Care Sunday",
@@ -16208,11 +16860,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "music-venue",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 4,
       "sampleEvents": [
         "8-Track Minds",
@@ -16344,10 +16992,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 3,
       "sampleEvents": [
         "Artist Notes featuring River Shook",
@@ -16389,18 +17034,14 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "event-space",
-        "indoor"
-      ],
-      "eventCount": 5,
+      "venueType": [],
+      "eventCount": 6,
       "sampleEvents": [
         "F1 Canadian Grand Prix Watch Party",
         "Sunday Day Party at The Davie",
         "First Friday at The Davie with Kerry Long",
         "Free Hot Dog Cookout: America's 250th Birthday",
-        "First Friday Live Music: Michael Parker"
+        "7 Years of Good Times: Customer Appreciation Party at The Davie"
       ],
       "reviewNeeded": false,
       "osm_id": null
@@ -16437,10 +17078,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "PERREO: Noche Latina at The Dirty V"
@@ -16514,7 +17152,7 @@
         "hotel",
         "indoor"
       ],
-      "eventCount": 8,
+      "eventCount": 9,
       "sampleEvents": [
         "The Durham Vendor Mixer & Showcase",
         "Graduation Weekend: Dinner & Brunch",
@@ -16559,11 +17197,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Set it Off - Live Stage Play & Creative Showcase",
@@ -16606,12 +17240,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
-      "eventCount": 6,
+      "venueType": [],
+      "eventCount": 7,
       "sampleEvents": [
         "The Main Event: North State Blues",
         "GAG ON TOP! w/ Amanda Lepore & Susanne Bartsch",
@@ -16654,10 +17284,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Pride Party at The Gathering Place",
@@ -16773,7 +17400,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27703",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -16804,11 +17431,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Love Island - Inspired Watch Party"
@@ -16820,12 +17443,13 @@
       "slug": "the-green-room-raleigh",
       "name": "The Green Room",
       "aliases": [
-        "Green Room"
+        "Green Room",
+        "Raleigh Little Theatre"
       ],
-      "address": "3031 Barrow Dr.",
+      "address": "301 Pogue St.",
       "city": "Raleigh",
       "state": "NC",
-      "zip": "27616",
+      "zip": "27607",
       "lat": 35.8660542,
       "lng": -78.5870434,
       "place_id": "401437886",
@@ -16856,16 +17480,13 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
-      "eventCount": 3,
+      "venueType": [],
+      "eventCount": 4,
       "sampleEvents": [
+        "Second Stage-Gloria",
+        "Clue (High School Edition)",
         "Theater Book Club",
-        "Encore Market - The Green Room",
-        "Second Stage-Gloria"
+        "Encore Market - The Green Room"
       ],
       "reviewNeeded": false,
       "osm_id": "way/23270917"
@@ -16904,11 +17525,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "community-center",
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 5,
       "sampleEvents": [
         "Apex Community Dance",
@@ -16964,10 +17581,7 @@
           "other": "https://thehaymakerraleigh.com/private-event/"
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 5,
       "sampleEvents": [
         "Verses & Vibes: Ciara x Soulja Boy",
@@ -17059,15 +17673,12 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "outdoor",
-        "restaurant"
-      ],
-      "eventCount": 2,
+      "venueType": [],
+      "eventCount": 3,
       "sampleEvents": [
         "Partner Yoga & Blueberry Evening",
-        "Blueberry Brunch"
+        "Blueberry Brunch",
+        "Sunset Sound Bath"
       ],
       "reviewNeeded": false,
       "osm_id": "node/5732586849"
@@ -17214,11 +17825,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "farm",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "2026 Culinary Lavender Lunch Tour"
@@ -17270,10 +17877,7 @@
           "other": "https://www.theloadingdock.com/tour"
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Champagne & Friends"
@@ -17363,11 +17967,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Dopamine Drag Disco",
@@ -17401,11 +18001,7 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "historic-site",
-        "indoor",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "The Myers House | Halloween Replica Film House Visit"
@@ -17420,7 +18016,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27701",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -17445,11 +18041,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Pride Fest"
@@ -17495,12 +18087,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue"
-      ],
-      "eventCount": 15,
+      "venueType": [],
+      "eventCount": 16,
       "sampleEvents": [
         "Computer Kill / TORTURETWINN",
         "Mint Field in Durham",
@@ -17536,13 +18124,7 @@
         "linkedin": "https://www.linkedin.com/company/the-pitch-chapelhill"
       },
       "contacts": [],
-      "venueType": [
-        "bar",
-        "community-center",
-        "event-space",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "UNC Habitat\u2019s 3rd Annual Art for Humanity Silent Auction"
@@ -17584,11 +18166,7 @@
           "other": "https://theportalhq.com/about.html"
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 6,
       "sampleEvents": [
         "Battle Of The Bands - Final Four Championship",
@@ -17654,7 +18232,7 @@
         "indoor",
         "music-venue"
       ],
-      "eventCount": 35,
+      "eventCount": 37,
       "sampleEvents": [
         "C.Shreve the Professor & OC from NC with DJ Jet, Illpo & Frank THE Phre$h",
         "Polyrhythmics",
@@ -17672,7 +18250,7 @@
         "The Rialto",
         "The Rialto Theatre Raleigh"
       ],
-      "address": "1620 Glenwood Ave",
+      "address": "1620 Glenwood Ave.",
       "city": "Raleigh",
       "state": "NC",
       "zip": "27608",
@@ -17697,7 +18275,7 @@
         "indoor",
         "theater"
       ],
-      "eventCount": 13,
+      "eventCount": 15,
       "sampleEvents": [
         "Candlelight Concert: Neo-Soul Favorites ft. Songs by Prince, Childish Gambino, & More",
         "Candlelight: Coldplay & Imagine Dragons",
@@ -17752,12 +18330,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "club",
-        "indoor",
-        "music-venue"
-      ],
-      "eventCount": 19,
+      "venueType": [],
+      "eventCount": 21,
       "sampleEvents": [
         "R&B ONLY LIVE",
         "TRAP Karaoke 2026",
@@ -17767,6 +18341,49 @@
       ],
       "reviewNeeded": false,
       "osm_id": "way/47933430"
+    },
+    "the-river-church-durham": {
+      "slug": "the-river-church-durham",
+      "name": "The River Church",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27704",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.theriverdurham.com/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "1-919-433-0333",
+          "email": "[email protected]",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "church",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Pirates! A Boy At Sea"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
     },
     "the-rookery-hillsborough": {
       "slug": "the-rookery-hillsborough",
@@ -17806,10 +18423,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 2,
       "sampleEvents": [
         "Hillsborough Vintage Market"
@@ -17863,12 +18477,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "event-space",
-        "indoor"
-      ],
-      "eventCount": 6,
+      "venueType": [],
+      "eventCount": 7,
       "sampleEvents": [
         "Recovery: An Afternoon Tea Dance Party",
         "Sunday DRIFT Rooftop DJ Series at The Velvet Hippo!",
@@ -17916,10 +18526,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 9,
       "sampleEvents": [
         "Van Meter + Jack the Radio",
@@ -17970,13 +18577,13 @@
         "indoor",
         "outdoor"
       ],
-      "eventCount": 5,
+      "eventCount": 6,
       "sampleEvents": [
         "Mother's Day Rooftop Brunch 2026",
         "Cocktails & Cuisine Class: Back to the Basics Edition",
         "Father\u2019s Day at The Willard",
         "Cocktails & Cuisine Class: Popping into Summer",
-        "Rooftop Yoga"
+        "Cocktails & Cuisine Class: Firecracker Sparks Edition"
       ],
       "reviewNeeded": false,
       "osm_id": "way/843579903"
@@ -18044,7 +18651,8 @@
       "aliases": [
         "Cabaret Theatre, Theatre Raleigh Arts Center",
         "De Ann S. Jones Theatre",
-        "De Ann S. Jones Theatre at Theatre Raleigh Arts Center"
+        "De Ann S. Jones Theatre at Theatre Raleigh Arts Center",
+        "Theatre Raleigh, Cabaret Theatre"
       ],
       "address": "6638 Old Wake Forest Rd.",
       "city": "Raleigh",
@@ -18090,11 +18698,12 @@
         "indoor",
         "theater"
       ],
-      "eventCount": 5,
+      "eventCount": 6,
       "sampleEvents": [
         "Matilda the Musical",
         "Dear Evan Hansen",
         "Open Mic Night",
+        "TR Sings...Songs You\u2019re Too Old to Sing, but Why Not",
         "TR In Concert: Una Noche Con Los Azconas"
       ],
       "reviewNeeded": false,
@@ -18144,11 +18753,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "music-venue"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Carolina Hurricanes Playoff Watch Party"
@@ -18248,6 +18853,48 @@
       "reviewNeeded": false,
       "osm_id": null
     },
+    "tobacco-road-harley-davidson-raleigh": {
+      "slug": "tobacco-road-harley-davidson-raleigh",
+      "name": "Tobacco Road Harley-Davidson",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27603",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://tobaccoroadhd.com",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "threads": "",
+        "bluesky": "",
+        "tiktok": "",
+        "youtube": "",
+        "reddit": "",
+        "linkedin": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 832-2261",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "BIKES, BURGERS & BREWS"
+      ],
+      "reviewNeeded": false,
+      "osm_id": null
+    },
     "tobacco-wood-brewing-company-durham": {
       "slug": "tobacco-wood-brewing-company-durham",
       "name": "Tobacco Wood Brewing Company",
@@ -18255,7 +18902,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27713",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -18387,7 +19034,7 @@
       "slug": "triangle-town-center-raleigh",
       "name": "Triangle Town Center",
       "aliases": [],
-      "address": "3761 Sumner Blvd",
+      "address": "3761 Sumner Blvd, Raleigh, NC 27616",
       "city": "Raleigh",
       "state": "NC",
       "zip": "27616",
@@ -18415,11 +19062,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "market"
-      ],
-      "eventCount": 3,
+      "venueType": [],
+      "eventCount": 4,
       "sampleEvents": [
         "Caffeine & Machines Monthly Car Show Series",
         "Mama Afrika Pop-Up Market"
@@ -18617,11 +19261,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Living Poetry Pop-Up"
@@ -18661,11 +19301,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "winery"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Out Loud: a Rooftop Concert with Amy Johnson"
@@ -18735,11 +19371,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "park",
-        "stadium"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "PLAY BALL Weekend \u2013 NCAA DII Championship Series"
@@ -18772,10 +19404,7 @@
         "linkedin": ""
       },
       "contacts": [],
-      "venueType": [
-        "outdoor",
-        "park"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "The Great Cary Garden Tour 2026"
@@ -18815,11 +19444,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Dungeons & Drafthouse at Video Vortex - Revenge of the Spider Queen"
@@ -18883,11 +19508,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "restaurant"
-      ],
+      "venueType": [],
       "eventCount": 3,
       "sampleEvents": [
         "Mother's Day Market - Videri 2026",
@@ -18929,11 +19550,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "market",
-        "outdoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "VIETRI Spring Warehouse Sale"
@@ -19040,11 +19657,8 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "stadium"
-      ],
-      "eventCount": 7,
+      "venueType": [],
+      "eventCount": 8,
       "sampleEvents": [
         "Capital Auto Group 199 - SMART Modified Tour",
         "2026 NASCAR Regional Season - Acorn City 175",
@@ -19093,11 +19707,7 @@
           "other": "https://wakeforestnc.recdesk.com/Community/Facility/Detail?facilityId=1"
         }
       ],
-      "venueType": [
-        "community-center",
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Art & More in the Park 2026"
@@ -19243,10 +19853,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "indoor",
-        "theater"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Shadows of the 60s"
@@ -19310,13 +19917,13 @@
         "outdoor",
         "park"
       ],
-      "eventCount": 7,
+      "eventCount": 8,
       "sampleEvents": [
         "North Carolina Courage vs. Kansas City Current",
         "The Soccer Tournament",
         "North Carolina Courage vs. Seattle Reign",
         "North Carolina Courage vs. Washington Spirit",
-        "GRIT Gravel Criterium"
+        "North Carolina Courage vs. Utah Royals"
       ],
       "reviewNeeded": false,
       "osm_id": "way/28699874"
@@ -19421,13 +20028,11 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "outdoor",
-        "plaza"
-      ],
-      "eventCount": 2,
+      "venueType": [],
+      "eventCount": 3,
       "sampleEvents": [
         "DOJO Day: Food, Anime, and Sumo Culture",
+        "Christmas in July 2026",
         "Oak & Iron Impact Series"
       ],
       "reviewNeeded": false,
@@ -19579,11 +20184,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "historic-site",
-        "outdoor",
-        "park"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Muddy Paws Hike"
@@ -19721,11 +20322,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "bar",
-        "event-space",
-        "indoor"
-      ],
+      "venueType": [],
       "eventCount": 4,
       "sampleEvents": [
         "Autopilots, Poinsettia and Margot Perkinson",
@@ -19853,11 +20450,7 @@
           "other": ""
         }
       ],
-      "venueType": [
-        "event-space",
-        "indoor",
-        "park"
-      ],
+      "venueType": [],
       "eventCount": 1,
       "sampleEvents": [
         "Carolina Roller Derby Double Header"
@@ -19868,7 +20461,9 @@
     "yonder-not-just-a-bar-hillsborough": {
       "slug": "yonder-not-just-a-bar-hillsborough",
       "name": "Yonder, Not Just a Bar",
-      "aliases": [],
+      "aliases": [
+        "Yonder: Southern Cocktails and Brew"
+      ],
       "address": "114 West King Street",
       "city": "Hillsborough",
       "state": "NC",
@@ -19907,11 +20502,12 @@
         "bar",
         "indoor"
       ],
-      "eventCount": 4,
+      "eventCount": 5,
       "sampleEvents": [
         "Body Electric Goth Night Dance Party",
         "80's Hair Metal Dance Party",
         "Bastille Day Celebration | French music & cocktails",
+        "The Sunday Show | Live Standup Comedy",
         "Tropical Drinks & Tropical Terrariums Terrarium Workshop"
       ],
       "reviewNeeded": false,
@@ -19924,7 +20520,7 @@
       "address": "TBD",
       "city": "Durham",
       "state": "NC",
-      "zip": "27701",
+      "zip": "",
       "lat": null,
       "lng": null,
       "place_id": null,
@@ -20010,6 +20606,6 @@
       "osm_id": "node/12196277566"
     }
   },
-  "geocodedAt": "2026-07-17T20:44:59.426043+00:00",
-  "enrichedAt": "2026-07-17T21:11:37.435431+00:00"
+  "geocodedAt": "2026-07-24T17:45:22.333214+00:00",
+  "enrichedAt": "2026-07-24T17:44:42.278467+00:00"
 }
