@@ -30,8 +30,15 @@ from pathlib import Path
 _HERE = Path(__file__).parent.resolve()
 sys.path.insert(0, str(_HERE))
 
-from venue_utils import canonical_key, name_key  # noqa: E402
+from venue_utils import canonical_key, name_key, slugify  # noqa: E402
 from rapidfuzz import fuzz  # noqa: E402
+
+# Kept in sync with seed-venues.py — the fixed vocabulary of social platforms.
+# If seed-venues ever adds/removes one, mirror it here.
+SOCIAL_PLATFORMS = (
+    "facebook", "instagram", "twitter", "tiktok", "youtube",
+    "linkedin", "reddit", "threads", "bluesky",
+)
 
 REPO_ROOT = _HERE.parent
 VENUES_JSON = REPO_ROOT / "data" / "venues.json"
@@ -118,6 +125,88 @@ def match_event(event: dict, idx: dict) -> tuple[str | None, str]:
             return best_slug, "fuzzy"
 
     return None, "no_match"
+
+
+def _empty_socials() -> dict:
+    return {p: "" for p in SOCIAL_PLATFORMS}
+
+
+def _unique_slug(base: str, registry: dict) -> str:
+    """Return base, base-2, base-3, ... until we find a slug not in the registry."""
+    venues = registry["venues"]
+    if base not in venues:
+        return base
+    n = 2
+    while f"{base}-{n}" in venues:
+        n += 1
+    return f"{base}-{n}"
+
+
+def create_venue_from_event(event: dict, registry: dict, idx: dict) -> str:
+    """Insert a new venue stub into `registry` derived from `event`, update the
+    live indexes in `idx`, and return the new slug.
+
+    Stub fields (address, city, state, zip) come from the event. Enrichment
+    (linkMain, socials, contacts, lat/lng, place_id) is left blank for later
+    passes (enrich-venues.py, geocode-venues.py).
+    """
+    name = (event.get("venue") or "").strip() or "Unknown Venue"
+    city = (event.get("city") or "").strip()
+    state = (event.get("state") or "NC").strip()
+
+    # Slug convention matches seed-venues.py: "{name}-{city}" if city is set,
+    # otherwise just "{name}".
+    base = slugify(name)
+    if city:
+        base = f"{base}-{slugify(city)}"
+    slug = _unique_slug(base, registry)
+
+    record = {
+        "slug": slug,
+        "name": name,
+        "aliases": [],
+        "address": (event.get("address") or "").strip(),
+        "city": city,
+        "state": state,
+        "zip": (event.get("zip") or "").strip(),
+        "lat": None,
+        "lng": None,
+        "place_id": None,
+        "linkMain": "",
+        "linkEvents": "",
+        "socials": _empty_socials(),
+        "contacts": [],
+        "venueType": [],
+        "eventCount": 1,
+        "sampleEvents": [event.get("name", "")[:120]] if event.get("name") else [],
+        "reviewNeeded": not (event.get("address") or "").strip(),
+        "createdBy": "match-venues.auto",
+    }
+    registry["venues"][slug] = record
+
+    # Keep indexes fresh so subsequent events this batch can match against the
+    # newly-created venue (avoids creating three copies of the same new venue
+    # when it appears in three events).
+    idx["name_to_slug"][name.lower()] = slug
+    ck = canonical_key(record["address"], city, record["zip"])
+    if ck:
+        idx["canonkey_to_slug"][ck] = slug
+    idx["by_city"].setdefault(city.lower(), []).append(
+        (slug, name.lower(), [])
+    )
+    return slug
+
+
+def match_or_create(event: dict, registry: dict, idx: dict) -> tuple[str, str]:
+    """Match an event's venue against the registry. On no_match, insert a
+    new stub venue and return its slug (with reason='created'). Caller is
+    responsible for persisting `registry` after processing all events.
+    """
+    slug, reason = match_event(event, idx)
+    if slug:
+        return slug, reason
+    new_slug = create_venue_from_event(event, registry, idx)
+    return new_slug, "created"
 
 
 def process_events_file(path: Path, idx: dict, dry: bool) -> dict:

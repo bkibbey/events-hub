@@ -66,16 +66,22 @@ def get_client():
     pplx_key = os.environ.get("PERPLEXITY_API_KEY")
     oai_key = os.environ.get("OPENAI_API_KEY")
 
+    # max_retries=0 makes the per-call timeout a HARD cap. Otherwise the SDK
+    # would retry twice on timeout/network hiccups, tripling the wall clock.
     if pplx_key:
         try:
             from openai import OpenAI
-            return OpenAI(api_key=pplx_key, base_url="https://api.perplexity.ai"), "sonar"
+            return OpenAI(
+                api_key=pplx_key,
+                base_url="https://api.perplexity.ai",
+                max_retries=0,
+            ), "sonar"
         except ImportError:
             sys.exit("pip install openai")
     elif oai_key:
         try:
             from openai import OpenAI
-            return OpenAI(api_key=oai_key), "gpt-4o-mini"
+            return OpenAI(api_key=oai_key, max_retries=0), "gpt-4o-mini"
         except ImportError:
             sys.exit("pip install openai")
     else:
@@ -120,6 +126,9 @@ Research this event for the weekend of {week} and return the JSON schema.
 Use the provided link as the 'website' or 'ticketUrl' if appropriate.
 Keep the 'name' field close to the provided event name; correct only obvious typos."""
 
+    # Per-event hard cap: 15 seconds. If the API stalls beyond that we skip
+    # this event rather than block the whole batch. Callers catch the timeout
+    # via APITimeoutError / Exception in the enrichment loop.
     resp = client.chat.completions.create(
         model=model,
         messages=[
@@ -127,6 +136,7 @@ Keep the 'name' field close to the provided event name; correct only obvious typ
             {"role": "user", "content": prompt},
         ],
         temperature=0.2,
+        timeout=15.0,
     )
     text = resp.choices[0].message.content.strip()
     text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
@@ -194,7 +204,15 @@ def main():
     client, model = get_client()
     print(f"Using model: {model} | Enriching {len(raw_events)} events for week {week}")
 
+    # Import APITimeoutError lazily so this file still works if openai is missing
+    # (only used to give a friendlier log message on the 15s hard cap).
+    try:
+        from openai import APITimeoutError
+    except ImportError:
+        APITimeoutError = None
+
     enriched = []
+    timed_out = 0
     for i, ev in enumerate(raw_events, 1):
         print(f"  [{i}/{len(raw_events)}] {ev.get('raw','')[:60]}...")
         try:
@@ -205,11 +223,21 @@ def main():
                 result["multiDay"] = True
             enriched.append(result)
         except Exception as e:
-            print(f"    ERROR: {e} — skipping")
+            if APITimeoutError is not None and isinstance(e, APITimeoutError):
+                timed_out += 1
+                print(f"    TIMEOUT after 15s \u2014 skipping")
+            else:
+                print(f"    ERROR: {e} \u2014 skipping")
         time.sleep(0.5)
+    if timed_out:
+        print(f"\n\u26a0 {timed_out} event(s) timed out (>15s) and were skipped")
 
-    # Attach venueId to every event via the venue registry.
-    # Non-fatal: if the registry is missing or match fails we still write the file.
+    # Attach venueId to every event via the venue registry. Any event whose
+    # venue isn't in the registry gets a NEW stub venue inserted — this is
+    # the mechanism that replaces the retired weekly `seed-venues.py --write`
+    # run. `enrich-venues.py` will fill in the blanks on the next pass.
+    # Non-fatal: if the registry is missing or matching fails we still write
+    # the events file.
     try:
         import importlib.util as _iu
         _spec = _iu.spec_from_file_location(
@@ -217,22 +245,44 @@ def main():
         )
         _mv = _iu.module_from_spec(_spec)
         _spec.loader.exec_module(_mv)
-        build_indexes, match_event = _mv.build_indexes, _mv.match_event
+        build_indexes = _mv.build_indexes
+        match_or_create = _mv.match_or_create
 
         venues_path = DATA_DIR / "venues.json"
         if venues_path.exists():
             registry = json.loads(venues_path.read_text())
             idx = build_indexes(registry)
-            matched = 0
-            no_match = 0
+            reasons = {"name": 0, "canonical_key": 0, "fuzzy": 0, "created": 0}
+            created_slugs: list[str] = []
             for ev in enriched:
-                slug, reason = match_event(ev, idx)
+                slug, reason = match_or_create(ev, registry, idx)
                 ev["venueId"] = slug
-                if slug:
-                    matched += 1
-                else:
-                    no_match += 1
-            print(f"✓ Venue match: {matched}/{len(enriched)} events linked to a venue (no_match={no_match})")
+                reasons[reason] = reasons.get(reason, 0) + 1
+                if reason == "created":
+                    created_slugs.append(slug)
+
+            matched = reasons["name"] + reasons["canonical_key"] + reasons["fuzzy"]
+            print(
+                f"✓ Venue match: {matched}/{len(enriched)} matched existing venues "
+                f"[name:{reasons['name']} canonkey:{reasons['canonical_key']} "
+                f"fuzzy:{reasons['fuzzy']}]  |  created:{reasons['created']}"
+            )
+
+            # Persist registry ONLY if we added new venue stubs. Update the
+            # header metadata so the change is auditable.
+            if created_slugs:
+                registry["venueCount"] = len(registry["venues"])
+                registry["lastUpdatedBy"] = "update-metadata.py"
+                registry["lastUpdatedAt"] = date.today().isoformat()
+                venues_path.write_text(
+                    json.dumps(registry, indent=2, ensure_ascii=False) + "\n"
+                )
+                print(f"✓ venues.json updated with {len(created_slugs)} new stub(s):")
+                for s in created_slugs[:10]:
+                    print(f"    + {s}")
+                if len(created_slugs) > 10:
+                    print(f"    ... and {len(created_slugs) - 10} more")
+                print(f"  Next: run geocode-venues.py + enrich-venues.py --only-slugs \"{','.join(created_slugs)}\"")
         else:
             print("(no data/venues.json — skipping venueId assignment)")
     except Exception as e:

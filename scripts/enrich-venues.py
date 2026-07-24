@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import socket
 import sys
 import time
 import urllib.error
@@ -177,7 +178,9 @@ def build_prompt(v: dict, needs: dict) -> tuple[str, dict]:
 
 
 def call_perplexity(user_prompt: str, schema: dict, model: str, api_key: str,
-                   timeout: int = 60) -> dict | None:
+                   timeout: int = 45) -> dict | None:
+    """Hard per-venue timeout: 45 seconds. urllib.urlopen(timeout=) is a real
+    ceiling (no retries), so one stalled venue can't block the whole batch."""
     body = {
         "model": model,
         "messages": [
@@ -210,6 +213,10 @@ def call_perplexity(user_prompt: str, schema: dict, model: str, api_key: str,
             payload = json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         print(f"    HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:300]}", file=sys.stderr)
+        return None
+    except (TimeoutError, socket.timeout) as e:
+        # Explicit branch so timeouts get a clean log line vs. generic ERR
+        print(f"    TIMEOUT after {timeout}s", file=sys.stderr)
         return None
     except Exception as e:
         print(f"    ERR: {e}", file=sys.stderr)

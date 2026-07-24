@@ -1,5 +1,23 @@
 #!/usr/bin/env python3
-"""Seed data/venues.json from all archived weekly event files.
+"""[ONE-TIME BOOTSTRAP — DO NOT RUN WEEKLY]
+
+Original purpose: seed data/venues.json from all archived weekly event
+files. Kept in the tree for auditability of how the initial registry was
+built, and as a nuclear-option rebuild tool if venues.json is ever lost.
+
+Weekly ingest now creates new venue stubs via update-metadata.py →
+match-venues.match_or_create(). Running this script with --write would
+regenerate every record from event data — the merge-preserve logic keeps
+enrichment intact, but it's noisy and unnecessary. Prefer:
+
+  1. python scripts/ingest-email.py --archive-id XXX --week YYYY-MM-DD
+  2. python scripts/update-metadata.py --week YYYY-MM-DD   # creates stubs
+  3. python scripts/geocode-venues.py --provider census
+  4. python scripts/enrich-venues.py --only-slugs "slug1,slug2,..."
+
+Original docstring follows.
+
+Seed data/venues.json from all archived weekly event files.
 
 Two passes:
   1. Group by canonical (normalized_address, city, zip5). Ground truth.
@@ -624,9 +642,26 @@ def write_registry(registry: dict, weeks: int) -> None:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser()
+    ap = argparse.ArgumentParser(
+        description="[ONE-TIME BOOTSTRAP] Regenerate venues.json from all "
+        "archived event files. Weekly ingest creates new venues automatically "
+        "via update-metadata.py — you almost certainly do not want to run this."
+    )
     ap.add_argument("--write", action="store_true", help="Write data/venues.json (else dry-run report only)")
+    ap.add_argument(
+        "--i-know-what-im-doing", action="store_true",
+        help="Required alongside --write — this script is retired for weekly use.",
+    )
     args = ap.parse_args()
+
+    if args.write and not getattr(args, "i_know_what_im_doing", False):
+        sys.exit(
+            "seed-venues.py --write is a one-time bootstrap tool and should NOT "
+            "be run as part of the weekly pipeline. New venues are now created "
+            "automatically by update-metadata.py via match-venues.match_or_create(). "
+            "If you truly need to rebuild venues.json from scratch, re-run with "
+            "--write --i-know-what-im-doing."
+        )
 
     overrides = load_overrides()
     print(
