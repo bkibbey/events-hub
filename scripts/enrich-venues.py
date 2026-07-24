@@ -349,6 +349,8 @@ def main() -> int:
         return 2
 
     only = set(s.strip() for s in args.only_slugs.split(",")) if args.only_slugs else None
+    if only is not None:
+        print(f"--only-slugs filter active with {len(only)} slug(s)")
 
     registry = json.loads(VENUES_JSON.read_text())
     venues = registry["venues"]
@@ -397,8 +399,8 @@ def main() -> int:
                 stats["unchanged"] += 1
                 print(f"    no changes (API returned blanks)")
 
-        # Checkpoint save every 25 venues
-        if i % 25 == 0:
+        # Checkpoint save every 5 venues (was 25 — better resilience for small batches)
+        if i % 5 == 0:
             registry["enrichedAt"] = datetime.now(timezone.utc).isoformat()
             VENUES_JSON.write_text(json.dumps(registry, indent=2) + "\n")
             print(f"    (checkpoint saved at {i}/{len(targets)})")

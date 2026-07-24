@@ -548,7 +548,65 @@ def write_report(registry: dict, obs_count: int, weeks: int) -> None:
     print(f"Report: {REPORT_MD.relative_to(REPO_ROOT)}")
 
 
+# Fields we NEVER overwrite when a venue with the same slug already exists
+# on disk. These are populated by later pipeline steps (geocode-venues.py,
+# enrich-venues.py). Seed always regenerates from the event corpus, so
+# without this merge every reseed would wipe our enrichment work.
+PRESERVE_FIELDS = (
+    "lat", "lng", "place_id", "osm_id",
+    "linkMain", "linkEvents",
+    "socials", "contacts",
+    "geocodedAt", "enrichedAt",
+)
+
+
+def merge_with_existing(registry: dict) -> tuple[dict, dict]:
+    """Return (merged_registry, stats). For each slug that already lives in
+    data/venues.json, copy PRESERVE_FIELDS from the existing record onto the
+    freshly-seeded record. New slugs (not in existing file) are left as-is.
+    """
+    stats = {"preserved": 0, "new_slugs": 0, "removed_slugs": 0}
+    if not VENUES_JSON.exists():
+        stats["new_slugs"] = len(registry)
+        return registry, stats
+    try:
+        prior = json.loads(VENUES_JSON.read_text())
+    except Exception:
+        stats["new_slugs"] = len(registry)
+        return registry, stats
+    prior_venues = prior.get("venues") or {}
+    if isinstance(prior_venues, list):
+        prior_venues = {v["slug"]: v for v in prior_venues if v.get("slug")}
+
+    for slug, fresh in registry.items():
+        if slug not in prior_venues:
+            stats["new_slugs"] += 1
+            continue
+        old = prior_venues[slug]
+        preserved_any = False
+        for f in PRESERVE_FIELDS:
+            if f in old and old.get(f) not in (None, "", [], {}):
+                # Special-case dict-typed fields (socials): merge key-by-key,
+                # only pulling non-empty old values into blank fresh ones.
+                if isinstance(fresh.get(f), dict) and isinstance(old[f], dict):
+                    for k, v in old[f].items():
+                        if v and not fresh[f].get(k):
+                            fresh[f][k] = v
+                            preserved_any = True
+                # For scalar/list fields: only preserve if fresh is blank
+                elif fresh.get(f) in (None, "", [], {}):
+                    fresh[f] = old[f]
+                    preserved_any = True
+        if preserved_any:
+            stats["preserved"] += 1
+
+    # Count venues that used to exist but no longer do (dropped from event corpus)
+    stats["removed_slugs"] = len(set(prior_venues) - set(registry))
+    return registry, stats
+
+
 def write_registry(registry: dict, weeks: int) -> None:
+    registry, stats = merge_with_existing(registry)
     payload = {
         "version": 1,
         "generated": datetime.now(timezone.utc).isoformat(),
@@ -558,6 +616,11 @@ def write_registry(registry: dict, weeks: int) -> None:
     }
     VENUES_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
     print(f"Wrote registry: {VENUES_JSON.relative_to(REPO_ROOT)}")
+    print(
+        f"  merged with existing: {stats['preserved']} venues had "
+        f"enrichment preserved, {stats['new_slugs']} are new, "
+        f"{stats['removed_slugs']} old slugs no longer appear in events"
+    )
 
 
 def main() -> None:

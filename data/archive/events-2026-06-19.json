@@ -29,7 +29,8 @@
         "Ticketed"
       ],
       "description": "Durham Bulls host Jacksonville at Durham Bulls Athletic Park in Durham. The listing notes Friday fireworks and an admission price starting at $13.",
-      "id": 1
+      "id": 1,
+      "venueId": "durham-bulls-athletic-park-durham"
     },
     {
       "name": "Max Richter with the American Contemporary Music Ensemble, performing The Blue Notebooks and In A Landscape",
@@ -54,7 +55,8 @@
         "Ticketed"
       ],
       "description": "Max Richter performs at DPAC in Durham on Friday, June 19, 2026, with the American Contemporary Music Ensemble. The program features The Blue Notebooks and In A Landscape.",
-      "id": 2
+      "id": 2,
+      "venueId": "dpac-durham"
     },
     {
       "name": "The Official FIFA World Cup Watch Party: USA vs. Australia",
@@ -81,7 +83,8 @@
         "Outdoor"
       ],
       "description": "A free FIFA World Cup watch party for the USA vs. Australia match at The Rialto Theatre in Midtown Raleigh. The event includes giveaways and custom event gear, and advance RSVP is required.",
-      "id": 3
+      "id": 3,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Garrison Keillor",
@@ -107,7 +110,8 @@
         "Theater"
       ],
       "description": "Garrison Keillor appears at Meymandi Concert Hall at Martin Marietta Center for the Performing Arts in Raleigh on Friday, June 19, 2026 at 7:00 PM. The show was originally scheduled for January 31 and later rescheduled.",
-      "id": 4
+      "id": 4,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Juneteenth Celebration",
@@ -136,7 +140,8 @@
         "Ticketed"
       ],
       "description": "Join Marbles Kids Museum and Moore Square at the park and on the Playway at Marbles for a Juneteenth celebration with local artists, storytimes, a vendor market, food trucks, games, and music. The event is free to the public, but tickets are required for entry to Marbles Kids Museum.",
-      "id": 5
+      "id": 5,
+      "venueId": "marbles-kids-museum-raleigh"
     },
     {
       "name": "Andrew Rudick",
@@ -163,7 +168,8 @@
         "Ticketed"
       ],
       "description": "Andrew Rudick is scheduled to perform at Room 861 at Goodnights Comedy Club in Raleigh on Friday, June 19, 2026, at 7:30 PM. Goodnights lists the show as part of a June 19\u201321 run in Room 861.",
-      "id": 6
+      "id": 6,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Ralph Barbosa",
@@ -190,7 +196,8 @@
         "Ticketed"
       ],
       "description": "Ralph Barbosa is scheduled for a Friday performance at Goodnights Comedy Club in Raleigh on June 19, 2026, with shows at 7:00 PM and 9:15 PM. The event is a ticketed stand-up comedy appearance at the club's Midtown Raleigh location.",
-      "id": 7
+      "id": 7,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Kam Patterson",
@@ -218,7 +225,8 @@
         "Ticketed"
       ],
       "description": "Kam Patterson is scheduled for a five-show stand-up run at Raleigh Improv in Cary over the June 19\u201321 weekend. The listing shows performances across Friday, Saturday, and Sunday.",
-      "id": 8
+      "id": 8,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "Babyface Ray X 42 Dugg - 4 The Streets Tour",
@@ -244,7 +252,8 @@
         "Ticketed"
       ],
       "description": "Hip-hop concert featuring Babyface Ray and 42 Dugg at The Ritz in Raleigh. Multiple ticketing sources list the show for Friday, June 19, 2026 at 7:00 PM.",
-      "id": 9
+      "id": 9,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Music in the Park Juneteenth Celebration Morrisville 2026",
@@ -273,7 +282,8 @@
         "Charity"
       ],
       "description": "Morrisville\u2019s Music in the Park series includes a Juneteenth Celebration at Indian Creek Trailhead on Friday, June 19, 2026. The town lists free live music by Sahara Reggae Band, along with a food truck and vendor market.",
-      "id": 10
+      "id": 10,
+      "venueId": "indian-creek-greenway-trailhead-morrisville"
     },
     {
       "name": "Movie Night \u2013 The Parent Trap",
@@ -300,7 +310,8 @@
         "Outdoor"
       ],
       "description": "An outdoor screening of The Parent Trap at Fenton Square in Cary. The event is listed for Friday, June 19, 2026, from 7\u20139 PM and is free to attend.",
-      "id": 11
+      "id": 11,
+      "venueId": "fenton-square-cary"
     },
     {
       "name": "Square Dance Social at Dix Park",
@@ -327,7 +338,8 @@
         "Free"
       ],
       "description": "An outdoor square dance gathering at Dix Park with easy partner dances and no experience needed. The event takes place at Gipson Play Plaza and runs from 6:00 PM to 8:00 PM.",
-      "id": 12
+      "id": 12,
+      "venueId": "gipson-play-plaza-raleigh"
     },
     {
       "name": "Juneteenth: A Chavis Celebration",
@@ -356,7 +368,8 @@
         "Outdoor"
       ],
       "description": "Join the City of Raleigh at John Chavis Memorial Park for a Juneteenth celebration featuring waterslides, water games, arts and crafts, a live DJ, vendor booths, wellness screenings, a splash pad, food trucks, live music, and evening performances. The event honors freedom, resilience, and community.",
-      "id": 13
+      "id": 13,
+      "venueId": "john-chavis-memorial-park-and-community-center-raleigh"
     },
     {
       "name": "Juneteenth Live: Donnie Deneil + Scrumptious w/ The Phoebes, Strangers Until Now",
@@ -384,7 +397,8 @@
         "Adult"
       ],
       "description": "Juneteenth Live features Donnie Deneil and Scrumptious with The Phoebes and Strangers Until Now at The Pour House Music Hall & Record Shop in Raleigh. The event is listed for Friday, June 19, 2026, with doors at 8:00 PM and showtime at 9:00 PM.",
-      "id": 14
+      "id": 14,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Candlelight: Tribute to Taylor Swift",
@@ -410,7 +424,8 @@
         "Ticketed"
       ],
       "description": "Candlelight concerts present a live string performance of Taylor Swift songs under candlelight at The Historic Wakefield Barn. The event is scheduled for Friday, June 19, 2026, and runs about 60\u201375 minutes.",
-      "id": 15
+      "id": 15,
+      "venueId": "the-historic-wakefield-barn-wake-forest"
     },
     {
       "name": "Candlelight: 90s Unplugged",
@@ -436,7 +451,8 @@
         "Ticketed"
       ],
       "description": "Fever presents a Candlelight concert featuring the music of 90s Unplugged at The Historic Wakefield Barn. The performance is scheduled for Friday, June 19, 2026, with assigned seating and an age minimum of 8 years old.",
-      "id": 16
+      "id": 16,
+      "venueId": "the-historic-wakefield-barn-wake-forest"
     },
     {
       "name": "ADF Presents: Bill T. Jones/Arnie Zane Company",
@@ -462,7 +478,8 @@
         "Ticketed"
       ],
       "description": "American Dance Festival presents Bill T. Jones/Arnie Zane Company performing at Page Auditorium at Duke in Durham. The program is listed as 70 minutes with no intermission and includes 'Continuous Replay' and 'Story'. ",
-      "id": 17
+      "id": 17,
+      "venueId": "page-auditorium-at-duke-durham"
     },
     {
       "name": "Towards Zero",
@@ -488,7 +505,8 @@
         "Ticketed"
       ],
       "description": "University Theatre presents Agatha Christie and Gerald Verner\u2019s thriller Towards Zero at Titmus Theatre. The production runs June 11\u201321, 2026 at NC State\u2019s TheatreFEST.",
-      "id": 18
+      "id": 18,
+      "venueId": "titmus-theatre-raleigh"
     },
     {
       "name": "Dear Evan Hansen",
@@ -515,7 +533,8 @@
         "Ticketed"
       ],
       "description": "Dear Evan Hansen runs at Theatre Raleigh from June 3\u201321, 2026. The production is staged at De Ann S. Jones Theatre and tells the story of a high school senior struggling to belong.",
-      "id": 19
+      "id": 19,
+      "venueId": "theatre-raleigh-raleigh"
     },
     {
       "name": "Anastasia the Musical",
@@ -542,7 +561,8 @@
         "Ticketed"
       ],
       "description": "Anastasia the Musical is running at The Justice Theater Project in Raleigh from June 5 through June 21, 2026. The production is a stage adaptation of the animated film, following a young orphan\u2019s search for her past.",
-      "id": 20
+      "id": 20,
+      "venueId": "the-justice-theater-project-brier-creek"
     },
     {
       "name": "Zebulon Devil Dogz vs. Greenville Yard Gnomes",
@@ -569,7 +589,8 @@
         "Outdoor"
       ],
       "description": "The Zebulon Devil Dogz host the Greenville Yard Gnomes in a Coastal Plain League baseball game at Five County Stadium. The listed game time is 6:30 PM on Friday, June 19, 2026.",
-      "id": 21
+      "id": 21,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "The Road From Emancipation to Freedom",
@@ -597,7 +618,8 @@
         "Adult"
       ],
       "description": "Torrey Dixon presents a Juneteenth talk on the legal and historical significance of Juneteenth at the City of Raleigh Museum. The event is presented in partnership with the Capital City Lawyers Association.",
-      "id": 22
+      "id": 22,
+      "venueId": "city-of-raleigh-museum-raleigh"
     },
     {
       "name": "Summer at the Springs Featuring Joe Hero Band (Foo Fighters Tribute)",
@@ -625,7 +647,8 @@
         "Beer"
       ],
       "description": "Summer at the Springs is a free outdoor concert series at the Holly Springs Cultural Center. This June 19 event features Joe Hero Band performing Foo Fighters tribute music, with food trucks and beer and wine available for purchase.",
-      "id": 23
+      "id": 23,
+      "venueId": "holly-springs-cultural-center-holly-springs"
     },
     {
       "name": "Neem The Animist - Juneteenth Album Release / Cardigan / Tweekeen / Trillville Rasta / Dymira Decadent / Truth Decay",
@@ -652,7 +675,8 @@
         "Festival"
       ],
       "description": "Neem The Animist presents a Juneteenth album release show at KINGS in Raleigh with Cardigan, Tweekeen, Trillville Rasta, Dymira Decadent, and Truth Decay. The event is listed for Friday, June 19, 2026, with doors at 7:00 PM and admission of $10.",
-      "id": 24
+      "id": 24,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Necromancy: Goth Night w/ Corpse Dust",
@@ -679,7 +703,8 @@
         "Ticketed"
       ],
       "description": "Necromancy: Goth Night w/ Corpse Dust takes place at Chapel of Bones in Raleigh on Friday, June 19, 2026. VisitRaleigh lists it as an 8pm\u20131am event at 658 Maywood Ave. Ste. B 110, and the event is 18+ with valid ID.",
-      "id": 25
+      "id": 25,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Ice Cream Social 2026",
@@ -705,7 +730,8 @@
         "Family"
       ],
       "description": "A free ice cream social at the Morrisville Senior Center, sponsored by Cornerstone Caregiving. The Town of Morrisville lists it for Friday, June 19, 2026, with registration required.",
-      "id": 26
+      "id": 26,
+      "venueId": "morrisville-senior-center-morrisville"
     },
     {
       "name": "Holly Springs Salamanders vs. Wilmington Sharks",
@@ -733,7 +759,8 @@
         "Family"
       ],
       "description": "The Holly Springs Salamanders host the Wilmington Sharks in a Coastal Plain League game at North Main Athletic Complex, listed for Friday, June 19 at 6:30 PM. The matchup is also shown on the team schedule as a home game in Holly Springs.",
-      "id": 27
+      "id": 27,
+      "venueId": "north-main-athletic-complex-holly-springs"
     },
     {
       "name": "Fire of Freedom",
@@ -760,7 +787,8 @@
         "Family"
       ],
       "description": "Mike Wiley Productions presents a free performance of Fire of Freedom at the Alston-Massenburg Center. The one-man show tells the story of Abraham Galloway, an enslaved man who escaped to freedom and became a Union spy, abolitionist, and political leader.",
-      "id": 28
+      "id": 28,
+      "venueId": "alston-massenburg-center-wake-forest"
     },
     {
       "name": "Danger!",
@@ -786,7 +814,8 @@
         "Ticketed"
       ],
       "description": "Burning Coal Theatre presents Danger!, a solo play in Raleigh about a man who believes his neighbor\u2019s son is a supernatural being and tries to prove it. It is part of the theatre\u2019s Second Stage series and runs at the Murphey School location.",
-      "id": 29
+      "id": 29,
+      "venueId": "murphey-school-auditorium-raleigh"
     },
     {
       "name": "An Evening with Folkknot",
@@ -811,7 +840,8 @@
         "Ticketed"
       ],
       "description": "Folkknot performs at The Wake Forest Listening Room on Friday, June 19, 2026. The event is listed as all ages with doors at 6:45 PM and the show beginning at 7:30 PM.",
-      "id": 30
+      "id": 30,
+      "venueId": "the-wake-forest-listening-room-wake-forest"
     },
     {
       "name": "Aittala x Embrace Oblivion x Crimson Steel",
@@ -837,7 +867,8 @@
         "Ticketed"
       ],
       "description": "Aittala, Embrace the Oblivion, and Crimson Steel are scheduled to perform at Cannonball Music Hall in Raleigh on Friday, June 19, 2026. Visit Raleigh lists the showtime as 7:30\u201311pm with paid admission.",
-      "id": 31
+      "id": 31,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Aaron Hamm and Big River Band; Kaden Jones Band/Tan Sanders",
@@ -863,7 +894,8 @@
         "Ticketed"
       ],
       "description": "Aaron Hamm and Big River Band with Kaden Jones Band/Tan Sanders is scheduled for Friday, June 19, 2026 at Lincoln Theatre in Raleigh. Venue listings show a 7:15 PM show time with doors at 6:15 PM.",
-      "id": 32
+      "id": 32,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "2026 NASCAR Regional Season - Denny's of Garner 190",
@@ -888,7 +920,8 @@
         "Ticketed"
       ],
       "description": "NASCAR Regional racing returns to Wake County Speedway for the Denny's of Garner 190. The event takes place on Friday, June 19, 2026, with gates opening before an 8:30 PM green flag.",
-      "id": 33
+      "id": 33,
+      "venueId": "wake-county-speedway-raleigh"
     },
     {
       "name": "The Rocky Horror Picture Show",
@@ -915,7 +948,8 @@
         "Ticketed"
       ],
       "description": "The Low Down Cheap Little Punks present The Rocky Horror Picture Show at The Rialto Theatre in Raleigh. The event is listed for Friday, June 19, 2026, with doors at 11:30 PM and showtime at 11:55 PM.",
-      "id": 34
+      "id": 34,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Juneteenth at Pinhook",
@@ -942,7 +976,8 @@
         "LGBTQ+"
       ],
       "description": "Dirty South Juneteenth Celebration Party at The Pinhook is a 18+ club event featuring DJ Sol B2B VER and Sex Party B2B Deyon. The event is presented as a celebration of Southern club culture with a sliding-scale door price.",
-      "id": 35
+      "id": 35,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Party at Future Hooman Art Exhibit",
@@ -969,7 +1004,8 @@
         "Adult"
       ],
       "description": "The Flux & Drift party series at Future Hooman returns during Downtown Durham\u2019s 3rd Friday Art Walk with the themed event 'The Long Night.' The evening includes DJs, an interactive exhibit space, light snacks and drinks, and an optional solstice connection experiment.",
-      "id": 36
+      "id": 36,
+      "venueId": "future-hooman-durham"
     },
     {
       "name": "Mon\u00e9t Noelle Marshall",
@@ -996,7 +1032,8 @@
         "Ticketed"
       ],
       "description": "A one-woman performance titled 'Ain't No Such Thing As a One-Woman Show' by Mon\u00e9t Noelle Marshall at Hayti Heritage Center in Durham. The event is scheduled for Friday evening and is part of her Durham-based multidisciplinary work.",
-      "id": 37
+      "id": 37,
+      "venueId": "hayti-heritage-center-durham"
     },
     {
       "name": "Juneteenth at Hub RTP",
@@ -1025,7 +1062,8 @@
         "Free"
       ],
       "description": "Hub RTP's Juneteenth celebration returns on June 19, 2026, with live performances, interactive art, educational experiences, vendors, and family activities. The event is a free, public gathering at the Horseshoe at Hub RTP in Durham.",
-      "id": 38
+      "id": 38,
+      "venueId": "hub-rtp-durham"
     },
     {
       "name": "We Set Our Terms: A Black Erotic Praxis Open Mic: Third Friday Juneteenth Edition",
@@ -1053,7 +1091,8 @@
         "Ticketed"
       ],
       "description": "A Juneteenth-themed open mic event in Durham focused on Black erotic praxis, consent, and liberation. The listing places it at Zeitgeist Gallery & Bar on Friday at 5 PM.",
-      "id": 39
+      "id": 39,
+      "venueId": "zeitgeist-gallery-bar-durham"
     },
     {
       "name": "Juneteenth Observance Ceremony",
@@ -1080,7 +1119,8 @@
         "Charity"
       ],
       "description": "This Juneteenth observance ceremony takes place at Catawba Trail Farm in Durham and is hosted by UCAN. The event is listed as a free, preregistered community celebration on Friday afternoon.",
-      "id": 40
+      "id": 40,
+      "venueId": "catawba-trail-farm-durham"
     },
     {
       "name": "Honoring Juneteenth In Our Courts",
@@ -1106,7 +1146,8 @@
         "Festival"
       ],
       "description": "This Juneteenth event features a guest panel on Black lawyers' legacy in North Carolina, performances, and entertainment at the NCCU Student Center. Hosted by the NCCU School of Law Social Justice and Racial Equity Institute, the North Carolina Association of Public Defenders, and the George H. White Bar Association.",
-      "id": 41
+      "id": 41,
+      "venueId": "nccu-student-center-durham"
     },
     {
       "name": "Elizabeth June: NOTES from a NARCISSISTIC NEGRO & Other N Words (NNN) One-Woman Show",
@@ -1133,7 +1174,8 @@
         "Adult"
       ],
       "description": "An autobiographical one-woman show written and performed by Elizabeth June. The performance recounts survival, healing, and triumph through songs, spoken word, stand-up, and stories.",
-      "id": 42
+      "id": 42,
+      "venueId": "the-artscenter-carrboro"
     },
     {
       "name": "Chapel Hill-Carrboro Juneteenth Celebration",
@@ -1162,7 +1204,8 @@
         "Family"
       ],
       "description": "The annual Chapel Hill-Carrboro Juneteenth Celebration is a community gathering at Hargraves Community Center. It includes live performances, history exhibits, art vendors, nonprofits, local food, dancing, and activities for children.",
-      "id": 43
+      "id": 43,
+      "venueId": "hargraves-community-center-chapel-hill"
     },
     {
       "name": "Carolina Hurricanes Championship Celebration Parade",
@@ -1189,7 +1232,8 @@
         "Free"
       ],
       "description": "The Carolina Hurricanes will celebrate their 2026 Stanley Cup victory with a parade starting at 11:00 a.m. in Downtown Raleigh, followed by a fan rally at City Plaza.",
-      "id": 44
+      "id": 44,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "Hank Williams Jr.",
@@ -1215,7 +1259,8 @@
         "Ticketed"
       ],
       "description": "Hank Williams Jr. performs at Coastal Credit Union Music Park at Walnut Creek in Raleigh on Saturday, June 20, 2026. The concert is scheduled for 6:30 PM and tickets start at $43+.",
-      "id": 45
+      "id": 45,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "Carolina Flyers Ultimate Frisbee vs Vegas Bighorns \u2014 Narwhal Night",
@@ -1242,7 +1287,8 @@
         "Ticketed"
       ],
       "description": "Professional ultimate frisbee matchup featuring the Carolina Flyers against the Vegas Bighorns at Durham County Memorial Stadium. The event is billed as Narwhal Night and is scheduled for Saturday, June 20, 2026 at 7:30 PM.",
-      "id": 46
+      "id": 46,
+      "venueId": "durham-county-memorial-stadium-durham"
     },
     {
       "name": "Capital City Juneteenth Celebration",
@@ -1270,7 +1316,8 @@
         "Food"
       ],
       "description": "The community celebration takes place at Harvey Hill in Dorothea Dix Park on Saturday, June 20, 2026, from 2:00 to 6:30 PM. It features entertainment, kids activities, vendors, and food in honor of Juneteenth.",
-      "id": 47
+      "id": 47,
+      "venueId": "dix-park-raleigh"
     },
     {
       "name": "Juneteenth Celebration 2026",
@@ -1299,7 +1346,8 @@
         "Family"
       ],
       "description": "Cary\u2019s annual Juneteenth celebration takes place at Downtown Cary Park on Saturday, June 20, 2026, from 4 to 9:30 p.m. The event features live performances, spoken word, dance, and interactive activities curated by Historian Darrell Stover.",
-      "id": 48
+      "id": 48,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "Apex Juneteenth Festival",
@@ -1328,7 +1376,8 @@
         "Outdoor"
       ],
       "description": "Juneteenth in the Peak commemorates the end of slavery in the United States through education, culture, and entertainment. The event features live music and performances, food vendors, Juneteenth storytelling, and local vendors at Town Hall Campus.",
-      "id": 49
+      "id": 49,
+      "venueId": "town-hall-campus-apex"
     },
     {
       "name": "Venetian Vespers Music",
@@ -1355,7 +1404,8 @@
         "Arts & Crafts"
       ],
       "description": "This concert features larger-scale works with soloists and period instruments in the format of a traditional Vespers evening prayer service. The program includes psalm settings by Claudio Monteverdi and concludes with Giacomo Carissimi's eight-part Magnificat.",
-      "id": 50
+      "id": 50,
+      "venueId": "duke-chapel-durham"
     },
     {
       "name": "Mozart by Moonlight at Summerfest",
@@ -1382,7 +1432,8 @@
         "Ticketed"
       ],
       "description": "UNC Health Summerfest presents Mozart by Moonlight with the North Carolina Symphony at Koka Booth Amphitheatre in Cary. The program includes Mozart\u2019s Overture to La Clemenza di Tito, Violin Concerto No. 3, and Symphony No. 41, \"Jupiter.\"",
-      "id": 51
+      "id": 51,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "NC GOT NEXT",
@@ -1407,7 +1458,8 @@
         "Ticketed"
       ],
       "description": "NC GOT NEXT is listed for Raleigh at The Portal HQ for the weekend of June 19, 2026. The available listing does not provide additional public details about the program, schedule, or admission.",
-      "id": 52
+      "id": 52,
+      "venueId": "the-portal-hq-raleigh"
     },
     {
       "name": "NCMA Movie Night: Shrek",
@@ -1434,7 +1486,8 @@
         "Outdoor"
       ],
       "description": "NCMA and Moore Square present a free outdoor screening of Shrek in downtown Raleigh. The event includes themed programming starting at 6 p.m., food trucks, and the film beginning at 7:15 p.m.",
-      "id": 53
+      "id": 53,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Park Tour: Art and Sculpture",
@@ -1461,7 +1514,8 @@
         "Free"
       ],
       "description": "A guided walking tour of the North Carolina Museum of Art\u2019s park focuses on the sculpture collection and other outdoor art installations. The event is listed as free and scheduled for Saturday morning, June 20, 2026.",
-      "id": 54
+      "id": 54,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Carolina Kitty Con",
@@ -1489,7 +1543,8 @@
         "Ticketed"
       ],
       "description": "Carolina Kitty Con is a two-day feline-themed festival at the North Carolina State Fairgrounds in Raleigh. The event features entertainers, presenters, vendors, and local cat rescues.",
-      "id": 55
+      "id": 55,
+      "venueId": "agri-supply-exposition-center-at-north-carolina-state-fairgrounds-raleigh"
     },
     {
       "name": "2026 Raleigh Hoop Nights Kick Off Event",
@@ -1516,7 +1571,8 @@
         "Outdoor"
       ],
       "description": "This is the official kickoff for the 2026 Raleigh Hoop Nights season, a community basketball event hosted by the City of Raleigh and Raleigh Police Department. It takes place at Roberts Park on Saturday, June 20, from 3 to 6 PM and is free and open to youth and families.",
-      "id": 56
+      "id": 56,
+      "venueId": "roberts-park-raleigh"
     },
     {
       "name": "Speed House Open Garage",
@@ -1542,7 +1598,8 @@
         "Free"
       ],
       "description": "Speed House\u2019s Open Garage is a recurring Saturday morning gathering for neighbors, enthusiasts, collectors, and the car-curious. The June 2026 listing shows the event at 10:00 AM at Speed House in Durham.",
-      "id": 57
+      "id": 57,
+      "venueId": "speed-house-durham"
     },
     {
       "name": "Solos Duos Quartet Live Music",
@@ -1569,7 +1626,8 @@
         "Arts & Crafts"
       ],
       "description": "Concert at The ArtsCenter featuring Daniel Levin, Billy J. Hawkains III, Laurent Estoppey, and Matthew Rock. The event is scheduled for Saturday, June 20, 2026 at 7:30 PM.",
-      "id": 58
+      "id": 58,
+      "venueId": "the-artscenter-carrboro"
     },
     {
       "name": "Muddy Paws Hike",
@@ -1595,7 +1653,8 @@
         "Ticketed"
       ],
       "description": "Join a nature walk along the Eno River where you and your dog can meet new friends and cool off in the water. Dogs must be on a non-retractable leash, and participant registration is required.",
-      "id": 59
+      "id": 59,
+      "venueId": "west-point-on-the-eno-environmental-education-pavilion-durham"
     },
     {
       "name": "Outdoor Pilates on the \"Lawn\" \u2014 A Juneteenth Wellness Experience",
@@ -1621,7 +1680,8 @@
         "Ticketed"
       ],
       "description": "A Juneteenth-themed outdoor Pilates class held on the lawn of the Historic Russell School in Hillsborough. The event runs from 8:00 to 9:00 AM and includes a rain date of June 27, 2026.",
-      "id": 60
+      "id": 60,
+      "venueId": "lawn-of-the-historic-russell-school-hillsborough"
     },
     {
       "name": "9th Anniversary + Summer Solstice Wine Party",
@@ -1649,7 +1709,8 @@
         "Adult"
       ],
       "description": "Botanist & Barrel is hosting a 9th Anniversary + Summer Solstice Wine Party in Cedar Grove with wine, music, and local food. The event listing indicates a Saturday start at 4 PM.",
-      "id": 61
+      "id": 61,
+      "venueId": "botanist-and-barrel-cedar-grove"
     },
     {
       "name": "Art Resource Collective: Building a Sustainable Creative Life",
@@ -1675,7 +1736,8 @@
         "Ticketed"
       ],
       "description": "Building a Sustainable Creative Life is a free, community-centered gathering in Durham designed for artists and creatives. It takes place at East Regional Library and focuses on resources for building a sustainable creative life.",
-      "id": 62
+      "id": 62,
+      "venueId": "east-regional-library-durham"
     },
     {
       "name": "Mystic Father's Day Picnic & Tournament of Dads",
@@ -1704,7 +1766,8 @@
         "Ticketed"
       ],
       "description": "Mystic Farm & Distillery hosts a Father\u2019s Day picnic featuring a dad pie-eating contest, beer-chugging contest, best dad joke contest, lawn games, BBQ, cocktails, wine, beer, soda, and a free bourbon tasting. Tickets include one free cocktail and bourbon tasting, and guests age 20 and under do not need a ticket.",
-      "id": 63
+      "id": 63,
+      "venueId": "mystic-farm-distillery-durham"
     },
     {
       "name": "ADF Presents: Camille A. Brown & Dancers w/ Post Performance Discussion",
@@ -1730,7 +1793,8 @@
         "Ticketed"
       ],
       "description": "Camille A. Brown & Dancers appears at the American Dance Festival at Reynolds Industries Theater at Duke. The Saturday matinee includes a post-performance discussion and runs about 60 minutes.",
-      "id": 64
+      "id": 64,
+      "venueId": "reynolds-industries-theater-at-duke-durham"
     },
     {
       "name": "Mean Habit / Razadan / COGS",
@@ -1757,7 +1821,8 @@
         "LGBTQ+"
       ],
       "description": "Mean Habit, Razadan, and COGS are scheduled to play The Pinhook in Durham on Saturday, June 20, 2026. The listing shows it as an all-ages show with doors at 6:00 PM and music at 6:30 PM.",
-      "id": 65
+      "id": 65,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Street Fruit Drag & Dance Party",
@@ -1786,7 +1851,8 @@
         "Adult"
       ],
       "description": "Street Fruit Drag + Dance Party is a Pride Month drag show and dance party at The Pinhook in Durham. Venue listings show doors at 10:00 PM and showtime at 10:30 PM on Saturday, June 20, 2026.",
-      "id": 66
+      "id": 66,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Peak City Band - Beer Garden Concert Series",
@@ -1813,7 +1879,8 @@
         "Outdoor"
       ],
       "description": "Peak City Band performs as part of The Glass Jug Beer Lab - RTP's Beer Garden Concert Series. The event is listed for Saturday, June 20, 2026, from 6:00 PM to 9:00 PM and admission is free.",
-      "id": 67
+      "id": 67,
+      "venueId": "the-glass-jug-beer-lab-durham"
     },
     {
       "name": "Open Stu: Juneteenth Edition",
@@ -1841,7 +1908,8 @@
         "Outdoor"
       ],
       "description": "Open Stu: Juneteenth Edition is a living documentary project focused on Black creative community, with portrait sessions, curated archival ephemera, and DJ music. The event is free and open to all at Hayti Heritage Center in Durham.",
-      "id": 68
+      "id": 68,
+      "venueId": "hayti-heritage-center-durham"
     },
     {
       "name": "Pride Drag Show",
@@ -1868,7 +1936,8 @@
         "Ticketed"
       ],
       "description": "Glass Jug Downtown\u2019s Pride Drag Show features three performers and starts at 7:00 PM on Saturday, June 20. The event is 18+ and takes place at The Glass Jug Beer Lab in downtown Durham.",
-      "id": 69
+      "id": 69,
+      "venueId": "glass-jug-downtown-durham"
     },
     {
       "name": "What is Architecture? Family Program",
@@ -1895,7 +1964,8 @@
         "Ticketed"
       ],
       "description": "An in-person family event at Chapel Hill Public Library featuring architecture-themed readings and hands-on build activities for children and adults. The Eventbrite listing describes it as a two-hour program with design and construction activities.",
-      "id": 70
+      "id": 70,
+      "venueId": "chapel-hill-public-library-chapel-hill"
     },
     {
       "name": "Hillsborough Vintage Market",
@@ -1922,7 +1992,8 @@
         "Free"
       ],
       "description": "The Hillsborough Vintage Market returns this Saturday with 30+ vendors offering vintage clothing, accessories, and home goods at The Rookery in Hillsborough.",
-      "id": 71
+      "id": 71,
+      "venueId": "the-rookery-hillsborough"
     },
     {
       "name": "Sweet Mama Stringbean: The Life & Times of Ethel Waters",
@@ -1950,7 +2021,8 @@
         "Ticketed"
       ],
       "description": "Agape Theatre Project presents this play about blues singer and actress Ethel Waters, with Durham performances at NCCU University Theatre. Listings indicate a weekend run in June 2026, including Saturday at 4:00 PM and Sunday at 3:00 PM.",
-      "id": 72
+      "id": 72,
+      "venueId": "nccu-university-theatre-durham"
     },
     {
       "name": "Chrissy Chlapecka",
@@ -1977,7 +2049,8 @@
         "21+"
       ],
       "description": "Chrissy Chlapecka is scheduled to perform at Stanczyks in Durham on Saturday, June 20, 2026. Venue listings show doors at 7:00 PM and the show at 8:00 PM.",
-      "id": 73
+      "id": 73,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Deb\u00ed Tirar M\u00e1s Fiestas | The Bad Bunny Party at Motorco",
@@ -2004,7 +2077,8 @@
         "Ticketed"
       ],
       "description": "NDVST presents a 21+ dance party at Motorco Music Hall celebrating reggaeton, dembow, merengue, and other Latin dance hits. The event is scheduled for 9:00 PM with $15 admission.",
-      "id": 74
+      "id": 74,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Get Out of My Dreams \u2014 Sapphic Dream Club Pride Party",
@@ -2032,7 +2106,8 @@
         "Adult"
       ],
       "description": "A Pride-themed sapphic dream club dance party at Arcana Durham on Saturday, June 20, 2026. Event listings show it starts at 9:00 PM and runs late into the night.",
-      "id": 75
+      "id": 75,
+      "venueId": "arcana-durham-durham"
     },
     {
       "name": "BTR and V&V present: Hell & Highwater Tour",
@@ -2058,7 +2133,8 @@
         "Adult"
       ],
       "description": "This Saturday event at Cannonball Music Hall features Hellheart and Seaside Massacre, with support from Alpha Andromeda, Absent Colors, and Celaris. Doors open at 6 PM and music starts at 7 PM; the show is all ages with a $5 surcharge for under 21.",
-      "id": 76
+      "id": 76,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Document One",
@@ -2085,7 +2161,8 @@
         "21+"
       ],
       "description": "Document One is scheduled at Kings in downtown Raleigh on Saturday, June 20, 2026, at 9:00 PM. The listing shows support from ND-Skyz and Back2Wax, with admission priced at $27.50.",
-      "id": 77
+      "id": 77,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Jeszcze Raz: The Wolfpack Sound Band Returns",
@@ -2111,7 +2188,8 @@
         "Free"
       ],
       "description": "A free Saturday night performance by The Wolfpack Sound Polka Band at Slim's Dive Bar in downtown Raleigh. The event is listed for June 20, 2026, from 7 to 11 PM.",
-      "id": 78
+      "id": 78,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Tank and the Bangas Host a Carrboro Juneteenth Celebration",
@@ -2138,7 +2216,8 @@
         "Adult"
       ],
       "description": "This Juneteenth weekend concert features Tank and the Bangas with opening acts \u00a1Tumbao! and Ariel J at Cat's Cradle Back Yard. The event is listed for Saturday, June 20, 2026, as part of Carrboro's Juneteenth celebration.",
-      "id": 79
+      "id": 79,
+      "venueId": "cat-s-cradle-carrboro"
     },
     {
       "name": "Juneteenth, Freedom in the Park",
@@ -2167,7 +2246,8 @@
         "Holiday"
       ],
       "description": "A Juneteenth celebration at Mill Bridge Nature Park with live performances, educational information, family activities, great food, and local businesses. The event is scheduled for Saturday, June 20, 2026, from 2:00 PM to 6:00 PM.",
-      "id": 80
+      "id": 80,
+      "venueId": "mill-bridge-nature-park-wake-forest"
     },
     {
       "name": "Landslide - A Tribute to Fleetwood Mac",
@@ -2192,7 +2272,8 @@
         "Ticketed"
       ],
       "description": "Landslide is a professional Fleetwood Mac tribute band performing at Lincoln Theatre in Raleigh on Saturday, June 20, 2026. The show is scheduled for 8 PM, with doors opening at 7 PM.",
-      "id": 81
+      "id": 81,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Left Cross w/ Serpentshrine, Vampyric Sword, Nganga.",
@@ -2218,7 +2299,8 @@
         "Ticketed"
       ],
       "description": "Left Cross headlines this 21+ show at The Pour House Music Hall & Record Shop in Raleigh, joined by Serpentshrine, Vampyric Sword, and Nganga. The event is scheduled for Saturday, June 20, 2026 at 8:00 PM.",
-      "id": 82
+      "id": 82,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Queer Prom",
@@ -2245,7 +2327,8 @@
         "Adult"
       ],
       "description": "Bitter Social is hosting Queer Prom on Saturday, June 20, 2026, with music by DJ Gay Agenda. The event runs from 9 PM to 2 AM at the upstairs venue above Centro in downtown Raleigh.",
-      "id": 83
+      "id": 83,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Queer Wrath Returns!",
@@ -2273,7 +2356,8 @@
         "Ticketed"
       ],
       "description": "Queer Wrath Returns! is a vibrant performance showcase featuring drag, metal, and queer art that blends protest with celebration at Chapel of Bones.",
-      "id": 84
+      "id": 84,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Artet Jazz Night",
@@ -2299,7 +2383,8 @@
         "Ticketed"
       ],
       "description": "Artet Jazz Night is a weekly event featuring groove-based, partly improvised jazz with original tunes and unexpected covers, sponsored by ARTET infused aperitifs.",
-      "id": 85
+      "id": 85,
+      "venueId": "rebus-works-raleigh"
     },
     {
       "name": "Garner Juneteenth Celebration",
@@ -2328,7 +2413,8 @@
         "Music"
       ],
       "description": "The Town of Garner\u2019s annual Juneteenth celebration takes place at the Garner Performing Arts Center on Saturday, June 20, 2026. The program features local choirs, dance performances, storytelling, and historical reflections on Black landowners in Garner.",
-      "id": 86
+      "id": 86,
+      "venueId": "garner-performing-arts-center-garner"
     },
     {
       "name": "Raleigh Twilight Market at Smoky Hollow",
@@ -2357,7 +2443,8 @@
         "Wine"
       ],
       "description": "The MAKRS Society hosts this monthly Twilight Market at Smoky Hollow on the 3rd Saturday of each month. The event features 30+ local vendors, a live DJ, performances, and food and drinks.",
-      "id": 87
+      "id": 87,
+      "venueId": "smoky-hollow-raleigh"
     },
     {
       "name": "Triangle Pop Up \u2013 Maker\u2019s Market",
@@ -2384,7 +2471,8 @@
         "Free"
       ],
       "description": "A monthly maker's market at Fenton featuring live music, food trucks, and a new selection of local vendors for shopping and community gathering.",
-      "id": 88
+      "id": 88,
+      "venueId": "fenton-square-cary"
     },
     {
       "name": "Raleigh Food Truck Rodeo",
@@ -2412,7 +2500,8 @@
         "Market"
       ],
       "description": "Shop Local Raleigh hosts the Raleigh Food Truck Rodeo on Fayetteville Street in downtown Raleigh. The event features local food trucks and vendors, with the 2026 June date listed as Saturday, June 20, from 12 to 6 p.m.",
-      "id": 89
+      "id": 89,
+      "venueId": "city-plaza-raleigh"
     },
     {
       "name": "Wienerfest",
@@ -2440,7 +2529,8 @@
         "Outdoor"
       ],
       "description": "Wienerfest 2026 takes place on Sunday, June 21 from 4\u20137 PM at Motorco Music Hall\u2019s Veranda in Durham. The event features a build-your-own hot dog celebration and is listed as ticketed.",
-      "id": 90
+      "id": 90,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Father's Day BBQ at Overlook",
@@ -2468,7 +2558,8 @@
         "Outdoor"
       ],
       "description": "Father\u2019s Day BBQ at Overlook is a buffet-style patio event at The Overlook inside Residence Inn Raleigh Downtown. The menu includes BBQ ribs, baked mac & cheese, fried okra, burgers and hot dogs, sides, and dessert.",
-      "id": 91
+      "id": 91,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "Father's Day with the Grateful Dead",
@@ -2495,7 +2586,8 @@
         "Ticketed"
       ],
       "description": "Rialto Presents Father's Day with the Grateful Dead, a free but ticketed screening at The Rialto Theatre in Raleigh. The event is scheduled for Sunday, June 21, with doors at 6:15 pm and the show at 7:00 pm.",
-      "id": 92
+      "id": 92,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Father\u2019s Day at The Willard",
@@ -2523,7 +2615,8 @@
         "Ticketed"
       ],
       "description": "Father\u2019s Day at The Willard is listed for Sunday, June 21, 2026 at The Willard Rooftop Lounge atop the AC Hotel Raleigh Downtown. The venue is a rooftop bar and lounge in downtown Raleigh with food and drinks and city views.",
-      "id": 93
+      "id": 93,
+      "venueId": "the-willard-rooftop-lounge-raleigh"
     },
     {
       "name": "Sunday Day Party at The Davie",
@@ -2550,7 +2643,8 @@
         "21+"
       ],
       "description": "Weekly Sunday day party at The Davie in downtown Raleigh featuring an all-vinyl DJ set. Listing sources describe it as a Sunday afternoon vibe from 2\u20135 PM.",
-      "id": 94
+      "id": 94,
+      "venueId": "the-davie-raleigh"
     },
     {
       "name": "Lavelle Dontae",
@@ -2576,7 +2670,8 @@
         "Ticketed"
       ],
       "description": "Lavelle Dontae is scheduled for a special event at Goodnights Comedy Club in Raleigh on Sunday, June 21, 2026. The club\u2019s calendar shows two showtimes, 6:00 PM and 8:15 PM.",
-      "id": 95
+      "id": 95,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Art Cart: Father\u2019s Day",
@@ -2603,7 +2698,8 @@
         "Outdoor"
       ],
       "description": "A family-friendly art activity at Downtown Cary Park with hands-on crafts and creative supplies for kids and caregivers. The Father\u2019s Day edition is a free drop-in program at the park\u2019s Great Lawn Pavilion.",
-      "id": 96
+      "id": 96,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "Day Party Brunch",
@@ -2631,7 +2727,8 @@
         "Adult"
       ],
       "description": "Sunday Brunch Club at Botanical Lounge is an all-you-can-eat brunch buffet with craft cocktails and a lively daytime party atmosphere. It runs every Sunday from 11:00 AM to 3:00 PM at 419 Glenwood Ave in Raleigh.",
-      "id": 97
+      "id": 97,
+      "venueId": "botanical-lounge-raleigh"
     },
     {
       "name": "Summer Family Film Series - Honey, I Shrunk the Kids",
@@ -2657,7 +2754,8 @@
         "Ticketed"
       ],
       "description": "The Cary Theater is screening Honey, I Shrunk the Kids as part of its Summer Family Series. The film is rated PG and runs 93 minutes.",
-      "id": 98
+      "id": 98,
+      "venueId": "the-cary-theater-cary"
     },
     {
       "name": "ADF Presents: Can You Bring It: Bill T. Jones and D-Man in the Waters w/ a Formal Talkback Session",
@@ -2684,7 +2782,8 @@
         "Arts & Crafts"
       ],
       "description": "American Dance Festival presents a 90-minute screening of Can You Bring It: Bill T. Jones and D-Man in the Waters, followed by a formal talkback session. The event is part of ADF\u2019s 30th Anniversary Screen Dance Festival.",
-      "id": 99
+      "id": 99,
+      "venueId": "richard-white-lecture-hall-durham"
     },
     {
       "name": "Lip Critic",
@@ -2709,7 +2808,8 @@
         "Ticketed"
       ],
       "description": "Lip Critic is scheduled to perform at The Pinhook in Durham on Sunday, June 21, 2026, with Flatwounds and Bejalvin. The show is listed for 8:00 PM with admission priced at $18.",
-      "id": 100
+      "id": 100,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Emo Karaoke! Get Sad Y'all",
@@ -2736,7 +2836,8 @@
         "Adult"
       ],
       "description": "Emo Karaoke! Get Sad Y'all is a recurring emo karaoke night at Neptunes Parlour in downtown Raleigh. Downtown Raleigh lists it as happening every third Sunday of the month from 8 PM to midnight.",
-      "id": 101
+      "id": 101,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "2026 Summer Concert Series",
@@ -2763,7 +2864,8 @@
         "Family"
       ],
       "description": "A free summer concert series hosted by Raleigh Parks at Pullen Park on select Sunday evenings. For 2026, Pullen Park dates include June 21, June 28, and August 16, with performances from 6 to 8 p.m.",
-      "id": 102
+      "id": 102,
+      "venueId": "pullen-park-raleigh"
     },
     {
       "name": "Domocile w/ Px3",
@@ -2789,7 +2891,8 @@
         "Adult"
       ],
       "description": "Domocile performs with Px3 at The Pour House Music Hall & Record Shop in Raleigh on Sunday, June 21, 2026. The venue listing shows doors at 7:00 PM and showtime at 8:00 PM with tickets priced at $15.07.",
-      "id": 103
+      "id": 103,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Gozu / Restless Spirit / Crystal Spiders / Archaos",
@@ -2815,7 +2918,8 @@
         "Ticketed"
       ],
       "description": "Gozu, Restless Spirit, Crystal Spiders, and Archaos are scheduled to perform at Chapel of Bones in Raleigh on Sunday, June 21, 2026 at 6:00 PM. The listing shows a ticketed admission price of $22.86.",
-      "id": 104
+      "id": 104,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Heated Rivalry Bingo Binge Watch Party",
@@ -2842,7 +2946,8 @@
         "Ticketed"
       ],
       "description": "A Heated Rivalry-themed bingo binge watch party at Bitter Social in downtown Raleigh. The event runs Sunday afternoon and evening with free admission.",
-      "id": 105
+      "id": 105,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Pride Day Party at Wolfe & Porter",
@@ -2868,7 +2973,8 @@
         "Ticketed"
       ],
       "description": "Wolfe & Porter is hosting a Pride Day Party in downtown Raleigh on June 21, 2026, featuring performers and an all-ages daytime portion before continuing into the evening. Listed hours run from 2 p.m. to midnight, with tickets priced at $12.51 per person.",
-      "id": 106
+      "id": 106,
+      "venueId": "wolfe-porter-raleigh"
     },
     {
       "name": "Shadows in Red Light",
@@ -2894,7 +3000,8 @@
         "Ticketed"
       ],
       "description": "Burning Coal Theatre's Second Stage production of Shadows in Red Light runs in June 2026 at Murphey School Auditorium in downtown Raleigh. The show is presented as a concert version of a new musical.",
-      "id": 107
+      "id": 107,
+      "venueId": "murphey-school-auditorium-raleigh"
     },
     {
       "name": "Woodstock '99 Yoga",
@@ -2920,7 +3027,8 @@
         "Ticketed"
       ],
       "description": "Woodstock '99 Yoga is scheduled for Sunday, June 21, 2026 at Chapel of Bones in Raleigh. The venue lists the event at 11am, and the ticket listing shows admission priced at $21.92.",
-      "id": 108
+      "id": 108,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Devil Dogz vs. Tri-City Chili Peppers",
@@ -2946,7 +3054,8 @@
         "Ticketed"
       ],
       "description": "The Zebulon Devil Dogz host the Tri-City Chili Peppers at Five County Stadium on Sunday, June 21, 2026. The game is scheduled for 5:00 PM.",
-      "id": 109
+      "id": 109,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "2026 Premier Ultimate League Championship Weekend",
@@ -2974,7 +3083,8 @@
         "Outdoor"
       ],
       "description": "The 2026 Premier Ultimate League Championship Weekend is scheduled for June 20-21 at Durham County Memorial Stadium in Durham, with semifinals on Saturday and the championship game on Sunday. It features women\u2019s and gender-diverse ultimate teams competing for the league title.",
-      "id": 110
+      "id": 110,
+      "venueId": "durham-county-memorial-stadium-durham"
     },
     {
       "name": "Father\u2019s Day Brunch",
@@ -3000,7 +3110,8 @@
         "Ticketed"
       ],
       "description": "Father\u2019s Day Brunch takes place on Sunday, June 21 at the Coffee Bar at The Durham. The menu features a three-course brunch service with family-style starters, entr\u00e9e choices, and kid-friendly options.",
-      "id": 111
+      "id": 111,
+      "venueId": "the-durham-hotel-durham"
     },
     {
       "name": "Jambalaya Soul Slam Lyric Slam",
@@ -3026,7 +3137,8 @@
         "Ticketed"
       ],
       "description": "The Jambalaya Soul Slam is the Triangle\u2019s longest running poetry event. This edition is a lyric slam at Hayti Heritage Center in Durham, featuring a competitive spoken-word format centered on song lyrics.",
-      "id": 112
+      "id": 112,
+      "venueId": "hayti-heritage-center-durham"
     },
     {
       "name": "Jennifer Curtis & Friends",
@@ -3052,7 +3164,8 @@
         "Ticketed"
       ],
       "description": "Jennifer Curtis and friends perform a live concert at The ArtsCenter in Carrboro on Sunday, June 21, 2026. The event is listed as a concert with a 3:00 PM start time.",
-      "id": 113
+      "id": 113,
+      "venueId": "the-artscenter-carrboro"
     }
   ]
 }

@@ -27,7 +27,8 @@
         "Ticketed"
       ],
       "description": "NE-YO and Akon perform together on Friday, July 10, 2026, at 8 PM as part of their Nights Like This Tour 2026 at Coastal Credit Union Music Park in Raleigh.",
-      "id": 1
+      "id": 1,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "Blackberry Smoke: Rattle, Ramble and Roll Tour 2026",
@@ -54,7 +55,8 @@
         "21+"
       ],
       "description": "Blackberry Smoke performs live at DPAC on Friday, July 10, 2026, at 8:00 PM as part of their Rattle, Ramble and Roll Tour 2026, featuring Jason Newsted [1][2][3].",
-      "id": 2
+      "id": 2,
+      "venueId": "dpac-durham"
     },
     {
       "name": "NCMA Movie Night: Godzilla vs. Mothra (1992)",
@@ -81,7 +83,8 @@
         "Free"
       ],
       "description": "The North Carolina Museum of Art partners with Moore Square to present a free outdoor screening of Godzilla vs. Mothra (1992) on Friday, July 10, 2026, starting at 7:15 PM with themed activities and food trucks from 6 PM.",
-      "id": 3
+      "id": 3,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Bands, Bites, and Boats July 2026",
@@ -110,7 +113,8 @@
         "Free"
       ],
       "description": "This free Friday concert series features local musician Garland Mason, food trucks Ty's All Natural and Safari Eatz, and Bond Brothers Beer Company at Fred G. Bond Metro Park [1][2].",
-      "id": 4
+      "id": 4,
+      "venueId": "bond-park-boathouse-cary"
     },
     {
       "name": "Artist Notes featuring Larry & Joe",
@@ -139,7 +143,8 @@
         "Outdoor"
       ],
       "description": "Artist Notes is a free summer concert series at NC State's Centennial Campus where artists perform music and share the stories behind their songs, guided by host Chris Edge [1][2]. The event features local food trucks, free parking, and beer sales benefiting The SIMS Foundation for mental health and substance abuse treatment [1][2].",
-      "id": 5
+      "id": 5,
+      "venueId": "the-corner-at-centennial-campus-raleigh"
     },
     {
       "name": "Tommy Davidson",
@@ -169,7 +174,8 @@
         "Ticketed"
       ],
       "description": "Tommy Davidson, known for his role in 'In Living Color,' performs stand-up comedy at Goodnights Comedy Club in Raleigh from July 10\u201312, 2026, with multiple showtimes each night.",
-      "id": 6
+      "id": 6,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Jess Hilarious",
@@ -197,7 +203,8 @@
         "Ticketed"
       ],
       "description": "Jessica 'Jess Hilarious' Moore, a stand-up comedian and media personality known for appearances on Wild 'N Out and The Breakfast Club, performs four shows over two nights at Raleigh Improv in Cary [1][3].",
-      "id": 7
+      "id": 7,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "Chris Higgins",
@@ -225,7 +232,8 @@
         "Adult"
       ],
       "description": "Chris Higgins, a nationally touring comedian from Colorado now based in Chicago, performs his 'Don't Tell Comedy' show at Goodnights Comedy Club in Midtown Raleigh from July 10\u201312, 2026[1][3][5].",
-      "id": 8
+      "id": 8,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "The Pretty Reckless: Dear God Tour",
@@ -252,7 +260,8 @@
         "21+"
       ],
       "description": "The Pretty Reckless perform their new album 'Dear God' live as they launch the North American leg of their world tour at The Ritz in Raleigh on July 10, 2026.",
-      "id": 9
+      "id": 9,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Sidecar Social Club at Summerfest",
@@ -281,7 +290,8 @@
         "Outdoor"
       ],
       "description": "Sidecar Social Club performs an energetic set spanning speakeasy jazz to cabaret as the final event of UNC Health Summerfest at Koka Booth Amphitheatre on Friday, July 10, 2026 at 8:00 PM [1][2][6].",
-      "id": 10
+      "id": 10,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "Friday Night on White 2026",
@@ -308,7 +318,8 @@
         "Free"
       ],
       "description": "Friday Night on White is a free monthly concert series held on the second Friday from April through September in downtown Wake Forest, featuring Love Tribe performing classic rock, pop, and dance hits from 6\u20139 PM on July 10, 2026[1][2].",
-      "id": 11
+      "id": 11,
+      "venueId": "south-white-street-wake-forest"
     },
     {
       "name": "PLAYlist Concert Series: Shame Gang",
@@ -335,7 +346,8 @@
         "Festival"
       ],
       "description": "The PLAYlist Concert Series presents Shame Gang on Friday, July 10, 2026, at Durham Central Park as part of WNCU's annual free summer concert series held on the first (or special second) Friday of each month from May to October[1][3][4].",
-      "id": 12
+      "id": 12,
+      "venueId": "durham-central-park-durham"
     },
     {
       "name": "Carolina Flyers Ultimate Frisbee vs Austin Sol",
@@ -361,7 +373,8 @@
         "Ticketed"
       ],
       "description": "The Carolina Flyers face the Austin Sol at Durham County Memorial Stadium on Friday, July 10, 2026, as part of the 2026 UFA regular season with Top Gun Night and Military & Veteran Appreciation Night themes.",
-      "id": 13
+      "id": 13,
+      "venueId": "durham-county-memorial-stadium-durham"
     },
     {
       "name": "BMW Ultimate Driving Experience",
@@ -391,7 +404,8 @@
         "Free"
       ],
       "description": "The BMW Ultimate Driving Experience at Lenovo Center offers a dynamic, hands-on driving program where enthusiasts test BMW vehicles on Autocross, Street Tours, and Sprint courses with professional instructors.",
-      "id": 14
+      "id": 14,
+      "venueId": "lenovo-center-raleigh"
     },
     {
       "name": "ADF Presents: Monica Bill Barnes & Company",
@@ -418,7 +432,8 @@
         "Arts & Crafts"
       ],
       "description": "Monica Bill Barnes & Company performs Many Happy Returns, a 60-minute dance version of a memory play, at the von der Heyden Studio Theater as part of the American Dance Festival 2026 season [1][2].",
-      "id": 15
+      "id": 15,
+      "venueId": "von-der-heyden-studio-theater-at-rubenstein-arts-center-durham"
     },
     {
       "name": "Art Reception - Susan Parrish: An Artist Retrospective",
@@ -444,7 +459,8 @@
         "Festival"
       ],
       "description": "This free opening reception for Susan Parrish: An Artist Retrospective features live music and light refreshments on Friday, July 10, from 6\u20138 PM at The Halle Cultural Arts Center in Apex, NC [8][7].",
-      "id": 16
+      "id": 16,
+      "venueId": "the-halle-cultural-arts-center-apex"
     },
     {
       "name": "Ben Flournoy",
@@ -470,7 +486,8 @@
         "Downtown"
       ],
       "description": "Ben Flournoy Trio performs live at Slim's Dive Bar on Friday, July 10, 2026, from 8:30\u201310:30 PM with free admission in Downtown Raleigh[1][5][6].",
-      "id": 17
+      "id": 17,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Madonna Confessions II Listening Party at Bitter Social",
@@ -497,7 +514,8 @@
         "21+"
       ],
       "description": "Fans can experience Madonna's new album Confessions II in its entirety at this exclusive listening party in Downtown Raleigh, with cocktails available at a special rate of $12 each and food from Centro until 9:30 PM[1][8].",
-      "id": 18
+      "id": 18,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Riddim & Royalty: A Reggae \u00d7 Afrobeats Affair",
@@ -525,7 +543,8 @@
         "Ticketed"
       ],
       "description": "Fifty2One Ent presents a premium downtown Raleigh nightlife experience where DJ T-Nyce spins roots reggae, dancehall, Afrobeats, Amapiano, and Soca from 9 PM to 1 AM.",
-      "id": 19
+      "id": 19,
+      "venueId": "the-haymaker-raleigh"
     },
     {
       "name": "The Vanguard",
@@ -552,7 +571,8 @@
         "Ticketed"
       ],
       "description": "The Vanguard, recently reunited NC legends, perform thunderous rock 'n' roll at KINGS in downtown Raleigh on Friday, July 10, 2026, alongside Los Picaros and Hot Mop[1][3][5].",
-      "id": 20
+      "id": 20,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "The White Buffalo",
@@ -577,7 +597,8 @@
         "Ticketed"
       ],
       "description": "The White Buffalo, a singer-songwriter known for live musical performances, headlines at Lincoln Theatre in Raleigh on Friday, July 10, 2026, with special guest Chip Robinson [2][5][9].",
-      "id": 21
+      "id": 21,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Vastive",
@@ -604,7 +625,8 @@
         "Ticketed"
       ],
       "description": "Vastive delivers industrial bass music with a heavy sound and intense stage presence at The Pour House in Raleigh on Friday, July 10, 2026 [1][7].",
-      "id": 22
+      "id": 22,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Phenom Hoops Live",
@@ -633,7 +655,8 @@
         "21+"
       ],
       "description": "Phenom Hoops Live is a multi-day NCAA-certified basketball tournament featuring live period games for boys aged 14u to 17u at the Raleigh Convention Center, running July 9\u201312, 2026 with two sessions.",
-      "id": 23
+      "id": 23,
+      "venueId": "raleigh-convention-center-raleigh"
     },
     {
       "name": "Salsa at The Park - A Live Music & Dance Series",
@@ -662,7 +685,8 @@
         "Food"
       ],
       "description": "Oak City Music Collective presents a free outdoor salsa series on the 2nd Friday of each month from July to October 2026, featuring beginner dance lessons followed by live salsa orchestra performances and food trucks.",
-      "id": 24
+      "id": 24,
+      "venueId": "knightdale-station-park-knightdale"
     },
     {
       "name": "Live @ATC Tower Music Series",
@@ -689,7 +713,8 @@
         "Free"
       ],
       "description": "The Lounge Doctors perform at this free Friday night concert series featuring local artists in jazz, bluegrass, and rock styles near the Water Tower.",
-      "id": 25
+      "id": 25,
+      "venueId": "atc-tower-durham"
     },
     {
       "name": "Single Woman: Work In Progress",
@@ -716,7 +741,8 @@
         "Adult"
       ],
       "description": "Performer Tess presents a 75-minute one-woman show weaving personal storytelling with audience participation about the experience of being 35, single, and ready to mingle[1][6].",
-      "id": 26
+      "id": 26,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Partner Yoga & Blueberry Evening",
@@ -745,7 +771,8 @@
         "Ticketed"
       ],
       "description": "Join PTs and yoga teachers Laura Terry and Jacob Tyson for a playful partner yoga session under the pavilion, followed by blueberry U-pick, herbal cocktails, and charcuterie in the garden.",
-      "id": 27
+      "id": 27,
+      "venueId": "the-honeysuckle-tea-house-chapel-hill"
     },
     {
       "name": "2nd Friday Art Walk",
@@ -773,7 +800,8 @@
         "Outdoor"
       ],
       "description": "The 2nd Friday Art Walk is a free monthly event held on the second Friday of every month from 6\u20139 PM in Carrboro and Chapel Hill, featuring art galleries, artist studios, live music, spoken word poetry, and performances [1][2].",
-      "id": 28
+      "id": 28,
+      "venueId": "carrboro-town-commons-carrboro"
     },
     {
       "name": "Gladys Knight",
@@ -798,7 +826,8 @@
         "Ticketed"
       ],
       "description": "Gladys Knight, the legendary 'Empress of Soul,' performs a live concert on Saturday, July 11, 2026, at 8:00 PM at Raleigh Memorial Auditorium [2][4][5].",
-      "id": 29
+      "id": 29,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Paul Simon",
@@ -824,7 +853,8 @@
         "Ticketed"
       ],
       "description": "Paul Simon performs at Coastal Credit Union Music Park at Walnut Creek in Raleigh on Saturday, July 11, 2026, as part of his A Quiet Celebration Tour [1][8][9].",
-      "id": 30
+      "id": 30,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "North Carolina Courage vs. Washington Spirit",
@@ -850,7 +880,8 @@
         "Ticketed"
       ],
       "description": "The North Carolina Courage host the Washington Spirit at WakeMed Soccer Park in a 2026 NWSL match on Saturday, July 11, starting at 6:30 PM. The event features a family-friendly atmosphere with food trucks, drinks, games, and merchandise available.",
-      "id": 31
+      "id": 31,
+      "venueId": "wakemed-soccer-park-cary"
     },
     {
       "name": "NC Courage Tailgate",
@@ -876,7 +907,8 @@
         "Free"
       ],
       "description": "The NC Courage Tailgate is a community event at Fenton Square in Cary, offering free admission with registration required before the NC Courage vs. Washington Spirit match on July 11, 2026[6][7].",
-      "id": 32
+      "id": 32,
+      "venueId": "fenton-square-cary"
     },
     {
       "name": "Kiki's Comedy Showcase: Sunsets & Standup",
@@ -904,7 +936,8 @@
         "Ticketed"
       ],
       "description": "Kiki Wynns returns to Downtown Cary Park for a sold-out series of high-energy comedy shows featuring four hilarious comedians in an outdoor stand-up format at the Academy Pavilion [1][4][5].",
-      "id": 33
+      "id": 33,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "An Evening with Wilco",
@@ -930,7 +963,8 @@
         "Ticketed"
       ],
       "description": "Wilco performs two full sets of their music at DPAC on Saturday, July 11, 2026, as part of their 2026 'An Evening With' U.S. summer tour[2][3].",
-      "id": 34
+      "id": 34,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Raleigh's All-American Summer Festival",
@@ -959,7 +993,8 @@
         "Outdoor"
       ],
       "description": "Raleigh's All-American Summer Festival is a downtown community event celebrating the 250th anniversary of the United States with live bands, food trucks, carnival games, a kids zone, and contests like the cutest dog and best summer outfit[1][2].",
-      "id": 35
+      "id": 35,
+      "venueId": "city-plaza-raleigh"
     },
     {
       "name": "Big Art Bash",
@@ -987,7 +1022,8 @@
         "Outdoor"
       ],
       "description": "Join Marbles Kids Museum on July 11, 2026, from 1\u20134 PM for a summer celebration of creative expression through play, featuring hands-on art installations and collaborations with local artists in the outdoor Playway.",
-      "id": 36
+      "id": 36,
+      "venueId": "marbles-kids-museum-raleigh"
     },
     {
       "name": "July Market at Videri",
@@ -1015,7 +1051,8 @@
         "Free"
       ],
       "description": "A handmade and vintage market on the Videri Patio featuring local artists, makers, vintage curators, and food trucks like Harry's Hot Dogs.",
-      "id": 37
+      "id": 37,
+      "venueId": "videri-chocolate-factory-raleigh"
     },
     {
       "name": "Bastille Day Celebration - Food, Desserts, Wine Walk and Live Music",
@@ -1044,7 +1081,8 @@
         "Free"
       ],
       "description": "This community festival honors French culture with a wine tasting walk, live bands, a French market, and food and desserts at Lafayette Village in Raleigh [1][2][6].",
-      "id": 38
+      "id": 38,
+      "venueId": "lafayette-village-raleigh"
     },
     {
       "name": "Dr Bacon \u2014 Summer Concerts in the Park",
@@ -1071,7 +1109,8 @@
         "Outdoor"
       ],
       "description": "Dr Bacon performs their signature blend of funk, rock, soul, and bluegrass as part of Durham Parks and Recreation's free Summer Concerts in the Park series at Duke Park on Saturday, July 11, 2026 from 6\u20138 PM[1][2][6].",
-      "id": 39
+      "id": 39,
+      "venueId": "duke-park-durham"
     },
     {
       "name": "Bingo Loco Afternoon",
@@ -1098,7 +1137,8 @@
         "Comedy"
       ],
       "description": "Bingo Loco Afternoon is a 21+ interactive stage show at The Ritz in Raleigh, blending bingo with comedy, dancing, and high-energy entertainment for three hours[1][6].",
-      "id": 40
+      "id": 40,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Daydream Day Party",
@@ -1125,7 +1165,8 @@
         "Ticketed"
       ],
       "description": "A premium 21+ day party on the rooftop featuring music, dancing, and elevated cocktails at Level7 Rooftop Lounge in Raleigh.",
-      "id": 41
+      "id": 41,
+      "venueId": "level7-rooftop-lounge-at-the-ac-hotel-raleigh-north-hills-raleigh"
     },
     {
       "name": "Dino Dig Live",
@@ -1151,7 +1192,8 @@
         "Free"
       ],
       "description": "Paleontologists from the North Carolina Museum of Natural Sciences host a live video call from a dinosaur quarry in the American West, allowing in-person and online attendees to ask questions and interact with the field team [1][4].",
-      "id": 42
+      "id": 42,
+      "venueId": "north-carolina-museum-of-natural-sciences-raleigh"
     },
     {
       "name": "NCMA to Go Art Kits: Earth, Art, and Fire",
@@ -1178,7 +1220,8 @@
         "Museum"
       ],
       "description": "This program offers free take-and-make art kits focused on the theme of earth art and fire, featuring materials and written instructions for a complete hands-on project centered on historical artifacts [1][9]. Kits are bilingual (English and Spanish) and designed for all ages, with supplies limited and registration required [1][7].",
-      "id": 43
+      "id": 43,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "UCAN Gardeners as Teachers 2026",
@@ -1205,7 +1248,8 @@
         "Free"
       ],
       "description": "UCAN's Gardeners as Teachers 2026 offers recurring Saturday morning workshops on herbs and ancestral farming knowledge at Catawba Trail Farm in Durham, with a $25 admission fee and bundle discounts for multiple sessions[1].",
-      "id": 44
+      "id": 44,
+      "venueId": "catawba-trail-farm-durham"
     },
     {
       "name": "ADF Presents: Footprints: Site-specific work by Stephan Koplowitz",
@@ -1234,7 +1278,8 @@
         "Adult"
       ],
       "description": "Choreographer Stephan Koplowitz presents (A)Spire, a large-scale, site-specific performance transforming Mutual Tower into stage and subject with 10\u201320 dancers and up to 30 performers including ADF students and Durham community members[1][6].",
-      "id": 45
+      "id": 45,
+      "venueId": "mutual-tower-durham"
     },
     {
       "name": "ADF Presents: Footprints: Ephrat Asherie, Vincent E. Thomas, & Keith Thompson",
@@ -1262,7 +1307,8 @@
         "Arts & Crafts"
       ],
       "description": "This program features new world premiere works by Ephrat Asherie, Vincent E. Thomas, and Keith Thompson, running 60\u201375 minutes with a potential intermission.",
-      "id": 46
+      "id": 46,
+      "venueId": "page-auditorium-at-duke-durham"
     },
     {
       "name": "Bastille Day Celebration | French music & cocktails",
@@ -1290,7 +1336,8 @@
         "Free"
       ],
       "description": "Join Yonder for a Bastille Day Celebration featuring an evening of French music by Sara Zaleta and French cocktails, with admission free for all attendees[1][7][9].",
-      "id": 47
+      "id": 47,
+      "venueId": "yonder-not-just-a-bar-hillsborough"
     },
     {
       "name": "Blueberry Brunch",
@@ -1317,7 +1364,8 @@
         "Ticketed"
       ],
       "description": "The Blueberry Brunch is a seasonal event at Honeysuckle Farm & Gardens in Chapel Hill, offering fresh local blueberries, seasonal bites, and farm-inspired cocktails or mocktails after the meal [4][5][8].",
-      "id": 48
+      "id": 48,
+      "venueId": "the-honeysuckle-tea-house-chapel-hill"
     },
     {
       "name": "Coffee with FRANK: Featured Artists Conversation",
@@ -1343,7 +1391,8 @@
         "Family"
       ],
       "description": "A monthly community event at FRANK Gallery in Carrboro where visitors enjoy coffee and donuts while engaging in an informal conversation with featured member artists.",
-      "id": 49
+      "id": 49,
+      "venueId": "frank-gallery-carrboro"
     },
     {
       "name": "Hillsborough Cars - A Car Show for Every Generation",
@@ -1370,7 +1419,8 @@
         "Free"
       ],
       "description": "Hillsborough Cars is a community car show featuring classic, custom, muscle, and modern vehicles at Eno River Academy on Saturday, July 11, 2026, from 8:00 AM to 12:00 PM[1][4].",
-      "id": 50
+      "id": 50,
+      "venueId": "eno-river-academy-hillsborough"
     },
     {
       "name": "Mortal Combat 1 LAN Tournament",
@@ -1396,7 +1446,8 @@
         "Adult"
       ],
       "description": "This LAN tournament features a double-elimination bracket for Mortal Kombat 1 with a $200 total cash prize pool at Ego Chall Esports in Chapel Hill.",
-      "id": 51
+      "id": 51,
+      "venueId": "ego-chall-esports-chapel-hill"
     },
     {
       "name": "Walking Stick Whittling Workshop by the Eno",
@@ -1423,7 +1474,8 @@
         "Ticketed"
       ],
       "description": "Join the Eno River Association for a hands-on walking stick whittling workshop along the Eno River where you'll learn woodcarving basics and natural resource stewardship [2][4]. Participants bring a pocketknife, chair, water, and snack; the organization provides guidance and tools [4].",
-      "id": 52
+      "id": 52,
+      "venueId": "confluence-natural-area-hillsborough"
     },
     {
       "name": "History Within Reach: A Seated Tour of Historic Hillsborough",
@@ -1450,7 +1502,8 @@
         "Arts & Crafts"
       ],
       "description": "This seated tour offers an alternative to walking tours, covering the same colonial and American history topics of Historic Hillsborough with a knowledgeable guide at the Alexander Dickson House.",
-      "id": 53
+      "id": 53,
+      "venueId": "alexander-dickson-house-hillsborough"
     },
     {
       "name": "Speakeasy's Queer Cabaret & Dance Party",
@@ -1478,7 +1531,8 @@
         "Free"
       ],
       "description": "A celebrated LGBTQIA+ event featuring drag performances by Jay Pride and others, hosted by AmanDuh Barron, followed by DJ-led dancing and queer vendors at Speakeasy in Carrboro[2][4].",
-      "id": 54
+      "id": 54,
+      "venueId": "speakeasy-carrboro"
     },
     {
       "name": "As Daylight Dies x Endoxa x Abstractionist",
@@ -1505,7 +1559,8 @@
         "Ticketed"
       ],
       "description": "This live metal concert features As Daylight Dies, Endoxa, and Abstractionist performing at Cannonball Music Hall on Saturday, July 11, 2026 [4][5].",
-      "id": 55
+      "id": 55,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Bedroom Division w/ Fifth Floor, bedrumor",
@@ -1533,7 +1588,8 @@
         "21+"
       ],
       "description": "Bedroom Division, an indie/alt-pop project from North Carolina blending polished pop production with nostalgic 80s-inspired synths, performs at The Pour House with Fifth Floor and Five Door Sedan on Saturday, July 11, 2026 at 7:00 PM [1][2][7].",
-      "id": 56
+      "id": 56,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Brick / Blankstate / Covenant Eye / Weymouth",
@@ -1559,7 +1615,8 @@
         "All Ages"
       ],
       "description": "A live concert featuring Charlotte's blankstate. supported by Raleigh-area bands Brick, Covenant Eye, and Weymouth at KINGS in Downtown Raleigh.",
-      "id": 57
+      "id": 57,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Kult Ikon",
@@ -1586,7 +1643,8 @@
         "Ticketed"
       ],
       "description": "Kult Ikon, a space doom band, performs live at Slim's Dive Bar in downtown Raleigh on Saturday, July 11, 2026, from 8:00 PM to 10:00 PM[1][8].",
-      "id": 58
+      "id": 58,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Los Rockoletas",
@@ -1613,7 +1671,8 @@
         "Ticketed"
       ],
       "description": "Los Rockoletas perform a high-energy set of Spanish rock classics and Latin rock anthems, bringing together generations of rock en espa\u00f1ol for nonstop dancing at Chapel of Bones in Raleigh on July 11, 2026 [4][5][7].",
-      "id": 59
+      "id": 59,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "United We Dance",
@@ -1641,7 +1700,8 @@
         "Ticketed"
       ],
       "description": "United We Dance is an EDM rave event at Lincoln Theatre in Raleigh featuring continuous back-to-back drops and festival anthems for an 18+ crowd on Saturday, July 11, 2026.",
-      "id": 60
+      "id": 60,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "WHY? Presents Unzipped",
@@ -1670,7 +1730,8 @@
         "Ticketed"
       ],
       "description": "WHY? Presents Unzipped is a high-energy, late-night queer underground dance party at Bitter Social in Downtown Raleigh, featuring music and dancing from 9 PM to 2 AM on Saturday, July 11, 2026[2][4].",
-      "id": 61
+      "id": 61,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "One After 919- Beatles Tribute",
@@ -1698,7 +1759,8 @@
         "Free"
       ],
       "description": "One After 919 is a Triangle-based Beatles tribute band performing live at Abbey Road Tavern & Grill in Cary on Saturday, July 11, 2026, from 8\u201311 PM as part of the venue's Outdoor Summer Concert Series[1][4].",
-      "id": 62
+      "id": 62,
+      "venueId": "abbey-road-tavern-grill-cary"
     },
     {
       "name": "Queer Lake Day",
@@ -1726,7 +1788,8 @@
         "Lake"
       ],
       "description": "Queer Lake Day was planned as an all-ages, free LGBTQ+ gathering at Jordan Lake on Saturday, July 11, 2026, but has been officially cancelled because the park remains closed.",
-      "id": 63
+      "id": 63,
+      "venueId": "jordan-lake-apex"
     },
     {
       "name": "Summer Fun Dance 2026",
@@ -1752,7 +1815,8 @@
         "Ticketed"
       ],
       "description": "Join the Summer Fun Dance at The Halle Cultural Arts Center for a mix of nostalgic throwbacks and today's hottest hits in a family-friendly setting [1]. Youth and teens must be accompanied by an adult for this parent/child event [1].",
-      "id": 64
+      "id": 64,
+      "venueId": "the-halle-cultural-arts-center-apex"
     },
     {
       "name": "Adult Restorative Play Group",
@@ -1779,7 +1843,8 @@
         "Family"
       ],
       "description": "The Adult Restorative Play Group is a weekly event at Pullen Park where adults can engage in play therapy and fun activities in front of the carousel [5][6].",
-      "id": 65
+      "id": 65,
+      "venueId": "pullen-park-raleigh"
     },
     {
       "name": "Zebulon Devil Dogz vs. Yorktown Coconuts",
@@ -1806,7 +1871,8 @@
         "Family"
       ],
       "description": "The Zebulon Devil Dogz host the Yorktown Coconuts for a competitive Coastal Plain League baseball game at Five County Stadium in Zebulon, NC.",
-      "id": 66
+      "id": 66,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "Birding with Wake Audubon Society",
@@ -1832,7 +1898,8 @@
         "Free"
       ],
       "description": "Birding with Wake Audubon Society is a free monthly bird walk held in the Ann and Jim Goodnight Museum Park at the North Carolina Museum of Art on the second Saturday of each month from 8 to 10 AM, requiring preregistration[1][4].",
-      "id": 67
+      "id": 67,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Community Kickstand: Free Bicycle Repair",
@@ -1858,7 +1925,8 @@
         "Family"
       ],
       "description": "Raleigh Community Kickstand offers free bicycle repair services and maintenance training at Oak City Cares on the second Saturday of each month from 1\u20133 PM[1][7].",
-      "id": 68
+      "id": 68,
+      "venueId": "oak-city-cares-raleigh"
     },
     {
       "name": "Saturday Night Plant Bingo",
@@ -1884,7 +1952,8 @@
         "Arts & Crafts"
       ],
       "description": "Saturday Night Plant Bingo is a recurring weekly event at Glass Garden Studio in Holly Springs featuring six rounds of bingo with plant prizes that grow bigger each game, limited to 24 participants.",
-      "id": 69
+      "id": 69,
+      "venueId": "glass-garden-studio-holly-springs"
     },
     {
       "name": "The Market at RIW",
@@ -1913,7 +1982,8 @@
         "Family"
       ],
       "description": "The Market at RIW is a monthly pop-up market at Raleigh Iron Works featuring all local artisans, food and drink vendors, and live music on the second Saturday of each month from 11 AM to 4 PM[1][2].",
-      "id": 70
+      "id": 70,
+      "venueId": "raleigh-iron-works-raleigh"
     },
     {
       "name": "World Soccer \u2013 Watch Parties for all Nations",
@@ -1940,7 +2010,8 @@
         "Free"
       ],
       "description": "Daily World Cup watch parties at Sports & Social in Cary featuring all nations' matches, drink specials, and soccer activations from July 11\u201319, 2026[1][3].",
-      "id": 71
+      "id": 71,
+      "venueId": "sports-social-cary"
     },
     {
       "name": "Holly Springs Salamanders vs. Morehead City Marlins",
@@ -1967,7 +2038,8 @@
         "Family"
       ],
       "description": "The Holly Springs Salamanders host the Morehead City Marlins in a Coastal Plain League baseball game at North Main Athletic Complex in Holly Springs on Saturday, July 11, 2026.",
-      "id": 72
+      "id": 72,
+      "venueId": "north-main-athletic-complex-holly-springs"
     },
     {
       "name": "2026 Summer Concert Series",
@@ -1994,7 +2066,8 @@
         "Outdoor"
       ],
       "description": "The 2026 Summer Concert Series offers free live music on select Sundays from 6 to 8 p.m. at Fred Fletcher Park, with the July 12 performance featuring the band Invitation [1][2].",
-      "id": 73
+      "id": 73,
+      "venueId": "fred-fletcher-park-raleigh"
     },
     {
       "name": "Geek and Grub Market (Anime Edition)",
@@ -2023,7 +2096,8 @@
         "Festival"
       ],
       "description": "The Durham Geek and Grub Market (Anime Edition) is a free, all-ages event featuring over 40 geeky vendors, food trucks, special guests, and interactive anime-themed activities at the Durham Armory [1][2].",
-      "id": 74
+      "id": 74,
+      "venueId": "durham-armory-durham"
     },
     {
       "name": "Fairy Lights Bazaar",
@@ -2050,7 +2124,8 @@
         "Ticketed"
       ],
       "description": "The Fairy Lights Bazaar is a curated community market hosted by Fleuranoor showcasing local artists selling handmade jewelry, mystical art, enchanted trinkets, and potions.",
-      "id": 75
+      "id": 75,
+      "venueId": "morgan-street-food-hall-raleigh"
     },
     {
       "name": "Raleigh Really Really Free Market",
@@ -2077,7 +2152,8 @@
         "Outdoor"
       ],
       "description": "A monthly event where people give away and take items for free with no money exchanged, held on the second Sunday of each month at Eliza Pool Park[1][7].",
-      "id": 76
+      "id": 76,
+      "venueId": "eliza-pool-park-raleigh"
     },
     {
       "name": "Raleigh Underground Market",
@@ -2106,7 +2182,8 @@
         "Arts & Crafts"
       ],
       "description": "The Raleigh Underground Market is a monthly event featuring 50+ local vendors, diverse musicians, workshops, and food trucks at Midtown Park in North Hills [1][2].",
-      "id": 77
+      "id": 77,
+      "venueId": "midtown-park-north-hills-raleigh"
     },
     {
       "name": "Sunday DRIFT Rooftop DJ Series at The Velvet Hippo!",
@@ -2134,7 +2211,8 @@
         "Free"
       ],
       "description": "Every Sunday from 4\u20137 PM, enjoy rooftop DJ sets at The Velvet Hippo on Orange Street, featuring rotating resident DJs and monthly Recovery Tea Dance Editions with Gay Agenda and Father Disco[1][2].",
-      "id": 78
+      "id": 78,
+      "venueId": "the-velvet-hippo-durham"
     },
     {
       "name": "Books on Tap",
@@ -2162,7 +2240,8 @@
         "Arts & Crafts"
       ],
       "description": "Oak & Ink Bookish Boutiques hosts Books on Tap at Peakway Taps with local indie authors and bookish vendors, offering free admission with an RSVP required [1][3][10].",
-      "id": 79
+      "id": 79,
+      "venueId": "peakway-taps-apex"
     },
     {
       "name": "Brokencyde / WHOKILLEDXIX / Oni Inc. / Unrepentant / Miss Mxchina",
@@ -2188,7 +2267,8 @@
         "Ticketed"
       ],
       "description": "Brokencyde headlines a crunkcore and experimental electronic music night at Chapel of Bones in Raleigh on Sunday, July 12, 2026, with support from WHOKILLEDXIX, Oni Inc., Unrepentant, and Miss Mxchina[5][7].",
-      "id": 80
+      "id": 80,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Farmers Market @ Oak City",
@@ -2216,7 +2296,8 @@
         "Free"
       ],
       "description": "A monthly farmers market held on second Sundays featuring locally grown produce, consumable handmade goods, and live music in an outdoor setting at Oak City Brewing Company.",
-      "id": 81
+      "id": 81,
+      "venueId": "oak-city-brewing-company-knightdale"
     },
     {
       "name": "Holly Springs Salamanders vs. Peninsula Pilots",
@@ -2242,7 +2323,8 @@
         "Ticketed"
       ],
       "description": "The Holly Springs Salamanders face the Peninsula Pilots at Ting Stadium in Holly Springs for a Coastal Plain League baseball game on Sunday, July 12, 2026 at 5:05 PM.",
-      "id": 82
+      "id": 82,
+      "venueId": "north-main-athletic-complex-holly-springs"
     },
     {
       "name": "Hunter Blalock with Nolan Reid and the Regulators",
@@ -2269,7 +2351,8 @@
         "Ticketed"
       ],
       "description": "Hunter Blalock performs with Nolan Reid and the Regulators on Sunday, July 12, 2026, from 6:30 PM to 10:00 PM at Slim's Dive Bar in downtown Raleigh.",
-      "id": 83
+      "id": 83,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Make & Take: Dice Box",
@@ -2295,7 +2378,8 @@
         "Family"
       ],
       "description": "This Make & Take class at Rockler Woodworking & Hardware in Cary guides participants through building a wooden dice box, ideal for tabletop game enthusiasts.",
-      "id": 84
+      "id": 84,
+      "venueId": "rockler-woodworking-hardware-cary"
     },
     {
       "name": "Serving Brunch: Monthly Drag/ Burlesque",
@@ -2324,7 +2408,8 @@
         "Ticketed"
       ],
       "description": "A monthly drag and burlesque brunch showcase on the 2nd Sunday of each month at Chapel of Bones in Raleigh, featuring local Triangle producers with VIP tables available.",
-      "id": 85
+      "id": 85,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Sewing Level 2: Costume Embellishment Workshop",
@@ -2351,7 +2436,8 @@
         "Adult"
       ],
       "description": "Led by costume designer Emma Droste, this Sewing Level 2 workshop teaches intermediate techniques for embellishing costumes with fringe, ribbons, fabric, felt, and tassles [4][5]. Participants should bring their own base costume piece and embellishment materials [6].",
-      "id": 86
+      "id": 86,
+      "venueId": "craft-habit-raleigh-raleigh"
     },
     {
       "name": "The Jam Session Special Edition Shades of Melanin Affair",
@@ -2378,7 +2464,8 @@
         "Ticketed"
       ],
       "description": "Join Sunday, July 12th at Westwood Raleigh for The Jam Session Special Edition 'A Shades of Melanin Affair,' a night of culture, class, and smooth jams celebrating Sunny's 43rd birthday [3][6].",
-      "id": 87
+      "id": 87,
+      "venueId": "westwood-bar-lounge-raleigh"
     },
     {
       "name": "Unbound - A Bangladeshi Dance Showcase",
@@ -2405,7 +2492,8 @@
         "Arts & Crafts"
       ],
       "description": "Unbound is a community dance showcase that celebrates creativity and artistic freedom, featuring Bangladeshi dance performances by Xavier & Tajeen at Burning Coal Theatre on July 12, 2026.",
-      "id": 88
+      "id": 88,
+      "venueId": "murphey-school-auditorium-raleigh"
     },
     {
       "name": "Zebulon Devil Dogz vs. Carolina Disco Turkeys",
@@ -2431,7 +2519,8 @@
         "Ticketed"
       ],
       "description": "The Zebulon Devil Dogz host the Carolina Disco Turkeys at Five County Stadium for a 5:00 PM Sunday baseball game in Zebulon, NC [2][7].",
-      "id": 89
+      "id": 89,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "Jazz Sunday at Incendiary Brewing",
@@ -2459,7 +2548,8 @@
         "Outdoor"
       ],
       "description": "Join every second Sunday of the month from 2\u20135 PM for Jazz Sundays featuring Workbook, a killer Durham-based jazz trio, at Incendiary Brewing Taproom in Downtown Raleigh[1][6].",
-      "id": 90
+      "id": 90,
+      "venueId": "incendiary-brewing-taproom-raleigh"
     },
     {
       "name": "Mill Open House",
@@ -2486,7 +2576,8 @@
         "Free"
       ],
       "description": "During the weekly Mill Open House, visitors can explore the historic facility, observe the inner workings of the water-powered gristmill, and speak with historic interpreters about its history [1][2].",
-      "id": 91
+      "id": 91,
+      "venueId": "historic-yates-mill-county-park-raleigh"
     },
     {
       "name": "Roaming Readers: July Edition",
@@ -2512,7 +2603,8 @@
         "Free"
       ],
       "description": "Join Roaming Readers on July 12 from 9:30\u201311:00 AM to walk the RTP trails while listening to an audiobook, followed by an optional discussion at Drift Coffee Shop & Kitchen.",
-      "id": 92
+      "id": 92,
+      "venueId": "hub-rtp-durham"
     },
     {
       "name": "Tattoo Consult Day!",
@@ -2538,7 +2630,8 @@
         "Free"
       ],
       "description": "Gold Hand Gallery hosts its monthly Tattoo Consult Day on Sunday, July 12, 2026, from 1\u20136 PM, allowing clients to discuss tattoo ideas and book appointments with artists [1][3][5].",
-      "id": 93
+      "id": 93,
+      "venueId": "gold-hand-gallery-tattoos-art-chapel-hill"
     },
     {
       "name": "Sundays at Sundown Live Music Series",
@@ -2565,7 +2658,8 @@
         "Free"
       ],
       "description": "Sundays at Sundown is a recurring summer concert series featuring live music on the Southern Village green in Chapel Hill, running from May 3 to September 20, 2026, with performances starting at 7 p.m. [1][2][4]",
-      "id": 94
+      "id": 94,
+      "venueId": "southern-village-chapel-hill"
     },
     {
       "name": "Sunday Brunch Music",
@@ -2593,7 +2687,8 @@
         "Free"
       ],
       "description": "Join every Sunday on the lawn at Weaver Street Market Carrboro for free local music, fresh air, and brunch while catching up with friends and neighbors[1][3].",
-      "id": 95
+      "id": 95,
+      "venueId": "weaver-street-market-carrboro-carrboro"
     },
     {
       "name": "Marvin's Trio Local Live Music",
@@ -2619,7 +2714,8 @@
         "Local"
       ],
       "description": "Marvin's Trio performs local live music at Lanza's Cafe in Carrboro on Sunday, July 12, 2026, starting at 11:00 AM with free admission.",
-      "id": 96
+      "id": 96,
+      "venueId": "lanza-s-cafe-carrboro"
     },
     {
       "name": "Care & Concern: Recent Acquisitions of Modern & Contemporary Art",
@@ -2647,7 +2743,8 @@
         "Free"
       ],
       "description": "This exhibition features modern and contemporary art acquired by the Ackland Art Museum since 2020, showcasing how artists express their cares and concerns about the world around them[2][5].",
-      "id": 97
+      "id": 97,
+      "venueId": "ackland-art-museum-chapel-hill"
     },
     {
       "name": "Better Than Chocolate (1999) Sapphlix Queer Movie Night",
@@ -2675,7 +2772,8 @@
         "Beer"
       ],
       "description": "Sapphlix Queer Movie Night screens the 1999 lesbian comedy Better Than Chocolate at Steel String Brewery Taproom in Carrboro, starting at 7 PM on Sunday.",
-      "id": 98
+      "id": 98,
+      "venueId": "steel-string-brewery-taproom-carrboro"
     }
   ]
 }

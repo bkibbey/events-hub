@@ -4,6 +4,11 @@
   <meta charset="utf-8" />
   <title>Raleigh Weekend Events Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Leaflet for map view -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
   <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -159,6 +164,37 @@
     .pill{padding:.25rem .75rem;border-radius:var(--radius-full);border:1px solid rgba(0,0,0,.06);background:var(--color-surface-2);font-size:var(--text-xs);color:var(--color-text-muted);display:inline-flex;align-items:center;gap:.25rem;transition:background var(--transition),color var(--transition),border-color var(--transition),transform var(--transition),box-shadow var(--transition);white-space:nowrap;cursor:pointer}
     .pill:hover{background:var(--color-surface-offset);color:var(--color-text)}
     .pill.is-active{background:var(--color-primary-soft);border-color:var(--color-primary);color:var(--color-primary);box-shadow:var(--shadow-sm);transform:translateY(-1px)}
+    /* View toggle (List | Map) */
+    .view-toggle{display:inline-flex;gap:2px;background:var(--color-surface-2);padding:2px;border-radius:var(--radius-full);border:1px solid var(--color-border)}
+    .view-btn{display:inline-flex;align-items:center;gap:.35rem;padding:.25rem .7rem;border-radius:var(--radius-full);border:none;background:transparent;color:var(--color-text-muted);font-size:var(--text-xs);cursor:pointer;transition:all var(--transition)}
+    .view-btn:hover{color:var(--color-text)}
+    .view-btn.is-active{background:var(--color-primary-soft);color:var(--color-primary);box-shadow:var(--shadow-sm)}
+    .view-btn svg{display:block}
+    /* Map view */
+    #mapContainer{margin-top:var(--space-3)}
+    #map{width:100%;height:70vh;min-height:500px;border-radius:var(--radius-lg);border:1px solid var(--color-border);box-shadow:var(--shadow-sm);z-index:1}
+    .leaflet-popup-content-wrapper{border-radius:var(--radius-md)}
+    .leaflet-popup-content{margin:.75rem 1rem;font-family:inherit;font-size:var(--text-sm);line-height:1.4;max-width:280px}
+    .leaflet-popup-content h4{margin:0 0 .35rem;font-size:var(--text-md);font-weight:600}
+    .leaflet-popup-content .venue-addr{color:var(--color-text-muted);font-size:var(--text-xs);margin-bottom:.4rem}
+    .leaflet-popup-content .venue-links{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.4rem}
+    .leaflet-popup-content .venue-links a{color:var(--color-primary);text-decoration:none;font-size:var(--text-xs)}
+    .leaflet-popup-content .venue-links a:hover{text-decoration:underline}
+    .leaflet-popup-content .venue-socials{display:flex;gap:.35rem;margin-bottom:.5rem;flex-wrap:wrap}
+    .leaflet-popup-content .venue-socials a{width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;background:var(--color-surface-2);border-radius:50%;color:var(--color-text-muted);font-size:.75rem;text-decoration:none}
+    .leaflet-popup-content .venue-socials a:hover{background:var(--color-primary-soft);color:var(--color-primary)}
+    .leaflet-popup-content .venue-events{margin-top:.4rem;padding-top:.4rem;border-top:1px solid var(--color-border);max-height:180px;overflow-y:auto}
+    .leaflet-popup-content .venue-events .ev{padding:.2rem 0;font-size:var(--text-xs);color:var(--color-text)}
+    .leaflet-popup-content .venue-events .ev-when{color:var(--color-text-muted);font-size:.7rem;margin-left:.35rem}
+    /* Marker with event count badge */
+    .venue-marker{background:var(--color-primary);color:#fff;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,.3);border:2px solid #fff}
+    .venue-marker.is-single{width:26px;height:26px;font-size:.68rem}
+    .map-unmapped{margin-top:var(--space-3);padding:.6rem .8rem;background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--text-xs);color:var(--color-text-muted)}
+    .map-unmapped strong{color:var(--color-text)}
+    @media (prefers-color-scheme: dark){
+      .leaflet-tile{filter:brightness(.85) contrast(1.05)}
+    }
+    html[data-theme="dark"] .leaflet-tile{filter:brightness(.85) contrast(1.05)}
     .pill .count{opacity:.6;font-size:.65rem;margin-left:.15rem}
     .result-meta{font-size:var(--text-xs);color:var(--color-text-muted);white-space:nowrap}
 
@@ -319,6 +355,16 @@
               </div>
             </div>
           </div>
+          <div class="view-toggle" role="group" aria-label="View mode">
+            <button class="view-btn is-active" data-view="list" type="button" title="List view">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              List
+            </button>
+            <button class="view-btn" data-view="map" type="button" title="Map view">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+              Map
+            </button>
+          </div>
           <div class="filter-dd" id="ddWhen">
             <button class="filter-dd-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
               When <span class="badge" hidden></span> <span class="caret">▼</span>
@@ -378,6 +424,10 @@
 
     <section aria-label="Events" style="margin-top:var(--space-3)">
       <div id="eventsGrid" class="events-grid"></div>
+      <div id="mapContainer" style="display:none">
+        <div id="map" role="application" aria-label="Map of event venues"></div>
+        <div id="mapUnmapped" class="map-unmapped" hidden></div>
+      </div>
       <div id="emptyState" class="empty-state" style="display:none">
         <h3>No events match</h3>
         <p>Try removing a tag or clearing filters.</p>
@@ -429,7 +479,7 @@ function loadSortPref(){
   try{const v=sessionStorage.getItem(SORT_STORAGE_KEY);if(v==='shuffle'||v==='az'||v==='za')return v;}catch(e){}
   return 'shuffle';
 }
-const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),activeCities:new Set(),query:'',week:null,sharedView:false,sort:loadSortPref()};
+const state={allEvents:[],filtered:[],selectedIds:new Set(),activeDay:'all',freeOnly:false,activeTags:new Set(),activeCities:new Set(),query:'',week:null,sharedView:false,sort:loadSortPref(),view:'list',venues:{}};
 const $ = id => document.getElementById(id);
 
 function getUrlParams(){
@@ -464,7 +514,8 @@ function syncUrl(){
     // Preserve params we don't manage
     const keep=new Set(['week','selected']);
     // Strip everything we manage so we re-write cleanly
-    ['sort','day','cities','tags','free','q'].forEach(k=>sp.delete(k));
+    ['sort','day','cities','tags','free','q','view'].forEach(k=>sp.delete(k));
+    if(state.view==='map')sp.set('view','map');
     if(!state.sharedView){
       if(state.sort && state.sort!=='shuffle')sp.set('sort',state.sort);
       if(state.activeDay && state.activeDay!=='all')sp.set('day',state.activeDay.toLowerCase());
@@ -512,6 +563,7 @@ function applyUrlParamsToState(){
   if(p.get('free')==='1'){state.freeOnly=true;touched=true;}
   const q=p.get('q');
   if(q){state.query=q.toLowerCase().trim();touched=true;}
+  if(p.get('view')==='map'){state.view='map';touched=true;}
   return touched;
 }
 
@@ -654,7 +706,18 @@ function assignShuffleOrder(events){
 function renderEvents(){
   const grid=$('eventsGrid');
   const empty=$('emptyState');
+  const mapCon=$('mapContainer');
   grid.innerHTML='';
+  // Map view: hide list, show map, delegate to renderMap
+  if(state.view==='map'){
+    grid.style.display='none';
+    empty.style.display='none';
+    if(mapCon)mapCon.style.display='';
+    renderMap();
+    return;
+  }
+  // List view (default): hide map, show grid or empty state
+  if(mapCon)mapCon.style.display='none';
   if(!state.filtered.length){
     grid.style.display='none';
     empty.style.display='flex';
@@ -1339,6 +1402,160 @@ document.addEventListener('click',(e)=>{
   if(dd){dd.dataset.open='false';dd.querySelector('.filter-dd-btn').setAttribute('aria-expanded','false');}
 },true);
 
+// ---------------------------------------------------------------------------
+// Map view: Leaflet + OpenStreetMap tiles. Groups filtered events by venueId
+// and drops one marker per venue. Popup shows venue name/address, links,
+// socials, and the event list for that venue (matching current filters).
+// ---------------------------------------------------------------------------
+let _map=null, _markerLayer=null, _mapReady=false;
+const SOCIAL_ICONS={
+  facebook:'f',instagram:'IG',twitter:'X',threads:'@',bluesky:'B',
+  tiktok:'TT',youtube:'YT',reddit:'R',linkedin:'in'
+};
+const SOCIAL_LABELS={
+  facebook:'Facebook',instagram:'Instagram',twitter:'Twitter',threads:'Threads',
+  bluesky:'Bluesky',tiktok:'TikTok',youtube:'YouTube',reddit:'Reddit',linkedin:'LinkedIn'
+};
+
+async function loadVenues(){
+  try{
+    const r=await fetch('data/venues.json',{cache:'no-cache'});
+    if(!r.ok)return {};
+    const data=await r.json();
+    // venues.json shape can be: bare array, {venues:[...]}, or {venues:{slug:obj}}
+    let src=Array.isArray(data)?data:data.venues;
+    if(!src)return {};
+    if(Array.isArray(src)){
+      const map={};
+      src.forEach(v=>{if(v && v.slug)map[v.slug]=v;});
+      return map;
+    }
+    if(typeof src==='object'){
+      // Already keyed by slug — make sure each entry carries its slug
+      const map={};
+      Object.entries(src).forEach(([slug,v])=>{
+        if(v && typeof v==='object')map[slug]=Object.assign({slug},v);
+      });
+      return map;
+    }
+    return {};
+  }catch(e){console.warn('venues.json load failed:',e);return {};}
+}
+
+function ensureMap(){
+  if(_map||typeof L==='undefined')return _map;
+  // Center on Raleigh–Durham metro; will auto-fit to markers on first render
+  _map=L.map('map',{scrollWheelZoom:true}).setView([35.85,-78.75],10);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    maxZoom:19,
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(_map);
+  _markerLayer=L.layerGroup().addTo(_map);
+  _mapReady=true;
+  return _map;
+}
+
+function escapeHtml(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'})[c]);}
+
+function venuePopupHtml(venue,events){
+  const name=escapeHtml(venue.name||'Venue');
+  const addr=[venue.address,venue.city,venue.state].filter(Boolean).join(', ');
+  const linkMain=venue.linkMain||'';
+  const linkEvents=venue.linkEvents||'';
+  const socials=venue.socials||{};
+  const parts=[];
+  parts.push(`<h4>${name}</h4>`);
+  if(addr)parts.push(`<div class="venue-addr">${escapeHtml(addr)}</div>`);
+  const links=[];
+  if(linkMain)links.push(`<a href="${escapeHtml(linkMain)}" target="_blank" rel="noopener">Website</a>`);
+  if(linkEvents && linkEvents!==linkMain)links.push(`<a href="${escapeHtml(linkEvents)}" target="_blank" rel="noopener">Events</a>`);
+  if(links.length)parts.push(`<div class="venue-links">${links.join('')}</div>`);
+  const socialLinks=Object.entries(socials).filter(([,url])=>url).map(([platform,url])=>
+    `<a href="${escapeHtml(url)}" target="_blank" rel="noopener" title="${SOCIAL_LABELS[platform]||platform}" aria-label="${SOCIAL_LABELS[platform]||platform}">${SOCIAL_ICONS[platform]||'·'}</a>`
+  ).join('');
+  if(socialLinks)parts.push(`<div class="venue-socials">${socialLinks}</div>`);
+  if(events.length){
+    const evHtml=events.map(ev=>{
+      const days=(ev.days||[]).join(', ');
+      const nm=escapeHtml(ev.name||'Event');
+      const url=ev.ticketUrl||ev.website||'';
+      const linked=url?`<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${nm}</a>`:nm;
+      return `<div class="ev">${linked}${days?`<span class="ev-when">${escapeHtml(days)}</span>`:''}</div>`;
+    }).join('');
+    parts.push(`<div class="venue-events"><strong>${events.length} event${events.length===1?'':'s'} here</strong>${evHtml}</div>`);
+  }
+  return parts.join('');
+}
+
+function renderMap(){
+  const con=$('mapContainer');
+  if(!con)return;
+  // Leaflet may not be ready yet (deferred script). Retry shortly.
+  if(typeof L==='undefined'){setTimeout(renderMap,80);return;}
+  ensureMap();
+  _markerLayer.clearLayers();
+
+  // Group filtered events by venueId; skip events with no venueId or no coords
+  const groups=new Map();
+  const orphan=[];
+  state.filtered.forEach(ev=>{
+    const vid=ev.venueId;
+    const v=vid?state.venues[vid]:null;
+    if(!v||v.lat==null||v.lng==null){orphan.push(ev);return;}
+    if(!groups.has(vid))groups.set(vid,{venue:v,events:[]});
+    groups.get(vid).events.push(ev);
+  });
+
+  const bounds=[];
+  groups.forEach(({venue,events})=>{
+    const count=events.length;
+    const icon=L.divIcon({
+      className:'',
+      html:`<div class="venue-marker${count===1?' is-single':''}">${count}</div>`,
+      iconSize:[count===1?26:32,count===1?26:32],
+      iconAnchor:[count===1?13:16,count===1?13:16]
+    });
+    const m=L.marker([venue.lat,venue.lng],{icon,title:venue.name});
+    m.bindPopup(venuePopupHtml(venue,events),{maxWidth:320});
+    m.addTo(_markerLayer);
+    bounds.push([venue.lat,venue.lng]);
+  });
+
+  // Unmapped notice
+  const un=$('mapUnmapped');
+  if(un){
+    if(orphan.length){
+      un.hidden=false;
+      un.innerHTML=`<strong>${orphan.length}</strong> event${orphan.length===1?'':'s'} not shown on map (no venue coordinates yet).`;
+    } else un.hidden=true;
+  }
+
+  // Fit bounds to markers (or leave the default Raleigh view if none)
+  if(bounds.length){
+    _map.fitBounds(bounds,{padding:[32,32],maxZoom:14});
+  }
+  // Leaflet often needs an explicit size recalc when its container was hidden
+  setTimeout(()=>{try{_map.invalidateSize();}catch(e){}},50);
+}
+
+// View toggle wiring (list ↔ map)
+function setView(v){
+  if(v!=='list'&&v!=='map')v='list';
+  if(state.view===v)return;
+  state.view=v;
+  document.querySelectorAll('.view-btn').forEach(b=>b.classList.toggle('is-active',b.dataset.view===v));
+  renderEvents();
+  syncUrl();
+}
+document.addEventListener('click',e=>{
+  const btn=e.target.closest('.view-btn');
+  if(!btn)return;
+  setView(btn.dataset.view);
+},false);
+function syncViewUI(){
+  document.querySelectorAll('.view-btn').forEach(b=>b.classList.toggle('is-active',b.dataset.view===state.view));
+}
+
 // Initial boot: load manifest + initial dataset in parallel
 (async function boot(){
   const params=new URLSearchParams(location.search);
@@ -1347,9 +1564,14 @@ document.addEventListener('click',(e)=>{
   // Treat ?week= as archive only if it differs from current
   const useArchive=weekParam && weekManifest.current && weekParam!==weekManifest.current;
   try{
-    const data=await loadEvents(useArchive?weekParam:null);
+    // Load events + venues in parallel (venues.json is not critical, don't block)
+    const [data,venues]=await Promise.all([
+      loadEvents(useArchive?weekParam:null),
+      loadVenues()
+    ]);
     state.allEvents=data.events||[];
     state.week=data.week||null;
+    state.venues=venues||{};
     assignShuffleOrder(state.allEvents);
     updateWeekLabel();
     buildTagPills(state.allEvents);
@@ -1363,6 +1585,7 @@ document.addEventListener('click',(e)=>{
     _suspendUrlSync=true;
     applyUrlParamsToState();
     syncFilterUI();
+    syncViewUI();
     _suspendUrlSync=false;
     applyFilters();
     if(selectedIds.size>0){

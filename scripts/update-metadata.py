@@ -208,6 +208,36 @@ def main():
             print(f"    ERROR: {e} — skipping")
         time.sleep(0.5)
 
+    # Attach venueId to every event via the venue registry.
+    # Non-fatal: if the registry is missing or match fails we still write the file.
+    try:
+        import importlib.util as _iu
+        _spec = _iu.spec_from_file_location(
+            "match_venues", Path(__file__).parent / "match-venues.py"
+        )
+        _mv = _iu.module_from_spec(_spec)
+        _spec.loader.exec_module(_mv)
+        build_indexes, match_event = _mv.build_indexes, _mv.match_event
+
+        venues_path = DATA_DIR / "venues.json"
+        if venues_path.exists():
+            registry = json.loads(venues_path.read_text())
+            idx = build_indexes(registry)
+            matched = 0
+            no_match = 0
+            for ev in enriched:
+                slug, reason = match_event(ev, idx)
+                ev["venueId"] = slug
+                if slug:
+                    matched += 1
+                else:
+                    no_match += 1
+            print(f"✓ Venue match: {matched}/{len(enriched)} events linked to a venue (no_match={no_match})")
+        else:
+            print("(no data/venues.json — skipping venueId assignment)")
+    except Exception as e:
+        print(f"  warn: venue matching skipped ({e})")
+
     output = {
         "week": week,
         "generated": date.today().isoformat(),

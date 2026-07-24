@@ -30,7 +30,8 @@
         "Family"
       ],
       "description": "First Friday is celebrated on the first Friday of each month throughout Downtown Raleigh to showcase the city's creative community with open galleries, live music, and food vendors[1][3]. It is a free self-guided tour where walkable venues generally operate from 6 to 9 p.m.[4].",
-      "id": 1
+      "id": 1,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "Rockstar Devi Sri Prasad Live - Euphoria 2026",
@@ -55,7 +56,8 @@
         "Ticketed"
       ],
       "description": "Rockstar Devi Sri Prasad brings his electrifying live performance to Raleigh for Euphoria 2026 at the Memorial Auditorium on July 3, 2026.",
-      "id": 2
+      "id": 2,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Movie Night: Independence Day",
@@ -82,7 +84,8 @@
         "Free"
       ],
       "description": "Grab lawn chairs and blankets for an outdoor screening of Independence Day at Downtown Cary Park, featuring pre-screening activities and food trucks.",
-      "id": 3
+      "id": 3,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "America\u2019s 250th Anniversary Patriotic Celebration",
@@ -108,7 +111,8 @@
         "Free"
       ],
       "description": "The Cary Town Band presents a concert guiding audiences through 250 years of American history with patriotic music and narration by guest Mark Schreiner[1][9].",
-      "id": 4
+      "id": 4,
+      "venueId": "cary-arts-center-cary"
     },
     {
       "name": "Wake Forest Fireworks Spectacular 2026",
@@ -137,7 +141,8 @@
         "Free"
       ],
       "description": "The annual Independence Day celebration features a live concert by The Swingin' Medallions, roaming performers, food trucks, and a spectacular fireworks display at Husky Stadium on the Heritage High School campus.",
-      "id": 5
+      "id": 5,
+      "venueId": "heritage-high-school-wake-forest"
     },
     {
       "name": "Apex Fireworks Frenzy",
@@ -164,7 +169,8 @@
         "Outdoor"
       ],
       "description": "Apex Fireworks Frenzy is a family-friendly Independence Day celebration featuring food trucks, games, a community Parade of Wheels, a fire department splashdown, a unique 200-drone light show, and a spectacular fireworks display.",
-      "id": 6
+      "id": 6,
+      "venueId": "hunter-street-park-apex"
     },
     {
       "name": "Raleigh + Rostock 25th Anniversary Reception",
@@ -190,7 +196,8 @@
         "Ticketed"
       ],
       "description": "Join community leaders and guests for an evening honoring visiting delegation guests from Rostock, Germany, at the Transfer Co. Ballroom in Downtown Raleigh.",
-      "id": 7
+      "id": 7,
+      "venueId": "transfer-co-ballroom-raleigh"
     },
     {
       "name": "Cary July 3rd Celebration 2026",
@@ -219,7 +226,8 @@
         "Arts & Crafts"
       ],
       "description": "This free Independence Day Weekend event features patriotic activities, roaming entertainment, trivia, food trucks, and a special screening of the movie 'Independence Day' at Downtown Cary Park[1][2].",
-      "id": 8
+      "id": 8,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "First Friday Market & Movie Night: Hamilton",
@@ -248,7 +256,8 @@
         "Music"
       ],
       "description": "Join this family-friendly outdoor event at Moore Square for a screening of Hamilton (2020), local vendors, food trucks, live music, and free lawn games.",
-      "id": 9
+      "id": 9,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Garner Independence Day Celebration",
@@ -277,7 +286,8 @@
         "Holiday"
       ],
       "description": "The Garner Independence Day Celebration features a headlining performance by the North Carolina Symphony, local food vendors, a Kids' Zone with games and crafts, and a fireworks show immediately following the concert.",
-      "id": 10
+      "id": 10,
+      "venueId": "lake-benson-park-garner"
     },
     {
       "name": "Stars, Stripes & Signatures",
@@ -306,7 +316,8 @@
         "Ticketed"
       ],
       "description": "Stars, Stripes & Signatures is an upscale Independence Eve event at The Haymaker in downtown Raleigh, offering a refined social environment for professionals to celebrate the holiday weekend in a sophisticated setting.",
-      "id": 11
+      "id": 11,
+      "venueId": "the-haymaker-raleigh"
     },
     {
       "name": "Cary Tennis Classic 2026",
@@ -334,7 +345,8 @@
         "Ticketed"
       ],
       "description": "The 12th annual Cary Tennis Classic is a professional tennis tournament held on outdoor hard courts in Cary, NC, featuring both men's ATP Challenger and women's ITF World Tennis Tour matches from June 29 to July 5, 2026.",
-      "id": 12
+      "id": 12,
+      "venueId": "cary-tennis-park-cary"
     },
     {
       "name": "Zinchouse Independence Day Celebration",
@@ -364,7 +376,8 @@
         "Free"
       ],
       "description": "The Zinchouse Independence Day Celebration is a free, 21+ event on Friday, July 3, 2026, featuring live music from The Band Next Door and Love Tribe, local food trucks, craft cocktails, wine, brews, and a fireworks show at ZincHouse Winery & Brewery in Durham.",
-      "id": 13
+      "id": 13,
+      "venueId": "zinchouse-winery-brewery-durham"
     },
     {
       "name": "ADF Presents: Mark Morris Dance Group and Music Ensemble",
@@ -394,7 +407,8 @@
         "Ticketed"
       ],
       "description": "The Mark Morris Dance Group and Music Ensemble returns to the American Dance Festival with Dances to American Music, featuring works by Gottschalk, Gershwin, and Bob Wills.",
-      "id": 14
+      "id": 14,
+      "venueId": "page-auditorium-at-duke-durham"
     },
     {
       "name": "Gina Brillon",
@@ -420,7 +434,8 @@
         "Ticketed"
       ],
       "description": "Gina Brillon, a Bronx-born Puerto Rican actress and comedian, performs her signature stand-up at Raleigh Improv on July 2\u20133, 2026, with shows at 7 PM.",
-      "id": 15
+      "id": 15,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "DG the Artist / JEYV\u00d8",
@@ -448,7 +463,8 @@
         "Arts & Crafts"
       ],
       "description": "This concert features a unique double bill showcasing DG the Artist and JEYV\u00d8, bringing together fans of alternative hip-hop for a night of music and cubic vibes during the Rubik's North American Championship.",
-      "id": 17
+      "id": 17,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Excitable \u2013 The Def Leppard Tribute & '84 \u2013 A Tribute to Van Halen",
@@ -474,7 +490,8 @@
         "Ticketed"
       ],
       "description": "Excitable, a Def Leppard tribute band from Atlanta, recreates the arena rock sound of the 1980s alongside '84, a Van Halen tribute, at Lincoln Theatre in Raleigh on July 3, 2026.",
-      "id": 18
+      "id": 18,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "First Friday Community Improv Jam",
@@ -503,7 +520,8 @@
         "21+"
       ],
       "description": "A free monthly community improv jam featuring potluck, open mic, and improv games for adults 18+ at Leela Improv Theatre in Downtown Raleigh.",
-      "id": 19
+      "id": 19,
+      "venueId": "leela-improv-theatre-raleigh"
     },
     {
       "name": "First Friday at The Davie with Kerry Long",
@@ -529,7 +547,8 @@
         "21+"
       ],
       "description": "Kerry Long performs a mix of covers and originals at The Davie for First Friday in downtown Raleigh, offering free admission and cold drinks.",
-      "id": 20
+      "id": 20,
+      "venueId": "the-davie-raleigh"
     },
     {
       "name": "FoundiT w/ Pnltybx, Manic Third Planet",
@@ -555,7 +574,8 @@
         "Ticketed"
       ],
       "description": "This concert brings together FoundiT, Pnltybx, and Manic Third Planet for a high-energy rock performance at The Pour House in Raleigh on July 3, 2026.",
-      "id": 21
+      "id": 21,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Fusebox with The Dead-Heavy alt Rock Experience",
@@ -580,7 +600,8 @@
         "Free"
       ],
       "description": "Fusebox hosts a heavy alt rock cover band night on July 3, 2026, with The Deads as special guests at Slim's Dive Bar in downtown Raleigh.",
-      "id": 22
+      "id": 22,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Glitter Hour - Amateur Drag Competition",
@@ -608,7 +629,8 @@
         "Arts & Crafts"
       ],
       "description": "Glitter Hour is a monthly open-call drag competition and three-time Raleigh Readers' Choice Award recipient for Favorite Nightlife Stage Event, rescheduled for Friday, July 3, 2026 at 9 PM.",
-      "id": 23
+      "id": 23,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Amateur Talent Show",
@@ -637,7 +659,8 @@
         "Dance"
       ],
       "description": "Monthly First Friday Amateur Talent Show at Legends Nightclub in Downtown Raleigh, hosted by Chloe Cassidy, featuring drag, dancing, and local performers starting at 11pm.",
-      "id": 24
+      "id": 24,
+      "venueId": "legends-nightclub-raleigh"
     },
     {
       "name": "Capitol 250: NC Freedom Fest",
@@ -666,7 +689,8 @@
         "Arts & Crafts"
       ],
       "description": "This free all-day festival marks the 250th anniversary of the Declaration of Independence with performances by Tift Merritt and Rissi Palmer, living history exhibits, food trucks, and an Independence Day ceremony.",
-      "id": 25
+      "id": 25,
+      "venueId": "north-carolina-state-capitol-raleigh"
     },
     {
       "name": "Raleigh's Fourth of July Fireworks",
@@ -695,7 +719,8 @@
         "Food"
       ],
       "description": "Raleigh's annual Fourth of July fireworks celebration returns to Dix Park for the 250th anniversary of the Declaration of Independence, featuring live music, food vendors, activities, and a major fireworks display at 9:30 PM.",
-      "id": 26
+      "id": 26,
+      "venueId": "dix-park-raleigh"
     },
     {
       "name": "Cary Presents: Independence Day Celebration",
@@ -723,7 +748,8 @@
         "Free"
       ],
       "description": "This cherished Triangle tradition honors America's 250th Anniversary with performances by the North Carolina Symphony and Cary Town Band, festive activities for kids, and a dazzling fireworks display over Symphony Lake.",
-      "id": 27
+      "id": 27,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "Brier Creek Star Spangled Block Party 2026",
@@ -751,7 +777,8 @@
         "Holiday"
       ],
       "description": "The annual Star Spangled Block Party at Brier Creek Commons features live DJ music, kids\u2019 activities, patriotic giveaways, and a choreographed fireworks show that begins after dark.",
-      "id": 28
+      "id": 28,
+      "venueId": "brier-creek-commons-raleigh"
     },
     {
       "name": "North Carolina Courage vs. Seattle Reign",
@@ -777,7 +804,8 @@
         "Ticketed"
       ],
       "description": "The North Carolina Courage host the Seattle Reign for Supergirl Night at WakeMed Soccer Park in a fun, family-friendly NWSL match featuring games, food trucks, and merchandise.",
-      "id": 29
+      "id": 29,
+      "venueId": "wakemed-soccer-park-cary"
     },
     {
       "name": "Darren Brand",
@@ -804,7 +832,8 @@
         "Adult"
       ],
       "description": "Darren Brand, known as Big Baby, performs his 'Wild \u2019N Out' comedy show at Goodnights Comedy Club on July 4\u20135, 2026.",
-      "id": 30
+      "id": 30,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Fourth on First Avenue",
@@ -832,7 +861,8 @@
         "Outdoor"
       ],
       "description": "Fourth on First Avenue is Knightdale's annual Independence Day celebration featuring a bike parade, live music by Liquid Pleasure, food trucks, inflatables, axe throwing, and a splash pad party.",
-      "id": 31
+      "id": 31,
+      "venueId": "knightdale-station-park-knightdale"
     },
     {
       "name": "Free Hot Dog Cookout: America's 250th Birthday",
@@ -857,7 +887,8 @@
         "Free"
       ],
       "description": "The Davie hosts a free Hot Dog Cookout on Saturday, July 4, 2026, from noon to 2 a.m. to celebrate America's 250th birthday with free hot dogs and no purchase required.",
-      "id": 32
+      "id": 32,
+      "venueId": "the-davie-raleigh"
     },
     {
       "name": "Hair in Concert: Peace and Love on America's 250th",
@@ -886,7 +917,8 @@
         "Arts & Crafts"
       ],
       "description": "This free Independence Day celebration features live music, spoken word by North Carolina Poet Laureate Dasan Ahanu, and selections from the musical Hair at Fred Fletcher Park. Families can enjoy hands-on children's activities, improv comedy, opera, puppet theatre, and local food trucks.",
-      "id": 33
+      "id": 33,
+      "venueId": "fred-fletcher-park-raleigh"
     },
     {
       "name": "Art & More in the Park 2026",
@@ -912,7 +944,8 @@
         "Free"
       ],
       "description": "Hosted by the Wake Forest Woman's Club and Wake Forest Fire Department, this event offers children the chance to make patriotic crafts and enjoy cupcake decorating inside the Community House and in the adjacent gravel parking lot.",
-      "id": 34
+      "id": 34,
+      "venueId": "wake-forest-community-house-wake-forest"
     },
     {
       "name": "Cary Independence Day Fishing Tournament 2026",
@@ -938,7 +971,8 @@
         "Free"
       ],
       "description": "The Town of Cary hosts its annual Independence Day Fishing Tournament at Fred G. Bond Metro Park, where anglers of all ages compete for prizes based on the longest and shortest fish caught in each age group.",
-      "id": 35
+      "id": 35,
+      "venueId": "fred-g-bond-metro-park-and-boathouse-cary"
     },
     {
       "name": "Rolesville 4th Celebration",
@@ -967,7 +1001,8 @@
         "Free"
       ],
       "description": "The Rolesville 4th Celebration is a free Fourth of July event featuring food trucks, beer and wine vendors, local vendors, inflatables, yard games, live music, and fireworks at Redford Place Park.",
-      "id": 36
+      "id": 36,
+      "venueId": "redford-place-park-rolesville"
     },
     {
       "name": "Children's Parade 2026",
@@ -993,7 +1028,8 @@
         "Free"
       ],
       "description": "The annual Children's Parade is part of Wake Forest's July 4th celebration, inviting kids to join a walking parade on bicycles or wagons with no registration required.",
-      "id": 37
+      "id": 37,
+      "venueId": "wake-forest-historical-museum-wake-forest"
     },
     {
       "name": "\"Together, We Are America\" | July 4th Celebration",
@@ -1022,7 +1058,8 @@
         "Holiday"
       ],
       "description": "Presented by the Town of Hillsborough and Orange County, this free Fourth of July festival celebrates community, history, and culture with acoustic music, clogging, a live reading of the Declaration of Independence, a parade, norte\u00f1o and brass bands, jazz, gospel, and an Independence Day laser light show.",
-      "id": 38
+      "id": 38,
+      "venueId": "river-park-hillsborough"
     },
     {
       "name": "2026 July 4th Celebration of America's 250th Birthday!",
@@ -1049,7 +1086,8 @@
         "Holiday"
       ],
       "description": "This community event in Chapel Hill celebrates the 250th anniversary of the Declaration of Independence with local festivities at Horace Williams House.",
-      "id": 39
+      "id": 39,
+      "venueId": "horace-williams-house-chapel-hill"
     },
     {
       "name": "Annual Reading of Frederick Douglass' Essay",
@@ -1075,7 +1113,8 @@
         "Museum"
       ],
       "description": "The Town of Carrboro hosts its annual community reading of Frederick Douglass' essay 'The Meaning of the Fourth of July for the Negro' at the Carrboro Century Center.",
-      "id": 40
+      "id": 40,
+      "venueId": "carrboro-century-center-carrboro"
     },
     {
       "name": "Carrboro July 4th Celebration",
@@ -1103,7 +1142,8 @@
         "Free"
       ],
       "description": "The Town of Carrboro hosts its annual Independence Day celebration featuring live music by Liquid Pleasure, a People's Parade led by the Bulltown Strutters, and family activities including a baby crawl and pie-eating contests.",
-      "id": 41
+      "id": 41,
+      "venueId": "carrboro-town-commons-carrboro"
     },
     {
       "name": "Chapel Hill July 4th Drone Show",
@@ -1131,7 +1171,8 @@
         "Outdoor"
       ],
       "description": "Chapel Hill replaces its traditional fireworks with a sustainable drone show featuring 300 synchronized drones creating shapes and images above Chapel Hill High School on July 4, 2026.",
-      "id": 42
+      "id": 42,
+      "venueId": "chapel-hill-high-school-chapel-hill"
     },
     {
       "name": "Revolutionary Era Walking Tour",
@@ -1157,7 +1198,8 @@
         "Ticketed"
       ],
       "description": "Join a guided walking tour exploring Hillsborough's historic district and key sites from the Revolutionary Era, including the Alexander Dickson House and surrounding landmarks.",
-      "id": 43
+      "id": 43,
+      "venueId": "alexander-dickson-house-hillsborough"
     },
     {
       "name": "July 4th Block Party",
@@ -1186,7 +1228,8 @@
         "Ticketed"
       ],
       "description": "Join Annexe and High Dive for a dual-venue block party honoring Latin America and America's 250th anniversary, featuring DJ Ek Balam, karaoke, classic films, drink specials, hot dogs, and an ice luge.",
-      "id": 44
+      "id": 44,
+      "venueId": "annexe-high-dive-durham"
     },
     {
       "name": "Jireh Family Farm \u2014 Farm to Table Breakfast & Farm Tour",
@@ -1213,7 +1256,8 @@
         "Ticketed"
       ],
       "description": "Jireh Family Farm hosts its annual Farm to Table Breakfast featuring a buffet of farm-fresh eggs, bacon, sausage, biscuits, hashbrowns, and fried apples, followed by an optional 30-minute farm tour.",
-      "id": 45
+      "id": 45,
+      "venueId": "jireh-farm-durham"
     },
     {
       "name": "Children's Independence Day Parade",
@@ -1240,7 +1284,8 @@
         "Festival"
       ],
       "description": "Bring the whole family to Durham Central Park on Saturday, July 4, 2026, for the annual Children's Independence Day Parade featuring bike decorations, balloon fun, and a parade starting at 10:00 AM.",
-      "id": 46
+      "id": 46,
+      "venueId": "durham-central-park-durham"
     },
     {
       "name": "77th Annual Watts-Hillandale Fourth of July Parade and Celebration",
@@ -1267,7 +1312,8 @@
         "Holiday"
       ],
       "description": "The 77th Annual Watts-Hillandale Fourth of July Parade and Celebration is Durham's longest-running Independence Day event, featuring a neighborhood parade starting at 10 a.m. at Oval Drive Park.",
-      "id": 47
+      "id": 47,
+      "venueId": "oval-drive-park-durham"
     },
     {
       "name": "ADF Children's Matinee: Mark Morris Dance Group and Music Ensemble",
@@ -1293,7 +1339,8 @@
         "Ticketed"
       ],
       "description": "The Mark Morris Dance Group and Music Ensemble present a 60-minute Children's Matinee at Reynolds Industries Theater, recommended for ages 3+, with tickets priced $40\u2013$70.",
-      "id": 48
+      "id": 48,
+      "venueId": "page-auditorium-at-duke-durham"
     },
     {
       "name": "Party on Main: 4th of July Block Party in Durham",
@@ -1322,7 +1369,8 @@
         "21+"
       ],
       "description": "Party on Main is a free, family-friendly 4th of July block party in Downtown Durham featuring DJs and food vendors on West Main Street between Corcoran and S. Mangum.",
-      "id": 49
+      "id": 49,
+      "venueId": "primrose-bar-and-lounge-durham"
     },
     {
       "name": "Sun's Out, Buns Out: 4th of July",
@@ -1348,7 +1396,8 @@
         "Free"
       ],
       "description": "A rooftop July 4th cookout at The Durham Hotel featuring juicy beef hot dogs, burgers on brioche buns, and DJ Rhueb spinning from 7 to 10 PM with downtown Durham views.",
-      "id": 50
+      "id": 50,
+      "venueId": "primrose-bar-and-lounge-durham"
     },
     {
       "name": "Holly Springs Salamanders vs. Asheboro Zookeepers",
@@ -1374,7 +1423,8 @@
         "Ticketed"
       ],
       "description": "The Holly Springs Salamanders face the Asheboro Zookeepers in a Coastal Plain League baseball game at Ting Stadium in Holly Springs on Saturday, July 4, 2026 at 6:30 PM.",
-      "id": 51
+      "id": 51,
+      "venueId": "ting-stadium-holly-springs"
     },
     {
       "name": "We Gather Anyway",
@@ -1402,7 +1452,8 @@
         "Ticketed"
       ],
       "description": "We Gather Anyway is a community cookout held at B-Omi Farms in Wendell, North Carolina, celebrating connection across the African diaspora[1]. The event takes place on Saturday, July 4, 2026, from 3:00 PM to 7:00 PM with admission priced at $130[2][3].",
-      "id": 52
+      "id": 52,
+      "venueId": "b-omi-farms-wendell"
     },
     {
       "name": "Zebulon Devil Dogz vs. Greenville Yard Gnomes",
@@ -1428,7 +1479,8 @@
         "Ticketed"
       ],
       "description": "The Zebulon Devil Dogz host the Greenville Yard Gnomes for an Independence Day Coastal Plain League baseball game at Five County Stadium in Zebulon.",
-      "id": 53
+      "id": 53,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "Durham Bulls vs. Gwinnett Stripers",
@@ -1454,7 +1506,8 @@
         "Ticketed"
       ],
       "description": "The Durham Bulls face the Gwinnett Stripers in a minor league baseball game on Friday, July 3, 2026, at 6:45 PM at Durham Bulls Athletic Park.",
-      "id": 54
+      "id": 54,
+      "venueId": "durham-bulls-athletic-park-durham"
     },
     {
       "name": "Madison Beer - The Locket Tour",
@@ -1480,7 +1533,8 @@
         "21+"
       ],
       "description": "Pop artist Madison Beer performs as part of her 'The Locket Tour,' supporting her third studio album *Locket*, released in January 2026, with special guests Th\u1ee7y and Lulu Simon[1].",
-      "id": 55
+      "id": 55,
+      "venueId": "red-hat-amphitheater-raleigh"
     },
     {
       "name": "Harry Connick Jr.",
@@ -1506,7 +1560,8 @@
         "Ticketed"
       ],
       "description": "Harry Connick Jr. performs live at DPAC on July 5, 2026, featuring his signature blend of jazz, pop, and New Orleans classics in a single-night concert.",
-      "id": 56
+      "id": 56,
+      "venueId": "dpac-durham"
     },
     {
       "name": "America's Cookout",
@@ -1533,7 +1588,8 @@
         "Festival"
       ],
       "description": "America's Cookout is a community celebration hosted by the City of Raleigh to commemorate the 250th anniversary of the United States, featuring games, activities, food, and opportunities to connect with City departments[1][2].",
-      "id": 57
+      "id": 57,
+      "venueId": "abbott-s-creek-community-center-raleigh"
     },
     {
       "name": "Day Party Brunch",
@@ -1561,7 +1617,8 @@
         "Family"
       ],
       "description": "Join Botanical Lounge for their weekly Day Party Brunch featuring an abundant buffet, live DJ, and one mimosa included with your $32 ticket.",
-      "id": 58
+      "id": 58,
+      "venueId": "botanical-lounge-raleigh"
     },
     {
       "name": "The Market at NCMA",
@@ -1589,7 +1646,8 @@
         "Free"
       ],
       "description": "The Market at NCMA is a monthly local artist market held at the North Carolina Museum of Art featuring fresh makers, live music, and gallery access. Admission is free and all ages are welcome.",
-      "id": 59
+      "id": 59,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Holly Springs July 5 Independence Day Celebration",
@@ -1618,7 +1676,8 @@
         "Holiday"
       ],
       "description": "This free community celebration kicks off Holly Springs' year-long 150th anniversary with live entertainment, family activities, food trucks, local history exhibits, and fireworks at 9:15 PM.",
-      "id": 60
+      "id": 60,
+      "venueId": "jefferson-l-sugg-farm-at-bass-lake-holly-springs"
     },
     {
       "name": "Holly Springs Salamanders vs. Morehead City Marlins",
@@ -1644,7 +1703,8 @@
         "Ticketed"
       ],
       "description": "The Holly Springs Salamanders host the Morehead City Marlins in a Coastal Plain League baseball game at North Main Athletic Complex in Holly Springs, NC on Sunday, July 5, 2026 at 5:05 PM[1][5].",
-      "id": 61
+      "id": 61,
+      "venueId": "north-main-athletic-complex-holly-springs"
     },
     {
       "name": "Zebulon Devil Dogz vs. Peninsula Pilots",
@@ -1670,7 +1730,8 @@
         "Ticketed"
       ],
       "description": "The Zebulon Devil Dogz face off against the Peninsula Pilots in an official Coastal Plain League baseball game at Five County Stadium on Sunday, July 5, 2026.",
-      "id": 62
+      "id": 62,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "Jus Once Band",
@@ -1697,7 +1758,8 @@
         "Ticketed"
       ],
       "description": "Jus Once Band performs with DJ XL at Kore in Durham on Sunday, July 5, 2026, featuring food by Better Fork Wit It and doors opening at 3 PM.",
-      "id": 63
+      "id": 63,
+      "venueId": "kore-durham"
     },
     {
       "name": "Intervallum / Dumb Apologies / The Lost View / Arcyria",
@@ -1724,7 +1786,8 @@
         "21+"
       ],
       "description": "An evening of high-energy performances spanning grunge, metalcore, and skramz at KINGS in Downtown Raleigh.",
-      "id": 64
+      "id": 64,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Sunday DRIFT Rooftop DJ Series",
@@ -1751,7 +1814,8 @@
         "Free"
       ],
       "description": "A weekly rooftop DJ series at The Velvet Hippo featuring rotating DJs from 4\u20137 PM every Sunday, with no cover charge and a 21+ entry requirement.",
-      "id": 65
+      "id": 65,
+      "venueId": "the-velvet-hippo-durham"
     }
   ]
 }

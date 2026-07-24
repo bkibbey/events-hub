@@ -33,7 +33,8 @@
         "Outdoor"
       ],
       "description": "The Got to Be NC Festival is a three-day event at the North Carolina State Fairgrounds featuring local food and drink vendors, live music, carnival rides, farm animals, tractors, and agricultural exhibits. The festival celebrates North Carolina\u2019s agricultural heritage and is rain or shine.",
-      "id": 1
+      "id": 1,
+      "venueId": "agri-supply-exposition-center-at-north-carolina-state-fairgrounds-raleigh"
     },
     {
       "name": "Third Friday Durham Art Walk & Gallery Crawl",
@@ -61,7 +62,8 @@
         "Museum"
       ],
       "description": "Third Friday Durham is a monthly downtown art walk and gallery crawl featuring free receptions at galleries, museums, and creative spaces across Durham. Most venues host programming from 6:00 to 9:00 PM.",
-      "id": 2
+      "id": 2,
+      "venueId": "downtown-durham-durham"
     },
     {
       "name": "Adult Nights: Social in the Shire",
@@ -90,7 +92,8 @@
         "Festival"
       ],
       "description": "Adult Nights: Social in the Shire is a 21+ after-hours event at the North Carolina Museum of Natural Sciences in Raleigh. The evening features interactive science stations, themed activities, music, games, local entertainment, and food and drinks available for purchase.",
-      "id": 3
+      "id": 3,
+      "venueId": "north-carolina-museum-of-natural-sciences-raleigh"
     },
     {
       "name": "NCMA Movies at Moore Square: Poupelle of Chimney Town",
@@ -117,7 +120,8 @@
         "Outdoor"
       ],
       "description": "Moore Square and the North Carolina Museum of Art present a free outdoor screening of Poupelle of Chimney Town as part of the NCMA Movies at Moore Square series. The event includes themed programming and food trucks before the film starts at 7:15 p.m.",
-      "id": 4
+      "id": 4,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Bike Movie Double Feature",
@@ -143,7 +147,8 @@
         "Ticketed"
       ],
       "description": "Oaks and Spokes presents a double feature of bike-themed movies at the Rialto Theatre, featuring Breaking Away and another cycling classic. Arrive early for doors at 6:15 PM.",
-      "id": 5
+      "id": 5,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Club 90s",
@@ -170,7 +175,8 @@
         "Ticketed"
       ],
       "description": "Club 90s is a DJ-led dance party centered on the music and style of the mid-2000s, with a nonstop mix of club and pop favorites. It\u2019s scheduled for Friday night at The Ritz in Raleigh and is an 18+ event.",
-      "id": 6
+      "id": 6,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Comedy Show: Grant Lyon and Matt White",
@@ -196,7 +202,8 @@
         "Ticketed"
       ],
       "description": "Grant Lyon and Matt White bring stand-up comedy to The Cary Theater for one night only, with an approximate runtime of two hours.",
-      "id": 7
+      "id": 7,
+      "venueId": "the-cary-theater-cary"
     },
     {
       "name": "Candlelight: Featuring Vivaldi's Four Seasons and More",
@@ -222,7 +229,8 @@
         "Ticketed"
       ],
       "description": "Candlelight presents a 60-minute performance of Vivaldi\u2019s Four Seasons and related selections at The Historic Wakefield Barn. The concert is part of the Candlelight series, featuring live classical music in a candlelit setting.",
-      "id": 8
+      "id": 8,
+      "venueId": "the-historic-wakefield-barn-wake-forest"
     },
     {
       "name": "Goodies: 2000s Hip Hop Nite",
@@ -249,7 +257,8 @@
         "Ticketed"
       ],
       "description": "Goodies returns to Durham for a night of 2000s hip hop featuring DJ Uniq spinning the biggest jams from artists like Dr. Dre, Beyonc\u00e9, OutKast, and more. This 21+ event runs from 9 PM to midnight at Motorco Music Hall.",
-      "id": 9
+      "id": 9,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Cary Night Market",
@@ -277,7 +286,8 @@
         "Free"
       ],
       "description": "Cary Night Market is a monthly evening market at Downtown Cary Park featuring 45 to 50 local vendors, including artisans, prepared food vendors, and food trucks. The event also includes music and entertainment and is open to the public at no charge.",
-      "id": 10
+      "id": 10,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "Carolina Ballet presents Beauty and the Beast",
@@ -306,7 +316,8 @@
         "Ticketed"
       ],
       "description": "Carolina Ballet presents Beauty and the Beast, a world-premiere full-length ballet by Artistic Director Zalman Raffael with live music. The production runs May 14-17, 2026 at Raleigh Memorial Auditorium in the Martin Marietta Center.",
-      "id": 11
+      "id": 11,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Gianmarco Soresi",
@@ -333,7 +344,8 @@
         "Ticketed"
       ],
       "description": "Gianmarco Soresi performs stand-up comedy at Goodnights Comedy Club in Raleigh, showcasing his sharp societal observations and energetic stage presence.",
-      "id": 12
+      "id": 12,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Matt Ross",
@@ -360,7 +372,8 @@
         "Ticketed"
       ],
       "description": "Matt Ross is an Austin-based comedian, writer, and actor performing a weekend run at Room 861 at Goodnights Comedy Club in Raleigh. The show is scheduled across Friday through Sunday with evening performances.",
-      "id": 13
+      "id": 13,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Matilda the Musical",
@@ -388,7 +401,8 @@
         "Ticketed"
       ],
       "description": "Roald Dahl\u2019s Matilda The Musical is being presented by Theatre Raleigh in North Raleigh. The production follows a brilliant girl who uses imagination and courage to stand up for what\u2019s right.",
-      "id": 14
+      "id": 14,
+      "venueId": "theatre-raleigh-raleigh"
     },
     {
       "name": "Champagne & Friends",
@@ -415,7 +429,8 @@
         "Ticketed"
       ],
       "description": "An educational 90-minute tasting event celebrating global sparkling wines beyond Champagne, featuring expert-led tastings of Prosecco, Cava, Cremant, and international selections. Chef Doreen Colondres demonstrates professional pairing techniques and cooking with sparkling wine, accompanied by curated hors d'oeuvres.",
-      "id": 15
+      "id": 15,
+      "venueId": "the-loading-dock-raleigh"
     },
     {
       "name": "L'\u00c9cole Annual Fundraising Gala for Education",
@@ -442,7 +457,8 @@
         "Festival"
       ],
       "description": "L'\u00c9cole French International School of Raleigh hosts its Annual Fundraising Gala to support academic excellence and launch the 2026\u20132027 Classroom Grant Fund. The evening features community networking, live and silent auctions, and brings together international families and professionals from across the Triangle.",
-      "id": 16
+      "id": 16,
+      "venueId": "north-carolina-governor-s-mansion-raleigh"
     },
     {
       "name": "2026 NASCAR Regional Season - Capital City 170",
@@ -467,7 +483,8 @@
         "Ticketed"
       ],
       "description": "The Capital City 170 is a NASCAR regional racing event featuring multiple racing classes competing on Wake County Speedway's 1/4 mile asphalt track. This Military Night event honors U.S. veterans and active personnel with high-speed short track racing action.",
-      "id": 17
+      "id": 17,
+      "venueId": "wake-county-speedway-raleigh"
     },
     {
       "name": "Bull City Metal Fest",
@@ -495,7 +512,8 @@
         "Adult"
       ],
       "description": "Bull City Metal Fest returns to Stanczyks with two days of local and regional bands. The lineup runs Friday evening and Saturday from early afternoon into late night, with day and weekend passes available.",
-      "id": 18
+      "id": 18,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "An Evening with Noah Guthrie",
@@ -521,7 +539,8 @@
         "Adult"
       ],
       "description": "Noah Guthrie performs at The Wake Forest Listening Room in Wake Forest on Friday evening. The event is listed as all ages with doors at 6:45 PM and showtime at 7:30 PM.",
-      "id": 19
+      "id": 19,
+      "venueId": "the-wake-forest-listening-room-wake-forest"
     },
     {
       "name": "Brodie Cormack Band, Josh Rhyne and Silvertones w/ Kyle Mullins & Sophie Taylor",
@@ -547,7 +566,8 @@
         "Adult"
       ],
       "description": "Brodie Cormack Band, Josh Rhyne and Silvertones perform with Kyle Mullins and Sophie Taylor at Lincoln Theatre in Raleigh on Friday, May 15, 2026. Doors open at 7 PM and the show starts at 8 PM.",
-      "id": 20
+      "id": 20,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Burns & the Torchlights x Rafael Green x Island Moons",
@@ -575,7 +595,8 @@
         "Ticketed"
       ],
       "description": "Burns & the Torchlights join Rafael Green and Island Moons for a live music show at Cannonball Music Hall in Raleigh, featuring jazz-grunge and indie sounds.",
-      "id": 21
+      "id": 21,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Groovin' in Garner Welcomes Rockzilla",
@@ -603,7 +624,8 @@
         "Beer"
       ],
       "description": "Groovin' in Garner Welcomes Rockzilla is a free outdoor concert in downtown Garner featuring the Raleigh-based cover band Rockzilla. The event takes place on the lawn at Garner Recreation Center and includes food trucks plus beer and wine available for purchase.",
-      "id": 22
+      "id": 22,
+      "venueId": "garner-recreation-center-garner"
     },
     {
       "name": "Heluva Dance Social - Friday Night Country",
@@ -629,7 +651,8 @@
         "Adult"
       ],
       "description": "Join Heluva Dance for a beginner-friendly country swing social featuring a lesson from 8\u20139 PM followed by social dancing until 11 PM. No partner needed\u2014rotations ensure everyone participates in this welcoming downtown Cary event.",
-      "id": 23
+      "id": 23,
+      "venueId": "chatham-station-cary"
     },
     {
       "name": "Overcome Fest IV - Day 1 w/ Bitter End",
@@ -656,7 +679,8 @@
         "Adult"
       ],
       "description": "Day 1 of Overcome Fest IV takes over KINGS in downtown Raleigh with Bitter End plus additional hardcore acts including Eyez Wide Shut, One by One, Distrust, and Quick to Judge. Doors open at 6:00 PM and the show starts at 7:00 PM.",
-      "id": 24
+      "id": 24,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Resurrection: A Goth Night",
@@ -683,7 +707,8 @@
         "Ticketed"
       ],
       "description": "A goth night featuring DJ SKYLAN spinning darkwave and post-punk classics from artists like The Cure, Depeche Mode, Joy Division, and more. 21+ event at The Pour House Music Hall & Record Shop.",
-      "id": 25
+      "id": 25,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "You Me & Kyle",
@@ -709,7 +734,8 @@
         "Adult"
       ],
       "description": "You Me & Kyle is scheduled to perform at Slim's Dive Bar in downtown Raleigh on Friday, May 15, 2026. The event is listed for 8\u201311 PM and appears to be a ticketed live music show.",
-      "id": 26
+      "id": 26,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Suite Surrender Spring Play",
@@ -737,7 +763,8 @@
         "Adult"
       ],
       "description": "Set in 1942, this comedy follows two Hollywood divas whose feud explodes when they\u2019re accidentally assigned the same suite at the Palm Beach Royale Hotel. The play features mistaken identities, overblown egos, and classic farce-style humor.",
-      "id": 27
+      "id": 27,
+      "venueId": "the-halle-cultural-arts-center-apex"
     },
     {
       "name": "Phenom G3 Live",
@@ -764,7 +791,8 @@
         "Ticketed"
       ],
       "description": "Phenom Hoops brings its premier grassroots basketball showcase to Raleigh, featuring travel ball tournaments for boys and girls ages 9U\u201317U with a 4-game guarantee and NCAA certification.",
-      "id": 28
+      "id": 28,
+      "venueId": "raleigh-convention-center-raleigh"
     },
     {
       "name": "Bull City Cocktails Tour",
@@ -793,7 +821,8 @@
         "Outdoor"
       ],
       "description": "Bull City Cocktails is a small-group guided walking tour through downtown Durham with stops at three cocktail spots. Each stop includes a full craft cocktail and food pairing, along with local history and stories about the Bull City.",
-      "id": 29
+      "id": 29,
+      "venueId": "durham-distillery-durham"
     },
     {
       "name": "The Spring Ephemeral: Alysa Cantor",
@@ -819,7 +848,8 @@
         "Adult"
       ],
       "description": "Liberty Arts presents a solo exhibition by artist Alysa Cantor in Durham Food Hall\u2019s Looseleaf Gallery. The show features experimental cyanotypes and mixed media inspired by seasonal change and fleeting natural cycles.",
-      "id": 30
+      "id": 30,
+      "venueId": "durham-food-hall-durham"
     },
     {
       "name": "We Set Out Terms - A Black Erotic Praxis: Power, Consent, Liberation Opening Reception",
@@ -845,7 +875,8 @@
         "Ticketed"
       ],
       "description": "This opening reception launches an exhibition featuring 25+ selected artists whose work engages themes of embodiment, power, consent, and liberation. It takes place at Zeitgeist Gallery & Bar in Durham.",
-      "id": 31
+      "id": 31,
+      "venueId": "zeitgeist-gallery-bar-durham"
     },
     {
       "name": "Secret Society Improv Show",
@@ -870,7 +901,8 @@
         "Ticketed"
       ],
       "description": "Mettlesome\u2019s Secret Society performs an improv comedy show with a live audience in Durham. The show is scheduled for Friday, May 15, 2026, from 7:00 to 8:00 PM.",
-      "id": 32
+      "id": 32,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Mint Field in Durham",
@@ -896,7 +928,8 @@
         "Adult"
       ],
       "description": "Mint Field, the Mexico City-based band led by Estrella del Sol and Sebasti\u00e1n Neyra, performs at The Pinhook with support from Big Mistake. The show is listed as all ages and features the group\u2019s blend of dream pop, shoegaze, and trip-hop textures.",
-      "id": 33
+      "id": 33,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Durham Labor Choir Spring Concert",
@@ -922,7 +955,8 @@
         "Ticketed"
       ],
       "description": "Durham Labor Choir\u2019s spring concert features labor classics and new re-writes centered on textiles and women of the labor movement. Partial proceeds benefit choir-chosen strike funds.",
-      "id": 34
+      "id": 34,
+      "venueId": "eno-river-unitarian-universalist-fellowship-durham"
     },
     {
       "name": "Barn Dance with The Fuzzy Catfish Blues Band",
@@ -949,7 +983,8 @@
         "Outdoor"
       ],
       "description": "Join Sunrise Community Farm Center for an energetic barn dance featuring The Fuzzy Catfish Blues Band. This pay-what-you-can event celebrates local music and community with live blues, dancing, and a welcoming atmosphere for all ages.",
-      "id": 35
+      "id": 35,
+      "venueId": "sunrise-community-farm-center-chapel-hill"
     },
     {
       "name": "VIETRI Spring Warehouse Sale",
@@ -978,7 +1013,8 @@
         "Shopping"
       ],
       "description": "VIETRI\u2019s Spring Warehouse Sale features discounted handcrafted Italian dinnerware, flatware, glassware, garden accessories, and home d\u00e9cor, with inventory refreshed each day. Shoppers can browse in person at the Vietri Outlet in Hillsborough or shop online during the sale window.",
-      "id": 36
+      "id": 36,
+      "venueId": "vietri-outlet-hillsborough"
     },
     {
       "name": "Elizabeth Cotten Freight Train Blues Concert Series",
@@ -1006,7 +1042,8 @@
         "Outdoor"
       ],
       "description": "A five-week concert series featuring roots and blues musicians celebrating the legacy of Elizabeth Cotten and the Carolina Piedmont musical tradition. The opening night on May 15 features Brenda Evans, Gail Ceasar, and Kelley Breiding, with a special presentation of Elizabeth Cotten's historic Martin guitar.",
-      "id": 37
+      "id": 37,
+      "venueId": "carrboro-town-commons-carrboro"
     },
     {
       "name": "Artsplosure - The Raleigh Arts Festival",
@@ -1036,7 +1073,8 @@
         "Outdoor"
       ],
       "description": "Artsplosure is Raleigh\u2019s long-running downtown arts festival featuring an art market with about 175 juried artists, live performances on two stages, and hands-on activities for kids. The 2026 event takes place May 16\u201317 on Fayetteville Street in downtown Raleigh.",
-      "id": 38
+      "id": 38,
+      "venueId": "city-plaza-raleigh"
     },
     {
       "name": "North Carolina Courage vs. Chicago Stars FC",
@@ -1061,7 +1099,8 @@
         "Ticketed"
       ],
       "description": "The North Carolina Courage host Chicago Stars FC in a regular-season NWSL women's soccer match at WakeMed Soccer Park in Cary.",
-      "id": 39
+      "id": 39,
+      "venueId": "wakemed-soccer-park-cary"
     },
     {
       "name": "Pickin' in the Park",
@@ -1090,7 +1129,8 @@
         "Charity"
       ],
       "description": "Pickin' in the Park is a new annual community festival at Knightdale Station Park featuring North Carolina barbecue, live bluegrass and Americana music, and a kids' corner with activities. A portion of proceeds supports Raleigh Rescue Mission\u2019s The Garden.",
-      "id": 40
+      "id": 40,
+      "venueId": "knightdale-station-park-knightdale"
     },
     {
       "name": "Wheels on Academy",
@@ -1119,7 +1159,8 @@
         "Food"
       ],
       "description": "Wheels on Academy is Cary\u2019s annual downtown car show on North Academy Street featuring classic and custom vehicles, an EV showcase, and a Touch-a-Truck area for kids. The free event also includes live music and local food vendors.",
-      "id": 41
+      "id": 41,
+      "venueId": "n-academy-st-cary"
     },
     {
       "name": "Durham Greek Festival",
@@ -1149,7 +1190,8 @@
         "Family"
       ],
       "description": "The Durham Greek Festival features authentic Greek food and desserts, live Greek music, folk dance performances, and church tours at St. Barbara Greek Orthodox Church. The festival runs rain or shine and also includes a marketplace and taverna with Greek wine and beer.",
-      "id": 42
+      "id": 42,
+      "venueId": "st-barbara-greek-orthodox-church-durham"
     },
     {
       "name": "Bimb\u00e9 Celebration",
@@ -1178,7 +1220,8 @@
         "Free"
       ],
       "description": "The Bimb\u00e9 Cultural Arts Festival is Durham\u2019s annual celebration of West African, African American, and local community culture. The event features live performances, arts and crafts, traditional food, and family activities at Rock Quarry Park.",
-      "id": 43
+      "id": 43,
+      "venueId": "rock-quarry-park-durham"
     },
     {
       "name": "Durham Ballet Theatre presents Aladdin",
@@ -1205,7 +1248,8 @@
         "Ticketed"
       ],
       "description": "Durham Ballet Theatre presents Aladdin at the Carolina Theatre of Durham with performances on Saturday afternoon and evening. The production draws from the original folktale and blends classical ballet with aerial dance and contemporary movement.",
-      "id": 44
+      "id": 44,
+      "venueId": "carolina-theatre-durham"
     },
     {
       "name": "John Crist Live",
@@ -1230,7 +1274,8 @@
         "Ticketed"
       ],
       "description": "John Crist performs live comedy at DPAC with special guests Wellington Ojukwu and Maggie Depalo. Children under 6 are not permitted; all attendees require a ticket.",
-      "id": 45
+      "id": 45,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Ole 60: Smokestack Town Tour with special guest Rob Langdon & The Bends",
@@ -1256,7 +1301,8 @@
         "Ticketed"
       ],
       "description": "Ole 60 brings its Smokestack Town Tour to Red Hat Amphitheater in Raleigh with special guests Rob Langdon & The Bends. The concert is scheduled for Saturday, May 16, 2026, with doors opening at 6:00 PM and the show starting at 7:30 PM.",
-      "id": 46
+      "id": 46,
+      "venueId": "red-hat-amphitheater-raleigh"
     },
     {
       "name": "Godsmack with Stone Temple Pilots and Dorothy",
@@ -1282,7 +1328,8 @@
         "Adult"
       ],
       "description": "Godsmack headlines this Saturday night concert at Coastal Credit Union Music Park at Walnut Creek, with Stone Temple Pilots and Dorothy on the bill. The show is part of Godsmack\u2019s 2026 Rise of Rock World Tour.",
-      "id": 47
+      "id": 47,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "Toadies: The Charmer Tour",
@@ -1308,7 +1355,8 @@
         "Adult"
       ],
       "description": "Toadies perform at The Ritz in Raleigh on Saturday, May 16, 2026 as part of The Charmer Tour. The show is an all-ages general admission concert with support acts subject to change.",
-      "id": 48
+      "id": 48,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Pop Up Skate Park",
@@ -1335,7 +1383,8 @@
         "Free"
       ],
       "description": "Skate Raleigh is hosting a pop-up skate park at Gipson Play Plaza in Dix Park. The all-ages event includes real skate features and volunteers on hand to help beginners and experienced skaters alike.",
-      "id": 49
+      "id": 49,
+      "venueId": "gipson-play-plaza-raleigh"
     },
     {
       "name": "ICON: Motown & Beyond with the North Carolina Symphony",
@@ -1361,7 +1410,8 @@
         "Ticketed"
       ],
       "description": "The North Carolina Symphony presents ICON: Motown & Beyond at Meymandi Concert Hall in downtown Raleigh. Guest vocalists Capathia Jenkins and Ryan Shaw join the orchestra for a program of hits by Michael Jackson, Prince, Whitney Houston, Diana Ross, Stevie Wonder, and others.",
-      "id": 50
+      "id": 50,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Cars and Coffee Raleigh: Exotic and Classic Car Show and Market",
@@ -1389,7 +1439,8 @@
         "Festival"
       ],
       "description": "This Cars and Coffee Raleigh event features an exotic and classic car show, on-site vendors, coffee, food, and drinks at Boxyard RTP. The event is family and pet friendly and runs for one morning only.",
-      "id": 51
+      "id": 51,
+      "venueId": "boxyard-rtp-durham"
     },
     {
       "name": "HBOT4Heroes' Ride 4 Their Lives with Raging Bull Harley-Davidson",
@@ -1418,7 +1469,8 @@
         "Family"
       ],
       "description": "HBOT4Heroes' Ride 4 Their Lives is a 60-mile police-escorted charity motorcycle ride that starts and ends at Raging Bull Harley-Davidson in Durham. Riders return for a post-ride celebration with live music, food, vendors, and raffles; the party is free to attend.",
-      "id": 52
+      "id": 52,
+      "venueId": "raging-bull-harley-davidson-durham"
     },
     {
       "name": "Stuffed Animal Sleepover",
@@ -1445,7 +1497,8 @@
         "Ticketed"
       ],
       "description": "Drop off your stuffed animal for an overnight adventure at the Museum, then return the next day to reunite with your plush pal for a snack, activity, and photos from their night. Space is limited; each ticket includes one stuffed animal to stay overnight and one child and two adults for drop-off and pick-up events.",
-      "id": 53
+      "id": 53,
+      "venueId": "museum-of-life-and-science-durham"
     },
     {
       "name": "Preservation Durham 2026 Home Tour: Hope Valley Centennial",
@@ -1473,7 +1526,8 @@
         "Ticketed"
       ],
       "description": "Preservation Durham\u2019s annual home tour celebrates the 100th anniversary of Hope Valley with access to eight homes in the neighborhood. The tour is hosted from Hope Valley Tennis Pavilion and runs Saturday and Sunday from noon to 4 p.m.",
-      "id": 54
+      "id": 54,
+      "venueId": "hope-valley-tennis-pavillion-durham"
     },
     {
       "name": "Crawfish Boil at Ponysaurus Brewing Co.",
@@ -1501,7 +1555,8 @@
         "Ticketed"
       ],
       "description": "Ponysaurus Brewing Co. is hosting a traditional crawfish boil with fresh crawfish, andouille sausage, potatoes, and local corn. Pimm\u2019s Cups and Hurricanes will also be available.",
-      "id": 55
+      "id": 55,
+      "venueId": "ponysaurus-brewing-co-durham"
     },
     {
       "name": "Amped for Stagville!",
@@ -1528,7 +1583,8 @@
         "Charity"
       ],
       "description": "Amped for Stagville! is a donation-based benefit concert featuring Durham\u2019s own Vertigo Conspiracy at Bull McCabe\u2019s Irish Pub. Proceeds support Historic Stagville and its preservation and public history work.",
-      "id": 56
+      "id": 56,
+      "venueId": "bull-mccabe-s-irish-pub-durham"
     },
     {
       "name": "Common Roots Festival for AAPI Heritage Month",
@@ -1556,7 +1612,8 @@
         "Outdoor"
       ],
       "description": "The second annual Common Roots Festival celebrates Asian Pacific American Heritage Month with live performances, local Asian artists, a vibrant vendor market, and delicious food. This free, all-ages event honors the diverse journeys and contributions of Asian and Pacific Islander communities.",
-      "id": 57
+      "id": 57,
+      "venueId": "durham-central-park-durham"
     },
     {
       "name": "Eurovision Song Contest Watch Party",
@@ -1583,7 +1640,8 @@
         "21+"
       ],
       "description": "Glass Jug Downtown is hosting a free Eurovision Song Contest watch party with the international competition broadcast on the big screen. The event runs Saturday from 3:00 to 7:00 PM.",
-      "id": 58
+      "id": 58,
+      "venueId": "glass-jug-downtown-durham"
     },
     {
       "name": "SINGamajig",
@@ -1610,7 +1668,8 @@
         "Ticketed"
       ],
       "description": "An improvised musical for all ages featuring a made-up story with songs inspired by audience drawings and suggestions. Help create the world with your participation.",
-      "id": 59
+      "id": 59,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Medieval Night",
@@ -1639,7 +1698,8 @@
         "21+"
       ],
       "description": "Medieval Night at Ment Beverage Co. features live music by Robert Joseph Finch, tavern snacks, mead tasting, and costume prizes. The event is scheduled for Saturday, May 16 from 7:00 to 10:00 PM and is free to attend.",
-      "id": 60
+      "id": 60,
+      "venueId": "honeygirl-meadery-durham"
     },
     {
       "name": "Jambalaya Soul Slam Haiku Slam",
@@ -1665,7 +1725,8 @@
         "Adult"
       ],
       "description": "Jambalaya Soul Slam presents an annual haiku slam at Hayti Heritage Center in Durham. Poets compete head-to-head with original haiku, senryu, or similar short-form poems, with judges selected from the audience deciding the winner.",
-      "id": 61
+      "id": 61,
+      "venueId": "hayti-heritage-center-durham"
     },
     {
       "name": "11:59 x Hobolectuals x Morior",
@@ -1691,7 +1752,8 @@
         "21+"
       ],
       "description": "This Cannonball Music Hall show features 11:59, Hobolectuals, and Morior in a birthday-themed lineup. Doors open at 7:30 PM, with music starting at 8:00 PM.",
-      "id": 62
+      "id": 62,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Battle Of The Bands - Final Four Championship",
@@ -1717,7 +1779,8 @@
         "Adult"
       ],
       "description": "The Final Four Championship of Battle of the Bands brings together local bands for a live competition at The Portal HQ in Raleigh. The event is scheduled for Saturday evening and admission starts at $12.",
-      "id": 63
+      "id": 63,
+      "venueId": "the-portal-hq-raleigh"
     },
     {
       "name": "Bleachers Listening Party",
@@ -1744,7 +1807,8 @@
         "Adult"
       ],
       "description": "The Pour House Music Hall & Record Shop is hosting a Bleachers album listening party in its Record Shop space on Saturday afternoon. The event is listed as free and all ages, with no RSVP required.",
-      "id": 64
+      "id": 64,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Christian James // Khallori",
@@ -1770,7 +1834,8 @@
         "Adult"
       ],
       "description": "Christian James and Khallori are scheduled for a Saturday evening show at Neptunes Parlour in downtown Raleigh. Doors are listed for 7 PM, with the performance running from 7:00 to 9:45 PM.",
-      "id": 65
+      "id": 65,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Family Movie Night at Joyner Park",
@@ -1797,7 +1862,8 @@
         "Free"
       ],
       "description": "The Wake Forest Parks, Recreation & Cultural Resources Department presents Family Movie Nights at Joyner Park, featuring Shrek projected on a 26-foot inflatable screen. Pre-show activities for kids begin at 7:30 PM with the movie starting at 8:30 PM; food vendors will be on site.",
-      "id": 66
+      "id": 66,
+      "venueId": "e-carroll-joyner-park-wake-forest"
     },
     {
       "name": "Gouge Wrestling: Spring in the Ring",
@@ -1824,7 +1890,8 @@
         "Free"
       ],
       "description": "Gouge Wrestling presents Spring in the Ring, an outdoor professional wrestling event at Rebus Works. The showcase features live matches and family-friendly sports entertainment for all ages.",
-      "id": 67
+      "id": 67,
+      "venueId": "rebus-works-raleigh"
     },
     {
       "name": "HAWT MESS: SLAYYYTER EDITION",
@@ -1851,7 +1918,8 @@
         "21+"
       ],
       "description": "HAWT MESS: SLAYYYTER EDITION is scheduled at Neptunes Parlour in downtown Raleigh on Saturday night, with DJs from 10 PM to 2 AM. Listings indicate a $5 cover for the event.",
-      "id": 68
+      "id": 68,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Wolfpack Polka",
@@ -1878,7 +1946,8 @@
         "21+"
       ],
       "description": "Wolfpack Polka is scheduled at Slim's Dive Bar in downtown Raleigh on Saturday, May 16. The event features the Wolfpack Polka Band and is listed as free admission.",
-      "id": 69
+      "id": 69,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Lincoln X Woller",
@@ -1905,7 +1974,8 @@
         "Adult"
       ],
       "description": "Lincoln X Woller is scheduled as a B2B set at Neptunes Parlour in downtown Raleigh. The event is listed for Saturday night with a $5 cover and 21+ admission.",
-      "id": 70
+      "id": 70,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Music at the Market",
@@ -1933,7 +2003,8 @@
         "Outdoor"
       ],
       "description": "Join Oak City Soul Vinyl Collective DJs on the patio for live music and vinyl jams. House of Many Porches offers snacks, sandwiches, coffee, baked goods, wine, and beer for a perfect picnic experience.",
-      "id": 71
+      "id": 71,
+      "venueId": "dix-park-raleigh"
     },
     {
       "name": "Notes on View: Thomas Hinds (return performance)",
@@ -1960,7 +2031,8 @@
         "Arts & Crafts"
       ],
       "description": "Notes on View is a pop-up music series at the North Carolina Museum of Art featuring live performances inspired by works on display. This return performance by Thomas Hinds takes place in the galleries and is listed as a free event.",
-      "id": 72
+      "id": 72,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Oak City Voices present \"Sing a Song of Shakespeare\"",
@@ -1986,7 +2058,8 @@
         "Ticketed"
       ],
       "description": "Oak City Voices presents a concert inspired by Shakespeare, featuring music by composers including Thomas Morley, Ralph Vaughan Williams, Amy Beach, and Sarah Quartel. The program sets text from seven plays and two sonnets to music.",
-      "id": 73
+      "id": 73,
+      "venueId": "unitarian-universalist-fellowship-of-raleigh-raleigh"
     },
     {
       "name": "On Pace House Dance Party",
@@ -2013,7 +2086,8 @@
         "Ticketed"
       ],
       "description": "On Pace House Dance Party is a four-hour club event focused on minimal, deep, and hard-hitting house music. It is presented by Bitter Social at Bitter Social - Above Centro in downtown Raleigh.",
-      "id": 74
+      "id": 74,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Overcome Fest IV",
@@ -2040,7 +2114,8 @@
         "21+"
       ],
       "description": "Overcome Fest IV is a hardcore/metalcore music festival at Lincoln Theatre in downtown Raleigh. The lineup includes acts such as Terror, Pain of Truth, Rotting Out, Missing Link, Nasty, and Raleigh's own One By One.",
-      "id": 75
+      "id": 75,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Route 55 Jazz Orchestra",
@@ -2066,7 +2141,8 @@
         "Ticketed"
       ],
       "description": "Route 55 Jazz Orchestra is a community big band known for authentic jazz in the tradition of Basie, Kenton, and Miller. The group performs at Holly Springs Cultural Center for an evening concert on Saturday.",
-      "id": 76
+      "id": 76,
+      "venueId": "holly-springs-cultural-center-holly-springs"
     },
     {
       "name": "The Bleeding Hearts w/ The Temp Agency, Dead Rat Disco",
@@ -2092,7 +2168,8 @@
         "21+"
       ],
       "description": "The Bleeding Hearts play The Pour House Music Hall & Record Shop on Saturday, May 16, 2026, with The Temp Agency and Dead Rat Disco. The show is scheduled for 8:00 PM with doors at 7:00 PM and is a 21+ event.",
-      "id": 77
+      "id": 77,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Write Now! 2026",
@@ -2118,7 +2195,8 @@
         "Festival"
       ],
       "description": "Write Now! 2026 is a one-day, multi-track conference for fiction and nonfiction writers at the McKimmon Conference and Training Center in Raleigh. The program includes keynote speakers, breakout sessions, networking, lunch, and door prizes.",
-      "id": 78
+      "id": 78,
+      "venueId": "mckimmon-conference-and-training-center-raleigh"
     },
     {
       "name": "John-Robert at The Pinhook",
@@ -2144,7 +2222,8 @@
         "Adult"
       ],
       "description": "John-Robert performs at The Pinhook in Durham with support from nickname jos and Savanna Leigh. The show is listed as all ages, with doors at 6:30 PM and music beginning at 7:30 PM.",
-      "id": 79
+      "id": 79,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Monster Mayhem Drag Show",
@@ -2172,7 +2251,8 @@
         "Ticketed"
       ],
       "description": "Monster Mayhem Drag Show brings Stormie Daie / Rainy Daie Productions to The Pinhook for a late-night, 21+ drag performance in Durham. Doors open at 10:00 PM with the show starting at 10:30 PM.",
-      "id": 80
+      "id": 80,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Hillsborough Vintage Market",
@@ -2199,7 +2279,8 @@
         "Family"
       ],
       "description": "The Hillsborough Vintage Market is a recurring Saturday market featuring vintage finds and local vendors at The Rookery. The listing shows monthly dates throughout 2026, with hours from 11:00 AM to 4:00 PM.",
-      "id": 81
+      "id": 81,
+      "venueId": "the-rookery-hillsborough"
     },
     {
       "name": "Rocket League Tournament",
@@ -2225,7 +2306,8 @@
         "Adult"
       ],
       "description": "A Rocket League tournament hosted by Ego Chall Esports in Chapel Hill. The event is listed for Saturday, May 16, 2026, with a $5 entry fee and a $50 Visa gift card prize.",
-      "id": 82
+      "id": 82,
+      "venueId": "ego-chall-esports-chapel-hill"
     },
     {
       "name": "RollFest 2026: The Wheel-y Wild West",
@@ -2251,7 +2333,8 @@
         "Free"
       ],
       "description": "Join a celebration of National Bike Month featuring bikes, skateboards, scooters, and more. The event includes skill-building activities, safety resources, and connections to local community programs.",
-      "id": 83
+      "id": 83,
+      "venueId": "chapel-hill-community-center-chapel-hill"
     },
     {
       "name": "Sensory-Friendly Puppet Playtime with Jeghetto",
@@ -2277,7 +2360,8 @@
         "Arts & Crafts"
       ],
       "description": "Sensory-Friendly Puppet Playtime with Jeghetto is a family-oriented program at Chapel Hill Public Library. The event is designed to be accessible and comfortable for children who do better with a lower-stimulation environment.",
-      "id": 84
+      "id": 84,
+      "venueId": "chapel-hill-public-library-chapel-hill"
     },
     {
       "name": "The Myers House | Halloween Replica Film House Visit",
@@ -2304,7 +2388,8 @@
         "Ticketed"
       ],
       "description": "This guided exterior house visit at The Myers House NC includes a brief history of the replica, trick-or-treat candy, and a photo opportunity on the front porch. The event is held in Hillsborough and typically follows a limited, donation-based ticket format.",
-      "id": 85
+      "id": 85,
+      "venueId": "the-myers-house-nc-hillsborough"
     },
     {
       "name": "The DPAC Rising Star Awards",
@@ -2331,7 +2416,8 @@
         "Ticketed"
       ],
       "description": "The DPAC Rising Star Awards is Central North Carolina\u2019s high school musical theatre awards ceremony, featuring finalists and ensembles from participating schools across the region. Hosted by Clay Aiken, the event recognizes student performance and production achievements and selects finalists to advance to the Jimmy Awards in New York City.",
-      "id": 86
+      "id": 86,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Brier Creek Spring Food Truck Festival 2026",
@@ -2360,7 +2446,8 @@
         "Outdoor"
       ],
       "description": "The Brier Creek Spring Food Truck Festival returns on Sunday, May 17, 2026, at Brier Creek Corporate Center behind Brier Creek Commons. The event features more than 50 food trucks, live music, local vendors, and kids\u2019 activities, with free admission.",
-      "id": 87
+      "id": 87,
+      "venueId": "brier-creek-corporate-center-raleigh"
     },
     {
       "name": "Gettin' Piggy With It 2026",
@@ -2389,7 +2476,8 @@
         "Charity"
       ],
       "description": "The Frankie Lemmon Foundation's fourth annual Gettin' Piggy With It returns to Maywood Hall & Garden in Raleigh with nearly 30 pitmasters and chefs, barbecue, local beer and spirits, live music, and games. Proceeds benefit Frankie Lemmon School and Developmental Center.",
-      "id": 88
+      "id": 88,
+      "venueId": "maywood-hall-garden-raleigh"
     },
     {
       "name": "Emo Philips",
@@ -2415,7 +2503,8 @@
         "Ticketed"
       ],
       "description": "Emo Philips performs a special stand-up show at Goodnights Comedy Club in Raleigh on Sunday, May 17, 2026 at 4:00 PM. Known for his distinctive voice and surreal observational humor, Philips is a long-running favorite in comedy clubs and on TV.",
-      "id": 89
+      "id": 89,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Triangle Youth Music Spring Orchestra 2026",
@@ -2442,7 +2531,8 @@
         "Ticketed"
       ],
       "description": "Triangle Youth Music presents its Spring Orchestra 2026 concert at Meymandi Concert Hall in Raleigh. The performance features youth orchestral ensembles and is scheduled for Sunday, May 17, 2026.",
-      "id": 90
+      "id": 90,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Live & Local!: Cary Town Band",
@@ -2469,7 +2559,8 @@
         "Family"
       ],
       "description": "Cary Town Band performs as part of Downtown Cary Park\u2019s Live & Local series, featuring local talent in a free outdoor concert setting. The event is held at the park\u2019s Great Lawn Pavilion in downtown Cary.",
-      "id": 91
+      "id": 91,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "NC Master Chorale: We Are Phoenix",
@@ -2495,7 +2586,8 @@
         "Arts & Crafts"
       ],
       "description": "The North Carolina Master Chorale Youth Choir presents the North Carolina premiere of Timothy Takach's We Are Phoenix, a reflective choral work that uses Earth's cycles of rebirth as a metaphor for human resilience and transformation through poetry from multiple authors.",
-      "id": 92
+      "id": 92,
+      "venueId": "stewart-theatre-raleigh"
     },
     {
       "name": "Rocket Music Booking 11th Anniversary Fundraiser & Celebration",
@@ -2523,7 +2615,8 @@
         "Charity"
       ],
       "description": "Rocket Music Booking marks its 11th anniversary with a fundraiser and celebration at ZincHouse Winery & Brewery in Durham. The event runs Sunday afternoon into the evening and is listed as free admission.",
-      "id": 93
+      "id": 93,
+      "venueId": "zinchouse-winery-brewery-durham"
     },
     {
       "name": "Arts at St. Luke\u2019s presents May Musicale",
@@ -2550,7 +2643,8 @@
         "Adult"
       ],
       "description": "Arts at St. Luke\u2019s presents the May Musicale, a concert featuring Kaye Saunders, David Arcus, and other St. Luke\u2019s musicians performing a varied program of old and new music.",
-      "id": 94
+      "id": 94,
+      "venueId": "st-luke-s-episcopal-church-durham"
     },
     {
       "name": "Cocktail Classes at Durham Distillery: Modern vs. Classic Cocktails",
@@ -2576,7 +2670,8 @@
         "Ticketed"
       ],
       "description": "This hands-on cocktail class places classic cocktails side by side with their modern counterparts, exploring how bartenders evolve flavor, technique, and presentation. Guests will learn foundational builds behind timeless drinks and discover how to riff on them with confidence.",
-      "id": 95
+      "id": 95,
+      "venueId": "durham-distillery-durham"
     },
     {
       "name": "Cocktails & Cuisine Class: Back to the Basics Edition",
@@ -2602,7 +2697,8 @@
         "Ticketed"
       ],
       "description": "Join skilled bartenders for an interactive class where you'll learn to make three classic cocktails and enjoy them paired with cuisine. Gather your crew and sharpen your bartending skills on Sunday, May 17.",
-      "id": 96
+      "id": 96,
+      "venueId": "the-willard-rooftop-lounge-raleigh"
     },
     {
       "name": "Verdi Requiem",
@@ -2628,7 +2724,8 @@
         "Ticketed"
       ],
       "description": "Presented by the Choral Society of Durham with Mallarm\u00e9 Music, this concert features Verdi\u2019s Requiem at Duke University\u2019s Baldwin Auditorium. The performance is scheduled for Sunday, May 17, 2026 at 4:00 PM.",
-      "id": 97
+      "id": 97,
+      "venueId": "baldwin-auditorium-duke-university-durham"
     },
     {
       "name": "WISHING Women's Summit",
@@ -2654,7 +2751,8 @@
         "Adult"
       ],
       "description": "The WISHING Women's Summit brings together professional women in sports to share their career paths and advice for the next generation. It is held in person at DICK'S House of Sport in Durham.",
-      "id": 98
+      "id": 98,
+      "venueId": "dick-s-house-of-sport-durham"
     },
     {
       "name": "Yot Club at Motorco",
@@ -2680,7 +2778,8 @@
         "Adult"
       ],
       "description": "Yot Club, the project of Ryan Kaiser, performs at Motorco Music Hall in Durham on Sunday, May 17, 2026. The show is part of the SIMPLETON tour and features support from zzzahara.",
-      "id": 99
+      "id": 99,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Living History: From the Rock Wall (Rescheduled Date)",
@@ -2707,7 +2806,8 @@
         "Family"
       ],
       "description": "In collaboration with the Marian Cheek Jackson Center, this event shares the history of Chapel Hill and Carrboro\u2019s Black neighborhoods through local poets, speakers, and historians. Guests can also sample food from local Black-owned businesses carried at Weaver Street Market.",
-      "id": 100
+      "id": 100,
+      "venueId": "weaver-street-market-carrboro-carrboro"
     },
     {
       "name": "Steel String Brewery's 13th Anniversary!",
@@ -2735,7 +2835,8 @@
         "Music"
       ],
       "description": "Steel String Brewery is hosting its 13th anniversary celebration at the Carrboro taproom on Saturday afternoon and evening. The event runs from 2 to 9 PM and is listed as free to attend.",
-      "id": 101
+      "id": 101,
+      "venueId": "steel-string-brewery-taproom-carrboro"
     },
     {
       "name": "Not Another Music Festival",
@@ -2764,7 +2865,8 @@
         "Ticketed"
       ],
       "description": "Botanist & Barrel hosts Not Another Music Festival in Cedar Grove with live performances, pizza, wine, beer, cider, and non-alcoholic drinks. The event is scheduled for Sunday, May 17 from 4:00 to 8:00 PM and has limited ticket capacity.",
-      "id": 102
+      "id": 102,
+      "venueId": "botanist-and-barrel-cedar-grove"
     },
     {
       "name": "Bikes Mean Business: Self-Care Sunday",
@@ -2791,7 +2893,8 @@
         "Adult"
       ],
       "description": "Bikes Mean Business: Self-Care Sunday is a Sunday cycling event hosted at The Bike Library in downtown Raleigh. It is listed as a self-care ride for women, trans, and femme participants.",
-      "id": 103
+      "id": 103,
+      "venueId": "the-bike-library-raleigh"
     },
     {
       "name": "Square One EP Release: w/ Larry., Times Tables",
@@ -2816,7 +2919,8 @@
         "Ticketed"
       ],
       "description": "Square One, a punk rock band, celebrates their EP release with performances by Larry. and Times Tables at The Pour House Music Hall & Record Shop.",
-      "id": 104
+      "id": 104,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "The Black Angels: Passover 2026 Tour w/ L.A. Witch",
@@ -2841,7 +2945,8 @@
         "Ticketed"
       ],
       "description": "The Black Angels perform their landmark 2006 debut album Passover in full, celebrating its 20th anniversary, with support from L.A. Witch. The Austin-based psychedelic rock band will also play their greatest hits.",
-      "id": 105
+      "id": 105,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "The Turkey Buzzards",
@@ -2867,7 +2972,8 @@
         "21+"
       ],
       "description": "The Turkey Buzzards are scheduled to play at Slim's Dive Bar in downtown Raleigh on Sunday evening, May 17, 2026. Listings show the show at 7\u20139 PM at 227 S. Wilmington St.",
-      "id": 106
+      "id": 106,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Top Greene's \"Adornment of Grace\" Hat Show Contest",
@@ -2895,7 +3001,8 @@
         "Ticketed"
       ],
       "description": "A celebration of Black culture and hat-wearing traditions featuring a best hat contest, vintage hat collections, ceramic sculptures by artist Erica Kendrick, and guest speaker Dr. Donna Corbett. All attendees are automatically entered to win a free 3-hour venue rental.",
-      "id": 107
+      "id": 107,
+      "venueId": "john-p-top-greene-african-american-cultural-center-raleigh"
     }
   ]
 }

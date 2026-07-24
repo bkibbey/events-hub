@@ -28,7 +28,8 @@
         "Outdoor"
       ],
       "description": "First Friday is a recurring monthly event in Downtown Raleigh where galleries open late, street performers entertain, and local artists showcase their work. It typically runs on the first Friday of each month with free entry to participating venues.",
-      "id": 1
+      "id": 1,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "Jurassic Park in Concert with the North Carolina Symphony",
@@ -54,7 +55,8 @@
         "Film"
       ],
       "description": "The North Carolina Symphony, conducted by Conner Gray Covington, performs John Williams' score live while the Jurassic Park film is projected in HD at Meymandi Concert Hall.",
-      "id": 2
+      "id": 2,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Bands, Bites, and Boats May 2026",
@@ -82,7 +84,8 @@
         "Family"
       ],
       "description": "The Bond Park Boathouse hosts live music by Phil & Tim Duo, food trucks like Bare Baked Pizza and Virgil's Jamaica, and Bond Brothers Beer Company, with after-hours boat rentals on Bond Lake. Enjoy from the shore with a lawn chair or floating on the water.",
-      "id": 3
+      "id": 3,
+      "venueId": "bond-park-boathouse-cary"
     },
     {
       "name": "First Friday Market & Movie Night: The Incredibles",
@@ -110,7 +113,8 @@
         "Outdoor"
       ],
       "description": "This free event at Moore Square features local vendors, food trucks, live music starting at 5:30 p.m., and an outdoor screening of The Incredibles (2004) at 7:15 p.m. on May 1, 2026, open to all ages.[1][2][3]",
-      "id": 4
+      "id": 4,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Holly Springs International Food Festival 2026",
@@ -138,7 +142,8 @@
         "Free"
       ],
       "description": "The festival features food and beverages from over 12 countries via local restaurants and food trucks, plus family-friendly cultural performances on the lawn outside the Cultural Center.",
-      "id": 5
+      "id": 5,
+      "venueId": "holly-springs-cultural-center-holly-springs"
     },
     {
       "name": "Durham Bulls vs. Jacksonville",
@@ -164,7 +169,8 @@
         "Ticketed"
       ],
       "description": "The Durham Bulls host the Jacksonville Jumbo Shrimp in a Triple-A baseball game at Durham Bulls Athletic Park on Friday, May 1, 2026, at 6:30 PM, featuring fireworks.[1][2]",
-      "id": 6
+      "id": 6,
+      "venueId": "durham-bulls-athletic-park-durham"
     },
     {
       "name": "Ichiko Aoba",
@@ -188,7 +194,8 @@
         "Music"
       ],
       "description": "Japanese singer-songwriter and multi-instrumentalist Ichiko Aoba performs live at the Carolina Theatre of Durham on Friday, May 1, 2026, as part of her Across The Oceans Tour 2026.",
-      "id": 7
+      "id": 7,
+      "venueId": "carolina-theatre-durham"
     },
     {
       "name": "PLAYlist Concert Series: Super Yamba y Kaleta",
@@ -215,7 +222,8 @@
         "Festival"
       ],
       "description": "Kaleta & Super Yamba Band, fronted by Afrobeat veteran Leon Ligan-Majek, perform at the opening night of Durham Central Park's PLAYlist Concert Series, featuring DJ sets, food trucks, night market, and dance party on the lawn.",
-      "id": 8
+      "id": 8,
+      "venueId": "durham-central-park-durham"
     },
     {
       "name": "Ali Siddiq",
@@ -240,7 +248,8 @@
         "Ticketed"
       ],
       "description": "Ali Siddiq brings his brand-new Custom Fit Tour to DPAC with a phone-free stand-up comedy performance. The event features lobby doors at 6:00 PM and show start at 7:00 PM.",
-      "id": 9
+      "id": 9,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Room 861 at Goodnights: Aidan McCluskey",
@@ -268,7 +277,8 @@
         "Adult"
       ],
       "description": "Aidan McCluskey, a 19-year-old comedian who won Acme's Funniest Person Contest just four months after his first open mic, performs a multi-show weekend run at Goodnights Comedy Club's Room 861.",
-      "id": 10
+      "id": 10,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Luenell",
@@ -294,7 +304,8 @@
         "Ticketed"
       ],
       "description": "Luenell, a renowned comedienne known for her appearances on Showtime and TV Guide Network, performs multiple shows over two nights at Raleigh Improv in Cary.",
-      "id": 11
+      "id": 11,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "Special Event: Mark Normand",
@@ -321,7 +332,8 @@
         "Ticketed"
       ],
       "description": "Mark Normand, praised by Jerry Seinfeld as the best young up-and-coming comic, performs at Goodnights Comedy Club over the weekend of May 1-2, 2026. The event is 21+ with tickets required.",
-      "id": 12
+      "id": 12,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "The Rocky Horror Picture Show",
@@ -347,7 +359,8 @@
         "Ticketed"
       ],
       "description": "The Rocky Horror Picture Show features a midnight screening with live shadow cast performance by The Low Down Cheap Little Punks, complete with audience participation, callbacks, and costumes encouraged.",
-      "id": 13
+      "id": 13,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "10 Years of Munjo Celebration",
@@ -372,7 +385,8 @@
         "Adult"
       ],
       "description": "A celebration marking 10 years of Munjo Munjo in downtown Raleigh.",
-      "id": 14
+      "id": 14,
+      "venueId": "munjo-munjo-raleigh"
     },
     {
       "name": "Bike Bonanza",
@@ -398,7 +412,8 @@
         "Free"
       ],
       "description": "Bike Bonanza is the City of Raleigh's Bike Month kickoff event featuring free bike tune-ups, e-bike test rides, helmet giveaways, a bike decorating station, guided rides, and popsicles at Harvey Hill in Dorothea Dix Park.",
-      "id": 15
+      "id": 15,
+      "venueId": "dix-park-raleigh"
     },
     {
       "name": "2026 Down Home Concert Series: Woody Platt and The Bluegrass Gentlemen",
@@ -424,7 +439,8 @@
         "Ticketed"
       ],
       "description": "Woody Platt and The Bluegrass Gentlemen perform classic bluegrass with a modern twist at this PineCone Down Home Concert Series event. The lineup features Grammy winner Woody Platt on guitar, alongside top musicians on mandolin, banjo, fiddle, and bass.",
-      "id": 16
+      "id": 16,
+      "venueId": "a-j-fletcher-opera-theater-at-martin-marietta-center-for-the-performing-arts-cary"
     },
     {
       "name": "Southern Bites & Nights",
@@ -452,7 +468,8 @@
         "Festival"
       ],
       "description": "A three-day festival featuring Southern cuisine, live performances, and community activities. Bring four non-perishable food items to support local families and receive a thank-you gift.",
-      "id": 17
+      "id": 17,
+      "venueId": "durham-county-memorial-stadium-durham"
     },
     {
       "name": "Searows at Motorco",
@@ -476,7 +493,8 @@
         "Music"
       ],
       "description": "Searows, the project of singer-songwriter Alec Duckart, performs intimate indie folk with atmospheric production at Motorco Music Hall, featuring Jordan Patterson as opener.",
-      "id": 18
+      "id": 18,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "An Evening with October London & Lalah Hathaway",
@@ -500,7 +518,8 @@
         "Music"
       ],
       "description": "Rising R&B star October London, known for his smooth vocals and throwback soul, performs with five-time Grammy winner Lalah Hathaway, celebrated for her rich tone and acclaimed albums.[1][2]",
-      "id": 19
+      "id": 19,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "ArtPutt First Friday",
@@ -526,7 +545,8 @@
         "Outdoor"
       ],
       "description": "ArtPutt First Friday features a free pop-up mini-golf course with artistic designs by local artists, hosted at 321 Coffee from 5-8 PM on May 1, 2026.[1][2]",
-      "id": 20
+      "id": 20,
+      "venueId": "321-coffee-raleigh"
     },
     {
       "name": "Apex Community Dance",
@@ -552,7 +572,8 @@
         "Ticketed"
       ],
       "description": "Community dances led by local callers and live musicians featuring Southern American Square dancing, English Country, and New England Contra Dance. No experience needed\u2014all ages and abilities welcome.",
-      "id": 21
+      "id": 21,
+      "venueId": "the-halle-cultural-arts-center-apex"
     },
     {
       "name": "Member Preview: Penguin Island",
@@ -577,7 +598,8 @@
         "Family"
       ],
       "description": "Member preview event on Friday, May 1, 2026, from 6:00pm to 8:00pm with doors opening at 6pm and movie starting at 6:30pm in the WRAL 3D Theater; recommended for all ages with limited space requiring pre-registration.[1]",
-      "id": 22
+      "id": 22,
+      "venueId": "north-carolina-museum-of-natural-sciences-raleigh"
     },
     {
       "name": "No School Hangout - Morrisville",
@@ -601,7 +623,8 @@
         "Family"
       ],
       "description": "Cedar Fork Community Center's No School Hangout offers children opportunities to interact with peers through fun activities, crafts, games, and field trips on teacher workdays. Each child must bring a lunch, 2 snacks, and a water bottle.",
-      "id": 23
+      "id": 23,
+      "venueId": "cedar-fork-community-center-morrisville"
     },
     {
       "name": "Movie in the Park - The SpongeBob Movie",
@@ -628,7 +651,8 @@
         "Free"
       ],
       "description": "Movie in the Park features a screening of The SpongeBob Movie at Knightdale Station Park. Bring a blanket or chair for this family-friendly event with food trucks.[1]",
-      "id": 24
+      "id": 24,
+      "venueId": "knightdale-station-park-knightdale"
     },
     {
       "name": "First Fridays in Fuquay-Varina 2026",
@@ -656,7 +680,8 @@
         "Family"
       ],
       "description": "First Fridays features live music, local shopping, special deals, delicious food, and a lively arts scene in downtown Fuquay-Varina on the first Friday of each month.",
-      "id": 25
+      "id": 25,
+      "venueId": "downtown-fuquay-varina-fuquay-varina"
     },
     {
       "name": "First Friday Live Music: Michael Parker",
@@ -681,7 +706,8 @@
         "Free"
       ],
       "description": "Michael Parker performs soulful melodies and engaging covers at The Davie, a neighborhood bar in downtown Raleigh, on Friday, May 1st at 8:00 PM.",
-      "id": 26
+      "id": 26,
+      "venueId": "the-davie-raleigh"
     },
     {
       "name": "First Friday Craft Night",
@@ -708,7 +734,8 @@
         "Museum"
       ],
       "description": "Join the City of Raleigh Museum for First Friday with free crafting and collaging supplies to create something uniquely yours. The museum extends hours to participate in Downtown Raleigh's First Friday celebration.",
-      "id": 27
+      "id": 27,
+      "venueId": "city-of-raleigh-museum-raleigh"
     },
     {
       "name": "First Friday Community Improv Jam",
@@ -733,7 +760,8 @@
         "Free"
       ],
       "description": "Monthly First Friday event featuring improv jam, open mic, and potluck at Leela Improv Theatre. Open to all levels for playing, performing, or watching, with potluck and mingle starting at 7 PM.",
-      "id": 28
+      "id": 28,
+      "venueId": "leela-improv-theatre-raleigh"
     },
     {
       "name": "Pink Out at the Races: A Kentucky Derby Celebration",
@@ -761,7 +789,8 @@
         "21+"
       ],
       "description": "Join the Pink Out at the Races for a Kentucky Oaks and Derby watch party at Dram & Draught, featuring mint juleps, bourbon specials, live DJ, raffles, contests, and proceeds benefiting the Pretty & Pink Foundation for breast cancer support.",
-      "id": 29
+      "id": 29,
+      "venueId": "dram-draught-raleigh"
     },
     {
       "name": "RSO Concerto Aria Competition Winners Concert 2026",
@@ -787,7 +816,8 @@
         "Ticketed"
       ],
       "description": "Meredith College presents the winners of its annual Concerto Aria Competition, featuring outstanding student musicians performing with the RSO.",
-      "id": 30
+      "id": 30,
+      "venueId": "jones-auditorium-raleigh"
     },
     {
       "name": "Road To Shakori: Sugar Snap Peas with SMYA, Roku City",
@@ -811,7 +841,8 @@
         "Music"
       ],
       "description": "Road To Shakori concert featuring Sugar Snap Peas with SMYA and Roku City at The Pour House Music Hall on May 1, 2026, starting at 9:00 PM.",
-      "id": 31
+      "id": 31,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Spring Full Moon Walk",
@@ -836,7 +867,8 @@
         "Outdoor"
       ],
       "description": "Join a guided after-hours walk in the Museum Park to experience nature and art under the full moon. Ages 16 and up; wear comfortable shoes and dress for the weather.",
-      "id": 32
+      "id": 32,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "The Move--a First Friday Dance Party",
@@ -861,7 +893,8 @@
         "21+"
       ],
       "description": "First Friday dance party featuring funk, pop, and disco music at Bitter Social. Enjoy cocktails, mocktails, seltzers, coffee, a private patio, and food available to order from Centro.",
-      "id": 33
+      "id": 33,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Trial By Fire (Tribute to Journey) w/ She Bop (80's Tribute)",
@@ -885,7 +918,8 @@
         "Music"
       ],
       "description": "Trial by Fire tribute band recreates Journey's canceled 1996 Trial by Fire Tour with Steve Perry-era hits, joined by 80s tribute band She Bop at Lincoln Theatre.",
-      "id": 34
+      "id": 34,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Uada / Mortiis / Rome / Wraith Knight",
@@ -910,7 +944,8 @@
         "21+"
       ],
       "description": "Uada delivers spectral melodic black metal, Mortiis brings industrial-tinged dark ambient and dungeon synth, Rome offers cinematic neofolk and martial industrial, and Wraith Knight provides fantasy-inspired dungeon synth. All ages welcome at this immersive concert.[1]",
-      "id": 35
+      "id": 35,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Van Meter + Jack the Radio",
@@ -934,7 +969,8 @@
         "Music"
       ],
       "description": "Maryland roots rocker Jennifer Van Meter joins Raleigh's Jack the Radio for an evening of Americana, folk, blues, and southern rock at this intimate listening room.",
-      "id": 36
+      "id": 36,
+      "venueId": "the-wake-forest-listening-room-wake-forest"
     },
     {
       "name": "Zach Bellas Trio",
@@ -958,7 +994,8 @@
         "Music"
       ],
       "description": "Zach Bellas Trio performs raw, emotional indie rock featuring gritty vocals, honest songwriting, and a balance of vulnerability and edge at Cannonball Music Hall on Friday, May 1, 2026.",
-      "id": 37
+      "id": 37,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Forged Chef Knife with ABS Master Smith E. Scott McGhee",
@@ -985,7 +1022,8 @@
         "Adult"
       ],
       "description": "ABS Master Smith E. Scott McGhee of Guinea Hog Forge teaches participants to hand-forge a 6-inch chef knife in this three-day workshop.[1]",
-      "id": 38
+      "id": 38,
+      "venueId": "shopspace-raleigh"
     },
     {
       "name": "Friday Night Salsa and Bachata Social",
@@ -1009,7 +1047,8 @@
         "Dance"
       ],
       "description": "Every Friday night features salsa dance lessons with instructor Annie Velez and DJ Kemo, followed by a bachata social until 2am. Dinner and drinks are available, with a $10-$15 cover for the dance area.",
-      "id": 39
+      "id": 39,
+      "venueId": "boatman-spirits-co-raleigh"
     },
     {
       "name": "The Magic of the Fourth Ward: A Journey Through Time and Culture",
@@ -1035,7 +1074,8 @@
         "Free"
       ],
       "description": "This permanent exhibit in the Betty Ray McCain Art Gallery chronicles the Fourth Ward, a post-Civil War Black neighborhood destroyed by 1970s urban renewal, featuring photographs, artifacts, records, and oral histories collected by NC State students.",
-      "id": 40
+      "id": 40,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "First Friday with Chloe Cassidy",
@@ -1061,7 +1101,8 @@
         "Free"
       ],
       "description": "First Friday Amateur Talent Show at Legends Nightclub Complex, hosted by Chloe Cassidy, features performers who must check in early as the first eight get spots. Event recurs monthly on the first Friday from February to December 2026.",
-      "id": 41
+      "id": 41,
+      "venueId": "legends-nightclub-raleigh"
     },
     {
       "name": "Alice by Heart",
@@ -1088,7 +1129,8 @@
         "Ticketed"
       ],
       "description": "This PG-13 musical by Pure Life Theatre reimagines Alice's Adventures in Wonderland set during World War II, where imagination helps characters cope with grief and loss in a whimsical yet emotional journey.[1][2]",
-      "id": 42
+      "id": 42,
+      "venueId": "william-peace-university-leggett-theatre-raleigh"
     },
     {
       "name": "Apex Pride Art Exhibit",
@@ -1115,7 +1157,8 @@
         "Festival"
       ],
       "description": "Opening reception for Apex's third annual PRIDE month exhibition celebrating diverse voices of the LGBTQIA+ community and their allies. Features live music and light refreshments.",
-      "id": 43
+      "id": 43,
+      "venueId": "the-halle-cultural-arts-center-apex"
     },
     {
       "name": "Morrisville Music in the Park 2026",
@@ -1143,7 +1186,8 @@
         "Food"
       ],
       "description": "Free Friday evening concerts featuring local bands like Story Charlamagne on May 1, with food trucks, held at Indian Creek Greenway & Trailhead for family entertainment.",
-      "id": 44
+      "id": 44,
+      "venueId": "indian-creek-greenway-trailhead-morrisville"
     },
     {
       "name": "First Friday Social: Cosplay, Karaoke, and Cocktails",
@@ -1169,7 +1213,8 @@
         "Comedy"
       ],
       "description": "Monthly First Friday event featuring cosplay, karaoke, and cocktails at the LGBT Center of Raleigh in downtown Raleigh on May 1, 2026.",
-      "id": 45
+      "id": 45,
+      "venueId": "lgbt-center-of-raleigh-raleigh"
     },
     {
       "name": "HerbFest Wake Forest",
@@ -1199,7 +1244,8 @@
         "Free"
       ],
       "description": "The 27th Annual Wake Forest HerbFest offers organic herbs, native perennials, vegetable plants, local vendors, food trucks, and live music in downtown Wake Forest. This free, family-friendly event supports the Graham Johnson Cultural Arts Endowment and runs over two weekends including May 1-3, 2026.",
-      "id": 46
+      "id": 46,
+      "venueId": "herbfest-festival-grounds-wake-forest"
     },
     {
       "name": "A Different Thread (Album Release Show) with Sugaree String Society",
@@ -1224,7 +1270,8 @@
         "Ticketed"
       ],
       "description": "A Different Thread marks the release of their new album Over Again with a full band performance blending alt-country, American roots, and English folk. The show features Sugaree String Society and special local guests at Local 506.",
-      "id": 47
+      "id": 47,
+      "venueId": "local-506-chapel-hill"
     },
     {
       "name": "Swingin' Spring Barn Dance with The Durham Jazz Orchestra",
@@ -1252,7 +1299,8 @@
         "Outdoor"
       ],
       "description": "Join the Durham Jazz Orchestra, an 18-member all-volunteer big band, for a soulful swing dance in a beautiful farm setting. This all-ages event features classic jazz standards perfect for dancers of all skill levels, with ticket sales supporting local musicians.",
-      "id": 48
+      "id": 48,
+      "venueId": "sunrise-community-farm-center-chapel-hill"
     },
     {
       "name": "Fridays on the Front Porch - Live Local Music Series",
@@ -1280,7 +1328,8 @@
         "Free"
       ],
       "description": "The Back Roads perform at this free outdoor concert series featuring live music, community gathering, and food trucks on the Carolina Inn's front porch in Chapel Hill.",
-      "id": 49
+      "id": 49,
+      "venueId": "carolina-inn-chapel-hill"
     },
     {
       "name": "Garmin Marathon Race Expo",
@@ -1305,7 +1354,8 @@
         "Free"
       ],
       "description": "Packet pick-up for the Garmin Marathon series (marathon, half-marathon, 10K, 5K) held April 30 and May 1 at CCB Plaza in Downtown Durham. Features vendors, booths, and food trucks; non-racers welcome.",
-      "id": 50
+      "id": 50,
+      "venueId": "ccb-plaza-durham"
     },
     {
       "name": "Garmin Marathon Sign Making",
@@ -1331,7 +1381,8 @@
         "Outdoor"
       ],
       "description": "Join to make posters and signs to cheer on Garmin Marathon runners using provided materials. Event supports the marathon on May 2 at the Durham Visitor Information Center.",
-      "id": 51
+      "id": 51,
+      "venueId": "durham-visitor-information-center-durham"
     },
     {
       "name": "House of Heavy at Stanczyks",
@@ -1357,7 +1408,8 @@
         "Ticketed"
       ],
       "description": "House of Heavy brings nu-metal nostalgia, alt-metal anthems, and metalcore breakdowns to Stanczyks for a high-energy night built for fans who crave the pit, riffs, and chaos of a packed metal show.",
-      "id": 52
+      "id": 52,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Traveling with the Fews",
@@ -1384,7 +1436,8 @@
         "Historical"
       ],
       "description": "Join park staff for an interactive guided hike through Eno River State Park discussing the Fews family's movements before and during the American Revolution, with living history elements. Participants should bring water, snacks, and wear comfortable clothing and shoes.",
-      "id": 53
+      "id": 53,
+      "venueId": "eno-river-state-park-durham"
     },
     {
       "name": "Metalmorphosis: Durham Tech Sculptural Welding Student Art Show",
@@ -1409,7 +1462,8 @@
         "Free"
       ],
       "description": "Join Liberty Arts and Durham Tech for Metalmorphosis, featuring student works from the Sculptural Welding class, including welding explorations and their first aluminum casting experience at the Liberty Arts Foundry.",
-      "id": 54
+      "id": 54,
+      "venueId": "liberty-arts-studios-durham"
     },
     {
       "name": "45th Annual Apex PeakFest",
@@ -1438,7 +1492,8 @@
         "Outdoor"
       ],
       "description": "Apex's longest-running festival features over 100 arts and crafts vendors, festival food and food trucks, live music and entertainment, kids zone with inflatables, and roving performers. Relocated to Town Hall Campus for 2026 due to construction.",
-      "id": 55
+      "id": 55,
+      "venueId": "town-hall-campus-apex"
     },
     {
       "name": "Meet in the Street Festival 2026",
@@ -1468,7 +1523,8 @@
         "Outdoor"
       ],
       "description": "The 44th annual Meet in the Street Festival features over 100 artisan booths, food trucks, live music on multiple stages, a children's village, beer garden, and family-friendly activities in downtown Wake Forest.",
-      "id": 56
+      "id": 56,
+      "venueId": "south-white-street-wake-forest"
     },
     {
       "name": "North Carolina Courage vs. Kansas City Current",
@@ -1493,7 +1549,8 @@
         "Family"
       ],
       "description": "North Carolina Courage faces Kansas City Current in an NWSL soccer match at WakeMed Soccer Park, offering a family-friendly environment with fan fest games, food trucks, drinks, and merchandise.[1][2]",
-      "id": 57
+      "id": 57,
+      "venueId": "wakemed-soccer-park-cary"
     },
     {
       "name": "Chelsea Handler: The High and Mighty Tour",
@@ -1518,7 +1575,8 @@
         "Ticketed"
       ],
       "description": "Chelsea Handler performs her stand-up comedy tour, The High and Mighty Tour, at DPAC on Saturday, May 2, 2026, at 8:00 PM with special guest Yamaneika Saunders.",
-      "id": 58
+      "id": 58,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Kathy Griffin: New Face, New Tour",
@@ -1544,7 +1602,8 @@
         "Adult"
       ],
       "description": "Kathy Griffin, a two-time Emmy and Grammy Award-winning comedian, performs her stand-up special featuring biting satire and fearless comedy at the A.J. Fletcher Opera Theater.",
-      "id": 59
+      "id": 59,
+      "venueId": "a-j-fletcher-opera-theater-at-martin-marietta-center-for-the-performing-arts-cary"
     },
     {
       "name": "Take On Me: the 80\u2019s Dance on Vinyl",
@@ -1570,7 +1629,8 @@
         "21+"
       ],
       "description": "80s dance party featuring DJ Fifi Hi-Fi & Patrick spinning vinyl hits from synth-pop anthems to power ballads like A-ha, Madonna, and Michael Jackson at Motorco Music Hall.",
-      "id": 60
+      "id": 60,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "TRAP Karaoke 2026",
@@ -1596,7 +1656,8 @@
         "Ticketed"
       ],
       "description": "TRAP Karaoke delivers a high-energy concert-style karaoke event where fans sing along to trap, hip-hop, and R&B hits on stage with live production.[1][2][7]",
-      "id": 61
+      "id": 61,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Qrion X Massane",
@@ -1621,7 +1682,8 @@
         "21+"
       ],
       "description": "Qrion and Massane perform breakbeat, electro house, house, and pop at The Fruit in Durham on May 2, 2026. The 18+ event is promoted by Disco Presents, Sugar Society, and Morning Choir.",
-      "id": 62
+      "id": 62,
+      "venueId": "the-fruit-durham"
     },
     {
       "name": "Raleigh Geek and Grub Market (Cottagecore Edition)",
@@ -1649,7 +1711,8 @@
         "Free"
       ],
       "description": "This free cottagecore-themed geek market features over 40 geektastic vendors, food trucks, whimsical special guests, and hands-on activities at LeRoy Martin Magnet Middle School.",
-      "id": 63
+      "id": 63,
+      "venueId": "leroy-martin-magnet-middle-school-raleigh"
     },
     {
       "name": "The Lord of the Rings Movie Marathon",
@@ -1673,7 +1736,8 @@
         "Film"
       ],
       "description": "The Cary Theater presents a movie marathon of The Lord of the Rings trilogy on Saturday, May 2: Fellowship of the Ring at 12 PM, The Two Towers at 3:30 PM, and The Return of the King at 7 PM.",
-      "id": 64
+      "id": 64,
+      "venueId": "the-cary-theater-cary"
     },
     {
       "name": "Verses & Vibes: Ciara x Soulja Boy",
@@ -1699,7 +1763,8 @@
         "21+"
       ],
       "description": "Verses & Vibes features an open mic for poets, storytellers, singers, lyricists, artists, and comedians from 7-9 PM, followed by high-energy Ciara x Soulja Boy-themed karaoke and lip-sync until midnight. Hosted by The Poetry Lounge at The Haymaker in downtown Raleigh.",
-      "id": 65
+      "id": 65,
+      "venueId": "the-haymaker-raleigh"
     },
     {
       "name": "Wands and Wonder: Celebrating Worlds of Wizardry",
@@ -1726,7 +1791,8 @@
         "Free"
       ],
       "description": "On Saturday, May 2, 2026, from 4 to 10 p.m., Downtown Cary Park transforms into an enchanted realm with herbology gardens, wand crafting, fantastical creatures, house spirit challenges, and whimsical surprises for all ages.[1][2][3]",
-      "id": 66
+      "id": 66,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "We Lift Each Other",
@@ -1753,7 +1819,8 @@
         "Charity"
       ],
       "description": "Free public screening of the documentary We Lift Each Other, highlighting Raleigh-based Black Box Dance Theatre's transformative work with veterans across North Carolina. The event features a nationally recognized story with Raleigh roots, open to all.",
-      "id": 67
+      "id": 67,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Cars and Coffee- Lamborghini Day / Mental Health Awareness",
@@ -1779,7 +1846,8 @@
         "Free"
       ],
       "description": "Cars and Coffee event featuring Lamborghini Day and Mental Health Awareness, held at 5425 Page Road in Durham with food trucks and sponsors.",
-      "id": 68
+      "id": 68,
+      "venueId": "cars-and-coffee-morrisville-durham"
     },
     {
       "name": "Durham Garden Tour",
@@ -1807,7 +1875,8 @@
         "Ticketed"
       ],
       "description": "The third annual Durham Garden Tour features 8-10 unique gardens throughout Durham, offering examples of sustainable and creative design. Visitors can explore distinctive gardens and get inspired to make their own impact on Durham's beauty.",
-      "id": 69
+      "id": 69,
+      "venueId": null
     },
     {
       "name": "Little Pagan Faire",
@@ -1833,7 +1902,8 @@
         "Outdoor"
       ],
       "description": "The Little Pagan Faire features workshops, author talks, 20+ Pagan vendors, food trucks, and a community Beltane ritual at ERUUF in Durham. Hosted by Triangle Area Pagan Alliance and Eno River CUUPS, admission requires one can of food for the Interfaith Food Shuttle.",
-      "id": 70
+      "id": 70,
+      "venueId": "eno-river-unitarian-universalist-fellowship-durham"
     },
     {
       "name": "Garmin Marathon Durham",
@@ -1857,7 +1927,8 @@
         "Sports"
       ],
       "description": "The Garmin Marathon Durham on May 2, 2026, starts on the American Tobacco Trail and finishes at Duke University, offering 5K, 10K, half-marathon, and marathon options through urban heritage areas, rolling hills, and trails.[1][2]",
-      "id": 71
+      "id": 71,
+      "venueId": "american-tobacco-durham"
     },
     {
       "name": "Bird Bonanza",
@@ -1884,7 +1955,8 @@
         "Free"
       ],
       "description": "See feathered friends up close, learn to craft bird habitats with Master Gardeners, enjoy avian art activities, and participate in birding challenges around campus.",
-      "id": 72
+      "id": 72,
+      "venueId": "museum-of-life-and-science-durham"
     },
     {
       "name": "21st Annual Strawberry Festival",
@@ -1912,7 +1984,8 @@
         "Free"
       ],
       "description": "Hosted by Central Park School for Children, this child-centered community event features live music, arts & crafts, strawberry treats, activity booths, community vendors, and a silent auction to support student learning.",
-      "id": 73
+      "id": 73,
+      "venueId": "old-north-durham-park-durham"
     },
     {
       "name": "Motorco Record Fair",
@@ -1938,7 +2011,8 @@
         "Market"
       ],
       "description": "The Motorco Record Fair features vendors selling rare LPs, 45s, classic records, and deep cuts across all genres. Held on Saturday, May 2, 2026 from noon to 5pm, it's free and open to the public with drinks available.",
-      "id": 74
+      "id": 74,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "2026 Derby Day Party",
@@ -1965,7 +2039,8 @@
         "21+"
       ],
       "description": "Join Mystic Farm & Distillery for their Derby Day Party featuring mint juleps made with Mystic Bourbon, live music, food trucks, games, and contests for best-dressed attendees. Must be 21 to attend.",
-      "id": 75
+      "id": 75,
+      "venueId": "mystic-farm-distillery-durham"
     },
     {
       "name": "Kentucky Derby Bourbon & Chef Tasting Experience at Glasshouse Kitchen",
@@ -1992,7 +2067,8 @@
         "Ticketed"
       ],
       "description": "One-night-only event on Derby Day featuring passed appetizers, Blade and Bow Bourbon tasting, Derby-inspired cocktails, chef-driven menu by Chef Kyle Fletcher, live race viewing, and Best Dressed contest. Ticket includes food tastings and two cocktails.",
-      "id": 76
+      "id": 76,
+      "venueId": "glasshouse-kitchen-durham"
     },
     {
       "name": "Derby Day for a Cause",
@@ -2019,7 +2095,8 @@
         "Outdoor"
       ],
       "description": "Kentucky Derby watch party on 26 big screen TVs and two 150\u201d projector screens, including patio views of the vineyard. Portion of proceeds and 50/50 raffle benefits Hope Reins, pairing rescued horses with children in crisis.",
-      "id": 77
+      "id": 77,
+      "venueId": "zinchouse-winery-brewery-durham"
     },
     {
       "name": "That Motown Band",
@@ -2043,7 +2120,8 @@
         "Music"
       ],
       "description": "That Motown Band delivers a high-energy tribute concert celebrating classic Motown hits from icons like Smokey Robinson, Marvin Gaye, The Temptations, The Supremes, and The Four Tops at Carolina Theatre in Durham.",
-      "id": 78
+      "id": 78,
+      "venueId": "carolina-theatre-durham"
     },
     {
       "name": "Computer Kill / TORTURETWINN",
@@ -2070,7 +2148,8 @@
         "Adult"
       ],
       "description": "Computer Kill, a Baltimore-based post-punk and darkwave project, performs with support from TORTURETWINN. Known for intense, cathartic live shows blending post-punk urgency with brooding electronic soundscapes.",
-      "id": 79
+      "id": 79,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Keep Flying with Seneca Burns Live Music",
@@ -2094,7 +2173,8 @@
         "Music"
       ],
       "description": "Keep Flying and Seneca Burns headline a live music show with ColorMeKrazy! and Superintendo at Local 506. All-ages event presented by Andmoreagain.",
-      "id": 80
+      "id": 80,
+      "venueId": "local-506-chapel-hill"
     },
     {
       "name": "Mahler Chamber Orchestra with Yuja Wang",
@@ -2119,7 +2199,8 @@
         "Ticketed"
       ],
       "description": "The Mahler Chamber Orchestra, led by pianist and director Yuja Wang, performs Prokofiev's Piano Concerto No. 2, Tsfasman's Jazz Suite, and related works in a program lasting about 1 hour 40 minutes with intermission.",
-      "id": 81
+      "id": 81,
+      "venueId": "memorial-hall-chapel-hill"
     },
     {
       "name": "Saturday Science Sparks: The Science of Migration",
@@ -2145,7 +2226,8 @@
         "Outdoor"
       ],
       "description": "Meet scientists from UNC\u2019s Sockman Lab, UNC Avian Society, and New Hope Bird Alliance for hands-on activities exploring bird migration, seasonal impacts, and North Carolina species. Held in the Launch Lab as part of the new Saturday Science Sparks STEAM series.",
-      "id": 82
+      "id": 82,
+      "venueId": "morehead-planetarium-science-center-chapel-hill"
     },
     {
       "name": "31st Annual Art in the Garden 2026 Sculpture Exhibition",
@@ -2172,7 +2254,8 @@
         "Free"
       ],
       "description": "An outdoor exhibition and sale of sculptures for home and garden by regional and nationally recognized artists, set in acres of intimate gardens, winding paths, and open spaces. Artists receive 100% of sales proceeds and will be present; event is rain or shine.",
-      "id": 83
+      "id": 83,
+      "venueId": "garden-art-gallery-hillsborough"
     },
     {
       "name": "Afternoon Tea and Talk: History Beneath Our Feet",
@@ -2196,7 +2279,8 @@
         "Museum"
       ],
       "description": "Afternoon tea event featuring a talk by Cheryl Capaldo Traylor on 'History Beneath Our Feet' at the Page-Walker Arts and History Center in Cary.",
-      "id": 84
+      "id": 84,
+      "venueId": "page-walker-arts-and-history-center-cary"
     },
     {
       "name": "America 250 Historic Bike Ride",
@@ -2223,7 +2307,8 @@
         "Family"
       ],
       "description": "A 5-mile guided bike ride featuring stops at five Raleigh Historic Landmarks spanning 250 years of the city's building history, with volunteers sharing brief histories at each site. Free e-bike and scooter rentals available; bring your own bike and helmet.",
-      "id": 85
+      "id": 85,
+      "venueId": "exchange-plaza-raleigh"
     },
     {
       "name": "Annual Rising Stars Concert 2026",
@@ -2248,7 +2333,8 @@
         "Ticketed"
       ],
       "description": "The Raleigh Symphony Orchestra presents winners of its annual Rising Stars Concerto and Composition Competitions, featuring emerging artists performing as soloists with the full orchestra.",
-      "id": 86
+      "id": 86,
+      "venueId": "jones-auditorium-raleigh"
     },
     {
       "name": "Bike Month Kickoff Party",
@@ -2275,7 +2361,8 @@
         "Community"
       ],
       "description": "A drop-in celebration of Bike Month featuring dozens of special events organized by community partners and Oaks and Spokes. Explore biking opportunities and connect with fellow cyclists.",
-      "id": 87
+      "id": 87,
+      "venueId": "bend-bar-raleigh"
     },
     {
       "name": "Fuquay-Varina Chorale Spring Concert",
@@ -2302,7 +2389,8 @@
         "Ticketed"
       ],
       "description": "The Fuquay-Varina Chorale, a non-auditioned community choir under the direction of Margaret Cook, presents its annual Spring Concert with a wide repertoire of music and a showcase of local vocal talent. Performances Friday at 7:30 PM and Saturday at 3:00 PM at the Fuquay-Varina Arts Center.",
-      "id": 88
+      "id": 88,
+      "venueId": "fuquay-varina-arts-center-fuquay-varina"
     },
     {
       "name": "Carolina Hurricanes vs. Philadelphia Flyers \u2014 Stanley Cup Playoffs Round 2, Game 1",
@@ -2327,7 +2415,8 @@
         "Ticketed"
       ],
       "description": "The No. 1-seeded Carolina Hurricanes host the Philadelphia Flyers in Game 1 of the Stanley Cup Playoffs Eastern Conference Second Round. First playoff meeting ever between the two clubs, broadcast on ABC at 8 PM.",
-      "id": 89
+      "id": 89,
+      "venueId": "lenovo-center-raleigh"
     }
   ],
   "event_count": 89

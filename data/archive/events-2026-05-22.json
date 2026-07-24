@@ -33,7 +33,8 @@
         "LGBTQ+"
       ],
       "description": "Animazement is a three-day convention celebrating anime, manga, video games, cosplay, and Japanese culture at the Raleigh Convention Center. The event features panels, concerts, gaming, workshops, artwork, and cultural demonstrations.",
-      "id": 1
+      "id": 1,
+      "venueId": "raleigh-convention-center-raleigh"
     },
     {
       "name": "HAMILTON",
@@ -62,7 +63,8 @@
         "Ticketed"
       ],
       "description": "HAMILTON is a Broadway musical about the life of Alexander Hamilton, featuring book, music, and lyrics by Lin-Manuel Miranda. The production is scheduled at DPAC in Durham with multiple performances across the weekend.",
-      "id": 2
+      "id": 2,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Movie Night: Wicked: For Good",
@@ -89,7 +91,8 @@
         "Outdoor"
       ],
       "description": "Downtown Cary Park is hosting a free outdoor movie night featuring Wicked: For Good (PG). The event includes pre-movie activities before the screening on the Great Lawn Pavilion.",
-      "id": 3
+      "id": 3,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "Living Collections Members Night",
@@ -116,7 +119,8 @@
         "Arts & Crafts"
       ],
       "description": "Members receive exclusive evening access to the North Carolina Museum of Natural Sciences for special living collections programming. The event takes place downtown Raleigh and features hands-on activities and live animal encounters.",
-      "id": 4
+      "id": 4,
+      "venueId": "north-carolina-museum-of-natural-sciences-raleigh"
     },
     {
       "name": "Craft Night on the Videri Patio",
@@ -142,7 +146,8 @@
         "Family"
       ],
       "description": "Videri Chocolate Factory is hosting a community craft night on its patio in downtown Raleigh. The event is listed for Friday, May 22, 2026 from 5:45 to 8:45 PM and is free to attend.",
-      "id": 5
+      "id": 5,
+      "venueId": "videri-chocolate-factory-raleigh"
     },
     {
       "name": "Iration: Where It All Began Summer Tour 2026",
@@ -168,7 +173,8 @@
         "Ticketed"
       ],
       "description": "Iration headlines Red Hat Amphitheater as part of its Where It All Began Summer Tour 2026, with longtime friends Tribal Seeds supporting on most dates. The show is scheduled for Friday evening in downtown Raleigh.",
-      "id": 6
+      "id": 6,
+      "venueId": "red-hat-amphitheater-raleigh"
     },
     {
       "name": "ATLiens",
@@ -195,7 +201,8 @@
         "Ticketed"
       ],
       "description": "ATLiens performs at The Ritz in Raleigh on Friday, May 22, 2026. The duo is known for dark, bass-driven electronic music and a masked stage persona.",
-      "id": 7
+      "id": 7,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Marisela",
@@ -221,7 +228,8 @@
         "Adult"
       ],
       "description": "Marisela performs live at the Raleigh Memorial Auditorium at the Martin Marietta Center for the Performing Arts. The Mexican-American singer is known for her expressive vocal style and decades of Latin pop hits.",
-      "id": 8
+      "id": 8,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Funny Marco",
@@ -250,7 +258,8 @@
         "Ticketed"
       ],
       "description": "Funny Marco, known for his viral interviews and understated style, performs live at Raleigh Improv in Cary. The weekend run includes multiple shows on Friday through Sunday.",
-      "id": 9
+      "id": 9,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "JB Smoove",
@@ -277,7 +286,8 @@
         "Ticketed"
       ],
       "description": "J.B. Smoove is scheduled to perform at Goodnights Comedy Club in Raleigh on Friday, May 22, 2026. The show is a ticketed comedy event with an evening start time.",
-      "id": 10
+      "id": 10,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Chris O'Connor",
@@ -306,7 +316,8 @@
         "Ticketed"
       ],
       "description": "Chris O\u2019Connor, a comic from Philadelphia now living in New York City, is appearing at Room 861 at Goodnights Comedy Club in Raleigh. The event spans Friday through Sunday with multiple showtimes listed on the venue calendar.",
-      "id": 11
+      "id": 11,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "2026 Down Home Concert Series: The Secret Sisters",
@@ -332,7 +343,8 @@
         "Adult"
       ],
       "description": "The Secret Sisters perform as part of PineCone\u2019s 2026 Down Home Concert Series at A.J. Fletcher Opera Theater in downtown Raleigh. Doors open before the 7:30 p.m. show, and tickets are sold at multiple price levels.",
-      "id": 12
+      "id": 12,
+      "venueId": "a-j-fletcher-opera-theater-at-martin-marietta-center-for-the-performing-arts-cary"
     },
     {
       "name": "Mallarme Music Concert: Kurtag at 100",
@@ -357,7 +369,8 @@
         "Ticketed"
       ],
       "description": "Mallarm\u00e9 Music presents a concert of music by Gy\u00f6rgy Kurt\u00e1g, B\u00e9la Bart\u00f3k, and Gyorgy Enescu, performed on cimbalom, violin, mezzo-soprano, and piano. The program highlights Hungarian and Romanian folk-inspired repertoire at the North Carolina Museum of Art.",
-      "id": 13
+      "id": 13,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Cold at Motorco",
@@ -383,7 +396,8 @@
         "Adult"
       ],
       "description": "Cold is scheduled to perform at Motorco Music Hall in Durham on Friday, May 22, 2026, as part of the Goodbye Cruel World Tour. Doors open at 7:00 PM and the show starts at 8:00 PM.",
-      "id": 14
+      "id": 14,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "A Tribute to Dylan & Cash",
@@ -409,7 +423,8 @@
         "Adult"
       ],
       "description": "This performance by Rod Abernethy and David Burney honors Bob Dylan and Johnny Cash through live music and storytelling. The show is presented at The Wake Forest Listening Room with doors opening at 7:00 PM and the performance starting at 7:30 PM.",
-      "id": 15
+      "id": 15,
+      "venueId": "the-wake-forest-listening-room-wake-forest"
     },
     {
       "name": "Anime Cocktail Lounge",
@@ -438,7 +453,8 @@
         "Festival"
       ],
       "description": "Animazement\u2019s local-events listing says Bitter Social is hosting Anime Cocktail Lounge on Friday and Saturday night with cocktails and anime vibes. The pop-up serves as the weekend home base for attendees and does not charge a cover.",
-      "id": 16
+      "id": 16,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Biodiversity After Dark",
@@ -465,7 +481,8 @@
         "Museum"
       ],
       "description": "This North Carolina Museum of Natural Sciences program at Prairie Ridge features nighttime wildlife viewing with light stations for moths and other nocturnal insects, plus stops to listen for frogs and owls. Participants are encouraged to bring a flashlight and a smartphone or camera; adults and children ages 8+ are welcome.",
-      "id": 17
+      "id": 17,
+      "venueId": "prairie-ridge-raleigh"
     },
     {
       "name": "Candlelight: 90s Unplugged",
@@ -491,7 +508,8 @@
         "Adult"
       ],
       "description": "Candlelight concerts at The Historic Wakefield Barn feature live music performed under candlelight in the venue's Main Hall. This installment presents 90s Unplugged, a tribute to songs from the 1990s.",
-      "id": 18
+      "id": 18,
+      "venueId": "the-historic-wakefield-barn-wake-forest"
     },
     {
       "name": "Candy Coffins & The Veldt",
@@ -517,7 +535,8 @@
         "Adult"
       ],
       "description": "Candy Coffins and The Veldt are scheduled to perform at Slim's Dive Bar in downtown Raleigh on Friday, May 22, 2026. The event is listed for 8\u201311 p.m.",
-      "id": 19
+      "id": 19,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "How Soon Is 1984? New Wave Dance Party",
@@ -544,7 +563,8 @@
         "Ticketed"
       ],
       "description": "Twentieth Century Boy hosts a new wave dance party featuring 1980s new wave and classic alternative music played on original vinyl. New wave attire and big hair are encouraged but not required.",
-      "id": 20
+      "id": 20,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Kawaii Rave: Animazement Afterparty",
@@ -573,7 +593,8 @@
         "Festival"
       ],
       "description": "Kawaii Rave is an immersive anime-themed dance party held as an Animazement afterparty at KINGS in downtown Raleigh. The event is 18+ and features a late-night club atmosphere tied to the convention weekend.",
-      "id": 21
+      "id": 21,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "On The Border - The Ultimate Eagles Tribute",
@@ -599,7 +620,8 @@
         "Adult"
       ],
       "description": "On The Border brings an Eagles tribute concert to Lincoln Theatre in downtown Raleigh. The show is scheduled for Friday, May 22, 2026, with doors opening one hour before the 8:00 PM start.",
-      "id": 22
+      "id": 22,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Senior Center - Senior Prom",
@@ -625,7 +647,8 @@
         "Dance"
       ],
       "description": "The Senior Center Senior Prom is a themed social event for older adults at the Morrisville Senior Center. It features a Hollywood-inspired prom atmosphere with glamorous decor, appetizers, and music.",
-      "id": 23
+      "id": 23,
+      "venueId": "morrisville-senior-center-morrisville"
     },
     {
       "name": "Summer at the Springs Featuring The Phoebes",
@@ -653,7 +676,8 @@
         "Festival"
       ],
       "description": "Summer at the Springs is Holly Springs\u2019 free outdoor concert series at the Cultural Center. This installment features The Phoebes and is presented as a family-friendly evening of live music.",
-      "id": 24
+      "id": 24,
+      "venueId": "holly-springs-cultural-center-holly-springs"
     },
     {
       "name": "Zebulon Devil Dogz vs. Virginia Beach Valor",
@@ -682,7 +706,8 @@
         "Ticketed"
       ],
       "description": "The Zebulon Devil Dogz host the Virginia Beach Valor at Five County Stadium on Friday night. The team\u2019s listing describes it as Opening Night for a new era of baseball in Zebulon.",
-      "id": 25
+      "id": 25,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "ZoBury - A Tribute to Zo\u00e9 and Enrique Bunbury",
@@ -708,7 +733,8 @@
         "21+"
       ],
       "description": "ZoBury is a tribute band performing music inspired by Latin rock artists Zo\u00e9 and Enrique Bunbury. The show is scheduled for Friday night at The Pour House Music Hall & Record Shop in downtown Raleigh.",
-      "id": 26
+      "id": 26,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "NC Queer Farmer Convergence",
@@ -738,7 +764,8 @@
         "Charity"
       ],
       "description": "The NC Queer Farmers Network is hosting its first NC Queer Farmer Convergence at Soul Sanctuary in Durham. The weekend event features community-building, skill shares, seed exchanges, and more, with onsite camping available.",
-      "id": 27
+      "id": 27,
+      "venueId": "soul-sanctuary-durham"
     },
     {
       "name": "Durham Bulls vs. Nashville Sounds",
@@ -765,7 +792,8 @@
         "Ticketed"
       ],
       "description": "The Durham Bulls face the Nashville Sounds at Durham Bulls Athletic Park in Durham. First pitch is scheduled for Friday evening at 6:45 PM.",
-      "id": 28
+      "id": 28,
+      "venueId": "durham-bulls-athletic-park-durham"
     },
     {
       "name": "Lovell Bradford Quartet",
@@ -792,7 +820,8 @@
         "Adult"
       ],
       "description": "Lovell Bradford brings his quartet to Sharp Nine Gallery for an evening of live jazz. Bradford is a Charlotte-based pianist whose style draws on gospel jazz and R&B influences.",
-      "id": 29
+      "id": 29,
+      "venueId": "sharp-nine-gallery-durham"
     },
     {
       "name": "Gimme Gimme Disco",
@@ -819,7 +848,8 @@
         "Ticketed"
       ],
       "description": "Gimme Gimme Disco is a DJ-based dance party featuring ABBA favorites and disco classics from the \u201970s and \u201980s. The event takes place at Stanczyks Music Bar in Durham.",
-      "id": 30
+      "id": 30,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Elizabeth Cotten Freight Train Blues 2026 Concert Series",
@@ -848,7 +878,8 @@
         "Beer"
       ],
       "description": "This free concert series features roots, blues, and folk performances on Friday evenings at Carrboro Town Commons. Guests are encouraged to bring picnic blankets and lawn chairs; food and beer are available for purchase.",
-      "id": 31
+      "id": 31,
+      "venueId": "carrboro-town-commons-carrboro"
     },
     {
       "name": "Tchaikovsky Piano Concerto No. 1",
@@ -876,7 +907,8 @@
         "Family"
       ],
       "description": "North Carolina Symphony presents Summerfest: Tchaikovsky Piano Concerto No. 1 with conductor Sophie Mok and pianist Albert Cano Smit. The program also includes Dvo\u0159\u00e1k\u2019s Symphony No. 8 at Koka Booth Amphitheatre in Cary.",
-      "id": 32
+      "id": 32,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "Knowing the West Community Day",
@@ -903,7 +935,8 @@
         "Family"
       ],
       "description": "Community day at the North Carolina Museum of Art offering free admission to see Knowing the West. The exhibition presents artwork from the 19th and early 20th centuries that explores diverse stories and perspectives on the American West.",
-      "id": 33
+      "id": 33,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Taste of Soul NC",
@@ -932,7 +965,8 @@
         "Outdoor"
       ],
       "description": "Taste of Soul NC is a food-and-music festival held at Durham Central Park with food trucks, merchant vendors, DJ sets, live performances, and kids' activities. Admission is free; guests pay only for food and drinks.",
-      "id": 34
+      "id": 34,
+      "venueId": "durham-central-park-durham"
     },
     {
       "name": "2026 Carrboro Bluegrass Festival",
@@ -959,7 +993,8 @@
         "Ticketed"
       ],
       "description": "The 2026 Carrboro Bluegrass Festival takes place at Cat's Cradle in downtown Carrboro and features a lineup of bluegrass acts across the afternoon and evening. Doors open at 2 p.m., with the show beginning at 2:30 p.m.",
-      "id": 35
+      "id": 35,
+      "venueId": "cat-s-cradle-carrboro"
     },
     {
       "name": "2nd Annual VegHead: Veggie Lovers Grill Out",
@@ -986,7 +1021,8 @@
         "Festival"
       ],
       "description": "Motorco Music Hall hosts the 2nd Annual VegHead: Veggie Lovers Grill Out on The Veranda. The event runs Saturday, May 23, 2026 from 4:00 to 7:00 PM and features a vibrant grilled veggie menu.",
-      "id": 36
+      "id": 36,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "One Direction Night at Motorco",
@@ -1013,7 +1049,8 @@
         "Ticketed"
       ],
       "description": "A 21+ dance party at Motorco Music Hall featuring One Direction hits and other pop favorites. DJs start at 9:00 PM, with doors opening at 8:30 PM.",
-      "id": 37
+      "id": 37,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Golden: a K-Pop Kids Party!",
@@ -1040,7 +1077,8 @@
         "Adult"
       ],
       "description": "Golden: a K-Pop Kids Party! is scheduled for Saturday, May 23, 2026 at The Ritz in Raleigh. Ticket listings note an 11:00 AM start and that the event is all ages.",
-      "id": 38
+      "id": 38,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Art and Blooms at the JCRA: Summer Flower Gardens",
@@ -1067,7 +1105,8 @@
         "Ticketed"
       ],
       "description": "Art and Blooms at the JCRA: Summer Flower Gardens is scheduled for Saturday, May 23, 2026 at the JC Raulston Arboretum in Raleigh. The Arboretum lists it as an in-person program and registration is required.",
-      "id": 39
+      "id": 39,
+      "venueId": "jc-raulston-arboretum-at-north-carolina-state-university-raleigh"
     },
     {
       "name": "Banff: 'Flood' EP Release Show / Charlie Paso / Max Gowan",
@@ -1093,7 +1132,8 @@
         "Adult"
       ],
       "description": "Banff marks the release of its debut EP, 'Flood,' with support from Charlie Paso and Max Gowan at KINGS in downtown Raleigh. The show is scheduled for Saturday evening with doors opening an hour before start time.",
-      "id": 40
+      "id": 40,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Candlelight: The Best of Hans Zimmer",
@@ -1119,7 +1159,8 @@
         "Ticketed"
       ],
       "description": "Candlelight concerts present live classical performances in intimate, candlelit venues. This edition features music by Hans Zimmer, performed by the Lyricosa String Quartet at The Rialto in Raleigh.",
-      "id": 41
+      "id": 41,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Fire Department Open House Morrisville 2026",
@@ -1146,7 +1187,8 @@
         "Charity"
       ],
       "description": "The Town of Morrisville hosts an open house at Fire Station No. 1 where residents can meet firefighters, tour the station, and see firefighting and rescue equipment. The event also shares safety information for the community.",
-      "id": 42
+      "id": 42,
+      "venueId": "fire-station-no-1-morrisville"
     },
     {
       "name": "Halfway to Halloween: A Flippin' Sweet Costume Contest",
@@ -1173,7 +1215,8 @@
         "Holiday"
       ],
       "description": "This Halloween-themed costume contest is listed for The Longleaf Lounge in Raleigh and appears to center on creative costumes and prizes. The event is part of the area\u2019s \u201cHalfway to Halloween\u201d festivities.",
-      "id": 43
+      "id": 43,
+      "venueId": "the-longleaf-lounge-raleigh"
     },
     {
       "name": "Henry Cruz Band",
@@ -1199,7 +1242,8 @@
         "Adult"
       ],
       "description": "Henry Cruz Band is scheduled to perform at Slim's Dive Bar in downtown Raleigh on Saturday, May 23, 2026. The venue\u2019s event listings show the set running from 9 to 11 PM.",
-      "id": 44
+      "id": 44,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Hoot n' Holler Market",
@@ -1228,7 +1272,8 @@
         "Family"
       ],
       "description": "Hoot n' Holler Market is a one-day market at Cannonball Music Hall in Raleigh featuring local vendors, drinks, music, and a raffle. It is advertised as free and open to all ages.",
-      "id": 45
+      "id": 45,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Raleigh-Durham Caged Bird Society 37th Annual Pet Bird Fair",
@@ -1255,7 +1300,8 @@
         "Ticketed"
       ],
       "description": "The Raleigh-Durham Caged Bird Society\u2019s annual Pet Bird Fair features bird displays and related vendors at the Kerr Scott Building. Admission is $5 for adults, with free entry for those under 18.",
-      "id": 46
+      "id": 46,
+      "venueId": "agri-supply-exposition-center-at-north-carolina-state-fairgrounds-raleigh"
     },
     {
       "name": "Repticon 2026",
@@ -1283,7 +1329,8 @@
         "Outdoor"
       ],
       "description": "Repticon is a reptile and exotic animal expo featuring breeder-vendors, live animals, pet products, and educational seminars. The Raleigh edition takes place at the North Carolina State Fairgrounds over Saturday and Sunday.",
-      "id": 47
+      "id": 47,
+      "venueId": "agri-supply-exposition-center-at-north-carolina-state-fairgrounds-raleigh"
     },
     {
       "name": "Shrek Rave",
@@ -1311,7 +1358,8 @@
         "Adult"
       ],
       "description": "Shrek Rave is scheduled for Saturday, May 23, 2026 at The Ritz in Raleigh. The event is listed as an 18+ ticketed show with a 7:00 PM start time.",
-      "id": 48
+      "id": 48,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "T\u00f3mar\u00fam w/ Gudsforladt",
@@ -1337,7 +1385,8 @@
         "Adult"
       ],
       "description": "T\u00f3mar\u00fam performs with Gudsforladt at The Pour House Music Hall & Record Shop in downtown Raleigh. The show is scheduled for Saturday, May 23, 2026.",
-      "id": 49
+      "id": 49,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "TR In Concert: Una Noche Con Los Azconas",
@@ -1363,7 +1412,8 @@
         "Ticketed"
       ],
       "description": "TR In Concert presents Una Noche Con Los Azconas, a live performance celebrating Latin music, culture, and community. The event takes place at Theatre Raleigh's Cabaret Theatre on Saturday, May 23 at 8:00 PM.",
-      "id": 50
+      "id": 50,
+      "venueId": "theatre-raleigh-raleigh"
     },
     {
       "name": "Gentle Revelations: 6 Flash Plays",
@@ -1390,7 +1440,8 @@
         "Ticketed"
       ],
       "description": "Perihelion Theatre Company and Productions presents Gentle Revelations, a literary performance of six flash plays at The ArtsCenter in Carrboro. The production runs Saturday and Sunday with separate evening and matinee performances.",
-      "id": 51
+      "id": 51,
+      "venueId": "the-artscenter-carrboro"
     },
     {
       "name": "May Forest Bathing Walk with Certified Forest & Nature Therapy Guide",
@@ -1417,7 +1468,8 @@
         "Ticketed"
       ],
       "description": "A certified forest and nature therapy guide leads this 18+ forest bathing walk at the North Carolina Botanical Garden in Chapel Hill. The experience focuses on mindfulness, breathwork, and gentle nature connection.",
-      "id": 52
+      "id": 52,
+      "venueId": "north-carolina-botanical-garden-chapel-hill"
     },
     {
       "name": "SINGamajig",
@@ -1444,7 +1496,8 @@
         "Ticketed"
       ],
       "description": "SINGamajig is an improvised musical for kids at Mettlesome Comedy Theater in Durham. The show creates a made-up story with songs based on audience suggestions, with tickets sold at the door.",
-      "id": 53
+      "id": 53,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "8-Track Minds",
@@ -1470,7 +1523,8 @@
         "Adult"
       ],
       "description": "8-Track Minds is scheduled to perform at The Blue Note Grill in Durham on Saturday evening. The band bills itself as a \u201970s dance party band, and tickets are sold through Etix.",
-      "id": 54
+      "id": 54,
+      "venueId": "the-blue-note-grill-durham"
     },
     {
       "name": "Connor Lee Quartet with Husbandos",
@@ -1497,7 +1551,8 @@
         "Adult"
       ],
       "description": "Connor Lee Quartet with Husbandos is scheduled to play at Slim's Dive Bar in downtown Raleigh on Saturday, May 23, 2026. The listing describes the set as upbeat jazz and R&B.",
-      "id": 55
+      "id": 55,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Darkness RISING: Live Arts & Mental Health Block Party 2026",
@@ -1526,7 +1581,8 @@
         "Charity"
       ],
       "description": "Darkness RISING: Live is an annual free music and mental health festival hosted by Darkness RISING Project in downtown Raleigh. The event includes live performances, a DJ, vendors, food trucks, kids\u2019 activities, wellness workshops, and free mental health resources.",
-      "id": 56
+      "id": 56,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "NC Sugar Rush",
@@ -1554,7 +1610,8 @@
         "Music"
       ],
       "description": "NC Sugar Rush is a dessert-focused festival at City Plaza in downtown Raleigh featuring 20+ vendors serving sweets like funnel cakes, cupcakes, ice cream, and more. The event also includes a DJ and live performances.",
-      "id": 57
+      "id": 57,
+      "venueId": "city-plaza-raleigh"
     },
     {
       "name": "Dreamflash Kids Festival",
@@ -1583,7 +1640,8 @@
         "Ticketed"
       ],
       "description": "Dreamflash Kids Festival is a family-focused outdoor bubble festival at Dorothea Dix Park. It features a signature bubble launch, giant bubble activities, face painting, slime making, games, photo opportunities, and live music for kids ages 3\u201315 and their families.",
-      "id": 58
+      "id": 58,
+      "venueId": "dix-park-raleigh"
     },
     {
       "name": "AAPI Heritage Month: Sushi & Sumo",
@@ -1612,7 +1670,8 @@
         "Sports"
       ],
       "description": "The Town of Apex presents this AAPI Heritage Month event featuring live sumo demonstrations by Raijin Sumo and a chance to learn about the sport's history. Tombachi Food Truck will be on site with hibachi and sushi available for purchase.",
-      "id": 59
+      "id": 59,
+      "venueId": "apex-community-park-volleyball-courts-apex"
     },
     {
       "name": "Gather: A Seasonal Supper",
@@ -1639,7 +1698,8 @@
         "Ticketed"
       ],
       "description": "Gather: A Seasonal Supper is a special farm-to-table dining experience held at the Gathering House Garden in Downtown Cary Park. The event features a seasonal supper in an outdoor setting in Cary.",
-      "id": 60
+      "id": 60,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "An American Celebration: The Music of John Williams",
@@ -1666,7 +1726,8 @@
         "Ticketed"
       ],
       "description": "Triangle Wind Ensemble presents its annual An American Celebration featuring music by John Williams. The Memorial Day weekend concert takes place outdoors at Koka Booth Amphitheatre and is designed as a family-friendly evening under the stars.",
-      "id": 61
+      "id": 61,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "Six Sundays in Spring 2026",
@@ -1694,7 +1755,8 @@
         "Free"
       ],
       "description": "Six Sundays in Spring is a recurring free concert series presented by ARTS Wake Forest at E. Carroll Joyner Park Amphitheater. The 2026 series runs on six consecutive Sundays from April 26 through May 31, with live music, food trucks, and a bring-your-own-picnic atmosphere.",
-      "id": 62
+      "id": 62,
+      "venueId": "e-carroll-joyner-park-wake-forest"
     },
     {
       "name": "Cocktail Competition",
@@ -1722,7 +1784,8 @@
         "Adult"
       ],
       "description": "This Local Spirit cocktail competition at Longleaf Swine features five bartenders creating drinks with Kill Devil Rum and Cheerwine. Attendees and judges help choose the winner at this free public event.",
-      "id": 63
+      "id": 63,
+      "venueId": "longleaf-swine-raleigh"
     },
     {
       "name": "JAWSFest 2026",
@@ -1750,7 +1813,8 @@
         "Ticketed"
       ],
       "description": "JAWSFest 2026 is a Memorial Day Weekend celebration in downtown Chapel Hill centered at Local 506 and the Midway block. The event includes live music, outdoor activities, vendor market fun, and a screening of Jaws.",
-      "id": 64
+      "id": 64,
+      "venueId": "local-506-chapel-hill"
     },
     {
       "name": "Be Good to Yourself Presents Music for Mental Health",
@@ -1777,7 +1841,8 @@
         "Adult"
       ],
       "description": "Be Good to Yourself Presents Music for Mental Health is a benefit concert at Cat's Cradle Back Room in Carrboro. The event raises funds and awareness for mental health care and substance abuse support for North Carolina musicians.",
-      "id": 65
+      "id": 65,
+      "venueId": "cat-s-cradle-carrboro"
     },
     {
       "name": "Brunch & Bubbles",
@@ -1805,7 +1870,8 @@
         "Family"
       ],
       "description": "Brunch & Bubbles is a recurring Sunday event at AVA Rooftop Bar in Cary featuring a brunch buffet, mimosa buckets, live DJ music, and lawn games. It is scheduled for noon to 3 p.m. on select Sundays, including the weekend of May 22, 2026.",
-      "id": 66
+      "id": 66,
+      "venueId": "sports-social-cary"
     },
     {
       "name": "Camisole with Shred Flinstone, Cellar Dwellers",
@@ -1832,7 +1898,8 @@
         "21+"
       ],
       "description": "Camisole performs with Shred Flinstone and Cellar Dwellers at The Pour House Music Hall & Record Shop in downtown Raleigh. The show is listed as an 18+ event with doors at 7:00 PM and music at 8:00 PM.",
-      "id": 67
+      "id": 67,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "F1 Canadian Grand Prix Watch Party",
@@ -1860,7 +1927,8 @@
         "Beer"
       ],
       "description": "The Davie is hosting a live watch party for the Formula 1 Canadian Grand Prix in downtown Raleigh. The event is scheduled for Sunday afternoon and is aimed at racing fans watching the full race live.",
-      "id": 68
+      "id": 68,
+      "venueId": "the-davie-raleigh"
     },
     {
       "name": "Gasket",
@@ -1886,7 +1954,8 @@
         "Ticketed"
       ],
       "description": "Gasket is a live heavy-music event taking place at KINGS in downtown Raleigh. The listing highlights acts that push the boundaries of the genre and bring unique perspectives to the show.",
-      "id": 69
+      "id": 69,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Goodbye Horses",
@@ -1912,7 +1981,8 @@
         "21+"
       ],
       "description": "Goodbye Horses is scheduled for Sunday, May 24, 2026, from 8\u201310 PM at Slim's Dive Bar in downtown Raleigh. The venue lists the event as part of its music calendar.",
-      "id": 70
+      "id": 70,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Sights and Sounds on Sundays Concert Series: The Ulysses Quartet",
@@ -1938,7 +2008,8 @@
         "Ticketed"
       ],
       "description": "Chamber Music Raleigh presents the Ulysses Quartet as part of the NC Museum of Art\u2019s Sights and Sounds on Sundays series. The concert takes place in the SECU Auditorium at the North Carolina Museum of Art.",
-      "id": 71
+      "id": 71,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Pre-Memorial Day Franks & Dranks on the Roof",
@@ -1966,7 +2037,8 @@
         "Ticketed"
       ],
       "description": "Join The Durham Hotel on the Roof on Sunday, May 24 from 1\u201310 PM for a Memorial Day weekend kickoff featuring a Wagyu beef hotdog bar, sides, a build-your-own spritz menu, and full bar service. No reservations are required.",
-      "id": 72
+      "id": 72,
+      "venueId": "the-durham-hotel-durham"
     }
   ]
 }

@@ -29,7 +29,8 @@
         "Ticketed"
       ],
       "description": "Tony Award-winning musical based on F. Scott Fitzgerald's classic novel, featuring a jazz- and pop-influenced score in a story of love, wealth, and tragedy. Contains adult themes; not recommended for children 9 and under.",
-      "id": 1
+      "id": 1,
+      "venueId": "dpac-durham"
     },
     {
       "name": "Appalachian Spring with the North Carolina Symphony",
@@ -55,7 +56,8 @@
         "Ticketed"
       ],
       "description": "Music Director Carlos Miguel Prieto leads the North Carolina Symphony in Copland's Appalachian Spring, along with Gabriela Ortiz's Kauyumari and Revueltas' La Noche de los Mayas. Performances feature a special Friday Favorites matinee at noon on May 8.",
-      "id": 2
+      "id": 2,
+      "venueId": "memorial-auditorium-at-martin-marietta-center-for-the-performing-arts-raleigh"
     },
     {
       "name": "Durham Bulls vs. Round Rock Express",
@@ -82,7 +84,8 @@
         "Ticketed"
       ],
       "description": "The Durham Bulls host the Round Rock Express in a Minor League Baseball game. Catch Pacific Coast League action at the historic Durham Bulls Athletic Park.",
-      "id": 3
+      "id": 3,
+      "venueId": "durham-bulls-athletic-park-durham"
     },
     {
       "name": "Bilmuri - Kinda Hard Tour",
@@ -106,7 +109,8 @@
         "Music"
       ],
       "description": "Bilmuri headlines the Kinda Hard Tour at Red Hat Amphitheater with special guests The Home Team and GANG! on Friday, May 8, 2026, at 7:00 PM. This outdoor rock concert offers an electrifying live performance in downtown Raleigh.",
-      "id": 4
+      "id": 4,
+      "venueId": "red-hat-amphitheater-raleigh"
     },
     {
       "name": "Architects",
@@ -133,7 +137,8 @@
         "Adult"
       ],
       "description": "Architects, a British metalcore band, performs their Broken Mirror Tour 2026 at The Ritz in Midtown Raleigh. This all-ages general admission standing room event features the band's djent and mathcore sound.",
-      "id": 5
+      "id": 5,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Kid Rock, Brantley Gilbert & Them Dirty Roses",
@@ -159,7 +164,8 @@
         "Ticketed"
       ],
       "description": "Kid Rock headlines the Freedom 250 Tour with special guests Brantley Gilbert and Them Dirty Roses at this outdoor amphitheater concert. Expect a high-energy mix of rock and country music starting with doors at 6:30 PM.",
-      "id": 6
+      "id": 6,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "Friday Night on White 2026",
@@ -186,7 +192,8 @@
         "Festival"
       ],
       "description": "Friday Night on White is a free concert series on the second Friday of each month from April through September, featuring local and regional party bands playing classic rock, pop, 70s-90s hits, R&B, Top 40, and Motown. On May 8, 2026, Sleeping Booty Band performs from 6-9 p.m. in downtown Wake Forest.",
-      "id": 7
+      "id": 7,
+      "venueId": "south-white-street-wake-forest"
     },
     {
       "name": "HOT IN HERRE : 2000's Dance Party",
@@ -212,7 +219,8 @@
         "21+"
       ],
       "description": "Hot In Herre features DJs spinning 2000s hits from artists like Nelly, Usher, Rihanna, Britney Spears, and more, paired with Y2K visuals evoking blinged-out flip phones and trucker hats. This high-energy dance party transports attendees back to the early 2000s era of pop and hip-hop bangers.",
-      "id": 8
+      "id": 8,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Martin Amini",
@@ -238,7 +246,8 @@
         "Ticketed"
       ],
       "description": "Martin Amini is a stand-up comic based in Los Angeles who headlines shows across the country with material about growing up mixed in America with Bolivian and Iranian heritage. He filmed his special \"Son of An Ice Cream Man\" at The Kennedy Center in 2020.",
-      "id": 9
+      "id": 9,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Room 861 at Goodnights: Brendan Sagalow",
@@ -265,7 +274,8 @@
         "Adult"
       ],
       "description": "Brendan Sagalow brings his stand-up comedy act to Room 861 at Goodnights Comedy Club for a multi-night run. The 18+ venue requires a two-item minimum per person.",
-      "id": 10
+      "id": 10,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Erik Griffin",
@@ -293,7 +303,8 @@
         "21+"
       ],
       "description": "Erik Griffin brings his sharp humor and commanding stage presence to Raleigh Improv for three nights. The comedian, actor, writer, and podcaster performs Fri at 9:15 PM, Sat at 9 PM, and Sun at 6 PM.",
-      "id": 11
+      "id": 11,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "Jamie Lissow",
@@ -320,7 +331,8 @@
         "21+"
       ],
       "description": "Jamie Lissow, regular guest on Gutfeld! and star of Netflix's Real Rob, performs two shows at Raleigh Improv. Known for appearances on The Tonight Show, Last Comic Standing, and his Comedy Central special.",
-      "id": 12
+      "id": 12,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "Candlelight: Tribute to Fleetwood Mac",
@@ -345,7 +357,8 @@
         "Ticketed"
       ],
       "description": "Candlelight concerts feature a string quartet performing Fleetwood Mac classics like 'Landslide,' 'Go Your Own Way,' and 'The Chain' under the glow of thousands of candles at The Historic Wakefield Barn. The 60-minute shows are suitable for ages 8+ with assigned seating on a first-come, first-served basis.",
-      "id": 13
+      "id": 13,
+      "venueId": "the-historic-wakefield-barn-wake-forest"
     },
     {
       "name": "Candlelight: Tribute to Taylor Swift",
@@ -370,7 +383,8 @@
         "Ticketed"
       ],
       "description": "Candlelight concerts feature a live string quartet performing Taylor Swift's music in a multi-sensory candlelit atmosphere at The Historic Wakefield Barn. The 60-minute show is suitable for ages 8+ with under-16s requiring adult accompaniment.",
-      "id": 14
+      "id": 14,
+      "venueId": "the-historic-wakefield-barn-wake-forest"
     },
     {
       "name": "NC Master Chorale: Shall We Dance?",
@@ -396,7 +410,8 @@
         "Ticketed"
       ],
       "description": "The North Carolina Master Chorale presents songs about dancing and in dance rhythms, spanning Renaissance to contemporary works including Schubert, Brahms, Copland, Van Morrison, ABBA, and music from Wicked. The 100-minute performance features a diverse repertoire from music history across cultures.",
-      "id": 15
+      "id": 15,
+      "venueId": "hayes-barton-united-methodist-church-raleigh"
     },
     {
       "name": "2026 NASCAR Regional Season - Acorn City 175",
@@ -421,7 +436,8 @@
         "Ticketed"
       ],
       "description": "Wake County Speedway hosts the Acorn City 175/Cover My Floors NASCAR Regional race on Friday, May 8, 2026, with gates opening at 6pm, qualifying at 7:15pm, and racing starting at 8:30pm. Multiple classes including Charger, Bombers/Any Car, Legends, Bandoleros, Champ Kart, and Beginner compete on the 1/4-mile asphalt track.",
-      "id": 16
+      "id": 16,
+      "venueId": "wake-county-speedway-raleigh"
     },
     {
       "name": "Friday Family Flicks - Zootopia 2",
@@ -448,7 +464,8 @@
         "Free"
       ],
       "description": "Join Garner Parks, Recreation, and Cultural Resources for a free outdoor movie screening of Zootopia 2 on the big screen. Free activities begin at 7:15 PM with the film starting at 8:15 PM, plus concessions available for purchase.",
-      "id": 17
+      "id": 17,
+      "venueId": "garner-recreation-center-garner"
     },
     {
       "name": "Lost Raleigh: Exploring the Oak City's Architectural History Book Launch",
@@ -474,7 +491,8 @@
         "Family"
       ],
       "description": "An evening with authors Ian F.G. Dunn and Mary Ruffin Hanbury celebrating their book exploring Raleigh's cultural and architectural heritage. Attendees can purchase signed copies and receive an exclusive limited edition bookmark, with free beverages provided by Trophy Brewing Company.",
-      "id": 18
+      "id": 18,
+      "venueId": "city-of-raleigh-museum-raleigh"
     },
     {
       "name": "Duke Teaching Observatory Open House",
@@ -501,7 +519,8 @@
         "Museum"
       ],
       "description": "Open House at the Duke Teaching Observatory offers the public a chance to observe the night sky using 10\" telescopes guided by Duke physicists. No reservations required; everyone is welcome.",
-      "id": 19
+      "id": 19,
+      "venueId": "duke-teaching-observatory-durham"
     },
     {
       "name": "Autopilots, Poinsettia and Margot Perkinson",
@@ -526,7 +545,8 @@
         "Ticketed"
       ],
       "description": "Three beloved Raleigh bands and musicians\u2014Autopilots, Poinsettia, and Margot Perkinson\u2014deliver a chill hang with good vibes and great tunes. All ages welcome.",
-      "id": 20
+      "id": 20,
+      "venueId": "wolfe-porter-raleigh"
     },
     {
       "name": "Raue w/ Olive Vox",
@@ -550,7 +570,8 @@
         "Music"
       ],
       "description": "Raue is an emerging indie rock band blending atmospheric guitars, driving rhythms, and introspective lyricism with alternative and post-punk influences. The show features support from Olive Vox at Stanczyks on Friday, May 8.",
-      "id": 21
+      "id": 21,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Megayacht, Newspaper Taxis, and Thick Modine",
@@ -574,7 +595,8 @@
         "Music"
       ],
       "description": "Megayacht, a Chapel Hill indie rock band, headlines with power pop/garage rock act Newspaper Taxis and funk rock band Thick Modine at Slim's Dive Bar on Friday, May 8.",
-      "id": 22
+      "id": 22,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "SoDown - On The Air Vol. II Tour",
@@ -600,7 +622,8 @@
         "Ticketed"
       ],
       "description": "SoDown performs his On The Air Vol. II Tour at The Pour House Music Hall in Raleigh on Friday, May 8, 2026. This 18+ electronic music event features doors at 8 PM and showtime at 9 PM.",
-      "id": 23
+      "id": 23,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "The Whiskey Wreckage Tour",
@@ -625,7 +648,8 @@
         "Ticketed"
       ],
       "description": "The Whiskey Wreckage Tour brings Devil's Cut, Alborn, and supporting acts to Cannonball Music Hall for an evening of live rock music. Presented by VKV Booking & Entertainment and Sunflower & Madhatter Productions LLC.",
-      "id": 24
+      "id": 24,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Yarn w/ Funkamongus",
@@ -650,7 +674,8 @@
         "Ticketed"
       ],
       "description": "Yarn, an Americana and alt-country rock band founded in 2007, performs with Funkamongus, a metal band blending hard rock and funk influences. A diverse musical evening at Lincoln Theatre in downtown Raleigh.",
-      "id": 25
+      "id": 25,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Steel Magnolias (Movie Showing)",
@@ -675,7 +700,8 @@
         "Ticketed"
       ],
       "description": "Steel Magnolias is a timeless film set in a small Louisiana town, centered around a beauty salon where a group of women share laughter, tears, and unbreakable bonds through life's joys and heartbreaks. Featuring Sally Field, Dolly Parton, Shirley MacLaine, and Julia Roberts.",
-      "id": 26
+      "id": 26,
+      "venueId": "the-rialto-theatre-raleigh"
     },
     {
       "name": "Fridays on the Front Porch | Live Local Music Series",
@@ -702,7 +728,8 @@
         "Food"
       ],
       "description": "Weekly outdoor concert series on the front porch of the Carolina Inn featuring live local bands from 5 to 8 p.m., with food trucks available on site. Enjoy a relaxed evening of music and community in the heart of Chapel Hill.",
-      "id": 27
+      "id": 27,
+      "venueId": "carolina-inn-chapel-hill"
     },
     {
       "name": "The Ballad of Johnny Whitmore",
@@ -728,7 +755,8 @@
         "Ticketed"
       ],
       "description": "A world premiere play written and directed by Mark Cornell about a recently retired executive who embarks on a mysterious, life-changing adventure after receiving an email about a man with his exact name. Set deep in the Appalachian mountains, the play explores fate, circumstance, and the meaning of a life well-lived.",
-      "id": 28
+      "id": 28,
+      "venueId": "the-artscenter-carrboro"
     },
     {
       "name": "Gatsby\u2019s Gold - Drink special for The Great Gatsby at DPAC",
@@ -754,7 +782,8 @@
         "Jazz"
       ],
       "description": "Honeygirl Meadery offers a special 'Gatsby\u2019s Gold' signature drink inspired by the Broadway production of The Great Gatsby at DPAC. Perfect for a pre-show toast during the run from May 8\u201310, 2026.",
-      "id": 29
+      "id": 29,
+      "venueId": "honeygirl-meadery-durham"
     },
     {
       "name": "Speed Dating (45+)",
@@ -780,7 +809,8 @@
         "Adult"
       ],
       "description": "Singles ages 45+ meet in a relaxed speed dating format at The Glass Jug Beer Lab, enjoying wine, beer, and cocktails while making connections. Limited tickets available with no refunds or exchanges.",
-      "id": 30
+      "id": 30,
+      "venueId": "glass-jug-downtown-durham"
     },
     {
       "name": "The Racket - Indie Comedy ft. Diabolical Fishbank & Newt Work Comedy",
@@ -806,7 +836,8 @@
         "Ticketed"
       ],
       "description": "Independently produced improv and sketch comedy from Triangle performers featuring Diabolical Fishbank, a monoscene improv duo, and Newt Work Comedy, a narrative improv team from Raleigh. They'll create new worlds, big characters, and huge laughs from audience suggestions.",
-      "id": 31
+      "id": 31,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Summer Friday at Junction West",
@@ -833,7 +864,8 @@
         "Beer"
       ],
       "description": "Summer Friday at Junction West is a recurring monthly event on the 2nd Friday from May to August, featuring drinks, music, and vibes at this Downtown Raleigh venue from 3:30 to 7:30 PM.",
-      "id": 32
+      "id": 32,
+      "venueId": "junction-west-raleigh"
     },
     {
       "name": "Peter Pan",
@@ -860,7 +892,8 @@
         "Ticketed"
       ],
       "description": "Cary Ballet Company presents Peter Pan, a delightful ballet fantasy featuring original choreography by Katia Garza and an original score by David Ott. Audiences of all ages follow Peter, Wendy, and the Lost Boys through Neverland with fairies, pirates, and mermaids amid stunning sets, costumes, and effects.",
-      "id": 33
+      "id": 33,
+      "venueId": "a-j-fletcher-opera-theater-at-martin-marietta-center-for-the-performing-arts-cary"
     },
     {
       "name": "Kids Food Fest",
@@ -888,7 +921,8 @@
         "Free"
       ],
       "description": "The Creative Kitchen Kids Food Fest features cooking demonstrations by local chefs and MasterChef Junior contestants, live performances, dance activities, and interactive food-themed entertainment. This free weekend event celebrates fresh, flavorful food and fun for families.",
-      "id": 34
+      "id": 34,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "Ma & Pa Festival",
@@ -917,7 +951,8 @@
         "Holiday"
       ],
       "description": "The Ma & Pa Festival celebrates Mother's and Father's Day with 140+ local vendors, food truck rodeo, craft beer and wine, live DJ, lawn games, DIY activities, and a lounge area. Held outdoors on Fayetteville Street in Downtown Raleigh, a portion of alcohol sales benefits Raleigh City Farm.",
-      "id": 35
+      "id": 35,
+      "venueId": "city-plaza-raleigh"
     },
     {
       "name": "World Oddities Expo",
@@ -945,7 +980,8 @@
         "Market"
       ],
       "description": "The World Oddities Expo is a traveling oddities festival featuring artists, vendors, performers, and educators showcasing taxidermy, insects, macabre art, jewelry, and curiosities. Attendees can enjoy live entertainment, taxidermy classes, insect pinning workshops, and unique exhibits.",
-      "id": 36
+      "id": 36,
+      "venueId": "agri-supply-exposition-center-at-north-carolina-state-fairgrounds-raleigh"
     },
     {
       "name": "Bull City Bike Stampede and Afterparty",
@@ -972,7 +1008,8 @@
         "Free"
       ],
       "description": "An all-ages group bike ride through central Durham and Duke's Campus, followed by a block party featuring food trucks, live DJ, costume contest, and craft brews. Approximately 8 miles, rain or shine.",
-      "id": 37
+      "id": 37,
+      "venueId": "crank-arm-brewing-durham"
     },
     {
       "name": "Mother's Day Market - Videri 2026",
@@ -999,7 +1036,8 @@
         "Free"
       ],
       "description": "Join local makers, artists, and small businesses like Harry\u2019s Raleigh, Hygge Jewelry, and Bottom of the Fox Flower Farm at this Mother's Day market. Slow down, shop local, and enjoy a morning surrounded by community creations from 10am to 2pm.",
-      "id": 38
+      "id": 38,
+      "venueId": "videri-chocolate-factory-raleigh"
     },
     {
       "name": "Mother's Day Tea at NCMA",
@@ -1026,7 +1064,8 @@
         "Ticketed"
       ],
       "description": "Join us for Mother's Day weekend tea at the NCMA Caf\u00e9 featuring a prix-fixe menu of savory canap\u00e9s, finger sandwiches, and curated p\u00e2tisserie, with premium teas or coffee included. Dietary options like gluten-free, vegan, and vegetarian are available; reservations required in advance.",
-      "id": 39
+      "id": 39,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Raleigh's Spring Festival",
@@ -1054,7 +1093,8 @@
         "Market"
       ],
       "description": "Raleigh's Spring Festival celebrates spring and Mother's Day with food trucks, desserts, beer and wine, live music and cultural performances, local vendors, face painting, games, and prizes. The family and pet-friendly event features a diverse entertainment schedule throughout the day at Moore Square in downtown Raleigh.",
-      "id": 40
+      "id": 40,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Tiki Fest 2026",
@@ -1081,7 +1121,8 @@
         "21+"
       ],
       "description": "Tiki Fest 2026 at Wolfe & Porter features live music, food trucks, giveaways, and special tiki cocktails like Fog Cutter and Jungle Bird at this craft cocktail bar in Downtown Raleigh.",
-      "id": 41
+      "id": 41,
+      "venueId": "wolfe-porter-raleigh"
     },
     {
       "name": "Caifanes",
@@ -1108,7 +1149,8 @@
         "Ticketed"
       ],
       "description": "Caifanes, the iconic Latin rock band, performs at The Ritz in Raleigh. This all-ages general admission show features doors at 7 PM with music starting at 8 PM.",
-      "id": 42
+      "id": 42,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "John R. Miller",
@@ -1133,7 +1175,8 @@
         "Ticketed"
       ],
       "description": "John R. Miller brings his acclaimed Americana and roots music to Motorco Music Hall, featuring opening act Kristina Murray. The show runs from 8:00 PM to 10:30 PM on Saturday, May 9.",
-      "id": 43
+      "id": 43,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Home Is Distant Shores Film Festival",
@@ -1160,7 +1203,8 @@
         "Ticketed"
       ],
       "description": "In its eighth year, the Home Is Distant Shores Film Festival celebrates the journeys and stories of immigrants and refugees from around the world through three film blocks, each followed by Q&A sessions with filmmakers and community members. The festival amplifies underrepresented voices and highlights a local network of creatives supporting immigrant and refugee artists, chefs, and storytellers.",
-      "id": 44
+      "id": 44,
+      "venueId": "the-cary-theater-cary"
     },
     {
       "name": "D\u00f8mina",
@@ -1187,7 +1231,8 @@
         "21+"
       ],
       "description": "Morning Choir presents D\u00d8MINA, a Miami-based artist blending industrial hard techno and hard psy bass inspired by Berlin, Paris, and Netherlands rave scenes. The event features driving basslines and pulsating rhythms in Durham's intimate venue from 9 PM to 2 AM.",
-      "id": 45
+      "id": 45,
+      "venueId": "the-fruit-durham"
     },
     {
       "name": "Disciple of The Garden \u2013 Tribute to Chris Cornell, Soundgarden, Audioslave",
@@ -1213,7 +1258,8 @@
         "Ticketed"
       ],
       "description": "Disciple of The Garden channels the raw power and emotional depth of Chris Cornell's iconic music, covering hits from Soundgarden, Audioslave, Temple of the Dog, and his solo career. This tribute band faithfully recreates the energy of Cornell's legendary performances.",
-      "id": 46
+      "id": 46,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Organ Monk \u2013 Durham Debut at Magnetic Sound Studios",
@@ -1238,7 +1284,8 @@
         "Jazz"
       ],
       "description": "Jazz organist Gregory Lewis (Organ Monk) joins vocalist Ms. Raina, with Jerry Weldon on saxophone and Nasheet Waits on drums, for a program of eighteen Thelonious Monk compositions in solo, duo, trio, and quartet settings at this intimate Durham venue.",
-      "id": 47
+      "id": 47,
+      "venueId": "magnetic-sound-studios-durham"
     },
     {
       "name": "Mallarm\u00e9 Family Concert: The Woman Who Fell From the Sky and Other Stories",
@@ -1264,7 +1311,8 @@
         "Free"
       ],
       "description": "Mallarm\u00e9 Music presents the New River Ensemble performing \"The Woman Who Fell From the Sky\" and other stories in a family-friendly concert format. This musical storytelling event combines classical music with narrative for audiences of all ages.",
-      "id": 48
+      "id": 48,
+      "venueId": "durham-county-main-library-durham"
     },
     {
       "name": "Live Dead & Brothers: An All-Star Celebration of Grateful Dead & Allman Brothers",
@@ -1289,7 +1337,8 @@
         "Ticketed"
       ],
       "description": "Live Dead & Brothers performs an all-star celebration of the Grateful Dead and Allman Brothers Band at The Pour House Music Hall & Record Shop in Raleigh. Doors open at 7:00 PM with the show starting at 8:00 PM.",
-      "id": 49
+      "id": 49,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Necromancy: Goth Prom w/ Dead Cool",
@@ -1316,7 +1365,8 @@
         "Ticketed"
       ],
       "description": "Necromancy: Goth Prom celebrates gothic culture with DJ performances from Dr. Martin, DJ VamPoison, and Dead Cool at Chapel of Bones, a metal venue and coffee lounge in Raleigh. This darkly themed dance event runs from 8 PM to 1 AM on Saturday, May 9.",
-      "id": 50
+      "id": 50,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Bright Modern",
@@ -1341,7 +1391,8 @@
         "Adult"
       ],
       "description": "Bright Modern (indie punk) performs with 2nd Today (alt rock) at Slim's Dive Bar, a 26-year-old downtown Raleigh institution featuring a full bar, outdoor patio, and intimate 100-person capacity stage.",
-      "id": 51
+      "id": 51,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Carrie Marshall Presents: A Southern Shade of Blue",
@@ -1367,7 +1418,8 @@
         "Ticketed"
       ],
       "description": "The Carrie Marshall Quintet performs a Southern-inspired jazz set featuring songs from the 1960s and 1970s at the Garner Performing Arts Center. This ticketed event is part of the Friday Night Jazz Series, scheduled for Saturday evening.",
-      "id": 52
+      "id": 52,
+      "venueId": "garner-performing-arts-center-garner"
     },
     {
       "name": "pnltybx x Hemlock Theory x Ruler",
@@ -1392,7 +1444,8 @@
         "21+"
       ],
       "description": "PNLTYBX, Hemlock Theory, and Ruler perform a high-energy concert featuring heavy riffs and gritty chaos at Cannonball Music Hall. Doors open at 7:30 PM with music starting at 8:00 PM on Saturday, May 9, 2026.",
-      "id": 53
+      "id": 53,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Guitar Virtuoso Edith Pageaud in Concert \u2014 Chords of Light & Shadow",
@@ -1417,7 +1470,8 @@
         "Ticketed"
       ],
       "description": "Award-winning French guitarist Edith Pageaud performs an expressive recital spanning from Baroque to contemporary classical, featuring works by Biber, Schubert, Glass, and Messiaen. A virtuosic evening of musical storytelling and emotional depth.",
-      "id": 54
+      "id": 54,
+      "venueId": "trinity-united-methodist-church-durham"
     },
     {
       "name": "Concerts on the Creek: Too Phat Brass Band",
@@ -1445,7 +1499,8 @@
         "Free"
       ],
       "description": "Too Phat Brass Band celebrates the culture and traditions of New Orleans' Second Line Brass music at Hub RTP's monthly mid-day performance. Bring a lawn chair or picnic blanket and enjoy live music alongside Burdens Creek with free parking available.",
-      "id": 55
+      "id": 55,
+      "venueId": "hub-rtp-durham"
     },
     {
       "name": "Hotline TNT at Stanczyks",
@@ -1469,7 +1524,8 @@
         "Music"
       ],
       "description": "Hotline TNT, a grungy pop music group channeling 90s vibes, performs live at Stanczyks Music Bar. This all-ages concert starts at 8:00 PM on Saturday, May 9.",
-      "id": 56
+      "id": 56,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Bull City Press Presents",
@@ -1495,7 +1551,8 @@
         "Free"
       ],
       "description": "Bull City Press\u2019s downtown reading series features Marnie Andrews and Chelsea Krieg with Golden Age Comedy at Mettlesome Theater. Free admission if arriving before the 7 PM comedy show begins; $8 thereafter.",
-      "id": 57
+      "id": 57,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Dr. M.T. Pope House Presents: Black Joy in the Springtime",
@@ -1521,7 +1578,8 @@
         "Free"
       ],
       "description": "This free concert highlights the rich musical heritage of African American households through gospel, jazz, blues, and classical music. Enjoy a performance by Shenette Swann at the historic Pope House Museum, home of one of Raleigh's first licensed African American doctors.",
-      "id": 58
+      "id": 58,
+      "venueId": "pope-house-museum-raleigh"
     },
     {
       "name": "Maifest",
@@ -1549,7 +1607,8 @@
         "Market"
       ],
       "description": "Trophy Brewing's annual Maifest features the Little German Band from 1-5 p.m., a pop-up vendor market, German food, and more on May 9 from noon-6 p.m.",
-      "id": 59
+      "id": 59,
+      "venueId": "trophy-brewing-co-taproom-raleigh"
     },
     {
       "name": "March of Dimes",
@@ -1576,7 +1635,8 @@
         "Free"
       ],
       "description": "The Triangle March for Babies is a family-friendly walk and community event hosted by March of Dimes at Fenton in Cary to raise funds and awareness for maternal and infant health.",
-      "id": 60
+      "id": 60,
+      "venueId": "fenton-square-cary"
     },
     {
       "name": "Oak & Iron Impact Series",
@@ -1601,7 +1661,8 @@
         "Fitness"
       ],
       "description": "Oak & Iron Fitness hosts this Impact Series event featuring expert-led small group strength and conditioning classes limited to 16 participants. Part of their 11-week cycles with pre- and post-tests on various movements.",
-      "id": 61
+      "id": 61,
+      "venueId": "waverly-place-cary"
     },
     {
       "name": "Somatic House Presents Airwaves at Bitter Social",
@@ -1627,7 +1688,8 @@
         "Dance"
       ],
       "description": "Somatic House Collective presents Airwaves, a house music event series inspired by global club sounds, featuring guest DJ seafoam.ltd supported by residents Liam James and Ed McFadden at Bitter Social in downtown Raleigh.",
-      "id": 62
+      "id": 62,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Graduation Weekend: Dinner & Brunch",
@@ -1655,7 +1717,8 @@
         "Holiday"
       ],
       "description": "The Durham Hotel offers a four-course prix fixe graduation dinner in the Coffee Bar on Saturday, May 9, 2026, from 4\u20139 PM, priced at $85 per person.",
-      "id": 63
+      "id": 63,
+      "venueId": "the-durham-hotel-durham"
     },
     {
       "name": "Compost Awareness Day",
@@ -1682,7 +1745,8 @@
         "Free"
       ],
       "description": "Drop in to daytime educational programs at the Museum of Life and Science to explore composting through imagination play for young learners and hands-on activities with creepy crawlies. Part of International Compost Awareness Week, the event runs 10 AM to 3 PM on May 9 and is included with museum admission.",
-      "id": 64
+      "id": 64,
+      "venueId": "museum-of-life-and-science-durham"
     },
     {
       "name": "Let's Talk About It: Meet Me In The Middle",
@@ -1707,7 +1771,8 @@
         "Free"
       ],
       "description": "A quarterly event by BeYOUU Inc. where children ages 8-17 and their parents learn to have effective conversations in a safe environment. This quarter's theme focuses on finding common ground while navigating everyday challenges, with licensed professionals guiding hands-on activities covering topics like puberty, friendships, boundaries, and life transitions.",
-      "id": 65
+      "id": 65,
+      "venueId": "braggtown-baptist-church-durham"
     },
     {
       "name": "Cartographies of the Soul: Intentional Writing, Purpose & Community | Art + Wellness Workshop",
@@ -1735,7 +1800,8 @@
         "Free"
       ],
       "description": "This art and wellness workshop invites participants to engage in guided journaling, collaging, and vision boarding to explore purpose and community through intentional writing and creative expression.",
-      "id": 66
+      "id": 66,
+      "venueId": "drakeford-library-complex-carrboro"
     },
     {
       "name": "Garden Party | Plant Swap & Crafts For All Ages",
@@ -1762,7 +1828,8 @@
         "Outdoor"
       ],
       "description": "It's Garden Party at the Main Library in Hillsborough with a plant swap and crafts for all ages from 11am to 1pm. Everyone is invited to participate in this free community event.",
-      "id": 67
+      "id": 67,
+      "venueId": "main-library-hillsborough"
     },
     {
       "name": "Shop & Watch Rumors Boutique Pop-Up",
@@ -1788,7 +1855,8 @@
         "Family"
       ],
       "description": "Rumors Chapel Hill vintage thrift boutique hosts a pop-up event at Chelsea Theater, offering pre-loved clothing, accessories, and treasures from various eras. Perfect for vintage enthusiasts seeking unique finds during the weekend.",
-      "id": 68
+      "id": 68,
+      "venueId": "chelsea-theater-chapel-hill"
     },
     {
       "name": "U-pick Flower Season Opening Day",
@@ -1815,7 +1883,8 @@
         "Ticketed"
       ],
       "description": "Join the opening day of Firefly Farm's U-pick flower season on May 9, 2026, to harvest fresh flowers like daisies and wildflowers, meet farm animals including donkeys and goats, and enjoy picnics and trails. Timed tickets are required and available online or on-site, with sessions limited by flower supply.",
-      "id": 69
+      "id": 69,
+      "venueId": "firefly-farm-hillsborough"
     },
     {
       "name": "Speakeasy's Queer Cabaret and Dance Party",
@@ -1842,7 +1911,8 @@
         "21+"
       ],
       "description": "Queer cabaret event featuring Cameron Price is Right Trivia at 7 PM, performances hosted by AmanDuh Barron at 9 PM with Wynter Valentine, D'Luca Valentine, Marco Andro Carter, Felina LeStrange, Bea Quiet, and Jay Pride, followed by a dance party until 2 AM.",
-      "id": 70
+      "id": 70,
+      "venueId": "speakeasy-carrboro"
     },
     {
       "name": "Leipzig Quartet",
@@ -1867,7 +1937,8 @@
         "Museum"
       ],
       "description": "The Leipzig Quartet presents a Sunday afternoon chamber music concert as part of the Sights and Sounds series, produced by Chamber Music Raleigh. Enjoy classical string quartet repertoire in the SECU Auditorium at the NC Museum of Art.",
-      "id": 71
+      "id": 71,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Six Sundays in Spring 2026",
@@ -1894,7 +1965,8 @@
         "Free"
       ],
       "description": "The 2026 Six Sundays in Spring concert series features live music performances every Sunday from April 26 through May 31 at E. Carroll Joyner Park. Bring a picnic blanket and enjoy diverse musical genres with food truck vendors on-site.",
-      "id": 72
+      "id": 72,
+      "venueId": "e-carroll-joyner-park-wake-forest"
     },
     {
       "name": "Durham Geek and Grub Market (Book Nerd Edition)",
@@ -1921,7 +1993,8 @@
         "Food"
       ],
       "description": "This Mother's Day event at Durham Armory features over 40 vendors with bookish and geeky goods, food trucks, special guests, non-alcoholic mocktails, and fun activities like a scavenger hunt. No ticket required for entry, with free street parking available on weekends.",
-      "id": 73
+      "id": 73,
+      "venueId": "durham-armory-durham"
     },
     {
       "name": "Kel Perez",
@@ -1946,7 +2019,8 @@
         "Ticketed"
       ],
       "description": "Kel Perez is a viral sensation and stand-up comedian who has captivated millions with his hilarious social media skits. Catch his performance at Goodnights Comedy Club on Sunday, May 10 at 4 PM.",
-      "id": 74
+      "id": 74,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Did You Eat Yet?",
@@ -1971,7 +2045,8 @@
         "Adult"
       ],
       "description": "Special Mother's Day stand-up showcase hosted by E.J. Masicampo featuring the best Asian-American and Pacific Islander comics from the region. 18+ venue with shows averaging 1 hour 40 minutes.",
-      "id": 75
+      "id": 75,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "GRIT Gravel Criterium",
@@ -1997,7 +2072,8 @@
         "Ticketed"
       ],
       "description": "GRIT Gravel Criterium is a gravel bike race featuring 30-45 minute criteriums on the WakeMed Cross Country course, a challenging 1.6-mile loop just outside downtown Cary. The event runs Sunday from 10 AM to 3:30 PM at WakeMed Soccer Park.",
-      "id": 76
+      "id": 76,
+      "venueId": "wakemed-soccer-park-cary"
     },
     {
       "name": "Nordstrom Mother's Day Brunch",
@@ -2024,7 +2100,8 @@
         "Ticketed"
       ],
       "description": "Enjoy a Mother's Day brunch at Nordstrom featuring chef-selected pastries, yogurt parfait, shared main courses, and special perks like a gift for Mom and Shutterfly photos for cardmembers. Held at The Streets at Southpoint in Durham on Sunday, May 10.",
-      "id": 77
+      "id": 77,
+      "venueId": "nordstrom-the-streets-at-southpoint-durham"
     },
     {
       "name": "Glasshouse Kitchen Mother's Day Brunch",
@@ -2050,7 +2127,8 @@
         "Holiday"
       ],
       "description": "Celebrate Mom with a chef-curated brunch buffet featuring breakfast breads, omelet station, carving station, and Bonnie\u2019s Dessert Buffet. Signature drinks like mimosas and ros\u00e9 sangria available for purchase; reservations recommended.",
-      "id": 78
+      "id": 78,
+      "venueId": "glasshouse-kitchen-durham"
     },
     {
       "name": "Mother's Day at Sullivan's Steakhouse",
@@ -2076,7 +2154,8 @@
         "Adult"
       ],
       "description": "Sullivan's Steakhouse celebrates Mother's Day on Sunday, May 10 with their full menu of hand-cut steaks and fresh seafood. Dine-in, takeout, and delivery options available.",
-      "id": 79
+      "id": 79,
+      "venueId": "sullivan-s-steakhouse-raleigh"
     },
     {
       "name": "Mother\u2019s Day Brunch",
@@ -2105,7 +2184,8 @@
         "Brunch"
       ],
       "description": "Enjoy an exclusive chef-curated brunch menu at the NCMA Caf\u00e9 in the West Building of the North Carolina Museum of Art on Mother\u2019s Day.",
-      "id": 80
+      "id": 80,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Mother\u2019s Day Feast in the Grand Ballroom",
@@ -2131,7 +2211,8 @@
         "Holiday"
       ],
       "description": "Enjoy a buffet-style Mother's Day brunch with live chef stations offering herb-crusted prime rib, wood-fired salmon, handmade pasta, omelets, salads, and Geluna gelato in an elegant spring setting at The Westin\u2019s Grand Ballroom. A cash bar serves mimosas, cocktails, beer, and wine; reservations recommended.",
-      "id": 81
+      "id": 81,
+      "venueId": "jones-auditorium-raleigh"
     },
     {
       "name": "Mother's Day Rooftop Brunch 2026",
@@ -2158,7 +2239,8 @@
         "Ticketed"
       ],
       "description": "Celebrate Mother's Day on the rooftop with a buffet featuring Build-Your-Own Breakfast Sandwiches, Chicken and Waffles, Shrimp and Grits, and mini desserts. The full Willard bar is available to pair drinks with your meal.",
-      "id": 82
+      "id": 82,
+      "venueId": "the-willard-rooftop-lounge-raleigh"
     },
     {
       "name": "Mother\u2019s Day Brunch at CR\u00da Wine Bar & Bistro 2026",
@@ -2184,7 +2266,8 @@
         "Holiday"
       ],
       "description": "Enjoy a special three-course prix fixe menu for $56 per person, featuring a starter, entr\u00e9e, and dessert with seasonal flavors, plus spring-inspired ros\u00e9 and champagne cocktails. Reservations are encouraged for this Mother's Day celebration on May 10, 2026.",
-      "id": 83
+      "id": 83,
+      "venueId": "cru-wine-bar-bistro-cary"
     },
     {
       "name": "Mother\u2019s Day at Fenton 2026",
@@ -2212,7 +2295,8 @@
         "Holiday"
       ],
       "description": "Mother\u2019s Day at Fenton 2026 is a free, family\u2011friendly afternoon event in Fenton Square featuring live acoustic music, sweet treats, fresh flowers, and personalized gifts to celebrate moms in Cary.",
-      "id": 84
+      "id": 84,
+      "venueId": "fenton-square-cary"
     },
     {
       "name": "Avatar: Don't go in the Forest 2026",
@@ -2237,7 +2321,8 @@
         "Ticketed"
       ],
       "description": "Avatar, the Swedish heavy metal band formed in 2001, performs on their Don't Go in the Forest 2026 tour at The Ritz, featuring openers Frozen Soul and Fleshgod Apocalypse. The show is set for Sunday, May 10, 2026, at 7 PM.",
-      "id": 85
+      "id": 85,
+      "venueId": "the-ritz-raleigh"
     },
     {
       "name": "Cristina Vane",
@@ -2262,7 +2347,8 @@
         "Ticketed"
       ],
       "description": "Cristina Vane, a European-born Nashville-based artist, performs her evocative Americana and blues songs featuring bottleneck slide and clawhammer banjo. Opening act is Kit McKay at this all-ages show.",
-      "id": 86
+      "id": 86,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Ghost Bath",
@@ -2287,7 +2373,8 @@
         "21+"
       ],
       "description": "Ghost Bath delivers their signature blend of haunting atmospheres, crushing black metal intensity, and emotionally devastating soundscapes in an immersive live show at Chapel of Bones. The performance features undisclosed direct support acts and local openers Antiquity.",
-      "id": 87
+      "id": 87,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Magnolia Park \u2013 Nights After VAMP Tour",
@@ -2312,7 +2399,8 @@
         "Ticketed"
       ],
       "description": "Magnolia Park, a five-piece pop-punk and alternative rock band from Orlando, performs the Nights After VAMP Tour with support from Silly Goose and Downswing.",
-      "id": 88
+      "id": 88,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "The Cary Vintage Market",
@@ -2341,7 +2429,8 @@
         "Outdoor"
       ],
       "description": "This family- and dog-friendly monthly vintage market offers a curated selection of women's and men's vintage clothing, shoes, accessories, records, housewares, tchotchkes, permanent jewelry, craft coffee, baked goods, craft beer, drinks, and food trucks at the biergarten space.",
-      "id": 89
+      "id": 89,
+      "venueId": "biergarten-between-vicious-fishes-cary-south-line-brewing-cary"
     },
     {
       "name": "The Hip Snacks",
@@ -2367,7 +2456,8 @@
         "Ticketed"
       ],
       "description": "The Hip Snacks performs a blend of rock, R&B, and jazz at The Pour House Music Hall & Record Shop on Sunday, May 10. Doors open around 7:00 PM with the show starting at 8:00 PM.",
-      "id": 90
+      "id": 90,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Sunday Brunch Club at Botanical Lounge",
@@ -2393,7 +2483,8 @@
         "21+"
       ],
       "description": "This recurring Sunday event features an abundant all-you-can-eat brunch buffet, live DJ music, and one complimentary mimosa in the lush Botanical Lounge. Enjoy a vibrant day party atmosphere from 11 am to 3 pm.",
-      "id": 91
+      "id": 91,
+      "venueId": "botanical-lounge-raleigh"
     },
     {
       "name": "Mother's Day Mimosas & Margs",
@@ -2421,7 +2512,8 @@
         "Holiday"
       ],
       "description": "Celebrate Mother's Day at The Glass Jug Beer Lab with mimosas, frozen margaritas made with fresh tequila, and an updated premium wine list. Enjoy drinks in the beer garden while kids play in the designated play area.",
-      "id": 92
+      "id": 92,
+      "venueId": "the-glass-jug-beer-lab-durham"
     },
     {
       "name": "Wye Hill Mother's Day Brunch",
@@ -2448,7 +2540,8 @@
         "Holiday"
       ],
       "description": "Celebrate Mother's Day with a buffet featuring smoked salmon carving station, build-your-own mac and cheese and salad bars, frittatas, waffles, roasted chicken, fresh fruit, and desserts, plus mimosas, Bloody Marys, and spring cocktails. The event is family-friendly with special pricing for children.",
-      "id": 93
+      "id": 93,
+      "venueId": "wye-hill-kitchen-brewing-raleigh"
     },
     {
       "name": "Mother's Day Brunch",
@@ -2474,7 +2567,8 @@
         "Holiday"
       ],
       "description": "Peri Brothers Pizza & Pasta hosts a special Mother's Day brunch featuring Italian-inspired dishes like lemon ricotta pancakes, Italian French toast, and omelets. The event is on Sunday, May 10, 2026, in North Raleigh.",
-      "id": 94
+      "id": 94,
+      "venueId": "peri-brothers-pizza-pasta-raleigh"
     },
     {
       "name": "Mother's Day Brunch Buffet 2026",
@@ -2500,7 +2594,8 @@
         "Holiday"
       ],
       "description": "Join Chef's Palette for their annual Mother's Day brunch buffet on Sunday, May 10, featuring grilled salmon, New York strip, shrimp and grits, fried chicken, and more. Reservations are required for this special event.",
-      "id": 95
+      "id": 95,
+      "venueId": "chef-s-palette-restaurant-and-bar-cary"
     },
     {
       "name": "Mother's Day Rooftop Tea 2026",
@@ -2526,7 +2621,8 @@
         "Ticketed"
       ],
       "description": "Celebrate Mother's Day with a special rooftop tea experience featuring a curated selection of teas, delicate bites, and beautiful city views. Perfect for a relaxed and memorable afternoon with Mom.",
-      "id": 96
+      "id": 96,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "U-Pick Strawberries",
@@ -2553,7 +2649,8 @@
         "Market"
       ],
       "description": "Pick fresh strawberries directly from the field at Eno River Farm during peak strawberry season. This family-friendly activity welcomes visitors of all ages to fill buckets with large, ripe berries.",
-      "id": 97
+      "id": 97,
+      "venueId": "eno-river-farm-hillsborough"
     },
     {
       "name": "\"Bound\" (1996) | Sapphlix Queer Movie Night",
@@ -2579,7 +2676,8 @@
         "Free"
       ],
       "description": "Monthly Second Sunday Sapphlix Queer Movie Night screens the 1996 film Bound at Steel String Brewery's Carrboro Taproom. The event is free, includes free popcorn, and welcomes LGBTQ+ folks, friends, family, partners, and allies.",
-      "id": 98
+      "id": 98,
+      "venueId": "steel-string-brewery-carrboro-carrboro"
     },
     {
       "name": "Mother's Day Forest Walk",
@@ -2606,7 +2704,8 @@
         "Holiday"
       ],
       "description": "Join a special Mother's Day Forest Walk along Spring Haven Farm's new woodland trail, designed for unforgettable moments between mothers and families. Enjoy farm activities including animal interactions, tractor rides, and optional crafts.",
-      "id": 99
+      "id": 99,
+      "venueId": "spring-haven-farm-chapel-hill"
     },
     {
       "name": "Colorblind, Windwaker & If Not For Me",
@@ -2631,7 +2730,8 @@
         "Ticketed"
       ],
       "description": "A live music event featuring Colorblind, Windwaker, and If Not For Me at Local 506, an iconic Chapel Hill venue. This all-ages show promises an evening of heavy emotion and high energy.",
-      "id": 100
+      "id": 100,
+      "venueId": "local-506-chapel-hill"
     }
   ],
   "event_count": 100

@@ -30,7 +30,8 @@
         "Food"
       ],
       "description": "First Friday is a recurring monthly event in Downtown Raleigh that showcases the city\u2019s creative community with late-open galleries, artist talks, live music, shopping, and food-and-drink specials. The June 5, 2026 edition is free and includes many venue-specific activities across downtown.",
-      "id": 1
+      "id": 1,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "Dave Matthews Band",
@@ -55,7 +56,8 @@
         "Ticketed"
       ],
       "description": "Dave Matthews Band performs at Coastal Credit Union Music Park at Walnut Creek in Raleigh on Friday, June 5, 2026. The show is scheduled for 7:30 PM, with doors at 6:00 PM.",
-      "id": 2
+      "id": 2,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "Durham Bulls vs. Charlotte Knights",
@@ -82,7 +84,8 @@
         "Ticketed"
       ],
       "description": "The Durham Bulls face the Charlotte Knights in a Triple-A baseball game at Durham Bulls Athletic Park. The game is scheduled for Friday, June 5, 2026 at 6:45 PM.",
-      "id": 3
+      "id": 3,
+      "venueId": "durham-bulls-athletic-park-durham"
     },
     {
       "name": "Swan Lake Selections at Summerfest",
@@ -109,7 +112,8 @@
         "Ticketed"
       ],
       "description": "UNC Health Summerfest presents the North Carolina Symphony performing Swan Lake selections, along with works by Mussorgsky, Kabalevsky, and Wieniawski, at Koka Booth Amphitheatre. The concert is held outdoors in Cary and is part of the Summerfest series.",
-      "id": 4
+      "id": 4,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "Bands, Bites, and Boats June 2026",
@@ -137,7 +141,8 @@
         "Family"
       ],
       "description": "One Friday a month, the Bond Park Boathouse hosts local musicians, food trucks, and after-hours boat rentals. The June 5, 2026 edition features LaureNicole Duo, with food from Super Spuds and Corner Boys BBQ and brews from Fortnight Brewing Company.",
-      "id": 5
+      "id": 5,
+      "venueId": "bond-park-boathouse-cary"
     },
     {
       "name": "Movie Night: Back to the Future",
@@ -164,7 +169,8 @@
         "Family"
       ],
       "description": "Downtown Cary Park is hosting a free screening of Back to the Future at the Great Lawn Pavilion on Friday, June 5, 2026. The series includes pre-screening activities and is part of the park\u2019s summer movie nights.",
-      "id": 6
+      "id": 6,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "First Friday Market & Movie Night: Puss in Boots - The Last Wish",
@@ -193,7 +199,8 @@
         "Music"
       ],
       "description": "This First Friday event at Moore Square features a local vendors\u2019 market, food trucks, live music, and a free outdoor screening of Puss in Boots: The Last Wish. Guests are encouraged to bring a blanket or chair for the lawn seating.",
-      "id": 7
+      "id": 7,
+      "venueId": "moore-square-raleigh"
     },
     {
       "name": "Morrisville Music in the Park 2026",
@@ -221,7 +228,8 @@
         "Outdoor"
       ],
       "description": "Town of Morrisville\u2019s summer concert series features local bands, food trucks, and a family-friendly outdoor setting at Indian Creek Trailhead. The June 5, 2026 show is part of the 2026 lineup and is listed as a Pride Celebration.",
-      "id": 8
+      "id": 8,
+      "venueId": "indian-creek-greenway-trailhead-morrisville"
     },
     {
       "name": "HAMILTON",
@@ -249,7 +257,8 @@
         "Ticketed"
       ],
       "description": "HAMILTON runs at Durham Performing Arts Center from May 20 through June 14, 2026, with a Friday performance on June 5 at 7:30 PM. The show is listed as part of DPAC's official 2026 engagement in Durham.",
-      "id": 9
+      "id": 9,
+      "venueId": "dpac-durham"
     },
     {
       "name": "CLUB SLAYYY : SLAYYYTER + HYPERPOP NIGHT",
@@ -277,7 +286,8 @@
         "Ticketed"
       ],
       "description": "What The Dance presents a 21+ hyperpop party at Motorco Music Hall in Durham featuring Slayyyter-inspired music and DJ @Skylan41. The event is scheduled for Friday, June 5, with music from 8:30 PM to 1:00 AM.",
-      "id": 10
+      "id": 10,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "Ari Matti",
@@ -304,7 +314,8 @@
         "Ticketed"
       ],
       "description": "Ari Matti performs stand\u2011up comedy at Goodnights Comedy Club in Raleigh on Friday, June 5, 2026, with shows starting at 7:00 PM.",
-      "id": 11
+      "id": 11,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Room 861 at Goodnights: Autumn Bruewer",
@@ -331,7 +342,8 @@
         "Adult"
       ],
       "description": "Autumn Bruewer, a comedian and actress based in Los Angeles, is scheduled to appear at Room 861 at Goodnights in Raleigh. The event is listed for Friday, June 5, 2026, at Goodnights Comedy Club.",
-      "id": 12
+      "id": 12,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "2026 NASCAR Regional Season - Forever Clean 165",
@@ -356,7 +368,8 @@
         "Ticketed"
       ],
       "description": "NASCAR Regional Season racing event at Wake County Speedway in Raleigh. The schedule lists the Forever Clean 165 on June 5, 2026, with stock car classes including Mini Stock, Late Model, Legends, Bandoleros, and more.",
-      "id": 13
+      "id": 13,
+      "venueId": "wake-county-speedway-raleigh"
     },
     {
       "name": "80's vs 90's featuring Joe Hero and Rockzilla",
@@ -381,7 +394,8 @@
         "Ticketed"
       ],
       "description": "This concert features Joe Hero and Rockzilla at Lincoln Theatre in Raleigh on Friday, June 5, 2026. VisitRaleigh lists the show for 8:00 PM with admission priced from $14.50 to $26.",
-      "id": 14
+      "id": 14,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "An Evening with A Tale of Two",
@@ -407,7 +421,8 @@
         "Ticketed"
       ],
       "description": "An Evening with A Tale of Two takes place on Friday, June 5, 2026 at The Wake Forest Listening Room in Wake Forest. The show starts at 7:30 PM with doors opening at 6:45 PM.",
-      "id": 15
+      "id": 15,
+      "venueId": "the-wake-forest-listening-room-wake-forest"
     },
     {
       "name": "PLAY BALL Weekend \u2013 NCAA DII Championship Series",
@@ -432,7 +447,8 @@
         "Ticketed"
       ],
       "description": "The NCAA Division II Baseball Championship Series concludes at the USA Baseball National Training Complex in Cary. The finals are scheduled for Friday, June 5, with a possible Game 3 on Saturday if necessary.",
-      "id": 16
+      "id": 16,
+      "venueId": "usa-baseball-national-training-complex-cary"
     },
     {
       "name": "Blab School and Ribs",
@@ -458,7 +474,8 @@
         "Adult"
       ],
       "description": "Blab School and Ribs takes place Friday, June 5, 2026 at Slim's Dive Bar in Raleigh. Visit Raleigh lists the event from 9\u201311 PM.",
-      "id": 17
+      "id": 17,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "Conjurer / Sadness / Snooze / Pains",
@@ -484,7 +501,8 @@
         "Adult"
       ],
       "description": "Conjurer leads this four-band bill with Sadness, Snooze, and Pains at Chapel of Bones in Raleigh on Friday, June 5, 2026. The event is listed as a live concert with general admission tickets available.",
-      "id": 18
+      "id": 18,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Decades Dance for Individuals with Disabilities",
@@ -510,7 +528,8 @@
         "Ticketed"
       ],
       "description": "The Town of Wake Forest is presenting this Decades Dance for individuals with disabilities on Friday, June 5, 2026, at Joyner Park Community Center in Wake Forest. The event runs from 6:30 to 8:30 PM at E. Carroll Joyner Park.",
-      "id": 19
+      "id": 19,
+      "venueId": "e-carroll-joyner-park-wake-forest"
     },
     {
       "name": "Major Taylor International Cycling Convention",
@@ -539,7 +558,8 @@
         "Ticketed"
       ],
       "description": "The 5th Annual Major Taylor International Cycling Convention is hosted in Durham, North Carolina and features scenic rides, clinics, and community programming over four days. The 2026 theme is \"Reach Back, Ride Forward.\"",
-      "id": 20
+      "id": 20,
+      "venueId": "durham-convention-center-durham"
     },
     {
       "name": "Felipe Esparza: At My Leisure World Tour",
@@ -566,7 +586,8 @@
         "Adult"
       ],
       "description": "Stand-up comedy special event by Felipe Esparza at Raleigh Improv in Cary. The Friday show listing shows performances at 7:00 PM and 9:15 PM.",
-      "id": 21
+      "id": 21,
+      "venueId": "raleigh-improv-cary"
     },
     {
       "name": "First Fridays in Fuquay-Varina 2026",
@@ -594,7 +615,8 @@
         "Festival"
       ],
       "description": "First Fridays in Fuquay-Varina is a monthly downtown event presented by the Fuquay-Varina Downtown Association. It features live music, local shopping, special deals, food, and community activities from 5 to 9 p.m.",
-      "id": 22
+      "id": 22,
+      "venueId": "downtown-fuquay-varina-fuquay-varina"
     },
     {
       "name": "Flatrock",
@@ -619,7 +641,8 @@
         "Ticketed"
       ],
       "description": "Flatrock is scheduled for Friday, June 5, 2026 at Cannonball Music Hall in Raleigh. The event runs from 7:30 PM to midnight, and admission is listed at $11.83.",
-      "id": 23
+      "id": 23,
+      "venueId": "cannonball-music-hall-raleigh"
     },
     {
       "name": "Kit McKay Album Release: w/ Candi Jenkins",
@@ -645,7 +668,8 @@
         "Adult"
       ],
       "description": "Kit McKay hosts an album release show with Candi Jenkins at The Pour House Music Hall & Record Shop in Raleigh. The event is listed as 21+ and scheduled for Friday, June 5, 2026 at 9:00 PM.",
-      "id": 24
+      "id": 24,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Lots of Hands",
@@ -671,7 +695,8 @@
         "Adult"
       ],
       "description": "Lots of Hands plays KINGS in downtown Raleigh on Friday, June 5, 2026, with Buck Swope and le Lotus. Doors open at 7:00 PM and the show starts at 8:00 PM.",
-      "id": 25
+      "id": 25,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Mike Mickxer",
@@ -696,7 +721,8 @@
         "Free"
       ],
       "description": "Mike Mickxer is scheduled for Friday, June 5, 2026 at The Backyard Bar in Apex. The performance is listed as a live music set with a unique blend of reggae, R&B, and rockabilly.",
-      "id": 26
+      "id": 26,
+      "venueId": "the-backyard-bar-apex"
     },
     {
       "name": "Subvertigo // Snowblinder // All Were Thankful For",
@@ -722,7 +748,8 @@
         "Adult"
       ],
       "description": "A live music bill featuring Subvertigo, Snowblinder, and All Were Thankful For at Neptunes Parlour in downtown Raleigh. Listings show doors at 7 PM, showtime at 8 PM, and admission for $10.",
-      "id": 27
+      "id": 27,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "TGI F-Ride Day!",
@@ -748,7 +775,8 @@
         "Ticketed"
       ],
       "description": "A Friday evening train event at New Hope Valley Railway with vintage excursion rides and live music from the Triangle Sax Ensemble. The railway describes it as a way to leave the workweek behind and roll into the weekend.",
-      "id": 28
+      "id": 28,
+      "venueId": "north-carolina-railway-museum-new-hope-valley-railway-raleigh"
     },
     {
       "name": "Triangle Gay Men's Chorus presents Every Voice Matters",
@@ -776,7 +804,8 @@
         "Ticketed"
       ],
       "description": "Triangle Gay Men's Chorus presents Every Voice Matters, a spring concert at Unitarian Universalist Fellowship of Raleigh. Listings show performances on Friday, June 5 and Saturday, June 6, 2026, with tickets available through the chorus website.",
-      "id": 29
+      "id": 29,
+      "venueId": "unitarian-universalist-fellowship-of-raleigh-raleigh"
     },
     {
       "name": "Word Garden Mini Book Market",
@@ -803,7 +832,8 @@
         "Ticketed"
       ],
       "description": "Word Garden Mini Book Market is scheduled for Friday, June 5, 2026 at South Line Taps in Apex. The event runs from 6 to 8:30 PM and is listed as free with RSVP required.",
-      "id": 30
+      "id": 30,
+      "venueId": "southline-taps-and-brewing-apex"
     },
     {
       "name": "Zebulon Devil Dogz vs. Peninsula Pilots",
@@ -828,7 +858,8 @@
         "Ticketed"
       ],
       "description": "The Zebulon Devil Dogz host the Peninsula Pilots in a Coastal Plain League game at Five County Stadium in Zebulon. The game is scheduled for Friday, June 5, 2026 at 6:30 PM.",
-      "id": 31
+      "id": 31,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "2026 AAW International Woodturning Symposium",
@@ -856,7 +887,8 @@
         "Free"
       ],
       "description": "The AAW International Woodturning Symposium runs June 4\u20137, 2026 at the Raleigh Convention Center. It includes demonstrations, a trade show, galleries, exhibitions, and auctions, with the trade show and gallery available for free.",
-      "id": 32
+      "id": 32,
+      "venueId": "raleigh-convention-center-raleigh"
     },
     {
       "name": "Laughs in Spanish",
@@ -883,7 +915,8 @@
         "Ticketed"
       ],
       "description": "Bulldog Ensemble Theater presents Alexis Scheer's comedy \"Laughs in Spanish\" at Mettlesome Theater in Durham. The production runs May 28-June 7, 2026 and features a 90-minute story about Mariana, her friends, and an unexpected visit from her movie-star mother.",
-      "id": 33
+      "id": 33,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Lobster Night with Cousins Maine Lobster Food Truck",
@@ -909,7 +942,8 @@
         "Free"
       ],
       "description": "Cousins Maine Lobster is scheduled to serve in the Beer Garden at The Glass Jug Beer Lab on Friday, June 5 from 5:00pm to 8:00pm. The event features lobster rolls and other Maine lobster dishes alongside drinks from the brewery.",
-      "id": 34
+      "id": 34,
+      "venueId": "the-glass-jug-beer-lab-durham"
     },
     {
       "name": "Live Music @ATC Tower: Soul Livin\u2019 Group",
@@ -936,7 +970,8 @@
         "Outdoor"
       ],
       "description": "Soul Livin\u2019 Group is scheduled as part of the Live @ ATC summer music series at American Tobacco Campus in Durham. The concert is listed as a free, all-ages outdoor show beginning at 6:30 p.m.",
-      "id": 35
+      "id": 35,
+      "venueId": "atc-tower-durham"
     },
     {
       "name": "Bourbon & Belly Laughs",
@@ -964,7 +999,8 @@
         "Beer"
       ],
       "description": "Bourbon & Belly Laughs is a live stand-up comedy night at Mystic Farm & Distillery in Durham. The event is scheduled for Friday, June 5, 2026, with doors opening at 6 PM and the show beginning at 7 PM.",
-      "id": 36
+      "id": 36,
+      "venueId": "mystic-farm-distillery-durham"
     },
     {
       "name": "Juan Alamo, Afroborinque\u00f1o Portraits: A Bomba-Jazz Suite",
@@ -993,7 +1029,8 @@
         "Adult"
       ],
       "description": "Juan \u00c1lamo presents Afroborinque\u00f1o Portraits: A Bomba-Jazz Suite at Sharp 9 Gallery in Durham. The event is scheduled as a recurring performance on Friday, June 5 and Saturday, June 6 at 7:30 PM.",
-      "id": 37
+      "id": 37,
+      "venueId": "sharp-nine-gallery-durham"
     },
     {
       "name": "Portrayal of Guilt",
@@ -1019,7 +1056,8 @@
         "Ticketed"
       ],
       "description": "Portrayal of Guilt is scheduled to perform at Stanczyks in Durham on Friday, June 5, 2026. Supporting acts listed on other ticketing pages include Street Sects and The Infinity Ring.",
-      "id": 38
+      "id": 38,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Broken Records: Musical Improv",
@@ -1047,7 +1085,8 @@
         "Adult"
       ],
       "description": "Broken Records: Musical Improv is a completely improvised musical comedy show with live accompaniment and audience suggestions. It takes place at Mettlesome Theater in Durham on Friday, June 5, 2026.",
-      "id": 39
+      "id": 39,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Body Electric Goth Night Dance Party",
@@ -1075,7 +1114,8 @@
         "21+"
       ],
       "description": "Body Electric is a goth night dance party at Yonder, Not Just a Bar in Hillsborough. The event is listed for Friday, June 5, 2026, with free admission and an evening dance-party schedule.",
-      "id": 40
+      "id": 40,
+      "venueId": "yonder-not-just-a-bar-hillsborough"
     },
     {
       "name": "UNC vs USC NCAA Super Regional Men's Baseball",
@@ -1102,7 +1142,8 @@
         "Adult"
       ],
       "description": "North Carolina hosts USC in the NCAA Chapel Hill Super Regional at Bryson Field at Boshamer Stadium. The series is a best-of-three with Game 1 on Friday, June 5 at 3:00 PM, Game 2 on Saturday at 2:00 PM, and a third game on Sunday if needed.",
-      "id": 41
+      "id": 41,
+      "venueId": "bryson-field-at-boshamer-stadium-chapel-hill"
     },
     {
       "name": "Wine & Ride 21+ Horse Lessons",
@@ -1127,7 +1168,8 @@
         "Ticketed"
       ],
       "description": "A 21+ horse lesson and social evening with friends, including a glass of wine or BYO wine if desired. The event is listed for 1 hour 30 minutes at Sunrise Community Farm Center.",
-      "id": 42
+      "id": 42,
+      "venueId": "sunrise-community-farm-center-chapel-hill"
     },
     {
       "name": "Elizabeth Cotten Freight Train Blues 2026 Concert Series",
@@ -1154,7 +1196,8 @@
         "Outdoor"
       ],
       "description": "Carrboro's annual Freight Train Blues concert series runs on Friday evenings from May 15 through June 12, 2026, featuring roots, blues, and related genres. The June 5 lineup includes Dedicated Men of Zion and Faith & Harmony.",
-      "id": 43
+      "id": 43,
+      "venueId": "carrboro-town-commons-carrboro"
     },
     {
       "name": "Billy & The Kids, Bluegrass",
@@ -1180,7 +1223,8 @@
         "Ticketed"
       ],
       "description": "Billy & The Kids, Bluegrass is scheduled for Friday, June 5, 2026 at Lorraine's Coffee House and Music in Garner. Listings show a 7:00 PM start with paid admission.",
-      "id": 44
+      "id": 44,
+      "venueId": "lorraine-s-coffee-house-and-music-garner"
     },
     {
       "name": "Amateur Talent Show",
@@ -1209,7 +1253,8 @@
         "Adult"
       ],
       "description": "A recurring First Friday amateur talent competition hosted by Chloe Cassidy at Legends Nightclub in downtown Raleigh. The event runs monthly on the first Friday, with the show starting at 11 PM and admission varying by age and time of entry.",
-      "id": 45
+      "id": 45,
+      "venueId": "legends-nightclub-raleigh"
     },
     {
       "name": "Game 3: Golden Knights vs. Hurricanes Watch Party",
@@ -1235,7 +1280,8 @@
         "Charity"
       ],
       "description": "A Carolina Hurricanes watch party for Game 3 of the Stanley Cup Playoffs against the Vegas Golden Knights at Lenovo Center in Raleigh. The event is listed for Saturday, June 6, 2026, with doors opening at 7:00 PM and puck drop at 8:00 PM.",
-      "id": 46
+      "id": 46,
+      "venueId": "lenovo-center-raleigh"
     },
     {
       "name": "Khalid: It\u2019s Always Summer Somewhere Tour",
@@ -1260,7 +1306,8 @@
         "Ticketed"
       ],
       "description": "Khalid\u2019s It\u2019s Always Summer Somewhere Tour stops at Red Hat Amphitheater in downtown Raleigh on Saturday, June 6, 2026. The concert is listed with special guest Lauv and tickets priced from $56.95 to $501.35.",
-      "id": 47
+      "id": 47,
+      "venueId": "red-hat-amphitheater-raleigh"
     },
     {
       "name": "Raleigh's 11th Annual International Food Festival",
@@ -1289,7 +1336,8 @@
         "Beer"
       ],
       "description": "Raleigh's 11th Annual International Food Festival takes place on Saturday, June 6, 2026 at City Plaza in downtown Raleigh. The event features international food, live entertainment, beer and wine, and activities for all ages.",
-      "id": 48
+      "id": 48,
+      "venueId": "city-plaza-raleigh"
     },
     {
       "name": "4th Annual Cars and Carnivores Street Festival",
@@ -1318,7 +1366,8 @@
         "Market"
       ],
       "description": "The Rotary Club of Wake Forest's fourth annual Cars & Carnivores Street Festival takes over downtown Wake Forest on Saturday, June 6, 2026. The event features a 100+ vehicle car show, a steak cook-off competition, food trucks, vendors, live entertainment, and raffle prizes.",
-      "id": 49
+      "id": 49,
+      "venueId": "downtown-wake-forest-wake-forest"
     },
     {
       "name": "A Space Spectacular: Star Wars & More at Summerfest",
@@ -1345,7 +1394,8 @@
         "Ticketed"
       ],
       "description": "North Carolina Symphony presents a Summerfest concert at Koka Booth Amphitheatre featuring music from *Star Wars*, *2001: A Space Odyssey*, *E.T.*, and more. The event is scheduled for Saturday, June 6, 2026, at 8:00 PM in Cary.",
-      "id": 50
+      "id": 50,
+      "venueId": "koka-booth-amphitheatre-cary"
     },
     {
       "name": "From Acro to Zumba: An ABC Movement Adventure for Kids!",
@@ -1372,7 +1422,8 @@
         "Ticketed"
       ],
       "description": "Designed for children ages 1\u20135 and their caregivers, this interactive NCMA program brings letters to life through dance, movement, and music. It is listed for Saturday, June 6, 2026, from 2:00 to 2:45 PM at the North Carolina Museum of Art in Raleigh.",
-      "id": 51
+      "id": 51,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Cars and Coffee",
@@ -1400,7 +1451,8 @@
         "Sports"
       ],
       "description": "A monthly car meet at 5425 Page Rd in Durham featuring cars, trucks, and motorcycles of all kinds. The event runs 8:00 AM to 11:00 AM on Saturday, June 6, 2026, with food vendors and a charity donation encouraged.",
-      "id": 52
+      "id": 52,
+      "venueId": "cars-and-coffee-morrisville-durham"
     },
     {
       "name": "NC Indian and South Asian Film Festival",
@@ -1427,7 +1479,8 @@
         "Arts & Crafts"
       ],
       "description": "The North Carolina Indian and South Asian Film Festival at The Cary Theater features screenings of independent films by South Asian filmmakers and other works centered on South Asian themes or artists. The event also includes opportunities to meet filmmakers and engage in discussion about cinema and culture.",
-      "id": 53
+      "id": 53,
+      "venueId": "the-cary-theater-cary"
     },
     {
       "name": "Blood on the Clock Tower",
@@ -1454,7 +1507,8 @@
         "Free"
       ],
       "description": "Blood on the Clock Tower is a live-action social deduction game hosted at DCP Academy Pavilion in Cary. Participants work together to uncover hidden roles and identify the culprit before the game reaches its conclusion.",
-      "id": 54
+      "id": 54,
+      "venueId": "downtown-cary-park-cary"
     },
     {
       "name": "NCMA Dance Gumbo: Dance Fitness with Jordan Farrell",
@@ -1481,7 +1535,8 @@
         "Family"
       ],
       "description": "Led by instructor Jordan Farrell, this free outdoor dance fitness class at the North Carolina Museum of Art combines pop, Zumba, Latin, hip-hop, and other styles in an all-levels aerobic workout. The event is scheduled for Saturday morning during the weekend of June 5, 2026.",
-      "id": 55
+      "id": 55,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Beaver Queen Pageant",
@@ -1508,7 +1563,8 @@
         "Ticketed"
       ],
       "description": "The 22nd Annual Beaver Queen Pageant takes place Saturday, June 6, 2026, from 4:00 to 7:00 PM at Duke Park Meadow in Durham. It is described as a special mix of folly, pageantry, humor, and friendly competition.",
-      "id": 56
+      "id": 56,
+      "venueId": "duke-park-durham"
     },
     {
       "name": "Southern Culture on the Skids at Motorco",
@@ -1534,7 +1590,8 @@
         "Adult"
       ],
       "description": "Southern Culture on the Skids performs at Motorco Music Hall in Durham on Saturday, June 6, 2026 at 8:00 PM. Discover Durham lists admission at $20.",
-      "id": 57
+      "id": 57,
+      "venueId": "motorco-music-hall-durham"
     },
     {
       "name": "North State Bank's Summer Salute for Transitions LifeCare",
@@ -1561,7 +1618,8 @@
         "Adult"
       ],
       "description": "The 23rd annual Summer Salute for Transitions LifeCare is scheduled for Saturday, June 6, 2026 at North Ridge Country Club in Raleigh. The event features The Embers with Craig Woolard, heavy hors d'oeuvres, a live auction, raffle prizes, and Pink Flamingo Casino games.",
-      "id": 58
+      "id": 58,
+      "venueId": "north-ridge-country-club-raleigh"
     },
     {
       "name": "Morrisville Bike Rodeo Morrisville 2026",
@@ -1589,7 +1647,8 @@
         "Charity"
       ],
       "description": "The Morrisville Bike Rodeo is scheduled for Saturday, June 6, 2026, from 10:00 AM to 12:00 PM at Fire Station No. 1 in Morrisville. The town lists it as a bike safety and community event.",
-      "id": 59
+      "id": 59,
+      "venueId": "fire-station-no-1-morrisville"
     },
     {
       "name": "Chapel Hill Pride Promenade",
@@ -1618,7 +1677,8 @@
         "Arts & Crafts"
       ],
       "description": "Chapel Hill\u2019s annual Pride Promenade takes place Saturday, June 6, 2026, with a noon rally at Peace & Justice Plaza, followed by a march down Franklin Street to 140 West Plaza. The event features live music, performances, family activities, and arts vendors as part of Chapel Hill-Carrboro Small Town Pride.",
-      "id": 60
+      "id": 60,
+      "venueId": "peace-justice-plaza-franklin-street-140-west-plaza-chapel-hill"
     },
     {
       "name": "Hillsborough Ramble \"Past Meets Present\" Preservation Tour",
@@ -1645,7 +1705,8 @@
         "Ticketed"
       ],
       "description": "A self-paced preservation tour featuring historic homes, public spaces, and private residences in Hillsborough. The event includes access to multiple locations and concludes with a reception at Ayr Mount.",
-      "id": 61
+      "id": 61,
+      "venueId": "moorefields-hillsborough"
     },
     {
       "name": "Mario Kart World Tournament",
@@ -1671,7 +1732,8 @@
         "Adult"
       ],
       "description": "EgoChall Mario Kart World Tournament is an offline, in-person Mario Kart World 1v1 tournament held at Ego Chall Esports in Chapel Hill. The event is listed for Saturday, June 6, 2026.",
-      "id": 62
+      "id": 62,
+      "venueId": "ego-chall-esports-chapel-hill"
     },
     {
       "name": "Racing at Orange County Speedway",
@@ -1697,7 +1759,8 @@
         "Ticketed"
       ],
       "description": "A Saturday night racing event at Orange County Speedway in Rougemont. The track lists grandstands opening at 5:30 PM, qualifying at 6:00 PM, and green flag at 7:00 PM.",
-      "id": 63
+      "id": 63,
+      "venueId": "orange-county-speedway-rougemont"
     },
     {
       "name": "Science for All: A Sensory-Friendly Science Night",
@@ -1723,7 +1786,8 @@
         "Ticketed"
       ],
       "description": "Science for All is a sensory-friendly night at Morehead Planetarium and Science Center with a fulldome show, hands-on exploration, and live science activities. The event is designed to accommodate visitors with sensory sensitivities and is open to all ages.",
-      "id": 64
+      "id": 64,
+      "venueId": "morehead-planetarium-science-center-chapel-hill"
     },
     {
       "name": "Watch \"Sinners\" (2025) | BLAC Fest Event (18+)",
@@ -1750,7 +1814,8 @@
         "Museum"
       ],
       "description": "As part of BLAC Fest, Orange County Public Library is hosting a screening of *Sinners* (2025) in Hillsborough. The event is listed as 18+ and takes place on Saturday, June 6 at 2 PM.",
-      "id": 65
+      "id": 65,
+      "venueId": "alexander-dickson-house-hillsborough"
     },
     {
       "name": "#ERA4EVA (Club ERA 2 year Bday Pride Bash!)",
@@ -1778,7 +1843,8 @@
         "Ticketed"
       ],
       "description": "A Pride-themed birthday bash celebrating Club ERA\u2019s second year in Durham. The venue describes Club ERA as a Gay, Queer, Trans (and beyond) nightclub and bar, and the event listing shows admission in the $5\u2013$20 range.",
-      "id": 66
+      "id": 66,
+      "venueId": "the-fruit-durham"
     },
     {
       "name": "Boxyard Birthday: Celebrating 5 years!",
@@ -1806,7 +1872,8 @@
         "Free"
       ],
       "description": "Boxyard RTP celebrates its fifth anniversary with an all-day event featuring food, live music, family-friendly activities, and nostalgic games and crafts. The event takes place on Saturday, June 6, 2026, from 11:00 AM to 8:00 PM at Boxyard RTP in Durham.",
-      "id": 67
+      "id": 67,
+      "venueId": "boxyard-rtp-durham"
     },
     {
       "name": "Love Island - Inspired Watch Party",
@@ -1832,7 +1899,8 @@
         "Free"
       ],
       "description": "A Love Island-inspired watch party at The Goat Brier Creek listed for Friday, June 5 in Durham-area event listings. The event is part of a themed watch-party series tied to the Love Island season.",
-      "id": 68
+      "id": 68,
+      "venueId": "the-goat-brier-creek-durham"
     },
     {
       "name": "Artist in Residence Showing",
@@ -1859,7 +1927,8 @@
         "Ticketed"
       ],
       "description": "An in-person showing of new works created during the 2025\u201326 Artist in Residence program at Dance Project. The event takes place at Barriskill Dance Theatre School in Durham and is listed as free admission.",
-      "id": 69
+      "id": 69,
+      "venueId": "barriskill-dance-theatre-school-durham"
     },
     {
       "name": "Home Brewed",
@@ -1887,7 +1956,8 @@
         "Beer"
       ],
       "description": "Home Brewed is scheduled at Durty Bull Brewing Company in Durham on Friday, June 5, 2026, from 5:00 to 10:00 p.m. Downtown Durham lists it as a free event featuring art, food vendors, live performance, music, shopping, and drinks.",
-      "id": 70
+      "id": 70,
+      "venueId": "durty-bull-brewing-company-durham"
     },
     {
       "name": "Gracie and Rachel",
@@ -1913,7 +1983,8 @@
         "Adult"
       ],
       "description": "Gracie and Rachel are scheduled to perform at The Pinhook in Durham on Saturday, June 6, 2026, with Bella Peadon listed as support. The event is all ages, with doors at 7:00 PM and showtime at 7:30 PM.",
-      "id": 71
+      "id": 71,
+      "venueId": "the-pinhook-durham"
     },
     {
       "name": "Anthony Gomes",
@@ -1939,7 +2010,8 @@
         "Adult"
       ],
       "description": "Anthony Gomes is scheduled to perform at Stanczyks in Durham on Saturday, June 6, 2026 at 8:00 PM. Discover Durham lists admission at $28.",
-      "id": 72
+      "id": 72,
+      "venueId": "stanczyks-durham"
     },
     {
       "name": "Hot For Pride! Drag Show",
@@ -1965,7 +2037,8 @@
         "Ticketed"
       ],
       "description": "A Pride-themed drag show listed for Boxcar Bar + Arcade in Durham during Pride weekend. The listing identifies it as a Saturday event.",
-      "id": 73
+      "id": 73,
+      "venueId": "boxcar-bar-arcade-durham"
     },
     {
       "name": "Golden Age: Improv Comedy",
@@ -1990,7 +2063,8 @@
         "Ticketed"
       ],
       "description": "Golden Age is an improv comedy show at Mettlesome Comedy Theater in Durham. The cast creates a full world of characters based on audience suggestions.",
-      "id": 74
+      "id": 74,
+      "venueId": "mettlesome-theater-durham"
     },
     {
       "name": "Yo Mama's Big Fat Booty Band w/ Duck",
@@ -2016,7 +2090,8 @@
         "21+"
       ],
       "description": "Yo Mama's Big Fat Booty Band performs with Duck at The Pour House Music Hall & Record Shop in downtown Raleigh. The event is listed for Saturday, June 6, 2026, with doors at 8:00 PM and showtime at 9:00 PM.",
-      "id": 75
+      "id": 75,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "The Jazz Room: A Journey to the Heart of New Orleans",
@@ -2043,7 +2118,8 @@
         "21+"
       ],
       "description": "This live music performance features carefully chosen jazz classics and spontaneous improvisation in a street-style bar setting designed to evoke 1920s New Orleans. The show at Lincoln Theatre is scheduled for Saturday, June 6, with a 21+ age requirement.",
-      "id": 76
+      "id": 76,
+      "venueId": "lincoln-theatre-raleigh"
     },
     {
       "name": "Still. Moving: Prism 5 and Prism 7 as interpreted by Frankie Lee III",
@@ -2070,7 +2146,8 @@
         "Museum"
       ],
       "description": "Choreographer Frankie Lee III presents a performance inspired by South African artist Wim Botha\u2019s sculptures Prism 5 and Prism 7. The event is part of the Still. Moving dance series at the North Carolina Museum of Art\u2019s Museum Park.",
-      "id": 77
+      "id": 77,
+      "venueId": "north-carolina-museum-of-art-raleigh"
     },
     {
       "name": "Run The Quay 2026",
@@ -2097,7 +2174,8 @@
         "Ticketed"
       ],
       "description": "Run The Quay 2026 is a community road race in Historic Downtown Fuquay-Varina featuring certified 5K and 10K courses plus a 15 Quay Challenge. Packet pickup is held Friday, with race day check-in and the event on Saturday morning.",
-      "id": 78
+      "id": 78,
+      "venueId": "fuquay-varina-presbyterian-church-fellowship-hall-fuquay-varina"
     },
     {
       "name": "Rumours ATL - Fleetwood Mac Tribute",
@@ -2122,7 +2200,8 @@
         "Ticketed"
       ],
       "description": "Rumours ATL performs a Fleetwood Mac tribute show in Raleigh at Bowstring Pizza and Brewyard. The event is listed for Saturday, June 6, 2026, at 6:00 PM.",
-      "id": 79
+      "id": 79,
+      "venueId": "bowstring-pizza-and-brewyard-raleigh"
     },
     {
       "name": "Cross Dress to Impress: A gender f*ck pride party",
@@ -2151,7 +2230,8 @@
         "Pride"
       ],
       "description": "The Arena presents a Pride-themed nightlife event at KINGS in downtown Raleigh. It is scheduled for Saturday, June 6, 2026 from 10 PM to 2 AM.",
-      "id": 80
+      "id": 80,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "DJ Chris Bailey",
@@ -2177,7 +2257,8 @@
         "Ticketed"
       ],
       "description": "DJ Chris Bailey is scheduled for Saturday, June 6, 2026 at Neptunes Parlour in downtown Raleigh. The listed admission is $5, with the set running from 10 PM to 2 AM.",
-      "id": 81
+      "id": 81,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Death Cab For Cutie Listening Party",
@@ -2203,7 +2284,8 @@
         "Ticketed"
       ],
       "description": "A free all-ages listening party for Death Cab for Cutie\u2019s new album, I Built You a Tower, held in-store at Record Shop in Raleigh. The event is scheduled for Saturday, June 6, 2026 at 3:00 PM.",
-      "id": 82
+      "id": 82,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Holly Springs Salamanders vs. Asheboro Zookeepers",
@@ -2231,7 +2313,8 @@
         "Outdoor"
       ],
       "description": "The Holly Springs Salamanders host the Asheboro Zookeepers at Ting Stadium in Holly Springs. The team schedule lists this matchup for Saturday, June 6, 2026 at 6:30 PM.",
-      "id": 83
+      "id": 83,
+      "venueId": "north-main-athletic-complex-holly-springs"
     },
     {
       "name": "Infinite Funk: House Edition",
@@ -2257,7 +2340,8 @@
         "Ticketed"
       ],
       "description": "Infinite Funk: House Edition is scheduled for Saturday, June 6, 2026 at Bitter Social in downtown Raleigh. The event runs from 7\u201311 PM at 104 S Wilmington St. above Centro.",
-      "id": 84
+      "id": 84,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Lizzie Lakes // Ravary // Michael Sanders",
@@ -2282,7 +2366,8 @@
         "Ticketed"
       ],
       "description": "Lizzie Lakes, Ravary, and Michael Sanders are scheduled to perform at Neptunes Parlour in downtown Raleigh on Saturday, June 6, 2026. The listed doors time is 7 PM, with the show starting at 8 PM and admission priced at $10.",
-      "id": 85
+      "id": 85,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Money Shot",
@@ -2307,7 +2392,8 @@
         "Ticketed"
       ],
       "description": "Money Shot is scheduled for Saturday, June 6, 2026, at Slim's Dive Bar in downtown Raleigh. The event runs from 9:00 to 11:00 pm.",
-      "id": 86
+      "id": 86,
+      "venueId": "slim-s-dive-bar-raleigh"
     },
     {
       "name": "National Trails Day 5k/3k 2026",
@@ -2335,7 +2421,8 @@
         "Charity"
       ],
       "description": "The Wake Forest Parks, Recreation & Cultural Resources Department hosts this timed 5K/3K walk/run as part of National Trails Day. The race takes place entirely within E. Carroll Joyner Park and raises funds for greenway maintenance and expansion.",
-      "id": 87
+      "id": 87,
+      "venueId": "e-carroll-joyner-park-wake-forest"
     },
     {
       "name": "Out Loud: a Rooftop Concert with Amy Johnson",
@@ -2363,7 +2450,8 @@
         "21+"
       ],
       "description": "Wake Forest Pride\u2019s third annual rooftop benefit concert features Amy Johnson in an intimate 21+ setting at Unwined on White. All proceeds benefit Wake Forest Pride\u2019s programs supporting safe spaces, inclusivity, and equality.",
-      "id": 88
+      "id": 88,
+      "venueId": "unwined-on-white-wake-forest"
     },
     {
       "name": "Pride Drag Bingo",
@@ -2392,7 +2480,8 @@
         "Comedy"
       ],
       "description": "Queerolina presents a Pride drag bingo event at K\u014dMANA Brewing Company in Cary on Saturday, June 6, 2026. The event is 21+ and features doors at 7:30 PM, bingo beginning at 8:00 PM, and a drag-hosted night of prizes and entertainment.",
-      "id": 89
+      "id": 89,
+      "venueId": "komana-brewing-company-cary"
     },
     {
       "name": "Glitter Hour - Pride Month Edition",
@@ -2420,7 +2509,8 @@
         "Ticketed"
       ],
       "description": "Glitter Hour - Pride Month Edition is scheduled for Saturday, June 6, 2026 at Chapel of Bones in Raleigh. Visit Raleigh lists the event at 9 PM with advance admission pricing, and the listing identifies it as a Pride Month event.",
-      "id": 90
+      "id": 90,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "The Artistic Palate: An Event for the Senses | FRANK x Snappea",
@@ -2447,7 +2537,8 @@
         "Ticketed"
       ],
       "description": "FRANK Gallery and Snappea Creative Dining present a curated sensory experience featuring art, creative dishes, poetry, and live acapella song. The event is a limited-capacity dinner at FRANK Gallery in Carrboro.",
-      "id": 91
+      "id": 91,
+      "venueId": "frank-gallery-carrboro"
     },
     {
       "name": "2026 Summer Concert Series",
@@ -2474,7 +2565,8 @@
         "Family"
       ],
       "description": "Raleigh Parks hosts a free summer concert series on select Sundays at Fred Fletcher Park and Pullen Park. Fred Fletcher Park dates run Sunday evenings from 6 to 8 p.m., with local acts and all ages welcome.",
-      "id": 92
+      "id": 92,
+      "venueId": "fred-fletcher-park-raleigh"
     },
     {
       "name": "Durham Hunger Day",
@@ -2502,7 +2594,8 @@
         "Outdoor"
       ],
       "description": "Durham Hunger Day is the 5th annual World Hunger Day event in Durham, featuring free food giveaways, music, food trucks, kids\u2019 activities, community resources, and giveaways. It takes place at Durham Central Park and is focused on raising awareness about food insecurity and supporting local organizations.",
-      "id": 93
+      "id": 93,
+      "venueId": "durham-central-park-durham"
     },
     {
       "name": "Interfaith United for Immigrants",
@@ -2528,7 +2621,8 @@
         "Festival"
       ],
       "description": "Wake Interfaith Immigration Network (WIIN) presents this community event at Edenton Street United Methodist Church in downtown Raleigh. The program features speakers and an opportunity to support and advocate for immigrant and refugee neighbors across Wake County.",
-      "id": 94
+      "id": 94,
+      "venueId": "edenton-street-united-methodist-church-raleigh"
     },
     {
       "name": "Java Jog",
@@ -2554,7 +2648,8 @@
         "Free"
       ],
       "description": "Java Jog is listed for Sunday in Raleigh at The Bike Library. The listing does not provide additional details such as start time, admission price, or a specific street address.",
-      "id": 95
+      "id": 95,
+      "venueId": "the-bike-library-raleigh"
     },
     {
       "name": "Love Never Fails",
@@ -2580,7 +2675,8 @@
         "Charity"
       ],
       "description": "An event listed for Sunday, June 5, 2026, at Bitter Social in Raleigh. The listing title indicates it is associated with Love Never Fails.",
-      "id": 96
+      "id": 96,
+      "venueId": "bitter-social-raleigh"
     },
     {
       "name": "Dungeons & Drafthouse at Video Vortex - Revenge of the Spider Queen",
@@ -2606,7 +2702,8 @@
         "Ticketed"
       ],
       "description": "A Dungeons & Dragons one-shot event presented at Video Vortex at Alamo Drafthouse Cinema in Raleigh. The listing describes it as a monthly session led by professional Dungeon Masters and notes it is suitable for first-time players and veterans alike.",
-      "id": 97
+      "id": 97,
+      "venueId": "video-vortex-at-alamo-drafthouse-cinema-raleigh"
     },
     {
       "name": "Pride Ride: LGBTQ+ Trolley Tour",
@@ -2633,7 +2730,8 @@
         "Outdoor"
       ],
       "description": "A Historic Raleigh Trolley tour celebrating Raleigh\u2019s LGBTQ+ history. The ride highlights historic locations, neighborhoods, businesses, churches, and other points of interest connected to the city\u2019s LGBTQ+ community.",
-      "id": 98
+      "id": 98,
+      "venueId": "mordecai-historic-park-raleigh"
     },
     {
       "name": "Sapphic Spring Potluck",
@@ -2661,7 +2759,8 @@
         "Festival"
       ],
       "description": "A sapphic community potluck and social held at Fred Fletcher Park in Raleigh. The event is listed for Sunday, June 7, 2026 at 3:00 PM.",
-      "id": 99
+      "id": 99,
+      "venueId": "fred-fletcher-park-raleigh"
     },
     {
       "name": "A Night to Walk & Wine for Autism 2026",
@@ -2689,7 +2788,8 @@
         "Ticketed"
       ],
       "description": "OuterSkin 2 Boutique and Bornatty are hosting an annual fashion show and vending event at Haven Farm in Knightdale to support autism awareness. The listing identifies it as a wine-walk themed fundraiser.",
-      "id": 100
+      "id": 100,
+      "venueId": "haven-farm-knightdale"
     },
     {
       "name": "Balmora / Holder / Azshara / Divine Right",
@@ -2715,7 +2815,8 @@
         "Ticketed"
       ],
       "description": "Overcome Fest presents Balmora, Holder, Azshara, Divine Right, and Fliora at KINGS in Raleigh on Sunday, June 7, 2026. The show is scheduled for 7:00 PM with doors at 6:00 PM and admission listed at $20.",
-      "id": 101
+      "id": 101,
+      "venueId": "kings-raleigh"
     },
     {
       "name": "Book Club Meeting",
@@ -2741,7 +2842,8 @@
         "Market"
       ],
       "description": "Copperline Plant Co. hosts a recurring book club with a loose plant theme and an open invitation to join. For the June 7 meeting, the shop lists a 3:30\u20135 PM discussion at its downtown Raleigh location.",
-      "id": 102
+      "id": 102,
+      "venueId": "copperline-plant-co-raleigh"
     },
     {
       "name": "Camera Swap",
@@ -2767,7 +2869,8 @@
         "Free"
       ],
       "description": "Camera Swap is a community gathering at Rebus Works for photographers to buy, sell, or trade used camera equipment. The event is listed for Sunday, June 7, 2026, in downtown Raleigh.",
-      "id": 103
+      "id": 103,
+      "venueId": "rebus-works-raleigh"
     },
     {
       "name": "Dopamine Drag Disco",
@@ -2796,7 +2899,8 @@
         "Charity"
       ],
       "description": "Dopamine Drag Disco is a drag brunch at The Maxwell in Raleigh on Sunday, June 7, 2026. The event includes brunch, a show, and welcome champagne, and proceeds support Crape Myrtle Festival, a nonprofit benefiting HIV/AIDS and LGBTQ support organizations.",
-      "id": 104
+      "id": 104,
+      "venueId": "the-maxwell-raleigh"
     },
     {
       "name": "Drag Day Party",
@@ -2822,7 +2926,8 @@
         "Ticketed"
       ],
       "description": "Drag Day Party is a Pride-month event featuring live drag performances in Raleigh. It is listed as happening at Smash on Sunday, June 7, 2026.",
-      "id": 105
+      "id": 105,
+      "venueId": "smash-raleigh"
     },
     {
       "name": "Monthly Pop Shop ARTernative Market",
@@ -2849,7 +2954,8 @@
         "Family"
       ],
       "description": "Monthly Pop Shop ARTernative Market is a monthly first-Sunday market at Chapel of Bones in Raleigh featuring local artists, makers, homemade eats, and beverages. The June 2026 listing shows free admission and a 10 AM to 3 PM schedule.",
-      "id": 106
+      "id": 106,
+      "venueId": "chapel-of-bones-raleigh"
     },
     {
       "name": "Morgan Street Sessions",
@@ -2876,7 +2982,8 @@
         "Adult"
       ],
       "description": "Morgan Street Sessions is a weekly Sunday event at Morgan Street Food Hall featuring live DJ sets, drinks, food, and community. For the weekend of June 5, 2026, the event is listed for Sunday from 11 AM to 3 PM.",
-      "id": 107
+      "id": 107,
+      "venueId": "morgan-street-food-hall-raleigh"
     },
     {
       "name": "Patrick Wolf",
@@ -2901,7 +3008,8 @@
         "Ticketed"
       ],
       "description": "UK singer-songwriter and multi-instrumentalist Patrick Wolf is scheduled to perform in Raleigh as part of his 2026 Tour of the Beast. The show is listed at The Pour House Music Hall & Record Shop on Sunday, June 7, 2026, with doors at 7:00 pm and music at 8:00 pm.",
-      "id": 108
+      "id": 108,
+      "venueId": "the-pour-house-music-hall-record-shop-raleigh"
     },
     {
       "name": "Southern Hospitality Tour: The Black Crowes and Whiskey Myers",
@@ -2927,7 +3035,8 @@
         "Outdoor"
       ],
       "description": "The Black Crowes and Whiskey Myers co-headline the Southern Hospitality Tour with special guest Southall. The Raleigh stop is listed at Coastal Credit Union Music Park at Walnut Creek.",
-      "id": 109
+      "id": 109,
+      "venueId": "coastal-credit-union-music-park-at-walnut-creek-raleigh"
     },
     {
       "name": "Will Abeles",
@@ -2953,7 +3062,8 @@
         "Adult"
       ],
       "description": "Will Abeles is scheduled for a Sunday, June 7, 2026 performance at Room 861 at Goodnights Comedy Club in Raleigh. The show is listed for 8:00 PM and ticketed through Goodnights/AXS.",
-      "id": 110
+      "id": 110,
+      "venueId": "goodnights-comedy-club-raleigh"
     },
     {
       "name": "Zebulon Devil Dogz vs. Yorktown Coconuts",
@@ -2979,7 +3089,8 @@
         "Outdoor"
       ],
       "description": "The Zebulon Devil Dogz host the Yorktown Coconuts at Five County Stadium in Zebulon. Visit Raleigh lists the game for Sunday, June 7, 2026 at 5:00 PM, with admission sold through the event website.",
-      "id": 111
+      "id": 111,
+      "venueId": "five-county-stadium-zebulon"
     },
     {
       "name": "Cary Underground Market",
@@ -3006,7 +3117,8 @@
         "Free"
       ],
       "description": "Monthly market and concert series featuring 40+ local vendors, live musicians and bands, food trucks, and other activities. It is presented by The MAKRS Society and Oak City Music Collective at Bond Brothers Beer Company.",
-      "id": 112
+      "id": 112,
+      "venueId": "bond-brothers-beer-company-cary"
     },
     {
       "name": "Day Party Brunch",
@@ -3033,7 +3145,8 @@
         "Adult"
       ],
       "description": "A Sunday brunch event at Botanical Lounge in Raleigh featuring an all-you-can-eat brunch buffet, cocktails, and live music. Botanical Lounge lists Sunday Brunch Club as a recurring Sunday brunch from 11:00 AM to 3:00 PM.",
-      "id": 113
+      "id": 113,
+      "venueId": "botanical-lounge-raleigh"
     },
     {
       "name": "Summer Family Film Series - Who Framed Roger Rabbit",
@@ -3059,7 +3172,8 @@
         "Ticketed"
       ],
       "description": "Part of The Cary Theater\u2019s Summer Family Series, this screening of Who Framed Roger Rabbit is a PG-rated 1988 film running 104 minutes. The series takes place on Sundays at noon, with tickets sold at $4 per person.",
-      "id": 114
+      "id": 114,
+      "venueId": "the-cary-theater-cary"
     },
     {
       "name": "Tea on Tenth: Rooftop Afternoon Tea at 10th & Terrace",
@@ -3085,7 +3199,8 @@
         "Ticketed"
       ],
       "description": "Tea on Tenth is a recurring Sunday rooftop afternoon tea at 10th & Terrace in downtown Raleigh. It features assorted scones, cakes, pastries, tea sandwiches, specialty teas, and optional alcoholic beverages.",
-      "id": 115
+      "id": 115,
+      "venueId": "downtown-raleigh-raleigh"
     },
     {
       "name": "The PINK Triangle PRIDE Kickoff",
@@ -3110,7 +3225,8 @@
         "Ticketed"
       ],
       "description": "The PINK Triangle PRIDE Kickoff is listed for Sunday, June 7, 2026 at Kotuku Surf Club in Durham. Eventbrite identifies it as a Pride kickoff event presented by b_color_full_productions.",
-      "id": 116
+      "id": 116,
+      "venueId": "kotuku-surf-club-durham"
     },
     {
       "name": "Roaming Readers: Pride Month",
@@ -3137,7 +3253,8 @@
         "Family"
       ],
       "description": "Roaming Readers: Pride Month is a free community walking audiobook club held at Hub RTP in Durham. The event combines light movement on the trails with a Pride Month-themed literary adventure.",
-      "id": 117
+      "id": 117,
+      "venueId": "hub-rtp-durham"
     }
   ]
 }
