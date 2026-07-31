@@ -1,0 +1,953 @@
+{
+  "week": "2026-07-31",
+  "ingested": "2026-07-31",
+  "source": "https://us15.campaign-archive.com/?u=ddef6da2cf1e7abe0e37514bc&id=e646f9dbb4",
+  "event_count": 105,
+  "events": [
+    {
+      "name": "Beer, Bourbon & BBQ Festival 2026",
+      "link": "https://www.boothamphitheatre.com/events/detail/beer-bourbon-bbq-festival-4",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Beer, Bourbon & BBQ Festival 2026 , Koka Booth Amphitheatre, Cary",
+      "id": 1
+    },
+    {
+      "name": "Durham Bulls vs. Gwinnett",
+      "link": "http://mlb.com/milb/durham",
+      "venue": "DBAP",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Durham Bulls vs. Gwinnett , DBAP, Durham",
+      "id": 2
+    },
+    {
+      "name": "Discover Dance: DISHOOM",
+      "link": "https://downtowncarypark.com/things-to-do/calendar/w_discover-dance-dishoom-2",
+      "venue": "Downtown Cary Park",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Discover Dance: DISHOOM , Downtown Cary Park, Cary",
+      "id": 3
+    },
+    {
+      "name": "The Mavericks & Friends",
+      "link": "https://carolinatheatre.org/events/live-event/themavericksandfriends/",
+      "venue": "Carolina Theatre",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "The Mavericks & Friends , Carolina Theatre, Durham",
+      "id": 4
+    },
+    {
+      "name": "Passion Pit - The Pretty Penny Tour",
+      "link": "https://www.ticketmaster.com/passion-pit-the-pretty-penny-tour-raleigh-north-carolina-07-31-2026/event/2D006464C6FF68B4?_gl=1*dzsw17*_ga*OTY4MDk0NzIzLjE3Njk2OTA0MDQ.*_ga_C1T806G4DF*czE3Nzc0ODcyNTkkbzExJGcxJHQxNzc3NDg4NTYzJGo1OSRsMCRoMA..*_ga_H1KKSGW33X*cz",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Passion Pit - The Pretty Penny Tour , The Ritz, Raleigh",
+      "id": 5
+    },
+    {
+      "name": "Comedy Show: Cyrus Steele + Joe Perrow",
+      "link": "https://thecarytheater.com/event/comedy-show-cyrus-steele-joe-perrow/the-cary/cary/",
+      "venue": "The Cary Theater",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Comedy Show: Cyrus Steele + Joe Perrow , The Cary Theater, Cary",
+      "id": 6
+    },
+    {
+      "name": "Club XCX: Charli XCX + Hyperpop Night",
+      "link": "https://www.andmoreagainpresents.com/#/events/188331",
+      "venue": "Motorco",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Club XCX: Charli XCX + Hyperpop Night , Motorco, Durham",
+      "id": 7
+    },
+    {
+      "name": "Performances at the Page: Celebration of Bluegrass 2026",
+      "link": "https://www.carync.gov/Home/Components/Calendar/Event/26147/1636?curm=7&cury=2026",
+      "venue": "Page-Walker Arts and History Center",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Performances at the Page: Celebration of Bluegrass 2026 ,\u00a0Page-Walker Arts and History Center, Cary",
+      "id": 8
+    },
+    {
+      "name": "NC Courage Tailgate",
+      "link": "https://fentonnc.com/event/nc-courage-tailgate-2/",
+      "venue": "Fenton Square",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "NC Courage Tailgate ,\u00a0Fenton Square, Cary",
+      "id": 9
+    },
+    {
+      "name": "North Carolina Courage vs. Orlando Pride",
+      "link": "https://www.nccourage.com/match/bca43a7c0fe2448fb15ddc0bc20277ff/north-carolina-courage-vs-orlando-pride",
+      "venue": "WakeMed Soccer Park",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "North Carolina Courage vs. Orlando Pride ,\u00a0WakeMed Soccer Park, Cary",
+      "id": 10
+    },
+    {
+      "name": "Derrick Stroup",
+      "link": "https://www.goodnightscomedy.com/events/130473",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Derrick Stroup ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 11
+    },
+    {
+      "name": "Mason James",
+      "link": "https://www.goodnightscomedy.com/events/133523",
+      "venue": "Room 861 at\u00a0Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Mason James ,\u00a0Room 861 at\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 12
+    },
+    {
+      "name": "Andrew Orolfo",
+      "link": "https://improv.com/raleigh/comic/andrew+orolfo/",
+      "venue": "Raleigh Improv",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Andrew Orolfo , Raleigh Improv, Raleigh",
+      "id": 13
+    },
+    {
+      "name": "Dale Jones",
+      "link": "https://improv.com/raleigh/comic/dale+jones/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Dale Jones , Raleigh Improv, Cary",
+      "id": 14
+    },
+    {
+      "name": "Shortest Straw (Metallica tribute) & Undertow. (Tool Tribute)",
+      "link": "https://lincolntheatre.com/event/shortest-straw-metallica-tribute-undertow-tool-tribute/lincoln-theatre/raleigh-north-carolina/",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Shortest Straw (Metallica tribute) & Undertow. (Tool Tribute) ,\u00a0Lincoln Theatre, Raleigh",
+      "id": 15
+    },
+    {
+      "name": "House of Heavy - NuMetal & Metalcore Night",
+      "link": "https://www.tickpick.com/organizer/event/house-of-heavy-numetal-metalcore-night-80319360?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "House of Heavy - NuMetal & Metalcore Night ,\u00a0Chapel of Bones, Raleigh",
+      "id": 16
+    },
+    {
+      "name": "Mascons with The Jason Byerly Project",
+      "link": "https://slimsdivebar.com/event-archive/mascons/",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Mascons with The Jason Byerly Project , Slim's Dive Bar, Raleigh",
+      "id": 17
+    },
+    {
+      "name": "Tease in the Seas",
+      "link": "https://thepinhook.com/home#/events/189954",
+      "venue": "The Pinhook",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Tease in the Seas , The Pinhook, Durham",
+      "id": 18
+    },
+    {
+      "name": "SHARK WEEK Hoo Ha Ha",
+      "link": "https://www.eventbrite.com/e/shark-week-hoo-ha-ha-tickets-1991993222351?aff=oddtdtcreator",
+      "venue": "DSSOLVR",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "SHARK WEEK Hoo Ha Ha , DSSOLVR, Durham",
+      "id": 19
+    },
+    {
+      "name": "The Big Sham: The Whom w/ Tributes to The Beatles, The Kinks, & Alabama Shakes",
+      "link": "https://www.pourhouseraleigh.com/shows/big-sham-the-whom-w-tributes-to-the-beatles-king-giz-alabama-shakes-31-jul",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Big Sham: The Whom w/ Tributes to The Beatles, The Kinks, & Alabama Shakes ,\u00a0The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 20
+    },
+    {
+      "name": "Last Fridays & The Art Walk",
+      "link": "https://www.hillsboroughartscouncil.org/last-fridays",
+      "venue": "Old Orange County Courthouse",
+      "city": "Hillsborough",
+      "day": "Friday",
+      "raw": "Last Fridays & The Art Walk ,\u00a0Old Orange County Courthouse, Hillsborough",
+      "id": 21
+    },
+    {
+      "name": "Shop Like A Chef",
+      "link": "https://www.kindkitchen.group/store/p/shop-like-a-chef",
+      "venue": "KKG Headquarters",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Shop Like A Chef , KKG Headquarters, Durham",
+      "id": 22
+    },
+    {
+      "name": "Beach Cabana In Havana (1940s Speakeasy)",
+      "link": "https://www.facebook.com/events/1327907326161791",
+      "venue": "Boxcar Bar + Arcade",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Beach Cabana In Havana (1940s Speakeasy) , Boxcar Bar + Arcade, Durham",
+      "id": 23
+    },
+    {
+      "name": "The Rocky Horror Picture Show",
+      "link": "https://therialto.com/event/the-rocky-horror-picture-show-early-edition/the-rialto-theatre/",
+      "venue": "The Rialto Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Rocky Horror Picture Show ,\u00a0The Rialto Theatre, Raleigh",
+      "id": 24
+    },
+    {
+      "name": "Splash Bash",
+      "link": "https://www.apexnc.org/Calendar.aspx?EID=4750&month=7&year=2026&day=31&calType=0",
+      "venue": "Pleasant Park",
+      "city": "Apex",
+      "day": "Friday",
+      "raw": "Splash Bash ,\u00a0Pleasant Park, Apex",
+      "id": 25
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Morehead City Marlins",
+      "link": "https://zebulondevildogz.com/game/devil-dogz-vs-morehead-city-marlins-july-31-2026/",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Friday",
+      "raw": "Zebulon Devil Dogz vs. Morehead City Marlins ,\u00a0Five County Stadium, Zebulon",
+      "id": 26
+    },
+    {
+      "name": "Clue (High School Edition)",
+      "link": "https://raleighlittletheatre.org/shows/clue/",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Clue (High School Edition) ,\u00a0Raleigh Little Theatre, Raleigh",
+      "id": 27
+    },
+    {
+      "name": "BEST OF Mad Lab",
+      "link": "https://www.comedyworx.com/event-details/best-of-mad-lab-2",
+      "venue": "ComedyWorx",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "BEST OF Mad Lab ,\u00a0ComedyWorx, Raleigh",
+      "id": 28
+    },
+    {
+      "name": "DAMNNSOLO Artist showcase",
+      "link": "https://theportalhq.com/tickets/ticket-viewer.html?event=146",
+      "venue": "The Portal HQ",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "DAMNNSOLO Artist showcase ,\u00a0The Portal HQ, Raleigh",
+      "id": 29
+    },
+    {
+      "name": "Daniell Carrol & Bubba James",
+      "link": "https://www.facebook.com/photo/?fbid=963656380031823&set=a.121353277595475",
+      "venue": "Uncle Jessie's Honkeytonk",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Daniell Carrol & Bubba James ,\u00a0Uncle Jessie's Honkeytonk, Raleigh",
+      "id": 30
+    },
+    {
+      "name": "Monthly Sapphic Night",
+      "link": "https://www.instagram.com/p/DPCOyMVkVAL/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "venue": "Le Dive",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Monthly Sapphic Night , Le Dive, Raleigh",
+      "id": 31
+    },
+    {
+      "name": "Beer, Bourbon & BBQ Festival 2026",
+      "link": "https://www.boothamphitheatre.com/events/detail/beer-bourbon-bbq-festival-4",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Beer, Bourbon & BBQ Festival 2026 , Koka Booth Amphitheatre, Cary",
+      "id": 32
+    },
+    {
+      "name": "Durham Bulls vs. Gwinnett",
+      "link": "http://mlb.com/milb/durham",
+      "venue": "DBAP",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Durham Bulls vs. Gwinnett , DBAP, Durham",
+      "id": 33
+    },
+    {
+      "name": "Buck and the Preacher",
+      "link": "https://thecarytheater.com/event/buck-and-the-preacher-3/the-cary/cary/",
+      "venue": "The Cary Theater",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Buck and the Preacher ,\u00a0The Cary Theater, Cary",
+      "id": 34
+    },
+    {
+      "name": "D\u00eda de la Ciencia y la Cultura",
+      "link": "https://www.naturalsciences.org/calendar/event/dia-de-la-ciencia-y-la-cultura-26/",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "D\u00eda de la Ciencia y la Cultura ,\u00a0North Carolina Museum of Natural Sciences, Raleigh",
+      "id": 35
+    },
+    {
+      "name": "Rhythm & Reels - Concerts",
+      "link": "https://www.apexnc.org/1673/Rhythm-Reels---FREE",
+      "venue": "Nature Park Amphitheatre",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "Rhythm & Reels - Concerts ,\u00a0Nature Park Amphitheatre, Apex",
+      "id": 36
+    },
+    {
+      "name": "The Market at NCMA",
+      "link": "https://www.trianglepopup.com/events/https/fbme/e/2gb5ogfjw-nnzcc-p8wj6-m5648-x8e7x-zcb53-dafs3-h3558-zyp64",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "The Market at NCMA ,\u00a0North Carolina Museum of Art, Raleigh",
+      "id": 37
+    },
+    {
+      "name": "The Myers House | Halloween Replica Film House Visit",
+      "link": "https://www.myershousenc.com/about",
+      "venue": "Myers House",
+      "city": "Hillsborough",
+      "day": "Saturday",
+      "raw": "The Myers House | Halloween Replica Film House Visit , Myers House, Hillsborough",
+      "id": 38
+    },
+    {
+      "name": "Family Studio",
+      "link": "https://ncartmuseum.org/event/family-studio/",
+      "venue": "North Carolina Museum of Art; Museum Park, Welcome Center",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Family Studio ,\u00a0North Carolina Museum of Art; Museum Park, Welcome Center, Raleigh",
+      "id": 39
+    },
+    {
+      "name": "First Saturday Series",
+      "link": "https://raleighcityfarm.org/events/first-saturday-aug-2026",
+      "venue": "Raleigh City Farm",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "First Saturday Series , Raleigh City Farm, Raleigh",
+      "id": 40
+    },
+    {
+      "name": "In Full Bloom: \"The Summer Cutting Garden\" Flower Workshop with Cheryl Gibson, Vine and Branch",
+      "link": "https://jcra.ncsu.edu/events/details.php?ID=4394",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "In Full Bloom: \"The Summer Cutting Garden\" Flower Workshop with Cheryl Gibson, Vine and Branch ,\u00a0JC Raulston Arboretum at North Carolina State University, Raleigh",
+      "id": 41
+    },
+    {
+      "name": "Summer Native Medicinal Plants: Passionflower",
+      "link": "https://ncartmuseum.org/event/summer-native-medicinal-plants-passionflower/",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Summer Native Medicinal Plants: Passionflower ,\u00a0North Carolina Museum of Art, Raleigh",
+      "id": 42
+    },
+    {
+      "name": "Kelariz Keshavarz & Friends Summer Performance",
+      "link": "https://music.unc.edu/event/keshavarz-friends/",
+      "venue": "Person Recital Hall",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "Kelariz Keshavarz & Friends Summer Performance ,\u00a0Person Recital Hall, Chapel Hill",
+      "id": 43
+    },
+    {
+      "name": "Family Movie Night at Joyner Park 2026",
+      "link": "https://www.wakeforestnc.gov/meetings-events/family-movie-nights-joyner-park",
+      "venue": "E. Carroll Joyner Park",
+      "city": "Wake Forest",
+      "day": "Saturday",
+      "raw": "Family Movie Night at Joyner Park 2026 ,\u00a0E. Carroll Joyner Park, Wake Forest",
+      "id": 44
+    },
+    {
+      "name": "Garden Discovery Hours",
+      "link": "https://jcra.ncsu.edu/events/details.php?ID=4382",
+      "venue": "JC Raulston Arboretum at North Carolina State University",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Garden Discovery Hours ,\u00a0JC Raulston Arboretum at North Carolina State University, Raleigh",
+      "id": 45
+    },
+    {
+      "name": "Newbie Night at Raleigh Bike Polo",
+      "link": "https://www.instagram.com/p/DYxM5sxESXb/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==",
+      "venue": "Tarboro Road Park",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Newbie Night at Raleigh Bike Polo ,\u00a0Tarboro Road Park,\u00a0Raleigh",
+      "id": 46
+    },
+    {
+      "name": "Derrick Stroup",
+      "link": "https://www.goodnightscomedy.com/events/130473",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Derrick Stroup ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 47
+    },
+    {
+      "name": "Mason James",
+      "link": "https://www.goodnightscomedy.com/events/133523",
+      "venue": "Room 861 at\u00a0Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Mason James ,\u00a0Room 861 at\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 48
+    },
+    {
+      "name": "Andrew Orolfo",
+      "link": "https://improv.com/raleigh/comic/andrew+orolfo/",
+      "venue": "Raleigh Improv",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Andrew Orolfo , Raleigh Improv, Raleigh",
+      "id": 49
+    },
+    {
+      "name": "Dale Jones",
+      "link": "https://improv.com/raleigh/comic/dale+jones/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "Dale Jones , Raleigh Improv, Cary",
+      "id": 50
+    },
+    {
+      "name": "Dixie Gun and Knife Show",
+      "link": "http://dixiegunandknifeshow.com/raleigh.html",
+      "venue": "Jim Graham Building at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Dixie Gun and Knife Show ,\u00a0Jim Graham Building at North Carolina State Fairgrounds, Raleigh",
+      "id": 51
+    },
+    {
+      "name": "Club 90s Present MJ night",
+      "link": "https://www.ritzraleigh.com/",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Club 90s Present MJ night , The Ritz, Raleigh",
+      "id": 52
+    },
+    {
+      "name": "EMO NIGHT KARAOKE",
+      "link": "https://motorcomusic.com/event/emo-night-karaoke-8-1-26/",
+      "venue": "Motorco",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "EMO NIGHT KARAOKE , Motorco, Durham",
+      "id": 53
+    },
+    {
+      "name": "Born In The Club",
+      "link": "https://www.bittersocialraleigh.com/",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Born In The Club , Bitter Social, Raleigh",
+      "id": 54
+    },
+    {
+      "name": "Ariana Grande Listening Party",
+      "link": "https://www.pourhouseraleigh.com/shows/record-shop-ariana-grande-listening-party-01-aug",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Ariana Grande Listening Party ,\u00a0The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 55
+    },
+    {
+      "name": "Beggars Banquet - Rolling Stones & Petty Larceny - Tom Petty",
+      "link": "https://lincolntheatre.com/event/beggars-banquet-rolling-stones-petty-larceny-tom-petty/lincoln-theatre/raleigh-north-carolina/",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Beggars Banquet - Rolling Stones & Petty Larceny - Tom Petty ,\u00a0Lincoln Theatre, Raleigh",
+      "id": 56
+    },
+    {
+      "name": "Taylor Bissette Band",
+      "link": "https://www.facebook.com/photo/?fbid=963656380031823&set=a.121353277595475",
+      "venue": "Uncle Jessie's Honkeytonk",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Taylor Bissette Band ,\u00a0Uncle Jessie's Honkeytonk, Raleigh",
+      "id": 57
+    },
+    {
+      "name": "The Witch's Carnival",
+      "link": "https://www.tickpick.com/organizer/event/the-witchs-carnival-35715964?referrer=organizer-Chapel+of+Bones&theme=dark",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "The Witch's Carnival , Chapel of Bones, Raleigh",
+      "id": 58
+    },
+    {
+      "name": "SHARK WEEK Hoo Ha Ha",
+      "link": "https://www.eventbrite.com/e/shark-week-hoo-ha-ha-tickets-1991993222351?aff=oddtdtcreator",
+      "venue": "DSSOLVR",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "SHARK WEEK Hoo Ha Ha , DSSOLVR, Durham",
+      "id": 59
+    },
+    {
+      "name": "Double Tap and Negative Feedback",
+      "link": "https://www.facebook.com/share/p/1Ceg5DrL6T/",
+      "venue": "Huron Stage",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Double Tap and Negative Feedback , Huron Stage, Durham",
+      "id": 60
+    },
+    {
+      "name": "Moodboard: Alec Lomami / Uymami / HouseDress / Pharmacil b2b UrsoMajor",
+      "link": "https://partyillegal.com/events/",
+      "venue": "BOOM Club",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Moodboard: Alec Lomami / Uymami / HouseDress / Pharmacil b2b UrsoMajor , BOOM Club, Durham",
+      "id": 61
+    },
+    {
+      "name": "Tonk and Autopilots Show",
+      "link": "https://www.wolfeandporter.com/events",
+      "venue": "Wolfe & Porter",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Tonk and Autopilots Show ,\u00a0Wolfe & Porter, Raleigh",
+      "id": 62
+    },
+    {
+      "name": "Verse Versus: Launch Party",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScnNeQDhgAi82XJs2Nspdzr-ydZFh8vBZ7omhYDuWFSqFIF7Q/viewform",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Verse Versus: Launch Party ,\u00a0The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 63
+    },
+    {
+      "name": "D\u00f6ltz with Gown, Cyprian, and a Secret Set.",
+      "link": "https://www.kingsraleigh.com/shows/doltz/",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "D\u00f6ltz with Gown, Cyprian, and a Secret Set. , KINGS, Raleigh",
+      "id": 64
+    },
+    {
+      "name": "The SwanBean Quintet: A Straight-Ahead Jazz Expression",
+      "link": "https://www.facebook.com/events/1045337321394825/?rdid=zPc4aXpI96s0xKxO&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1aqkBvrhQ3%2F#",
+      "venue": "Sharp 9 Gallery",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "The SwanBean Quintet: A Straight-Ahead Jazz Expression ,\u00a0Sharp 9 Gallery, Durham",
+      "id": 65
+    },
+    {
+      "name": "Holy Wave w/ Vulture Twin",
+      "link": "https://www.andmoreagainpresents.com/#/events/184909",
+      "venue": "The Pinhook",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Holy Wave w/ Vulture Twin , The Pinhook, Durham",
+      "id": 66
+    },
+    {
+      "name": "454",
+      "link": "https://www.abbeyroadnc.com/events/454",
+      "venue": "Abbey Road Tavern & Grill",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "454 ,\u00a0Abbey Road Tavern & Grill, Cary",
+      "id": 67
+    },
+    {
+      "name": "Watermelon Festival",
+      "link": "https://www.facebook.com/events/2246668406143598/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22discovery_local_tab%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+      "venue": "McLean Farms",
+      "city": "Fuquay-Varina",
+      "day": "Saturday",
+      "raw": "Watermelon Festival , McLean Farms, Fuquay-Varina",
+      "id": 68
+    },
+    {
+      "name": "Girls Summer Soir\u00e9e",
+      "link": "https://www.facebook.com/events/1984152702220264/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22discovery_local_tab%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+      "venue": "Boxyard RTP",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Girls Summer Soir\u00e9e ,\u00a0Boxyard RTP, Durham",
+      "id": 69
+    },
+    {
+      "name": "GRL Market",
+      "link": "https://www.facebook.com/events/1506968327797145/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22discovery_local_tab%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+      "venue": "Waverly Place",
+      "city": "Cary",
+      "day": "Saturday",
+      "raw": "GRL Market , Waverly Place, Cary",
+      "id": 70
+    },
+    {
+      "name": "Dog Days of Summer",
+      "link": "https://www.facebook.com/share/1BgXJKXAek/",
+      "venue": "SG Supply Co.",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Dog Days of Summer ,\u00a0SG Supply Co., Raleigh",
+      "id": 71
+    },
+    {
+      "name": "Holly Springs Salamanders vs. Martinsville Mustangs",
+      "link": "https://salamandersbaseball.com/event/salamanders-vs-martinsville-mustangs-august-1-2026",
+      "venue": "North Main Athletic Complex",
+      "city": "Holly Springs",
+      "day": "Saturday",
+      "raw": "Holly Springs Salamanders vs. Martinsville Mustangs ,\u00a0North Main Athletic Complex, Holly Springs",
+      "id": 72
+    },
+    {
+      "name": "Puppy Patio Party",
+      "link": "https://www.facebook.com/events/732543293004128/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22external_search_engine%22%7D%2C%7B%22mechanism%22%3A%22discovery_custom_tab%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3An",
+      "venue": "Morgan Street Food Hall",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Puppy Patio Party , Morgan Street Food Hall, Raleigh",
+      "id": 73
+    },
+    {
+      "name": "Clue (High School Edition)",
+      "link": "https://raleighlittletheatre.org/shows/clue/",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Clue (High School Edition) ,\u00a0Raleigh Little Theatre, Raleigh",
+      "id": 74
+    },
+    {
+      "name": "Once Upon a One More Time",
+      "link": "https://www.theatreraleigh.com/",
+      "venue": "De Ann S. Jones Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Once Upon a One More Time ,\u00a0De Ann S. Jones Theatre, Raleigh",
+      "id": 75
+    },
+    {
+      "name": "Bourbon & Charcuterie",
+      "link": "https://mysticdurham.ticketspice.com/bourbon-charcuterie-2026-saturdays",
+      "venue": "Mystic Farm & Distillery",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Bourbon & Charcuterie ,\u00a0Mystic Farm & Distillery, Durham",
+      "id": 76
+    },
+    {
+      "name": "Sunset Float",
+      "link": "https://www.twosistersadventure.com/guided-trips-booking/p/sunset-float",
+      "venue": "Falls Lake",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Sunset Float , Falls Lake, Durham",
+      "id": 77
+    },
+    {
+      "name": "Durham Bulls vs. Gwinnett",
+      "link": "http://mlb.com/milb/durham",
+      "venue": "DBAP",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Durham Bulls vs. Gwinnett , DBAP, Durham",
+      "id": 78
+    },
+    {
+      "name": "2026 Summer Concert Series",
+      "link": "https://raleighnc.gov/parks-and-recreation/news/2026-summer-concert-series",
+      "venue": "Fred Fletcher Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "2026 Summer Concert Series ,\u00a0Fred Fletcher Park, Raleigh",
+      "id": 79
+    },
+    {
+      "name": "Derek Hough",
+      "link": "https://www.dpacnc.com/events/detail/derek_hough2026",
+      "venue": "DPAC",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Derek Hough , DPAC, Durham",
+      "id": 80
+    },
+    {
+      "name": "Bubble Fest",
+      "link": "https://www.facebook.com/events/4390746594578942/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22discovery_local_tab%22%2C%22surface%22%3A%22bookmark%22%7D]%2C%22ref_notif_type%22%3Anull%7D",
+      "venue": "Moore Square",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Bubble Fest , Moore Square, Raleigh",
+      "id": 81
+    },
+    {
+      "name": "Durham Fiesta Latina",
+      "link": "https://www.facebook.com/events/1056579733476057/?post_id=1068590472274983&view=permalink",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Durham Fiesta Latina , Durham Central Park, Durham",
+      "id": 82
+    },
+    {
+      "name": "Mori no Karasu Pop Up Dinner",
+      "link": "https://resy.com/cities/raleigh-nc/venues/boatman-spirits-company/events/mori-no-karasu-pop-up-dinner-2026-08-02?seats=2&date=2026-07-31",
+      "venue": "Boatman Spirits Co.",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Mori no Karasu Pop Up Dinner , Boatman Spirits Co., Raleigh",
+      "id": 83
+    },
+    {
+      "name": "Monthly Pop Shop ARTernative Market",
+      "link": "https://chapelofbones.com/events/",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Monthly Pop Shop ARTernative Market ,\u00a0Chapel of Bones, Raleigh",
+      "id": 84
+    },
+    {
+      "name": "Meet the Artists: Fine Arts League of Cary",
+      "link": "https://www.carync.gov/Home/Components/Calendar/Event/26146/1636?curm=8&cury=2026",
+      "venue": "Page-Walker Arts and History Center",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Meet the Artists: Fine Arts League of Cary ,\u00a0Page-Walker Arts and History Center, Cary",
+      "id": 85
+    },
+    {
+      "name": "Derrick Stroup",
+      "link": "https://www.goodnightscomedy.com/events/130473",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Derrick Stroup ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 86
+    },
+    {
+      "name": "Angelo Colina - This show is completely in Spanish with no translation",
+      "link": "https://www.goodnightscomedy.com/shows/358080",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Angelo Colina - This show is completely in Spanish with no translation ,\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 87
+    },
+    {
+      "name": "Dale Jones",
+      "link": "https://improv.com/raleigh/comic/dale+jones/",
+      "venue": "Raleigh Improv",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Dale Jones , Raleigh Improv, Cary",
+      "id": 88
+    },
+    {
+      "name": "Mason James",
+      "link": "https://www.goodnightscomedy.com/events/133523",
+      "venue": "Room 861 at\u00a0Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Mason James ,\u00a0Room 861 at\u00a0Goodnights Comedy Club, Raleigh",
+      "id": 89
+    },
+    {
+      "name": "Cary Underground Market",
+      "link": "https://makrs.com/cary-underground-market",
+      "venue": "Bond Brothers Beer Company",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Cary Underground Market ,\u00a0Bond Brothers Beer Company, Cary",
+      "id": 90
+    },
+    {
+      "name": "The Land Before Time",
+      "link": "https://thecarytheater.com/event/the-land-before-time/the-cary/cary/",
+      "venue": "The Cary Theater",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "The Land Before Time ,\u00a0The Cary Theater, Cary",
+      "id": 91
+    },
+    {
+      "name": "The Bleeding Hearts Sunday Funday Album Release: w/ The Blusterfields, The You're Gonna Die And Go To Hells",
+      "link": "https://www.pourhouseraleigh.com/shows/day-the-bleeding-hearts-sunday-funday-album-release-w-the-blusterfields-the-you-re-gonna-die-and-go-to-hells-02-aug",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "The Bleeding Hearts Sunday Funday Album Release: w/ The Blusterfields, The You're Gonna Die And Go To Hells ,\u00a0The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 92
+    },
+    {
+      "name": "Loser",
+      "link": "https://slimsdivebar.com/event-archive/loser/",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Loser ,\u00a0Slim's Dive Bar, Raleigh",
+      "id": 93
+    },
+    {
+      "name": "Fly Anakin / Nickelus F with Mutant Academy",
+      "link": "https://www.kingsraleigh.com/shows/fly-anakin-nickelus-f/",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Fly Anakin / Nickelus F with Mutant Academy , KINGS, Raleigh",
+      "id": 94
+    },
+    {
+      "name": "ChewieCatt w/ DJ Silva Hound/NemRaps/Ben Schuller/DizzyEight/Nerdout",
+      "link": "https://lincolntheatre.com/event/chewiecatt-w-dj-silva-hound-nemraps-ben-schuller-dizzyeight-nerdout/lincoln-theatre/raleigh-north-carolina/",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "ChewieCatt w/ DJ Silva Hound/NemRaps/Ben Schuller/DizzyEight/Nerdout ,\u00a0Lincoln Theatre, Raleigh",
+      "id": 95
+    },
+    {
+      "name": "5th Annual Kids Fest",
+      "link": "https://www.eventbrite.com/e/postponed-5th-annual-kids-fest-new-date-tickets-1992458300412",
+      "venue": "Fortnight Brewing Company",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "5th Annual Kids Fest ,\u00a0Fortnight Brewing Company, Cary",
+      "id": 96
+    },
+    {
+      "name": "Sunday DRIFT Rooftop DJ Series",
+      "link": "https://www.velvethippodurham.com/calendar",
+      "venue": "The Velvet Hippo!",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Sunday DRIFT Rooftop DJ Series , The Velvet Hippo!, Durham",
+      "id": 97
+    },
+    {
+      "name": "Drinks & MiniFigs",
+      "link": "https://www.mentbev.com/event-details/bricks-minifigs-event",
+      "venue": "Ment Beverage Co.",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Drinks & MiniFigs , Ment Beverage Co., Durham",
+      "id": 98
+    },
+    {
+      "name": "NC Cider, Wine & Cheese Pairing | Meet the Makers",
+      "link": "https://www.eventbrite.com/e/nc-cider-wine-cheese-pairing-meet-the-makers-hillsborough-tickets-1993482463712",
+      "venue": "Weaver Street Market Hillsborough",
+      "city": "Hillsborough",
+      "day": "Sunday",
+      "raw": "NC Cider, Wine & Cheese Pairing | Meet the Makers ,\u00a0Weaver Street Market Hillsborough,\u00a0Hillsborough",
+      "id": 99
+    },
+    {
+      "name": "Kelly Reidy | Harp in The Dark",
+      "link": "https://artscenterlive.org/august-2nd-kelly-reidy-harp-in-the-dark/",
+      "venue": "ArtsCenter",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Kelly Reidy | Harp in The Dark ,\u00a0ArtsCenter, Carrboro",
+      "id": 100
+    },
+    {
+      "name": "Blueberry Brunch",
+      "link": "https://www.thehoneysuckleteahouse.com/experiences/p/blueberrybrunch",
+      "venue": "The Honeysuckle Tea House",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Blueberry Brunch ,\u00a0The Honeysuckle Tea House, Chapel Hill",
+      "id": 101
+    },
+    {
+      "name": "Clue (High School Edition)",
+      "link": "https://raleighlittletheatre.org/shows/clue/",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Clue (High School Edition) ,\u00a0Raleigh Little Theatre, Raleigh",
+      "id": 102
+    },
+    {
+      "name": "Zebulon Devil Dogz vs. Yorktown Coconuts",
+      "link": "https://zebulondevildogz.com/game/devil-dogz-vs-yorktown-coconuts-august-2-2026/",
+      "venue": "Five County Stadium",
+      "city": "Zebulon",
+      "day": "Sunday",
+      "raw": "Zebulon Devil Dogz vs. Yorktown Coconuts ,\u00a0Five County Stadium, Zebulon",
+      "id": 103
+    },
+    {
+      "name": "Dixie Gun and Knife Show",
+      "link": "http://dixiegunandknifeshow.com/raleigh.html",
+      "venue": "Jim Graham Building at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Dixie Gun and Knife Show ,\u00a0Jim Graham Building at North Carolina State Fairgrounds, Raleigh",
+      "id": 104
+    },
+    {
+      "name": "Holly Springs Salamanders vs. South Wake Shakes",
+      "link": "https://salamandersbaseball.com/event/salamanders-vs-south-wake-shakes-august-2-2026",
+      "venue": "North Main Athletic Complex",
+      "city": "Holly Springs",
+      "day": "Sunday",
+      "raw": "Holly Springs Salamanders vs. South Wake Shakes ,\u00a0North Main Athletic Complex, Holly Springs",
+      "id": 105
+    }
+  ]
+}

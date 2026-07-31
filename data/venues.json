@@ -2,7 +2,7 @@
   "version": 1,
   "generated": "2026-07-24T16:53:51.625357+00:00",
   "source": "seed-venues.py from 14 archived weeks",
-  "venueCount": 425,
+  "venueCount": 438,
   "venues": {
     "321-coffee-raleigh": {
       "slug": "321-coffee-raleigh",
@@ -20604,8 +20604,589 @@
       ],
       "reviewNeeded": false,
       "osm_id": "node/12196277566"
+    },
+    "kkg-headquarters-durham": {
+      "slug": "kkg-headquarters-durham",
+      "name": "KKG Headquarters",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.kappakappagamma.org/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "https://www.facebook.com/kappakappagamma",
+        "instagram": "https://www.instagram.com/kappakappagamma",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "https://www.linkedin.com/company/kappa-kappa-gamma-fraternity/",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [],
+      "venueType": [
+        "government",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Shop Like A Chef"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "pleasant-park-apex": {
+      "slug": "pleasant-park-apex",
+      "name": "Pleasant Park",
+      "aliases": [],
+      "address": "3400 Pleasant Plains Rd.",
+      "city": "Apex",
+      "state": "NC",
+      "zip": "27502",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.apexnc.org/1163/Pleasant-Park",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 372-7500",
+          "email": "parksrec@apexnc.org",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "park"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Splash Bash"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "uncle-jessie-s-honkytonk-raleigh": {
+      "slug": "uncle-jessie-s-honkytonk-raleigh",
+      "name": "Uncle Jessie's Honkytonk",
+      "aliases": [],
+      "address": "1622 Glenwood Ave",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27608",
+      "lat": 35.801431522319,
+      "lng": -78.645912119004,
+      "place_id": null,
+      "linkMain": "https://unclejessieshonkytonk.com/",
+      "linkEvents": "https://unclejessieshonkytonk.com/eventsmusic/",
+      "socials": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/uncle_jessies_honkytonk/",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [],
+      "venueType": [
+        "bar",
+        "indoor",
+        "music-venue"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Daniell Carrol & Bubba James"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "raleigh-city-farm-raleigh": {
+      "slug": "raleigh-city-farm-raleigh",
+      "name": "Raleigh City Farm",
+      "aliases": [],
+      "address": "800 North Blount Street",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27604",
+      "lat": 35.790195645081,
+      "lng": -78.635800374266,
+      "place_id": null,
+      "linkMain": "https://raleighcityfarm.org/",
+      "linkEvents": "https://raleighcityfarm.org/events",
+      "socials": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/raleighcityfarm/",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "",
+          "email": "info@raleighcityfarm.org",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "farm",
+        "outdoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "First Saturday Series"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "person-recital-hall-chapel-hill": {
+      "slug": "person-recital-hall-chapel-hill",
+      "name": "Person Recital Hall",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "zip": "27514",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://music.unc.edu/about/facilities/venues/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "Scheduling questions",
+          "phone": "",
+          "email": "uncmusicoffice+schedule@gmail.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "music-venue"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Kelariz Keshavarz & Friends Summer Performance"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "huron-stage-music-venue-durham": {
+      "slug": "huron-stage-music-venue-durham",
+      "name": "Huron Stage Music Venue",
+      "aliases": [],
+      "address": "2329 Huron St",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27707",
+      "lat": 35.980825219006,
+      "lng": -78.930022332671,
+      "place_id": null,
+      "linkMain": "",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "1-919-884-6258",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "music-venue",
+        "outdoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Double Tap and Negative Feedback"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "boom-club-durham": {
+      "slug": "boom-club-durham",
+      "name": "BOOM Club",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27701",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.boom-club.org/",
+      "linkEvents": "https://www.boom-club.org/events",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "Rachelle Sickerott",
+          "phone": "919-699-9790",
+          "email": "rachelle@boom-club.org",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "club",
+        "indoor",
+        "music-venue"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Moodboard: Alec Lomami / Uymami / HouseDress / Pharmacil b2b UrsoMajor"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "sharp-9-gallery-durham": {
+      "slug": "sharp-9-gallery-durham",
+      "name": "Sharp 9 Gallery",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27713",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.durhamjazzworkshop.org/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "Booking inquiries",
+          "phone": "",
+          "email": "[email\u00a0protected]",
+          "other": ""
+        },
+        {
+          "label": "Youth jazz music program director inquiries",
+          "phone": "",
+          "email": "[email\u00a0protected]",
+          "other": ""
+        },
+        {
+          "label": "General inquiries",
+          "phone": "919 908 0035",
+          "email": "[email\u00a0protected]",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "music-venue"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "The SwanBean Quintet: A Straight-Ahead Jazz Expression"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "mclean-farms-fuquay-varina": {
+      "slug": "mclean-farms-fuquay-varina",
+      "name": "McLean Farms",
+      "aliases": [],
+      "address": "5490 River Road",
+      "city": "Fuquay-Varina",
+      "state": "NC",
+      "zip": "27526",
+      "lat": 35.521646254418,
+      "lng": -78.930487341276,
+      "place_id": null,
+      "linkMain": "https://mcleanfarmsfuquay.com/",
+      "linkEvents": "https://mcleanfarmsfuquay.com/news-events/",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 669-2996",
+          "email": "mcleanfarmsfq@gmail.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "farm",
+        "outdoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Watermelon Festival"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "sg-supply-co-raleigh": {
+      "slug": "sg-supply-co-raleigh",
+      "name": "SG Supply Co.",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://savinggracenc.org/about-us/our-pack/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "https://www.facebook.com/Saving-Grace-Supply-Co-102741231200145/",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919.900.8448",
+          "email": "savingthembyshopping@savinggracenc.org",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "community-center",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Dog Days of Summer"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "falls-lake-durham": {
+      "slug": "falls-lake-durham",
+      "name": "Falls Lake",
+      "aliases": [],
+      "address": "4201 Baptist Road",
+      "city": "Durham",
+      "state": "NC",
+      "zip": "27703",
+      "lat": 36.003699466832,
+      "lng": -78.729023175777,
+      "place_id": null,
+      "linkMain": "https://www.ncparks.gov/state-parks/falls-lake-state-recreation-area",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "Park staff / general inquiries",
+          "phone": "",
+          "email": "falls.lake@ncparks.gov",
+          "other": ""
+        },
+        {
+          "label": "Visitor Center / Park Office",
+          "phone": "(919) 676-1027",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "park"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Sunset Float"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "fortnight-brewing-company-cary": {
+      "slug": "fortnight-brewing-company-cary",
+      "name": "Fortnight Brewing Company",
+      "aliases": [],
+      "address": "1006 Southwest Maynard Road, Suite A",
+      "city": "Cary",
+      "state": "NC",
+      "zip": "27511",
+      "lat": 35.776192517369,
+      "lng": -78.802128104893,
+      "place_id": null,
+      "linkMain": "https://www.fortnightbrewing.com/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "https://www.instagram.com/fortnightbeer/",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 342-6604",
+          "email": "info@fortnightbrewing.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "bar",
+        "brewery",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "5th Annual Kids Fest"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "weaver-street-market-hillsborough-hillsborough": {
+      "slug": "weaver-street-market-hillsborough-hillsborough",
+      "name": "Weaver Street Market Hillsborough",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Hillsborough",
+      "state": "NC",
+      "zip": "27278",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.weaverstreetmarket.coop/location/hillsborough/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "https://www.linkedin.com/company/weaver-street-market",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General",
+          "phone": "(919) 245-5050",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "market"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "NC Cider, Wine & Cheese Pairing | Meet the Makers"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
     }
   },
-  "geocodedAt": "2026-07-24T17:45:22.333214+00:00",
-  "enrichedAt": "2026-07-24T17:44:42.278467+00:00"
+  "geocodedAt": "2026-07-31T14:45:37.241433+00:00",
+  "enrichedAt": "2026-07-31T14:44:53.950463+00:00",
+  "lastUpdatedBy": "update-metadata.py",
+  "lastUpdatedAt": "2026-07-31"
 }
