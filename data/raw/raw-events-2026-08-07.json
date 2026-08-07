@@ -1,0 +1,917 @@
+{
+  "week": "2026-08-07",
+  "ingested": "2026-08-07",
+  "source": "text-file:/tmp/newsletter-2026-08-07.txt",
+  "event_count": 101,
+  "events": [
+    {
+      "name": "First Friday",
+      "link": "https://us.list-manage.com/7tIo4k2jABx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3aFjNvADLIBccN9AZPqXihyJ5aqsQqK8vKn3dwsujSRkOeNBOOwAr6pe2KL_",
+      "venue": "Downtown",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "First Friday (https://us.list-manage.com/7tIo4k2jABx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3aFjNvADLIBccN9AZPqXihyJ5aqsQqK8vKn3dwsujSRkOeNBOOwAr6pe2KL_) , Downtown, Raleigh",
+      "id": 1
+    },
+    {
+      "name": "Tim McGraw: Pawn Shop Guitar Tour 2026",
+      "link": "https://us.list-manage.com/13uDd95Ricv?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZRtSkv28sLmE5Wi6j48Gtlp2sQoBzdZ2t2y66GDxzNUIWx2x6aNvW-JoZ-No",
+      "venue": "Coastal Credit Union Music Park at Walnut Creek",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Tim McGraw: Pawn Shop Guitar Tour 2026 (https://us.list-manage.com/13uDd95Ricv?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZRtSkv28sLmE5Wi6j48Gtlp2sQoBzdZ2t2y66GDxzNUIWx2x6aNvW-JoZ-No) , Coastal Credit Union Music Park at Walnut Creek, Raleigh",
+      "id": 2
+    },
+    {
+      "name": "Movie Night: Pirates of the Caribbean - The Curse of the Black Pearl",
+      "link": "https://us.list-manage.com/ZNHw0j4OlXM?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=aAM88Quk8gahvdhHdIlICO5iqs6AE8bs1fcCbgnVItxhMhttjne3WC-3TFBy",
+      "venue": "DCP Great Lawn Pavilion",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Movie Night: Pirates of the Caribbean - The Curse of the Black Pearl (https://us.list-manage.com/ZNHw0j4OlXM?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=aAM88Quk8gahvdhHdIlICO5iqs6AE8bs1fcCbgnVItxhMhttjne3WC-3TFBy) , DCP Great Lawn Pavilion, Cary",
+      "id": 3
+    },
+    {
+      "name": "Sir Walter Miler",
+      "link": "https://us.list-manage.com/vi3XldVIMiB?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=MsaJO8GAqPzGy7ymWvvLlC2US3uoEWTH3A-Ed_663mK6PlAp412RpAbhDKmp",
+      "venue": "Meredith College",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Sir Walter Miler (https://us.list-manage.com/vi3XldVIMiB?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=MsaJO8GAqPzGy7ymWvvLlC2US3uoEWTH3A-Ed_663mK6PlAp412RpAbhDKmp) , Meredith College, Raleigh",
+      "id": 4
+    },
+    {
+      "name": "First Friday Market & Movie Night: Zootopia 2",
+      "link": "https://us.list-manage.com/cSjWeyK76HH?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=vGPiUFPVHsGAeHUZf4JJDApVhkQaSf5jjg89v4wCh0MDs0rqeJQXF2Gm1_Kt",
+      "venue": "Moore Square",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "First Friday Market & Movie Night: Zootopia 2 (https://us.list-manage.com/cSjWeyK76HH?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=vGPiUFPVHsGAeHUZf4JJDApVhkQaSf5jjg89v4wCh0MDs0rqeJQXF2Gm1_Kt) , Moore Square, Raleigh",
+      "id": 5
+    },
+    {
+      "name": "PLAYlist Concert Series: Some Of It All",
+      "link": "https://us.list-manage.com/fDXNzLoicwx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=GUS7j6jBeCah6vWNugxy_R8ma57N-7FjUPyVVZgujnbbhhPkTRipkrNBUdHS",
+      "venue": "Durham Central Park",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "PLAYlist Concert Series: Some Of It All (https://us.list-manage.com/fDXNzLoicwx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=GUS7j6jBeCah6vWNugxy_R8ma57N-7FjUPyVVZgujnbbhhPkTRipkrNBUdHS) , Durham Central Park, Durham",
+      "id": 6
+    },
+    {
+      "name": "Bands, Bites, and Boats Aug 2026",
+      "link": "https://us.list-manage.com/hxxp4xnXxl3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=oWdbqGg3e_eGGFnQSBzsHZzuP97uw_nKO1965MsF1AKYO705YIxwfulTGN7y",
+      "venue": "Bond Park Boathouse",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Bands, Bites, and Boats Aug 2026 (https://us.list-manage.com/hxxp4xnXxl3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=oWdbqGg3e_eGGFnQSBzsHZzuP97uw_nKO1965MsF1AKYO705YIxwfulTGN7y) , Bond Park Boathouse, Cary",
+      "id": 7
+    },
+    {
+      "name": "First Friday with NC Courage Women\u2019s Pro Soccer Team",
+      "link": "https://us.list-manage.com/a2VB2xaN0Wu?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=WejtjhMNTelBUN-2OytYGIWZbcU7ABNlfWP9fHBIAktbR3adQba0pVV45T2M",
+      "venue": "COR Museum",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "First Friday with NC Courage Women\u2019s Pro Soccer Team (https://us.list-manage.com/a2VB2xaN0Wu?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=WejtjhMNTelBUN-2OytYGIWZbcU7ABNlfWP9fHBIAktbR3adQba0pVV45T2M) , COR Museum, Raleigh",
+      "id": 8
+    },
+    {
+      "name": "Morrisville Music in the Park 2026",
+      "link": "https://us.list-manage.com/17FldCOcw1J?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Ej86QuPhye-aSYytA9N5wh6k9pWKDEdLrSfrCWn5tSymrdVjBGE18cF0Z7CN",
+      "venue": "Indian Creek Greenway & Trailhead",
+      "city": "Morrisville",
+      "day": "Friday",
+      "raw": "Morrisville Music in the Park 2026 (https://us.list-manage.com/17FldCOcw1J?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Ej86QuPhye-aSYytA9N5wh6k9pWKDEdLrSfrCWn5tSymrdVjBGE18cF0Z7CN) , Indian Creek Greenway & Trailhead, Morrisville",
+      "id": 9
+    },
+    {
+      "name": "Curfew Club",
+      "link": "https://us.list-manage.com/1AvFxdSfqf8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ILm_nbFUwVR7rJaTraDxYI8PDywZvyV-FFiSYr5B1ElRcQDxNMVZmTfwgvz7",
+      "venue": "Motorco",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Curfew Club (https://us.list-manage.com/1AvFxdSfqf8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ILm_nbFUwVR7rJaTraDxYI8PDywZvyV-FFiSYr5B1ElRcQDxNMVZmTfwgvz7) , Motorco, Durham",
+      "id": 10
+    },
+    {
+      "name": "Dogstar: All in now tour",
+      "link": "https://us.list-manage.com/i37CoiLNdT3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=P4_2HxH4ZylZA78dVNk1VTPZFlM3DOILwX6aRMBkdy-GCbGsN3t5LSIarjay",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Dogstar: All in now tour (https://us.list-manage.com/i37CoiLNdT3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=P4_2HxH4ZylZA78dVNk1VTPZFlM3DOILwX6aRMBkdy-GCbGsN3t5LSIarjay) , The Ritz, Raleigh",
+      "id": 11
+    },
+    {
+      "name": "Special Event: Ryan Davis",
+      "link": "https://us.list-manage.com/mIh3B7PWO7s?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Pz2r1Wkivko56uvFbBCCs_xZMFvLwxdMOsK9cDB3IP24scvB-fifvh9sLUCD",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Special Event: Ryan Davis (https://us.list-manage.com/mIh3B7PWO7s?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Pz2r1Wkivko56uvFbBCCs_xZMFvLwxdMOsK9cDB3IP24scvB-fifvh9sLUCD) , Goodnights Comedy Club, Raleigh",
+      "id": 12
+    },
+    {
+      "name": "Jenny Tian",
+      "link": "https://us.list-manage.com/68LdcqRqoUe?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=QBONVNk8DM8q974A9hkHZSKRpigKRTdlYjhXiSGDtXk9PL9EKh30p1ch3iqF",
+      "venue": "Goodnights Comedy Club, Room 861",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Jenny Tian (https://us.list-manage.com/68LdcqRqoUe?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=QBONVNk8DM8q974A9hkHZSKRpigKRTdlYjhXiSGDtXk9PL9EKh30p1ch3iqF) , Goodnights Comedy Club, Room 861, Raleigh",
+      "id": 13
+    },
+    {
+      "name": "Vladimir Caamano",
+      "link": "https://us.list-manage.com/HuJoDm_ldGd?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=wsAjCGQkz-AGp_blyolCIOZRMVvbSs4NNxrf4xaI55LSSOB5Lsv5r8exoG5O",
+      "venue": "Raleigh Improv",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Vladimir Caamano (https://us.list-manage.com/HuJoDm_ldGd?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=wsAjCGQkz-AGp_blyolCIOZRMVvbSs4NNxrf4xaI55LSSOB5Lsv5r8exoG5O) , Raleigh Improv, Raleigh",
+      "id": 14
+    },
+    {
+      "name": "Hot Metal Cold Beer",
+      "link": "https://us.list-manage.com/14mY9bmVxlN?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=R-9PrKa_4DD0HQ3b3JrvJ4ufbOIi2gyVpZH1rWx-GkO5CfHtPFP7fqs6R_hR",
+      "venue": "Liberty Arts Foundry",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Hot Metal Cold Beer (https://us.list-manage.com/14mY9bmVxlN?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=R-9PrKa_4DD0HQ3b3JrvJ4ufbOIi2gyVpZH1rWx-GkO5CfHtPFP7fqs6R_hR) , Liberty Arts Foundry, Durham",
+      "id": 15
+    },
+    {
+      "name": "The Wild Wisdom of the World  Paperhand Puppet Project",
+      "link": "https://us.list-manage.com/17tsCsuBU7x?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=_OgnbXK0uQLvx3VekYzW9dbvwaUusX7b4YQKs9xDzMynrAZBXRy0vSCB5qbL",
+      "venue": "Forest Theatre",
+      "city": "Chapel Hill",
+      "day": "Friday",
+      "raw": "The Wild Wisdom of the World  Paperhand Puppet Project (https://us.list-manage.com/17tsCsuBU7x?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=_OgnbXK0uQLvx3VekYzW9dbvwaUusX7b4YQKs9xDzMynrAZBXRy0vSCB5qbL) , Forest Theatre, Chapel Hill",
+      "id": 16
+    },
+    {
+      "name": "2026 NASCAR Regional Season - Delta Heating & Cooling 165",
+      "link": "https://us.list-manage.com/avAIHVLzKkv?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=eLJMq5lgBRMJ9R-RlFfp13GUIHErlEsRCrcQ4-uPBJogsCaMXM6c0dwap2kt",
+      "venue": "Wake County Speedway",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "2026 NASCAR Regional Season - Delta Heating & Cooling 165 (https://us.list-manage.com/avAIHVLzKkv?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=eLJMq5lgBRMJ9R-RlFfp13GUIHErlEsRCrcQ4-uPBJogsCaMXM6c0dwap2kt) , Wake County Speedway, Raleigh",
+      "id": 17
+    },
+    {
+      "name": "Blue Light Basement Party",
+      "link": "https://us.list-manage.com/VnWvTmhyKi0?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=oE8Ej7D3AQ5pfePs75u8FRUbUnhpbjl6UJI_vN02ItDjhYey8cwRiZ6y1a4C",
+      "venue": "Durham Armory",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Blue Light Basement Party (https://us.list-manage.com/VnWvTmhyKi0?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=oE8Ej7D3AQ5pfePs75u8FRUbUnhpbjl6UJI_vN02ItDjhYey8cwRiZ6y1a4C) , Durham Armory, Durham",
+      "id": 18
+    },
+    {
+      "name": "First Friday Latin Nights!",
+      "link": "https://us.list-manage.com/HoVNyN0Kj42?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=31EXDfTbmPcdyCIFettOvQ1Ra4Xn2q9nU7QatC0oiuG9GuPEjaEsLK-jH8da",
+      "venue": "The Velvet Hippo",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "First Friday Latin Nights! (https://us.list-manage.com/HoVNyN0Kj42?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=31EXDfTbmPcdyCIFettOvQ1Ra4Xn2q9nU7QatC0oiuG9GuPEjaEsLK-jH8da) , The Velvet Hippo, Durham",
+      "id": 19
+    },
+    {
+      "name": "The Move First Friday Dance Party with DJ Jermainia",
+      "link": "https://us.list-manage.com/17dtBJmuPGx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZwEQTIxJqUh-6DOX-SsOSfvwIkhghM3NSAfDK7KzZ7SAOmD0YvnUYoGhsZfO",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Move First Friday Dance Party with DJ Jermainia (https://us.list-manage.com/17dtBJmuPGx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZwEQTIxJqUh-6DOX-SsOSfvwIkhghM3NSAfDK7KzZ7SAOmD0YvnUYoGhsZfO) , Bitter Social, Raleigh",
+      "id": 20
+    },
+    {
+      "name": "Connor Lee Quartet & Alamance Jazz Collective",
+      "link": "https://us.list-manage.com/102M9NxAV3k?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Y84qbPfWm4LZL3mGlIMO0OXAYlXIeTMZnX0fLexGs9ECrg7dsc4PiJIuK",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Connor Lee Quartet & Alamance Jazz Collective (https://us.list-manage.com/102M9NxAV3k?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Y84qbPfWm4LZL3mGlIMO0OXAYlXIeTMZnX0fLexGs9ECrg7dsc4PiJIuK) , Slim's Dive Bar, Raleigh",
+      "id": 21
+    },
+    {
+      "name": "Luther S. Allison Sextet",
+      "link": "https://us.list-manage.com/aWaCu_8KvPW?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=f2zRqxKHrO88T_oEQO1yvXxU77o1YSSHU3N6Xx4812jBWKyYZ415lQ5tC2EM",
+      "venue": "Sharp 9 Gallery",
+      "city": "Durham",
+      "day": "Friday",
+      "raw": "Luther S. Allison Sextet (https://us.list-manage.com/aWaCu_8KvPW?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=f2zRqxKHrO88T_oEQO1yvXxU77o1YSSHU3N6Xx4812jBWKyYZ415lQ5tC2EM) , Sharp 9 Gallery, Durham",
+      "id": 22
+    },
+    {
+      "name": "An Evening with Mason Via",
+      "link": "https://us.list-manage.com/qR69bbHRk_8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=f0D_ccUnTVOYKlygB0if2U1Zz9YKryig59Dy8JwJuE021cZN7Fc7GHmXyo_S",
+      "venue": "The Wake Forest Listening Room",
+      "city": "Wake Forest",
+      "day": "Friday",
+      "raw": "An Evening with Mason Via (https://us.list-manage.com/qR69bbHRk_8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=f0D_ccUnTVOYKlygB0if2U1Zz9YKryig59Dy8JwJuE021cZN7Fc7GHmXyo_S) , The Wake Forest Listening Room, Wake Forest",
+      "id": 23
+    },
+    {
+      "name": "Artist Notes featuring Joseph Terrell",
+      "link": "https://us.list-manage.com/E_FPfdNzzzx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=hHe5aXq6v-sw37aDB8MWeRNEJ-yDSDg4vAdSEdnX2ziHZ-k0UGcV_yUa-N_z",
+      "venue": "The Corner at Centennial Campus",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Artist Notes featuring Joseph Terrell (https://us.list-manage.com/E_FPfdNzzzx?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=hHe5aXq6v-sw37aDB8MWeRNEJ-yDSDg4vAdSEdnX2ziHZ-k0UGcV_yUa-N_z) , The Corner at Centennial Campus, Raleigh",
+      "id": 24
+    },
+    {
+      "name": "Lords of Lightning with Locally Sourced Weaponry and The Phuzz Band",
+      "link": "https://us.list-manage.com/XD3wcjmBxZf?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=JxP3FT7axGgCDgoLA3CGoH0dHxbPTloJ2SbfpcUXCQ15GbL9TOkohJLp1iWz",
+      "venue": "Local 506",
+      "city": "Chapel Hill",
+      "day": "Friday",
+      "raw": "Lords of Lightning with Locally Sourced Weaponry and The Phuzz Band (https://us.list-manage.com/XD3wcjmBxZf?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=JxP3FT7axGgCDgoLA3CGoH0dHxbPTloJ2SbfpcUXCQ15GbL9TOkohJLp1iWz) , Local 506, Chapel Hill",
+      "id": 25
+    },
+    {
+      "name": "Amateur Talent Show",
+      "link": "https://us.list-manage.com/gJ_Yl6firmc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=AHtveVtuGyW0H_AI8-IgxSpFY9OoT65rBqEIO5FXnhIozTStgedsBLp1N59S",
+      "venue": "Legends Nightclub",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Amateur Talent Show (https://us.list-manage.com/gJ_Yl6firmc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=AHtveVtuGyW0H_AI8-IgxSpFY9OoT65rBqEIO5FXnhIozTStgedsBLp1N59S) , Legends Nightclub, Raleigh",
+      "id": 26
+    },
+    {
+      "name": "SLUTFEST 2026",
+      "link": "https://us.list-manage.com/RHp0wowGiey?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=pIcjdJ5hweEl-yJn2LEQsa25F8yRMrjZ7gL6psRJ5UeQWO-dVJqsWfwkl-me",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "SLUTFEST 2026 (https://us.list-manage.com/RHp0wowGiey?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=pIcjdJ5hweEl-yJn2LEQsa25F8yRMrjZ7gL6psRJ5UeQWO-dVJqsWfwkl-me) , Chapel of Bones, Raleigh",
+      "id": 27
+    },
+    {
+      "name": "The Big Three Tour: Mocktallica / Hell Awaits / Tornado of Souls tributes to Metallica, Slayer, and Megadeth",
+      "link": "https://us.list-manage.com/1CpX_37WWSe?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=iEM6265yDzzBe5w6OJKG6yECSeafgRXmzvz8P6zd1eGPaEKVF8BsoV9_dwEg",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "The Big Three Tour: Mocktallica / Hell Awaits / Tornado of Souls tributes to Metallica, Slayer, and Megadeth (https://us.list-manage.com/1CpX_37WWSe?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=iEM6265yDzzBe5w6OJKG6yECSeafgRXmzvz8P6zd1eGPaEKVF8BsoV9_dwEg) , KINGS, Raleigh",
+      "id": 28
+    },
+    {
+      "name": "Eno Arts Mill Grand Re-Opening!",
+      "link": "https://us.list-manage.com/r8SzHrvsl6q?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=PhVXJijH965tOUJD-8yni4K2j16PN03ANGNzZg8qrfyHMEa4qegH8Egd_gr8",
+      "venue": "Eno Arts Mill",
+      "city": "Hillsborough",
+      "day": "Friday",
+      "raw": "Eno Arts Mill Grand Re-Opening! (https://us.list-manage.com/r8SzHrvsl6q?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=PhVXJijH965tOUJD-8yni4K2j16PN03ANGNzZg8qrfyHMEa4qegH8Egd_gr8) , Eno Arts Mill, Hillsborough",
+      "id": 29
+    },
+    {
+      "name": "West Side Story",
+      "link": "https://us.list-manage.com/2Hltrxn33SG?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=2Lzc-JblqnE0A01mUtDj1iiR-49aP28CXAEkUQxJxP3fp1OnW6BRQ-7jRLd1",
+      "venue": "Stars Auditorium at IMAGINX",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "West Side Story (https://us.list-manage.com/2Hltrxn33SG?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=2Lzc-JblqnE0A01mUtDj1iiR-49aP28CXAEkUQxJxP3fp1OnW6BRQ-7jRLd1) , Stars Auditorium at IMAGINX, Raleigh",
+      "id": 30
+    },
+    {
+      "name": "Charles Esten",
+      "link": "https://us.list-manage.com/17Rtl7Rgf3m?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=TZy_mD99vIUXVcvXyJImt2zfonmkvQ2qzOe91tXLM8xhk313eQD5rgqBPREP",
+      "venue": "Bowstring Pizza and Brewyard",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Charles Esten (https://us.list-manage.com/17Rtl7Rgf3m?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=TZy_mD99vIUXVcvXyJImt2zfonmkvQ2qzOe91tXLM8xhk313eQD5rgqBPREP) , Bowstring Pizza and Brewyard, Raleigh",
+      "id": 31
+    },
+    {
+      "name": "Friday Bourbon Release Dinner",
+      "link": "https://us.list-manage.com/127q_d68R5Z?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=m5foNqXjeBSF-9f5D-lAxAb0DWP9UrkMqY2qSNxdVZUjOrQVRlDggBjvhFFg",
+      "venue": "Peck & Plume",
+      "city": "Cary",
+      "day": "Friday",
+      "raw": "Friday Bourbon Release Dinner (https://us.list-manage.com/127q_d68R5Z?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=m5foNqXjeBSF-9f5D-lAxAb0DWP9UrkMqY2qSNxdVZUjOrQVRlDggBjvhFFg) , Peck & Plume, Cary",
+      "id": 32
+    },
+    {
+      "name": "Clue (High School Edition)",
+      "link": "https://us.list-manage.com/1A_Ew2m_UkW?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=JEJewXjnUdnjIU8NrI4W-gAeQvSF4Dh01fUP_lFb7YBVIhUYyA3BbIBtQC4h",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Clue (High School Edition) (https://us.list-manage.com/1A_Ew2m_UkW?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=JEJewXjnUdnjIU8NrI4W-gAeQvSF4Dh01fUP_lFb7YBVIhUYyA3BbIBtQC4h) , Raleigh Little Theatre, Raleigh",
+      "id": 33
+    },
+    {
+      "name": "Artist/Curatorial Discussion with Sam van Strien",
+      "link": "https://us.list-manage.com/mjAV497fYle?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=4_-8-PFBJSp1J9vWBRkJRltNyf0AqEo76V8BzV8svzaB78aEZghbem7ebyqE",
+      "venue": "Artspace",
+      "city": "Raleigh",
+      "day": "Friday",
+      "raw": "Artist/Curatorial Discussion with Sam van Strien (https://us.list-manage.com/mjAV497fYle?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=4_-8-PFBJSp1J9vWBRkJRltNyf0AqEo76V8BzV8svzaB78aEZghbem7ebyqE) , Artspace, Raleigh",
+      "id": 34
+    },
+    {
+      "name": "Stephen Wilson Jr. - Raleigh",
+      "link": "https://us.list-manage.com/4_U3rRtkgFc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=P3-s_-nNM_5Nb6PiN50fsWQa8s5EWUppxR0KV1c_MkEuFK9AKPWGKXuw8j3u",
+      "venue": "Red Hat Amphitheater",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Stephen Wilson Jr. - Raleigh (https://us.list-manage.com/4_U3rRtkgFc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=P3-s_-nNM_5Nb6PiN50fsWQa8s5EWUppxR0KV1c_MkEuFK9AKPWGKXuw8j3u) , Red Hat Amphitheater, Raleigh",
+      "id": 35
+    },
+    {
+      "name": "Bronco - El Gran Baile Tour",
+      "link": "https://us.list-manage.com/fWXCF3ZDZTG?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ehDbt3hPl4vIrCUuHBv3Abz0Sp7qKS7lTyn9NKruAVFwfYKmJ0g-gF-mn1Ay",
+      "venue": "Memorial Auditorium at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Bronco - El Gran Baile Tour (https://us.list-manage.com/fWXCF3ZDZTG?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ehDbt3hPl4vIrCUuHBv3Abz0Sp7qKS7lTyn9NKruAVFwfYKmJ0g-gF-mn1Ay) , Memorial Auditorium at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 36
+    },
+    {
+      "name": "Rhythm & Reels - Concerts",
+      "link": "https://us.list-manage.com/HPwWhmVi9_5?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=OHFgw-eMAcP3CiaTW8sfi1zDmgV6t6LRs3fw097mAoccx7E_QMGWTLsY7ree",
+      "venue": "Nature Park Amphitheatre",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "Rhythm & Reels - Concerts (https://us.list-manage.com/HPwWhmVi9_5?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=OHFgw-eMAcP3CiaTW8sfi1zDmgV6t6LRs3fw097mAoccx7E_QMGWTLsY7ree) , Nature Park Amphitheatre, Apex",
+      "id": 37
+    },
+    {
+      "name": "Dom Flemons Presents the Bronze Buckaroo Film and Songster Show",
+      "link": "https://us.list-manage.com/_KUct9Xq6_A?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=lSQ-P2R8wdxWIHYkTqKZNUmcsJLNNWYk5IiM_8SevLrzfsQvmx0jB_8U_a65",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Dom Flemons Presents the Bronze Buckaroo Film and Songster Show (https://us.list-manage.com/_KUct9Xq6_A?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=lSQ-P2R8wdxWIHYkTqKZNUmcsJLNNWYk5IiM_8SevLrzfsQvmx0jB_8U_a65) , North Carolina Museum of Art, Raleigh",
+      "id": 38
+    },
+    {
+      "name": "GIANT ROBOT FIGHT CLUB",
+      "link": "https://us.list-manage.com/AWltEr2HB6N?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=YivVl4MWLK-cf-shIHhsCZTk5m9GKvxLo4QCpM5SsmkvlBh38kNzDt3NRGly",
+      "venue": "Motorco",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "GIANT ROBOT FIGHT CLUB (https://us.list-manage.com/AWltEr2HB6N?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=YivVl4MWLK-cf-shIHhsCZTk5m9GKvxLo4QCpM5SsmkvlBh38kNzDt3NRGly) , Motorco, Durham",
+      "id": 39
+    },
+    {
+      "name": "NC Jerk Festival",
+      "link": "https://us.list-manage.com/9KP18fGlfPc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=hjyuDvPUSbR9EU4713DIXTbXVVWPI5DYq4Jir5fH7N5CrY53D80z7uwVIxsW",
+      "venue": "Durham Central Park",
+      "city": "Duham",
+      "day": "Saturday",
+      "raw": "NC Jerk Festival (https://us.list-manage.com/9KP18fGlfPc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=hjyuDvPUSbR9EU4713DIXTbXVVWPI5DYq4Jir5fH7N5CrY53D80z7uwVIxsW) , Durham Central Park, Duham",
+      "id": 40
+    },
+    {
+      "name": "Native American Film Festival",
+      "link": "https://us.list-manage.com/38lkLA2fK6m?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=76aaHB6Vy2dG4xXlK_6Wiz9fcs7Mu2_gri3Amxzly96kyyvohAvT-kaLkAMH",
+      "venue": "Rialto Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Native American Film Festival (https://us.list-manage.com/38lkLA2fK6m?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=76aaHB6Vy2dG4xXlK_6Wiz9fcs7Mu2_gri3Amxzly96kyyvohAvT-kaLkAMH) , Rialto Theatre,  Raleigh",
+      "id": 41
+    },
+    {
+      "name": "Special Event: Ryan Davis",
+      "link": "https://us.list-manage.com/fgGWwxDAmZ9?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=khWUhljQRWv7ZIZCY4V4_o50WdWZLuTSKM6hkgWafriNjM-O2asX9lgTYQ6t",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Special Event: Ryan Davis (https://us.list-manage.com/fgGWwxDAmZ9?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=khWUhljQRWv7ZIZCY4V4_o50WdWZLuTSKM6hkgWafriNjM-O2asX9lgTYQ6t) , Goodnights Comedy Club, Raleigh",
+      "id": 42
+    },
+    {
+      "name": "Jenny Tian",
+      "link": "https://us.list-manage.com/_Jshayh8QA7?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=uIa-QbYBgSTKPoFxgnTEQZNIp4SgbOj2NZ-w6RA8jKbLWR9Inm1hX1-Plm-G",
+      "venue": "Goodnights Comedy Club, Room 861",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Jenny Tian (https://us.list-manage.com/_Jshayh8QA7?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=uIa-QbYBgSTKPoFxgnTEQZNIp4SgbOj2NZ-w6RA8jKbLWR9Inm1hX1-Plm-G) , Goodnights Comedy Club, Room 861, Raleigh",
+      "id": 43
+    },
+    {
+      "name": "Vladimir Caamano",
+      "link": "https://us.list-manage.com/oykX9ovFALt?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Df9JaQ9wj6la6j8sKGVa1x29jmlQwUWlCvBWr1Ri1DbSXlxcuwfIUscLmwq0",
+      "venue": "Raleigh Improv",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Vladimir Caamano (https://us.list-manage.com/oykX9ovFALt?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Df9JaQ9wj6la6j8sKGVa1x29jmlQwUWlCvBWr1Ri1DbSXlxcuwfIUscLmwq0) , Raleigh Improv, Raleigh",
+      "id": 44
+    },
+    {
+      "name": "August Market on the Videri Patio",
+      "link": "https://us.list-manage.com/10ZnI8jcAO4?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=c2Jny4fxvr5xa2Y-n-EGR0niHXSiYb33OwX0qDw1Y2XkGRJPG6FgFdMRymyL",
+      "venue": "Videri Chocolate Factory",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "August Market on the Videri Patio (https://us.list-manage.com/10ZnI8jcAO4?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=c2Jny4fxvr5xa2Y-n-EGR0niHXSiYb33OwX0qDw1Y2XkGRJPG6FgFdMRymyL) , Videri Chocolate Factory, Raleigh",
+      "id": 45
+    },
+    {
+      "name": "First Responders Day",
+      "link": "https://us.list-manage.com/TMAHgoL5uDI?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3dzrq1lzLrXwcPWFgxFlLkYMMqiqsfxnQI_9aQP0Nofuyi0cRYlU1nQehQlC",
+      "venue": "New Hope Valley Railway",
+      "city": "Apex",
+      "day": "Saturday",
+      "raw": "First Responders Day (https://us.list-manage.com/TMAHgoL5uDI?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3dzrq1lzLrXwcPWFgxFlLkYMMqiqsfxnQI_9aQP0Nofuyi0cRYlU1nQehQlC) , New Hope Valley Railway, Apex",
+      "id": 46
+    },
+    {
+      "name": "The Revolutionists",
+      "link": "https://us.list-manage.com/dtWLJt7RA_Q?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Rdf2b_dowwW2VbDo5FOLiBcLyNDtyBG0mDHs_kl0cq6_owhR7T09yuKT6wXD",
+      "venue": "Theatre In The Park",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "The Revolutionists (https://us.list-manage.com/dtWLJt7RA_Q?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Rdf2b_dowwW2VbDo5FOLiBcLyNDtyBG0mDHs_kl0cq6_owhR7T09yuKT6wXD) , Theatre In The Park, Raleigh",
+      "id": 47
+    },
+    {
+      "name": "Science Today: Intro to Bacteria",
+      "link": "https://us.list-manage.com/W91yJ8xE96J?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=htiUjEeFfk0-gYLVPZfsZ_sZZsFkDA2Pu4itaK9gfxDFtaYyma4PqbJ7jpTZ",
+      "venue": "North Carolina Museum of Natural Sciences",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Science Today: Intro to Bacteria (https://us.list-manage.com/W91yJ8xE96J?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=htiUjEeFfk0-gYLVPZfsZ_sZZsFkDA2Pu4itaK9gfxDFtaYyma4PqbJ7jpTZ) , North Carolina Museum of Natural Sciences, Raleigh",
+      "id": 48
+    },
+    {
+      "name": "Repticon 2026",
+      "link": "https://us.list-manage.com/16jcj6PNg5m?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZrrsUAm7bkdrAhLqMYRD0xyEweKeOloBdXpfaz6qiT4TptB5OrUbErPHtKCj",
+      "venue": "Agri Supply Exposition Center at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Repticon 2026 (https://us.list-manage.com/16jcj6PNg5m?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZrrsUAm7bkdrAhLqMYRD0xyEweKeOloBdXpfaz6qiT4TptB5OrUbErPHtKCj) , Agri Supply Exposition Center at North Carolina State Fairgrounds, Raleigh",
+      "id": 49
+    },
+    {
+      "name": "The Wild Wisdom of the World  Paperhand Puppet Project",
+      "link": "https://us.list-manage.com/mGnx1SF4mNQ?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=gQMTJA35xQgxZkHqaxsEFNRwmCON4Ri1d03HwHBOrjjp2CIUD8YsFRsznhbk",
+      "venue": "Forest Theatre",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "The Wild Wisdom of the World  Paperhand Puppet Project (https://us.list-manage.com/mGnx1SF4mNQ?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=gQMTJA35xQgxZkHqaxsEFNRwmCON4Ri1d03HwHBOrjjp2CIUD8YsFRsznhbk) , Forest Theatre, Chapel Hill",
+      "id": 50
+    },
+    {
+      "name": "Bright Black's 7th Birthday!",
+      "link": "https://us.list-manage.com/2d4ewraSh4i?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=pyPTV2Ns7jbsKyFToPZe-m7UtWYqZn9smmGvAw7IDU5RBCe1x499CuEFf8lS",
+      "venue": "Bright Black",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Bright Black's 7th Birthday! (https://us.list-manage.com/2d4ewraSh4i?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=pyPTV2Ns7jbsKyFToPZe-m7UtWYqZn9smmGvAw7IDU5RBCe1x499CuEFf8lS) , Bright Black, Durham",
+      "id": 51
+    },
+    {
+      "name": "Hayti Business Expo",
+      "link": "https://us.list-manage.com/13wBHEHWn9k?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=bWT7Ry7pWTJrxTR3u5cKFSDjo7yAQBy3vYAG6WT5m3bb62MTUCxUzjZX8n6s",
+      "venue": "Hayti Heritage Center",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Hayti Business Expo (https://us.list-manage.com/13wBHEHWn9k?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=bWT7Ry7pWTJrxTR3u5cKFSDjo7yAQBy3vYAG6WT5m3bb62MTUCxUzjZX8n6s) , Hayti Heritage Center, Durham",
+      "id": 52
+    },
+    {
+      "name": "Will Campbell Sextet",
+      "link": "https://us.list-manage.com/AcdYaINgIaP?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Op8dpINxMKG4JMO8WhrYTO7YJ8qp8quiFHR7qBrWTGjKzckewkSkeqDhZ-jl",
+      "venue": "Sharp 9 Gallery",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Will Campbell Sextet (https://us.list-manage.com/AcdYaINgIaP?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Op8dpINxMKG4JMO8WhrYTO7YJ8qp8quiFHR7qBrWTGjKzckewkSkeqDhZ-jl) , Sharp 9 Gallery, Durham",
+      "id": 53
+    },
+    {
+      "name": "Les Trois Chats--Hot Club Jazz",
+      "link": "https://us.list-manage.com/6J3d9m0OETa?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=IF9Cv5Qz-Q6iQ_HNjOlEA2Yr4FRioZaC2hlQ2NVv83eW-pykBEflktcuV2Dg",
+      "venue": "Succotash Southern and Creole Kitchen",
+      "city": "Durham",
+      "day": "Saturday",
+      "raw": "Les Trois Chats--Hot Club Jazz (https://us.list-manage.com/6J3d9m0OETa?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=IF9Cv5Qz-Q6iQ_HNjOlEA2Yr4FRioZaC2hlQ2NVv83eW-pykBEflktcuV2Dg) , Succotash Southern and Creole Kitchen, Durham",
+      "id": 54
+    },
+    {
+      "name": "Jack The Songman",
+      "link": "https://us.list-manage.com/1dcjJStDjLH?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=BRYQXPw_PjLY-V64ocl-9XiJ4sATOPYbE2GgatXVi1q-Ew_0GxZXV59jxQsR",
+      "venue": "Cat's Cradle",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "Jack The Songman (https://us.list-manage.com/1dcjJStDjLH?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=BRYQXPw_PjLY-V64ocl-9XiJ4sATOPYbE2GgatXVi1q-Ew_0GxZXV59jxQsR) , Cat's Cradle, Carrboro",
+      "id": 55
+    },
+    {
+      "name": "Speakeasy\u2019s Queer Cabaret and Dance Party (is turning TWO!)",
+      "link": "https://us.list-manage.com/9S7g_UD4f5s?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=_anQmJ6HLoF6GaHFxVcdSwmoql6mHUZTLywpux1HGKIqEtp7r5bhHzMUlpXh",
+      "venue": "Speakeasy",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "Speakeasy\u2019s Queer Cabaret and Dance Party (is turning TWO!) (https://us.list-manage.com/9S7g_UD4f5s?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=_anQmJ6HLoF6GaHFxVcdSwmoql6mHUZTLywpux1HGKIqEtp7r5bhHzMUlpXh) , Speakeasy, Carrboro",
+      "id": 56
+    },
+    {
+      "name": "Band Together & Cardinal Talent Group Live present: Young Gun Silver Fox - Band Together Silver Summer Homecoming Show",
+      "link": "https://us.list-manage.com/vXjRSbI3gHk?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Z-v3MZAzsN8PIgcezLC2XGJ9Lspnskn6e534LEtqpwKbZ3UrPdTQhD8eSPr9",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Band Together & Cardinal Talent Group Live present: Young Gun Silver Fox - Band Together Silver Summer Homecoming Show (https://us.list-manage.com/vXjRSbI3gHk?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Z-v3MZAzsN8PIgcezLC2XGJ9Lspnskn6e534LEtqpwKbZ3UrPdTQhD8eSPr9) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 57
+    },
+    {
+      "name": "Barstool Rodeo: Celebrating the Life & Music of Michael Houser",
+      "link": "https://us.list-manage.com/PsJjp276TfC?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Narhg8ADsd89USXAA5tnim9RroZ66T8VvbHDz7pYaZaAWODKWm2r7bAw1PyO",
+      "venue": "KINGS",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Barstool Rodeo: Celebrating the Life & Music of Michael Houser (https://us.list-manage.com/PsJjp276TfC?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Narhg8ADsd89USXAA5tnim9RroZ66T8VvbHDz7pYaZaAWODKWm2r7bAw1PyO) , KINGS, Raleigh",
+      "id": 58
+    },
+    {
+      "name": "In Rotation with Justin Bodega & Friends",
+      "link": "https://us.list-manage.com/FuE_SeaCyPf?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=vfsIFxHd65rnO3YnXr2s--389Fkg5aF6D2gddtLM_x-4RjqN6smJ_uW0a6rm",
+      "venue": "Bitter Social",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "In Rotation with Justin Bodega & Friends (https://us.list-manage.com/FuE_SeaCyPf?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=vfsIFxHd65rnO3YnXr2s--389Fkg5aF6D2gddtLM_x-4RjqN6smJ_uW0a6rm) , Bitter Social, Raleigh",
+      "id": 59
+    },
+    {
+      "name": "Red Bird Mystery Dinner: \u201cBetting on Death\u201d",
+      "link": "https://us.list-manage.com/OwRzoEum3Sf?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Nnx-INwT4Jh7R9oR_CLlpAK2pAA2CG2dW-naAVJ2UZ6trmJKYbu2zgP7q78_",
+      "venue": "Red Bird",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Red Bird Mystery Dinner: \u201cBetting on Death\u201d (https://us.list-manage.com/OwRzoEum3Sf?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Nnx-INwT4Jh7R9oR_CLlpAK2pAA2CG2dW-naAVJ2UZ6trmJKYbu2zgP7q78_) , Red Bird, Raleigh",
+      "id": 60
+    },
+    {
+      "name": "Sid Simmons & Lawn Enforcement",
+      "link": "https://us.list-manage.com/n2MOhPiKDuR?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=nTqr1Xof83NKI6dM482jc13jsL1SBfl3vGcLuwtqz48DzHytcC1HE75K4ryi",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Sid Simmons & Lawn Enforcement (https://us.list-manage.com/n2MOhPiKDuR?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=nTqr1Xof83NKI6dM482jc13jsL1SBfl3vGcLuwtqz48DzHytcC1HE75K4ryi) , Slim's Dive Bar, Raleigh",
+      "id": 61
+    },
+    {
+      "name": "Money Shot with Tiger Knives",
+      "link": "https://us.list-manage.com/1CqGockRP4I?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=FGxVI03j3iaj7K6C7iMFGSyTnLQxWAs_OK5-cIZLtRKquKUYtlxM5hvW9uum",
+      "venue": "Local 506",
+      "city": "Chapel HIll",
+      "day": "Saturday",
+      "raw": "Money Shot with Tiger Knives (https://us.list-manage.com/1CqGockRP4I?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=FGxVI03j3iaj7K6C7iMFGSyTnLQxWAs_OK5-cIZLtRKquKUYtlxM5hvW9uum) , Local 506, Chapel HIll",
+      "id": 62
+    },
+    {
+      "name": "Argo and the Violet Queens // Dr. Shug // Lennon KC // Alaska\u2019s Angels",
+      "link": "https://us.list-manage.com/VRcQAzDc_5M?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=HK9DMuOsGZUv4GuSd1ov0ruOkEs3T7R2NIKfxM5WU7eUsyiwFsGRShHbTarc",
+      "venue": "Neptunes Parlour",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Argo and the Violet Queens // Dr. Shug // Lennon KC // Alaska\u2019s Angels (https://us.list-manage.com/VRcQAzDc_5M?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=HK9DMuOsGZUv4GuSd1ov0ruOkEs3T7R2NIKfxM5WU7eUsyiwFsGRShHbTarc) , Neptunes Parlour, Raleigh",
+      "id": 63
+    },
+    {
+      "name": "Surprise Group Show at Lump",
+      "link": "https://us.list-manage.com/V32ogR6BvtL?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ztdBUxOrpE97KZdH-3MaQaatXC3dmlXRcWv0kY73MT-9gyYTHlELILwsRjq1",
+      "venue": "Lump",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Surprise Group Show at Lump (https://us.list-manage.com/V32ogR6BvtL?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ztdBUxOrpE97KZdH-3MaQaatXC3dmlXRcWv0kY73MT-9gyYTHlELILwsRjq1) , Lump, Raleigh",
+      "id": 64
+    },
+    {
+      "name": "West Side Story",
+      "link": "https://us.list-manage.com/tk0UzjSI8Sg?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=U9G_NzwfVMxD2xvKQVhphfv1d5SFXAk8fIr5p8YI5KAHIeEQpxmqceseW67Q",
+      "venue": "Stars Auditorium at IMAGINX",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "West Side Story (https://us.list-manage.com/tk0UzjSI8Sg?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=U9G_NzwfVMxD2xvKQVhphfv1d5SFXAk8fIr5p8YI5KAHIeEQpxmqceseW67Q) , Stars Auditorium at IMAGINX, Raleigh",
+      "id": 65
+    },
+    {
+      "name": "Clue (High School Edition)",
+      "link": "https://us.list-manage.com/1AVUe_s0lYF?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=F9NaeB1Sli8NDzQYMjk0DvPGxBev1T8msZqcZXGsr0FTG4q21ICJXiWicg5b",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Saturday",
+      "raw": "Clue (High School Edition) (https://us.list-manage.com/1AVUe_s0lYF?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=F9NaeB1Sli8NDzQYMjk0DvPGxBev1T8msZqcZXGsr0FTG4q21ICJXiWicg5b) , Raleigh Little Theatre, Raleigh",
+      "id": 66
+    },
+    {
+      "name": "Rainbow 6 Siege LAN Tournament",
+      "link": "https://us.list-manage.com/QMd6yfevWxq?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Ov8xavGOHDIBfS57ZqG90HJL0W1E0r7Bm1Zxb90k7pitpemxxsGPYO3HYxdJ",
+      "venue": "Ego Chall Esports",
+      "city": "Chapel HIll",
+      "day": "Saturday",
+      "raw": "Rainbow 6 Siege LAN Tournament (https://us.list-manage.com/QMd6yfevWxq?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Ov8xavGOHDIBfS57ZqG90HJL0W1E0r7Bm1Zxb90k7pitpemxxsGPYO3HYxdJ) , Ego Chall Esports, Chapel HIll",
+      "id": 67
+    },
+    {
+      "name": "An Unexpected Crafting Party  Origami Dragons",
+      "link": "https://us.list-manage.com/cg9LmFg98X8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=kSrQbR6kvvGiUIxSi3PHLxBRQy5aNKn6Q3GcLKyf4LpWn7XcTFUuMLHNDu1I",
+      "venue": "The Gathering Place",
+      "city": "Chapel Hill",
+      "day": "Saturday",
+      "raw": "An Unexpected Crafting Party  Origami Dragons (https://us.list-manage.com/cg9LmFg98X8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=kSrQbR6kvvGiUIxSi3PHLxBRQy5aNKn6Q3GcLKyf4LpWn7XcTFUuMLHNDu1I) , The Gathering Place, Chapel Hill",
+      "id": 68
+    },
+    {
+      "name": "Lanza's Cafe 5th Birthday Party!",
+      "link": "https://us.list-manage.com/ynWqOVJ_yfI?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=IPJZsCbWwx1GtgciyxtyGW1FIN--7PDAnJIje1hWUdQxmwfmf_TPd0B6d08L",
+      "venue": "Lanza's Cafe",
+      "city": "Carrboro",
+      "day": "Saturday",
+      "raw": "Lanza's Cafe 5th Birthday Party! (https://us.list-manage.com/ynWqOVJ_yfI?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=IPJZsCbWwx1GtgciyxtyGW1FIN--7PDAnJIje1hWUdQxmwfmf_TPd0B6d08L) , Lanza's Cafe, Carrboro",
+      "id": 69
+    },
+    {
+      "name": "76th Street w/ Tornsey",
+      "link": "https://us.list-manage.com/hD4lfwrxpM8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=KQ0AfCteNqmPnL_cx5p5a2eFDUocWs2tZO0voTDq9Vld5JtzAW0tvZEIZWIS",
+      "venue": "The Pour House Music Hall & Record Shop",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "76th Street w/ Tornsey (https://us.list-manage.com/hD4lfwrxpM8?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=KQ0AfCteNqmPnL_cx5p5a2eFDUocWs2tZO0voTDq9Vld5JtzAW0tvZEIZWIS) , The Pour House Music Hall & Record Shop, Raleigh",
+      "id": 70
+    },
+    {
+      "name": "Glitter Hour - Amateur Drag Competition",
+      "link": "https://us.list-manage.com/KoBdnfClGYG?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=wtENrh2VWOZ3AZ9k6whwCXymYUOUgx9zeq_37HDoAUu4b-Mailk4ncIVQis5",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Glitter Hour - Amateur Drag Competition (https://us.list-manage.com/KoBdnfClGYG?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=wtENrh2VWOZ3AZ9k6whwCXymYUOUgx9zeq_37HDoAUu4b-Mailk4ncIVQis5) , Chapel of Bones, Raleigh",
+      "id": 71
+    },
+    {
+      "name": "Serving Brunch: Burlesque & Drag",
+      "link": "https://us.list-manage.com/GLXOSmHRVW9?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=1QTK9h0kC9AY71x6NPLKJcPz7vvBCbgAnwwxmtgmQHFxYqLZV6UUeuLp57Os",
+      "venue": "Chapel of Bones",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Serving Brunch: Burlesque & Drag (https://us.list-manage.com/GLXOSmHRVW9?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=1QTK9h0kC9AY71x6NPLKJcPz7vvBCbgAnwwxmtgmQHFxYqLZV6UUeuLp57Os) , Chapel of Bones, Raleigh",
+      "id": 72
+    },
+    {
+      "name": "Jason Adamo Presents North Carolina Songwriters in the Round",
+      "link": "https://us.list-manage.com/s2hmoSYvGJl?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=kFVly0Z0lkSZ3XGobGXbSnHqxS-1aIQNddum-0AkjbFwbPukVRv12hqP2WKx",
+      "venue": "Lincoln Theatre",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Jason Adamo Presents North Carolina Songwriters in the Round (https://us.list-manage.com/s2hmoSYvGJl?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=kFVly0Z0lkSZ3XGobGXbSnHqxS-1aIQNddum-0AkjbFwbPukVRv12hqP2WKx) , Lincoln Theatre, Raleigh",
+      "id": 73
+    },
+    {
+      "name": "Mac and Me",
+      "link": "https://us.list-manage.com/Eb7yKtMpIiH?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Pd6pQsfSn0v0nj6iURQQTwQ3022l2FPVZfJUzTD7PDA9bd_pBCaSj9Yo_flm",
+      "venue": "The Cary Theater",
+      "city": "Cary",
+      "day": "Sunday",
+      "raw": "Mac and Me (https://us.list-manage.com/Eb7yKtMpIiH?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Pd6pQsfSn0v0nj6iURQQTwQ3022l2FPVZfJUzTD7PDA9bd_pBCaSj9Yo_flm) , The Cary Theater, Cary",
+      "id": 74
+    },
+    {
+      "name": "Notes on View: Eduardo de Rosamaria",
+      "link": "https://us.list-manage.com/4hD5Gj5oWbz?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=smnMZ297RJLuNW-peX6TcDXhGr4-C0mgMzD7A_r9jyqT53L-qhPmEpaEaHUl",
+      "venue": "North Carolina Museum of Art",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Notes on View: Eduardo de Rosamaria (https://us.list-manage.com/4hD5Gj5oWbz?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=smnMZ297RJLuNW-peX6TcDXhGr4-C0mgMzD7A_r9jyqT53L-qhPmEpaEaHUl) , North Carolina Museum of Art, Raleigh",
+      "id": 75
+    },
+    {
+      "name": "Prabhu Deva",
+      "link": "https://us.list-manage.com/RTNvdF42i2I?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=FL34bXtlNNG3o0gyPI-4ayzmXCLD33uDuNEPvW09Sbhq6qEhvbMkGZAfyojx",
+      "venue": "Memorial Auditorium at Martin Marietta Center for the Performing Arts",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Prabhu Deva (https://us.list-manage.com/RTNvdF42i2I?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=FL34bXtlNNG3o0gyPI-4ayzmXCLD33uDuNEPvW09Sbhq6qEhvbMkGZAfyojx) , Memorial Auditorium at Martin Marietta Center for the Performing Arts, Raleigh",
+      "id": 76
+    },
+    {
+      "name": "Raleigh Comic Book Show",
+      "link": "https://us.list-manage.com/Nc5JQvZPg6j?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=CL1GTzQziTiIMYYG9X4tvSfX5uCmdaf_8FwL-Mf6vst_9So32DnbsoyYpJvB",
+      "venue": "Hilton Garden Inn Raleigh/Crabtree Valley",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Raleigh Comic Book Show (https://us.list-manage.com/Nc5JQvZPg6j?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=CL1GTzQziTiIMYYG9X4tvSfX5uCmdaf_8FwL-Mf6vst_9So32DnbsoyYpJvB) , Hilton Garden Inn Raleigh/Crabtree Valley, Raleigh",
+      "id": 77
+    },
+    {
+      "name": "Repticon 2026",
+      "link": "https://us.list-manage.com/VtISwaacn?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=0gzY_lWpRHtJA94XuuL7f7nreiew5E9rGvMtyDmdXGDJba4tfUqKtTRrrnVj",
+      "venue": "Agri Supply Exposition Center at North Carolina State Fairgrounds",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Repticon 2026 (https://us.list-manage.com/VtISwaacn?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=0gzY_lWpRHtJA94XuuL7f7nreiew5E9rGvMtyDmdXGDJba4tfUqKtTRrrnVj) , Agri Supply Exposition Center at North Carolina State Fairgrounds, Raleigh",
+      "id": 78
+    },
+    {
+      "name": "Stephens Pharmacy",
+      "link": "https://us.list-manage.com/3O8ixT_Q_Cj?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=5Rtskdnd3oj_6buDo-ESGOa-q0WishGG0_bKya9-H-A_Tns3nlUa-lzBAcvP",
+      "venue": "Slim's Dive Bar",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Stephens Pharmacy (https://us.list-manage.com/3O8ixT_Q_Cj?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=5Rtskdnd3oj_6buDo-ESGOa-q0WishGG0_bKya9-H-A_Tns3nlUa-lzBAcvP) , Slim's Dive Bar, Raleigh",
+      "id": 79
+    },
+    {
+      "name": "Steve Hofstetter & Friends",
+      "link": "https://us.list-manage.com/DelSVbFqNjB?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=dttDi-wHndJu9LSnUpAR7jQCwesemlQZbMoFNbIvF7JsIjLVY7BbogSQM2cJ",
+      "venue": "Goodnights Comedy Club",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Steve Hofstetter & Friends (https://us.list-manage.com/DelSVbFqNjB?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=dttDi-wHndJu9LSnUpAR7jQCwesemlQZbMoFNbIvF7JsIjLVY7BbogSQM2cJ) , Goodnights Comedy Club, Raleigh",
+      "id": 80
+    },
+    {
+      "name": "Surprise Group Show at Lump",
+      "link": "https://us.list-manage.com/zsBOiNPH2h3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=UumljhtnxuEEKtwkFYL2iSboUsdZZaeCkJNrajGLPWY4MvPWBeL2t68-rw_5",
+      "venue": "Lump",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Surprise Group Show at Lump (https://us.list-manage.com/zsBOiNPH2h3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=UumljhtnxuEEKtwkFYL2iSboUsdZZaeCkJNrajGLPWY4MvPWBeL2t68-rw_5) , Lump, Raleigh",
+      "id": 81
+    },
+    {
+      "name": "West Side Story",
+      "link": "https://us.list-manage.com/XRgI75aqfGO?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=gAYo40quzzM84ZPlqMDzNXIIJliQGtfXmLvwK04jA-AO_V7nYVQAjSBGGl9j",
+      "venue": "Stars Auditorium at IMAGINX",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "West Side Story (https://us.list-manage.com/XRgI75aqfGO?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=gAYo40quzzM84ZPlqMDzNXIIJliQGtfXmLvwK04jA-AO_V7nYVQAjSBGGl9j) , Stars Auditorium at IMAGINX, Raleigh",
+      "id": 82
+    },
+    {
+      "name": "The Revolutionists",
+      "link": "https://us.list-manage.com/Gfx4W8e7Inc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Dmt2rk_J-Br1DJyhoMC3MohFPvuQVxyVYWRtM_Hut6GpWhXbxU1bn7oq83cc",
+      "venue": "Theatre In The Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "The Revolutionists (https://us.list-manage.com/Gfx4W8e7Inc?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=Dmt2rk_J-Br1DJyhoMC3MohFPvuQVxyVYWRtM_Hut6GpWhXbxU1bn7oq83cc) , Theatre In The Park, Raleigh",
+      "id": 83
+    },
+    {
+      "name": "Theater Book Club Presents: A reading of Red Speedo written by Lucas Hnath",
+      "link": "https://us.list-manage.com/PT48YYINtyU?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=52mjh6qaIhE2pGrDEthpYtq7BS1Gt7xvyJec3A9ftDZk2iXQcfb2wyhjKKx9",
+      "venue": "The Green Room",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Theater Book Club Presents: A reading of Red Speedo written by Lucas Hnath (https://us.list-manage.com/PT48YYINtyU?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=52mjh6qaIhE2pGrDEthpYtq7BS1Gt7xvyJec3A9ftDZk2iXQcfb2wyhjKKx9) , The Green Room, Raleigh",
+      "id": 84
+    },
+    {
+      "name": "2026 Summer Concert Series",
+      "link": "https://us.list-manage.com/AdlnUwGR6mD?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=res76CQoGE2yf-SDRbZiWiHcGrid2VpG0JQeYCwjM9EzNbt2VBbdk_TCLUUE",
+      "venue": "Fred Fletcher Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "2026 Summer Concert Series (https://us.list-manage.com/AdlnUwGR6mD?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=res76CQoGE2yf-SDRbZiWiHcGrid2VpG0JQeYCwjM9EzNbt2VBbdk_TCLUUE) , Fred Fletcher Park, Raleigh",
+      "id": 85
+    },
+    {
+      "name": "Jenny Tian",
+      "link": "https://us.list-manage.com/TDWtSgZInDI?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3Wgu_CvlsRk0-kA2kV8bYNDIitPfIwTGoR5QsMr9HPfLyWlM08gmk8x-BsBt",
+      "venue": "Goodnights Comedy Club, Room 861",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Jenny Tian (https://us.list-manage.com/TDWtSgZInDI?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3Wgu_CvlsRk0-kA2kV8bYNDIitPfIwTGoR5QsMr9HPfLyWlM08gmk8x-BsBt) , Goodnights Comedy Club, Room 861, Raleigh",
+      "id": 86
+    },
+    {
+      "name": "Raleigh Underground Market",
+      "link": "https://us.list-manage.com/xRFiOUFE5P_?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=qb-BiKAJDojSMe3KiKwjfMeOZAmNx2mCLCYv9TqLP2TguwPsg356Cyoh0KsZ",
+      "venue": "Midtown Park, North Hills",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Raleigh Underground Market (https://us.list-manage.com/xRFiOUFE5P_?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=qb-BiKAJDojSMe3KiKwjfMeOZAmNx2mCLCYv9TqLP2TguwPsg356Cyoh0KsZ) , Midtown Park, North Hills, Raleigh",
+      "id": 87
+    },
+    {
+      "name": "Tea on Tenth: Rooftop Afternoon Tea at 10th & Terrace",
+      "link": "https://us.list-manage.com/yqY1OKSLJWa?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=xL9T281CdWy69AHw3mDSXAS20K0gQmj3fof6PHmQeUNGDmYAUoYqpfFf_KYW",
+      "venue": "10th & Terrace at Residence Inn Raleigh Downtown",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Tea on Tenth: Rooftop Afternoon Tea at 10th & Terrace (https://us.list-manage.com/yqY1OKSLJWa?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=xL9T281CdWy69AHw3mDSXAS20K0gQmj3fof6PHmQeUNGDmYAUoYqpfFf_KYW) , 10th & Terrace at Residence Inn Raleigh Downtown, Raleigh",
+      "id": 88
+    },
+    {
+      "name": "The Revolutionists",
+      "link": "https://us.list-manage.com/3kiGVI4Qzbg?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=PMV-Ca0YHE1sXoYufGS86bt0IwF1X5UihKcmDAb9pn0dc4LLqv4Pr669R6Aq",
+      "venue": "Theatre In The Park",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "The Revolutionists (https://us.list-manage.com/3kiGVI4Qzbg?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=PMV-Ca0YHE1sXoYufGS86bt0IwF1X5UihKcmDAb9pn0dc4LLqv4Pr669R6Aq) , Theatre In The Park, Raleigh",
+      "id": 89
+    },
+    {
+      "name": "Clue (High School Edition)",
+      "link": "https://us.list-manage.com/13lq6rlXt6M?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZX3AbWIsxMey5WjdRpnF3cTbTujf2ehsfr-4st-Gf-YrY4nrPSB2pfounH",
+      "venue": "Raleigh Little Theatre",
+      "city": "Raleigh",
+      "day": "Sunday",
+      "raw": "Clue (High School Edition) (https://us.list-manage.com/13lq6rlXt6M?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZX3AbWIsxMey5WjdRpnF3cTbTujf2ehsfr-4st-Gf-YrY4nrPSB2pfounH) , Raleigh Little Theatre, Raleigh",
+      "id": 90
+    },
+    {
+      "name": "Roaming Readers: Historical Fiction",
+      "link": "https://us.list-manage.com/5HWyRbSaUal?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3ISfv1sCiqlY4nn-ViavbLm3jiW5R8U--3y5uzDeAZzjhZXG6XcNyY7A-y4w",
+      "venue": "Horseshoe RTP",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Roaming Readers: Historical Fiction (https://us.list-manage.com/5HWyRbSaUal?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=3ISfv1sCiqlY4nn-ViavbLm3jiW5R8U--3y5uzDeAZzjhZXG6XcNyY7A-y4w) , Horseshoe RTP, Durham",
+      "id": 91
+    },
+    {
+      "name": "Walt Weiskopf NY-DC Connection Quartet",
+      "link": "https://us.list-manage.com/NeFXVHAaZxl?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=G6pnpu0zppKh9zBScBVNpCATcWmlScJ7SefNmABncyzaCY_TyKyJSlq5mSgh",
+      "venue": "Sharp 9 Gallery",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Walt Weiskopf NY-DC Connection Quartet (https://us.list-manage.com/NeFXVHAaZxl?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=G6pnpu0zppKh9zBScBVNpCATcWmlScJ7SefNmABncyzaCY_TyKyJSlq5mSgh) , Sharp 9 Gallery, Durham",
+      "id": 92
+    },
+    {
+      "name": "Cocktail Classes at Durham Distillery",
+      "link": "https://us.list-manage.com/CNhzMyVWnA3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZUaWzLkRg6iv0u2LaCSals3pBOR1vh2APRV7J45Cg1PmWw5CGsRL68fDyq2E",
+      "venue": "Durham Distillery",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "Cocktail Classes at Durham Distillery (https://us.list-manage.com/CNhzMyVWnA3?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ZUaWzLkRg6iv0u2LaCSals3pBOR1vh2APRV7J45Cg1PmWw5CGsRL68fDyq2E) , Durham Distillery, Durham",
+      "id": 93
+    },
+    {
+      "name": "The Wallflowers",
+      "link": "https://us.list-manage.com/xH5QvjET4SE?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=nl69k6lRz51p7vCjTYHqRnwUojEEjjt-oBPYoHNB_2t8GKO35ficfu4mx3YV",
+      "venue": "Carolina Theater",
+      "city": "Durham",
+      "day": "Sunday",
+      "raw": "The Wallflowers (https://us.list-manage.com/xH5QvjET4SE?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=nl69k6lRz51p7vCjTYHqRnwUojEEjjt-oBPYoHNB_2t8GKO35ficfu4mx3YV) , Carolina Theater, Durham",
+      "id": 94
+    },
+    {
+      "name": "Bark Culture  Live Music",
+      "link": "https://us.list-manage.com/Y6Tq8dpnQ9b?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ccP3EAtgzS64AF0qeNADUTjwlTFku0lGvLI5HCB4kCBt0jyQ_t5HWL8Unbjt",
+      "venue": "ArtsCenter",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Bark Culture  Live Music (https://us.list-manage.com/Y6Tq8dpnQ9b?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=ccP3EAtgzS64AF0qeNADUTjwlTFku0lGvLI5HCB4kCBt0jyQ_t5HWL8Unbjt) , ArtsCenter, Carrboro",
+      "id": 95
+    },
+    {
+      "name": "Flyleaf Second Sunday Poetry Series  Joseph Bathanti & Chelsea King",
+      "link": "https://us.list-manage.com/17RH2EQA08C?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=a2IPsF3NJRsv5m0AJ7R1-G5xSfUf6DEiyAWJpkWJrEEFA_MJUc_LdMA2W-o4",
+      "venue": "Flyleaf Books",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Flyleaf Second Sunday Poetry Series  Joseph Bathanti & Chelsea King (https://us.list-manage.com/17RH2EQA08C?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=a2IPsF3NJRsv5m0AJ7R1-G5xSfUf6DEiyAWJpkWJrEEFA_MJUc_LdMA2W-o4) , Flyleaf Books, Chapel Hill",
+      "id": 96
+    },
+    {
+      "name": "Risograph Crash Course Demo",
+      "link": "https://us.list-manage.com/eH5qEKoQ29W?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=TquApNsOD_VTDXjfZhx26Rg9kvaERt26IcPxUcAyh00LC1wD58A-8B7YDSPQ",
+      "venue": "peel",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "Risograph Crash Course Demo (https://us.list-manage.com/eH5qEKoQ29W?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=TquApNsOD_VTDXjfZhx26Rg9kvaERt26IcPxUcAyh00LC1wD58A-8B7YDSPQ) , peel, Carrboro",
+      "id": 97
+    },
+    {
+      "name": "The Nine Lives Flea Night Market",
+      "link": "https://us.list-manage.com/ycVIqdY62Ne?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=efyplM2dQPdJqd2EE75IgKICtzdl16ChAjGtxPaOc3IWSIMxavzFGsjTXgSD",
+      "venue": "Cat's Cradle",
+      "city": "Carrboro",
+      "day": "Sunday",
+      "raw": "The Nine Lives Flea Night Market (https://us.list-manage.com/ycVIqdY62Ne?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=efyplM2dQPdJqd2EE75IgKICtzdl16ChAjGtxPaOc3IWSIMxavzFGsjTXgSD) , Cat's Cradle, Carrboro",
+      "id": 98
+    },
+    {
+      "name": "UNC vs Liberty  Exhibition  Men's Soccer",
+      "link": "https://us.list-manage.com/GIA8mQERgjX?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=rtIpgBkgub9qOOCqWp8ZnM2xqKMHl7hIU9VdcffZVjoxQEg4zPIJ6MMRc4U0",
+      "venue": "Dorrance Field",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "UNC vs Liberty  Exhibition  Men's Soccer (https://us.list-manage.com/GIA8mQERgjX?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=rtIpgBkgub9qOOCqWp8ZnM2xqKMHl7hIU9VdcffZVjoxQEg4zPIJ6MMRc4U0) , Dorrance Field, Chapel Hill",
+      "id": 99
+    },
+    {
+      "name": "The Wild Wisdom of the World  Paperhand Puppet Project",
+      "link": "https://us.list-manage.com/RCRHCUUjS_R?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=du3HRyTTMaUbxLHs7F806AX0Uvz1W_iJax5hFuy5Y5qpBIYzIDsZOWydd-Jg",
+      "venue": "Forest Theatre",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "The Wild Wisdom of the World  Paperhand Puppet Project (https://us.list-manage.com/RCRHCUUjS_R?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=du3HRyTTMaUbxLHs7F806AX0Uvz1W_iJax5hFuy5Y5qpBIYzIDsZOWydd-Jg) , Forest Theatre, Chapel Hill",
+      "id": 100
+    },
+    {
+      "name": "Hemlock Theory with Dumb Apologies and LaureNicole",
+      "link": "https://us.list-manage.com/1Kfc7k2rF3N?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=8_2DmjeSOL8a82iR_vRbhBDznT-xprCN_z2OSvF81dtgP8CL5RR5DLTzRi3S",
+      "venue": "Local 506",
+      "city": "Chapel Hill",
+      "day": "Sunday",
+      "raw": "Hemlock Theory with Dumb Apologies and LaureNicole (https://us.list-manage.com/1Kfc7k2rF3N?e=458ed9ba0f&c2id=12a436ebdadb8708b7fbdf8b3fb180db&m=8_2DmjeSOL8a82iR_vRbhBDznT-xprCN_z2OSvF81dtgP8CL5RR5DLTzRi3S) , Local 506, Chapel Hill",
+      "id": 101
+    }
+  ]
+}

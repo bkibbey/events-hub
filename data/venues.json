@@ -2,7 +2,7 @@
   "version": 1,
   "generated": "2026-07-24T16:53:51.625357+00:00",
   "source": "seed-venues.py from 14 archived weeks",
-  "venueCount": 438,
+  "venueCount": 446,
   "venues": {
     "321-coffee-raleigh": {
       "slug": "321-coffee-raleigh",
@@ -21183,10 +21183,404 @@
       "reviewNeeded": false,
       "createdBy": "match-venues.auto",
       "osm_id": null
+    },
+    "forest-theatre-chapel-hill": {
+      "slug": "forest-theatre-chapel-hill",
+      "name": "Forest Theatre",
+      "aliases": [],
+      "address": "123 S. Boundary St",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "zip": "27514",
+      "lat": 35.916740344411,
+      "lng": -79.045671939153,
+      "place_id": null,
+      "linkMain": "https://ncbg.unc.edu/venue/forest-theatre/",
+      "linkEvents": "https://ncbg.unc.edu/venue/forest-theatre/",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "North Carolina Botanical Garden general inquiries",
+          "phone": "919-962-0522",
+          "email": "info@ncbg.unc.edu",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "theater"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "The Wild Wisdom of the World | Paperhand Puppet Project"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "stars-auditorium-at-imaginx-raleigh": {
+      "slug": "stars-auditorium-at-imaginx-raleigh",
+      "name": "Stars Auditorium at IMAGINX",
+      "aliases": [],
+      "address": "TBD",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27615",
+      "lat": null,
+      "lng": null,
+      "place_id": null,
+      "linkMain": "https://www.imaginx.us/copy-of-home-1",
+      "linkEvents": "https://www.visitraleigh.com/event/disneys-newsies/99339/",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "",
+          "email": "poiemartistry@poiemaac.com",
+          "other": ""
+        },
+        {
+          "label": "Phone",
+          "phone": "919.845.6565",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "theater"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "West Side Story"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "peck-plume-cary": {
+      "slug": "peck-plume-cary",
+      "name": "Peck & Plume",
+      "aliases": [],
+      "address": "301 S Academy St",
+      "city": "Cary",
+      "state": "NC",
+      "zip": "27511",
+      "lat": 35.785024629498,
+      "lng": -78.781156718441,
+      "place_id": null,
+      "linkMain": "https://www.peckandplume.com/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "https://www.facebook.com/peckandplume/",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "(919) 804-1400",
+          "email": "info@peckandplume.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "restaurant"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Friday Bourbon Release Dinner"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "artspace-raleigh": {
+      "slug": "artspace-raleigh",
+      "name": "Artspace",
+      "aliases": [],
+      "address": "201 E Davie St",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27601",
+      "lat": 35.775559675823,
+      "lng": -78.636666659995,
+      "place_id": null,
+      "linkMain": "https://artspacenc.org/",
+      "linkEvents": "https://artspacenc.org/calendar/",
+      "socials": {
+        "facebook": "https://www.facebook.com/artspacenc/",
+        "instagram": "https://www.instagram.com/artspacenc/",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919.821.2787",
+          "email": "info@artspacenc.org",
+          "other": ""
+        },
+        {
+          "label": "Event rentals",
+          "phone": "919.821.2787",
+          "email": "events@artspacenc.org",
+          "other": ""
+        },
+        {
+          "label": "April Hagins, Arts Administrator + Accessibility Coordinator",
+          "phone": "919.821.2787",
+          "email": "ahagins@artspacenc.org",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "event-space",
+        "indoor",
+        "museum"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Artist/Curatorial Discussion with Sam van Strien"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "lump-raleigh": {
+      "slug": "lump-raleigh",
+      "name": "Lump",
+      "aliases": [],
+      "address": "505 S Blount St",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27601",
+      "lat": 35.774038533104,
+      "lng": -78.636724406852,
+      "place_id": null,
+      "linkMain": "https://lumpprojects.org/",
+      "linkEvents": "https://lumpprojects.org/gallery-events/",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919.390.1445",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor",
+        "museum"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Surprise Group Show at Lump"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "hilton-garden-inn-raleigh-crabtree-valley-raleigh": {
+      "slug": "hilton-garden-inn-raleigh-crabtree-valley-raleigh",
+      "name": "Hilton Garden Inn Raleigh/Crabtree Valley",
+      "aliases": [],
+      "address": "3912 Arrow Dr., Raleigh, NC 27612",
+      "city": "Raleigh",
+      "state": "NC",
+      "zip": "27612",
+      "lat": 35.834966772533,
+      "lng": -78.674170370073,
+      "place_id": null,
+      "linkMain": "https://www.hilton.com/en/hotels/rducvgi-hilton-garden-inn-raleigh-crabtree-valley/",
+      "linkEvents": "",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "+1 919-703-2525",
+          "email": "",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "hotel",
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Raleigh Comic Book Show"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "flyleaf-books-chapel-hill": {
+      "slug": "flyleaf-books-chapel-hill",
+      "name": "Flyleaf Books",
+      "aliases": [],
+      "address": "752 Martin Luther King Jr. Blvd",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "zip": "27514",
+      "lat": 35.92381948022,
+      "lng": -79.054581480434,
+      "place_id": null,
+      "linkMain": "https://flyleafbooks.com/",
+      "linkEvents": "https://flyleafbooks.com/upcoming-events",
+      "socials": {
+        "facebook": "https://www.facebook.com/FlyleafChapelHill/",
+        "instagram": "https://www.instagram.com/flyleafbooks/",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "https://www.linkedin.com/company/flyleaf-books",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General inquiries",
+          "phone": "919-942-7373",
+          "email": "info@flyleafbooks.com",
+          "other": ""
+        },
+        {
+          "label": "Owner & General Manager: Jamie Fiocco",
+          "phone": "",
+          "email": "jamie@flyleafbooks.com",
+          "other": ""
+        },
+        {
+          "label": "Lead Book Buyer and School & Institutional Purchase Inquiries: Elese Stutts",
+          "phone": "",
+          "email": "elese@flyleafbooks.com",
+          "other": ""
+        },
+        {
+          "label": "Events & Marketing Manager: Maggie Robe",
+          "phone": "",
+          "email": "maggie@flyleafbooks.com",
+          "other": ""
+        },
+        {
+          "label": "Floor Manager: Talia Smart",
+          "phone": "",
+          "email": "talia@flyleafbooks.com",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "indoor"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "Flyleaf Second Sunday Poetry Series: Joseph Bathanti & Chelsea King"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
+    },
+    "dorrance-field-chapel-hill": {
+      "slug": "dorrance-field-chapel-hill",
+      "name": "Dorrance Field",
+      "aliases": [],
+      "address": "102 Airport Dr",
+      "city": "Chapel Hill",
+      "state": "NC",
+      "zip": "27514",
+      "lat": 35.932159934656,
+      "lng": -79.056289183749,
+      "place_id": null,
+      "linkMain": "https://goheels.com/facilities/dorrance-field/61",
+      "linkEvents": "https://calendar.unc.edu/dorrance_field_-_soccer_and_lacrosse_stadium",
+      "socials": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "tiktok": "",
+        "youtube": "",
+        "linkedin": "",
+        "reddit": "",
+        "threads": "",
+        "bluesky": ""
+      },
+      "contacts": [
+        {
+          "label": "General athletics contact",
+          "phone": "802-735-5386",
+          "email": "brandesc@unc.edu",
+          "other": ""
+        }
+      ],
+      "venueType": [
+        "outdoor",
+        "stadium"
+      ],
+      "eventCount": 1,
+      "sampleEvents": [
+        "UNC vs Liberty Exhibition Men's Soccer"
+      ],
+      "reviewNeeded": false,
+      "createdBy": "match-venues.auto",
+      "osm_id": null
     }
   },
-  "geocodedAt": "2026-07-31T14:45:37.241433+00:00",
-  "enrichedAt": "2026-07-31T14:44:53.950463+00:00",
+  "geocodedAt": "2026-08-07T14:55:12.046160+00:00",
+  "enrichedAt": "2026-08-07T14:53:11.729770+00:00",
   "lastUpdatedBy": "update-metadata.py",
-  "lastUpdatedAt": "2026-07-31"
+  "lastUpdatedAt": "2026-08-07"
 }
