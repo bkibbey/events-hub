@@ -6,6 +6,7 @@ A responsive, filterable, shareable single-page events site powered by the
 - **Live site**: [weekend.brewideas.net](https://weekend.brewideas.net/)
 - **Repository**: [github.com/bkibbey/events-hub](https://github.com/bkibbey/events-hub)
 - **Source newsletter**: [www.thingstodo919.com](https://www.thingstodo919.com)
+- **📚 Full documentation**: [docs/README.md](docs/README.md) — architecture, schemas, weekly workflow, agent playbook, decision log. **Start here if you're new to the codebase.**
 
 ## What this is
 
@@ -63,7 +64,18 @@ events-hub/
 │   ├── ingest-email.py          # Step 1: fetch + parse newsletter → raw JSON
 │   ├── update-metadata.py       # Step 2: merge + AI-enrich → events.json + archive + manifest
 │   └── publish-website.py       # Step 3: validate + preview/deploy
-├── docs/                        # Design notes & feature writeups (not shipped to site)
+├── docs/                        # Full documentation — start at docs/README.md
+│   ├── README.md                # Index + reading order for new collaborators/agents
+│   ├── architecture.md          # System overview + data flow
+│   ├── data-model.md            # Canonical JSON schemas
+│   ├── weekly-workflow.md       # The 8-step Friday routine
+│   ├── pipeline-scripts.md      # Deep dive on each script in scripts/
+│   ├── venue-registry.md        # Venue matching, auto-create, geocoding
+│   ├── enrichment-flows.md      # LLM prompts, timeouts, blanks-only rules
+│   ├── frontend.md              # index.html state model + URL sync + features
+│   ├── agent-playbook.md        # Operating manual for AI agents
+│   ├── evolution.md             # Project history + prompts that shaped it
+│   ├── decision-log.md          # Architecture decision records (ADRs)
 │   ├── feature-3waytags.md      # Three-state tag selection design
 │   └── feature-holidays.md      # Holiday confetti / easter-egg writeup
 └── data/
